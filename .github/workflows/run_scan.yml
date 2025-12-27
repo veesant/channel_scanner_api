@@ -1,9 +1,8 @@
 name: Weekly Channel Scan API
 
 on:
-  schedule:
-    - cron: "0 12 * * 6"   # Every Saturday 12:00 UTC
-  workflow_dispatch:        # Allows manual run from GitHub UI
+  push:
+  workflow_dispatch:       # Allows manual run from GitHub UI
 
 permissions:
   contents: write
