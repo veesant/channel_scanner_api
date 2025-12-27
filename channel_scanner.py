@@ -9,6 +9,7 @@ Weekly Regression Channel Scanner (US stocks) -> JSON output (for GitHub Actions
 - Filters for "clean" channels
 - Classifies trend: Ascending / Sideways / Descending (annualized trend %)
 - Flags: near support/resistance (pos)
+- Adds JSON context: prior/recent trend windows + previously_descending flag
 - Supports:
     --only_in_channel   (current close must still be inside channel)
     --only_ascending    (output only Ascending)
@@ -69,6 +70,22 @@ def support_resistance_flags(
     else:
         zone = "Mid Channel"
     return near_support, near_resistance, zone
+
+
+def window_trend_stats(w: pd.DataFrame, weeks: int) -> Optional[Dict[str, float]]:
+    """
+    Compute slope on log(Close) for a given weekly window and convert to annualized trend %.
+    Used to identify "previously descending" regimes for JSON context.
+    """
+    w = w.dropna()
+    if len(w) < weeks:
+        return None
+    w2 = w.iloc[-weeks:].copy()
+    y = np.log(w2["Close"].values)
+    x = np.arange(len(y), dtype=float)
+    slope, intercept = np.polyfit(x, y, 1)
+    annual_trend_pct = annualized_trend_pct_from_slope(float(slope))
+    return {"slope": float(slope), "annual_trend_pct": float(annual_trend_pct)}
 
 
 # ----------------------------
@@ -138,6 +155,8 @@ def scan_channels(
     support_cutoff: float = 0.20,
     resistance_cutoff: float = 0.80,
     threads: bool = True,
+    prior_trend_weeks: int = 12,
+    recent_trend_weeks: int = 6,
 ) -> pd.DataFrame:
     tickers = [t.strip().upper() for t in tickers if t and t.strip()]
     if not tickers:
@@ -181,10 +200,39 @@ def scan_channels(
                     continue
 
                 annual_trend_pct = annualized_trend_pct_from_slope(s["slope"])
-                trend_type = classify_trend(annual_trend_pct, sideways_threshold_pct=sideways_threshold_pct)
+                trend_type = classify_trend(
+                    annual_trend_pct, sideways_threshold_pct=sideways_threshold_pct
+                )
                 near_support, near_resistance, action_zone = support_resistance_flags(
                     s["pos"], support_cutoff=support_cutoff, resistance_cutoff=resistance_cutoff
                 )
+
+                # --- Prior/Recent trend context (for JSON) ---
+                prior_trend_pct = None
+                prior_trend_type = None
+                recent_trend_pct = None
+                recent_trend_type = None
+                previously_descending = False
+
+                if len(w) >= (prior_trend_weeks + recent_trend_weeks):
+                    recent_w = w.iloc[-recent_trend_weeks:]
+                    prior_w = w.iloc[-(prior_trend_weeks + recent_trend_weeks):-recent_trend_weeks]
+
+                    prior_stats = window_trend_stats(prior_w, weeks=prior_trend_weeks)
+                    recent_stats = window_trend_stats(recent_w, weeks=recent_trend_weeks)
+
+                    if prior_stats and recent_stats:
+                        prior_trend_pct = prior_stats["annual_trend_pct"]
+                        recent_trend_pct = recent_stats["annual_trend_pct"]
+
+                        prior_trend_type = classify_trend(
+                            prior_trend_pct, sideways_threshold_pct=sideways_threshold_pct
+                        )
+                        recent_trend_type = classify_trend(
+                            recent_trend_pct, sideways_threshold_pct=sideways_threshold_pct
+                        )
+
+                        previously_descending = (prior_trend_type == "Descending")
 
                 results.append(
                     {
@@ -195,6 +243,14 @@ def scan_channels(
                         "near_support": bool(near_support),
                         "near_resistance": bool(near_resistance),
                         "action_zone": action_zone,
+                        # New fields:
+                        "prior_trend_weeks": int(prior_trend_weeks),
+                        "recent_trend_weeks": int(recent_trend_weeks),
+                        "prior_trend_pct": None if prior_trend_pct is None else float(prior_trend_pct),
+                        "prior_trend_type": prior_trend_type,
+                        "recent_trend_pct": None if recent_trend_pct is None else float(recent_trend_pct),
+                        "recent_trend_type": recent_trend_type,
+                        "previously_descending": bool(previously_descending),
                     }
                 )
         except Exception:
@@ -250,6 +306,12 @@ def parse_args(argv: Optional[List[str]] = None) -> argparse.Namespace:
     p.add_argument("--support_cutoff", type=float, default=0.20, help="pos <= this is Near Support.")
     p.add_argument("--resistance_cutoff", type=float, default=0.80, help="pos >= this is Near Resistance.")
 
+    # New CLI knobs for prior/recent trend context
+    p.add_argument("--prior_trend_weeks", type=int, default=13,
+                   help="Prior trend window (weeks) immediately before the recent window.")
+    p.add_argument("--recent_trend_weeks", type=int, default=6,
+                   help="Recent trend window (weeks) used to describe current regime.")
+
     p.add_argument("--no_threads", action="store_true", help="Disable yfinance threading.")
     return p.parse_args(argv)
 
@@ -284,6 +346,8 @@ def main(argv: Optional[List[str]] = None) -> int:
         support_cutoff=args.support_cutoff,
         resistance_cutoff=args.resistance_cutoff,
         threads=not args.no_threads,
+        prior_trend_weeks=args.prior_trend_weeks,
+        recent_trend_weeks=args.recent_trend_weeks,
     )
 
     # Optional: keep only Ascending
@@ -314,6 +378,9 @@ def main(argv: Optional[List[str]] = None) -> int:
             "sideways_threshold_pct": args.sideways_threshold_pct,
             "support_cutoff": args.support_cutoff,
             "resistance_cutoff": args.resistance_cutoff,
+            # New params
+            "prior_trend_weeks": args.prior_trend_weeks,
+            "recent_trend_weeks": args.recent_trend_weeks,
         },
         "count": int(len(df)),
         "data": df.to_dict(orient="records") if not df.empty else [],
@@ -324,8 +391,8 @@ def main(argv: Optional[List[str]] = None) -> int:
 
     print(f"Wrote {payload['count']} rows to: {args.out}")
     if payload["count"] > 0:
-        # Print a small preview
-        print(df[["ticker", "lookback", "trend_type", "pos", "action_zone", "rank_score"]].head(15).to_string(index=False))
+        cols = ["ticker", "lookback", "trend_type", "pos", "action_zone", "previously_descending", "rank_score"]
+        print(df[cols].head(15).to_string(index=False))
 
     return 0
 
