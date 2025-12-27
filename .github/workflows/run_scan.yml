@@ -2,7 +2,7 @@ name: Weekly Channel Scan API
 
 on:
   schedule:
-    - cron: "30 18 * * 6"   # Saturday 2:30 PM Eastern (EDT), 18:30 UTC
+    - cron: "30 20 * * 6"   # Saturday 3:30 PM EST (UTC-5)
   workflow_dispatch:
 
 permissions:
