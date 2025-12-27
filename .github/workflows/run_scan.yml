@@ -80,3 +80,29 @@ jobs:
 
           git commit -m "Update weekly channel scan APIs (NIFTY50 + Russell)"
           git push
+
+      - name: Publish API JSON to gh-pages
+        run: |
+          # Save generated files somewhere temporary
+          mkdir -p /tmp/api_out
+          cp -r api /tmp/api_out/
+
+          # Switch to gh-pages branch
+          git fetch origin gh-pages
+          git checkout gh-pages
+
+          # Copy files into gh-pages branch (root)
+          mkdir -p api
+          cp -r /tmp/api_out/api/* api/
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add api/*.json
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+            exit 0
+          fi
+
+          git commit -m "Publish API JSON (NIFTY50 + Russell)"
+          git push origin gh-pages
