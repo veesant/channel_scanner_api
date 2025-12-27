@@ -51,6 +51,7 @@ jobs:
           python channel_scanner.py \
             --tickers_file data/russel.txt \
             --only_in_channel \
+            --only_ascending \
             --out api/russel.json
 
       # -----------------------------
