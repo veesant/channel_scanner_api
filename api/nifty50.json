@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2025-12-27T22:59:28.677895+00:00",
+  "updated_utc": "2025-12-27T23:31:15.021831+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -409,39 +409,39 @@
     },
     {
       "ticker": "SHRIRAMFIN.NS",
-      "slope": 0.016910753691837945,
-      "r2": 0.7151022838930594,
+      "slope": 0.016910752912127517,
+      "r2": 0.7151022272848984,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.8310293140990963,
+      "pos": 0.8310293024737871,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 140.93552774333418,
+      "annual_trend_pct": 140.93551797461737,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": true,
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 70.86850905615944,
+      "prior_trend_pct": 70.86849747674326,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 299.7012649905588,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7590635951520047
+      "rank_score": 0.759063568010455
     },
     {
       "ticker": "ASIANPAINT.NS",
-      "slope": 0.004304967441368935,
-      "r2": 0.6665313569569242,
+      "slope": 0.004304966629786745,
+      "r2": 0.6665312412161204,
       "inside": 0.9423076923076923,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.5989491183918206,
+      "pos": 0.598949167420357,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 25.08937639195683,
+      "annual_trend_pct": 25.089371112900814,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -453,7 +453,7 @@
       "recent_trend_pct": -43.24745989346891,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.750293843562357
+      "rank_score": 0.7502937807891015
     },
     {
       "ticker": "TITAN.NS",
