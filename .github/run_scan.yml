@@ -1,0 +1,48 @@
+name: Weekly Channel Scan API
+
+on:
+  schedule:
+    - cron: "0 12 * * 6"   # Every Saturday 12:00 UTC
+  workflow_dispatch:        # Allows manual run from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  scan-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run scanner (writes output.json)
+        run: |
+          python channel_scanner.py \
+            --tickers_file nasdaq100.txt \
+            --only_in_channel \
+            --only_ascending \
+            --out output.json
+
+      - name: Prepare Pages content
+        run: |
+          mkdir -p public
+          cp output.json public/output.json
+
+      - name: Publish to GitHub Pages branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: public
+          publish_branch: gh-pages
+          force_orphan: true
