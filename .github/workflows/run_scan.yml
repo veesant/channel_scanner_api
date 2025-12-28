@@ -43,6 +43,12 @@ jobs:
             --recent_trend_weeks 6 \
             --out api/nifty50.json
 
+      - name: Run HH HL scan (NIFTY50)
+        run: |
+          python hh_hl_scanner.py \
+            --tickers_file data/nifty50.txt \
+            --out api/uptrend/nifty50.json
+
       # -----------------------------
       # RUSSELL 2000
       # -----------------------------
@@ -54,15 +60,27 @@ jobs:
             --only_ascending \
             --out api/russel.json
 
+      - name: Run HH HL scan (Russel)
+        run: |
+          python hh_hl_scanner.py \
+            --tickers_file data/russel.txt \
+            --out api/uptrend/russel.json
+
       # -----------------------------
       # NASDAQ 100
       # -----------------------------
-      - name: Run channel scan (Russell 2000)
+      - name: Run channel scan (NASDAQ)
         run: |
           python channel_scanner.py \
             --tickers_file data/nasdaq100.txt \
             --only_in_channel \
             --out api/nasdaq.json
+
+      - name: Run HH HL scan (NASDAQ)
+        run: |
+          python hh_hl_scanner.py \
+            --tickers_file data/nasdaq100.txt \
+            --out api/uptrend/nasdaq.json
 
       # -----------------------------
       # Commit & Push
