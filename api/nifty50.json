@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2025-12-28T00:21:40.066897+00:00",
+  "updated_utc": "2025-12-28T00:37:17.246094+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -265,15 +265,15 @@
     },
     {
       "ticker": "BEL.NS",
-      "slope": 0.01017772014079705,
-      "r2": 0.7460327600309489,
+      "slope": 0.010177720180783363,
+      "r2": 0.7460327496913471,
       "inside": 0.9615384615384616,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.13344006600168073,
+      "pos": 0.13344007774269848,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 69.76440676262663,
+      "annual_trend_pct": 69.76440711561575,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -285,7 +285,7 @@
       "recent_trend_pct": -45.1736295627293,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8442877580306909
+      "rank_score": 0.8442877516867884
     },
     {
       "ticker": "ADANIPORTS.NS",
@@ -313,27 +313,27 @@
     },
     {
       "ticker": "POWERGRID.NS",
-      "slope": -0.0026361094657968245,
-      "r2": 0.7189374548328304,
+      "slope": -0.002636108369001183,
+      "r2": 0.7189374787281323,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.3190884312706166,
+      "pos": 0.31908817127176525,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -12.80975165402104,
+      "annual_trend_pct": -12.809746681266908,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -9.887820309723672,
+      "prior_trend_pct": -9.887825196425947,
       "prior_trend_type": "Sideways",
       "recent_trend_pct": -37.85116866821582,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8173034740329432
+      "rank_score": 0.8173035119804793
     },
     {
       "ticker": "GRASIM.NS",
@@ -409,27 +409,27 @@
     },
     {
       "ticker": "SHRIRAMFIN.NS",
-      "slope": 0.016910753691837945,
-      "r2": 0.7151022838930594,
+      "slope": 0.016910752912127517,
+      "r2": 0.7151022272848984,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.8310293140990963,
+      "pos": 0.8310293024737871,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 140.93552774333418,
+      "annual_trend_pct": 140.93551797461737,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": true,
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 70.86850905615944,
+      "prior_trend_pct": 70.86849747674326,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 299.7012649905588,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7590635951520047
+      "rank_score": 0.759063568010455
     },
     {
       "ticker": "ASIANPAINT.NS",
