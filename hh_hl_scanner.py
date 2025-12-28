@@ -238,6 +238,11 @@ def main(argv: Optional[List[str]] = None) -> int:
         threads=not args.no_threads,
     )
 
+    # Convert pandas NaN to Python None so JSON becomes strict (null)
+    if not df.empty:
+        df = df.replace({np.nan: None})
+
+
     payload: Dict[str, Any] = {
         "updated_utc": pd.Timestamp.utcnow().isoformat(),
         "params": {
@@ -258,7 +263,7 @@ def main(argv: Optional[List[str]] = None) -> int:
         os.makedirs(out_dir, exist_ok=True)
 
     with open(args.out, "w", encoding="utf-8") as f:
-        json.dump(payload, f, indent=2)
+        json.dump(payload, f, indent=2, allow_nan=False)
 
     print(f"Wrote {payload['count']} rows to: {args.out}")
 
