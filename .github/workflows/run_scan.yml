@@ -28,7 +28,7 @@ jobs:
 
       - name: Prepare output folders
         run: |
-          mkdir -p api
+          mkdir -p api api/uptrend
 
       # -----------------------------
       # NIFTY 50
@@ -90,7 +90,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add api/*.json
+          git add api
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
@@ -117,7 +117,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add api/*.json
+          git add api
           if git diff --cached --quiet; then
             echo "No changes to publish."
             exit 0
