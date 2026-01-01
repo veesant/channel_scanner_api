@@ -28,7 +28,7 @@ jobs:
 
       - name: Prepare output folders
         run: |
-          mkdir -p api api/uptrend
+          mkdir -p api api/channel api/trend api/db
 
       # -----------------------------
       # NIFTY 50
@@ -41,13 +41,19 @@ jobs:
             --sideways_threshold_pct 10 \
             --prior_trend_weeks 20 \
             --recent_trend_weeks 6 \
-            --out api/nifty50.json
+            --out api/channel/nifty50.json
 
       - name: Run HH HL scan (NIFTY50)
         run: |
           python hh_hl_scanner.py \
             --tickers_file data/nifty50.txt \
-            --out api/uptrend/nifty50.json
+            --out api/trend/nifty50.json
+
+      - name: Run Double bottom scan (NIFTY50)
+        run: |
+          python double_bottom_scanner.py \
+            --tickers_file data/nifty50.txt \
+            --out api/db/nifty50.json
 
       # -----------------------------
       # RUSSELL 2000
@@ -57,14 +63,13 @@ jobs:
           python channel_scanner.py \
             --tickers_file data/russel.txt \
             --only_in_channel \
-            --only_ascending \
-            --out api/russel.json
+            --out api/channel/russel.json
 
       - name: Run HH HL scan (Russel)
         run: |
           python hh_hl_scanner.py \
             --tickers_file data/russel.txt \
-            --out api/uptrend/russel.json
+            --out api/trend/russel.json
 
       # -----------------------------
       # NASDAQ 100
@@ -74,13 +79,32 @@ jobs:
           python channel_scanner.py \
             --tickers_file data/nasdaq100.txt \
             --only_in_channel \
-            --out api/nasdaq.json
+            --out api/channel/nasdaq.json
 
       - name: Run HH HL scan (NASDAQ)
         run: |
           python hh_hl_scanner.py \
             --tickers_file data/nasdaq100.txt \
-            --out api/uptrend/nasdaq.json
+            --out api/trend/nasdaq.json
+
+      # -----------------------------
+      # DOUBLE BOTTOM (NEW)
+      # Produces one combined output across all markets
+      # -----------------------------
+      - name: Run Double Bottom scan (Daily) - All Markets
+        run: |
+          python double_bottom_scanner.py \
+            --tickers_file data/nifty50.txt \
+            --tickers_file data/nasdaq100.txt \
+            --tickers_file data/russel.txt \
+            --lookback_days 160 \
+            --pivot 3 \
+            --bottom_tol_pct 2.5 \
+            --min_sep_days 10 \
+            --min_bounce_pct 6.0 \
+            --confirm_mode near \
+            --near_neckline_pct 2.0 \
+            --out api/db/db_all.json
 
       # -----------------------------
       # Commit & Push
@@ -97,7 +121,7 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update weekly channel scan APIs (NIFTY50 + Russell)"
+          git commit -m "Update scan APIs (channels + HHHL + double bottom)"
           git push
 
       - name: Publish API JSON to gh-pages
@@ -123,5 +147,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Publish API JSON (NIFTY50 + Russell)"
+          git commit -m "Publish API JSON (channels + HHHL + double bottom)"
           git push origin gh-pages
