@@ -1,8 +1,8 @@
 {
-  "updated_utc": "2026-01-01T22:36:02.984316+00:00",
+  "updated_utc": "2026-01-01T22:35:26.293223+00:00",
   "params": {
     "tickers_file": [
-      "data/nifty50.txt"
+      "data/nasdaq100.txt"
     ],
     "lookback_days": 200,
     "pivot": 3,
@@ -15,7 +15,7 @@
     "sma_slow": 10,
     "prebreak_margin_pct": 0.5,
     "near_neckline_pct": 8.0,
-    "out": "api/db/nifty.json",
+    "out": "api/db/db_nas.json",
     "no_threads": false
   },
   "count": 0,

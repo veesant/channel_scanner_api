@@ -94,16 +94,7 @@ jobs:
       - name: Run Double Bottom scan (Daily) - All Markets
         run: |
           python double_bottom_scanner.py \
-            --tickers_file data/nifty50.txt \
             --tickers_file data/nasdaq100.txt \
-            --tickers_file data/russel.txt \
-            --lookback_days 160 \
-            --pivot 3 \
-            --bottom_tol_pct 2.5 \
-            --min_sep_days 10 \
-            --min_bounce_pct 6.0 \
-            --confirm_mode near \
-            --near_neckline_pct 2.0 \
             --out api/db/db_all.json
 
       # -----------------------------
