@@ -1,0 +1,23 @@
+{
+  "updated_utc": "2026-01-01T22:36:02.984316+00:00",
+  "params": {
+    "tickers_file": [
+      "data/nifty50.txt"
+    ],
+    "lookback_days": 200,
+    "pivot": 3,
+    "bottom_tol_pct": 2.5,
+    "min_sep_days": 10,
+    "min_bounce_pct": 6.0,
+    "l2_max_age_days": 7,
+    "turn_up_pct": 1.0,
+    "sma_fast": 5,
+    "sma_slow": 10,
+    "prebreak_margin_pct": 0.5,
+    "near_neckline_pct": 8.0,
+    "out": "api/db/nifty.json",
+    "no_threads": false
+  },
+  "count": 0,
+  "data": []
+}
