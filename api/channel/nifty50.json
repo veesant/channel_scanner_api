@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-01T22:37:33.982123+00:00",
+  "updated_utc": "2026-01-01T23:27:06.976162+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -313,27 +313,27 @@
     },
     {
       "ticker": "POWERGRID.NS",
-      "slope": -0.0027921867021864165,
-      "r2": 0.7589864107495301,
+      "slope": -0.002792187860221932,
+      "r2": 0.758986404700367,
       "inside": 0.9487179487179487,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.44956785256300147,
+      "pos": 0.449568072832126,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -13.514525284390622,
+      "annual_trend_pct": -13.514530492359533,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -9.205614792612948,
+      "prior_trend_pct": -9.205609111422742,
       "prior_trend_type": "Sideways",
       "recent_trend_pct": -14.827087011942208,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8140235996056444
+      "rank_score": 0.8140235745541504
     },
     {
       "ticker": "AXISBANK.NS",
@@ -505,27 +505,27 @@
     },
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.003251335751619123,
-      "r2": 0.659430857829717,
+      "slope": 0.0032513351438333282,
+      "r2": 0.6594308171759167,
       "inside": 1.0,
       "near_upper": 0.11538461538461539,
       "near_lower": 0.038461538461538464,
-      "pos": 0.7972627955723494,
+      "pos": 0.7972628849658933,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 18.42023896808933,
+      "annual_trend_pct": 18.420235225434144,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 18.617095834919084,
+      "prior_trend_pct": 18.61708994584026,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 106.85154229679985,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7499891493576236
+      "rank_score": 0.7499891200913691
     }
   ]
 }
