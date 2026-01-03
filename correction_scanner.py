@@ -1,25 +1,27 @@
 #!/usr/bin/env python3
 """
-HH/HL + Uptrend Pullback + Correction Phase Scanner -> JSON output
+Actionable-after-correction scanner (structure-first, TradingView-like)
 
-Adds:
-- "correction_phase" detection (uptrend intact + controlled pullback)
-- CLI to filter only correction names: --only_correction
+Goal:
+Find stocks that had a correction and are now actionable:
+- Strong move -> pullback/correction -> structure holds -> rebound starts
 
-Recommended for TradingView-like patterns: strong impulse up -> pullback/correction
+Fixes vs prior version:
+- trend_ok does NOT require SMA50 slope >= 0 (too strict; INTC failed)
+- support_held is based on structure anchor close, NOT SMA50 floor (INTC failed)
+- configurable support tolerance (default 1%)
 
 Examples:
-  python hh_hl_scanner.py --tickers INTC SERV --tf 4h --only_correction --out output.json
-  python hh_hl_scanner.py --tickers_file universe.txt --tf 4h --only_correction --out output.json
+  python correction_actionable_scanner.py --tickers INTC --tf 1d --out debug.json
+  python correction_actionable_scanner.py --tickers_file data/nasdaq100.txt --tf 1d --only_actionable --out api/actionable/nas.json
 """
 
 from __future__ import annotations
 
 import argparse
 import json
-from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
-from typing import Dict, Any, List, Optional, Tuple
+from typing import Dict, Any, List, Optional
 
 import numpy as np
 import pandas as pd
@@ -33,18 +35,10 @@ def normalize_ohlc(df: pd.DataFrame) -> pd.DataFrame:
         return pd.DataFrame()
 
     if isinstance(df.columns, pd.MultiIndex):
-        flat_cols = []
-        for c in df.columns:
-            if isinstance(c, tuple) and len(c) > 0:
-                flat_cols.append(str(c[0]))
-            else:
-                flat_cols.append(str(c))
         df = df.copy()
-        df.columns = flat_cols
+        df.columns = [str(c[0]) if isinstance(c, tuple) and len(c) else str(c) for c in df.columns]
 
-    # Standardize column names
     df = df.rename(columns={c: str(c).title() for c in df.columns})
-
     if any(c not in df.columns for c in REQUIRED_COLS):
         return pd.DataFrame()
 
@@ -59,237 +53,26 @@ def normalize_ohlc(df: pd.DataFrame) -> pd.DataFrame:
     if df.index.tz is not None:
         df.index = df.index.tz_convert(None)
 
-    df = df.sort_index().dropna()
-    return df
+    return df.sort_index().dropna()
 
 
 def resample_ohlc(df: pd.DataFrame, rule: str) -> pd.DataFrame:
     df = normalize_ohlc(df)
     if df.empty:
         return df
-
-    out = (
+    return (
         df.resample(rule)
           .agg({"Open": "first", "High": "max", "Low": "min", "Close": "last"})
           .dropna()
     )
-    return out
 
 
-def safe_float(x) -> Optional[float]:
-    try:
-        if x is None:
-            return None
-        v = float(x)
-        if np.isfinite(v):
-            return v
-        return None
-    except Exception:
-        return None
-
-
-# ----------------------------
-# Pivot detection
-# ----------------------------
-@dataclass
-class PivotInfo:
-    last_high_1: Optional[float] = None
-    last_high_2: Optional[float] = None
-    last_low_1: Optional[float] = None
-    last_low_2: Optional[float] = None
-    has_hh: bool = False
-    has_hl: bool = False
-    has_hh_hl: bool = False
-
-
-def find_pivots(series: pd.Series, left_right: int = 3, mode: str = "high") -> pd.Series:
-    s = series.values
-    n = len(s)
-    piv = np.full(n, np.nan, dtype=float)
-
-    lr = int(left_right)
-    if n < (2 * lr + 1):
-        return pd.Series(piv, index=series.index)
-
-    for i in range(lr, n - lr):
-        window = s[i - lr : i + lr + 1]
-        center = s[i]
-        if mode == "high":
-            if center == np.max(window) and np.sum(window == center) == 1:
-                piv[i] = center
-        else:
-            if center == np.min(window) and np.sum(window == center) == 1:
-                piv[i] = center
-
-    return pd.Series(piv, index=series.index)
-
-
-def extract_last_two(pivot_series: pd.Series) -> Tuple[Optional[float], Optional[float]]:
-    vals = pivot_series.dropna().values
-    if len(vals) >= 2:
-        return float(vals[-1]), float(vals[-2])
-    if len(vals) == 1:
-        return float(vals[-1]), None
-    return None, None
-
-
-def compute_pivot_info(df: pd.DataFrame, pivot: int = 3) -> PivotInfo:
-    ph = find_pivots(df["High"], left_right=pivot, mode="high")
-    pl = find_pivots(df["Low"], left_right=pivot, mode="low")
-
-    h1, h2 = extract_last_two(ph)
-    l1, l2 = extract_last_two(pl)
-
-    has_hh = (h1 is not None and h2 is not None and h1 > h2)
-    has_hl = (l1 is not None and l2 is not None and l1 > l2)
-
-    return PivotInfo(
-        last_high_1=h1,
-        last_high_2=h2,
-        last_low_1=l1,
-        last_low_2=l2,
-        has_hh=has_hh,
-        has_hl=has_hl,
-        has_hh_hl=bool(has_hh and has_hl),
-    )
-
-
-# ----------------------------
-# Trend & correction logic
-# ----------------------------
-def sma(series: pd.Series, n: int) -> pd.Series:
-    return series.rolling(n).mean()
-
-
-def trend_filters(df: pd.DataFrame, sma_fast: int = 20, sma_slow: int = 50) -> Dict[str, Any]:
-    close = df["Close"]
-    s_fast = sma(close, sma_fast)
-    s_slow = sma(close, sma_slow)
-
-    fast_now = safe_float(s_fast.iloc[-1])
-    slow_now = safe_float(s_slow.iloc[-1])
-
-    # fast slope using last ~6 bars
-    if len(s_fast.dropna()) >= 6:
-        slope = safe_float(s_fast.iloc[-1] - s_fast.iloc[-6])
-    else:
-        slope = None
-
-    fast_gt_slow = (fast_now is not None and slow_now is not None and fast_now > slow_now)
-    fast_slope_up = (slope is not None and slope > 0)
-
-    return {
-        "sma_fast": sma_fast,
-        "sma_slow": sma_slow,
-        "sma_fast_now": fast_now,
-        "sma_slow_now": slow_now,
-        "sma_fast_gt_slow": bool(fast_gt_slow),
-        "sma_fast_slope_up": bool(fast_slope_up),
-    }
-
-
-def linear_slope(values: np.ndarray) -> float:
-    """Simple OLS slope for y over x=0..n-1"""
-    y = values.astype(float)
-    x = np.arange(len(y), dtype=float)
-    if len(y) < 2:
-        return 0.0
-    m, _b = np.polyfit(x, y, 1)
-    return float(m)
-
-
-def classify_setup(
-    df: pd.DataFrame,
-    piv: PivotInfo,
-    trend: Dict[str, Any],
-    pullback_min_pct: float = 2.0,
-    correction_min_pct: float = 3.0,
-    correction_bars: int = 8,
-) -> Dict[str, Any]:
-    close_now = float(df["Close"].iloc[-1])
-
-    # Uptrend intact = HL pivots OR MA confirmation
-    uptrend_intact = (piv.has_hl or (trend["sma_fast_gt_slow"] and trend["sma_fast_slope_up"]))
-
-    # Pullback from last pivot high
-    pullback = False
-    pullback_from_high_pct = None
-    if piv.last_high_1 is not None and piv.last_high_1 > 0:
-        pullback_from_high_pct = (piv.last_high_1 - close_now) / piv.last_high_1 * 100.0
-        pullback = bool(pullback_from_high_pct >= pullback_min_pct)
-
-    # Controlled correction = down-drift in recent bars (negative slope) BUT no breakdown below latest pivot low
-    correction = False
-    corr_slope = None
-    if len(df) >= correction_bars:
-        recent = df["Close"].iloc[-correction_bars:].values
-        corr_slope = linear_slope(recent)  # negative => drifting down
-        slope_down = corr_slope < 0
-
-        support_ok = True
-        if piv.last_low_1 is not None:
-            support_ok = close_now > piv.last_low_1  # still above last pivot low
-
-        correction = bool(
-            uptrend_intact
-            and pullback_from_high_pct is not None
-            and pullback_from_high_pct >= correction_min_pct
-            and slope_down
-            and support_ok
-        )
-
-    # strict HH+HL (fresh uptrend)
-    setup_hh_hl = piv.has_hh_hl
-
-    # uptrend pullback (more permissive than HH/HL)
-    setup_uptrend_pullback = bool(uptrend_intact and pullback and (piv.last_low_1 is None or close_now > piv.last_low_1))
-
-    # Near support/resistance using pivots
-    near_support = False
-    near_resistance = False
-    support = piv.last_low_1
-    resistance = piv.last_high_1
-
-    if support is not None and support > 0:
-        near_support = abs(close_now - support) / support <= 0.015
-
-    if resistance is not None and resistance > 0:
-        near_resistance = abs(close_now - resistance) / resistance <= 0.015
-
-    if near_support:
-        zone = "Near Support"
-    elif near_resistance:
-        zone = "Near Resistance"
-    else:
-        zone = "Mid"
-
-    return {
-        "close": close_now,
-        "uptrend_intact": bool(uptrend_intact),
-        "pullback": bool(pullback),
-        "pullback_from_high_pct": safe_float(pullback_from_high_pct),
-        "setup_hh_hl": bool(setup_hh_hl),
-        "setup_uptrend_pullback": bool(setup_uptrend_pullback),
-        "correction_phase": bool(correction),
-        "correction_slope": safe_float(corr_slope),
-        "near_support": bool(near_support),
-        "near_resistance": bool(near_resistance),
-        "support_level": safe_float(support),
-        "resistance_level": safe_float(resistance),
-        "action_zone": zone,
-    }
-
-
-# ----------------------------
-# Download bars
-# ----------------------------
 def download_bars(ticker: str, tf: str, lookback_days: int, threads: bool = True) -> pd.DataFrame:
     end = datetime.now(timezone.utc)
     start = end - timedelta(days=int(lookback_days))
     t = ticker.upper().strip()
     tf_l = tf.lower().strip()
 
-    # For 4h/2h: download 60m and resample (more reliable)
     if tf_l in ("4h", "2h"):
         raw = yf.download(
             t,
@@ -303,11 +86,9 @@ def download_bars(ticker: str, tf: str, lookback_days: int, threads: bool = True
         raw = normalize_ohlc(raw)
         if raw.empty:
             return pd.DataFrame()
+        rule = "4h" if tf_l == "4h" else "2h"
+        return resample_ohlc(raw, rule)
 
-        rule = "4h" if tf_l == "4h" else "2h"  # lowercase
-        return resample_ohlc(raw, rule=rule)
-
-    # Daily / other native
     interval = "1d" if tf_l in ("1d", "d", "day") else tf_l
     raw = yf.download(
         t,
@@ -321,26 +102,135 @@ def download_bars(ticker: str, tf: str, lookback_days: int, threads: bool = True
     return normalize_ohlc(raw)
 
 
-# ----------------------------
-# Scan
-# ----------------------------
+def sma(series: pd.Series, n: int) -> pd.Series:
+    return series.rolling(n).mean()
+
+
+def safe_float(x) -> Optional[float]:
+    try:
+        v = float(x)
+        return v if np.isfinite(v) else None
+    except Exception:
+        return None
+
+
+def read_tickers_file(path: str) -> List[str]:
+    out = []
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            s = line.strip()
+            if not s or s.startswith("#"):
+                continue
+            out.append(s.split()[0].upper())
+    return out
+
+
+def compute_actionable(
+    df: pd.DataFrame,
+    sma_fast: int,
+    sma_slow: int,
+    min_pullback_pct: float,
+    swing_window: int,
+    support_lookback: int,
+    rebound_bars: int,
+    support_tolerance_pct: float,
+) -> Dict[str, Any]:
+    close = df["Close"]
+    high = df["High"]
+
+    close_now = float(close.iloc[-1])
+
+    s_fast = sma(close, sma_fast)
+    s_slow = sma(close, sma_slow)
+
+    sma_fast_now = safe_float(s_fast.iloc[-1])
+    sma_slow_now = safe_float(s_slow.iloc[-1])
+
+    # Trend filter: price above SMA slow (no slope requirement)
+    trend_ok = bool(sma_slow_now is not None and close_now > sma_slow_now)
+
+    # Recent swing high for pullback measurement
+    swing_window = int(max(20, swing_window))
+    recent_high = float(high.tail(swing_window).max())
+    pullback_pct = (recent_high - close_now) / recent_high * 100.0 if recent_high > 0 else 0.0
+    had_correction = pullback_pct >= float(min_pullback_pct)
+
+    # Where did the recent high occur?
+    recent_slice = df.tail(swing_window)
+    idx_high = recent_slice["High"].idxmax()
+    after_high = df.loc[idx_high:]
+
+    # Correction low using CLOSE (not wicks)
+    correction_close_low = float(after_high["Close"].min()) if len(after_high) else float(close.tail(swing_window).min())
+
+    # Anchor support: lowest CLOSE in the period BEFORE the swing high (structure)
+    support_lookback = int(max(20, support_lookback))
+    before_high = df.loc[:idx_high].tail(support_lookback)
+    anchor_support_close = float(before_high["Close"].min()) if len(before_high) else float(close.tail(support_lookback).min())
+
+    # Support held: correction closes did not break anchor (allow small tolerance)
+    tol = float(max(0.0, support_tolerance_pct)) / 100.0
+    support_floor = anchor_support_close
+    support_floor_adj = support_floor * (1.0 - tol)
+    support_held = bool(correction_close_low >= support_floor_adj)
+
+    # Rebound confirmation:
+    close_above_fast = bool(sma_fast_now is not None and close_now > sma_fast_now)
+
+    rebound_bars = int(max(3, rebound_bars))
+    recent_closes = close.tail(rebound_bars).values
+    net_up = bool(recent_closes[-1] > recent_closes[0])
+    rebound_ok = bool(close_above_fast and net_up)
+
+    actionable = bool(trend_ok and had_correction and support_held and rebound_ok)
+
+    dist_to_support = None
+    if support_floor > 0:
+        dist_to_support = abs(close_now - support_floor) / support_floor
+
+    return {
+        "close": close_now,
+        "sma_fast": int(sma_fast),
+        "sma_slow": int(sma_slow),
+        "sma_fast_now": safe_float(sma_fast_now),
+        "sma_slow_now": safe_float(sma_slow_now),
+        "trend_ok": bool(trend_ok),
+
+        "recent_swing_high": safe_float(recent_high),
+        "pullback_from_swing_high_pct": safe_float(pullback_pct),
+        "had_correction": bool(had_correction),
+
+        "anchor_support_close": safe_float(anchor_support_close),
+        "support_tolerance_pct": float(support_tolerance_pct),
+        "support_floor": safe_float(support_floor),
+        "support_floor_adj": safe_float(support_floor_adj),
+        "correction_close_low": safe_float(correction_close_low),
+        "support_held": bool(support_held),
+
+        "close_above_sma_fast": bool(close_above_fast),
+        "rebound_ok": bool(rebound_ok),
+
+        "actionable_after_correction": bool(actionable),
+        "dist_to_support": safe_float(dist_to_support),
+    }
+
+
 def scan(
     tickers: List[str],
-    tf: str = "4h",
-    lookback_days: int = 180,
-    max_bars: int = 350,
-    pivot: int = 3,
-    sma_fast: int = 20,
-    sma_slow: int = 50,
-    pullback_min_pct: float = 2.0,
-    correction_min_pct: float = 3.0,
-    correction_bars: int = 8,
-    only_uptrend: bool = False,
-    require_setups: bool = False,
-    only_correction: bool = False,
-    threads: bool = True,
+    tf: str,
+    lookback_days: int,
+    max_bars: int,
+    sma_fast: int,
+    sma_slow: int,
+    min_pullback_pct: float,
+    swing_window: int,
+    support_lookback: int,
+    rebound_bars: int,
+    support_tolerance_pct: float,
+    only_actionable: bool,
+    threads: bool,
 ) -> List[Dict[str, Any]]:
-    out: List[Dict[str, Any]] = []
+    results: List[Dict[str, Any]] = []
 
     for t in tickers:
         t = t.strip().upper()
@@ -352,104 +242,67 @@ def scan(
             continue
 
         df = df.tail(int(max_bars)).copy()
-        if len(df) < max(80, pivot * 2 + max(sma_slow, 50)):
+        if len(df) < max(120, sma_slow + 10):
             continue
 
-        piv = compute_pivot_info(df, pivot=pivot)
-        trend = trend_filters(df, sma_fast=sma_fast, sma_slow=sma_slow)
-        setup = classify_setup(
-            df,
-            piv,
-            trend,
-            pullback_min_pct=pullback_min_pct,
-            correction_min_pct=correction_min_pct,
-            correction_bars=correction_bars,
+        info = compute_actionable(
+            df=df,
+            sma_fast=sma_fast,
+            sma_slow=sma_slow,
+            min_pullback_pct=min_pullback_pct,
+            swing_window=swing_window,
+            support_lookback=support_lookback,
+            rebound_bars=rebound_bars,
+            support_tolerance_pct=support_tolerance_pct,
         )
 
-        if only_uptrend and not setup["uptrend_intact"]:
+        if only_actionable and not info["actionable_after_correction"]:
             continue
 
-        if require_setups and not (setup["setup_hh_hl"] or setup["setup_uptrend_pullback"]):
-            continue
-
-        if only_correction and not setup["correction_phase"]:
-            continue
-
-        # Rank correction candidates: prefer near support + bigger pullback + controlled slope
+        # score: actionable + bigger pullback + closer to anchor support
         score = 0.0
-        score += 1.0 if setup["near_support"] else 0.0
-        score += 0.6 if setup["correction_phase"] else 0.0
+        score += 1.0 if info["actionable_after_correction"] else 0.0
+        pb = info["pullback_from_swing_high_pct"] or 0.0
+        score += min(pb / 10.0, 0.8)
 
-        pb = setup["pullback_from_high_pct"]
-        if pb is not None:
-            score += min(pb / 10.0, 0.6)  # cap contribution
+        d = info["dist_to_support"]
+        if d is not None:
+            score += max(0.0, 0.5 - d)
 
-        score += 0.3 if trend["sma_fast_gt_slow"] else 0.0
-        score += 0.2 if trend["sma_fast_slope_up"] else 0.0
+        results.append({"ticker": t, "tf": tf, "bars_used": int(len(df)), **info, "rank_score": float(score)})
 
-        out.append(
-            {
-                "ticker": t,
-                "tf": tf,
-                "bars_used": int(len(df)),
-                "pivot": int(pivot),
-                **trend,
-                "pivot_high_1": safe_float(piv.last_high_1),
-                "pivot_high_2": safe_float(piv.last_high_2),
-                "pivot_low_1": safe_float(piv.last_low_1),
-                "pivot_low_2": safe_float(piv.last_low_2),
-                "has_hh": bool(piv.has_hh),
-                "has_hl": bool(piv.has_hl),
-                "has_hh_hl": bool(piv.has_hh_hl),
-                **setup,
-                "rank_score": float(score),
-            }
-        )
+    results.sort(key=lambda r: r.get("rank_score", 0.0), reverse=True)
 
-    out.sort(key=lambda r: r.get("rank_score", 0.0), reverse=True)
-
-    # One row per ticker
+    # one row per ticker
     seen = set()
-    deduped = []
-    for r in out:
+    out = []
+    for r in results:
         if r["ticker"] in seen:
             continue
         seen.add(r["ticker"])
-        deduped.append(r)
-
-    return deduped
-
-
-def read_tickers_file(path: str) -> List[str]:
-    tickers: List[str] = []
-    with open(path, "r", encoding="utf-8") as f:
-        for line in f:
-            s = line.strip()
-            if not s or s.startswith("#"):
-                continue
-            tickers.append(s.split()[0].upper())
-    return tickers
+        out.append(r)
+    return out
 
 
 def parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="Correction Phase Scanner -> JSON")
+    p = argparse.ArgumentParser(description="Actionable-after-correction scanner -> JSON")
     p.add_argument("--tickers", nargs="*", default=[], help="Tickers list")
-    p.add_argument("--tickers_file", default="", help="File with one ticker per line")
-    p.add_argument("--tf", default="4h", help="Timeframe: 4h (recommended), 2h, 1d, 60m, etc.")
-    p.add_argument("--lookback_days", type=int, default=180)
-    p.add_argument("--max_bars", type=int, default=350)
-    p.add_argument("--pivot", type=int, default=3)
+    p.add_argument("--tickers_file", default="", help="One ticker per line")
+
+    p.add_argument("--tf", default="1d", help="1d or 4h recommended")
+    p.add_argument("--lookback_days", type=int, default=260)
+    p.add_argument("--max_bars", type=int, default=300)
+
     p.add_argument("--sma_fast", type=int, default=20)
     p.add_argument("--sma_slow", type=int, default=50)
 
-    p.add_argument("--pullback_min_pct", type=float, default=2.0)
-    p.add_argument("--correction_min_pct", type=float, default=3.0)
-    p.add_argument("--correction_bars", type=int, default=8)
+    p.add_argument("--min_pullback_pct", type=float, default=3.0)
+    p.add_argument("--swing_window", type=int, default=80)
+    p.add_argument("--support_lookback", type=int, default=80)
+    p.add_argument("--rebound_bars", type=int, default=4)
+    p.add_argument("--support_tolerance_pct", type=float, default=1.0, help="Allow small undercut of anchor support (in %)")
 
-    p.add_argument("--only_uptrend", action="store_true")
-    p.add_argument("--require_setups", action="store_true")
-    p.add_argument("--only_correction", action="store_true", help="Output only correction-phase tickers")
-
+    p.add_argument("--only_actionable", action="store_true")
     p.add_argument("--out", default="output.json")
     p.add_argument("--no_threads", action="store_true")
     return p.parse_args()
@@ -470,15 +323,14 @@ def main() -> int:
             "tf": args.tf,
             "lookback_days": args.lookback_days,
             "max_bars": args.max_bars,
-            "pivot": args.pivot,
             "sma_fast": args.sma_fast,
             "sma_slow": args.sma_slow,
-            "pullback_min_pct": args.pullback_min_pct,
-            "correction_min_pct": args.correction_min_pct,
-            "correction_bars": args.correction_bars,
-            "only_uptrend": bool(args.only_uptrend),
-            "require_setups": bool(args.require_setups),
-            "only_correction": bool(args.only_correction),
+            "min_pullback_pct": args.min_pullback_pct,
+            "swing_window": args.swing_window,
+            "support_lookback": args.support_lookback,
+            "rebound_bars": args.rebound_bars,
+            "support_tolerance_pct": args.support_tolerance_pct,
+            "only_actionable": bool(args.only_actionable),
         },
         "count": 0,
         "data": [],
@@ -495,15 +347,14 @@ def main() -> int:
         tf=args.tf,
         lookback_days=args.lookback_days,
         max_bars=args.max_bars,
-        pivot=args.pivot,
         sma_fast=args.sma_fast,
         sma_slow=args.sma_slow,
-        pullback_min_pct=args.pullback_min_pct,
-        correction_min_pct=args.correction_min_pct,
-        correction_bars=args.correction_bars,
-        only_uptrend=bool(args.only_uptrend),
-        require_setups=bool(args.require_setups),
-        only_correction=bool(args.only_correction),
+        min_pullback_pct=args.min_pullback_pct,
+        swing_window=args.swing_window,
+        support_lookback=args.support_lookback,
+        rebound_bars=args.rebound_bars,
+        support_tolerance_pct=args.support_tolerance_pct,
+        only_actionable=bool(args.only_actionable),
         threads=not args.no_threads,
     )
 
@@ -515,10 +366,11 @@ def main() -> int:
 
     print(f"Wrote {len(data)} rows to {args.out}")
     if data:
-        preview = pd.DataFrame(data)[
-            ["ticker", "tf", "close", "correction_phase", "pullback_from_high_pct", "near_support", "action_zone", "rank_score"]
-        ].head(20)
-        print(preview.to_string(index=False))
+        dfp = pd.DataFrame(data)[
+            ["ticker", "tf", "actionable_after_correction", "pullback_from_swing_high_pct",
+             "trend_ok", "support_held", "rebound_ok", "rank_score"]
+        ].head(25)
+        print(dfp.to_string(index=False))
 
     return 0
 
