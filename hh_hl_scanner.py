@@ -13,7 +13,7 @@ HH/HL (Higher High + Higher Low) Scanner - DAILY timeframe (LAST ~1 MONTH)
   - pullback_pct, above_support_pct
   - correction_started (between last_high_2 and last_low_2)
   - correction_stage: early/healthy/deep/invalid/none
-  - near_support / near_breakout flags
+  - near_support / near_breakout flags (never None)
   - SMA fast/slow and SMA direction
 - Outputs strict JSON (no NaN) to --out (folders auto-created)
 
@@ -56,7 +56,6 @@ def extract_ticker_df(data: pd.DataFrame, ticker: str) -> Optional[pd.DataFrame]
     if data is None:
         return None
 
-    # MultiIndex columns: (field, ticker) OR (ticker, field)
     if isinstance(data.columns, pd.MultiIndex):
         # (field, ticker)
         cols = []
@@ -80,7 +79,7 @@ def extract_ticker_df(data: pd.DataFrame, ticker: str) -> Optional[pd.DataFrame]
 
         return None
 
-    # Single ticker DataFrame
+    # Single ticker DF
     cols = set(map(str, data.columns))
     if {"Open", "High", "Low", "Close"}.issubset(cols):
         return data.copy()
@@ -185,31 +184,25 @@ def classify_correction_stage(
     deep_max: float = 10.0,
 ) -> Tuple[bool, Optional[float], Optional[float], str]:
     """
-    Returns:
-      correction_started, pullback_pct, above_support_pct, correction_stage
+    Returns: correction_started, pullback_pct, above_support_pct, correction_stage
     """
     if not has_hh_hl or last_high_2 is None or last_low_2 is None:
         return False, None, None, "none"
-
     if last_high_2 <= 0 or last_low_2 <= 0:
         return False, None, None, "none"
 
     pullback_pct = (last_high_2 - last_close) / last_high_2 * 100.0
     above_support_pct = (last_close / last_low_2 - 1.0) * 100.0
 
-    # Correction started if below HH but above HL support
     correction_started = (last_close < last_high_2) and (last_close > last_low_2)
 
     if not correction_started:
-        # If already above HH -> breakout continuation
         if last_close >= last_high_2:
             return False, float(pullback_pct), float(above_support_pct), "none"
-        # If below HL -> structure damaged
         if last_close <= last_low_2:
             return True, float(pullback_pct), float(above_support_pct), "invalid"
         return False, float(pullback_pct), float(above_support_pct), "none"
 
-    # Stage by pullback depth (you can tune these)
     if pullback_pct <= early_max:
         stage = "early"
     elif pullback_pct <= healthy_max:
@@ -217,7 +210,7 @@ def classify_correction_stage(
     elif pullback_pct <= deep_max:
         stage = "deep"
     else:
-        stage = "invalid"  # too deep for a clean HH/HL continuation
+        stage = "invalid"
 
     return True, float(pullback_pct), float(above_support_pct), stage
 
@@ -267,11 +260,10 @@ def scan_hh_hl(
 
             # enforce last ~1 trading month
             df = df.tail(int(max_trading_days))
-
             if len(df) < (pivot * 2 + 6):
                 continue
 
-            # SMAs (for correction direction)
+            # SMAs
             df["sma_fast"] = df["Close"].rolling(int(sma_fast)).mean()
             df["sma_slow"] = df["Close"].rolling(int(sma_slow)).mean()
 
@@ -281,7 +273,6 @@ def scan_hh_hl(
             last_close = float(df["Close"].iloc[-1])
             last_date = str(pd.to_datetime(df.index[-1]).date())
 
-            # Correction fields
             last_high_2 = info.get("last_high_2")
             last_low_2 = info.get("last_low_2")
 
@@ -292,11 +283,13 @@ def scan_hh_hl(
                 last_low_2=float(last_low_2) if last_low_2 is not None else None,
             )
 
-            # Near zones (only meaningful if we have levels)
-            near_support = None
-            near_breakout = None
-            if last_low_2 is not None and float(last_low_2) > 0:
-                near_support = above_support_pct is not None and float(above_support_pct) <= float(near_support_pct)
+            # Near zones (NEVER None)
+            near_support = False
+            near_breakout = False
+
+            if above_support_pct is not None:
+                near_support = float(above_support_pct) <= float(near_support_pct)
+
             if last_high_2 is not None and float(last_high_2) > 0:
                 dist_to_breakout_pct = (float(last_high_2) - last_close) / float(last_high_2) * 100.0
                 near_breakout = dist_to_breakout_pct <= float(near_breakout_pct)
@@ -328,12 +321,12 @@ def scan_hh_hl(
                     # Correction fields
                     "correction_started": bool(corr_started),
                     "correction_stage": corr_stage,
-                    "pullback_pct": pullback_pct,               # from last_high_2 to close
-                    "above_support_pct": above_support_pct,     # from last_low_2 to close
+                    "pullback_pct": pullback_pct,
+                    "above_support_pct": above_support_pct,
 
                     # Zone helpers
-                    "near_support": near_support,
-                    "near_breakout": near_breakout,
+                    "near_support": bool(near_support),
+                    "near_breakout": bool(near_breakout),
                 }
             )
         except Exception:
@@ -343,16 +336,11 @@ def scan_hh_hl(
     if out.empty:
         return out
 
-    # Rank: prefer HHHL true, and if correction started, prefer healthy/near support
+    # Sorting helpers (safe)
     out["hhhl_rank"] = out["has_hh_hl"].astype(int)
-
-    # Sort idea:
-    # 1) HHHL first
-    # 2) Correction started first (good watchlist for pullbacks)
-    # 3) Higher quality: near_breakout or near_support
     out["_corr_sort"] = out["correction_started"].astype(int)
-    out["_near_sup_sort"] = out["near_support"].astype(int) if "near_support" in out.columns else 0
-    out["_near_brk_sort"] = out["near_breakout"].astype(int) if "near_breakout" in out.columns else 0
+    out["_near_sup_sort"] = out["near_support"].astype(int)
+    out["_near_brk_sort"] = out["near_breakout"].astype(int)
 
     out = out.sort_values(
         ["hhhl_rank", "_corr_sort", "_near_sup_sort", "_near_brk_sort", "last_date"],
@@ -421,7 +409,7 @@ def main(argv: Optional[List[str]] = None) -> int:
         },
         "count": int(len(df)),
         "count_hhhl": int(df["has_hh_hl"].sum()) if not df.empty else 0,
-        "count_corrections": int(df["correction_started"].sum()) if (not df.empty and "correction_started" in df.columns) else 0,
+        "count_corrections": int(df["correction_started"].sum()) if not df.empty else 0,
         "data": df.to_dict(orient="records") if not df.empty else [],
     }
 
@@ -433,6 +421,7 @@ def main(argv: Optional[List[str]] = None) -> int:
         json.dump(payload, f, indent=2, allow_nan=False)
 
     print(f"Wrote {payload['count']} rows to: {args.out}")
+
     if not df.empty:
         preview_cols = [
             "ticker", "has_hh_hl",
