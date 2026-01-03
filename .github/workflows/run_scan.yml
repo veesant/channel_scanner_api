@@ -28,7 +28,7 @@ jobs:
 
       - name: Prepare output folders
         run: |
-          mkdir -p api api/channel api/trend api/db
+          mkdir -p api api/channel api/trend api/db api/correction
 
       # -----------------------------
       # NIFTY 50
@@ -55,6 +55,13 @@ jobs:
             --tickers_file data/nifty50.txt \
             --out api/db/nifty50.json
 
+      - name: Run correction phase
+        run: |
+          python correction_scanner.py \
+            --tickers_file data/nifty50.txt \
+            --tf 1d \
+            --out api/correction/nifty50.json
+
       # -----------------------------
       # RUSSELL 2000
       # -----------------------------
@@ -70,6 +77,13 @@ jobs:
           python hh_hl_scanner.py \
             --tickers_file data/russel.txt \
             --out api/trend/russel.json
+      
+      - name: Run correction phase
+        run: |
+          python correction_scanner.py \
+            --tickers_file data/russel.txt \
+            --tf 1d \
+            --out api/correction/russel.json
 
       # -----------------------------
       # NASDAQ 100
@@ -86,6 +100,13 @@ jobs:
           python hh_hl_scanner.py \
             --tickers_file data/nasdaq100.txt \
             --out api/trend/nasdaq.json
+
+      - name: Run Correction
+        run: |
+          python correction_scanner.py \
+            --tickers_file data/nasdaq100.txt \
+            --tf 1d \
+            --out api/correction/nasdaq.json
 
       # -----------------------------
       # DOUBLE BOTTOM (NEW)
