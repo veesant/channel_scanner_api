@@ -6,10 +6,14 @@ Goal:
 Find stocks that had a correction and are now actionable:
 - Strong move -> pullback/correction -> structure holds -> rebound starts
 
-Enhancement (Jan 2026):
-In addition to the correction logic, set Actionable = True if the stock shows
-a clear uptrend over the last ~1 month with multiple Higher Highs (HH) and Higher Lows (HL)
-within the last 30–50 bars (configurable).
+Fixes vs prior version:
+- trend_ok does NOT require SMA50 slope >= 0 (too strict; INTC failed)
+- support_held is based on structure anchor close, NOT SMA50 floor (INTC failed)
+- configurable support tolerance (default 1%)
+
+Examples:
+  python correction_actionable_scanner.py --tickers INTC --tf 1d --out debug.json
+  python correction_actionable_scanner.py --tickers_file data/nasdaq100.txt --tf 1d --only_actionable --out api/actionable/nas.json
 """
 
 from __future__ import annotations
@@ -17,7 +21,7 @@ from __future__ import annotations
 import argparse
 import json
 from datetime import datetime, timedelta, timezone
-from typing import Dict, Any, List, Optional, Tuple
+from typing import Dict, Any, List, Optional
 
 import numpy as np
 import pandas as pd
@@ -58,8 +62,8 @@ def resample_ohlc(df: pd.DataFrame, rule: str) -> pd.DataFrame:
         return df
     return (
         df.resample(rule)
-        .agg({"Open": "first", "High": "max", "Low": "min", "Close": "last"})
-        .dropna()
+          .agg({"Open": "first", "High": "max", "Low": "min", "Close": "last"})
+          .dropna()
     )
 
 
@@ -111,7 +115,7 @@ def safe_float(x) -> Optional[float]:
 
 
 def read_tickers_file(path: str) -> List[str]:
-    out: List[str] = []
+    out = []
     with open(path, "r", encoding="utf-8") as f:
         for line in f:
             s = line.strip()
@@ -119,118 +123,6 @@ def read_tickers_file(path: str) -> List[str]:
                 continue
             out.append(s.split()[0].upper())
     return out
-
-
-def _pivot_points(values: np.ndarray, left: int, right: int, mode: str) -> List[Tuple[int, float]]:
-    """
-    Simple pivot detector:
-      - pivot high: values[i] is the max in [i-left, i+right]
-      - pivot low : values[i] is the min in [i-left, i+right]
-    Returns list of (index, value) in ascending index order.
-    """
-    n = len(values)
-    if n == 0:
-        return []
-    left = int(max(1, left))
-    right = int(max(1, right))
-
-    pivots: List[Tuple[int, float]] = []
-    for i in range(left, n - right):
-        window = values[i - left : i + right + 1]
-        v = values[i]
-        if not np.isfinite(v):
-            continue
-
-        if mode == "high":
-            m = np.nanmax(window)
-            # require strict dominance to reduce flat-top noise
-            if np.isfinite(m) and v == m and np.sum(window == m) == 1:
-                pivots.append((i, float(v)))
-        elif mode == "low":
-            m = np.nanmin(window)
-            if np.isfinite(m) and v == m and np.sum(window == m) == 1:
-                pivots.append((i, float(v)))
-        else:
-            raise ValueError("mode must be 'high' or 'low'")
-    return pivots
-
-
-def compute_uptrend_hh_hl(
-    df: pd.DataFrame,
-    window_min: int = 30,
-    window_max: int = 50,
-    pivot_strength: int = 2,
-    min_hh: int = 2,
-    min_hl: int = 2,
-) -> Dict[str, Any]:
-    """
-    Determine whether the last ~1 month shows a clear uptrend with multiple HH + HL.
-
-    We detect pivots on High and Low within the last `window_max` bars and count:
-      - HH: number of times pivot highs increase vs prior pivot high
-      - HL: number of times pivot lows increase vs prior pivot low
-
-    Returns fields so you can debug/inspect the structure.
-    """
-    window_min = int(max(10, window_min))
-    window_max = int(max(window_min, window_max))
-    pivot_strength = int(max(1, pivot_strength))
-
-    # use the last window_max bars for structure
-    tail = df.tail(window_max).copy()
-    if len(tail) < window_min:
-        return {
-            "uptrend_window_used": int(len(tail)),
-            "uptrend_hh_count": 0,
-            "uptrend_hl_count": 0,
-            "uptrend_pivot_highs": 0,
-            "uptrend_pivot_lows": 0,
-            "uptrend_ok": False,
-        }
-
-    highs = tail["High"].values.astype(float)
-    lows = tail["Low"].values.astype(float)
-    closes = tail["Close"].values.astype(float)
-
-    ph = _pivot_points(highs, left=pivot_strength, right=pivot_strength, mode="high")
-    pl = _pivot_points(lows, left=pivot_strength, right=pivot_strength, mode="low")
-
-    # Count Higher Highs
-    hh_count = 0
-    prev_h = None
-    for _, v in ph:
-        if prev_h is None:
-            prev_h = v
-            continue
-        if v > prev_h:
-            hh_count += 1
-        prev_h = v
-
-    # Count Higher Lows
-    hl_count = 0
-    prev_l = None
-    for _, v in pl:
-        if prev_l is None:
-            prev_l = v
-            continue
-        if v > prev_l:
-            hl_count += 1
-        prev_l = v
-
-    # a simple "overall up" sanity check to avoid weird pivot counts in a sideways market
-    overall_up = bool(np.isfinite(closes[0]) and np.isfinite(closes[-1]) and closes[-1] > closes[0])
-
-    uptrend_ok = bool(overall_up and hh_count >= int(min_hh) and hl_count >= int(min_hl))
-
-    return {
-        "uptrend_window_used": int(len(tail)),
-        "uptrend_hh_count": int(hh_count),
-        "uptrend_hl_count": int(hl_count),
-        "uptrend_pivot_highs": int(len(ph)),
-        "uptrend_pivot_lows": int(len(pl)),
-        "uptrend_overall_up": bool(overall_up),
-        "uptrend_ok": bool(uptrend_ok),
-    }
 
 
 def compute_actionable(
@@ -242,12 +134,6 @@ def compute_actionable(
     support_lookback: int,
     rebound_bars: int,
     support_tolerance_pct: float,
-    # Uptrend structure enhancement (HH/HL)
-    uptrend_window_min: int,
-    uptrend_window_max: int,
-    pivot_strength: int,
-    min_hh: int,
-    min_hl: int,
 ) -> Dict[str, Any]:
     close = df["Close"]
     high = df["High"]
@@ -275,16 +161,12 @@ def compute_actionable(
     after_high = df.loc[idx_high:]
 
     # Correction low using CLOSE (not wicks)
-    correction_close_low = (
-        float(after_high["Close"].min()) if len(after_high) else float(close.tail(swing_window).min())
-    )
+    correction_close_low = float(after_high["Close"].min()) if len(after_high) else float(close.tail(swing_window).min())
 
     # Anchor support: lowest CLOSE in the period BEFORE the swing high (structure)
     support_lookback = int(max(20, support_lookback))
     before_high = df.loc[:idx_high].tail(support_lookback)
-    anchor_support_close = (
-        float(before_high["Close"].min()) if len(before_high) else float(close.tail(support_lookback).min())
-    )
+    anchor_support_close = float(before_high["Close"].min()) if len(before_high) else float(close.tail(support_lookback).min())
 
     # Support held: correction closes did not break anchor (allow small tolerance)
     tol = float(max(0.0, support_tolerance_pct)) / 100.0
@@ -300,24 +182,7 @@ def compute_actionable(
     net_up = bool(recent_closes[-1] > recent_closes[0])
     rebound_ok = bool(close_above_fast and net_up)
 
-    # Original actionable (after correction)
-    actionable_correction = bool(trend_ok and had_correction and support_held and rebound_ok)
-
-    # Uptrend structure actionable (HH/HL over last ~month)
-    uptrend_info = compute_uptrend_hh_hl(
-        df=df,
-        window_min=uptrend_window_min,
-        window_max=uptrend_window_max,
-        pivot_strength=pivot_strength,
-        min_hh=min_hh,
-        min_hl=min_hl,
-    )
-
-    # Keep it consistent with your “trend filter”: if HH/HL says uptrend, also require above SMA slow now
-    uptrend_actionable = bool(uptrend_info["uptrend_ok"] and trend_ok)
-
-    # FINAL actionable: correction logic OR uptrend HH/HL logic
-    actionable = bool(actionable_correction or uptrend_actionable)
+    actionable = bool(trend_ok and had_correction and support_held and rebound_ok)
 
     dist_to_support = None
     if support_floor > 0:
@@ -329,7 +194,6 @@ def compute_actionable(
         "sma_slow": int(sma_slow),
         "sma_fast_now": safe_float(sma_fast_now),
         "sma_slow_now": safe_float(sma_slow_now),
-
         "trend_ok": bool(trend_ok),
 
         "recent_swing_high": safe_float(recent_high),
@@ -346,17 +210,8 @@ def compute_actionable(
         "close_above_sma_fast": bool(close_above_fast),
         "rebound_ok": bool(rebound_ok),
 
-        # new: uptrend structure fields
-        **uptrend_info,
-        "uptrend_actionable": bool(uptrend_actionable),
-
-        # final flag
         "actionable_after_correction": bool(actionable),
-
         "dist_to_support": safe_float(dist_to_support),
-        "actionable_reason": (
-            "correction_setup" if actionable_correction else ("hh_hl_uptrend" if uptrend_actionable else "none")
-        ),
     }
 
 
@@ -372,12 +227,6 @@ def scan(
     support_lookback: int,
     rebound_bars: int,
     support_tolerance_pct: float,
-    # uptrend structure args
-    uptrend_window_min: int,
-    uptrend_window_max: int,
-    pivot_strength: int,
-    min_hh: int,
-    min_hl: int,
     only_actionable: bool,
     threads: bool,
 ) -> List[Dict[str, Any]]:
@@ -393,15 +242,7 @@ def scan(
             continue
 
         df = df.tail(int(max_bars)).copy()
-
-        # Ensure enough bars for both SMA + uptrend pivots
-        min_len = max(
-            120,
-            int(sma_slow) + 10,
-            int(uptrend_window_max) + int(pivot_strength) * 2 + 5,
-            int(swing_window) + 5,
-        )
-        if len(df) < min_len:
+        if len(df) < max(120, sma_slow + 10):
             continue
 
         info = compute_actionable(
@@ -413,33 +254,20 @@ def scan(
             support_lookback=support_lookback,
             rebound_bars=rebound_bars,
             support_tolerance_pct=support_tolerance_pct,
-            uptrend_window_min=uptrend_window_min,
-            uptrend_window_max=uptrend_window_max,
-            pivot_strength=pivot_strength,
-            min_hh=min_hh,
-            min_hl=min_hl,
         )
 
         if only_actionable and not info["actionable_after_correction"]:
             continue
 
-        # score: actionable + bigger pullback + closer to anchor support + HH/HL boost
+        # score: actionable + bigger pullback + closer to anchor support
         score = 0.0
         score += 1.0 if info["actionable_after_correction"] else 0.0
+        pb = info["pullback_from_swing_high_pct"] or 0.0
+        score += min(pb / 10.0, 0.8)
 
-        pb = info.get("pullback_from_swing_high_pct") or 0.0
-        score += min(float(pb) / 10.0, 0.8)
-
-        d = info.get("dist_to_support")
+        d = info["dist_to_support"]
         if d is not None:
-            score += max(0.0, 0.5 - float(d))
-
-        if info.get("uptrend_actionable"):
-            # modest bonus so HH/HL uptrends float up even if pullback is small
-            score += 0.6
-            # small extra for more structure
-            score += min(0.2, 0.05 * float(info.get("uptrend_hh_count", 0)))
-            score += min(0.2, 0.05 * float(info.get("uptrend_hl_count", 0)))
+            score += max(0.0, 0.5 - d)
 
         results.append({"ticker": t, "tf": tf, "bars_used": int(len(df)), **info, "rank_score": float(score)})
 
@@ -447,7 +275,7 @@ def scan(
 
     # one row per ticker
     seen = set()
-    out: List[Dict[str, Any]] = []
+    out = []
     for r in results:
         if r["ticker"] in seen:
             continue
@@ -472,24 +300,7 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--swing_window", type=int, default=80)
     p.add_argument("--support_lookback", type=int, default=80)
     p.add_argument("--rebound_bars", type=int, default=4)
-    p.add_argument(
-        "--support_tolerance_pct",
-        type=float,
-        default=1.0,
-        help="Allow small undercut of anchor support (in %)",
-    )
-
-    # NEW: HH/HL uptrend settings
-    p.add_argument("--uptrend_window_min", type=int, default=30, help="Min bars for HH/HL structure window")
-    p.add_argument("--uptrend_window_max", type=int, default=50, help="Max bars for HH/HL structure window")
-    p.add_argument(
-        "--pivot_strength",
-        type=int,
-        default=2,
-        help="Pivot left/right strength (2 = needs 2 bars on each side)",
-    )
-    p.add_argument("--min_hh", type=int, default=2, help="Minimum number of Higher High steps in the window")
-    p.add_argument("--min_hl", type=int, default=2, help="Minimum number of Higher Low steps in the window")
+    p.add_argument("--support_tolerance_pct", type=float, default=1.0, help="Allow small undercut of anchor support (in %)")
 
     p.add_argument("--only_actionable", action="store_true")
     p.add_argument("--out", default="output.json")
@@ -506,7 +317,7 @@ def main() -> int:
     tickers.extend(args.tickers or [])
     tickers = [t.strip().upper() for t in tickers if t and t.strip()]
 
-    payload: Dict[str, Any] = {
+    payload = {
         "updated_utc": datetime.now(timezone.utc).isoformat(),
         "params": {
             "tf": args.tf,
@@ -519,14 +330,6 @@ def main() -> int:
             "support_lookback": args.support_lookback,
             "rebound_bars": args.rebound_bars,
             "support_tolerance_pct": args.support_tolerance_pct,
-
-            # new
-            "uptrend_window_min": args.uptrend_window_min,
-            "uptrend_window_max": args.uptrend_window_max,
-            "pivot_strength": args.pivot_strength,
-            "min_hh": args.min_hh,
-            "min_hl": args.min_hl,
-
             "only_actionable": bool(args.only_actionable),
         },
         "count": 0,
@@ -551,11 +354,6 @@ def main() -> int:
         support_lookback=args.support_lookback,
         rebound_bars=args.rebound_bars,
         support_tolerance_pct=args.support_tolerance_pct,
-        uptrend_window_min=args.uptrend_window_min,
-        uptrend_window_max=args.uptrend_window_max,
-        pivot_strength=args.pivot_strength,
-        min_hh=args.min_hh,
-        min_hl=args.min_hl,
         only_actionable=bool(args.only_actionable),
         threads=not args.no_threads,
     )
@@ -569,20 +367,8 @@ def main() -> int:
     print(f"Wrote {len(data)} rows to {args.out}")
     if data:
         dfp = pd.DataFrame(data)[
-            [
-                "ticker",
-                "tf",
-                "actionable_after_correction",
-                "actionable_reason",
-                "pullback_from_swing_high_pct",
-                "trend_ok",
-                "support_held",
-                "rebound_ok",
-                "uptrend_ok",
-                "uptrend_hh_count",
-                "uptrend_hl_count",
-                "rank_score",
-            ]
+            ["ticker", "tf", "actionable_after_correction", "pullback_from_swing_high_pct",
+             "trend_ok", "support_held", "rebound_ok", "rank_score"]
         ].head(25)
         print(dfp.to_string(index=False))
 
