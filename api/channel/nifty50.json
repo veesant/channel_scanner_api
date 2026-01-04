@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-03T20:42:12.314772+00:00",
+  "updated_utc": "2026-01-04T23:33:42.086128+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -385,27 +385,27 @@
     },
     {
       "ticker": "POWERGRID.NS",
-      "slope": -0.0027328210145833596,
-      "r2": 0.7494652342079359,
+      "slope": -0.002732822172618695,
+      "r2": 0.749465226039373,
       "inside": 0.9487179487179487,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.6428283008653316,
+      "pos": 0.64282843492312,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -13.247130748109004,
+      "annual_trend_pct": -13.247135972179013,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -9.205614792612948,
+      "prior_trend_pct": -9.205609111422742,
       "prior_trend_type": "Sideways",
       "recent_trend_pct": -4.479197994767025,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.7899369665046143
+      "rank_score": 0.789936949014554
     },
     {
       "ticker": "GRASIM.NS",
@@ -481,15 +481,15 @@
     },
     {
       "ticker": "ASIANPAINT.NS",
-      "slope": 0.004503382324931571,
-      "r2": 0.6946667369393411,
+      "slope": 0.004503383182388313,
+      "r2": 0.6946668592589773,
       "inside": 0.9423076923076923,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.6058694906357311,
+      "pos": 0.6058694372882962,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 26.386676267984278,
+      "annual_trend_pct": 26.386681903282017,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -501,7 +501,7 @@
       "recent_trend_pct": -44.875200311219096,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.7636694963291744
+      "rank_score": 0.763669562823736
     }
   ]
 }
