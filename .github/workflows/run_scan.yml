@@ -28,7 +28,7 @@ jobs:
 
       - name: Prepare output folders
         run: |
-          mkdir -p api api/channel api/trend api/db api/correction
+          mkdir -p api api/channel api/trend api/db api/correction api/reversal
 
       # -----------------------------
       # NIFTY 50
@@ -66,10 +66,10 @@ jobs:
         run: |
           python reversal_scanner.py \
             --tickers_file data/nifty50.txt \
-            --pivot_strength 1
-            --near_resistance_pct 6
-            --corr_max_pct 12
-            --n_down 40
+            --pivot_strength 1 \
+            --near_resistance_pct 6 \
+            --corr_max_pct 12 \
+            --n_down 40 \
             --out api/reversal/nifty50.json
 
       # -----------------------------
@@ -99,10 +99,10 @@ jobs:
         run: |
           python reversal_scanner.py \
             --tickers_file data/russel.txt \
-            --pivot_strength 1
-            --near_resistance_pct 6
-            --corr_max_pct 12
-            --n_down 40
+            --pivot_strength 1 \
+            --near_resistance_pct 6 \
+            --corr_max_pct 12 \
+            --n_down 40 \
             --out api/reversal/russel.json
 
       # -----------------------------
@@ -132,10 +132,10 @@ jobs:
         run: |
           python reversal_scanner.py \
             --tickers_file data/nasdaq100.txt \
-            --pivot_strength 1
-            --near_resistance_pct 6
-            --corr_max_pct 12
-            --n_down 40
+            --pivot_strength 1 \
+            --near_resistance_pct 6 \
+            --corr_max_pct 12 \
+            --n_down 40 \
             --out api/reversal/nasdaq100.json
 
 
