@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-05T19:02:51.202078+00:00",
+  "updated_utc": "2026-01-05T22:57:53.447551+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -313,15 +313,15 @@
     },
     {
       "ticker": "BEL.NS",
-      "slope": 0.0097789267545134,
-      "r2": 0.7204263491868679,
+      "slope": 0.009778926704517995,
+      "r2": 0.7204263589820696,
       "inside": 0.9615384615384616,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.23291368920980685,
+      "pos": 0.23291368174948823,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 66.28020998489367,
+      "annual_trend_pct": 66.28020955260484,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -333,7 +333,7 @@
       "recent_trend_pct": 34.991311625130095,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8215371902878379
+      "rank_score": 0.8215371959314706
     },
     {
       "ticker": "JSWSTEEL.NS",
@@ -457,27 +457,27 @@
     },
     {
       "ticker": "POWERGRID.NS",
-      "slope": -0.0026692763886002444,
-      "r2": 0.7371573673193349,
+      "slope": -0.0026692771929637564,
+      "r2": 0.7371573117353912,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.6928675029741838,
+      "pos": 0.6928675568690662,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -12.959997330200611,
+      "annual_trend_pct": -12.960000970814257,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -9.00207352352319,
+      "prior_trend_pct": -9.00206707040736,
       "prior_trend_type": "Sideways",
       "recent_trend_pct": 20.271084904500846,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7787791128494285
+      "rank_score": 0.7787790796679684
     },
     {
       "ticker": "GRASIM.NS",
@@ -505,15 +505,15 @@
     },
     {
       "ticker": "ASIANPAINT.NS",
-      "slope": 0.005820300350803137,
-      "r2": 0.6620543797475225,
+      "slope": 0.005820300299383764,
+      "r2": 0.6620543494858169,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.5502655628660255,
+      "pos": 0.5502655655169181,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 35.34482812756181,
+      "annual_trend_pct": 35.3448277656758,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -525,7 +525,7 @@
       "recent_trend_pct": -33.56097068889814,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.7657442233307485
+      "rank_score": 0.7657442079348065
     }
   ]
 }
