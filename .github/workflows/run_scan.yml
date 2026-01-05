@@ -62,6 +62,16 @@ jobs:
             --tf 1d \
             --out api/correction/nifty50.json
 
+      - name: Run reversal scanner
+        run: |
+          python reversal_scanner.py \
+            --tickers_file data/nifty50.txt \
+            --pivot_strength 1
+            --near_resistance_pct 6
+            --corr_max_pct 12
+            --n_down 40
+            --out api/reversal/nifty50.json
+
       # -----------------------------
       # RUSSELL 2000
       # -----------------------------
@@ -85,6 +95,16 @@ jobs:
             --tf 1d \
             --out api/correction/russel.json
 
+      - name: Run reversal scanner
+        run: |
+          python reversal_scanner.py \
+            --tickers_file data/russel.txt \
+            --pivot_strength 1
+            --near_resistance_pct 6
+            --corr_max_pct 12
+            --n_down 40
+            --out api/reversal/russel.json
+
       # -----------------------------
       # NASDAQ 100
       # -----------------------------
@@ -107,6 +127,17 @@ jobs:
             --tickers_file data/nasdaq100.txt \
             --tf 1d \
             --out api/correction/nasdaq.json
+      
+      - name: Run reversal scanner
+        run: |
+          python reversal_scanner.py \
+            --tickers_file data/nasdaq100.txt \
+            --pivot_strength 1
+            --near_resistance_pct 6
+            --corr_max_pct 12
+            --n_down 40
+            --out api/reversal/nasdaq100.json
+
 
       # -----------------------------
       # DOUBLE BOTTOM (NEW)
