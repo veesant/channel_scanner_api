@@ -2,14 +2,10 @@
 """
 Actionable-after-correction scanner (structure-first, TradingView-like)
 
-Goal:
-Find stocks that had a correction and are now actionable:
-- Strong move -> pullback/correction -> structure holds -> rebound starts
-
-Enhancement (Jan 2026):
-In addition to the correction logic, set Actionable = True if the stock shows
-a clear uptrend over the last ~1 month with multiple Higher Highs (HH) and Higher Lows (HL)
-within the last 30–50 bars (configurable).
+Key updates (Most recent levels):
+- recent_swing_high is now the MOST RECENT pivot high (not the max-high in the window)
+- resistance_level = recent_swing_high
+- support_level (anchor) = MOST RECENT pivot low BEFORE that swing high (within support_lookback)
 """
 
 from __future__ import annotations
@@ -143,7 +139,6 @@ def _pivot_points(values: np.ndarray, left: int, right: int, mode: str) -> List[
 
         if mode == "high":
             m = np.nanmax(window)
-            # require strict dominance to reduce flat-top noise
             if np.isfinite(m) and v == m and np.sum(window == m) == 1:
                 pivots.append((i, float(v)))
         elif mode == "low":
@@ -155,6 +150,62 @@ def _pivot_points(values: np.ndarray, left: int, right: int, mode: str) -> List[
     return pivots
 
 
+def _recent_pivots_in_tail(df: pd.DataFrame, lookback: int, pivot_strength: int) -> Dict[str, Any]:
+    """
+    Return pivot highs/lows found inside the last `lookback` bars, in ABSOLUTE df positions.
+    """
+    lookback = int(max(10, lookback))
+    pivot_strength = int(max(1, pivot_strength))
+
+    tail = df.tail(lookback)
+    if tail.empty:
+        return {"ph": [], "pl": [], "lookback_used": 0}
+
+    highs = tail["High"].values.astype(float)
+    lows = tail["Low"].values.astype(float)
+
+    ph_local = _pivot_points(highs, left=pivot_strength, right=pivot_strength, mode="high")
+    pl_local = _pivot_points(lows, left=pivot_strength, right=pivot_strength, mode="low")
+
+    offset = len(df) - len(tail)  # local index -> absolute position index
+    ph_abs = [(offset + i, v) for i, v in ph_local]
+    pl_abs = [(offset + i, v) for i, v in pl_local]
+
+    return {"ph": ph_abs, "pl": pl_abs, "lookback_used": len(tail)}
+
+
+def _most_recent_pivot_high(df: pd.DataFrame, lookback: int, pivot_strength: int) -> Tuple[Optional[int], Optional[float]]:
+    piv = _recent_pivots_in_tail(df, lookback=lookback, pivot_strength=pivot_strength)
+    ph = piv["ph"]
+    if not ph:
+        return None, None
+    pos, val = ph[-1]  # most recent pivot high
+    return int(pos), float(val)
+
+
+def _most_recent_pivot_low_before(
+    df: pd.DataFrame, end_pos_exclusive: int, lookback: int, pivot_strength: int
+) -> Tuple[Optional[int], Optional[float]]:
+    """
+    Find the most recent pivot LOW strictly before end_pos_exclusive, scanning within a lookback window.
+    """
+    lookback = int(max(10, lookback))
+    pivot_strength = int(max(1, pivot_strength))
+
+    start = max(0, end_pos_exclusive - lookback)
+    seg = df.iloc[start:end_pos_exclusive]
+    if len(seg) < (pivot_strength * 2 + 3):
+        return None, None
+
+    lows = seg["Low"].values.astype(float)
+    pl_local = _pivot_points(lows, left=pivot_strength, right=pivot_strength, mode="low")
+    if not pl_local:
+        return None, None
+
+    local_i, val = pl_local[-1]
+    return int(start + local_i), float(val)
+
+
 def compute_uptrend_hh_hl(
     df: pd.DataFrame,
     window_min: int = 30,
@@ -163,20 +214,10 @@ def compute_uptrend_hh_hl(
     min_hh: int = 2,
     min_hl: int = 2,
 ) -> Dict[str, Any]:
-    """
-    Determine whether the last ~1 month shows a clear uptrend with multiple HH + HL.
-
-    We detect pivots on High and Low within the last `window_max` bars and count:
-      - HH: number of times pivot highs increase vs prior pivot high
-      - HL: number of times pivot lows increase vs prior pivot low
-
-    Returns fields so you can debug/inspect the structure.
-    """
     window_min = int(max(10, window_min))
     window_max = int(max(window_min, window_max))
     pivot_strength = int(max(1, pivot_strength))
 
-    # use the last window_max bars for structure
     tail = df.tail(window_max).copy()
     if len(tail) < window_min:
         return {
@@ -195,7 +236,6 @@ def compute_uptrend_hh_hl(
     ph = _pivot_points(highs, left=pivot_strength, right=pivot_strength, mode="high")
     pl = _pivot_points(lows, left=pivot_strength, right=pivot_strength, mode="low")
 
-    # Count Higher Highs
     hh_count = 0
     prev_h = None
     for _, v in ph:
@@ -206,7 +246,6 @@ def compute_uptrend_hh_hl(
             hh_count += 1
         prev_h = v
 
-    # Count Higher Lows
     hl_count = 0
     prev_l = None
     for _, v in pl:
@@ -217,9 +256,7 @@ def compute_uptrend_hh_hl(
             hl_count += 1
         prev_l = v
 
-    # a simple "overall up" sanity check to avoid weird pivot counts in a sideways market
     overall_up = bool(np.isfinite(closes[0]) and np.isfinite(closes[-1]) and closes[-1] > closes[0])
-
     uptrend_ok = bool(overall_up and hh_count >= int(min_hh) and hl_count >= int(min_hl))
 
     return {
@@ -242,7 +279,6 @@ def compute_actionable(
     support_lookback: int,
     rebound_bars: int,
     support_tolerance_pct: float,
-    # Uptrend structure enhancement (HH/HL)
     uptrend_window_min: int,
     uptrend_window_max: int,
     pivot_strength: int,
@@ -260,50 +296,62 @@ def compute_actionable(
     sma_fast_now = safe_float(s_fast.iloc[-1])
     sma_slow_now = safe_float(s_slow.iloc[-1])
 
-    # Trend filter: price above SMA slow (no slope requirement)
+    # Trend filter
     trend_ok = bool(sma_slow_now is not None and close_now > sma_slow_now)
 
-    # Recent swing high for pullback measurement
+    # --- MOST RECENT swing high (pivot-based) ---
     swing_window = int(max(20, swing_window))
-    recent_high = float(high.tail(swing_window).max())
-    pullback_pct = (recent_high - close_now) / recent_high * 100.0 if recent_high > 0 else 0.0
+    idx_high_pos, recent_high = _most_recent_pivot_high(df, lookback=swing_window, pivot_strength=pivot_strength)
+
+    # Fallback: if no pivot found, fall back to max high in the window
+    if idx_high_pos is None or recent_high is None:
+        recent_slice = df.tail(swing_window)
+        recent_high = float(recent_slice["High"].max())
+        idx_high = recent_slice["High"].idxmax()
+        idx_high_pos = int(df.index.get_indexer([idx_high])[0])
+    else:
+        idx_high = df.index[int(idx_high_pos)]
+
+    pullback_pct = (recent_high - close_now) / recent_high * 100.0 if recent_high and recent_high > 0 else 0.0
     had_correction = pullback_pct >= float(min_pullback_pct)
 
-    # Where did the recent high occur?
-    recent_slice = df.tail(swing_window)
-    idx_high = recent_slice["High"].idxmax()
-    after_high = df.loc[idx_high:]
+    # Correction segment "after swing high"
+    after_high = df.iloc[int(idx_high_pos) :]
 
     # Correction low using CLOSE (not wicks)
-    correction_close_low = (
-        float(after_high["Close"].min()) if len(after_high) else float(close.tail(swing_window).min())
-    )
+    correction_close_low = float(after_high["Close"].min()) if len(after_high) else float(close.tail(swing_window).min())
 
-    # Anchor support: lowest CLOSE in the period BEFORE the swing high (structure)
+    # --- MOST RECENT support BEFORE swing high (pivot-based) ---
     support_lookback = int(max(20, support_lookback))
-    before_high = df.loc[:idx_high].tail(support_lookback)
-    anchor_support_close = (
-        float(before_high["Close"].min()) if len(before_high) else float(close.tail(support_lookback).min())
+    sup_pos, sup_val = _most_recent_pivot_low_before(
+        df, end_pos_exclusive=int(idx_high_pos), lookback=support_lookback, pivot_strength=pivot_strength
     )
 
-    # Support held: correction closes did not break anchor (allow small tolerance)
+    # If no pivot low found, fall back to lowest CLOSE before the swing high within lookback window
+    if sup_pos is None or sup_val is None:
+        before_high = df.iloc[max(0, int(idx_high_pos) - support_lookback) : int(idx_high_pos)]
+        anchor_support_close = float(before_high["Close"].min()) if len(before_high) else float(close.tail(support_lookback).min())
+        anchor_support_pos = None
+    else:
+        anchor_support_close = float(sup_val)
+        anchor_support_pos = int(sup_pos)
+
+    # Support held (allow tolerance)
     tol = float(max(0.0, support_tolerance_pct)) / 100.0
     support_floor = anchor_support_close
     support_floor_adj = support_floor * (1.0 - tol)
     support_held = bool(correction_close_low >= support_floor_adj)
 
-    # Rebound confirmation:
+    # Rebound confirmation
     close_above_fast = bool(sma_fast_now is not None and close_now > sma_fast_now)
-
     rebound_bars = int(max(3, rebound_bars))
     recent_closes = close.tail(rebound_bars).values
     net_up = bool(recent_closes[-1] > recent_closes[0])
     rebound_ok = bool(close_above_fast and net_up)
 
-    # Original actionable (after correction)
     actionable_correction = bool(trend_ok and had_correction and support_held and rebound_ok)
 
-    # Uptrend structure actionable (HH/HL over last ~month)
+    # HH/HL uptrend logic (unchanged)
     uptrend_info = compute_uptrend_hh_hl(
         df=df,
         window_min=uptrend_window_min,
@@ -312,16 +360,17 @@ def compute_actionable(
         min_hh=min_hh,
         min_hl=min_hl,
     )
-
-    # Keep it consistent with your “trend filter”: if HH/HL says uptrend, also require above SMA slow now
     uptrend_actionable = bool(uptrend_info["uptrend_ok"] and trend_ok)
 
-    # FINAL actionable: correction logic OR uptrend HH/HL logic
     actionable = bool(actionable_correction or uptrend_actionable)
 
     dist_to_support = None
-    if support_floor > 0:
+    if support_floor and support_floor > 0:
         dist_to_support = abs(close_now - support_floor) / support_floor
+
+    # Most recent resistance = most recent swing high
+    resistance_level = float(recent_high) if recent_high is not None else None
+    resistance_pos = int(idx_high_pos) if idx_high_pos is not None else None
 
     return {
         "close": close_now,
@@ -332,11 +381,19 @@ def compute_actionable(
 
         "trend_ok": bool(trend_ok),
 
-        "recent_swing_high": safe_float(recent_high),
+        # Resistance (most recent swing high)
+        "recent_swing_high": safe_float(resistance_level),
+        "recent_swing_high_date": str(df.index[resistance_pos].date()) if resistance_pos is not None else None,
+        "resistance_level": safe_float(resistance_level),
+
         "pullback_from_swing_high_pct": safe_float(pullback_pct),
         "had_correction": bool(had_correction),
 
+        # Support (most recent pivot low before swing high)
         "anchor_support_close": safe_float(anchor_support_close),
+        "anchor_support_date": str(df.index[anchor_support_pos].date()) if anchor_support_pos is not None else None,
+        "support_level": safe_float(anchor_support_close),
+
         "support_tolerance_pct": float(support_tolerance_pct),
         "support_floor": safe_float(support_floor),
         "support_floor_adj": safe_float(support_floor_adj),
@@ -346,11 +403,9 @@ def compute_actionable(
         "close_above_sma_fast": bool(close_above_fast),
         "rebound_ok": bool(rebound_ok),
 
-        # new: uptrend structure fields
         **uptrend_info,
         "uptrend_actionable": bool(uptrend_actionable),
 
-        # final flag
         "actionable_after_correction": bool(actionable),
 
         "dist_to_support": safe_float(dist_to_support),
@@ -372,7 +427,6 @@ def scan(
     support_lookback: int,
     rebound_bars: int,
     support_tolerance_pct: float,
-    # uptrend structure args
     uptrend_window_min: int,
     uptrend_window_max: int,
     pivot_strength: int,
@@ -394,12 +448,11 @@ def scan(
 
         df = df.tail(int(max_bars)).copy()
 
-        # Ensure enough bars for both SMA + uptrend pivots
         min_len = max(
             120,
             int(sma_slow) + 10,
             int(uptrend_window_max) + int(pivot_strength) * 2 + 5,
-            int(swing_window) + 5,
+            int(swing_window) + int(pivot_strength) * 2 + 5,
         )
         if len(df) < min_len:
             continue
@@ -423,7 +476,6 @@ def scan(
         if only_actionable and not info["actionable_after_correction"]:
             continue
 
-        # score: actionable + bigger pullback + closer to anchor support + HH/HL boost
         score = 0.0
         score += 1.0 if info["actionable_after_correction"] else 0.0
 
@@ -435,9 +487,7 @@ def scan(
             score += max(0.0, 0.5 - float(d))
 
         if info.get("uptrend_actionable"):
-            # modest bonus so HH/HL uptrends float up even if pullback is small
             score += 0.6
-            # small extra for more structure
             score += min(0.2, 0.05 * float(info.get("uptrend_hh_count", 0)))
             score += min(0.2, 0.05 * float(info.get("uptrend_hl_count", 0)))
 
@@ -445,7 +495,6 @@ def scan(
 
     results.sort(key=lambda r: r.get("rank_score", 0.0), reverse=True)
 
-    # one row per ticker
     seen = set()
     out: List[Dict[str, Any]] = []
     for r in results:
@@ -469,8 +518,13 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--sma_slow", type=int, default=50)
 
     p.add_argument("--min_pullback_pct", type=float, default=3.0)
+
+    # IMPORTANT: swing_window now means "lookback to find MOST RECENT swing high pivot"
     p.add_argument("--swing_window", type=int, default=80)
+
+    # support_lookback now means "lookback before swing high to find MOST RECENT swing low pivot"
     p.add_argument("--support_lookback", type=int, default=80)
+
     p.add_argument("--rebound_bars", type=int, default=4)
     p.add_argument(
         "--support_tolerance_pct",
@@ -479,17 +533,11 @@ def parse_args() -> argparse.Namespace:
         help="Allow small undercut of anchor support (in %)",
     )
 
-    # NEW: HH/HL uptrend settings
-    p.add_argument("--uptrend_window_min", type=int, default=30, help="Min bars for HH/HL structure window")
-    p.add_argument("--uptrend_window_max", type=int, default=50, help="Max bars for HH/HL structure window")
-    p.add_argument(
-        "--pivot_strength",
-        type=int,
-        default=2,
-        help="Pivot left/right strength (2 = needs 2 bars on each side)",
-    )
-    p.add_argument("--min_hh", type=int, default=2, help="Minimum number of Higher High steps in the window")
-    p.add_argument("--min_hl", type=int, default=2, help="Minimum number of Higher Low steps in the window")
+    p.add_argument("--uptrend_window_min", type=int, default=30)
+    p.add_argument("--uptrend_window_max", type=int, default=50)
+    p.add_argument("--pivot_strength", type=int, default=2)
+    p.add_argument("--min_hh", type=int, default=2)
+    p.add_argument("--min_hl", type=int, default=2)
 
     p.add_argument("--only_actionable", action="store_true")
     p.add_argument("--out", default="output.json")
@@ -519,14 +567,11 @@ def main() -> int:
             "support_lookback": args.support_lookback,
             "rebound_bars": args.rebound_bars,
             "support_tolerance_pct": args.support_tolerance_pct,
-
-            # new
             "uptrend_window_min": args.uptrend_window_min,
             "uptrend_window_max": args.uptrend_window_max,
             "pivot_strength": args.pivot_strength,
             "min_hh": args.min_hh,
             "min_hl": args.min_hl,
-
             "only_actionable": bool(args.only_actionable),
         },
         "count": 0,
