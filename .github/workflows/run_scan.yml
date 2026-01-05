@@ -136,7 +136,7 @@ jobs:
             --near_resistance_pct 6 \
             --corr_max_pct 12 \
             --n_down 40 \
-            --out api/reversal/nasdaq100.json
+            --out api/reversal/nasdaq.json
 
 
       # -----------------------------
