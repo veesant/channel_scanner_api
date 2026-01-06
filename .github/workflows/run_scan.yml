@@ -82,6 +82,74 @@ jobs:
             --corr_bars_min 3 --corr_bars_max 12 --only_watchlist \
             --out api/corrwl/russel.json
 
+      # --------------------
+      # Sideways to UP trend tab for all three exchanges
+      # --------------------
+
+      - name: Run Sideways scan (NIFTY50)
+        run: |
+          python scanners/side_to_up_scanner.py \
+            --tickers_file data/nifty50.txt \
+            --only_in_channel \
+            --sideways_threshold_pct 10 \
+            --prior_trend_weeks 20 \
+            --recent_trend_weeks 6 \
+            --out api/sidetoup/nifty50.json
+
+      - name: Run Sideways scan (NASDAQ)
+        run: |
+          python scanners/side_to_up_scanner.py \
+            --tickers_file data/nasdaq100.txt \
+            --only_in_channel \
+            --sideways_threshold_pct 10 \
+            --prior_trend_weeks 20 \
+            --recent_trend_weeks 6 \
+            --out api/sidetoup/nasdaq.json
+
+      - name: Run Sideways scan (Russel)
+        run: |
+          python scanners/side_to_up_scanner.py \
+            --tickers_file data/russel.txt \
+            --only_in_channel \
+            --sideways_threshold_pct 10 \
+            --prior_trend_weeks 20 \
+            --recent_trend_weeks 6 \
+            --out api/sidetoup/russel.json
+
+      # --------------------
+      # Down to UP trend tab for all three exchanges
+      # --------------------
+
+      - name: Run reversal scanner - Nifty
+        run: |
+          python scanners/down_to_up_scanner.py \
+            --tickers_file data/nifty50.txt \
+            --pivot_strength 1 \
+            --near_resistance_pct 6 \
+            --corr_max_pct 12 \
+            --n_down 40 \
+            --out api/downtoup/nifty50.json
+
+      - name: Run reversal scanner - NASDAQ
+        run: |
+          python scanners/down_to_up_scanner.py \
+            --tickers_file data/nasdaq100.txt \
+            --pivot_strength 1 \
+            --near_resistance_pct 6 \
+            --corr_max_pct 12 \
+            --n_down 40 \
+            --out api/downtoup/nasdaq.json
+
+      - name: Run reversal scanner - Russel
+        run: |
+          python scanners/down_to_up_scanner.py \
+            --tickers_file data/russel.txt \
+            --pivot_strength 1 \
+            --near_resistance_pct 6 \
+            --corr_max_pct 12 \
+            --n_down 40 \
+            --out api/downtoup/russel.json
+
       # -----------------------------
       # Commit & Push
       # -----------------------------
