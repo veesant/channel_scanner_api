@@ -1,0 +1,62 @@
+{
+  "updated_utc": "2026-01-06T03:43:59.524245+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 2,
+  "data": [
+    {
+      "ticker": "MAR",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 311.0299987792969,
+      "sma20": 305.47449951171876,
+      "sma50": 292.9498095703125,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 10.537628258176737,
+      "pole_high": 315.3999938964844,
+      "pole_range": 33.3699951171875,
+      "flag_bars": 8,
+      "flag_range": 8.3800048828125,
+      "pullback_from_pole_high_pct": 1.3855406473538965,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.646494618910058
+    },
+    {
+      "ticker": "REGN",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 763.22998046875,
+      "sma20": 754.6499969482422,
+      "sma50": 714.4912365722656,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 12.529955545982979,
+      "pole_high": 783.5999755859375,
+      "pole_range": 91.739990234375,
+      "flag_bars": 8,
+      "flag_range": 39.57000732421875,
+      "pullback_from_pole_high_pct": 2.59954003979592,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.0411047792143484
+    }
+  ]
+}

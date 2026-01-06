@@ -1,0 +1,194 @@
+name: Weekly Channel Scan API (Multi-Market)
+
+on:
+  schedule:
+    - cron: "30 20 * * 6"   # Saturday 3:30 PM EST (20:30 UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install yfinance pandas numpy
+
+      - name: Prepare output folders
+        run: |
+          mkdir -p api api/channel api/trend api/db api/correction api/reversal
+
+      # -----------------------------
+      # NIFTY 50
+      # -----------------------------
+      - name: Run channel scan (NIFTY50)
+        run: |
+          python channel_scanner.py \
+            --tickers_file data/nifty50.txt \
+            --only_in_channel \
+            --sideways_threshold_pct 10 \
+            --prior_trend_weeks 20 \
+            --recent_trend_weeks 6 \
+            --out api/channel/nifty50.json
+
+      - name: Run HH HL scan (NIFTY50)
+        run: |
+          python hh_hl_scanner.py \
+            --tickers_file data/nifty50.txt \
+            --out api/trend/nifty50.json
+
+      - name: Run Double bottom scan (NIFTY50)
+        run: |
+          python double_bottom_scanner.py \
+            --tickers_file data/nifty50.txt \
+            --out api/db/nifty50.json
+
+      - name: Run correction phase
+        run: |
+          python correction_scanner.py \
+            --tickers_file data/nifty50.txt \
+            --tf 1d \
+            --out api/correction/nifty50.json
+
+      - name: Run reversal scanner
+        run: |
+          python reversal_scanner.py \
+            --tickers_file data/nifty50.txt \
+            --pivot_strength 1 \
+            --near_resistance_pct 6 \
+            --corr_max_pct 12 \
+            --n_down 40 \
+            --out api/reversal/nifty50.json
+
+      # -----------------------------
+      # RUSSELL 2000
+      # -----------------------------
+      - name: Run channel scan (Russell 2000)
+        run: |
+          python channel_scanner.py \
+            --tickers_file data/russel.txt \
+            --only_in_channel \
+            --out api/channel/russel.json
+
+      - name: Run HH HL scan (Russel)
+        run: |
+          python hh_hl_scanner.py \
+            --tickers_file data/russel.txt \
+            --out api/trend/russel.json
+      
+      - name: Run correction phase
+        run: |
+          python correction_scanner.py \
+            --tickers_file data/russel.txt \
+            --tf 1d \
+            --out api/correction/russel.json
+
+      - name: Run reversal scanner
+        run: |
+          python reversal_scanner.py \
+            --tickers_file data/russel.txt \
+            --pivot_strength 1 \
+            --near_resistance_pct 6 \
+            --corr_max_pct 12 \
+            --n_down 40 \
+            --out api/reversal/russel.json
+
+      # -----------------------------
+      # NASDAQ 100
+      # -----------------------------
+      - name: Run channel scan (NASDAQ)
+        run: |
+          python channel_scanner.py \
+            --tickers_file data/nasdaq100.txt \
+            --only_in_channel \
+            --out api/channel/nasdaq.json
+
+      - name: Run HH HL scan (NASDAQ)
+        run: |
+          python hh_hl_scanner.py \
+            --tickers_file data/nasdaq100.txt \
+            --out api/trend/nasdaq.json
+
+      - name: Run Correction
+        run: |
+          python correction_scanner.py \
+            --tickers_file data/nasdaq100.txt \
+            --tf 1d \
+            --out api/correction/nasdaq.json
+      
+      - name: Run reversal scanner
+        run: |
+          python reversal_scanner.py \
+            --tickers_file data/nasdaq100.txt \
+            --pivot_strength 1 \
+            --near_resistance_pct 6 \
+            --corr_max_pct 12 \
+            --n_down 40 \
+            --out api/reversal/nasdaq.json
+
+
+      # -----------------------------
+      # DOUBLE BOTTOM (NEW)
+      # Produces one combined output across all markets
+      # -----------------------------
+      - name: Run Double Bottom scan (Daily) - All Markets
+        run: |
+          python double_bottom_scanner.py \
+            --tickers_file data/nasdaq100.txt \
+            --out api/db/db_all.json
+
+      # -----------------------------
+      # Commit & Push
+      # -----------------------------
+      - name: Commit & push API updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add api
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update scan APIs (channels + HHHL + double bottom)"
+          git push
+
+      - name: Publish API JSON to gh-pages
+        run: |
+          # Save generated files somewhere temporary
+          mkdir -p /tmp/api_out
+          cp -r api /tmp/api_out/
+
+          # Switch to gh-pages branch
+          git fetch origin gh-pages
+          git checkout gh-pages
+
+          # Copy files into gh-pages branch (root)
+          mkdir -p api
+          cp -r /tmp/api_out/api/* api/
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add api
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+            exit 0
+          fi
+
+          git commit -m "Publish API JSON (channels + HHHL + double bottom)"
+          git push origin gh-pages
