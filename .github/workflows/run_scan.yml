@@ -28,7 +28,7 @@ jobs:
 
       - name: Prepare output folders
         run: |
-          mkdir -p api api/entry api/corrwl api/sidetoup api/downtoup
+          mkdir -p api api/entry api/corrwl api/sidetoup api/downtoup api/bullishflag
 
       # --------------------
       # Entry Signal tab for all three exchanges - Trend percentage
@@ -149,6 +149,28 @@ jobs:
             --corr_max_pct 12 \
             --n_down 40 \
             --out api/downtoup/russel.json
+
+      # --------------------
+      # Bullish Flag
+      # --------------------
+
+      - name: Run Bullish flag - Nifty
+        run: |
+          python scanners/bull_flag_scanner.py \
+            --tickers_file data/nifty50.txt \
+            --out api/bullishflag/nifty50.json
+
+      - name: Run reversal scanner - NASDAQ
+        run: |
+          python scanners/bull_flag_scanner.py \
+            --tickers_file data/nasdaq100.txt \
+            --out api/bullishflag/nasdaq.json
+
+      - name: Run reversal scanner - Russel
+        run: |
+          python scanners/bull_flag_scanner.py \
+            --tickers_file data/russel.txt \
+            --out api/bullishflag/russel.json
 
       # -----------------------------
       # Commit & Push
