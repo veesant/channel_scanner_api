@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-07T15:41:07.092281+00:00",
+  "updated_utc": "2026-01-08T04:09:36.635256+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -21,48 +21,6 @@
     "only_actionable": false,
     "only_watchlist": true
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "MNST",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 75.72000122070312,
-      "sma_fast": 20,
-      "sma_slow": 50,
-      "sma_fast_now": 75.66999969482421,
-      "sma_slow_now": 72.90380004882813,
-      "trend_ok": true,
-      "recent_swing_high": 78.1500015258789,
-      "recent_swing_high_date": "2025-12-29",
-      "resistance_level": 78.1500015258789,
-      "pullback_from_swing_high_pct": 3.109405320191966,
-      "had_correction": true,
-      "bars_since_swing_high": 5,
-      "correction_age_ok": true,
-      "anchor_support_close": 73.91000366210938,
-      "anchor_support_date": "2025-12-17",
-      "support_level": 73.91000366210938,
-      "support_tolerance_pct": 1.0,
-      "support_floor": 73.91000366210938,
-      "support_floor_adj": 73.17090362548828,
-      "correction_close_low": 75.66999816894531,
-      "support_held": true,
-      "close_above_sma_fast": true,
-      "rebound_ok": false,
-      "uptrend_window_used": 50,
-      "uptrend_hh_count": 3,
-      "uptrend_hl_count": 5,
-      "uptrend_pivot_highs": 6,
-      "uptrend_pivot_lows": 8,
-      "uptrend_overall_up": true,
-      "uptrend_ok": true,
-      "uptrend_actionable": true,
-      "watchlist_correction": true,
-      "actionable_after_correction": true,
-      "dist_to_support": 0.02448920942919208,
-      "actionable_reason": "watchlist_correction",
-      "rank_score": 2.7864513225900045
-    }
-  ]
+  "count": 0,
+  "data": []
 }
