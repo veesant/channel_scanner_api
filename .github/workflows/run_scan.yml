@@ -37,21 +37,18 @@ jobs:
         run: |
           python scanners/entry_sig_scanner.py \
             --tickers_file data/nifty50.txt \
-            --tf 1d \
             --out api/entry/nifty50.json
 
       - name: Run Entry Signal NASDAQ
         run: |
           python scanners/entry_sig_scanner.py \
             --tickers_file data/nasdaq100.txt \
-            --tf 1d \
             --out api/entry/nasdaq.json
 
       - name: Run Entry Signal Russel
         run: |
           python scanners/entry_sig_scanner.py \
             --tickers_file data/russel.txt \
-            --tf 1d \
             --out api/entry/russel.json
 
       # --------------------
