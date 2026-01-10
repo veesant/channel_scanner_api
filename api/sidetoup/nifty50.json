@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-10T16:08:34.769160+00:00",
+  "updated_utc": "2026-01-10T20:48:42.822163+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -289,27 +289,27 @@
     },
     {
       "ticker": "POWERGRID.NS",
-      "slope": -0.0028675643332448262,
-      "r2": 0.750558975082959,
+      "slope": -0.002867565137608408,
+      "r2": 0.7505589398093128,
       "inside": 0.9487179487179487,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.06965573752350687,
+      "pos": 0.06965603345139246,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -13.852853440144386,
+      "annual_trend_pct": -13.852857043412925,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -9.00207352352319,
+      "prior_trend_pct": -9.00206707040736,
       "prior_trend_type": "Sideways",
       "recent_trend_pct": -17.99590096883107,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8478010932763084
+      "rank_score": 0.8478010460466967
     },
     {
       "ticker": "ETERNAL.NS",
@@ -457,15 +457,15 @@
     },
     {
       "ticker": "ASIANPAINT.NS",
-      "slope": 0.005833800001890976,
-      "r2": 0.6628862659740501,
+      "slope": 0.005833800053310529,
+      "r2": 0.6628862961855857,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.5669153414962012,
+      "pos": 0.5669153398260721,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 35.43987109660463,
+      "annual_trend_pct": 35.43987145874603,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -477,7 +477,7 @@
       "recent_trend_pct": -31.80587716068497,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.7644951885809946
+      "rank_score": 0.7644952038537753
     },
     {
       "ticker": "TITAN.NS",
