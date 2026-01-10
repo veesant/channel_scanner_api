@@ -8,7 +8,7 @@ on:
       mode:
         description: "What to run"
         required: true
-        default: "entry_only"
+        default: "all"
         type: choice
         options:
           - entry_only
