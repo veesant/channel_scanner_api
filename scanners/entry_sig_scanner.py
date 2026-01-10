@@ -1,28 +1,27 @@
 #!/usr/bin/env python3
 """
-Clean HH/HL Uptrend Scanner (DAILY)
+Entry Signal Scanner (DAILY) - Clean HH/HL + Pullback-to-HL + Coil-under-HH
 
-Goal (matches your 2nd chart):
-- In the last N bars (default 35), price shows a continuous uptrend:
-  - swing structure alternates L/H/L/H...
-  - ALL swing highs are higher than prior swing highs (HH chain)
-  - ALL swing lows are higher than prior swing lows (HL chain)
-  - Trend filter: SMA fast > SMA slow and last close > SMA slow
-  - Optional strictness: max drawdown within window must be below a cap
-  - Positive slope of closes over the window
-
-Inputs:
-- tickers_file: one ticker per line (blank lines + # comments ignored)
-- Uses yfinance daily data with auto_adjust=True
+What it detects (your circled setup):
+1) Clean uptrend structure over last N bars:
+   - pivots alternate L/H/L/H...
+   - all pivot highs rising (HH chain)
+   - all pivot lows rising (HL chain)
+2) Current price is near the latest HL (pullback holding support)
+3) Current price is not far below latest HH (coiled for breakout)
 
 Output:
-- JSON file (strict JSON, allow_nan=False) with records + metadata
-- Console preview table
+- JSON file with fields:
+  - has_hh_hl: clean uptrend pass/fail
+  - entry_signal: TRUE = your desired “at HL with breakout potential” setup
+  - at_hl_zone, coiled_below_hh: explain why entry_signal is true
+  - support_distance_pct, breakout_distance_pct: numeric distances
 
 Install:
   pip install yfinance pandas numpy
+
 Run:
-  python hh_hl_scanner_clean.py --tickers_file data/tickers.txt --out output/hh_hl.json
+  python entry_signal_scanner.py --tickers_file data/tickers.txt --out output/entry_signals.json
 """
 
 from __future__ import annotations
@@ -44,7 +43,7 @@ except Exception as e:
 
 
 # -----------------------------
-# Helpers
+# IO helpers
 # -----------------------------
 
 def read_tickers(path: str) -> List[str]:
@@ -63,30 +62,23 @@ def read_tickers(path: str) -> List[str]:
 
 def json_sanitize(obj):
     """
-    Recursively convert:
-      - NaN -> None
-      - +inf/-inf -> None
-      - numpy scalars -> python scalars
-      - pandas Timestamp -> ISO string
-    so json.dump(allow_nan=False) succeeds.
+    Make payload strict-JSON compliant (no NaN/inf, convert numpy/pandas scalars).
     """
     if obj is None:
         return None
 
-    # pandas timestamp
     if isinstance(obj, pd.Timestamp):
         return obj.isoformat()
 
-    # numpy scalar
     if isinstance(obj, (np.integer,)):
         return int(obj)
+
     if isinstance(obj, (np.floating,)):
         v = float(obj)
         if np.isnan(v) or np.isinf(v):
             return None
         return v
 
-    # python float
     if isinstance(obj, float):
         if np.isnan(obj) or np.isinf(obj):
             return None
@@ -101,57 +93,52 @@ def json_sanitize(obj):
     return obj
 
 
-def extract_ticker_df(data: pd.DataFrame, ticker: str) -> Optional[pd.DataFrame]:
-    """
-    Robust extraction for yfinance multi-ticker downloads.
-    Handles MultiIndex columns or single ticker DataFrame.
-    """
-    if data is None or data.empty:
-        return None
-
-    # Multi-ticker -> MultiIndex columns: (field, ticker)
-    if isinstance(data.columns, pd.MultiIndex):
-        fields = ["Open", "High", "Low", "Close", "Volume"]
-        cols = []
-        for field in fields:
-            if (field, ticker) in data.columns:
-                cols.append((field, ticker))
-        if not cols:
-            return None
-        df = data.loc[:, cols].copy()
-        df.columns = [c[0] for c in df.columns]  # flatten
-        return df
-
-    # Single ticker dataframe: columns are normal
-    expected = {"Open", "High", "Low", "Close"}
-    if not expected.issubset(set(data.columns)):
-        return None
-    return data.copy()
-
-
 def safe_float(x) -> Optional[float]:
     try:
         if x is None:
             return None
         if isinstance(x, (float, int, np.floating, np.integer)):
-            if np.isnan(x):
+            v = float(x)
+            if np.isnan(v) or np.isinf(v):
                 return None
-            return float(x)
+            return v
         v = float(x)
-        if np.isnan(v):
+        if np.isnan(v) or np.isinf(v):
             return None
         return v
     except Exception:
         return None
 
 
+def extract_ticker_df(data: pd.DataFrame, ticker: str) -> Optional[pd.DataFrame]:
+    """
+    Robust extraction for yfinance multi-ticker downloads.
+    """
+    if data is None or data.empty:
+        return None
+
+    if isinstance(data.columns, pd.MultiIndex):
+        fields = ["Open", "High", "Low", "Close", "Volume"]
+        cols = [(f, ticker) for f in fields if (f, ticker) in data.columns]
+        if not cols:
+            return None
+        df = data.loc[:, cols].copy()
+        df.columns = [c[0] for c in df.columns]
+        return df
+
+    expected = {"Open", "High", "Low", "Close"}
+    if not expected.issubset(set(data.columns)):
+        return None
+    return data.copy()
+
+
 # -----------------------------
-# Pivot logic (same idea as your original)
+# Pivot detection
 # -----------------------------
 
 def find_pivot_highs(high: pd.Series, n: int) -> List[pd.Timestamp]:
     """
-    Pivot high at i if high[i] is the strictly-unique max in [i-n, i+n].
+    Pivot high at i if high[i] is strictly-unique max in [i-n, i+n]
     """
     idxs: List[pd.Timestamp] = []
     if len(high) < 2 * n + 1:
@@ -163,7 +150,6 @@ def find_pivot_highs(high: pd.Series, n: int) -> List[pd.Timestamp]:
         m = np.nanmax(window)
         if np.isnan(m):
             continue
-        # strictly unique max
         if vals[i] == m and np.sum(window == m) == 1:
             idxs.append(high.index[i])
     return idxs
@@ -171,7 +157,7 @@ def find_pivot_highs(high: pd.Series, n: int) -> List[pd.Timestamp]:
 
 def find_pivot_lows(low: pd.Series, n: int) -> List[pd.Timestamp]:
     """
-    Pivot low at i if low[i] is the strictly-unique min in [i-n, i+n].
+    Pivot low at i if low[i] is strictly-unique min in [i-n, i+n]
     """
     idxs: List[pd.Timestamp] = []
     if len(low) < 2 * n + 1:
@@ -183,7 +169,6 @@ def find_pivot_lows(low: pd.Series, n: int) -> List[pd.Timestamp]:
         m = np.nanmin(window)
         if np.isnan(m):
             continue
-        # strictly unique min
         if vals[i] == m and np.sum(window == m) == 1:
             idxs.append(low.index[i])
     return idxs
@@ -196,10 +181,13 @@ class PivotPoint:
     price: float
 
 
-def build_pivot_sequence(df: pd.DataFrame, pivot_n: int) -> Tuple[List[PivotPoint], List[pd.Timestamp], List[pd.Timestamp]]:
+def build_pivot_sequence(
+    df: pd.DataFrame,
+    pivot_n: int
+) -> Tuple[List[PivotPoint], List[pd.Timestamp], List[pd.Timestamp]]:
     """
     Returns:
-      - merged, time-ordered pivot sequence with alternation enforced (compressed)
+      - compressed, time-ordered pivot sequence (enforces alternation by compressing same-kind)
       - raw pivot high timestamps
       - raw pivot low timestamps
     """
@@ -218,9 +206,7 @@ def build_pivot_sequence(df: pd.DataFrame, pivot_n: int) -> Tuple[List[PivotPoin
 
     pts.sort(key=lambda p: p.ts)
 
-    # Compress consecutive same-kind pivots (noise):
-    # - For consecutive highs, keep the higher one
-    # - For consecutive lows, keep the lower one
+    # Compress consecutive same-kind pivots (noise)
     compressed: List[PivotPoint] = []
     for p in pts:
         if not compressed:
@@ -231,11 +217,11 @@ def build_pivot_sequence(df: pd.DataFrame, pivot_n: int) -> Tuple[List[PivotPoin
             compressed.append(p)
             continue
 
-        # same kind -> keep the more "extreme" pivot
+        # same kind: keep more extreme
         if p.kind == "H":
             if p.price > last.price:
                 compressed[-1] = p
-        else:  # "L"
+        else:
             if p.price < last.price:
                 compressed[-1] = p
 
@@ -243,18 +229,14 @@ def build_pivot_sequence(df: pd.DataFrame, pivot_n: int) -> Tuple[List[PivotPoin
 
 
 # -----------------------------
-# "Clean uptrend" logic (matches your desired pattern)
+# Trend quality helpers
 # -----------------------------
 
 def linear_slope(values: np.ndarray) -> float:
-    """
-    Returns slope of best-fit line y = a*x + b.
-    """
     if len(values) < 3:
         return 0.0
     x = np.arange(len(values), dtype=float)
     y = values.astype(float)
-    # handle NaNs
     mask = ~np.isnan(y)
     if mask.sum() < 3:
         return 0.0
@@ -265,17 +247,14 @@ def linear_slope(values: np.ndarray) -> float:
 
 
 def max_drawdown_pct(close: np.ndarray) -> float:
-    """
-    Max drawdown % over the series, in percent (positive number).
-    """
     if len(close) < 2:
         return 0.0
     c = close.astype(float)
-    # handle NaNs
     mask = ~np.isnan(c)
     if mask.sum() < 2:
         return 0.0
     c = c[mask]
+
     peak = -np.inf
     mdd = 0.0
     for v in c:
@@ -288,6 +267,10 @@ def max_drawdown_pct(close: np.ndarray) -> float:
     return float(mdd)
 
 
+# -----------------------------
+# Clean HH/HL uptrend definition
+# -----------------------------
+
 def is_clean_hh_hl_uptrend(
     df: pd.DataFrame,
     pivots: List[PivotPoint],
@@ -299,9 +282,6 @@ def is_clean_hh_hl_uptrend(
     require_positive_slope: bool,
     max_dd_cap_pct: Optional[float],
 ) -> Tuple[bool, Dict[str, Optional[float]]]:
-    """
-    Returns (passes, debug_metrics)
-    """
     if df is None or df.empty:
         return False, {}
 
@@ -316,7 +296,7 @@ def is_clean_hh_hl_uptrend(
     last_sma_fast = safe_float(window["SMA_FAST"].iloc[-1])
     last_sma_slow = safe_float(window["SMA_SLOW"].iloc[-1])
 
-    # pivot points that fall inside the window
+    # pivots within structure window
     start_ts = window.index[0]
     end_ts = window.index[-1]
     pts = [p for p in pivots if start_ts <= p.ts <= end_ts]
@@ -330,23 +310,19 @@ def is_clean_hh_hl_uptrend(
             "structure_low_pivots": float(len(lows)),
         }
 
-    # Need alternation and a meaningful sequence length
-    # (At least 2*min_pivots_per_side points is a good minimum)
     if len(pts) < 2 * min_pivots_per_side:
-        return False, {
-            "structure_points": float(len(pts)),
-        }
+        return False, {"structure_points": float(len(pts))}
 
-    # Verify alternation in the pivot stream (after compression already)
+    # alternation check
     for i in range(1, len(pts)):
         if pts[i].kind == pts[i - 1].kind:
             return False, {"pivot_alternation_ok": 0.0}
 
-    # Verify HH chain: every successive pivot high is higher
+    # HH chain
     high_prices = [p.price for p in highs]
     hh_chain_ok = all(high_prices[i] > high_prices[i - 1] for i in range(1, len(high_prices)))
 
-    # Verify HL chain: every successive pivot low is higher
+    # HL chain
     low_prices = [p.price for p in lows]
     hl_chain_ok = all(low_prices[i] > low_prices[i - 1] for i in range(1, len(low_prices)))
 
@@ -356,7 +332,7 @@ def is_clean_hh_hl_uptrend(
             "hl_chain_ok": 1.0 if hl_chain_ok else 0.0,
         }
 
-    # Trend filter (strongly recommended for "no downtrend in this period")
+    # SMA gate
     sma_ok = True
     if require_sma_trend:
         sma_ok = (
@@ -374,15 +350,12 @@ def is_clean_hh_hl_uptrend(
                 "last_sma_slow": last_sma_slow,
             }
 
-    # Positive slope of closes across the whole window
-    slope_ok = True
+    # slope gate
     slope = linear_slope(window["Close"].values)
-    if require_positive_slope:
-        slope_ok = slope > 0
-        if not slope_ok:
-            return False, {"close_slope": slope, "slope_ok": 0.0}
+    if require_positive_slope and not (slope > 0):
+        return False, {"close_slope": slope, "slope_ok": 0.0}
 
-    # Optional: cap max drawdown inside the window (filters "downtrend legs")
+    # drawdown cap
     dd = max_drawdown_pct(window["Close"].values)
     if max_dd_cap_pct is not None and dd > max_dd_cap_pct:
         return False, {"max_drawdown_pct": dd, "max_dd_ok": 0.0}
@@ -403,54 +376,68 @@ def is_clean_hh_hl_uptrend(
 
 
 # -----------------------------
-# Main scan per ticker
+# Entry signal logic (your circled setup)
 # -----------------------------
 
-def scan_one(
-    ticker: str,
-    data: pd.DataFrame,
-    args: argparse.Namespace,
-) -> Optional[Dict]:
+def compute_entry_signal(
+    last_close: Optional[float],
+    last_hh: Optional[float],
+    last_hl: Optional[float],
+    min_above_hl_pct: float,
+    max_above_hl_pct: float,
+    max_below_hh_pct: float,
+) -> Tuple[bool, Optional[float], Optional[float], bool, bool]:
+    """
+    Returns:
+      entry_signal, support_distance_pct, breakout_distance_pct, at_hl_zone, coiled_below_hh
+    """
+    if last_close is None or last_hh is None or last_hl is None or last_hl <= 0 or last_hh <= 0:
+        return False, None, None, False, False
+
+    # how far above HL we are
+    support_distance_pct = (last_close - last_hl) / last_hl * 100.0
+
+    # how far below HH we are (negative = already above HH)
+    breakout_distance_pct = (last_hh - last_close) / last_hh * 100.0
+
+    at_hl_zone = (support_distance_pct >= min_above_hl_pct) and (support_distance_pct <= max_above_hl_pct)
+    coiled_below_hh = (breakout_distance_pct > 0) and (breakout_distance_pct <= max_below_hh_pct)
+
+    entry_signal = bool(at_hl_zone and coiled_below_hh)
+    return entry_signal, support_distance_pct, breakout_distance_pct, at_hl_zone, coiled_below_hh
+
+
+# -----------------------------
+# Scan per ticker
+# -----------------------------
+
+def scan_one(ticker: str, data: pd.DataFrame, args: argparse.Namespace) -> Optional[Dict]:
     df = extract_ticker_df(data, ticker)
     if df is None or df.empty:
         return None
 
-    # Drop rows with missing core OHLC
     df = df.dropna(subset=["Open", "High", "Low", "Close"]).copy()
     if df.empty:
         return None
 
-    # Restrict to last max_trading_days
+    # Keep last max_trading_days
     df = df.tail(args.max_trading_days).copy()
     if len(df) < max(10, args.structure_bars // 2):
         return None
 
-    # Pivots (on trimmed df)
+    # pivots
     pivot_seq, raw_highs, raw_lows = build_pivot_sequence(df, args.pivot)
 
-    # Legacy HH/HL check (kept for reference)
-    has_hh = False
-    has_hl = False
-    last_high_1 = last_high_2 = None
-    last_low_1 = last_low_2 = None
+    # Last two raw pivots (for last HH/HL levels)
+    last_hh = None
+    last_hl = None
 
-    if len(raw_highs) >= 2:
-        h1, h2 = raw_highs[-2], raw_highs[-1]
-        last_high_1 = safe_float(df.at[h1, "High"])
-        last_high_2 = safe_float(df.at[h2, "High"])
-        if last_high_1 is not None and last_high_2 is not None:
-            has_hh = last_high_2 > last_high_1
+    if len(raw_highs) >= 1:
+        last_hh = safe_float(df.at[raw_highs[-1], "High"])
+    if len(raw_lows) >= 1:
+        last_hl = safe_float(df.at[raw_lows[-1], "Low"])
 
-    if len(raw_lows) >= 2:
-        l1, l2 = raw_lows[-2], raw_lows[-1]
-        last_low_1 = safe_float(df.at[l1, "Low"])
-        last_low_2 = safe_float(df.at[l2, "Low"])
-        if last_low_1 is not None and last_low_2 is not None:
-            has_hl = last_low_2 > last_low_1
-
-    legacy_has_hh_hl = bool(has_hh and has_hl)
-
-    # Clean uptrend gate (your desired pattern)
+    # clean trend gate
     clean_ok, metrics = is_clean_hh_hl_uptrend(
         df=df,
         pivots=pivot_seq,
@@ -463,90 +450,86 @@ def scan_one(
         max_dd_cap_pct=None if args.max_drawdown_pct <= 0 else args.max_drawdown_pct,
     )
 
-    # SMA flags for output
+    # SMA last values
     df["SMA_FAST"] = df["Close"].rolling(args.sma_fast).mean()
     df["SMA_SLOW"] = df["Close"].rolling(args.sma_slow).mean()
     last_close = safe_float(df["Close"].iloc[-1])
     sma_fast_last = safe_float(df["SMA_FAST"].iloc[-1])
     sma_slow_last = safe_float(df["SMA_SLOW"].iloc[-1])
-
     sma_fast_gt_slow = None
     if sma_fast_last is not None and sma_slow_last is not None:
         sma_fast_gt_slow = bool(sma_fast_last > sma_slow_last)
 
-    # Correction fields (same spirit as your original)
-    pullback_pct = None
-    above_support_pct = None
-    correction_started = False
+    # entry signal (only meaningful if clean trend already true)
+    entry_signal = False
+    support_distance_pct = None
+    breakout_distance_pct = None
+    at_hl_zone = False
+    coiled_below_hh = False
+
+    if clean_ok:
+        entry_signal, support_distance_pct, breakout_distance_pct, at_hl_zone, coiled_below_hh = compute_entry_signal(
+            last_close=last_close,
+            last_hh=last_hh,
+            last_hl=last_hl,
+            min_above_hl_pct=args.min_above_hl_pct,
+            max_above_hl_pct=args.max_above_hl_pct,
+            max_below_hh_pct=args.max_below_hh_pct,
+        )
+
+    # basic correction context (optional)
     correction_stage = "none"
-    near_support = False
-    near_breakout = False
+    pullback_pct = None
+    if last_close is not None and last_hh is not None and last_hh > 0:
+        pullback_pct = (last_hh - last_close) / last_hh * 100.0
+        if pullback_pct < 0:
+            correction_stage = "breakout"
+        elif pullback_pct <= 3:
+            correction_stage = "early"
+        elif pullback_pct <= 7:
+            correction_stage = "healthy"
+        elif pullback_pct <= 12:
+            correction_stage = "deep"
+        else:
+            correction_stage = "invalid"
 
-    if last_close is not None and last_high_2 is not None and last_low_2 is not None:
-        if last_high_2 > 0:
-            pullback_pct = (last_high_2 - last_close) / last_high_2 * 100.0
-        if last_low_2 > 0:
-            above_support_pct = (last_close - last_low_2) / last_low_2 * 100.0
-
-        if last_low_2 <= last_close <= last_high_2:
-            correction_started = True
-
-        if pullback_pct is not None:
-            if pullback_pct < 0:
-                correction_stage = "breakout"
-            elif pullback_pct <= 3:
-                correction_stage = "early"
-            elif pullback_pct <= 7:
-                correction_stage = "healthy"
-            elif pullback_pct <= 12:
-                correction_stage = "deep"
-            else:
-                correction_stage = "invalid"
-
-        if above_support_pct is not None:
-            near_support = bool(above_support_pct <= args.near_support_pct)
-
-        if last_high_2 is not None and last_close is not None and last_high_2 > 0:
-            dist_to_breakout_pct = (last_high_2 - last_close) / last_high_2 * 100.0
-            near_breakout = bool(dist_to_breakout_pct <= args.near_breakout_pct)
-
-    # Output record
     last_date = str(df.index[-1].date()) if len(df.index) else None
 
     return {
         "ticker": ticker,
-        # This is now the "clean pattern" flag you want:
-        "has_hh_hl": bool(clean_ok),
-
-        # keep legacy flags for debugging / comparison
-        "legacy_has_hh_hl": bool(legacy_has_hh_hl),
-        "legacy_has_hh": bool(has_hh),
-        "legacy_has_hl": bool(has_hl),
-
         "last_date": last_date,
         "last_close": last_close,
 
-        "last_high_1": last_high_1,
-        "last_high_2": last_high_2,
-        "last_low_1": last_low_1,
-        "last_low_2": last_low_2,
+        # Trend qualification
+        "has_hh_hl": bool(clean_ok),
+        "structure_bars": args.structure_bars,
+        "min_pivots_per_side": args.min_pivots_per_side,
 
+        # Levels used for entry decision
+        "last_hh": last_hh,
+        "last_hl": last_hl,
+
+        # Entry setup flags (THIS is what you filter on)
+        "entry_signal": bool(entry_signal),
+        "at_hl_zone": bool(at_hl_zone),
+        "coiled_below_hh": bool(coiled_below_hh),
+
+        # Distances (for tuning/sorting)
+        "support_distance_pct": support_distance_pct,   # % above HL
+        "breakout_distance_pct": breakout_distance_pct, # % below HH (>0 means below)
+
+        # Context
         "pullback_pct": pullback_pct,
-        "above_support_pct": above_support_pct,
-        "correction_started": bool(correction_started),
         "correction_stage": correction_stage,
-        "near_support": bool(near_support),
-        "near_breakout": bool(near_breakout),
 
+        # SMA info
         "sma_fast": args.sma_fast,
         "sma_slow": args.sma_slow,
         "sma_fast_last": sma_fast_last,
         "sma_slow_last": sma_slow_last,
         "sma_fast_gt_slow": sma_fast_gt_slow,
 
-        # Debug metrics explaining why it passed/failed your "clean trend" definition
-        "structure_bars": args.structure_bars,
-        "min_pivots_per_side": args.min_pivots_per_side,
+        # Debug metrics for why trend passed/failed
         **{f"metric_{k}": v for k, v in metrics.items()},
     }
 
@@ -556,34 +539,31 @@ def scan_one(
 # -----------------------------
 
 def parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="Clean HH/HL Uptrend Scanner (DAILY)")
+    p = argparse.ArgumentParser(description="Entry Signal Scanner (Clean HH/HL + Pullback-to-HL + Coil-under-HH)")
 
-    p.add_argument("--tickers_file", default="nifty.txt", help="Text file with tickers, one per line")
-    p.add_argument("--out", default="output/hh_hl.json", help="Output JSON file path")
+    p.add_argument("--tickers_file", default="tickers.txt", help="Text file with tickers, one per line")
+    p.add_argument("--out", default="output/entry_signals.json", help="Output JSON file path")
 
-    # Download window
-    p.add_argument("--last_days", type=int, default=80, help="Calendar days to download (bigger helps for pivots)")
-    p.add_argument("--max_trading_days", type=int, default=60, help="Keep last N trading days after download")
+    # download/truncate
+    p.add_argument("--last_days", type=int, default=120, help="Calendar days to download")
+    p.add_argument("--max_trading_days", type=int, default=80, help="Keep last N trading days after download")
 
-    # Pivot detection
-    p.add_argument("--pivot", type=int, default=3, help="Pivot window n: uses [i-n..i+n]. Try 3 for cleaner swings")
+    # pivots & structure window
+    p.add_argument("--pivot", type=int, default=3, help="Pivot window n (uses [i-n..i+n])")
+    p.add_argument("--structure_bars", type=int, default=35, help="Bars used to validate clean uptrend")
+    p.add_argument("--min_pivots_per_side", type=int, default=3, help="Min pivot highs and lows within structure window")
 
-    # Clean structure requirements (your pattern)
-    p.add_argument("--structure_bars", type=int, default=35, help="Bars to evaluate 'continuous uptrend' structure")
-    p.add_argument("--min_pivots_per_side", type=int, default=3, help="Min pivot highs and pivot lows within structure window")
-
-    # Trend filters
+    # trend filters
     p.add_argument("--sma_fast", type=int, default=10, help="Fast SMA")
     p.add_argument("--sma_slow", type=int, default=20, help="Slow SMA")
     p.add_argument("--disable_sma_gate", action="store_true", help="Disable SMA gate (fast>slow and close>slow)")
     p.add_argument("--disable_slope_gate", action="store_true", help="Disable positive close slope requirement")
-
-    # Strictness: max drawdown cap in last structure_bars (set <=0 to disable)
     p.add_argument("--max_drawdown_pct", type=float, default=12.0, help="Max drawdown %% allowed in structure window (<=0 disables)")
 
-    # Near flags
-    p.add_argument("--near_support_pct", type=float, default=3.0, help="Near support if within this %% above last pivot low")
-    p.add_argument("--near_breakout_pct", type=float, default=2.0, help="Near breakout if within this %% below last pivot high")
+    # entry setup tuning (HL zone + HH proximity)
+    p.add_argument("--min_above_hl_pct", type=float, default=0.5, help="Min %% above HL to qualify as 'at HL' (avoid breakdown)")
+    p.add_argument("--max_above_hl_pct", type=float, default=4.0, help="Max %% above HL to qualify as 'at HL'")
+    p.add_argument("--max_below_hh_pct", type=float, default=5.0, help="Max %% below HH to be considered 'coiled for breakout'")
 
     return p.parse_args()
 
@@ -593,13 +573,11 @@ def main() -> int:
 
     tickers = read_tickers(args.tickers_file)
     if not tickers:
-        print("No tickers found in tickers file.", file=sys.stderr)
+        print("No tickers found.", file=sys.stderr)
         return 2
 
-    # Download (batch)
     data = yf.download(
         tickers=tickers,
-        period=None,
         start=pd.Timestamp.today(tz="UTC") - pd.Timedelta(days=int(args.last_days)),
         interval="1d",
         auto_adjust=True,
@@ -615,26 +593,25 @@ def main() -> int:
             if rec is not None:
                 rows.append(rec)
         except Exception as e:
-            # Keep going; record error row (optional)
-            rows.append({"ticker": t, "has_hh_hl": False, "error": str(e)})
+            rows.append({"ticker": t, "has_hh_hl": False, "entry_signal": False, "error": str(e)})
 
     df = pd.DataFrame(rows)
 
-    # Sort: clean trend first, then corrections/near flags
-    if not df.empty and "has_hh_hl" in df.columns:
-        df["has_hh_hl"] = df["has_hh_hl"].fillna(False).astype(bool)
-        if "correction_started" in df.columns:
-            df["correction_started"] = df["correction_started"].fillna(False).astype(bool)
-        if "near_support" in df.columns:
-            df["near_support"] = df["near_support"].fillna(False).astype(bool)
-        if "near_breakout" in df.columns:
-            df["near_breakout"] = df["near_breakout"].fillna(False).astype(bool)
+    # sort: entry setups first, then clean trends
+    if not df.empty:
+        for c in ["entry_signal", "has_hh_hl", "at_hl_zone", "coiled_below_hh"]:
+            if c in df.columns:
+                df[c] = df[c].fillna(False).astype(bool)
 
-        sort_cols = ["has_hh_hl", "correction_started", "near_support", "near_breakout", "last_date"]
-        ascending = [False, False, False, False, False]
+        # Prefer smallest breakout_distance_pct (closest to HH) among entry signals
+        if "breakout_distance_pct" in df.columns:
+            df["breakout_distance_pct"] = pd.to_numeric(df["breakout_distance_pct"], errors="coerce")
+
+        sort_cols = ["entry_signal", "has_hh_hl", "at_hl_zone", "coiled_below_hh", "breakout_distance_pct", "last_date"]
         existing = [c for c in sort_cols if c in df.columns]
         if existing:
-            df = df.sort_values(by=existing, ascending=ascending[: len(existing)], kind="mergesort")
+            ascending = [False, False, False, False, True, False][: len(existing)]
+            df = df.sort_values(by=existing, ascending=ascending, kind="mergesort")
 
     payload = {
         "meta": {
@@ -649,11 +626,13 @@ def main() -> int:
             "disable_sma_gate": bool(args.disable_sma_gate),
             "disable_slope_gate": bool(args.disable_slope_gate),
             "max_drawdown_pct": args.max_drawdown_pct,
-            "near_support_pct": args.near_support_pct,
-            "near_breakout_pct": args.near_breakout_pct,
+            "min_above_hl_pct": args.min_above_hl_pct,
+            "max_above_hl_pct": args.max_above_hl_pct,
+            "max_below_hh_pct": args.max_below_hh_pct,
         },
         "count": int(len(df)),
-        "count_hhhl_clean": int(df["has_hh_hl"].sum()) if (not df.empty and "has_hh_hl" in df.columns) else 0,
+        "count_clean_trend": int(df["has_hh_hl"].sum()) if (not df.empty and "has_hh_hl" in df.columns) else 0,
+        "count_entry_signal": int(df["entry_signal"].sum()) if (not df.empty and "entry_signal" in df.columns) else 0,
         "data": df.to_dict(orient="records") if not df.empty else [],
     }
 
@@ -662,25 +641,21 @@ def main() -> int:
         os.makedirs(out_dir, exist_ok=True)
 
     payload_clean = json_sanitize(payload)
-
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump(payload_clean, f, indent=2, allow_nan=False)
 
-
     print(f"\nSaved: {args.out}")
+
     if df.empty:
         print("No results.")
         return 0
 
-    # Preview
+    # quick preview
     preview_cols = [
-        "ticker", "has_hh_hl",
-        "legacy_has_hh_hl",
-        "metric_structure_high_pivots", "metric_structure_low_pivots",
-        "metric_close_slope", "metric_max_drawdown_pct",
-        "correction_stage", "pullback_pct", "above_support_pct",
-        "near_support", "near_breakout",
-        "sma_fast_gt_slow", "last_close",
+        "ticker", "entry_signal", "has_hh_hl",
+        "support_distance_pct", "breakout_distance_pct",
+        "at_hl_zone", "coiled_below_hh",
+        "last_close", "last_hl", "last_hh",
     ]
     preview_cols = [c for c in preview_cols if c in df.columns]
     print("\nPreview (top 25):")

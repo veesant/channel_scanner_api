@@ -4,6 +4,20 @@ on:
   schedule:
     - cron: "30 20 * * 6"   # Saturday 3:30 PM EST (20:30 UTC)
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "What to run"
+        required: true
+        default: "all"
+        type: choice
+        options:
+          - entry_only
+          - all
+          - corr_wl
+          - sideways
+          - downtoup
+          - bullflag
+          - catchall
 
 permissions:
   contents: write
@@ -31,39 +45,45 @@ jobs:
           mkdir -p api api/entry api/corrwl api/sidetoup api/downtoup api/bullishflag api/catchall
 
       # --------------------
-      # Entry Signal tab for all three exchanges - Trend percentage
+      # Entry Signal tab
+      # Runs in: schedule, all, entry_only
       # --------------------
       - name: Run Entry Signal Nifty50
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'entry_only' }}
         run: |
           python scanners/entry_sig_scanner.py \
             --tickers_file data/nifty50.txt \
             --out api/entry/nifty50.json
 
       - name: Run Entry Signal NASDAQ
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'entry_only' }}
         run: |
           python scanners/entry_sig_scanner.py \
             --tickers_file data/nasdaq100.txt \
             --out api/entry/nasdaq.json
 
       - name: Run Entry Signal Russel
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'entry_only' }}
         run: |
           python scanners/entry_sig_scanner.py \
             --tickers_file data/russel.txt \
             --out api/entry/russel.json
 
       # --------------------
-      # Correction Watchlist tab for all three exchanges - Correction Watchlist
+      # Correction Watchlist tab
+      # Runs in: schedule, all, corr_wl
       # --------------------
-
-      - name: Run Entry Signal Nifty50
+      - name: Run Correction Watchlist Nifty50
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'corr_wl' }}
         run: |
           python scanners/correction_watchlist_scanner.py \
             --tickers_file data/nifty50.txt \
             --tf 1d --pivot_strength 2 --min_hh 3 --min_hl 3 --min_pullback_pct 3 \
             --corr_bars_min 3 --corr_bars_max 12 --only_watchlist \
             --out api/corrwl/nifty50.json
-  
-      - name: Run Entry Signal NASDAQ
+
+      - name: Run Correction Watchlist NASDAQ
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'corr_wl' }}
         run: |
           python scanners/correction_watchlist_scanner.py \
             --tickers_file data/nasdaq100.txt \
@@ -71,7 +91,8 @@ jobs:
             --corr_bars_min 3 --corr_bars_max 12 --only_watchlist \
             --out api/corrwl/nasdaq.json
 
-      - name: Run Entry Signal Russel
+      - name: Run Correction Watchlist Russel
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'corr_wl' }}
         run: |
           python scanners/correction_watchlist_scanner.py \
             --tickers_file data/russel.txt \
@@ -80,10 +101,11 @@ jobs:
             --out api/corrwl/russel.json
 
       # --------------------
-      # Sideways to UP trend tab for all three exchanges
+      # Sideways to UP trend
+      # Runs in: schedule, all, sideways
       # --------------------
-
       - name: Run Sideways scan (NIFTY50)
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'sideways' }}
         run: |
           python scanners/side_to_up_scanner.py \
             --tickers_file data/nifty50.txt \
@@ -94,6 +116,7 @@ jobs:
             --out api/sidetoup/nifty50.json
 
       - name: Run Sideways scan (NASDAQ)
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'sideways' }}
         run: |
           python scanners/side_to_up_scanner.py \
             --tickers_file data/nasdaq100.txt \
@@ -104,6 +127,7 @@ jobs:
             --out api/sidetoup/nasdaq.json
 
       - name: Run Sideways scan (Russel)
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'sideways' }}
         run: |
           python scanners/side_to_up_scanner.py \
             --tickers_file data/russel.txt \
@@ -114,10 +138,11 @@ jobs:
             --out api/sidetoup/russel.json
 
       # --------------------
-      # Down to UP trend tab for all three exchanges
+      # Down to UP trend
+      # Runs in: schedule, all, downtoup
       # --------------------
-
       - name: Run reversal scanner - Nifty
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'downtoup' }}
         run: |
           python scanners/down_to_up_scanner.py \
             --tickers_file data/nifty50.txt \
@@ -128,6 +153,7 @@ jobs:
             --out api/downtoup/nifty50.json
 
       - name: Run reversal scanner - NASDAQ
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'downtoup' }}
         run: |
           python scanners/down_to_up_scanner.py \
             --tickers_file data/nasdaq100.txt \
@@ -138,6 +164,7 @@ jobs:
             --out api/downtoup/nasdaq.json
 
       - name: Run reversal scanner - Russel
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'downtoup' }}
         run: |
           python scanners/down_to_up_scanner.py \
             --tickers_file data/russel.txt \
@@ -149,21 +176,24 @@ jobs:
 
       # --------------------
       # Bullish Flag
+      # Runs in: schedule, all, bullflag
       # --------------------
-
       - name: Run Bullish flag - Nifty
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'bullflag' }}
         run: |
           python scanners/bull_flag_scanner.py \
             --tickers_file data/nifty50.txt \
             --out api/bullishflag/nifty50.json
 
       - name: Run Bullish flag - NASDAQ
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'bullflag' }}
         run: |
           python scanners/bull_flag_scanner.py \
             --tickers_file data/nasdaq100.txt \
             --out api/bullishflag/nasdaq.json
 
       - name: Run Bullish flag - Russel
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'bullflag' }}
         run: |
           python scanners/bull_flag_scanner.py \
             --tickers_file data/russel.txt \
@@ -171,30 +201,34 @@ jobs:
 
       # --------------------
       # Catch-all tab
+      # Runs in: schedule, all, catchall
       # --------------------
-
       - name: Run Catchall - Nifty
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'catchall' }}
         run: |
           python scanners/catchall_scanner.py \
             --tickers_file data/nifty50.txt \
             --out api/catchall/nifty50.json
 
       - name: Run Catchall - NASDAQ
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'catchall' }}
         run: |
           python scanners/catchall_scanner.py \
             --tickers_file data/nasdaq100.txt \
             --out api/catchall/nasdaq.json
 
       - name: Run Catchall - Russel
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'catchall' }}
         run: |
           python scanners/catchall_scanner.py \
             --tickers_file data/russel.txt \
             --out api/catchall/russel.json
 
       # -----------------------------
-      # Commit & Push
+      # Commit & Push (run when something ran)
       # -----------------------------
       - name: Commit & push API updates
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'entry_only' || github.event.inputs.mode == 'corr_wl' || github.event.inputs.mode == 'sideways' || github.event.inputs.mode == 'downtoup' || github.event.inputs.mode == 'bullflag' || github.event.inputs.mode == 'catchall' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -210,16 +244,14 @@ jobs:
           git push
 
       - name: Publish API JSON to gh-pages
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'entry_only' || github.event.inputs.mode == 'corr_wl' || github.event.inputs.mode == 'sideways' || github.event.inputs.mode == 'downtoup' || github.event.inputs.mode == 'bullflag' || github.event.inputs.mode == 'catchall' }}
         run: |
-          # Save generated files somewhere temporary
           mkdir -p /tmp/api_out
           cp -r api /tmp/api_out/
 
-          # Switch to gh-pages branch
           git fetch origin gh-pages
           git checkout gh-pages
 
-          # Copy files into gh-pages branch (root)
           mkdir -p api
           cp -r /tmp/api_out/api/* api/
 
