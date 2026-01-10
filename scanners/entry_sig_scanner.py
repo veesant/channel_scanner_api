@@ -1,27 +1,24 @@
 #!/usr/bin/env python3
 """
-Entry Signal Scanner (DAILY) - Clean HH/HL + Pullback-to-HL + Coil-under-HH
+Entry Signal Scanner (DAILY)
+- Detects clean HH/HL uptrends using pivot-based market structure
+- Flags "entry setups" when price is near HL and coiled below HH
 
-What it detects (your circled setup):
-1) Clean uptrend structure over last N bars:
-   - pivots alternate L/H/L/H...
-   - all pivot highs rising (HH chain)
-   - all pivot lows rising (HL chain)
-2) Current price is near the latest HL (pullback holding support)
-3) Current price is not far below latest HH (coiled for breakout)
-
-Output:
-- JSON file with fields:
-  - has_hh_hl: clean uptrend pass/fail
-  - entry_signal: TRUE = your desired “at HL with breakout potential” setup
-  - at_hl_zone, coiled_below_hh: explain why entry_signal is true
-  - support_distance_pct, breakout_distance_pct: numeric distances
+MODIFICATION IN THIS VERSION:
+✅ Outputs BOTH:
+   - pivot_last_hh / pivot_last_hl  (pivot-based swing levels)
+   - range_hh / range_hl            (highest/lowest in last structure_bars; TradingView-style)
+✅ Optional switch to use range levels for entry calculations:
+   --use_range_levels_for_entry
 
 Install:
   pip install yfinance pandas numpy
 
 Run:
-  python entry_signal_scanner.py --tickers_file data/tickers.txt --out output/entry_signals.json
+  python entry_signal_scanner.py --tickers_file data/nasdaq100.txt --out output/entry_signals.json
+
+Use range levels for entry (matches your red/green lines better):
+  python entry_signal_scanner.py --tickers_file data/nasdaq100.txt --use_range_levels_for_entry --out output/entry_signals.json
 """
 
 from __future__ import annotations
@@ -187,7 +184,7 @@ def build_pivot_sequence(
 ) -> Tuple[List[PivotPoint], List[pd.Timestamp], List[pd.Timestamp]]:
     """
     Returns:
-      - compressed, time-ordered pivot sequence (enforces alternation by compressing same-kind)
+      - compressed, time-ordered pivot sequence
       - raw pivot high timestamps
       - raw pivot low timestamps
     """
@@ -376,7 +373,7 @@ def is_clean_hh_hl_uptrend(
 
 
 # -----------------------------
-# Entry signal logic (your circled setup)
+# Entry signal logic
 # -----------------------------
 
 def compute_entry_signal(
@@ -394,10 +391,7 @@ def compute_entry_signal(
     if last_close is None or last_hh is None or last_hl is None or last_hl <= 0 or last_hh <= 0:
         return False, None, None, False, False
 
-    # how far above HL we are
     support_distance_pct = (last_close - last_hl) / last_hl * 100.0
-
-    # how far below HH we are (negative = already above HH)
     breakout_distance_pct = (last_hh - last_close) / last_hh * 100.0
 
     at_hl_zone = (support_distance_pct >= min_above_hl_pct) and (support_distance_pct <= max_above_hl_pct)
@@ -425,19 +419,23 @@ def scan_one(ticker: str, data: pd.DataFrame, args: argparse.Namespace) -> Optio
     if len(df) < max(10, args.structure_bars // 2):
         return None
 
+    # --- TradingView-style range levels over structure window ---
+    w = df.tail(args.structure_bars)
+    range_hh = safe_float(w["High"].max())  # highest high in last structure_bars
+    range_hl = safe_float(w["Low"].min())   # lowest low in last structure_bars
+
     # pivots
     pivot_seq, raw_highs, raw_lows = build_pivot_sequence(df, args.pivot)
 
-    # Last two raw pivots (for last HH/HL levels)
-    last_hh = None
-    last_hl = None
-
+    # --- Pivot-based levels (latest confirmed pivot high/low) ---
+    pivot_last_hh = None
+    pivot_last_hl = None
     if len(raw_highs) >= 1:
-        last_hh = safe_float(df.at[raw_highs[-1], "High"])
+        pivot_last_hh = safe_float(df.at[raw_highs[-1], "High"])
     if len(raw_lows) >= 1:
-        last_hl = safe_float(df.at[raw_lows[-1], "Low"])
+        pivot_last_hl = safe_float(df.at[raw_lows[-1], "Low"])
 
-    # clean trend gate
+    # clean trend gate (structure)
     clean_ok, metrics = is_clean_hh_hl_uptrend(
         df=df,
         pivots=pivot_seq,
@@ -460,6 +458,18 @@ def scan_one(ticker: str, data: pd.DataFrame, args: argparse.Namespace) -> Optio
     if sma_fast_last is not None and sma_slow_last is not None:
         sma_fast_gt_slow = bool(sma_fast_last > sma_slow_last)
 
+    # --- Which levels should ENTRY use? ---
+    # Default: pivot-based (market-structure swings)
+    # Optional: range-based (TradingView-style lines)
+    entry_last_hh = pivot_last_hh
+    entry_last_hl = pivot_last_hl
+    entry_level_source = "pivot"
+
+    if args.use_range_levels_for_entry:
+        entry_last_hh = range_hh
+        entry_last_hl = range_hl
+        entry_level_source = "range"
+
     # entry signal (only meaningful if clean trend already true)
     entry_signal = False
     support_distance_pct = None
@@ -470,18 +480,18 @@ def scan_one(ticker: str, data: pd.DataFrame, args: argparse.Namespace) -> Optio
     if clean_ok:
         entry_signal, support_distance_pct, breakout_distance_pct, at_hl_zone, coiled_below_hh = compute_entry_signal(
             last_close=last_close,
-            last_hh=last_hh,
-            last_hl=last_hl,
+            last_hh=entry_last_hh,
+            last_hl=entry_last_hl,
             min_above_hl_pct=args.min_above_hl_pct,
             max_above_hl_pct=args.max_above_hl_pct,
             max_below_hh_pct=args.max_below_hh_pct,
         )
 
-    # basic correction context (optional)
+    # context
     correction_stage = "none"
     pullback_pct = None
-    if last_close is not None and last_hh is not None and last_hh > 0:
-        pullback_pct = (last_hh - last_close) / last_hh * 100.0
+    if last_close is not None and entry_last_hh is not None and entry_last_hh > 0:
+        pullback_pct = (entry_last_hh - last_close) / entry_last_hh * 100.0
         if pullback_pct < 0:
             correction_stage = "breakout"
         elif pullback_pct <= 3:
@@ -500,16 +510,23 @@ def scan_one(ticker: str, data: pd.DataFrame, args: argparse.Namespace) -> Optio
         "last_date": last_date,
         "last_close": last_close,
 
-        # Trend qualification
+        # Trend qualification (structure)
         "has_hh_hl": bool(clean_ok),
         "structure_bars": args.structure_bars,
         "min_pivots_per_side": args.min_pivots_per_side,
 
-        # Levels used for entry decision
-        "last_hh": last_hh,
-        "last_hl": last_hl,
+        # OUTPUT BOTH TYPES OF LEVELS (to avoid confusion)
+        "pivot_last_hh": pivot_last_hh,
+        "pivot_last_hl": pivot_last_hl,
+        "range_hh": range_hh,
+        "range_hl": range_hl,
 
-        # Entry setup flags (THIS is what you filter on)
+        # ENTRY LEVELS USED (kept compatible: last_hh/last_hl)
+        "entry_level_source": entry_level_source,  # "pivot" or "range"
+        "last_hh": entry_last_hh,
+        "last_hl": entry_last_hl,
+
+        # Entry setup flags
         "entry_signal": bool(entry_signal),
         "at_hl_zone": bool(at_hl_zone),
         "coiled_below_hh": bool(coiled_below_hh),
@@ -565,6 +582,13 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--max_above_hl_pct", type=float, default=4.0, help="Max %% above HL to qualify as 'at HL'")
     p.add_argument("--max_below_hh_pct", type=float, default=5.0, help="Max %% below HH to be considered 'coiled for breakout'")
 
+    # NEW: entry levels source
+    p.add_argument(
+        "--use_range_levels_for_entry",
+        action="store_true",
+        help="Use range_hh/range_hl (highest/lowest in last structure_bars) as last_hh/last_hl for entry distances"
+    )
+
     return p.parse_args()
 
 
@@ -603,7 +627,6 @@ def main() -> int:
             if c in df.columns:
                 df[c] = df[c].fillna(False).astype(bool)
 
-        # Prefer smallest breakout_distance_pct (closest to HH) among entry signals
         if "breakout_distance_pct" in df.columns:
             df["breakout_distance_pct"] = pd.to_numeric(df["breakout_distance_pct"], errors="coerce")
 
@@ -629,6 +652,7 @@ def main() -> int:
             "min_above_hl_pct": args.min_above_hl_pct,
             "max_above_hl_pct": args.max_above_hl_pct,
             "max_below_hh_pct": args.max_below_hh_pct,
+            "use_range_levels_for_entry": bool(args.use_range_levels_for_entry),
         },
         "count": int(len(df)),
         "count_clean_trend": int(df["has_hh_hl"].sum()) if (not df.empty and "has_hh_hl" in df.columns) else 0,
@@ -650,12 +674,13 @@ def main() -> int:
         print("No results.")
         return 0
 
-    # quick preview
     preview_cols = [
         "ticker", "entry_signal", "has_hh_hl",
+        "entry_level_source",
         "support_distance_pct", "breakout_distance_pct",
-        "at_hl_zone", "coiled_below_hh",
-        "last_close", "last_hl", "last_hh",
+        "pivot_last_hl", "range_hl", "last_hl",
+        "pivot_last_hh", "range_hh", "last_hh",
+        "last_close",
     ]
     preview_cols = [c for c in preview_cols if c in df.columns]
     print("\nPreview (top 25):")
