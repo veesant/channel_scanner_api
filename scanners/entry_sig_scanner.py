@@ -2,24 +2,14 @@
 """
 Entry Signal Scanner (DAILY) — Range-HL Touch + Bounce Entry
 
-Your requested behavior (when --use_range_levels_for_entry is ON):
-- range_hl = lowest LOW in last structure_bars
-- at_hl_zone = TRUE if today's LOW "almost touched" range_hl (within hl_touch_pct)
-- entry_signal = TRUE if:
-    has_hh_hl (clean HH/HL uptrend using pivot-structure)
-    AND at_hl_zone
-    AND bounce_ok (close is at least bounce_min_pct above range_hl)
-    AND momentum_ok (close > open OR close > prev_close)
+(Existing behavior unchanged.)
 
-IMPORTANT:
-- We do NOT require being close to range_hh (no "coiled under HH" condition).
-- This matches: "I only care current price is closer to range_hl; and if it bounces up a bit, entry_signal true."
+ADDED (non-breaking):
+- recent_hl_uptrend: checks last N pivot LOWS (HLs) are rising and slope > threshold
+- Outputs extra JSON fields only (no removals, no logic changes to existing flags)
 
 Install:
   pip install yfinance pandas numpy
-
-Example one-liner:
-  python entry_signal_scanner.py --tickers_file data/nasdaq100.txt --use_range_levels_for_entry --hl_touch_pct 0.6 --bounce_min_pct 0.3 --out output/entry_signals.json
 """
 
 from __future__ import annotations
@@ -367,6 +357,101 @@ def pct_above(level: Optional[float], price: Optional[float]) -> Optional[float]
 
 
 # -----------------------------
+# ADDED: Recent HL Uptrend (last few HLs rising + upward slope)
+# -----------------------------
+
+def compute_recent_hl_uptrend(
+    df: pd.DataFrame,
+    pivot_lows: List[pd.Timestamp],
+    lookback_bars: int,
+    hl_count: int,
+    slope_min_pct_per_bar: float,
+    require_strict_higher_lows: bool,
+) -> Dict[str, Optional[object]]:
+    """
+    Uses last `hl_count` pivot lows within the last `lookback_bars` bars.
+    Returns fields to add to JSON without affecting existing logic.
+    """
+    out: Dict[str, Optional[object]] = {
+        "recent_hl_uptrend": False,
+        "recent_hl_count_required": hl_count,
+        "recent_hl_lookback_bars": lookback_bars,
+        "recent_hl_pivots_found": 0,
+        "recent_hl_prices": None,
+        "recent_hl_dates": None,
+        "recent_hl_chain_ok": None,
+        "recent_hl_slope": None,                 # absolute price slope per bar
+        "recent_hl_slope_pct_per_bar": None,     # slope normalized by last HL price
+        "recent_hl_slope_min_pct_per_bar": slope_min_pct_per_bar,
+    }
+
+    if df is None or df.empty or lookback_bars <= 0 or hl_count <= 1:
+        return out
+
+    # Restrict pivots to lookback window
+    w = df.tail(lookback_bars)
+    start_ts = w.index[0]
+    end_ts = w.index[-1]
+    lows_in_window = [ts for ts in pivot_lows if start_ts <= ts <= end_ts]
+
+    if len(lows_in_window) < hl_count:
+        out["recent_hl_pivots_found"] = int(len(lows_in_window))
+        return out
+
+    last_lows = lows_in_window[-hl_count:]
+    prices: List[float] = []
+    dates: List[str] = []
+    x: List[int] = []
+
+    # Map timestamps to bar positions in the lookback window for slope calc
+    index_pos = {ts: i for i, ts in enumerate(w.index)}
+
+    for ts in last_lows:
+        v = safe_float(df.at[ts, "Low"])
+        if v is None:
+            return out
+        prices.append(v)
+        dates.append(str(ts.date()))
+        x.append(index_pos.get(ts, None))
+
+    # If any pivot timestamp isn't in the window index (shouldn't happen), bail safely
+    if any(v is None for v in x):
+        out["recent_hl_pivots_found"] = int(len(last_lows))
+        out["recent_hl_prices"] = prices
+        out["recent_hl_dates"] = dates
+        return out
+
+    out["recent_hl_pivots_found"] = int(len(last_lows))
+    out["recent_hl_prices"] = prices
+    out["recent_hl_dates"] = dates
+
+    # Chain check: higher lows
+    if require_strict_higher_lows:
+        chain_ok = all(prices[i] > prices[i - 1] for i in range(1, len(prices)))
+    else:
+        chain_ok = all(prices[i] >= prices[i - 1] for i in range(1, len(prices)))
+    out["recent_hl_chain_ok"] = bool(chain_ok)
+
+    # Slope of HLs: linear regression on (bar_index, hl_price)
+    x_arr = np.array(x, dtype=float)
+    y_arr = np.array(prices, dtype=float)
+    if len(x_arr) >= 2:
+        a, _b = np.polyfit(x_arr, y_arr, 1)  # price units per bar
+        slope_abs = float(a)
+        out["recent_hl_slope"] = slope_abs
+
+        last_hl = prices[-1]
+        if last_hl > 0:
+            out["recent_hl_slope_pct_per_bar"] = float((slope_abs / last_hl) * 100.0)
+
+    slope_pct_per_bar = out["recent_hl_slope_pct_per_bar"]
+    slope_ok = (slope_pct_per_bar is not None) and (slope_pct_per_bar >= slope_min_pct_per_bar)
+
+    out["recent_hl_uptrend"] = bool(chain_ok and slope_ok)
+    return out
+
+
+# -----------------------------
 # Scan per ticker
 # -----------------------------
 
@@ -439,8 +524,6 @@ def scan_one(ticker: str, data: pd.DataFrame, args: argparse.Namespace) -> Optio
     close_vs_hl_pct = pct_above(entry_hl, last_close)  # how far CLOSE is above HL
 
     # at_hl_zone: "close to HL"
-    # For your requested behavior: in range mode, at_hl_zone is LOW almost touched HL.
-    # We keep the same meaning in pivot mode as well (more intuitive for entries).
     at_hl_zone = False
     if clean_ok and hl_touch_pct is not None:
         at_hl_zone = (hl_touch_pct >= 0.0) and (hl_touch_pct <= args.hl_touch_pct)
@@ -466,9 +549,19 @@ def scan_one(ticker: str, data: pd.DataFrame, args: argparse.Namespace) -> Optio
     if entry_hh is not None and last_close is not None and entry_hh > 0:
         breakout_distance_pct = (entry_hh - last_close) / entry_hh * 100.0
 
+    # ADDED: Recent HL uptrend fields (independent; does not change existing flags)
+    recent_hl_fields = compute_recent_hl_uptrend(
+        df=df,
+        pivot_lows=raw_lows,
+        lookback_bars=args.recent_hl_lookback_bars,
+        hl_count=args.recent_hl_count,
+        slope_min_pct_per_bar=args.recent_hl_slope_min_pct_per_bar,
+        require_strict_higher_lows=(not args.recent_hl_allow_equal_lows),
+    )
+
     last_date = str(df.index[-1].date()) if len(df.index) else None
 
-    return {
+    out = {
         "ticker": ticker,
         "last_date": last_date,
 
@@ -494,15 +587,15 @@ def scan_one(ticker: str, data: pd.DataFrame, args: argparse.Namespace) -> Optio
         "last_hh": entry_hh,
 
         # Core flags
-        "at_hl_zone": bool(at_hl_zone),          # near/touched HL (LOW-based)
-        "bounce_ok": bool(bounce_ok),            # close lifted above HL by bounce_min_pct
-        "momentum_ok": bool(momentum_ok),        # up-day confirmation
+        "at_hl_zone": bool(at_hl_zone),
+        "bounce_ok": bool(bounce_ok),
+        "momentum_ok": bool(momentum_ok),
         "entry_signal": bool(entry_signal),
 
         # Debug distances
-        "hl_touch_pct": hl_touch_pct,            # (LOW vs HL) % above HL
-        "close_vs_hl_pct": close_vs_hl_pct,      # (CLOSE vs HL) % above HL
-        "breakout_distance_pct": breakout_distance_pct,  # (CLOSE vs HH) % below HH (reference only)
+        "hl_touch_pct": hl_touch_pct,
+        "close_vs_hl_pct": close_vs_hl_pct,
+        "breakout_distance_pct": breakout_distance_pct,
 
         # Thresholds used
         "hl_touch_pct_threshold": args.hl_touch_pct,
@@ -518,6 +611,10 @@ def scan_one(ticker: str, data: pd.DataFrame, args: argparse.Namespace) -> Optio
         # Trend debug metrics
         **{f"metric_{k}": v for k, v in metrics.items()},
     }
+
+    # Append new fields (no removals)
+    out.update(recent_hl_fields)
+    return out
 
 
 # -----------------------------
@@ -543,15 +640,26 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--disable_slope_gate", action="store_true", help="Disable positive slope requirement")
     p.add_argument("--max_drawdown_pct", type=float, default=12.0, help="Max drawdown %% allowed (<=0 disables)")
 
-    # Your requested entry controls
+    # Existing entry controls (unchanged)
     p.add_argument("--use_range_levels_for_entry", action="store_true",
                    help="Use range_hl/range_hh as entry levels (range_hl touch + bounce entry)")
 
+    # NOTE: keeping YOUR current default as-is to avoid changing behavior
     p.add_argument("--hl_touch_pct", type=float, default=100,
                    help="at_hl_zone TRUE if today's LOW is within this %% above HL (0.6 means <=0.6%%)")
 
     p.add_argument("--bounce_min_pct", type=float, default=0.3,
                    help="bounce_ok TRUE if CLOSE is at least this %% above HL (0.3 means >=0.3%%)")
+
+    # ADDED: recent HL uptrend filter knobs (new only; no existing behavior changes)
+    p.add_argument("--recent_hl_lookback_bars", type=int, default=20,
+                   help="Lookback bars to search for recent HL pivots (ascending trendline)")
+    p.add_argument("--recent_hl_count", type=int, default=3,
+                   help="Number of most recent HL pivots required (e.g., 3 means last 3 pivot lows)")
+    p.add_argument("--recent_hl_slope_min_pct_per_bar", type=float, default=0.02,
+                   help="Minimum HL slope in %% per bar (0.02 = 0.02%% per bar)")
+    p.add_argument("--recent_hl_allow_equal_lows", action="store_true",
+                   help="Allow equal pivot lows (>=) instead of strictly higher lows (>)")
 
     return p.parse_args()
 
@@ -586,15 +694,23 @@ def main() -> int:
     df = pd.DataFrame(rows)
 
     if not df.empty:
-        for c in ["entry_signal", "has_hh_hl", "at_hl_zone", "bounce_ok", "momentum_ok"]:
+        for c in ["entry_signal", "has_hh_hl", "at_hl_zone", "bounce_ok", "momentum_ok", "recent_hl_uptrend"]:
             if c in df.columns:
                 df[c] = df[c].fillna(False).astype(bool)
 
-        # Sort: entry signals first, then those near HL, then clean trends
-        sort_cols = ["entry_signal", "at_hl_zone", "has_hh_hl", "hl_touch_pct", "close_vs_hl_pct", "last_date"]
+        # Keep your existing sort columns; add recent_hl_uptrend as an extra sort hint (doesn't change fields)
+        sort_cols = ["entry_signal", "at_hl_zone", "recent_hl_uptrend", "has_hh_hl", "hl_touch_pct", "close_vs_hl_pct", "last_date"]
         existing = [c for c in sort_cols if c in df.columns]
         if existing:
-            ascending = [False, False, False, True, True, False][:len(existing)]
+            # prefer True first; for pct columns sort ascending; date descending
+            ascending = []
+            for c in existing:
+                if c in ("hl_touch_pct", "close_vs_hl_pct"):
+                    ascending.append(True)
+                elif c == "last_date":
+                    ascending.append(False)
+                else:
+                    ascending.append(False)
             df = df.sort_values(by=existing, ascending=ascending, kind="mergesort")
 
     payload = {
@@ -613,10 +729,17 @@ def main() -> int:
             "use_range_levels_for_entry": bool(args.use_range_levels_for_entry),
             "hl_touch_pct": args.hl_touch_pct,
             "bounce_min_pct": args.bounce_min_pct,
+
+            # ADDED meta
+            "recent_hl_lookback_bars": args.recent_hl_lookback_bars,
+            "recent_hl_count": args.recent_hl_count,
+            "recent_hl_slope_min_pct_per_bar": args.recent_hl_slope_min_pct_per_bar,
+            "recent_hl_allow_equal_lows": bool(args.recent_hl_allow_equal_lows),
         },
         "count": int(len(df)),
         "count_clean_trend": int(df["has_hh_hl"].sum()) if (not df.empty and "has_hh_hl" in df.columns) else 0,
         "count_entry_signal": int(df["entry_signal"].sum()) if (not df.empty and "entry_signal" in df.columns) else 0,
+        "count_recent_hl_uptrend": int(df["recent_hl_uptrend"].sum()) if (not df.empty and "recent_hl_uptrend" in df.columns) else 0,
         "data": df.to_dict(orient="records") if not df.empty else [],
     }
 
@@ -636,6 +759,7 @@ def main() -> int:
 
     preview_cols = [
         "ticker", "entry_signal", "has_hh_hl", "at_hl_zone", "bounce_ok", "momentum_ok",
+        "recent_hl_uptrend", "recent_hl_pivots_found", "recent_hl_slope_pct_per_bar",
         "entry_level_source",
         "hl_touch_pct", "close_vs_hl_pct",
         "range_hl", "last_hl",

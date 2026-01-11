@@ -53,6 +53,7 @@ jobs:
         run: |
           python scanners/entry_sig_scanner.py \
             --tickers_file data/nifty50.txt \
+            --recent_hl_lookback_bars 20 --recent_hl_count 2 --recent_hl_slope_min_pct_per_bar 0.02
             --use_range_levels_for_entry \
             --out api/entry/nifty50.json
 
@@ -62,6 +63,7 @@ jobs:
           python scanners/entry_sig_scanner.py \
             --tickers_file data/nasdaq100.txt \
             --use_range_levels_for_entry \
+            --recent_hl_lookback_bars 20 --recent_hl_count 2 --recent_hl_slope_min_pct_per_bar 0.02
             --out api/entry/nasdaq.json
 
       - name: Run Entry Signal Russel
@@ -69,6 +71,7 @@ jobs:
         run: |
           python scanners/entry_sig_scanner.py \
             --tickers_file data/russel.txt \
+            --recent_hl_lookback_bars 20 --recent_hl_count 2 --recent_hl_slope_min_pct_per_bar 0.02
             --out api/entry/russel.json
 
       # --------------------
