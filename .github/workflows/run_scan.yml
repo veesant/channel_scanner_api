@@ -8,7 +8,7 @@ on:
       mode:
         description: "What to run"
         required: true
-        default: "all"
+        default: "entry_only"
         type: choice
         options:
           - entry_only
@@ -69,7 +69,6 @@ jobs:
         run: |
           python scanners/entry_sig_scanner.py \
             --tickers_file data/russel.txt \
-            --use_range_levels_for_entry \
             --out api/entry/russel.json
 
       # --------------------
