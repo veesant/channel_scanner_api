@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-10T20:55:12.651383+00:00",
+  "updated_utc": "2026-01-13T02:47:57.462005+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,6 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "BMRN",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 58.95000076293945,
-      "sma20": 57.6540002822876,
-      "sma50": 55.33080009460449,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 15.195706342959003,
-      "pole_high": 63.88999938964844,
-      "pole_range": 12.989997863769531,
-      "flag_bars": 8,
-      "flag_range": 3.5,
-      "pullback_from_pole_high_pct": 7.732037367196111,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 2.3107218612098155
-    }
-  ]
+  "count": 0,
+  "data": []
 }
