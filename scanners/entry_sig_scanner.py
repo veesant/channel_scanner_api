@@ -23,6 +23,8 @@ from typing import Dict, List, Optional, Tuple
 
 import numpy as np
 import pandas as pd
+from datetime import datetime, timezone
+
 
 try:
     import yfinance as yf
@@ -735,6 +737,7 @@ def main() -> int:
             "recent_hl_count": args.recent_hl_count,
             "recent_hl_slope_min_pct_per_bar": args.recent_hl_slope_min_pct_per_bar,
             "recent_hl_allow_equal_lows": bool(args.recent_hl_allow_equal_lows),
+            "lastUpdatedTs": datetime.now(timezone.utc).isoformat(),
         },
         "count": int(len(df)),
         "count_clean_trend": int(df["has_hh_hl"].sum()) if (not df.empty and "has_hh_hl" in df.columns) else 0,
