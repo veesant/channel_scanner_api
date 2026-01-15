@@ -1,0 +1,40 @@
+{
+  "updated_utc": "2026-01-15T23:13:12.876180+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 1,
+  "data": [
+    {
+      "ticker": "IIFL.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 635.3499755859375,
+      "sma20": 615.9625030517578,
+      "sma50": 581.4660021972657,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 12.654790887445957,
+      "pole_high": 650.0,
+      "pole_range": 87.8499755859375,
+      "flag_bars": 8,
+      "flag_range": 47.6500244140625,
+      "pullback_from_pole_high_pct": 2.253849909855769,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 1.9774524912045726
+    }
+  ]
+}

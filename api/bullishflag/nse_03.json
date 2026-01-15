@@ -1,0 +1,62 @@
+{
+  "updated_utc": "2026-01-15T23:14:34.041408+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 2,
+  "data": [
+    {
+      "ticker": "MCL.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 76.69999694824219,
+      "sma20": 66.24149990081787,
+      "sma50": 54.401999893188474,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 60.484048404840486,
+      "pole_high": 78.91000366210938,
+      "pole_range": 30.660003662109375,
+      "flag_bars": 8,
+      "flag_range": 15.349998474121094,
+      "pullback_from_pole_high_pct": 2.800667356866919,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.2320238707878937
+    },
+    {
+      "ticker": "MIDHANI.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 350.6499938964844,
+      "sma20": 334.81750030517577,
+      "sma50": 334.4460003662109,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 14.972483300047864,
+      "pole_high": 368.0,
+      "pole_range": 69.35000610351562,
+      "flag_bars": 8,
+      "flag_range": 29.899993896484375,
+      "pullback_from_pole_high_pct": 4.714675571607507,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.0300471098479447
+    }
+  ]
+}
