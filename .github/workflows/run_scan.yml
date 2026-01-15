@@ -407,16 +407,21 @@ jobs:
       - name: Publish API JSON to gh-pages
         run: |
           set -e
+
           mkdir -p /tmp/api_out
+          rm -rf /tmp/api_out/api
           cp -r api /tmp/api_out/
 
           git fetch origin gh-pages
-          git checkout gh-pages
+          rm -rf /tmp/ghp
+          mkdir -p /tmp/ghp
+          git worktree add /tmp/ghp gh-pages
 
-          mkdir -p api
-          rm -rf api/*
-          cp -r /tmp/api_out/api/* api/
+          mkdir -p /tmp/ghp/api
+          rm -rf /tmp/ghp/api/*
+          cp -r /tmp/api_out/api/* /tmp/ghp/api/
 
+          cd /tmp/ghp
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
@@ -428,3 +433,7 @@ jobs:
 
           git commit -m "Publish API JSON"
           git push origin gh-pages
+
+          cd -
+          git worktree remove /tmp/ghp --force
+
