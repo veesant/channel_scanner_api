@@ -1,8 +1,8 @@
-name: Weekly Channel Scan API (Multi-Market)
+name: Weekly Channel Scan API (Optimized)
 
 on:
   schedule:
-    - cron: "30 20 * * *"   # Every day at 20:30 UTC (3:30 PM EST)
+    - cron: "30 20 * * *"   # Daily 20:30 UTC
   workflow_dispatch:
     inputs:
       mode:
@@ -22,255 +22,227 @@ on:
 permissions:
   contents: write
 
+env:
+  PYTHON_VERSION: "3.11"
+
+# -------------------------
+# ENTRY SIGNALS
+# -------------------------
 jobs:
-  scan:
+  entry:
+    if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'entry_only' }}
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        market:
+          - { name: nifty50, file: data/nifty50.txt }
+          - { name: nasdaq,  file: data/nasdaq.txt }
+          - { name: nyse,    file: data/nyse.txt }
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - run: pip install yfinance pandas numpy
+      - run: mkdir -p api/entry
+
+      - name: Run Entry Signal
+        run: |
+          python scanners/entry_sig_scanner.py \
+            --tickers_file ${{ matrix.market.file }} \
+            --use_range_levels_for_entry \
+            --recent_hl_lookback_bars 20 \
+            --recent_hl_count 2 \
+            --recent_hl_slope_min_pct_per_bar 0.02 \
+            --out api/entry/${{ matrix.market.name }}.json
+
+# -------------------------
+# CORRECTION WATCHLIST
+# -------------------------
+  corrwl:
+    if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'corr_wl' }}
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        market:
+          - { name: nifty50, file: data/nifty50.txt }
+          - { name: nasdaq,  file: data/nasdaq.txt }
+          - { name: nyse,    file: data/nyse.txt }
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - run: pip install yfinance pandas numpy
+      - run: mkdir -p api/corrwl
+
+      - name: Run Correction Watchlist
+        run: |
+          python scanners/correction_watchlist_scanner.py \
+            --tickers_file ${{ matrix.market.file }} \
+            --tf 1d \
+            --pivot_strength 2 \
+            --min_hh 3 \
+            --min_hl 3 \
+            --min_pullback_pct 3 \
+            --corr_bars_min 3 \
+            --corr_bars_max 12 \
+            --only_watchlist \
+            --out api/corrwl/${{ matrix.market.name }}.json
+
+# -------------------------
+# SIDEWAYS → UP
+# -------------------------
+  sideways:
+    if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'sideways' }}
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        market:
+          - { name: nifty50, file: data/nifty50.txt }
+          - { name: nasdaq,  file: data/nasdaq.txt }
+          - { name: nyse,    file: data/nyse.txt }
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - run: pip install yfinance pandas numpy
+      - run: mkdir -p api/sidetoup
+
+      - name: Run Sideways Scan
+        run: |
+          python scanners/side_to_up_scanner.py \
+            --tickers_file ${{ matrix.market.file }} \
+            --only_in_channel \
+            --sideways_threshold_pct 10 \
+            --prior_trend_weeks 20 \
+            --recent_trend_weeks 6 \
+            --out api/sidetoup/${{ matrix.market.name }}.json
+
+# -------------------------
+# DOWN → UP
+# -------------------------
+  downtoup:
+    if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'downtoup' }}
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        market:
+          - { name: nifty50, file: data/nifty50.txt }
+          - { name: nasdaq,  file: data/nasdaq.txt }
+          - { name: nyse,    file: data/nyse.txt }
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - run: pip install yfinance pandas numpy
+      - run: mkdir -p api/downtoup
+
+      - name: Run Down → Up Scan
+        run: |
+          python scanners/down_to_up_scanner.py \
+            --tickers_file ${{ matrix.market.file }} \
+            --pivot_strength 1 \
+            --near_resistance_pct 6 \
+            --corr_max_pct 12 \
+            --n_down 40 \
+            --out api/downtoup/${{ matrix.market.name }}.json
+
+# -------------------------
+# BULL FLAG
+# -------------------------
+  bullflag:
+    if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'bullflag' }}
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        market:
+          - { name: nifty50, file: data/nifty50.txt }
+          - { name: nasdaq,  file: data/nasdaq.txt }
+          - { name: nyse,    file: data/nyse.txt }
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - run: pip install yfinance pandas numpy
+      - run: mkdir -p api/bullishflag
+
+      - name: Run Bull Flag
+        run: |
+          python scanners/bull_flag_scanner.py \
+            --tickers_file ${{ matrix.market.file }} \
+            --out api/bullishflag/${{ matrix.market.name }}.json
+
+# -------------------------
+# CATCH ALL
+# -------------------------
+  catchall:
+    if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'catchall' }}
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        market:
+          - { name: nifty50, file: data/nifty50.txt }
+          - { name: nasdaq,  file: data/nasdaq.txt }
+          - { name: nyse,    file: data/nyse.txt }
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - run: pip install yfinance pandas numpy
+      - run: mkdir -p api/catchall
+
+      - name: Run Catch All
+        run: |
+          python scanners/catchall_scanner.py \
+            --tickers_file ${{ matrix.market.file }} \
+            --out api/catchall/${{ matrix.market.name }}.json
+
+# -------------------------
+# FINAL PUBLISH
+# -------------------------
+  publish:
+    needs: [entry, corrwl, sideways, downtoup, bullflag, catchall]
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install yfinance pandas numpy
-
-      - name: Prepare output folders
-        run: |
-          mkdir -p api api/entry api/corrwl api/sidetoup api/downtoup api/bullishflag api/catchall
-
-      # --------------------
-      # Entry Signal tab
-      # Runs in: schedule, all, entry_only
-      # --------------------
-      - name: Run Entry Signal Nifty50
-        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'entry_only' }}
-        run: |
-          python scanners/entry_sig_scanner.py \
-            --tickers_file data/nifty50.txt \
-            --recent_hl_lookback_bars 20 --recent_hl_count 2 \
-            --recent_hl_slope_min_pct_per_bar 0.02 \
-            --use_range_levels_for_entry \
-            --out api/entry/nifty50.json
-
-      - name: Run Entry Signal NASDAQ
-        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'entry_only' }}
-        run: |
-          python scanners/entry_sig_scanner.py \
-            --tickers_file data/nasdaq.txt \
-            --use_range_levels_for_entry \
-            --recent_hl_lookback_bars 20 --recent_hl_count 2 \
-            --recent_hl_slope_min_pct_per_bar 0.02 \
-            --out api/entry/nasdaq.json
-
-      - name: Run Entry Signal NYSE
-        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'entry_only' }}
-        run: |
-          python scanners/entry_sig_scanner.py \
-            --tickers_file data/nyse.txt \
-            --recent_hl_lookback_bars 20 --recent_hl_count 2 \
-            --recent_hl_slope_min_pct_per_bar 0.02 \
-            --out api/entry/nyse.json
-
-      # --------------------
-      # Correction Watchlist tab
-      # Runs in: schedule, all, corr_wl
-      # --------------------
-      - name: Run Correction Watchlist Nifty50
-        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'corr_wl' }}
-        run: |
-          python scanners/correction_watchlist_scanner.py \
-            --tickers_file data/nifty50.txt \
-            --tf 1d --pivot_strength 2 --min_hh 3 --min_hl 3 --min_pullback_pct 3 \
-            --corr_bars_min 3 --corr_bars_max 12 --only_watchlist \
-            --out api/corrwl/nifty50.json
-
-      - name: Run Correction Watchlist NASDAQ
-        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'corr_wl' }}
-        run: |
-          python scanners/correction_watchlist_scanner.py \
-            --tickers_file data/nasdaq.txt \
-            --tf 1d --pivot_strength 2 --min_hh 3 --min_hl 3 --min_pullback_pct 3 \
-            --corr_bars_min 3 --corr_bars_max 12 --only_watchlist \
-            --out api/corrwl/nasdaq.json
-
-      - name: Run Correction Watchlist NYSE
-        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'corr_wl' }}
-        run: |
-          python scanners/correction_watchlist_scanner.py \
-            --tickers_file data/nyse.txt \
-            --tf 1d --pivot_strength 2 --min_hh 3 --min_hl 3 --min_pullback_pct 3 \
-            --corr_bars_min 3 --corr_bars_max 12 --only_watchlist \
-            --out api/corrwl/nyse.json
-
-      # --------------------
-      # Sideways to UP trend
-      # Runs in: schedule, all, sideways
-      # --------------------
-      - name: Run Sideways scan (NIFTY50)
-        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'sideways' }}
-        run: |
-          python scanners/side_to_up_scanner.py \
-            --tickers_file data/nifty50.txt \
-            --only_in_channel \
-            --sideways_threshold_pct 10 \
-            --prior_trend_weeks 20 \
-            --recent_trend_weeks 6 \
-            --out api/sidetoup/nifty50.json
-
-      - name: Run Sideways scan (NASDAQ)
-        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'sideways' }}
-        run: |
-          python scanners/side_to_up_scanner.py \
-            --tickers_file data/nasdaq.txt \
-            --only_in_channel \
-            --sideways_threshold_pct 10 \
-            --prior_trend_weeks 20 \
-            --recent_trend_weeks 6 \
-            --out api/sidetoup/nasdaq.json
-
-      - name: Run Sideways scan (NYSE)
-        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'sideways' }}
-        run: |
-          python scanners/side_to_up_scanner.py \
-            --tickers_file data/nyse.txt \
-            --only_in_channel \
-            --sideways_threshold_pct 10 \
-            --prior_trend_weeks 20 \
-            --recent_trend_weeks 6 \
-            --out api/sidetoup/nyse.json
-
-      # --------------------
-      # Down to UP trend
-      # Runs in: schedule, all, downtoup
-      # --------------------
-      - name: Run reversal scanner - Nifty
-        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'downtoup' }}
-        run: |
-          python scanners/down_to_up_scanner.py \
-            --tickers_file data/nifty50.txt \
-            --pivot_strength 1 \
-            --near_resistance_pct 6 \
-            --corr_max_pct 12 \
-            --n_down 40 \
-            --out api/downtoup/nifty50.json
-
-      - name: Run reversal scanner - NASDAQ
-        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'downtoup' }}
-        run: |
-          python scanners/down_to_up_scanner.py \
-            --tickers_file data/nasdaq.txt \
-            --pivot_strength 1 \
-            --near_resistance_pct 6 \
-            --corr_max_pct 12 \
-            --n_down 40 \
-            --out api/downtoup/nasdaq.json
-
-      - name: Run reversal scanner - NYSE
-        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'downtoup' }}
-        run: |
-          python scanners/down_to_up_scanner.py \
-            --tickers_file data/nyse.txt \
-            --pivot_strength 1 \
-            --near_resistance_pct 6 \
-            --corr_max_pct 12 \
-            --n_down 40 \
-            --out api/downtoup/nyse.json
-
-      # --------------------
-      # Bullish Flag
-      # Runs in: schedule, all, bullflag
-      # --------------------
-      - name: Run Bullish flag - Nifty
-        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'bullflag' }}
-        run: |
-          python scanners/bull_flag_scanner.py \
-            --tickers_file data/nifty50.txt \
-            --out api/bullishflag/nifty50.json
-
-      - name: Run Bullish flag - NASDAQ
-        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'bullflag' }}
-        run: |
-          python scanners/bull_flag_scanner.py \
-            --tickers_file data/nasdaq.txt \
-            --out api/bullishflag/nasdaq.json
-
-      - name: Run Bullish flag - NYSE
-        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'bullflag' }}
-        run: |
-          python scanners/bull_flag_scanner.py \
-            --tickers_file data/nyse.txt \
-            --out api/bullishflag/nyse.json
-
-      # --------------------
-      # Catch-all tab
-      # Runs in: schedule, all, catchall
-      # --------------------
-      - name: Run Catchall - Nifty
-        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'catchall' }}
-        run: |
-          python scanners/catchall_scanner.py \
-            --tickers_file data/nifty50.txt \
-            --out api/catchall/nifty50.json
-
-      - name: Run Catchall - NASDAQ
-        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'catchall' }}
-        run: |
-          python scanners/catchall_scanner.py \
-            --tickers_file data/nasdaq.txt \
-            --out api/catchall/nasdaq.json
-
-      - name: Run Catchall - NYSE
-        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'catchall' }}
-        run: |
-          python scanners/catchall_scanner.py \
-            --tickers_file data/nyse.txt \
-            --out api/catchall/nyse.json
-
-      # -----------------------------
-      # Commit & Push (run when something ran)
-      # -----------------------------
-      - name: Commit & push API updates
-        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'entry_only' || github.event.inputs.mode == 'corr_wl' || github.event.inputs.mode == 'sideways' || github.event.inputs.mode == 'downtoup' || github.event.inputs.mode == 'bullflag' || github.event.inputs.mode == 'catchall' }}
+      - name: Commit API results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           git add api
+          git diff --cached --quiet || git commit -m "Update scan APIs"
 
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-            exit 0
-          fi
-
-          git commit -m "Update scan APIs (channels + HHHL + double bottom)"
-          git push
-
-      - name: Publish API JSON to gh-pages
-        if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'entry_only' || github.event.inputs.mode == 'corr_wl' || github.event.inputs.mode == 'sideways' || github.event.inputs.mode == 'downtoup' || github.event.inputs.mode == 'bullflag' || github.event.inputs.mode == 'catchall' }}
+      - name: Publish to gh-pages
         run: |
-          mkdir -p /tmp/api_out
-          cp -r api /tmp/api_out/
-
           git fetch origin gh-pages
           git checkout gh-pages
-
           mkdir -p api
-          cp -r /tmp/api_out/api/* api/
-
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
+          cp -r ../api/* api/
           git add api
-          if git diff --cached --quiet; then
-            echo "No changes to publish."
-            exit 0
-          fi
-
-          git commit -m "Publish API JSON (channels + HHHL + double bottom)"
+          git diff --cached --quiet || git commit -m "Publish API JSON"
           git push origin gh-pages
