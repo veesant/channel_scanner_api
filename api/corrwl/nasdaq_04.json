@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-15T04:15:58.300745+00:00",
+  "updated_utc": "2026-01-15T22:16:27.053096+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -21,7 +21,7 @@
     "only_actionable": false,
     "only_watchlist": true
   },
-  "count": 17,
+  "count": 18,
   "data": [
     {
       "ticker": "LIVN",
@@ -145,6 +145,47 @@
       "dist_to_support": 0.12995494905630806,
       "actionable_reason": "watchlist_correction",
       "rank_score": 3.1200450509436926
+    },
+    {
+      "ticker": "NGEN",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 5.559999942779541,
+      "sma_fast": 20,
+      "sma_slow": 50,
+      "sma_fast_now": 5.269500041007996,
+      "sma_slow_now": 4.07064001083374,
+      "trend_ok": true,
+      "recent_swing_high": 6.300000190734863,
+      "recent_swing_high_date": "2026-01-08",
+      "resistance_level": 6.300000190734863,
+      "pullback_from_swing_high_pct": 11.746035326214885,
+      "had_correction": true,
+      "bars_since_swing_high": 4,
+      "correction_age_ok": true,
+      "anchor_support_close": 4.670000076293945,
+      "anchor_support_date": "2025-12-31",
+      "support_level": 4.670000076293945,
+      "support_tolerance_pct": 1.0,
+      "support_floor": 4.670000076293945,
+      "support_floor_adj": 4.623300075531006,
+      "correction_close_low": 5.360000133514404,
+      "support_held": true,
+      "close_above_sma_fast": true,
+      "rebound_ok": false,
+      "uptrend_window_used": 50,
+      "uptrend_hh_count": 5,
+      "uptrend_hl_count": 3,
+      "uptrend_pivot_highs": 7,
+      "uptrend_pivot_lows": 5,
+      "uptrend_overall_up": true,
+      "uptrend_ok": true,
+      "uptrend_actionable": true,
+      "watchlist_correction": true,
+      "actionable_after_correction": true,
+      "dist_to_support": 0.19057812675495472,
+      "actionable_reason": "watchlist_correction",
+      "rank_score": 3.1094218732450454
     },
     {
       "ticker": "OMEX",
