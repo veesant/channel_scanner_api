@@ -20,18 +20,18 @@
     "recent_hl_allow_equal_lows": false,
     "rta_pullback_min_pct": 2.0,
     "rta_pullback_lookback_bars": 20,
-    "lastUpdatedTs": "2026-01-15T23:20:43.577807+00:00"
+    "lastUpdatedTs": "2026-01-15T23:39:00.978488+00:00"
   },
   "count": 518,
   "count_clean_trend": 6,
-  "count_entry_signal": 3,
+  "count_entry_signal": 5,
   "count_recent_hl_uptrend": 133,
-  "count_ready_to_act": 5,
+  "count_ready_to_act": 3,
   "data": [
     {
       "ticker": "CRNT",
       "last_date": "2026-01-15",
-      "last_open": 2.2899999618530273,
+      "last_open": 2.259999990463257,
       "last_high": 2.369999885559082,
       "last_low": 2.2799999713897705,
       "last_close": 2.3399999141693115,
@@ -98,7 +98,7 @@
     {
       "ticker": "FIVE",
       "last_date": "2026-01-15",
-      "last_open": 201.27000427246094,
+      "last_open": 202.48500061035156,
       "last_high": 202.67999267578125,
       "last_low": 195.10040283203125,
       "last_close": 198.0399932861328,
@@ -144,10 +144,10 @@
       "recent_hl_slope": 0.9481248855590789,
       "recent_hl_slope_pct_per_bar": 0.4964004636434968,
       "recent_hl_slope_min_pct_per_bar": 0.02,
-      "ready_to_act": true,
+      "ready_to_act": false,
       "rta_second_last_hh": 192.4499969482422,
       "rta_last_hh": 204.6699981689453,
-      "rta_pullback_ok": true,
+      "rta_pullback_ok": false,
       "rta_pullback_pct_from_last_hh": 4.446177224868569,
       "rta_pullback_min_pct": 2.0,
       "rta_pullback_lookback_bars": 20,
@@ -163,9 +163,143 @@
       "metric_max_dd_ok": null
     },
     {
+      "ticker": "CMPS",
+      "last_date": "2026-01-15",
+      "last_open": 7.070000171661377,
+      "last_high": 7.75,
+      "last_low": 7.164999961853027,
+      "last_close": 7.309999942779541,
+      "has_hh_hl": true,
+      "structure_bars": 35,
+      "min_pivots_per_side": 3,
+      "pivot_last_hh": 8.199999809265137,
+      "pivot_last_hl": 6.820000171661377,
+      "range_hh": 8.199999809265137,
+      "range_hl": 4.900000095367432,
+      "entry_level_source": "range",
+      "last_hl": 4.900000095367432,
+      "last_hh": 8.199999809265137,
+      "at_hl_zone": true,
+      "bounce_ok": true,
+      "momentum_ok": true,
+      "entry_signal": true,
+      "hl_touch_pct": 46.2244861714794,
+      "close_vs_hl_pct": 49.18366939810014,
+      "breakout_distance_pct": 10.853657160820779,
+      "hl_touch_pct_threshold": 100,
+      "bounce_min_pct_threshold": 0.3,
+      "sma_fast": 10,
+      "sma_slow": 20,
+      "sma_fast_last": 7.213000011444092,
+      "sma_slow_last": 6.910249972343445,
+      "sma_fast_gt_slow": true,
+      "metric_structure_high_pivots": 4.0,
+      "metric_structure_low_pivots": 4.0,
+      "recent_hl_uptrend": true,
+      "recent_hl_count_required": 2,
+      "recent_hl_lookback_bars": 20,
+      "recent_hl_pivots_found": 2,
+      "recent_hl_prices": [
+        6.269999980926514,
+        6.820000171661377
+      ],
+      "recent_hl_dates": [
+        "2026-01-05",
+        "2026-01-12"
+      ],
+      "recent_hl_chain_ok": true,
+      "recent_hl_slope": 0.11000003814697265,
+      "recent_hl_slope_pct_per_bar": 1.6129037445489718,
+      "recent_hl_slope_min_pct_per_bar": 0.02,
+      "ready_to_act": true,
+      "rta_second_last_hh": 7.150000095367432,
+      "rta_last_hh": 8.199999809265137,
+      "rta_pullback_ok": true,
+      "rta_pullback_pct_from_last_hh": 14.634144355823805,
+      "rta_pullback_min_pct": 2.0,
+      "rta_pullback_lookback_bars": 20,
+      "metric_hh_chain_ok": 1.0,
+      "metric_hl_chain_ok": 1.0,
+      "metric_structure_points": 8.0,
+      "metric_close_slope": 0.06426750605179812,
+      "metric_max_drawdown_pct": 10.99099301893241,
+      "metric_sma_ok": 1.0,
+      "metric_last_close": 7.309999942779541,
+      "metric_last_sma_fast": 7.213000011444092,
+      "metric_last_sma_slow": 6.910249972343445,
+      "metric_max_dd_ok": null
+    },
+    {
+      "ticker": "CODA",
+      "last_date": "2026-01-15",
+      "last_open": 10.15999984741211,
+      "last_high": 12.100000381469727,
+      "last_low": 11.001999855041504,
+      "last_close": 11.470000267028809,
+      "has_hh_hl": true,
+      "structure_bars": 35,
+      "min_pivots_per_side": 3,
+      "pivot_last_hh": 9.6899995803833,
+      "pivot_last_hl": 8.800000190734863,
+      "range_hh": 12.219900131225586,
+      "range_hl": 8.25,
+      "entry_level_source": "range",
+      "last_hl": 8.25,
+      "last_hh": 12.219900131225586,
+      "at_hl_zone": true,
+      "bounce_ok": true,
+      "momentum_ok": true,
+      "entry_signal": true,
+      "hl_touch_pct": 33.35757400050308,
+      "close_vs_hl_pct": 39.03030626701586,
+      "breakout_distance_pct": 6.136710252488509,
+      "hl_touch_pct_threshold": 100,
+      "bounce_min_pct_threshold": 0.3,
+      "sma_fast": 10,
+      "sma_slow": 20,
+      "sma_fast_last": 10.503000164031983,
+      "sma_slow_last": 9.882500076293946,
+      "sma_fast_gt_slow": true,
+      "metric_structure_high_pivots": 3.0,
+      "metric_structure_low_pivots": 3.0,
+      "recent_hl_uptrend": false,
+      "recent_hl_count_required": 2,
+      "recent_hl_lookback_bars": 20,
+      "recent_hl_pivots_found": 2,
+      "recent_hl_prices": [
+        8.789999961853027,
+        8.800000190734863
+      ],
+      "recent_hl_dates": [
+        "2025-12-17",
+        "2025-12-29"
+      ],
+      "recent_hl_chain_ok": true,
+      "recent_hl_slope": 0.0014286041259765785,
+      "recent_hl_slope_pct_per_bar": 0.01623413744332294,
+      "recent_hl_slope_min_pct_per_bar": 0.02,
+      "ready_to_act": true,
+      "rta_second_last_hh": 9.579999923706055,
+      "rta_last_hh": 9.6899995803833,
+      "rta_pullback_ok": true,
+      "rta_pullback_pct_from_last_hh": 8.565531059323565,
+      "rta_pullback_min_pct": 2.0,
+      "rta_pullback_lookback_bars": 20,
+      "metric_hh_chain_ok": 1.0,
+      "metric_hl_chain_ok": 1.0,
+      "metric_structure_points": 6.0,
+      "metric_close_slope": 0.07013865906317364,
+      "metric_max_drawdown_pct": 7.322183391363482,
+      "metric_sma_ok": 1.0,
+      "metric_last_close": 11.470000267028809,
+      "metric_last_sma_fast": 10.503000164031983,
+      "metric_last_sma_slow": 9.882500076293946,
+      "metric_max_dd_ok": null
+    },
+    {
       "ticker": "EPRX",
       "last_date": "2026-01-15",
-      "last_open": 8.5600004196167,
+      "last_open": 8.135000228881836,
       "last_high": 8.880000114440918,
       "last_low": 8.479999542236328,
       "last_close": 8.770000457763672,
@@ -205,10 +339,10 @@
       "recent_hl_slope": null,
       "recent_hl_slope_pct_per_bar": null,
       "recent_hl_slope_min_pct_per_bar": 0.02,
-      "ready_to_act": true,
+      "ready_to_act": false,
       "rta_second_last_hh": 8.0,
       "rta_last_hh": 8.739999771118164,
-      "rta_pullback_ok": true,
+      "rta_pullback_ok": false,
       "rta_pullback_pct_from_last_hh": 7.0938203866767555,
       "rta_pullback_min_pct": 2.0,
       "rta_pullback_lookback_bars": 20,
@@ -291,143 +425,9 @@
       "metric_max_dd_ok": null
     },
     {
-      "ticker": "CMPS",
-      "last_date": "2026-01-15",
-      "last_open": 7.699999809265137,
-      "last_high": 7.75,
-      "last_low": 7.164999961853027,
-      "last_close": 7.309999942779541,
-      "has_hh_hl": true,
-      "structure_bars": 35,
-      "min_pivots_per_side": 3,
-      "pivot_last_hh": 8.199999809265137,
-      "pivot_last_hl": 6.820000171661377,
-      "range_hh": 8.199999809265137,
-      "range_hl": 4.900000095367432,
-      "entry_level_source": "range",
-      "last_hl": 4.900000095367432,
-      "last_hh": 8.199999809265137,
-      "at_hl_zone": true,
-      "bounce_ok": true,
-      "momentum_ok": false,
-      "entry_signal": false,
-      "hl_touch_pct": 46.2244861714794,
-      "close_vs_hl_pct": 49.18366939810014,
-      "breakout_distance_pct": 10.853657160820779,
-      "hl_touch_pct_threshold": 100,
-      "bounce_min_pct_threshold": 0.3,
-      "sma_fast": 10,
-      "sma_slow": 20,
-      "sma_fast_last": 7.213000011444092,
-      "sma_slow_last": 6.910249972343445,
-      "sma_fast_gt_slow": true,
-      "metric_structure_high_pivots": 4.0,
-      "metric_structure_low_pivots": 4.0,
-      "recent_hl_uptrend": true,
-      "recent_hl_count_required": 2,
-      "recent_hl_lookback_bars": 20,
-      "recent_hl_pivots_found": 2,
-      "recent_hl_prices": [
-        6.269999980926514,
-        6.820000171661377
-      ],
-      "recent_hl_dates": [
-        "2026-01-05",
-        "2026-01-12"
-      ],
-      "recent_hl_chain_ok": true,
-      "recent_hl_slope": 0.11000003814697265,
-      "recent_hl_slope_pct_per_bar": 1.6129037445489718,
-      "recent_hl_slope_min_pct_per_bar": 0.02,
-      "ready_to_act": true,
-      "rta_second_last_hh": 7.150000095367432,
-      "rta_last_hh": 8.199999809265137,
-      "rta_pullback_ok": true,
-      "rta_pullback_pct_from_last_hh": 14.634144355823805,
-      "rta_pullback_min_pct": 2.0,
-      "rta_pullback_lookback_bars": 20,
-      "metric_hh_chain_ok": 1.0,
-      "metric_hl_chain_ok": 1.0,
-      "metric_structure_points": 8.0,
-      "metric_close_slope": 0.06426750605179812,
-      "metric_max_drawdown_pct": 10.99099301893241,
-      "metric_sma_ok": 1.0,
-      "metric_last_close": 7.309999942779541,
-      "metric_last_sma_fast": 7.213000011444092,
-      "metric_last_sma_slow": 6.910249972343445,
-      "metric_max_dd_ok": null
-    },
-    {
-      "ticker": "CODA",
-      "last_date": "2026-01-15",
-      "last_open": 11.6899995803833,
-      "last_high": 12.100000381469727,
-      "last_low": 11.001999855041504,
-      "last_close": 11.470000267028809,
-      "has_hh_hl": true,
-      "structure_bars": 35,
-      "min_pivots_per_side": 3,
-      "pivot_last_hh": 9.6899995803833,
-      "pivot_last_hl": 8.800000190734863,
-      "range_hh": 12.219900131225586,
-      "range_hl": 8.25,
-      "entry_level_source": "range",
-      "last_hl": 8.25,
-      "last_hh": 12.219900131225586,
-      "at_hl_zone": true,
-      "bounce_ok": true,
-      "momentum_ok": false,
-      "entry_signal": false,
-      "hl_touch_pct": 33.35757400050308,
-      "close_vs_hl_pct": 39.03030626701586,
-      "breakout_distance_pct": 6.136710252488509,
-      "hl_touch_pct_threshold": 100,
-      "bounce_min_pct_threshold": 0.3,
-      "sma_fast": 10,
-      "sma_slow": 20,
-      "sma_fast_last": 10.503000164031983,
-      "sma_slow_last": 9.882500076293946,
-      "sma_fast_gt_slow": true,
-      "metric_structure_high_pivots": 3.0,
-      "metric_structure_low_pivots": 3.0,
-      "recent_hl_uptrend": false,
-      "recent_hl_count_required": 2,
-      "recent_hl_lookback_bars": 20,
-      "recent_hl_pivots_found": 2,
-      "recent_hl_prices": [
-        8.789999961853027,
-        8.800000190734863
-      ],
-      "recent_hl_dates": [
-        "2025-12-17",
-        "2025-12-29"
-      ],
-      "recent_hl_chain_ok": true,
-      "recent_hl_slope": 0.0014286041259765785,
-      "recent_hl_slope_pct_per_bar": 0.01623413744332294,
-      "recent_hl_slope_min_pct_per_bar": 0.02,
-      "ready_to_act": true,
-      "rta_second_last_hh": 9.579999923706055,
-      "rta_last_hh": 9.6899995803833,
-      "rta_pullback_ok": true,
-      "rta_pullback_pct_from_last_hh": 8.565531059323565,
-      "rta_pullback_min_pct": 2.0,
-      "rta_pullback_lookback_bars": 20,
-      "metric_hh_chain_ok": 1.0,
-      "metric_hl_chain_ok": 1.0,
-      "metric_structure_points": 6.0,
-      "metric_close_slope": 0.07013865906317364,
-      "metric_max_drawdown_pct": 7.322183391363482,
-      "metric_sma_ok": 1.0,
-      "metric_last_close": 11.470000267028809,
-      "metric_last_sma_fast": 10.503000164031983,
-      "metric_last_sma_slow": 9.882500076293946,
-      "metric_max_dd_ok": null
-    },
-    {
       "ticker": "DCBO",
       "last_date": "2026-01-15",
-      "last_open": 20.389999389648438,
+      "last_open": 21.700000762939453,
       "last_high": 20.389999389648438,
       "last_low": 19.850500106811523,
       "last_close": 19.8799991607666,
@@ -494,7 +494,7 @@
     {
       "ticker": "COYA",
       "last_date": "2026-01-15",
-      "last_open": 4.630000114440918,
+      "last_open": 4.75,
       "last_high": 4.710000038146973,
       "last_low": 3.9400999546051025,
       "last_close": 4.03000020980835,
@@ -561,7 +561,7 @@
     {
       "ticker": "CCTG",
       "last_date": "2026-01-15",
-      "last_open": 0.10999999940395355,
+      "last_open": 0.11550000309944153,
       "last_high": 0.11919999867677689,
       "last_low": 0.10620000213384628,
       "last_close": 0.11599999666213989,
@@ -762,7 +762,7 @@
     {
       "ticker": "EXAS",
       "last_date": "2026-01-15",
-      "last_open": 102.31999969482422,
+      "last_open": 102.05999755859375,
       "last_high": 102.46499633789062,
       "last_low": 102.29000091552734,
       "last_close": 102.33999633789062,
@@ -829,7 +829,7 @@
     {
       "ticker": "EA",
       "last_date": "2026-01-15",
-      "last_open": 204.3000030517578,
+      "last_open": 204.25,
       "last_high": 204.3699951171875,
       "last_low": 204.125,
       "last_close": 204.14999389648438,
@@ -896,7 +896,7 @@
     {
       "ticker": "COCO",
       "last_date": "2026-01-15",
-      "last_open": 52.04999923706055,
+      "last_open": 55.65999984741211,
       "last_high": 52.83000183105469,
       "last_low": 51.90999984741211,
       "last_close": 52.709999084472656,
@@ -963,7 +963,7 @@
     {
       "ticker": "CLBK",
       "last_date": "2026-01-15",
-      "last_open": 15.529999732971191,
+      "last_open": 15.289999961853027,
       "last_high": 15.970000267028809,
       "last_low": 15.395000457763672,
       "last_close": 15.84000015258789,
@@ -1030,7 +1030,7 @@
     {
       "ticker": "FBLA",
       "last_date": "2026-01-15",
-      "last_open": 12.760000228881836,
+      "last_open": 12.880000114440918,
       "last_high": 12.970000267028809,
       "last_low": 12.760000228881836,
       "last_close": 12.930000305175781,
@@ -1097,7 +1097,7 @@
     {
       "ticker": "CHCO",
       "last_date": "2026-01-15",
-      "last_open": 121.75,
+      "last_open": 121.98999786376953,
       "last_high": 123.76000213623047,
       "last_low": 121.74500274658203,
       "last_close": 123.51000213623047,
@@ -1365,7 +1365,7 @@
     {
       "ticker": "FINW",
       "last_date": "2026-01-15",
-      "last_open": 17.969999313354492,
+      "last_open": 17.600000381469727,
       "last_high": 17.969999313354492,
       "last_low": 17.790000915527344,
       "last_close": 17.950000762939453,
@@ -1432,7 +1432,7 @@
     {
       "ticker": "CHAC",
       "last_date": "2026-01-15",
-      "last_open": 11.239999771118164,
+      "last_open": 11.25,
       "last_high": 11.329999923706055,
       "last_low": 11.199999809265137,
       "last_close": 11.229999542236328,
@@ -1633,7 +1633,7 @@
     {
       "ticker": "ELTX",
       "last_date": "2026-01-15",
-      "last_open": 8.010000228881836,
+      "last_open": 7.699999809265137,
       "last_high": 8.229999542236328,
       "last_low": 7.78000020980835,
       "last_close": 7.809999942779541,
@@ -1700,7 +1700,7 @@
     {
       "ticker": "DMAC",
       "last_date": "2026-01-15",
-      "last_open": 8.579999923706055,
+      "last_open": 8.170000076293945,
       "last_high": 8.59000015258789,
       "last_low": 8.109999656677246,
       "last_close": 8.539999961853027,
@@ -1968,7 +1968,7 @@
     {
       "ticker": "FGL",
       "last_date": "2026-01-15",
-      "last_open": 0.1348000019788742,
+      "last_open": 0.14499999582767487,
       "last_high": 0.15199999511241913,
       "last_low": 0.1348000019788742,
       "last_close": 0.14489999413490295,
@@ -2370,7 +2370,7 @@
     {
       "ticker": "ESEA",
       "last_date": "2026-01-15",
-      "last_open": 55.470001220703125,
+      "last_open": 55.38999938964844,
       "last_high": 55.540000915527344,
       "last_low": 54.400001525878906,
       "last_close": 55.150001525878906,
@@ -2571,7 +2571,7 @@
     {
       "ticker": "CRON",
       "last_date": "2026-01-15",
-      "last_open": 2.640000104904175,
+      "last_open": 2.700000047683716,
       "last_high": 2.6500000953674316,
       "last_low": 2.5799999237060547,
       "last_close": 2.5899999141693115,
@@ -2638,7 +2638,7 @@
     {
       "ticker": "CYTK",
       "last_date": "2026-01-15",
-      "last_open": 64.41999816894531,
+      "last_open": 64.37999725341797,
       "last_high": 64.9800033569336,
       "last_low": 63.310001373291016,
       "last_close": 63.435001373291016,
@@ -2705,7 +2705,7 @@
     {
       "ticker": "ENVX",
       "last_date": "2026-01-15",
-      "last_open": 8.25,
+      "last_open": 7.980000019073486,
       "last_high": 8.3100004196167,
       "last_low": 7.760000228881836,
       "last_close": 7.820000171661377,
@@ -2839,7 +2839,7 @@
     {
       "ticker": "FATE",
       "last_date": "2026-01-15",
-      "last_open": 1.0700000524520874,
+      "last_open": 1.059999942779541,
       "last_high": 1.0850000381469727,
       "last_low": 1.0299999713897705,
       "last_close": 1.0499999523162842,
@@ -2973,7 +2973,7 @@
     {
       "ticker": "ESOA",
       "last_date": "2026-01-15",
-      "last_open": 8.520000457763672,
+      "last_open": 8.34000015258789,
       "last_high": 8.989999771118164,
       "last_low": 8.489999771118164,
       "last_close": 8.779999732971191,
@@ -3040,7 +3040,7 @@
     {
       "ticker": "CYN",
       "last_date": "2026-01-15",
-      "last_open": 2.5999999046325684,
+      "last_open": 2.75,
       "last_high": 2.5999999046325684,
       "last_low": 2.424999952316284,
       "last_close": 2.430000066757202,
@@ -3308,7 +3308,7 @@
     {
       "ticker": "CEPT",
       "last_date": "2026-01-15",
-      "last_open": 11.819999694824219,
+      "last_open": 10.960000038146973,
       "last_high": 13.210000038146973,
       "last_low": 11.699999809265137,
       "last_close": 11.970000267028809,
@@ -3375,7 +3375,7 @@
     {
       "ticker": "CDXS",
       "last_date": "2026-01-15",
-      "last_open": 1.7699999809265137,
+      "last_open": 1.6799999475479126,
       "last_high": 1.7899999618530273,
       "last_low": 1.7300000190734863,
       "last_close": 1.7799999713897705,
@@ -3442,7 +3442,7 @@
     {
       "ticker": "EQIX",
       "last_date": "2026-01-15",
-      "last_open": 800.5499877929688,
+      "last_open": 784.22998046875,
       "last_high": 813.4500122070312,
       "last_low": 797.8699951171875,
       "last_close": 801.8200073242188,
@@ -3509,7 +3509,7 @@
     {
       "ticker": "EYE",
       "last_date": "2026-01-15",
-      "last_open": 27.59000015258789,
+      "last_open": 28.6200008392334,
       "last_high": 30.020000457763672,
       "last_low": 28.329999923706055,
       "last_close": 29.43000030517578,
@@ -3576,7 +3576,7 @@
     {
       "ticker": "CMBM",
       "last_date": "2026-01-15",
-      "last_open": 1.5299999713897705,
+      "last_open": 1.5099999904632568,
       "last_high": 1.5950000286102295,
       "last_low": 1.5199999809265137,
       "last_close": 1.5700000524520874,
@@ -3777,7 +3777,7 @@
     {
       "ticker": "DCTH",
       "last_date": "2026-01-15",
-      "last_open": 10.380000114440918,
+      "last_open": 10.289999961853027,
       "last_high": 10.390000343322754,
       "last_low": 10.063699722290039,
       "last_close": 10.210000038146973,
@@ -3844,7 +3844,7 @@
     {
       "ticker": "CGEM",
       "last_date": "2026-01-15",
-      "last_open": 10.84000015258789,
+      "last_open": 10.489999771118164,
       "last_high": 11.059900283813477,
       "last_low": 10.489999771118164,
       "last_close": 10.65999984741211,
@@ -3911,7 +3911,7 @@
     {
       "ticker": "ECPG",
       "last_date": "2026-01-15",
-      "last_open": 55.439998626708984,
+      "last_open": 55.400001525878906,
       "last_high": 56.290000915527344,
       "last_low": 55.270198822021484,
       "last_close": 56.099998474121094,
@@ -4045,7 +4045,7 @@
     {
       "ticker": "DERM",
       "last_date": "2026-01-15",
-      "last_open": 7.869999885559082,
+      "last_open": 8.069999694824219,
       "last_high": 8.390000343322754,
       "last_low": 7.804999828338623,
       "last_close": 8.359999656677246,
@@ -4112,7 +4112,7 @@
     {
       "ticker": "COGT",
       "last_date": "2026-01-15",
-      "last_open": 37.75,
+      "last_open": 34.68000030517578,
       "last_high": 39.29499816894531,
       "last_low": 36.880001068115234,
       "last_close": 39.25,
@@ -4179,7 +4179,7 @@
     {
       "ticker": "CTOR",
       "last_date": "2026-01-15",
-      "last_open": 1.1299999952316284,
+      "last_open": 1.1100000143051147,
       "last_high": 1.1299999952316284,
       "last_low": 1.0551999807357788,
       "last_close": 1.0800000429153442,
@@ -4246,7 +4246,7 @@
     {
       "ticker": "COST",
       "last_date": "2026-01-15",
-      "last_open": 954.5399780273438,
+      "last_open": 939.0,
       "last_high": 958.280029296875,
       "last_low": 950.0001220703125,
       "last_close": 956.75,
@@ -4313,7 +4313,7 @@
     {
       "ticker": "DXCM",
       "last_date": "2026-01-15",
-      "last_open": 69.6500015258789,
+      "last_open": 70.88999938964844,
       "last_high": 70.05500030517578,
       "last_low": 68.97000122070312,
       "last_close": 69.23999786376953,
@@ -4581,7 +4581,7 @@
     {
       "ticker": "EH",
       "last_date": "2026-01-15",
-      "last_open": 14.920000076293945,
+      "last_open": 14.819999694824219,
       "last_high": 14.960000038146973,
       "last_low": 14.609999656677246,
       "last_close": 14.710000038146973,
@@ -4782,7 +4782,7 @@
     {
       "ticker": "EGAN",
       "last_date": "2026-01-15",
-      "last_open": 10.979999542236328,
+      "last_open": 11.470000267028809,
       "last_high": 11.079999923706055,
       "last_low": 10.449999809265137,
       "last_close": 10.479999542236328,
@@ -5050,7 +5050,7 @@
     {
       "ticker": "CYRX",
       "last_date": "2026-01-15",
-      "last_open": 10.920000076293945,
+      "last_open": 10.720000267028809,
       "last_high": 11.279999732971191,
       "last_low": 10.71500015258789,
       "last_close": 11.270000457763672,
@@ -5117,7 +5117,7 @@
     {
       "ticker": "EZPW",
       "last_date": "2026-01-15",
-      "last_open": 21.25,
+      "last_open": 22.030000686645508,
       "last_high": 21.670000076293945,
       "last_low": 21.25,
       "last_close": 21.540000915527344,
@@ -5653,7 +5653,7 @@
     {
       "ticker": "DOMH",
       "last_date": "2026-01-15",
-      "last_open": 4.329999923706055,
+      "last_open": 4.340000152587891,
       "last_high": 4.340000152587891,
       "last_low": 4.159800052642822,
       "last_close": 4.159999847412109,
@@ -5921,7 +5921,7 @@
     {
       "ticker": "CIFR",
       "last_date": "2026-01-15",
-      "last_open": 18.239999771118164,
+      "last_open": 18.25,
       "last_high": 18.739999771118164,
       "last_low": 17.05500030517578,
       "last_close": 17.520000457763672,
@@ -5988,7 +5988,7 @@
     {
       "ticker": "CRNX",
       "last_date": "2026-01-15",
-      "last_open": 54.91999816894531,
+      "last_open": 54.5,
       "last_high": 56.54999923706055,
       "last_low": 53.70500183105469,
       "last_close": 56.43000030517578,
@@ -6122,7 +6122,7 @@
     {
       "ticker": "CVKD",
       "last_date": "2026-01-15",
-      "last_open": 8.390000343322754,
+      "last_open": 8.5,
       "last_high": 8.4399995803833,
       "last_low": 8.100000381469727,
       "last_close": 8.199999809265137,
@@ -6256,7 +6256,7 @@
     {
       "ticker": "DRS",
       "last_date": "2026-01-15",
-      "last_open": 41.68000030517578,
+      "last_open": 41.86000061035156,
       "last_high": 42.45000076293945,
       "last_low": 41.189998626708984,
       "last_close": 42.2599983215332,
@@ -6457,7 +6457,7 @@
     {
       "ticker": "CDLX",
       "last_date": "2026-01-15",
-      "last_open": 1.2799999713897705,
+      "last_open": 1.2899999618530273,
       "last_high": 1.309999942779541,
       "last_low": 1.2350000143051147,
       "last_close": 1.2400000095367432,
@@ -6524,7 +6524,7 @@
     {
       "ticker": "CDZI",
       "last_date": "2026-01-15",
-      "last_open": 6.800000190734863,
+      "last_open": 6.099999904632568,
       "last_high": 6.885000228881836,
       "last_low": 6.619999885559082,
       "last_close": 6.659999847412109,
@@ -6591,7 +6591,7 @@
     {
       "ticker": "COHU",
       "last_date": "2026-01-15",
-      "last_open": 29.350000381469727,
+      "last_open": 27.790000915527344,
       "last_high": 30.5625,
       "last_low": 29.030000686645508,
       "last_close": 29.139999389648438,
@@ -6658,7 +6658,7 @@
     {
       "ticker": "FBGL",
       "last_date": "2026-01-15",
-      "last_open": 0.9017000198364258,
+      "last_open": 0.8399999737739563,
       "last_high": 0.9017000198364258,
       "last_low": 0.7900000214576721,
       "last_close": 0.8799999952316284,
@@ -6792,7 +6792,7 @@
     {
       "ticker": "DTCK",
       "last_date": "2026-01-15",
-      "last_open": 0.3019999861717224,
+      "last_open": 0.30329999327659607,
       "last_high": 0.3328999876976013,
       "last_low": 0.3019999861717224,
       "last_close": 0.3089999854564667,
@@ -6859,7 +6859,7 @@
     {
       "ticker": "CECO",
       "last_date": "2026-01-15",
-      "last_open": 66.38999938964844,
+      "last_open": 64.16000366210938,
       "last_high": 67.25,
       "last_low": 65.45999908447266,
       "last_close": 66.16000366210938,
@@ -7060,7 +7060,7 @@
     {
       "ticker": "CLFD",
       "last_date": "2026-01-15",
-      "last_open": 32.77000045776367,
+      "last_open": 31.219999313354492,
       "last_high": 33.45000076293945,
       "last_low": 32.209999084472656,
       "last_close": 32.34000015258789,
@@ -7127,7 +7127,7 @@
     {
       "ticker": "CTXR",
       "last_date": "2026-01-15",
-      "last_open": 0.8456000089645386,
+      "last_open": 0.8278999924659729,
       "last_high": 0.8568000197410583,
       "last_low": 0.8281000256538391,
       "last_close": 0.8565000295639038,
@@ -7194,7 +7194,7 @@
     {
       "ticker": "DJT",
       "last_date": "2026-01-15",
-      "last_open": 13.970000267028809,
+      "last_open": 14.0,
       "last_high": 13.998499870300293,
       "last_low": 13.630000114440918,
       "last_close": 13.65999984741211,
@@ -7328,7 +7328,7 @@
     {
       "ticker": "EWTX",
       "last_date": "2026-01-15",
-      "last_open": 28.0,
+      "last_open": 24.229999542236328,
       "last_high": 28.0,
       "last_low": 26.059999465942383,
       "last_close": 26.600000381469727,
@@ -7395,7 +7395,7 @@
     {
       "ticker": "ENPH",
       "last_date": "2026-01-15",
-      "last_open": 36.25,
+      "last_open": 36.68000030517578,
       "last_high": 36.279998779296875,
       "last_low": 34.86000061035156,
       "last_close": 35.36000061035156,
@@ -7462,7 +7462,7 @@
     {
       "ticker": "CMCO",
       "last_date": "2026-01-15",
-      "last_open": 20.809999465942383,
+      "last_open": 19.68000030517578,
       "last_high": 21.399999618530273,
       "last_low": 20.689800262451172,
       "last_close": 21.350000381469727,
@@ -7529,7 +7529,7 @@
     {
       "ticker": "DRMA",
       "last_date": "2026-01-15",
-      "last_open": 2.2799999713897705,
+      "last_open": 1.8899999856948853,
       "last_high": 2.4149999618530273,
       "last_low": 2.1301000118255615,
       "last_close": 2.25,
@@ -7596,7 +7596,7 @@
     {
       "ticker": "FIP",
       "last_date": "2026-01-15",
-      "last_open": 5.349999904632568,
+      "last_open": 4.920000076293945,
       "last_high": 5.769999980926514,
       "last_low": 5.329999923706055,
       "last_close": 5.619999885559082,
@@ -7663,7 +7663,7 @@
     {
       "ticker": "CHRS",
       "last_date": "2026-01-15",
-      "last_open": 1.600000023841858,
+      "last_open": 1.690000057220459,
       "last_high": 1.6699999570846558,
       "last_low": 1.5600999593734741,
       "last_close": 1.659999966621399,
@@ -7797,7 +7797,7 @@
     {
       "ticker": "CING",
       "last_date": "2026-01-15",
-      "last_open": 4.980000019073486,
+      "last_open": 4.929999828338623,
       "last_high": 5.630000114440918,
       "last_low": 4.830100059509277,
       "last_close": 5.440000057220459,
@@ -7864,7 +7864,7 @@
     {
       "ticker": "CLRB",
       "last_date": "2026-01-15",
-      "last_open": 3.740000009536743,
+      "last_open": 3.8499999046325684,
       "last_high": 3.740000009536743,
       "last_low": 3.5000998973846436,
       "last_close": 3.6500000953674316,
@@ -7931,7 +7931,7 @@
     {
       "ticker": "DTI",
       "last_date": "2026-01-15",
-      "last_open": 3.359999895095825,
+      "last_open": 3.059999942779541,
       "last_high": 3.380000114440918,
       "last_low": 3.119999885559082,
       "last_close": 3.1700000762939453,
@@ -8132,7 +8132,7 @@
     {
       "ticker": "EUDA",
       "last_date": "2026-01-15",
-      "last_open": 1.9500000476837158,
+      "last_open": 2.450000047683716,
       "last_high": 2.0199999809265137,
       "last_low": 1.7999999523162842,
       "last_close": 1.8300000429153442,
@@ -8199,7 +8199,7 @@
     {
       "ticker": "ELE",
       "last_date": "2026-01-15",
-      "last_open": 19.829999923706055,
+      "last_open": 20.350000381469727,
       "last_high": 20.19499969482422,
       "last_low": 19.260000228881836,
       "last_close": 20.149999618530273,
@@ -8601,7 +8601,7 @@
     {
       "ticker": "FIGR",
       "last_date": "2026-01-15",
-      "last_open": 55.81999969482422,
+      "last_open": 54.20000076293945,
       "last_high": 64.9800033569336,
       "last_low": 55.81999969482422,
       "last_close": 64.95999908447266,
@@ -8668,7 +8668,7 @@
     {
       "ticker": "CMTL",
       "last_date": "2026-01-15",
-      "last_open": 5.840000152587891,
+      "last_open": 5.550000190734863,
       "last_high": 6.079999923706055,
       "last_low": 5.710000038146973,
       "last_close": 5.789999961853027,
@@ -8735,7 +8735,7 @@
     {
       "ticker": "FIEE",
       "last_date": "2026-01-15",
-      "last_open": 3.4549999237060547,
+      "last_open": 3.5299999713897705,
       "last_high": 3.5899999141693115,
       "last_low": 3.490000009536743,
       "last_close": 3.5299999713897705,
@@ -8802,7 +8802,7 @@
     {
       "ticker": "DBGI",
       "last_date": "2026-01-15",
-      "last_open": 16.559999465942383,
+      "last_open": 17.950000762939453,
       "last_high": 16.649999618530273,
       "last_low": 15.0,
       "last_close": 15.369999885559082,
@@ -8869,7 +8869,7 @@
     {
       "ticker": "ERAS",
       "last_date": "2026-01-15",
-      "last_open": 8.3100004196167,
+      "last_open": 6.179999828338623,
       "last_high": 9.720000267028809,
       "last_low": 8.039999961853027,
       "last_close": 9.5600004196167,
@@ -9003,7 +9003,7 @@
     {
       "ticker": "EVTV",
       "last_date": "2026-01-15",
-      "last_open": 2.9000000953674316,
+      "last_open": 3.319999933242798,
       "last_high": 3.7899999618530273,
       "last_low": 2.9000000953674316,
       "last_close": 3.2300000190734863,
@@ -9442,7 +9442,7 @@
     {
       "ticker": "DDOG",
       "last_date": "2026-01-15",
-      "last_open": 122.93000030517578,
+      "last_open": 127.06999969482422,
       "last_high": 124.27999877929688,
       "last_low": 120.46009826660156,
       "last_close": 120.86000061035156,
@@ -9570,7 +9570,7 @@
     {
       "ticker": "CCLD",
       "last_date": "2026-01-15",
-      "last_open": 2.859999895095825,
+      "last_open": 2.940000057220459,
       "last_high": 2.9100000858306885,
       "last_low": 2.8399999141693115,
       "last_close": 2.8499999046325684,
@@ -9631,7 +9631,7 @@
     {
       "ticker": "FCUV",
       "last_date": "2026-01-15",
-      "last_open": 0.7360000014305115,
+      "last_open": 0.7789999842643738,
       "last_high": 0.777999997138977,
       "last_low": 0.6945000290870667,
       "last_close": 0.6970999836921692,
@@ -9692,7 +9692,7 @@
     {
       "ticker": "DOMO",
       "last_date": "2026-01-15",
-      "last_open": 6.699999809265137,
+      "last_open": 7.679999828338623,
       "last_high": 6.789999961853027,
       "last_low": 6.204999923706055,
       "last_close": 6.239999771118164,
@@ -9753,7 +9753,7 @@
     {
       "ticker": "DYN",
       "last_date": "2026-01-15",
-      "last_open": 17.40999984741211,
+      "last_open": 17.239999771118164,
       "last_high": 17.5,
       "last_low": 16.299999237060547,
       "last_close": 16.420000076293945,
@@ -9820,7 +9820,7 @@
     {
       "ticker": "COEP",
       "last_date": "2026-01-15",
-      "last_open": 14.279999732971191,
+      "last_open": 14.109999656677246,
       "last_high": 14.300000190734863,
       "last_low": 13.5,
       "last_close": 13.649999618530273,
@@ -9881,7 +9881,7 @@
     {
       "ticker": "DGNX",
       "last_date": "2026-01-15",
-      "last_open": 2.680000066757202,
+      "last_open": 2.450000047683716,
       "last_high": 2.7100000381469727,
       "last_low": 2.140000104904175,
       "last_close": 2.1700000762939453,
@@ -9942,7 +9942,7 @@
     {
       "ticker": "CRMD",
       "last_date": "2026-01-15",
-      "last_open": 7.090000152587891,
+      "last_open": 7.150000095367432,
       "last_high": 7.210000038146973,
       "last_low": 6.900000095367432,
       "last_close": 7.010000228881836,
@@ -10003,7 +10003,7 @@
     {
       "ticker": "ETOR",
       "last_date": "2026-01-15",
-      "last_open": 31.5,
+      "last_open": 31.75,
       "last_high": 32.399898529052734,
       "last_low": 30.670000076293945,
       "last_close": 31.270000457763672,
@@ -10198,7 +10198,7 @@
     {
       "ticker": "CRVO",
       "last_date": "2026-01-15",
-      "last_open": 7.050000190734863,
+      "last_open": 7.369999885559082,
       "last_high": 7.380000114440918,
       "last_low": 6.900000095367432,
       "last_close": 7.079999923706055,
@@ -10442,7 +10442,7 @@
     {
       "ticker": "FBYD",
       "last_date": "2026-01-15",
-      "last_open": 8.539999961853027,
+      "last_open": 9.760000228881836,
       "last_high": 8.539999961853027,
       "last_low": 6.490099906921387,
       "last_close": 6.789999961853027,
@@ -10564,7 +10564,7 @@
     {
       "ticker": "EFSC",
       "last_date": "2026-01-15",
-      "last_open": 55.029998779296875,
+      "last_open": 54.290000915527344,
       "last_high": 56.4900016784668,
       "last_low": 53.13999938964844,
       "last_close": 56.209999084472656,
@@ -10631,7 +10631,7 @@
     {
       "ticker": "CCHH",
       "last_date": "2026-01-15",
-      "last_open": 0.4129999876022339,
+      "last_open": 0.4927999973297119,
       "last_high": 0.4580000042915344,
       "last_low": 0.4129999876022339,
       "last_close": 0.4381999969482422,
@@ -10814,7 +10814,7 @@
     {
       "ticker": "ECDA",
       "last_date": "2026-01-15",
-      "last_open": 0.3208000063896179,
+      "last_open": 0.32499998807907104,
       "last_high": 0.33340001106262207,
       "last_low": 0.22370000183582306,
       "last_close": 0.24050000309944153,
@@ -10875,7 +10875,7 @@
     {
       "ticker": "CHTR",
       "last_date": "2026-01-15",
-      "last_open": 201.4499969482422,
+      "last_open": 203.97000122070312,
       "last_high": 201.4499969482422,
       "last_low": 194.05999755859375,
       "last_close": 194.61000061035156,
@@ -11247,7 +11247,7 @@
     {
       "ticker": "FIVN",
       "last_date": "2026-01-15",
-      "last_open": 19.0,
+      "last_open": 19.950000762939453,
       "last_high": 19.09000015258789,
       "last_low": 18.5,
       "last_close": 19.010000228881836,
@@ -11686,7 +11686,7 @@
     {
       "ticker": "DMAA",
       "last_date": "2026-01-15",
-      "last_open": 10.398300170898438,
+      "last_open": 10.399999618530273,
       "last_high": 10.404999732971191,
       "last_low": 10.395000457763672,
       "last_close": 10.399999618530273,
@@ -11814,7 +11814,7 @@
     {
       "ticker": "FENC",
       "last_date": "2026-01-15",
-      "last_open": 7.559999942779541,
+      "last_open": 7.659999847412109,
       "last_high": 7.815000057220459,
       "last_low": 7.400000095367432,
       "last_close": 7.460000038146973,
@@ -12131,7 +12131,7 @@
     {
       "ticker": "DPZ",
       "last_date": "2026-01-15",
-      "last_open": 405.75,
+      "last_open": 415.1199951171875,
       "last_high": 410.0,
       "last_low": 403.05999755859375,
       "last_close": 409.0899963378906,
@@ -12436,7 +12436,7 @@
     {
       "ticker": "FACT",
       "last_date": "2026-01-15",
-      "last_open": 10.449999809265137,
+      "last_open": 10.4399995803833,
       "last_high": 10.470000267028809,
       "last_low": 10.440099716186523,
       "last_close": 10.460000038146973,
@@ -12497,7 +12497,7 @@
     {
       "ticker": "FGMC",
       "last_date": "2026-01-15",
-      "last_open": 10.109999656677246,
+      "last_open": 10.119999885559082,
       "last_high": 10.109999656677246,
       "last_low": 10.079999923706055,
       "last_close": 10.100000381469727,
@@ -12686,7 +12686,7 @@
     {
       "ticker": "ETON",
       "last_date": "2026-01-15",
-      "last_open": 15.600000381469727,
+      "last_open": 15.489999771118164,
       "last_high": 15.779999732971191,
       "last_low": 15.085000038146973,
       "last_close": 15.40999984741211,
@@ -12814,7 +12814,7 @@
     {
       "ticker": "DBX",
       "last_date": "2026-01-15",
-      "last_open": 26.84000015258789,
+      "last_open": 27.329999923706055,
       "last_high": 26.954999923706055,
       "last_low": 26.479999542236328,
       "last_close": 26.510000228881836,
@@ -13064,7 +13064,7 @@
     {
       "ticker": "CLDX",
       "last_date": "2026-01-15",
-      "last_open": 26.239999771118164,
+      "last_open": 25.674999237060547,
       "last_high": 26.454999923706055,
       "last_low": 25.274999618530273,
       "last_close": 25.690000534057617,
@@ -13192,7 +13192,7 @@
     {
       "ticker": "DTST",
       "last_date": "2026-01-15",
-      "last_open": 4.46999979019165,
+      "last_open": 4.940000057220459,
       "last_high": 4.585000038146973,
       "last_low": 4.324999809265137,
       "last_close": 4.329999923706055,
@@ -13253,7 +13253,7 @@
     {
       "ticker": "COCH",
       "last_date": "2026-01-15",
-      "last_open": 0.6990000009536743,
+      "last_open": 0.6868000030517578,
       "last_high": 0.6990000009536743,
       "last_low": 0.6603999733924866,
       "last_close": 0.6711999773979187,
@@ -13381,7 +13381,7 @@
     {
       "ticker": "EVER",
       "last_date": "2026-01-15",
-      "last_open": 24.8700008392334,
+      "last_open": 26.34000015258789,
       "last_high": 25.25,
       "last_low": 24.639999389648438,
       "last_close": 25.139999389648438,
@@ -13448,7 +13448,7 @@
     {
       "ticker": "CGCT",
       "last_date": "2026-01-15",
-      "last_open": 10.329999923706055,
+      "last_open": 10.323399543762207,
       "last_high": 10.390000343322754,
       "last_low": 10.25,
       "last_close": 10.329999923706055,
@@ -13509,7 +13509,7 @@
     {
       "ticker": "CHDN",
       "last_date": "2026-01-15",
-      "last_open": 108.08000183105469,
+      "last_open": 105.8499984741211,
       "last_high": 112.32499694824219,
       "last_low": 106.76000213623047,
       "last_close": 107.48999786376953,
@@ -13576,7 +13576,7 @@
     {
       "ticker": "DGICA",
       "last_date": "2026-01-15",
-      "last_open": 19.40999984741211,
+      "last_open": 19.31999969482422,
       "last_high": 19.706199645996094,
       "last_low": 19.40999984741211,
       "last_close": 19.579999923706055,
@@ -13637,7 +13637,7 @@
     {
       "ticker": "DNUT",
       "last_date": "2026-01-15",
-      "last_open": 3.9000000953674316,
+      "last_open": 4.380000114440918,
       "last_high": 3.9200000762939453,
       "last_low": 3.690000057220459,
       "last_close": 3.694999933242798,
@@ -13698,7 +13698,7 @@
     {
       "ticker": "EXPI",
       "last_date": "2026-01-15",
-      "last_open": 9.180000305175781,
+      "last_open": 9.59000015258789,
       "last_high": 9.319999694824219,
       "last_low": 9.020000457763672,
       "last_close": 9.279999732971191,
@@ -13759,7 +13759,7 @@
     {
       "ticker": "DENN",
       "last_date": "2026-01-15",
-      "last_open": 6.25,
+      "last_open": 6.230000019073486,
       "last_high": 6.260000228881836,
       "last_low": 6.244999885559082,
       "last_close": 6.260000228881836,
@@ -13887,7 +13887,7 @@
     {
       "ticker": "CPRX",
       "last_date": "2026-01-15",
-      "last_open": 23.1200008392334,
+      "last_open": 23.170000076293945,
       "last_high": 23.239999771118164,
       "last_low": 22.549999237060547,
       "last_close": 22.959999084472656,
@@ -13954,7 +13954,7 @@
     {
       "ticker": "CVRX",
       "last_date": "2026-01-15",
-      "last_open": 6.090000152587891,
+      "last_open": 7.260000228881836,
       "last_high": 6.090000152587891,
       "last_low": 5.440000057220459,
       "last_close": 5.46999979019165,
@@ -14021,7 +14021,7 @@
     {
       "ticker": "CRBU",
       "last_date": "2026-01-15",
-      "last_open": 1.6200000047683716,
+      "last_open": 1.600000023841858,
       "last_high": 1.6299999952316284,
       "last_low": 1.5499999523162842,
       "last_close": 1.559999942779541,
@@ -14082,7 +14082,7 @@
     {
       "ticker": "ESPR",
       "last_date": "2026-01-15",
-      "last_open": 3.119999885559082,
+      "last_open": 3.319999933242798,
       "last_high": 3.2100000381469727,
       "last_low": 3.059999942779541,
       "last_close": 3.130000114440918,
@@ -14149,7 +14149,7 @@
     {
       "ticker": "EXC",
       "last_date": "2026-01-15",
-      "last_open": 43.77000045776367,
+      "last_open": 42.88999938964844,
       "last_high": 44.17499923706055,
       "last_low": 43.630001068115234,
       "last_close": 44.150001525878906,
@@ -14344,7 +14344,7 @@
     {
       "ticker": "CPB",
       "last_date": "2026-01-15",
-      "last_open": 26.719999313354492,
+      "last_open": 26.110000610351562,
       "last_high": 26.924999237060547,
       "last_low": 26.209999084472656,
       "last_close": 26.899999618530273,
@@ -14411,7 +14411,7 @@
     {
       "ticker": "ENSC",
       "last_date": "2026-01-15",
-      "last_open": 0.949999988079071,
+      "last_open": 0.9368000030517578,
       "last_high": 0.949999988079071,
       "last_low": 0.8799999952316284,
       "last_close": 0.8999999761581421,
@@ -14478,7 +14478,7 @@
     {
       "ticker": "CCG",
       "last_date": "2026-01-15",
-      "last_open": 0.8399999737739563,
+      "last_open": 0.8400999903678894,
       "last_high": 0.8600000143051147,
       "last_low": 0.8299999833106995,
       "last_close": 0.8300999999046326,
@@ -14539,7 +14539,7 @@
     {
       "ticker": "EPSN",
       "last_date": "2026-01-15",
-      "last_open": 4.389999866485596,
+      "last_open": 4.340000152587891,
       "last_high": 4.550000190734863,
       "last_low": 4.304999828338623,
       "last_close": 4.5,
@@ -14606,7 +14606,7 @@
     {
       "ticker": "COFS",
       "last_date": "2026-01-15",
-      "last_open": 28.1299991607666,
+      "last_open": 28.174999237060547,
       "last_high": 28.81999969482422,
       "last_low": 28.1299991607666,
       "last_close": 28.649999618530273,
@@ -14667,7 +14667,7 @@
     {
       "ticker": "EEFT",
       "last_date": "2026-01-15",
-      "last_open": 74.58000183105469,
+      "last_open": 73.94999694824219,
       "last_high": 75.2300033569336,
       "last_low": 73.69999694824219,
       "last_close": 74.69000244140625,
@@ -14789,7 +14789,7 @@
     {
       "ticker": "CRSR",
       "last_date": "2026-01-15",
-      "last_open": 5.789999961853027,
+      "last_open": 5.960000038146973,
       "last_high": 6.079999923706055,
       "last_low": 5.670000076293945,
       "last_close": 5.889999866485596,
@@ -14917,7 +14917,7 @@
     {
       "ticker": "CDW",
       "last_date": "2026-01-15",
-      "last_open": 133.05999755859375,
+      "last_open": 134.2899932861328,
       "last_high": 134.02000427246094,
       "last_low": 130.44000244140625,
       "last_close": 132.2899932861328,
@@ -14978,7 +14978,7 @@
     {
       "ticker": "DORM",
       "last_date": "2026-01-15",
-      "last_open": 126.05000305175781,
+      "last_open": 126.93000030517578,
       "last_high": 130.5,
       "last_low": 125.4000015258789,
       "last_close": 128.7899932861328,
@@ -15234,7 +15234,7 @@
     {
       "ticker": "CGTX",
       "last_date": "2026-01-15",
-      "last_open": 1.4199999570846558,
+      "last_open": 1.4800000190734863,
       "last_high": 1.434499979019165,
       "last_low": 1.3700000047683716,
       "last_close": 1.3799999952316284,
@@ -15435,7 +15435,7 @@
     {
       "ticker": "DTIL",
       "last_date": "2026-01-15",
-      "last_open": 4.150000095367432,
+      "last_open": 4.050000190734863,
       "last_high": 4.150000095367432,
       "last_low": 3.869999885559082,
       "last_close": 3.9000000953674316,
@@ -15563,7 +15563,7 @@
     {
       "ticker": "CRBP",
       "last_date": "2026-01-15",
-      "last_open": 8.329999923706055,
+      "last_open": 7.960000038146973,
       "last_high": 8.359999656677246,
       "last_low": 7.889999866485596,
       "last_close": 8.170000076293945,
@@ -15630,7 +15630,7 @@
     {
       "ticker": "CFFN",
       "last_date": "2026-01-15",
-      "last_open": 6.690000057220459,
+      "last_open": 6.679999828338623,
       "last_high": 6.824999809265137,
       "last_low": 6.670000076293945,
       "last_close": 6.760000228881836,
@@ -15819,7 +15819,7 @@
     {
       "ticker": "CXAI",
       "last_date": "2026-01-15",
-      "last_open": 0.30000001192092896,
+      "last_open": 0.33320000767707825,
       "last_high": 0.3050000071525574,
       "last_low": 0.28999999165534973,
       "last_close": 0.28999999165534973,
@@ -15947,7 +15947,7 @@
     {
       "ticker": "COKE",
       "last_date": "2026-01-15",
-      "last_open": 152.47000122070312,
+      "last_open": 149.99000549316406,
       "last_high": 153.27000427246094,
       "last_low": 148.17999267578125,
       "last_close": 150.85000610351562,
@@ -16075,7 +16075,7 @@
     {
       "ticker": "COLM",
       "last_date": "2026-01-15",
-      "last_open": 55.11000061035156,
+      "last_open": 54.36000061035156,
       "last_high": 55.439998626708984,
       "last_low": 54.70000076293945,
       "last_close": 55.09000015258789,
@@ -16270,7 +16270,7 @@
     {
       "ticker": "CHKP",
       "last_date": "2026-01-15",
-      "last_open": 188.5500030517578,
+      "last_open": 187.03500366210938,
       "last_high": 193.9600067138672,
       "last_low": 186.32000732421875,
       "last_close": 188.5399932861328,
@@ -16526,7 +16526,7 @@
     {
       "ticker": "EXTR",
       "last_date": "2026-01-15",
-      "last_open": 16.18000030517578,
+      "last_open": 15.649999618530273,
       "last_high": 16.389999389648438,
       "last_low": 16.040000915527344,
       "last_close": 16.09000015258789,
@@ -16660,7 +16660,7 @@
     {
       "ticker": "DMRC",
       "last_date": "2026-01-15",
-      "last_open": 6.440000057220459,
+      "last_open": 6.889999866485596,
       "last_high": 6.71999979019165,
       "last_low": 6.369999885559082,
       "last_close": 6.389999866485596,
@@ -16794,7 +16794,7 @@
     {
       "ticker": "DWTX",
       "last_date": "2026-01-15",
-      "last_open": 2.9100000858306885,
+      "last_open": 3.119999885559082,
       "last_high": 2.9700000286102295,
       "last_low": 2.712100028991699,
       "last_close": 2.799999952316284,
@@ -16855,7 +16855,7 @@
     {
       "ticker": "COLB",
       "last_date": "2026-01-15",
-      "last_open": 28.549999237060547,
+      "last_open": 28.645000457763672,
       "last_high": 29.360000610351562,
       "last_low": 28.510000228881836,
       "last_close": 29.25,
@@ -17111,7 +17111,7 @@
     {
       "ticker": "CHRD",
       "last_date": "2026-01-15",
-      "last_open": 92.37000274658203,
+      "last_open": 91.13999938964844,
       "last_high": 93.44999694824219,
       "last_low": 91.36000061035156,
       "last_close": 91.94000244140625,
@@ -17367,7 +17367,7 @@
     {
       "ticker": "CSGS",
       "last_date": "2026-01-15",
-      "last_open": 79.4800033569336,
+      "last_open": 79.44999694824219,
       "last_high": 79.55000305175781,
       "last_low": 79.44000244140625,
       "last_close": 79.4800033569336,
@@ -17428,7 +17428,7 @@
     {
       "ticker": "CCSI",
       "last_date": "2026-01-15",
-      "last_open": 22.489999771118164,
+      "last_open": 22.68000030517578,
       "last_high": 23.024999618530273,
       "last_low": 21.81999969482422,
       "last_close": 22.670000076293945,
@@ -17489,7 +17489,7 @@
     {
       "ticker": "CHEF",
       "last_date": "2026-01-15",
-      "last_open": 60.25,
+      "last_open": 61.209999084472656,
       "last_high": 66.08499908447266,
       "last_low": 60.25,
       "last_close": 64.55000305175781,
@@ -17684,7 +17684,7 @@
     {
       "ticker": "CNVS",
       "last_date": "2026-01-15",
-      "last_open": 2.069999933242798,
+      "last_open": 2.0,
       "last_high": 2.106100082397461,
       "last_low": 2.009999990463257,
       "last_close": 2.069999933242798,
@@ -17952,7 +17952,7 @@
     {
       "ticker": "CDIO",
       "last_date": "2026-01-15",
-      "last_open": 1.850000023841858,
+      "last_open": 1.940000057220459,
       "last_high": 1.8550000190734863,
       "last_low": 1.7300000190734863,
       "last_close": 1.7599999904632568,
@@ -18019,7 +18019,7 @@
     {
       "ticker": "EXPO",
       "last_date": "2026-01-15",
-      "last_open": 72.58999633789062,
+      "last_open": 74.80000305175781,
       "last_high": 74.70999908447266,
       "last_low": 72.2699966430664,
       "last_close": 74.3499984741211,
@@ -18208,7 +18208,7 @@
     {
       "ticker": "EHTH",
       "last_date": "2026-01-15",
-      "last_open": 3.799999952316284,
+      "last_open": 3.9800000190734863,
       "last_high": 3.9149999618530273,
       "last_low": 3.7799999713897705,
       "last_close": 3.8399999141693115,
@@ -18397,7 +18397,7 @@
     {
       "ticker": "CSX",
       "last_date": "2026-01-15",
-      "last_open": 36.2599983215332,
+      "last_open": 35.18000030517578,
       "last_high": 36.5,
       "last_low": 36.15999984741211,
       "last_close": 36.29999923706055,
@@ -18464,7 +18464,7 @@
     {
       "ticker": "EVLV",
       "last_date": "2026-01-15",
-      "last_open": 6.590000152587891,
+      "last_open": 7.119999885559082,
       "last_high": 6.610000133514404,
       "last_low": 6.355000019073486,
       "last_close": 6.380000114440918,
@@ -18525,7 +18525,7 @@
     {
       "ticker": "FIZZ",
       "last_date": "2026-01-15",
-      "last_open": 33.40999984741211,
+      "last_open": 32.869998931884766,
       "last_high": 33.641998291015625,
       "last_low": 33.060001373291016,
       "last_close": 33.349998474121094,
@@ -18592,7 +18592,7 @@
     {
       "ticker": "CDNS",
       "last_date": "2026-01-15",
-      "last_open": 317.44000244140625,
+      "last_open": 323.489990234375,
       "last_high": 328.6400146484375,
       "last_low": 316.0010070800781,
       "last_close": 320.6000061035156,
@@ -18720,7 +18720,7 @@
     {
       "ticker": "DGII",
       "last_date": "2026-01-15",
-      "last_open": 43.02000045776367,
+      "last_open": 41.91999816894531,
       "last_high": 43.831298828125,
       "last_low": 42.970001220703125,
       "last_close": 43.20000076293945,
@@ -19043,7 +19043,7 @@
     {
       "ticker": "CORT",
       "last_date": "2026-01-15",
-      "last_open": 37.0,
+      "last_open": 37.349998474121094,
       "last_high": 37.19499969482422,
       "last_low": 35.15999984741211,
       "last_close": 35.38999938964844,
@@ -19165,7 +19165,7 @@
     {
       "ticker": "CPRT",
       "last_date": "2026-01-15",
-      "last_open": 40.130001068115234,
+      "last_open": 39.880001068115234,
       "last_high": 41.30500030517578,
       "last_low": 39.90999984741211,
       "last_close": 41.25,
@@ -19360,7 +19360,7 @@
     {
       "ticker": "FHB",
       "last_date": "2026-01-15",
-      "last_open": 26.530000686645508,
+      "last_open": 26.459999084472656,
       "last_high": 27.010000228881836,
       "last_low": 26.424999237060547,
       "last_close": 26.889999389648438,
@@ -19482,7 +19482,7 @@
     {
       "ticker": "ERII",
       "last_date": "2026-01-15",
-      "last_open": 14.34000015258789,
+      "last_open": 14.319999694824219,
       "last_high": 14.5,
       "last_low": 14.220000267028809,
       "last_close": 14.300000190734863,
@@ -19671,7 +19671,7 @@
     {
       "ticker": "DH",
       "last_date": "2026-01-15",
-      "last_open": 2.4700000286102295,
+      "last_open": 2.569999933242798,
       "last_high": 2.4749999046325684,
       "last_low": 2.390000104904175,
       "last_close": 2.430000066757202,
@@ -19854,7 +19854,7 @@
     {
       "ticker": "CSPI",
       "last_date": "2026-01-15",
-      "last_open": 11.859999656677246,
+      "last_open": 12.024999618530273,
       "last_high": 12.427599906921387,
       "last_low": 11.8100004196167,
       "last_close": 11.979999542236328,
@@ -20177,7 +20177,7 @@
     {
       "ticker": "CRDL",
       "last_date": "2026-01-15",
-      "last_open": 0.9800000190734863,
+      "last_open": 1.0,
       "last_high": 0.9900000095367432,
       "last_low": 0.9440000057220459,
       "last_close": 0.9629999995231628,
@@ -20305,7 +20305,7 @@
     {
       "ticker": "FFBC",
       "last_date": "2026-01-15",
-      "last_open": 25.93000030517578,
+      "last_open": 25.610000610351562,
       "last_high": 26.8700008392334,
       "last_low": 25.93000030517578,
       "last_close": 26.809999465942383,
@@ -20427,7 +20427,7 @@
     {
       "ticker": "DLTH",
       "last_date": "2026-01-15",
-      "last_open": 2.240000009536743,
+      "last_open": 2.234999895095825,
       "last_high": 2.4549999237060547,
       "last_low": 2.180000066757202,
       "last_close": 2.3299999237060547,
@@ -20549,7 +20549,7 @@
     {
       "ticker": "FA",
       "last_date": "2026-01-15",
-      "last_open": 14.859999656677246,
+      "last_open": 14.729999542236328,
       "last_high": 15.109999656677246,
       "last_low": 14.539999961853027,
       "last_close": 14.949999809265137,
@@ -20610,7 +20610,7 @@
     {
       "ticker": "DTCX",
       "last_date": "2026-01-15",
-      "last_open": 1.7599999904632568,
+      "last_open": 2.0399999618530273,
       "last_high": 1.8494999408721924,
       "last_low": 1.6299999952316284,
       "last_close": 1.6399999856948853,
@@ -20738,7 +20738,7 @@
     {
       "ticker": "EXLS",
       "last_date": "2026-01-15",
-      "last_open": 42.599998474121094,
+      "last_open": 42.15999984741211,
       "last_high": 43.150001525878906,
       "last_low": 42.369998931884766,
       "last_close": 42.630001068115234,
@@ -20799,7 +20799,7 @@
     {
       "ticker": "CWD",
       "last_date": "2026-01-15",
-      "last_open": 1.3214999437332153,
+      "last_open": 1.3799999952316284,
       "last_high": 1.3799999952316284,
       "last_low": 1.2899999618530273,
       "last_close": 1.3300000429153442,
@@ -20860,7 +20860,7 @@
     {
       "ticker": "FCAP",
       "last_date": "2026-01-15",
-      "last_open": 49.709999084472656,
+      "last_open": 48.310001373291016,
       "last_high": 51.290000915527344,
       "last_low": 49.709999084472656,
       "last_close": 50.75,
@@ -21049,7 +21049,7 @@
     {
       "ticker": "CNOB",
       "last_date": "2026-01-15",
-      "last_open": 26.309999465942383,
+      "last_open": 25.8799991607666,
       "last_high": 27.485000610351562,
       "last_low": 26.309999465942383,
       "last_close": 27.260000228881836,
@@ -21116,7 +21116,7 @@
     {
       "ticker": "CERT",
       "last_date": "2026-01-15",
-      "last_open": 9.350000381469727,
+      "last_open": 9.449999809265137,
       "last_high": 9.609999656677246,
       "last_low": 9.149999618530273,
       "last_close": 9.520000457763672,
@@ -21177,7 +21177,7 @@
     {
       "ticker": "DRH",
       "last_date": "2026-01-15",
-      "last_open": 9.229999542236328,
+      "last_open": 9.489999771118164,
       "last_high": 9.359999656677246,
       "last_low": 9.229999542236328,
       "last_close": 9.300000190734863,
@@ -21238,7 +21238,7 @@
     {
       "ticker": "DSGX",
       "last_date": "2026-01-15",
-      "last_open": 88.33000183105469,
+      "last_open": 88.62000274658203,
       "last_high": 89.48999786376953,
       "last_low": 87.7300033569336,
       "last_close": 88.56999969482422,
@@ -21299,7 +21299,7 @@
     {
       "ticker": "FFIN",
       "last_date": "2026-01-15",
-      "last_open": 32.04999923706055,
+      "last_open": 31.520000457763672,
       "last_high": 32.970001220703125,
       "last_low": 32.04999923706055,
       "last_close": 32.650001525878906,
@@ -21366,7 +21366,7 @@
     {
       "ticker": "CSGP",
       "last_date": "2026-01-15",
-      "last_open": 63.970001220703125,
+      "last_open": 58.90999984741211,
       "last_high": 64.58000183105469,
       "last_low": 62.08000183105469,
       "last_close": 63.380001068115234,
@@ -21427,7 +21427,7 @@
     {
       "ticker": "EFSI",
       "last_date": "2026-01-15",
-      "last_open": 39.75,
+      "last_open": 39.65999984741211,
       "last_high": 41.0,
       "last_low": 39.75,
       "last_close": 39.9900016784668,
@@ -21488,7 +21488,7 @@
     {
       "ticker": "CVLT",
       "last_date": "2026-01-15",
-      "last_open": 125.19000244140625,
+      "last_open": 127.04000091552734,
       "last_high": 127.08000183105469,
       "last_low": 124.68499755859375,
       "last_close": 125.19000244140625,
@@ -21555,7 +21555,7 @@
     {
       "ticker": "ENTX",
       "last_date": "2026-01-15",
-      "last_open": 1.6299999952316284,
+      "last_open": 1.6337000131607056,
       "last_high": 1.7000000476837158,
       "last_low": 1.5800000429153442,
       "last_close": 1.5800000429153442,
@@ -21616,7 +21616,7 @@
     {
       "ticker": "CHMG",
       "last_date": "2026-01-15",
-      "last_open": 55.779998779296875,
+      "last_open": 54.34000015258789,
       "last_high": 58.209999084472656,
       "last_low": 55.779998779296875,
       "last_close": 56.72999954223633,
@@ -21683,7 +21683,7 @@
     {
       "ticker": "FCFS",
       "last_date": "2026-01-15",
-      "last_open": 168.02999877929688,
+      "last_open": 166.10000610351562,
       "last_high": 169.9600067138672,
       "last_low": 167.0,
       "last_close": 169.00999450683594,
@@ -21811,7 +21811,7 @@
     {
       "ticker": "CURI",
       "last_date": "2026-01-15",
-      "last_open": 3.6600000858306885,
+      "last_open": 3.640000104904175,
       "last_high": 3.734999895095825,
       "last_low": 3.6050000190734863,
       "last_close": 3.609999895095825,
@@ -21872,7 +21872,7 @@
     {
       "ticker": "CURX",
       "last_date": "2026-01-15",
-      "last_open": 0.3610999882221222,
+      "last_open": 0.3659999966621399,
       "last_high": 0.399399995803833,
       "last_low": 0.3522999882698059,
       "last_close": 0.3693999946117401,
@@ -22061,7 +22061,7 @@
     {
       "ticker": "FBIZ",
       "last_date": "2026-01-15",
-      "last_open": 55.650001525878906,
+      "last_open": 55.09000015258789,
       "last_high": 57.44499969482422,
       "last_low": 55.63999938964844,
       "last_close": 57.27000045776367,
@@ -22195,7 +22195,7 @@
     {
       "ticker": "DRVN",
       "last_date": "2026-01-15",
-      "last_open": 15.40999984741211,
+      "last_open": 15.649999618530273,
       "last_high": 15.789999961853027,
       "last_low": 14.954999923706055,
       "last_close": 15.630000114440918,
@@ -22256,7 +22256,7 @@
     {
       "ticker": "CSTL",
       "last_date": "2026-01-15",
-      "last_open": 40.790000915527344,
+      "last_open": 39.849998474121094,
       "last_high": 41.13999938964844,
       "last_low": 40.244998931884766,
       "last_close": 40.75,
@@ -22378,7 +22378,7 @@
     {
       "ticker": "FISV",
       "last_date": "2026-01-15",
-      "last_open": 67.69000244140625,
+      "last_open": 66.5199966430664,
       "last_high": 68.08000183105469,
       "last_low": 66.46649932861328,
       "last_close": 66.77999877929688,
@@ -22439,7 +22439,7 @@
     {
       "ticker": "CTRM",
       "last_date": "2026-01-15",
-      "last_open": 2.109999895095825,
+      "last_open": 2.119999885559082,
       "last_high": 2.1600000858306885,
       "last_low": 2.0899999141693115,
       "last_close": 2.109999895095825,
@@ -22561,7 +22561,7 @@
     {
       "ticker": "CSIQ",
       "last_date": "2026-01-15",
-      "last_open": 21.31999969482422,
+      "last_open": 21.649999618530273,
       "last_high": 22.200000762939453,
       "last_low": 20.829999923706055,
       "last_close": 21.610000610351562,
@@ -22695,7 +22695,7 @@
     {
       "ticker": "CSWC",
       "last_date": "2026-01-15",
-      "last_open": 23.229999542236328,
+      "last_open": 23.1200008392334,
       "last_high": 23.760000228881836,
       "last_low": 22.969999313354492,
       "last_close": 23.719999313354492,
@@ -22890,7 +22890,7 @@
     {
       "ticker": "CLNN",
       "last_date": "2026-01-15",
-      "last_open": 5.150000095367432,
+      "last_open": 5.210000038146973,
       "last_high": 5.239999771118164,
       "last_low": 4.989999771118164,
       "last_close": 5.110000133514404,
@@ -22951,7 +22951,7 @@
     {
       "ticker": "DASH",
       "last_date": "2026-01-15",
-      "last_open": 213.7899932861328,
+      "last_open": 213.30859375,
       "last_high": 214.16000366210938,
       "last_low": 207.6199951171875,
       "last_close": 210.11000061035156,
@@ -23012,7 +23012,7 @@
     {
       "ticker": "CGC",
       "last_date": "2026-01-15",
-      "last_open": 1.2200000286102295,
+      "last_open": 1.2300000190734863,
       "last_high": 1.25,
       "last_low": 1.2100000381469727,
       "last_close": 1.2200000286102295,
@@ -23134,7 +23134,7 @@
     {
       "ticker": "CETX",
       "last_date": "2026-01-15",
-      "last_open": 2.4700000286102295,
+      "last_open": 2.4100000858306885,
       "last_high": 2.5399999618530273,
       "last_low": 2.3299999237060547,
       "last_close": 2.450000047683716,
@@ -23268,7 +23268,7 @@
     {
       "ticker": "CXDO",
       "last_date": "2026-01-15",
-      "last_open": 7.139999866485596,
+      "last_open": 6.845900058746338,
       "last_high": 7.489999771118164,
       "last_low": 7.119999885559082,
       "last_close": 7.380000114440918,
@@ -23329,7 +23329,7 @@
     {
       "ticker": "CNDT",
       "last_date": "2026-01-15",
-      "last_open": 2.0399999618530273,
+      "last_open": 2.059999942779541,
       "last_high": 2.0899999141693115,
       "last_low": 2.015000104904175,
       "last_close": 2.069999933242798,
@@ -23512,7 +23512,7 @@
     {
       "ticker": "ETHZ",
       "last_date": "2026-01-15",
-      "last_open": 5.409999847412109,
+      "last_open": 5.269999980926514,
       "last_high": 5.489999771118164,
       "last_low": 5.25,
       "last_close": 5.420000076293945,
@@ -23768,7 +23768,7 @@
     {
       "ticker": "DIBS",
       "last_date": "2026-01-15",
-      "last_open": 5.920000076293945,
+      "last_open": 5.840000152587891,
       "last_high": 5.920000076293945,
       "last_low": 5.590000152587891,
       "last_close": 5.650000095367432,
@@ -23835,7 +23835,7 @@
     {
       "ticker": "FCHL",
       "last_date": "2026-01-15",
-      "last_open": 0.258899986743927,
+      "last_open": 0.26820001006126404,
       "last_high": 0.28450000286102295,
       "last_low": 0.2583000063896179,
       "last_close": 0.27129998803138733,
@@ -23896,7 +23896,7 @@
     {
       "ticker": "EPOW",
       "last_date": "2026-01-15",
-      "last_open": 0.9480000138282776,
+      "last_open": 0.9800000190734863,
       "last_high": 0.9537000060081482,
       "last_low": 0.9056000113487244,
       "last_close": 0.9315999746322632,
@@ -23957,7 +23957,7 @@
     {
       "ticker": "FBNC",
       "last_date": "2026-01-15",
-      "last_open": 55.41999816894531,
+      "last_open": 54.08000183105469,
       "last_high": 57.650001525878906,
       "last_low": 55.41999816894531,
       "last_close": 57.529998779296875,
@@ -24024,7 +24024,7 @@
     {
       "ticker": "CLAR",
       "last_date": "2026-01-15",
-      "last_open": 3.740000009536743,
+      "last_open": 3.6500000953674316,
       "last_high": 3.859999895095825,
       "last_low": 3.700000047683716,
       "last_close": 3.8299999237060547,
@@ -24085,7 +24085,7 @@
     {
       "ticker": "CDRO",
       "last_date": "2026-01-15",
-      "last_open": 7.920000076293945,
+      "last_open": 7.860000133514404,
       "last_high": 8.085000038146973,
       "last_low": 7.599999904632568,
       "last_close": 7.75,
@@ -24219,7 +24219,7 @@
     {
       "ticker": "FIBK",
       "last_date": "2026-01-15",
-      "last_open": 36.65999984741211,
+      "last_open": 36.959999084472656,
       "last_high": 37.560001373291016,
       "last_low": 36.650001525878906,
       "last_close": 37.27000045776367,
@@ -24286,7 +24286,7 @@
     {
       "ticker": "CLOV",
       "last_date": "2026-01-15",
-      "last_open": 2.799999952316284,
+      "last_open": 2.6500000953674316,
       "last_high": 2.799999952316284,
       "last_low": 2.609999895095825,
       "last_close": 2.619999885559082,
@@ -24347,7 +24347,7 @@
     {
       "ticker": "DOX",
       "last_date": "2026-01-15",
-      "last_open": 84.0199966430664,
+      "last_open": 84.38999938964844,
       "last_high": 84.51000213623047,
       "last_low": 83.68000030517578,
       "last_close": 84.29000091552734,
@@ -24469,7 +24469,7 @@
     {
       "ticker": "CRGO",
       "last_date": "2026-01-15",
-      "last_open": 2.2799999713897705,
+      "last_open": 2.3399999141693115,
       "last_high": 2.809999942779541,
       "last_low": 2.265000104904175,
       "last_close": 2.700000047683716,
@@ -24597,7 +24597,7 @@
     {
       "ticker": "CFBK",
       "last_date": "2026-01-15",
-      "last_open": 27.049999237060547,
+      "last_open": 27.0,
       "last_high": 28.149999618530273,
       "last_low": 26.850000381469727,
       "last_close": 28.1299991607666,
@@ -24780,7 +24780,7 @@
     {
       "ticker": "EDTK",
       "last_date": "2026-01-15",
-      "last_open": 0.9100000262260437,
+      "last_open": 0.9520000219345093,
       "last_high": 0.9819999933242798,
       "last_low": 0.9100000262260437,
       "last_close": 0.9621000289916992,
@@ -24902,7 +24902,7 @@
     {
       "ticker": "EMBC",
       "last_date": "2026-01-15",
-      "last_open": 12.720000267028809,
+      "last_open": 12.859999656677246,
       "last_high": 12.859999656677246,
       "last_low": 12.569999694824219,
       "last_close": 12.600000381469727,
@@ -24969,7 +24969,7 @@
     {
       "ticker": "CRIS",
       "last_date": "2026-01-15",
-      "last_open": 0.8799999952316284,
+      "last_open": 0.9190000295639038,
       "last_high": 0.9948999881744385,
       "last_low": 0.8799999952316284,
       "last_close": 0.9498999714851379,
@@ -25609,7 +25609,7 @@
     {
       "ticker": "EYPT",
       "last_date": "2026-01-15",
-      "last_open": 17.15999984741211,
+      "last_open": 15.9399995803833,
       "last_high": 17.600000381469727,
       "last_low": 15.770000457763672,
       "last_close": 15.84000015258789,
@@ -25670,7 +25670,7 @@
     {
       "ticker": "CV",
       "last_date": "2026-01-15",
-      "last_open": 5.960000038146973,
+      "last_open": 6.050000190734863,
       "last_high": 6.190000057220459,
       "last_low": 5.934999942779541,
       "last_close": 6.050000190734863,
@@ -25798,7 +25798,7 @@
     {
       "ticker": "CDNL",
       "last_date": "2026-01-15",
-      "last_open": 26.350000381469727,
+      "last_open": 25.701499938964844,
       "last_high": 27.0049991607666,
       "last_low": 25.545000076293945,
       "last_close": 26.56999969482422,
@@ -25865,7 +25865,7 @@
     {
       "ticker": "EXPE",
       "last_date": "2026-01-15",
-      "last_open": 291.70001220703125,
+      "last_open": 299.5150146484375,
       "last_high": 297.239990234375,
       "last_low": 291.70001220703125,
       "last_close": 294.2799987792969,
@@ -25987,7 +25987,7 @@
     {
       "ticker": "DNLI",
       "last_date": "2026-01-15",
-      "last_open": 18.25,
+      "last_open": 17.979999542236328,
       "last_high": 18.979999542236328,
       "last_low": 17.8799991607666,
       "last_close": 18.780000686645508,
@@ -26310,7 +26310,7 @@
     {
       "ticker": "EMPD",
       "last_date": "2026-01-15",
-      "last_open": 4.920000076293945,
+      "last_open": 4.800000190734863,
       "last_high": 4.945000171661377,
       "last_low": 4.71999979019165,
       "last_close": 4.820000171661377,
@@ -26499,7 +26499,7 @@
     {
       "ticker": "CYCN",
       "last_date": "2026-01-15",
-      "last_open": 1.4900000095367432,
+      "last_open": 1.7000000476837158,
       "last_high": 1.5096999406814575,
       "last_low": 1.3600000143051147,
       "last_close": 1.3600000143051147,
@@ -26621,7 +26621,7 @@
     {
       "ticker": "CLPT",
       "last_date": "2026-01-15",
-      "last_open": 15.180000305175781,
+      "last_open": 14.40999984741211,
       "last_high": 15.220000267028809,
       "last_low": 14.380000114440918,
       "last_close": 14.649999618530273,
@@ -26682,7 +26682,7 @@
     {
       "ticker": "EWCZ",
       "last_date": "2026-01-15",
-      "last_open": 4.090000152587891,
+      "last_open": 4.010000228881836,
       "last_high": 4.505000114440918,
       "last_low": 3.9700000286102295,
       "last_close": 4.340000152587891,
@@ -26749,7 +26749,7 @@
     {
       "ticker": "DNTH",
       "last_date": "2026-01-15",
-      "last_open": 46.290000915527344,
+      "last_open": 39.11000061035156,
       "last_high": 46.54199981689453,
       "last_low": 42.369998931884766,
       "last_close": 44.0,
@@ -26938,7 +26938,7 @@
     {
       "ticker": "CISO",
       "last_date": "2026-01-15",
-      "last_open": 0.49000000953674316,
+      "last_open": 0.47130000591278076,
       "last_high": 0.5310999751091003,
       "last_low": 0.486299991607666,
       "last_close": 0.5178999900817871,
@@ -27005,7 +27005,7 @@
     {
       "ticker": "DOGZ",
       "last_date": "2026-01-15",
-      "last_open": 11.260000228881836,
+      "last_open": 11.0600004196167,
       "last_high": 11.470000267028809,
       "last_low": 11.210000038146973,
       "last_close": 11.220000267028809,
@@ -27255,7 +27255,7 @@
     {
       "ticker": "DARE",
       "last_date": "2026-01-15",
-      "last_open": 2.0299999713897705,
+      "last_open": 1.9600000381469727,
       "last_high": 2.0299999713897705,
       "last_low": 1.9500000476837158,
       "last_close": 1.9500000476837158,
@@ -27322,7 +27322,7 @@
     {
       "ticker": "EGBN",
       "last_date": "2026-01-15",
-      "last_open": 21.790000915527344,
+      "last_open": 21.649999618530273,
       "last_high": 22.81999969482422,
       "last_low": 21.790000915527344,
       "last_close": 22.719999313354492,
@@ -27578,7 +27578,7 @@
     {
       "ticker": "CENN",
       "last_date": "2026-01-15",
-      "last_open": 0.1526000052690506,
+      "last_open": 0.15839999914169312,
       "last_high": 0.1559000015258789,
       "last_low": 0.15160000324249268,
       "last_close": 0.15279999375343323,
@@ -27712,7 +27712,7 @@
     {
       "ticker": "CRDO",
       "last_date": "2026-01-15",
-      "last_open": 163.3699951171875,
+      "last_open": 158.0498046875,
       "last_high": 164.8000030517578,
       "last_low": 149.0,
       "last_close": 149.1199951171875,
@@ -27779,7 +27779,7 @@
     {
       "ticker": "CELZ",
       "last_date": "2026-01-15",
-      "last_open": 1.8300000429153442,
+      "last_open": 2.2799999713897705,
       "last_high": 2.089900016784668,
       "last_low": 1.7999999523162842,
       "last_close": 1.899999976158142,
@@ -27840,7 +27840,7 @@
     {
       "ticker": "CTKB",
       "last_date": "2026-01-15",
-      "last_open": 5.599999904632568,
+      "last_open": 5.820000171661377,
       "last_high": 5.659999847412109,
       "last_low": 5.46999979019165,
       "last_close": 5.619999885559082,
@@ -28035,7 +28035,7 @@
     {
       "ticker": "FEAM",
       "last_date": "2026-01-15",
-      "last_open": 3.859999895095825,
+      "last_open": 3.690000057220459,
       "last_high": 3.9398999214172363,
       "last_low": 3.680000066757202,
       "last_close": 3.680000066757202,
@@ -28163,7 +28163,7 @@
     {
       "ticker": "EBMT",
       "last_date": "2026-01-15",
-      "last_open": 20.1299991607666,
+      "last_open": 19.950000762939453,
       "last_high": 20.889999389648438,
       "last_low": 20.1299991607666,
       "last_close": 20.75,
@@ -28224,7 +28224,7 @@
     {
       "ticker": "CYPH",
       "last_date": "2026-01-15",
-      "last_open": 1.1699999570846558,
+      "last_open": 1.1200000047683716,
       "last_high": 1.215000033378601,
       "last_low": 1.0800000429153442,
       "last_close": 1.100000023841858,
@@ -28352,7 +28352,7 @@
     {
       "ticker": "CMCT",
       "last_date": "2026-01-15",
-      "last_open": 3.25,
+      "last_open": 3.3499999046325684,
       "last_high": 3.25,
       "last_low": 3.1500000953674316,
       "last_close": 3.190000057220459,
@@ -28413,7 +28413,7 @@
     {
       "ticker": "CVGI",
       "last_date": "2026-01-15",
-      "last_open": 1.7799999713897705,
+      "last_open": 1.8799999952316284,
       "last_high": 1.7999000549316406,
       "last_low": 1.7400000095367432,
       "last_close": 1.75,
@@ -28547,7 +28547,7 @@
     {
       "ticker": "DCX",
       "last_date": "2026-01-15",
-      "last_open": 0.41999998688697815,
+      "last_open": 0.45399999618530273,
       "last_high": 0.4650000035762787,
       "last_low": 0.41999998688697815,
       "last_close": 0.46309998631477356,
@@ -28608,7 +28608,7 @@
     {
       "ticker": "ECX",
       "last_date": "2026-01-15",
-      "last_open": 1.899999976158142,
+      "last_open": 1.850000023841858,
       "last_high": 1.899999976158142,
       "last_low": 1.8250000476837158,
       "last_close": 1.8600000143051147,
@@ -28669,7 +28669,7 @@
     {
       "ticker": "CVCO",
       "last_date": "2026-01-15",
-      "last_open": 693.2000122070312,
+      "last_open": 676.875,
       "last_high": 707.2899780273438,
       "last_low": 682.4000244140625,
       "last_close": 692.780029296875,
@@ -29102,7 +29102,7 @@
     {
       "ticker": "CREX",
       "last_date": "2026-01-15",
-      "last_open": 3.1500000953674316,
+      "last_open": 3.0799999237060547,
       "last_high": 3.4049999713897705,
       "last_low": 3.1500000953674316,
       "last_close": 3.380000114440918,
@@ -29163,7 +29163,7 @@
     {
       "ticker": "CTNM",
       "last_date": "2026-01-15",
-      "last_open": 11.729999542236328,
+      "last_open": 9.15999984741211,
       "last_high": 11.859999656677246,
       "last_low": 10.84000015258789,
       "last_close": 11.84000015258789,
@@ -29230,7 +29230,7 @@
     {
       "ticker": "DIOD",
       "last_date": "2026-01-15",
-      "last_open": 56.540000915527344,
+      "last_open": 54.68000030517578,
       "last_high": 57.970001220703125,
       "last_low": 56.19499969482422,
       "last_close": 57.470001220703125,
@@ -29291,7 +29291,7 @@
     {
       "ticker": "FCEL",
       "last_date": "2026-01-15",
-      "last_open": 7.480000019073486,
+      "last_open": 7.630000114440918,
       "last_high": 7.590000152587891,
       "last_low": 7.261000156402588,
       "last_close": 7.449999809265137,
@@ -29425,7 +29425,7 @@
     {
       "ticker": "CVGW",
       "last_date": "2026-01-15",
-      "last_open": 21.979999542236328,
+      "last_open": 24.899999618530273,
       "last_high": 25.670000076293945,
       "last_low": 23.395000457763672,
       "last_close": 25.6200008392334,
@@ -29492,7 +29492,7 @@
     {
       "ticker": "CG",
       "last_date": "2026-01-15",
-      "last_open": 65.95999908447266,
+      "last_open": 64.96499633789062,
       "last_high": 67.30000305175781,
       "last_low": 65.91999816894531,
       "last_close": 66.12000274658203,
@@ -29620,7 +29620,7 @@
     {
       "ticker": "EQ",
       "last_date": "2026-01-15",
-      "last_open": 1.2200000286102295,
+      "last_open": 1.149999976158142,
       "last_high": 1.2200000286102295,
       "last_low": 1.0499999523162842,
       "last_close": 1.059999942779541,
@@ -29681,7 +29681,7 @@
     {
       "ticker": "CHYM",
       "last_date": "2026-01-15",
-      "last_open": 25.899999618530273,
+      "last_open": 26.579999923706055,
       "last_high": 26.760000228881836,
       "last_low": 25.18000030517578,
       "last_close": 25.84000015258789,
@@ -29870,7 +29870,7 @@
     {
       "ticker": "DAWN",
       "last_date": "2026-01-15",
-      "last_open": 10.789999961853027,
+      "last_open": 11.649999618530273,
       "last_high": 11.17549991607666,
       "last_low": 10.329999923706055,
       "last_close": 10.5,
@@ -29931,7 +29931,7 @@
     {
       "ticker": "FBIO",
       "last_date": "2026-01-15",
-      "last_open": 4.144999980926514,
+      "last_open": 3.2699999809265137,
       "last_high": 3.5799999237060547,
       "last_low": 3.262200117111206,
       "last_close": 3.4800000190734863,
@@ -29992,7 +29992,7 @@
     {
       "ticker": "CHR",
       "last_date": "2026-01-15",
-      "last_open": 1.8200000524520874,
+      "last_open": 1.7999999523162842,
       "last_high": 1.8200000524520874,
       "last_low": 1.600000023841858,
       "last_close": 1.600000023841858,
@@ -30053,7 +30053,7 @@
     {
       "ticker": "CLMB",
       "last_date": "2026-01-15",
-      "last_open": 122.76000213623047,
+      "last_open": 119.02999877929688,
       "last_high": 129.8300018310547,
       "last_low": 122.30000305175781,
       "last_close": 127.51000213623047,
@@ -30114,7 +30114,7 @@
     {
       "ticker": "FAT",
       "last_date": "2026-01-15",
-      "last_open": 0.43479999899864197,
+      "last_open": 0.4020000100135803,
       "last_high": 0.4399000108242035,
       "last_low": 0.4090999960899353,
       "last_close": 0.41499999165534973,
@@ -30236,7 +30236,7 @@
     {
       "ticker": "CNTY",
       "last_date": "2026-01-15",
-      "last_open": 1.6799999475479126,
+      "last_open": 1.649999976158142,
       "last_high": 1.719099998474121,
       "last_low": 1.6399999856948853,
       "last_close": 1.6699999570846558,
@@ -30358,7 +30358,7 @@
     {
       "ticker": "CRDF",
       "last_date": "2026-01-15",
-      "last_open": 2.799999952316284,
+      "last_open": 2.880000114440918,
       "last_high": 2.8399999141693115,
       "last_low": 2.725600004196167,
       "last_close": 2.7899999618530273,
@@ -30419,7 +30419,7 @@
     {
       "ticker": "CCOI",
       "last_date": "2026-01-15",
-      "last_open": 23.479999542236328,
+      "last_open": 23.280000686645508,
       "last_high": 23.799999237060547,
       "last_low": 22.841800689697266,
       "last_close": 23.209999084472656,
@@ -30608,7 +30608,7 @@
     {
       "ticker": "DLTR",
       "last_date": "2026-01-15",
-      "last_open": 140.24000549316406,
+      "last_open": 136.9949951171875,
       "last_high": 142.39999389648438,
       "last_low": 138.42999267578125,
       "last_close": 141.2100067138672,
@@ -30669,7 +30669,7 @@
     {
       "ticker": "ENLV",
       "last_date": "2026-01-15",
-      "last_open": 0.9506999850273132,
+      "last_open": 0.9300000071525574,
       "last_high": 1.0299999713897705,
       "last_low": 0.9165999889373779,
       "last_close": 0.9337999820709229,
@@ -30858,7 +30858,7 @@
     {
       "ticker": "CGEN",
       "last_date": "2026-01-15",
-      "last_open": 2.0199999809265137,
+      "last_open": 1.9600000381469727,
       "last_high": 2.309999942779541,
       "last_low": 2.015000104904175,
       "last_close": 2.109999895095825,
@@ -30992,7 +30992,7 @@
     {
       "ticker": "ELDN",
       "last_date": "2026-01-15",
-      "last_open": 2.049999952316284,
+      "last_open": 1.9299999475479126,
       "last_high": 2.099900007247925,
       "last_low": 2.033400058746338,
       "last_close": 2.069999933242798,
@@ -31120,7 +31120,7 @@
     {
       "ticker": "CGON",
       "last_date": "2026-01-15",
-      "last_open": 56.220001220703125,
+      "last_open": 53.029998779296875,
       "last_high": 56.349998474121094,
       "last_low": 52.600101470947266,
       "last_close": 53.06999969482422,
@@ -31376,7 +31376,7 @@
     {
       "ticker": "EVCM",
       "last_date": "2026-01-15",
-      "last_open": 12.100000381469727,
+      "last_open": 11.9399995803833,
       "last_high": 12.5,
       "last_low": 12.0802001953125,
       "last_close": 12.40999984741211,
@@ -31504,7 +31504,7 @@
     {
       "ticker": "FBLG",
       "last_date": "2026-01-15",
-      "last_open": 0.35199999809265137,
+      "last_open": 0.3452000021934509,
       "last_high": 0.3540000021457672,
       "last_low": 0.3206999897956848,
       "last_close": 0.3375000059604645,
@@ -31571,7 +31571,7 @@
     {
       "ticker": "CFLT",
       "last_date": "2026-01-15",
-      "last_open": 30.549999237060547,
+      "last_open": 30.40999984741211,
       "last_high": 30.599899291992188,
       "last_low": 30.520000457763672,
       "last_close": 30.530000686645508,
@@ -32315,7 +32315,7 @@
     {
       "ticker": "DCOY",
       "last_date": "2026-01-15",
-      "last_open": 0.8597999811172485,
+      "last_open": 1.0499999523162842,
       "last_high": 1.059999942779541,
       "last_low": 0.8400999903678894,
       "last_close": 0.9621999859809875,
@@ -32626,7 +32626,7 @@
     {
       "ticker": "FBRX",
       "last_date": "2026-01-15",
-      "last_open": 32.09000015258789,
+      "last_open": 29.459999084472656,
       "last_high": 34.0099983215332,
       "last_low": 31.950000762939453,
       "last_close": 32.689998626708984,
@@ -32937,7 +32937,7 @@
     {
       "ticker": "CSTE",
       "last_date": "2026-01-15",
-      "last_open": 2.109999895095825,
+      "last_open": 2.130000114440918,
       "last_high": 2.1600000858306885,
       "last_low": 2.0457000732421875,
       "last_close": 2.109999895095825,
@@ -32998,7 +32998,7 @@
     {
       "ticker": "EKSO",
       "last_date": "2026-01-15",
-      "last_open": 8.020000457763672,
+      "last_open": 8.65999984741211,
       "last_high": 8.749899864196777,
       "last_low": 7.699999809265137,
       "last_close": 8.550000190734863,
@@ -33120,7 +33120,7 @@
     {
       "ticker": "CLYM",
       "last_date": "2026-01-15",
-      "last_open": 3.9700000286102295,
+      "last_open": 4.670000076293945,
       "last_high": 4.049499988555908,
       "last_low": 3.740000009536743,
       "last_close": 3.7699999809265137,
@@ -33242,7 +33242,7 @@
     {
       "ticker": "CRML",
       "last_date": "2026-01-15",
-      "last_open": 16.979999542236328,
+      "last_open": 13.829999923706055,
       "last_high": 18.010000228881836,
       "last_low": 16.40999984741211,
       "last_close": 17.25,

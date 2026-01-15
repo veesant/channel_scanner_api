@@ -20,18 +20,18 @@
     "recent_hl_allow_equal_lows": false,
     "rta_pullback_min_pct": 2.0,
     "rta_pullback_lookback_bars": 20,
-    "lastUpdatedTs": "2026-01-15T23:21:26.881809+00:00"
+    "lastUpdatedTs": "2026-01-15T23:38:00.182634+00:00"
   },
   "count": 520,
   "count_clean_trend": 4,
-  "count_entry_signal": 3,
+  "count_entry_signal": 2,
   "count_recent_hl_uptrend": 108,
   "count_ready_to_act": 2,
   "data": [
     {
       "ticker": "SBC",
       "last_date": "2026-01-15",
-      "last_open": 4.510000228881836,
+      "last_open": 4.460000038146973,
       "last_high": 4.519999980926514,
       "last_low": 4.420000076293945,
       "last_close": 4.510000228881836,
@@ -157,76 +157,9 @@
       "metric_max_dd_ok": null
     },
     {
-      "ticker": "PRAX",
-      "last_date": "2026-01-15",
-      "last_open": 276.0,
-      "last_high": 305.67498779296875,
-      "last_low": 295.17999267578125,
-      "last_close": 297.739990234375,
-      "has_hh_hl": true,
-      "structure_bars": 35,
-      "min_pivots_per_side": 3,
-      "pivot_last_hh": 317.7200012207031,
-      "pivot_last_hl": 266.92999267578125,
-      "range_hh": 317.7200012207031,
-      "range_hl": 171.1999969482422,
-      "entry_level_source": "range",
-      "last_hl": 171.1999969482422,
-      "last_hh": 317.7200012207031,
-      "at_hl_zone": true,
-      "bounce_ok": true,
-      "momentum_ok": true,
-      "entry_signal": true,
-      "hl_touch_pct": 72.41822309437373,
-      "close_vs_hl_pct": 73.91354879777764,
-      "breakout_distance_pct": 6.2885593949274465,
-      "hl_touch_pct_threshold": 100,
-      "bounce_min_pct_threshold": 0.3,
-      "sma_fast": 10,
-      "sma_slow": 20,
-      "sma_fast_last": 286.4449981689453,
-      "sma_slow_last": 283.4334991455078,
-      "sma_fast_gt_slow": true,
-      "metric_hh_chain_ok": 1.0,
-      "metric_hl_chain_ok": 1.0,
-      "recent_hl_uptrend": false,
-      "recent_hl_count_required": 2,
-      "recent_hl_lookback_bars": 20,
-      "recent_hl_pivots_found": 2,
-      "recent_hl_prices": [
-        268.7799987792969,
-        266.92999267578125
-      ],
-      "recent_hl_dates": [
-        "2026-01-06",
-        "2026-01-12"
-      ],
-      "recent_hl_chain_ok": false,
-      "recent_hl_slope": -0.46250152587890814,
-      "recent_hl_slope_pct_per_bar": -0.1732669758248831,
-      "recent_hl_slope_min_pct_per_bar": 0.02,
-      "ready_to_act": true,
-      "rta_second_last_hh": 282.989990234375,
-      "rta_last_hh": 317.7200012207031,
-      "rta_pullback_ok": true,
-      "rta_pullback_pct_from_last_hh": 14.106762920816143,
-      "rta_pullback_min_pct": 2.0,
-      "rta_pullback_lookback_bars": 20,
-      "metric_structure_high_pivots": 3.0,
-      "metric_structure_low_pivots": 3.0,
-      "metric_structure_points": 6.0,
-      "metric_close_slope": 3.1371161196412167,
-      "metric_max_drawdown_pct": 10.401206275010704,
-      "metric_sma_ok": 1.0,
-      "metric_last_close": 297.739990234375,
-      "metric_last_sma_fast": 286.4449981689453,
-      "metric_last_sma_slow": 283.4334991455078,
-      "metric_max_dd_ok": null
-    },
-    {
       "ticker": "PHAR",
       "last_date": "2026-01-15",
-      "last_open": 18.170000076293945,
+      "last_open": 18.399999618530273,
       "last_high": 18.459999084472656,
       "last_low": 18.010000228881836,
       "last_close": 18.15999984741211,
@@ -288,6 +221,73 @@
       "metric_last_close": 18.15999984741211,
       "metric_last_sma_fast": 17.826999855041503,
       "metric_last_sma_slow": 17.502499866485596,
+      "metric_max_dd_ok": null
+    },
+    {
+      "ticker": "PRAX",
+      "last_date": "2026-01-15",
+      "last_open": 300.32000732421875,
+      "last_high": 305.67498779296875,
+      "last_low": 295.17999267578125,
+      "last_close": 297.739990234375,
+      "has_hh_hl": true,
+      "structure_bars": 35,
+      "min_pivots_per_side": 3,
+      "pivot_last_hh": 317.7200012207031,
+      "pivot_last_hl": 266.92999267578125,
+      "range_hh": 317.7200012207031,
+      "range_hl": 171.1999969482422,
+      "entry_level_source": "range",
+      "last_hl": 171.1999969482422,
+      "last_hh": 317.7200012207031,
+      "at_hl_zone": true,
+      "bounce_ok": true,
+      "momentum_ok": false,
+      "entry_signal": false,
+      "hl_touch_pct": 72.41822309437373,
+      "close_vs_hl_pct": 73.91354879777764,
+      "breakout_distance_pct": 6.2885593949274465,
+      "hl_touch_pct_threshold": 100,
+      "bounce_min_pct_threshold": 0.3,
+      "sma_fast": 10,
+      "sma_slow": 20,
+      "sma_fast_last": 286.4449981689453,
+      "sma_slow_last": 283.4334991455078,
+      "sma_fast_gt_slow": true,
+      "metric_hh_chain_ok": 1.0,
+      "metric_hl_chain_ok": 1.0,
+      "recent_hl_uptrend": false,
+      "recent_hl_count_required": 2,
+      "recent_hl_lookback_bars": 20,
+      "recent_hl_pivots_found": 2,
+      "recent_hl_prices": [
+        268.7799987792969,
+        266.92999267578125
+      ],
+      "recent_hl_dates": [
+        "2026-01-06",
+        "2026-01-12"
+      ],
+      "recent_hl_chain_ok": false,
+      "recent_hl_slope": -0.46250152587890814,
+      "recent_hl_slope_pct_per_bar": -0.1732669758248831,
+      "recent_hl_slope_min_pct_per_bar": 0.02,
+      "ready_to_act": true,
+      "rta_second_last_hh": 282.989990234375,
+      "rta_last_hh": 317.7200012207031,
+      "rta_pullback_ok": true,
+      "rta_pullback_pct_from_last_hh": 14.106762920816143,
+      "rta_pullback_min_pct": 2.0,
+      "rta_pullback_lookback_bars": 20,
+      "metric_structure_high_pivots": 3.0,
+      "metric_structure_low_pivots": 3.0,
+      "metric_structure_points": 6.0,
+      "metric_close_slope": 3.1371161196412167,
+      "metric_max_drawdown_pct": 10.401206275010704,
+      "metric_sma_ok": 1.0,
+      "metric_last_close": 297.739990234375,
+      "metric_last_sma_fast": 286.4449981689453,
+      "metric_last_sma_slow": 283.4334991455078,
       "metric_max_dd_ok": null
     },
     {
@@ -360,7 +360,7 @@
     {
       "ticker": "PRVA",
       "last_date": "2026-01-15",
-      "last_open": 24.0049991607666,
+      "last_open": 22.829999923706055,
       "last_high": 24.0,
       "last_low": 22.59000015258789,
       "last_close": 23.860000610351562,
@@ -427,7 +427,7 @@
     {
       "ticker": "SEAT",
       "last_date": "2026-01-15",
-      "last_open": 6.760000228881836,
+      "last_open": 6.309999942779541,
       "last_high": 6.729899883270264,
       "last_low": 6.150000095367432,
       "last_close": 6.510000228881836,
@@ -963,7 +963,7 @@
     {
       "ticker": "SDGR",
       "last_date": "2026-01-15",
-      "last_open": 18.690000534057617,
+      "last_open": 18.34000015258789,
       "last_high": 18.34000015258789,
       "last_low": 17.149999618530273,
       "last_close": 17.469999313354492,
@@ -1499,7 +1499,7 @@
     {
       "ticker": "RNW",
       "last_date": "2026-01-15",
-      "last_open": 5.400000095367432,
+      "last_open": 5.460000038146973,
       "last_high": 5.5,
       "last_low": 5.394999980926514,
       "last_close": 5.400000095367432,
@@ -1633,7 +1633,7 @@
     {
       "ticker": "PTLE",
       "last_date": "2026-01-15",
-      "last_open": 0.11599999666213989,
+      "last_open": 0.11089999973773956,
       "last_high": 0.11089999973773956,
       "last_low": 0.10490000247955322,
       "last_close": 0.1080000028014183,
@@ -1700,7 +1700,7 @@
     {
       "ticker": "PNTG",
       "last_date": "2026-01-15",
-      "last_open": 28.799999237060547,
+      "last_open": 28.84000015258789,
       "last_high": 30.15999984741211,
       "last_low": 28.674999237060547,
       "last_close": 29.899999618530273,
@@ -1834,7 +1834,7 @@
     {
       "ticker": "RDWR",
       "last_date": "2026-01-15",
-      "last_open": 24.094999313354492,
+      "last_open": 24.239999771118164,
       "last_high": 24.860000610351562,
       "last_low": 24.024999618530273,
       "last_close": 24.639999389648438,
@@ -1901,7 +1901,7 @@
     {
       "ticker": "RUN",
       "last_date": "2026-01-15",
-      "last_open": 19.190000534057617,
+      "last_open": 18.520000457763672,
       "last_high": 19.530000686645508,
       "last_low": 18.200000762939453,
       "last_close": 18.260000228881836,
@@ -2035,7 +2035,7 @@
     {
       "ticker": "SHEN",
       "last_date": "2026-01-15",
-      "last_open": 11.75,
+      "last_open": 11.59000015258789,
       "last_high": 11.6899995803833,
       "last_low": 11.449999809265137,
       "last_close": 11.630000114440918,
@@ -2102,7 +2102,7 @@
     {
       "ticker": "PAHC",
       "last_date": "2026-01-15",
-      "last_open": 39.83000183105469,
+      "last_open": 39.869998931884766,
       "last_high": 40.1150016784668,
       "last_low": 39.27000045776367,
       "last_close": 40.060001373291016,
@@ -2236,7 +2236,7 @@
     {
       "ticker": "SLNG",
       "last_date": "2026-01-15",
-      "last_open": 4.289999961853027,
+      "last_open": 4.599999904632568,
       "last_high": 4.720399856567383,
       "last_low": 4.510000228881836,
       "last_close": 4.570099830627441,
@@ -2303,7 +2303,7 @@
     {
       "ticker": "REE",
       "last_date": "2026-01-15",
-      "last_open": 0.8025000095367432,
+      "last_open": 0.78329998254776,
       "last_high": 0.8080000281333923,
       "last_low": 0.7150999903678894,
       "last_close": 0.7563999891281128,
@@ -2571,7 +2571,7 @@
     {
       "ticker": "SNGX",
       "last_date": "2026-01-15",
-      "last_open": 1.4299999475479126,
+      "last_open": 1.399999976158142,
       "last_high": 1.399999976158142,
       "last_low": 1.3300000429153442,
       "last_close": 1.340000033378601,
@@ -2705,7 +2705,7 @@
     {
       "ticker": "OSBC",
       "last_date": "2026-01-15",
-      "last_open": 19.719999313354492,
+      "last_open": 20.450000762939453,
       "last_high": 21.094999313354492,
       "last_low": 20.450000762939453,
       "last_close": 20.989999771118164,
@@ -2839,7 +2839,7 @@
     {
       "ticker": "OSIS",
       "last_date": "2026-01-15",
-      "last_open": 270.2699890136719,
+      "last_open": 288.0799865722656,
       "last_high": 293.2200012207031,
       "last_low": 284.9599914550781,
       "last_close": 290.79998779296875,
@@ -2906,7 +2906,7 @@
     {
       "ticker": "PSIG",
       "last_date": "2026-01-15",
-      "last_open": 4.28000020980835,
+      "last_open": 4.300000190734863,
       "last_high": 4.3734002113342285,
       "last_low": 4.300000190734863,
       "last_close": 4.329999923706055,
@@ -3241,7 +3241,7 @@
     {
       "ticker": "PROP",
       "last_date": "2026-01-15",
-      "last_open": 1.909999966621399,
+      "last_open": 2.0,
       "last_high": 2.008500099182129,
       "last_low": 1.809999942779541,
       "last_close": 1.850000023841858,
@@ -3308,7 +3308,7 @@
     {
       "ticker": "PXLW",
       "last_date": "2026-01-15",
-      "last_open": 6.451499938964844,
+      "last_open": 6.829999923706055,
       "last_high": 7.150000095367432,
       "last_low": 6.659999847412109,
       "last_close": 6.909999847412109,
@@ -3375,7 +3375,7 @@
     {
       "ticker": "PWP",
       "last_date": "2026-01-15",
-      "last_open": 19.639999389648438,
+      "last_open": 20.170000076293945,
       "last_high": 21.579999923706055,
       "last_low": 20.170000076293945,
       "last_close": 21.559999465942383,
@@ -3509,7 +3509,7 @@
     {
       "ticker": "SEDG",
       "last_date": "2026-01-15",
-      "last_open": 34.63999938964844,
+      "last_open": 35.0,
       "last_high": 35.4536018371582,
       "last_low": 33.72999954223633,
       "last_close": 33.84000015258789,
@@ -3777,7 +3777,7 @@
     {
       "ticker": "PSNL",
       "last_date": "2026-01-15",
-      "last_open": 8.779999732971191,
+      "last_open": 9.40999984741211,
       "last_high": 9.817999839782715,
       "last_low": 9.350000381469727,
       "last_close": 9.609999656677246,
@@ -3911,7 +3911,7 @@
     {
       "ticker": "RDNW",
       "last_date": "2026-01-15",
-      "last_open": 6.019999980926514,
+      "last_open": 5.920000076293945,
       "last_high": 6.019999980926514,
       "last_low": 5.909999847412109,
       "last_close": 5.929999828338623,
@@ -3978,7 +3978,7 @@
     {
       "ticker": "RPTX",
       "last_date": "2026-01-15",
-      "last_open": 2.559999942779541,
+      "last_open": 2.5899999141693115,
       "last_high": 2.603800058364868,
       "last_low": 2.559999942779541,
       "last_close": 2.569999933242798,
@@ -4246,7 +4246,7 @@
     {
       "ticker": "SHLS",
       "last_date": "2026-01-15",
-      "last_open": 9.710000038146973,
+      "last_open": 9.380000114440918,
       "last_high": 9.859999656677246,
       "last_low": 9.34000015258789,
       "last_close": 9.369999885559082,
@@ -4380,7 +4380,7 @@
     {
       "ticker": "OVID",
       "last_date": "2026-01-15",
-      "last_open": 1.6100000143051147,
+      "last_open": 1.649999976158142,
       "last_high": 1.649999976158142,
       "last_low": 1.5750000476837158,
       "last_close": 1.590000033378601,
@@ -4447,7 +4447,7 @@
     {
       "ticker": "REBN",
       "last_date": "2026-01-15",
-      "last_open": 1.6299999952316284,
+      "last_open": 1.7899999618530273,
       "last_high": 1.9700000286102295,
       "last_low": 1.7100000381469727,
       "last_close": 1.8799999952316284,
@@ -4581,7 +4581,7 @@
     {
       "ticker": "SDST",
       "last_date": "2026-01-15",
-      "last_open": 3.6700000762939453,
+      "last_open": 3.7699999809265137,
       "last_high": 3.950000047683716,
       "last_low": 3.640000104904175,
       "last_close": 3.6500000953674316,
@@ -4648,7 +4648,7 @@
     {
       "ticker": "PLPC",
       "last_date": "2026-01-15",
-      "last_open": 237.0,
+      "last_open": 241.42999267578125,
       "last_high": 248.50999450683594,
       "last_low": 241.42999267578125,
       "last_close": 248.17999267578125,
@@ -4715,7 +4715,7 @@
     {
       "ticker": "SCHL",
       "last_date": "2026-01-15",
-      "last_open": 33.849998474121094,
+      "last_open": 34.09000015258789,
       "last_high": 34.779998779296875,
       "last_low": 33.689998626708984,
       "last_close": 34.58000183105469,
@@ -4782,7 +4782,7 @@
     {
       "ticker": "RNXT",
       "last_date": "2026-01-15",
-      "last_open": 1.0199999809265137,
+      "last_open": 1.0700000524520874,
       "last_high": 1.0700000524520874,
       "last_low": 1.0099999904632568,
       "last_close": 1.0299999713897705,
@@ -4916,7 +4916,7 @@
     {
       "ticker": "PTEN",
       "last_date": "2026-01-15",
-      "last_open": 6.860000133514404,
+      "last_open": 7.059999942779541,
       "last_high": 7.179999828338623,
       "last_low": 6.994999885559082,
       "last_close": 7.110000133514404,
@@ -4983,7 +4983,7 @@
     {
       "ticker": "PACB",
       "last_date": "2026-01-15",
-      "last_open": 2.119999885559082,
+      "last_open": 2.3499999046325684,
       "last_high": 2.384999990463257,
       "last_low": 2.180000066757202,
       "last_close": 2.3499999046325684,
@@ -5050,7 +5050,7 @@
     {
       "ticker": "OUST",
       "last_date": "2026-01-15",
-      "last_open": 27.940000534057617,
+      "last_open": 28.149999618530273,
       "last_high": 28.56999969482422,
       "last_low": 26.600000381469727,
       "last_close": 27.399999618530273,
@@ -5385,7 +5385,7 @@
     {
       "ticker": "QUIK",
       "last_date": "2026-01-15",
-      "last_open": 7.309999942779541,
+      "last_open": 7.980000019073486,
       "last_high": 8.09000015258789,
       "last_low": 7.760000228881836,
       "last_close": 7.78000020980835,
@@ -5452,7 +5452,7 @@
     {
       "ticker": "PFSA",
       "last_date": "2026-01-15",
-      "last_open": 0.09160000085830688,
+      "last_open": 0.08879999816417694,
       "last_high": 0.10159999877214432,
       "last_low": 0.0877000018954277,
       "last_close": 0.09849999845027924,
@@ -5720,7 +5720,7 @@
     {
       "ticker": "PSIX",
       "last_date": "2026-01-15",
-      "last_open": 71.56999969482422,
+      "last_open": 72.94000244140625,
       "last_high": 76.8949966430664,
       "last_low": 72.13580322265625,
       "last_close": 75.47000122070312,
@@ -5921,7 +5921,7 @@
     {
       "ticker": "PRTS",
       "last_date": "2026-01-15",
-      "last_open": 0.5375000238418579,
+      "last_open": 0.5273000001907349,
       "last_high": 0.5442000031471252,
       "last_low": 0.5250999927520752,
       "last_close": 0.527999997138977,
@@ -5988,7 +5988,7 @@
     {
       "ticker": "RAIL",
       "last_date": "2026-01-15",
-      "last_open": 11.479999542236328,
+      "last_open": 11.359999656677246,
       "last_high": 11.475000381469727,
       "last_low": 11.11299991607666,
       "last_close": 11.140000343322754,
@@ -6055,7 +6055,7 @@
     {
       "ticker": "SLNH",
       "last_date": "2026-01-15",
-      "last_open": 1.6399999856948853,
+      "last_open": 1.7649999856948853,
       "last_high": 1.7999999523162842,
       "last_low": 1.5700000524520874,
       "last_close": 1.600000023841858,
@@ -6122,7 +6122,7 @@
     {
       "ticker": "SGML",
       "last_date": "2026-01-15",
-      "last_open": 16.200000762939453,
+      "last_open": 16.149999618530273,
       "last_high": 16.489900588989258,
       "last_low": 13.87600040435791,
       "last_close": 14.25,
@@ -6256,7 +6256,7 @@
     {
       "ticker": "RYET",
       "last_date": "2026-01-15",
-      "last_open": 1.2101000547409058,
+      "last_open": 1.25,
       "last_high": 1.25,
       "last_low": 1.2000000476837158,
       "last_close": 1.225000023841858,
@@ -6457,7 +6457,7 @@
     {
       "ticker": "PDYN",
       "last_date": "2026-01-15",
-      "last_open": 6.809999942779541,
+      "last_open": 6.800000190734863,
       "last_high": 7.199999809265137,
       "last_low": 6.650000095367432,
       "last_close": 7.025000095367432,
@@ -6591,7 +6591,7 @@
     {
       "ticker": "RPGL",
       "last_date": "2026-01-15",
-      "last_open": 0.47999998927116394,
+      "last_open": 0.38999998569488525,
       "last_high": 0.4422000050544739,
       "last_low": 0.3894999921321869,
       "last_close": 0.4036000072956085,
@@ -6658,7 +6658,7 @@
     {
       "ticker": "SATS",
       "last_date": "2026-01-15",
-      "last_open": 125.9800033569336,
+      "last_open": 129.74000549316406,
       "last_high": 132.25,
       "last_low": 122.08000183105469,
       "last_close": 123.55000305175781,
@@ -6725,7 +6725,7 @@
     {
       "ticker": "RZLV",
       "last_date": "2026-01-15",
-      "last_open": 4.199999809265137,
+      "last_open": 4.099999904632568,
       "last_high": 4.809999942779541,
       "last_low": 4.081999778747559,
       "last_close": 4.630000114440918,
@@ -6792,7 +6792,7 @@
     {
       "ticker": "POET",
       "last_date": "2026-01-15",
-      "last_open": 7.295000076293945,
+      "last_open": 8.300000190734863,
       "last_high": 8.729999542236328,
       "last_low": 8.15999984741211,
       "last_close": 8.3100004196167,
@@ -6859,7 +6859,7 @@
     {
       "ticker": "RENT",
       "last_date": "2026-01-15",
-      "last_open": 9.0,
+      "last_open": 8.6899995803833,
       "last_high": 9.210000038146973,
       "last_low": 8.510000228881836,
       "last_close": 8.649999618530273,
@@ -6926,7 +6926,7 @@
     {
       "ticker": "SLGL",
       "last_date": "2026-01-15",
-      "last_open": 63.0,
+      "last_open": 69.33000183105469,
       "last_high": 71.98999786376953,
       "last_low": 64.75,
       "last_close": 68.30999755859375,
@@ -6993,7 +6993,7 @@
     {
       "ticker": "RAY",
       "last_date": "2026-01-15",
-      "last_open": 2.619999885559082,
+      "last_open": 3.069999933242798,
       "last_high": 3.2200000286102295,
       "last_low": 2.9000000953674316,
       "last_close": 3.059999942779541,
@@ -7060,7 +7060,7 @@
     {
       "ticker": "SNCR",
       "last_date": "2026-01-15",
-      "last_open": 8.680000305175781,
+      "last_open": 8.699999809265137,
       "last_high": 8.729999542236328,
       "last_low": 8.670000076293945,
       "last_close": 8.699999809265137,
@@ -7127,7 +7127,7 @@
     {
       "ticker": "RCAT",
       "last_date": "2026-01-15",
-      "last_open": 12.694999694824219,
+      "last_open": 13.319999694824219,
       "last_high": 14.649999618530273,
       "last_low": 13.029999732971191,
       "last_close": 14.029999732971191,
@@ -7194,7 +7194,7 @@
     {
       "ticker": "PETS",
       "last_date": "2026-01-15",
-      "last_open": 3.4000000953674316,
+      "last_open": 3.490000009536743,
       "last_high": 3.490000009536743,
       "last_low": 3.390000104904175,
       "last_close": 3.4000000953674316,
@@ -7261,7 +7261,7 @@
     {
       "ticker": "SATL",
       "last_date": "2026-01-15",
-      "last_open": 3.5,
+      "last_open": 3.6600000858306885,
       "last_high": 3.8299999237060547,
       "last_low": 3.441999912261963,
       "last_close": 3.490000009536743,
@@ -7395,7 +7395,7 @@
     {
       "ticker": "PLRZ",
       "last_date": "2026-01-15",
-      "last_open": 13.449999809265137,
+      "last_open": 14.619999885559082,
       "last_high": 15.800000190734863,
       "last_low": 13.75,
       "last_close": 15.539999961853027,
@@ -7462,7 +7462,7 @@
     {
       "ticker": "PRQR",
       "last_date": "2026-01-15",
-      "last_open": 1.659999966621399,
+      "last_open": 1.649999976158142,
       "last_high": 1.6799999475479126,
       "last_low": 1.5800000429153442,
       "last_close": 1.5800000429153442,
@@ -7529,7 +7529,7 @@
     {
       "ticker": "RDGT",
       "last_date": "2026-01-15",
-      "last_open": 2.739500045776367,
+      "last_open": 2.740000009536743,
       "last_high": 2.9200000762939453,
       "last_low": 2.359999895095825,
       "last_close": 2.359999895095825,
@@ -7956,7 +7956,7 @@
     {
       "ticker": "QCOM",
       "last_date": "2026-01-15",
-      "last_open": 163.46600341796875,
+      "last_open": 166.4499969482422,
       "last_high": 166.49000549316406,
       "last_low": 161.02999877929688,
       "last_close": 161.38999938964844,
@@ -8023,7 +8023,7 @@
     {
       "ticker": "PEGA",
       "last_date": "2026-01-15",
-      "last_open": 58.220001220703125,
+      "last_open": 56.189998626708984,
       "last_high": 56.63999938964844,
       "last_low": 52.880001068115234,
       "last_close": 53.0,
@@ -8090,7 +8090,7 @@
     {
       "ticker": "RAIN",
       "last_date": "2026-01-15",
-      "last_open": 3.539900064468384,
+      "last_open": 3.5,
       "last_high": 3.549999952316284,
       "last_low": 3.319999933242798,
       "last_close": 3.3299999237060547,
@@ -8151,7 +8151,7 @@
     {
       "ticker": "RUM",
       "last_date": "2026-01-15",
-      "last_open": 6.460000038146973,
+      "last_open": 6.269999980926514,
       "last_high": 6.269999980926514,
       "last_low": 6.019999980926514,
       "last_close": 6.039999961853027,
@@ -8212,7 +8212,7 @@
     {
       "ticker": "OTEX",
       "last_date": "2026-01-15",
-      "last_open": 33.59000015258789,
+      "last_open": 32.15999984741211,
       "last_high": 32.279998779296875,
       "last_low": 30.829999923706055,
       "last_close": 30.940000534057617,
@@ -8273,7 +8273,7 @@
     {
       "ticker": "ROP",
       "last_date": "2026-01-15",
-      "last_open": 425.260009765625,
+      "last_open": 423.739990234375,
       "last_high": 424.0,
       "last_low": 412.3301086425781,
       "last_close": 414.25,
@@ -8334,7 +8334,7 @@
     {
       "ticker": "PUBM",
       "last_date": "2026-01-15",
-      "last_open": 8.569999694824219,
+      "last_open": 7.949999809265137,
       "last_high": 8.0,
       "last_low": 7.80049991607666,
       "last_close": 7.840000152587891,
@@ -8395,7 +8395,7 @@
     {
       "ticker": "PSKY",
       "last_date": "2026-01-15",
-      "last_open": 12.180000305175781,
+      "last_open": 12.069999694824219,
       "last_high": 12.119999885559082,
       "last_low": 11.770000457763672,
       "last_close": 11.829999923706055,
@@ -8456,7 +8456,7 @@
     {
       "ticker": "RPD",
       "last_date": "2026-01-15",
-      "last_open": 13.609999656677246,
+      "last_open": 13.539999961853027,
       "last_high": 13.539999961853027,
       "last_low": 13.220000267028809,
       "last_close": 13.300000190734863,
@@ -8590,7 +8590,7 @@
     {
       "ticker": "PCRX",
       "last_date": "2026-01-15",
-      "last_open": 22.90999984741211,
+      "last_open": 22.350000381469727,
       "last_high": 22.55500030517578,
       "last_low": 20.5,
       "last_close": 20.649999618530273,
@@ -8657,7 +8657,7 @@
     {
       "ticker": "PEPG",
       "last_date": "2026-01-15",
-      "last_open": 5.679999828338623,
+      "last_open": 5.170000076293945,
       "last_high": 5.239999771118164,
       "last_low": 4.949999809265137,
       "last_close": 4.989999771118164,
@@ -8718,7 +8718,7 @@
     {
       "ticker": "PAYS",
       "last_date": "2026-01-15",
-      "last_open": 4.929999828338623,
+      "last_open": 4.840000152587891,
       "last_high": 4.889999866485596,
       "last_low": 4.650000095367432,
       "last_close": 4.71999979019165,
@@ -8779,7 +8779,7 @@
     {
       "ticker": "RDVT",
       "last_date": "2026-01-15",
-      "last_open": 53.25,
+      "last_open": 51.38999938964844,
       "last_high": 52.5,
       "last_low": 50.42959976196289,
       "last_close": 51.279998779296875,
@@ -8840,7 +8840,7 @@
     {
       "ticker": "PCTY",
       "last_date": "2026-01-15",
-      "last_open": 148.66000366210938,
+      "last_open": 140.8300018310547,
       "last_high": 142.41000366210938,
       "last_low": 138.80999755859375,
       "last_close": 141.64999389648438,
@@ -8901,7 +8901,7 @@
     {
       "ticker": "RDAC",
       "last_date": "2026-01-15",
-      "last_open": 8.200400352478027,
+      "last_open": 7.489999771118164,
       "last_high": 8.0,
       "last_low": 7.489999771118164,
       "last_close": 7.659999847412109,
@@ -9029,7 +9029,7 @@
     {
       "ticker": "SCLX",
       "last_date": "2026-01-15",
-      "last_open": 12.449999809265137,
+      "last_open": 11.9399995803833,
       "last_high": 11.9399995803833,
       "last_low": 11.100000381469727,
       "last_close": 11.460000038146973,
@@ -9151,7 +9151,7 @@
     {
       "ticker": "RENX",
       "last_date": "2026-01-15",
-      "last_open": 0.19499999284744263,
+      "last_open": 0.17299999296665192,
       "last_high": 0.18129999935626984,
       "last_low": 0.15760000050067902,
       "last_close": 0.16349999606609344,
@@ -9218,7 +9218,7 @@
     {
       "ticker": "REPL",
       "last_date": "2026-01-15",
-      "last_open": 8.050000190734863,
+      "last_open": 7.659999847412109,
       "last_high": 7.889999866485596,
       "last_low": 7.010000228881836,
       "last_close": 7.300000190734863,
@@ -9279,7 +9279,7 @@
     {
       "ticker": "SGBX",
       "last_date": "2026-01-15",
-      "last_open": 1.75,
+      "last_open": 1.659999966621399,
       "last_high": 1.7400000095367432,
       "last_low": 1.5499999523162842,
       "last_close": 1.6399999856948853,
@@ -9340,7 +9340,7 @@
     {
       "ticker": "PFAI",
       "last_date": "2026-01-15",
-      "last_open": 2.0999999046325684,
+      "last_open": 2.0,
       "last_high": 2.2300000190734863,
       "last_low": 2.0,
       "last_close": 2.130000114440918,
@@ -9401,7 +9401,7 @@
     {
       "ticker": "RETO",
       "last_date": "2026-01-15",
-      "last_open": 1.3600000143051147,
+      "last_open": 1.2699999809265137,
       "last_high": 1.409999966621399,
       "last_low": 1.1399999856948853,
       "last_close": 1.2300000190734863,
@@ -9462,7 +9462,7 @@
     {
       "ticker": "PRHI",
       "last_date": "2026-01-15",
-      "last_open": 0.6779999732971191,
+      "last_open": 0.6499999761581421,
       "last_high": 0.6650000214576721,
       "last_low": 0.6000000238418579,
       "last_close": 0.6650000214576721,
@@ -9523,7 +9523,7 @@
     {
       "ticker": "SAFX",
       "last_date": "2026-01-15",
-      "last_open": 0.15309999883174896,
+      "last_open": 0.12999999523162842,
       "last_high": 0.1412000060081482,
       "last_low": 0.1185000017285347,
       "last_close": 0.1412000060081482,
@@ -9584,7 +9584,7 @@
     {
       "ticker": "RAYA",
       "last_date": "2026-01-15",
-      "last_open": 3.700000047683716,
+      "last_open": 3.319999933242798,
       "last_high": 4.199999809265137,
       "last_low": 3.240000009536743,
       "last_close": 3.930000066757202,
@@ -9968,7 +9968,7 @@
     {
       "ticker": "PAYO",
       "last_date": "2026-01-15",
-      "last_open": 5.269700050354004,
+      "last_open": 5.309999942779541,
       "last_high": 5.420000076293945,
       "last_low": 5.264999866485596,
       "last_close": 5.400000095367432,
@@ -10596,7 +10596,7 @@
     {
       "ticker": "SNWV",
       "last_date": "2026-01-15",
-      "last_open": 28.90999984741211,
+      "last_open": 28.309999465942383,
       "last_high": 28.309999465942383,
       "last_low": 27.25,
       "last_close": 27.75,
@@ -10718,7 +10718,7 @@
     {
       "ticker": "PYPL",
       "last_date": "2026-01-15",
-      "last_open": 56.40999984741211,
+      "last_open": 57.7400016784668,
       "last_high": 57.86199951171875,
       "last_low": 56.599998474121094,
       "last_close": 56.7400016784668,
@@ -10974,7 +10974,7 @@
     {
       "ticker": "SABR",
       "last_date": "2026-01-15",
-      "last_open": 1.3600000143051147,
+      "last_open": 1.2300000190734863,
       "last_high": 1.2799999713897705,
       "last_low": 1.2100000381469727,
       "last_close": 1.2699999809265137,
@@ -11279,7 +11279,7 @@
     {
       "ticker": "SGRY",
       "last_date": "2026-01-15",
-      "last_open": 16.290000915527344,
+      "last_open": 15.449999809265137,
       "last_high": 16.010000228881836,
       "last_low": 15.329999923706055,
       "last_close": 16.0,
@@ -11407,7 +11407,7 @@
     {
       "ticker": "SKYW",
       "last_date": "2026-01-15",
-      "last_open": 97.87000274658203,
+      "last_open": 96.4800033569336,
       "last_high": 100.22000122070312,
       "last_low": 96.43000030517578,
       "last_close": 100.11000061035156,
@@ -11529,7 +11529,7 @@
     {
       "ticker": "RLMD",
       "last_date": "2026-01-15",
-      "last_open": 4.090000152587891,
+      "last_open": 3.869999885559082,
       "last_high": 3.970900058746338,
       "last_low": 3.75,
       "last_close": 3.799999952316284,
@@ -11596,7 +11596,7 @@
     {
       "ticker": "PMTR",
       "last_date": "2026-01-15",
-      "last_open": 10.420000076293945,
+      "last_open": 10.390000343322754,
       "last_high": 10.420000076293945,
       "last_low": 10.34000015258789,
       "last_close": 10.369999885559082,
@@ -11657,7 +11657,7 @@
     {
       "ticker": "QS",
       "last_date": "2026-01-15",
-      "last_open": 10.5,
+      "last_open": 10.899999618530273,
       "last_high": 10.979999542236328,
       "last_low": 10.354999542236328,
       "last_close": 10.380000114440918,
@@ -11718,7 +11718,7 @@
     {
       "ticker": "SKWD",
       "last_date": "2026-01-15",
-      "last_open": 46.25,
+      "last_open": 45.470001220703125,
       "last_high": 46.72999954223633,
       "last_low": 45.439998626708984,
       "last_close": 46.47999954223633,
@@ -11840,7 +11840,7 @@
     {
       "ticker": "PZZA",
       "last_date": "2026-01-15",
-      "last_open": 37.375,
+      "last_open": 37.43000030517578,
       "last_high": 38.47999954223633,
       "last_low": 36.959999084472656,
       "last_close": 37.90999984741211,
@@ -11974,7 +11974,7 @@
     {
       "ticker": "RIGL",
       "last_date": "2026-01-15",
-      "last_open": 39.81999969482422,
+      "last_open": 39.0,
       "last_high": 39.4900016784668,
       "last_low": 37.650001525878906,
       "last_close": 37.779998779296875,
@@ -12035,7 +12035,7 @@
     {
       "ticker": "SLDE",
       "last_date": "2026-01-15",
-      "last_open": 17.780000686645508,
+      "last_open": 16.469999313354492,
       "last_high": 16.704999923706055,
       "last_low": 16.09000015258789,
       "last_close": 16.170000076293945,
@@ -12096,7 +12096,7 @@
     {
       "ticker": "RGEN",
       "last_date": "2026-01-15",
-      "last_open": 170.0399932861328,
+      "last_open": 162.05999755859375,
       "last_high": 165.02999877929688,
       "last_low": 158.8000030517578,
       "last_close": 161.69000244140625,
@@ -12157,7 +12157,7 @@
     {
       "ticker": "QLYS",
       "last_date": "2026-01-15",
-      "last_open": 134.77000427246094,
+      "last_open": 133.9600067138672,
       "last_high": 134.3300018310547,
       "last_low": 130.0800018310547,
       "last_close": 133.7899932861328,
@@ -12291,7 +12291,7 @@
     {
       "ticker": "RMNI",
       "last_date": "2026-01-15",
-      "last_open": 3.9700000286102295,
+      "last_open": 3.9200000762939453,
       "last_high": 3.940000057220459,
       "last_low": 3.809999942779541,
       "last_close": 3.819999933242798,
@@ -12352,7 +12352,7 @@
     {
       "ticker": "SGHT",
       "last_date": "2026-01-15",
-      "last_open": 7.369999885559082,
+      "last_open": 6.889999866485596,
       "last_high": 6.914999961853027,
       "last_low": 6.510000228881836,
       "last_close": 6.599999904632568,
@@ -12413,7 +12413,7 @@
     {
       "ticker": "PECO",
       "last_date": "2026-01-15",
-      "last_open": 35.005001068115234,
+      "last_open": 35.040000915527344,
       "last_high": 35.400001525878906,
       "last_low": 35.029998779296875,
       "last_close": 35.2599983215332,
@@ -12480,7 +12480,7 @@
     {
       "ticker": "RNA",
       "last_date": "2026-01-15",
-      "last_open": 72.31999969482422,
+      "last_open": 72.5199966430664,
       "last_high": 72.69999694824219,
       "last_low": 72.41999816894531,
       "last_close": 72.5999984741211,
@@ -12541,7 +12541,7 @@
     {
       "ticker": "PAYX",
       "last_date": "2026-01-15",
-      "last_open": 109.17220306396484,
+      "last_open": 110.75,
       "last_high": 111.92500305175781,
       "last_low": 110.0,
       "last_close": 110.51000213623047,
@@ -12608,7 +12608,7 @@
     {
       "ticker": "SCNX",
       "last_date": "2026-01-15",
-      "last_open": 0.5724999904632568,
+      "last_open": 0.5192000269889832,
       "last_high": 0.5394999980926514,
       "last_low": 0.5,
       "last_close": 0.5227000117301941,
@@ -12675,7 +12675,7 @@
     {
       "ticker": "PGNY",
       "last_date": "2026-01-15",
-      "last_open": 28.709999084472656,
+      "last_open": 26.0,
       "last_high": 26.149999618530273,
       "last_low": 24.260000228881836,
       "last_close": 24.309999465942383,
@@ -12742,7 +12742,7 @@
     {
       "ticker": "RAPP",
       "last_date": "2026-01-15",
-      "last_open": 27.059999465942383,
+      "last_open": 27.3700008392334,
       "last_high": 27.5,
       "last_low": 26.295000076293945,
       "last_close": 26.860000610351562,
@@ -12809,7 +12809,7 @@
     {
       "ticker": "RXT",
       "last_date": "2026-01-15",
-      "last_open": 1.0299999713897705,
+      "last_open": 1.0099999904632568,
       "last_high": 1.0199999809265137,
       "last_low": 0.9819999933242798,
       "last_close": 0.9940999746322632,
@@ -12937,7 +12937,7 @@
     {
       "ticker": "PBFS",
       "last_date": "2026-01-15",
-      "last_open": 13.319999694824219,
+      "last_open": 13.359999656677246,
       "last_high": 13.529999732971191,
       "last_low": 13.359999656677246,
       "last_close": 13.529999732971191,
@@ -12998,7 +12998,7 @@
     {
       "ticker": "RVSN",
       "last_date": "2026-01-15",
-      "last_open": 0.36250001192092896,
+      "last_open": 0.30730000138282776,
       "last_high": 0.35190001130104065,
       "last_low": 0.30730000138282776,
       "last_close": 0.33570000529289246,
@@ -13132,7 +13132,7 @@
     {
       "ticker": "SBFG",
       "last_date": "2026-01-15",
-      "last_open": 21.235000610351562,
+      "last_open": 21.649999618530273,
       "last_high": 22.110000610351562,
       "last_low": 20.673900604248047,
       "last_close": 21.829999923706055,
@@ -13193,7 +13193,7 @@
     {
       "ticker": "PRGS",
       "last_date": "2026-01-15",
-      "last_open": 42.56999969482422,
+      "last_open": 41.41999816894531,
       "last_high": 41.7400016784668,
       "last_low": 40.69499969482422,
       "last_close": 40.91999816894531,
@@ -13260,7 +13260,7 @@
     {
       "ticker": "RDCM",
       "last_date": "2026-01-15",
-      "last_open": 12.96500015258789,
+      "last_open": 12.779999732971191,
       "last_high": 13.018099784851074,
       "last_low": 12.648900032043457,
       "last_close": 12.899999618530273,
@@ -13528,7 +13528,7 @@
     {
       "ticker": "PANL",
       "last_date": "2026-01-15",
-      "last_open": 6.860000133514404,
+      "last_open": 6.829999923706055,
       "last_high": 7.025000095367432,
       "last_low": 6.78000020980835,
       "last_close": 7.010000228881836,
@@ -13595,7 +13595,7 @@
     {
       "ticker": "RELI",
       "last_date": "2026-01-15",
-      "last_open": 0.5152999758720398,
+      "last_open": 0.5299999713897705,
       "last_high": 0.5299999713897705,
       "last_low": 0.5049999952316284,
       "last_close": 0.5189999938011169,
@@ -13662,7 +13662,7 @@
     {
       "ticker": "RGCO",
       "last_date": "2026-01-15",
-      "last_open": 20.920000076293945,
+      "last_open": 21.469999313354492,
       "last_high": 22.34000015258789,
       "last_low": 21.299999237060547,
       "last_close": 22.170000076293945,
@@ -13790,7 +13790,7 @@
     {
       "ticker": "RRGB",
       "last_date": "2026-01-15",
-      "last_open": 4.110000133514404,
+      "last_open": 4.0,
       "last_high": 4.255000114440918,
       "last_low": 3.9749999046325684,
       "last_close": 4.230000019073486,
@@ -13851,7 +13851,7 @@
     {
       "ticker": "SELF",
       "last_date": "2026-01-15",
-      "last_open": 5.099999904632568,
+      "last_open": 5.070000171661377,
       "last_high": 5.139999866485596,
       "last_low": 5.019999980926514,
       "last_close": 5.070000171661377,
@@ -14040,7 +14040,7 @@
     {
       "ticker": "OSPN",
       "last_date": "2026-01-15",
-      "last_open": 12.904999732971191,
+      "last_open": 12.829999923706055,
       "last_high": 12.84000015258789,
       "last_low": 12.430000305175781,
       "last_close": 12.470000267028809,
@@ -14107,7 +14107,7 @@
     {
       "ticker": "ORRF",
       "last_date": "2026-01-15",
-      "last_open": 35.77000045776367,
+      "last_open": 36.060001373291016,
       "last_high": 37.16999816894531,
       "last_low": 36.0,
       "last_close": 37.060001373291016,
@@ -14296,7 +14296,7 @@
     {
       "ticker": "PSHG",
       "last_date": "2026-01-15",
-      "last_open": 2.007999897003174,
+      "last_open": 2.1500000953674316,
       "last_high": 2.1600000858306885,
       "last_low": 2.0399999618530273,
       "last_close": 2.109999895095825,
@@ -14430,7 +14430,7 @@
     {
       "ticker": "OSW",
       "last_date": "2026-01-15",
-      "last_open": 21.18000030517578,
+      "last_open": 20.709999084472656,
       "last_high": 21.0,
       "last_low": 20.049999237060547,
       "last_close": 20.18000030517578,
@@ -14558,7 +14558,7 @@
     {
       "ticker": "PLUS",
       "last_date": "2026-01-15",
-      "last_open": 87.63500213623047,
+      "last_open": 87.18000030517578,
       "last_high": 89.25,
       "last_low": 87.18000030517578,
       "last_close": 88.75,
@@ -14686,7 +14686,7 @@
     {
       "ticker": "SIRI",
       "last_date": "2026-01-15",
-      "last_open": 21.0,
+      "last_open": 21.110000610351562,
       "last_high": 21.270000457763672,
       "last_low": 20.770000457763672,
       "last_close": 20.90999984741211,
@@ -14747,7 +14747,7 @@
     {
       "ticker": "PELI",
       "last_date": "2026-01-15",
-      "last_open": 10.34000015258789,
+      "last_open": 10.75,
       "last_high": 10.869999885559082,
       "last_low": 10.5,
       "last_close": 10.539999961853027,
@@ -14808,7 +14808,7 @@
     {
       "ticker": "RGS",
       "last_date": "2026-01-15",
-      "last_open": 25.524999618530273,
+      "last_open": 24.75,
       "last_high": 25.0,
       "last_low": 24.75,
       "last_close": 24.790000915527344,
@@ -15003,7 +15003,7 @@
     {
       "ticker": "SLSN",
       "last_date": "2026-01-15",
-      "last_open": 1.5399999618530273,
+      "last_open": 1.5,
       "last_high": 1.6100000143051147,
       "last_low": 1.5,
       "last_close": 1.559999942779541,
@@ -15070,7 +15070,7 @@
     {
       "ticker": "SBFM",
       "last_date": "2026-01-15",
-      "last_open": 1.2319999933242798,
+      "last_open": 1.2200000286102295,
       "last_high": 1.2400000095367432,
       "last_low": 1.2100000381469727,
       "last_close": 1.2200000286102295,
@@ -15131,7 +15131,7 @@
     {
       "ticker": "PRCT",
       "last_date": "2026-01-15",
-      "last_open": 31.739999771118164,
+      "last_open": 31.190000534057617,
       "last_high": 31.56999969482422,
       "last_low": 30.309999465942383,
       "last_close": 30.5,
@@ -15198,7 +15198,7 @@
     {
       "ticker": "PHAT",
       "last_date": "2026-01-15",
-      "last_open": 14.470000267028809,
+      "last_open": 15.050000190734863,
       "last_high": 15.139900207519531,
       "last_low": 14.399999618530273,
       "last_close": 14.979999542236328,
@@ -15460,7 +15460,7 @@
     {
       "ticker": "SHFS",
       "last_date": "2026-01-15",
-      "last_open": 1.1299999952316284,
+      "last_open": 1.059999942779541,
       "last_high": 1.100000023841858,
       "last_low": 1.0199999809265137,
       "last_close": 1.0299999713897705,
@@ -15594,7 +15594,7 @@
     {
       "ticker": "RPRX",
       "last_date": "2026-01-15",
-      "last_open": 40.2599983215332,
+      "last_open": 40.290000915527344,
       "last_high": 40.334999084472656,
       "last_low": 39.560001373291016,
       "last_close": 39.720001220703125,
@@ -15716,7 +15716,7 @@
     {
       "ticker": "RVYL",
       "last_date": "2026-01-15",
-      "last_open": 5.25,
+      "last_open": 4.980000019073486,
       "last_high": 5.594399929046631,
       "last_low": 4.710000038146973,
       "last_close": 5.389999866485596,
@@ -15777,7 +15777,7 @@
     {
       "ticker": "SAIL",
       "last_date": "2026-01-15",
-      "last_open": 19.559999465942383,
+      "last_open": 19.3700008392334,
       "last_high": 19.739999771118164,
       "last_low": 18.8700008392334,
       "last_close": 18.899999618530273,
@@ -15911,7 +15911,7 @@
     {
       "ticker": "RLAY",
       "last_date": "2026-01-15",
-      "last_open": 7.739999771118164,
+      "last_open": 8.0600004196167,
       "last_high": 8.220000267028809,
       "last_low": 7.599999904632568,
       "last_close": 7.630000114440918,
@@ -15972,7 +15972,7 @@
     {
       "ticker": "PROK",
       "last_date": "2026-01-15",
-      "last_open": 2.3499999046325684,
+      "last_open": 2.2899999618530273,
       "last_high": 2.2899999618530273,
       "last_low": 2.1449999809265137,
       "last_close": 2.180000066757202,
@@ -16033,7 +16033,7 @@
     {
       "ticker": "PEBO",
       "last_date": "2026-01-15",
-      "last_open": 30.55500030517578,
+      "last_open": 30.889999389648438,
       "last_high": 31.65999984741211,
       "last_low": 30.760000228881836,
       "last_close": 31.559999465942383,
@@ -16094,7 +16094,7 @@
     {
       "ticker": "REG",
       "last_date": "2026-01-15",
-      "last_open": 70.18000030517578,
+      "last_open": 70.13999938964844,
       "last_high": 70.75,
       "last_low": 69.79010009765625,
       "last_close": 69.8499984741211,
@@ -16155,7 +16155,7 @@
     {
       "ticker": "ROOT",
       "last_date": "2026-01-15",
-      "last_open": 80.02999877929688,
+      "last_open": 72.94999694824219,
       "last_high": 73.55000305175781,
       "last_low": 71.6500015258789,
       "last_close": 72.11000061035156,
@@ -16411,7 +16411,7 @@
     {
       "ticker": "REFI",
       "last_date": "2026-01-15",
-      "last_open": 12.40999984741211,
+      "last_open": 12.649999618530273,
       "last_high": 12.829999923706055,
       "last_low": 12.520000457763672,
       "last_close": 12.6899995803833,
@@ -16472,7 +16472,7 @@
     {
       "ticker": "SBGI",
       "last_date": "2026-01-15",
-      "last_open": 15.050000190734863,
+      "last_open": 15.039999961853027,
       "last_high": 15.390000343322754,
       "last_low": 15.010000228881836,
       "last_close": 15.100000381469727,
@@ -16539,7 +16539,7 @@
     {
       "ticker": "PDLB",
       "last_date": "2026-01-15",
-      "last_open": 15.979999542236328,
+      "last_open": 16.15999984741211,
       "last_high": 16.610000610351562,
       "last_low": 16.110000610351562,
       "last_close": 16.489999771118164,
@@ -16661,7 +16661,7 @@
     {
       "ticker": "RCEL",
       "last_date": "2026-01-15",
-      "last_open": 3.4000000953674316,
+      "last_open": 3.5,
       "last_high": 3.5899999141693115,
       "last_low": 3.4000000953674316,
       "last_close": 3.4600000381469727,
@@ -16795,7 +16795,7 @@
     {
       "ticker": "SBCF",
       "last_date": "2026-01-15",
-      "last_open": 32.45000076293945,
+      "last_open": 32.790000915527344,
       "last_high": 34.06999969482422,
       "last_low": 32.439998626708984,
       "last_close": 34.02000045776367,
@@ -16929,7 +16929,7 @@
     {
       "ticker": "SEER",
       "last_date": "2026-01-15",
-      "last_open": 1.9500000476837158,
+      "last_open": 1.909999966621399,
       "last_high": 1.909999966621399,
       "last_low": 1.8600000143051147,
       "last_close": 1.909999966621399,
@@ -17112,7 +17112,7 @@
     {
       "ticker": "SFNC",
       "last_date": "2026-01-15",
-      "last_open": 18.989999771118164,
+      "last_open": 19.030000686645508,
       "last_high": 19.55500030517578,
       "last_low": 19.030000686645508,
       "last_close": 19.280000686645508,
@@ -17240,7 +17240,7 @@
     {
       "ticker": "RNTX",
       "last_date": "2026-01-15",
-      "last_open": 1.1299999952316284,
+      "last_open": 1.1200000047683716,
       "last_high": 1.1699999570846558,
       "last_low": 1.0800000429153442,
       "last_close": 1.159999966621399,
@@ -17307,7 +17307,7 @@
     {
       "ticker": "SLN",
       "last_date": "2026-01-15",
-      "last_open": 5.829999923706055,
+      "last_open": 5.889999866485596,
       "last_high": 5.929999828338623,
       "last_low": 5.550000190734863,
       "last_close": 5.559999942779541,
@@ -17374,7 +17374,7 @@
     {
       "ticker": "PTCT",
       "last_date": "2026-01-15",
-      "last_open": 76.7300033569336,
+      "last_open": 77.29000091552734,
       "last_high": 77.87000274658203,
       "last_low": 75.4000015258789,
       "last_close": 75.63999938964844,
@@ -17441,7 +17441,7 @@
     {
       "ticker": "RCMT",
       "last_date": "2026-01-15",
-      "last_open": 19.850000381469727,
+      "last_open": 20.780000686645508,
       "last_high": 20.997900009155273,
       "last_low": 20.140100479125977,
       "last_close": 20.59000015258789,
@@ -17569,7 +17569,7 @@
     {
       "ticker": "PALI",
       "last_date": "2026-01-15",
-      "last_open": 1.899999976158142,
+      "last_open": 1.940000057220459,
       "last_high": 1.940000057220459,
       "last_low": 1.75,
       "last_close": 1.75,
@@ -17630,7 +17630,7 @@
     {
       "ticker": "RBCAA",
       "last_date": "2026-01-15",
-      "last_open": 69.69999694824219,
+      "last_open": 71.0999984741211,
       "last_high": 73.4999008178711,
       "last_low": 71.0999984741211,
       "last_close": 72.95999908447266,
@@ -17691,7 +17691,7 @@
     {
       "ticker": "PCYO",
       "last_date": "2026-01-15",
-      "last_open": 11.420000076293945,
+      "last_open": 11.329999923706055,
       "last_high": 11.699999809265137,
       "last_low": 11.181099891662598,
       "last_close": 11.6899995803833,
@@ -17813,7 +17813,7 @@
     {
       "ticker": "RANI",
       "last_date": "2026-01-15",
-      "last_open": 1.5,
+      "last_open": 1.4299999475479126,
       "last_high": 1.440000057220459,
       "last_low": 1.3705999851226807,
       "last_close": 1.3899999856948853,
@@ -17874,7 +17874,7 @@
     {
       "ticker": "ROAD",
       "last_date": "2026-01-15",
-      "last_open": 115.5999984741211,
+      "last_open": 115.2699966430664,
       "last_high": 116.625,
       "last_low": 108.29000091552734,
       "last_close": 112.12999725341797,
@@ -17941,7 +17941,7 @@
     {
       "ticker": "PSTV",
       "last_date": "2026-01-15",
-      "last_open": 0.5001000165939331,
+      "last_open": 0.29739999771118164,
       "last_high": 0.29739999771118164,
       "last_low": 0.2667999863624573,
       "last_close": 0.2791000008583069,
@@ -18069,7 +18069,7 @@
     {
       "ticker": "REGN",
       "last_date": "2026-01-15",
-      "last_open": 760.4299926757812,
+      "last_open": 754.8499755859375,
       "last_high": 756.5,
       "last_low": 738.6201171875,
       "last_close": 741.9199829101562,
@@ -18130,7 +18130,7 @@
     {
       "ticker": "OZK",
       "last_date": "2026-01-15",
-      "last_open": 47.7599983215332,
+      "last_open": 47.779998779296875,
       "last_high": 48.59000015258789,
       "last_low": 47.65510177612305,
       "last_close": 48.5099983215332,
@@ -18191,7 +18191,7 @@
     {
       "ticker": "SCSC",
       "last_date": "2026-01-15",
-      "last_open": 41.27000045776367,
+      "last_open": 41.279998779296875,
       "last_high": 42.22999954223633,
       "last_low": 41.279998779296875,
       "last_close": 42.040000915527344,
@@ -18258,7 +18258,7 @@
     {
       "ticker": "PEP",
       "last_date": "2026-01-15",
-      "last_open": 141.10000610351562,
+      "last_open": 146.05999755859375,
       "last_high": 147.01699829101562,
       "last_low": 145.52999877929688,
       "last_close": 146.57000732421875,
@@ -18325,7 +18325,7 @@
     {
       "ticker": "REYN",
       "last_date": "2026-01-15",
-      "last_open": 23.760000228881836,
+      "last_open": 24.329999923706055,
       "last_high": 24.530000686645508,
       "last_low": 24.184999465942383,
       "last_close": 24.309999465942383,
@@ -18386,7 +18386,7 @@
     {
       "ticker": "PTGX",
       "last_date": "2026-01-15",
-      "last_open": 79.87999725341797,
+      "last_open": 84.5999984741211,
       "last_high": 87.43000030517578,
       "last_low": 84.33000183105469,
       "last_close": 84.75,
@@ -18453,7 +18453,7 @@
     {
       "ticker": "PHVS",
       "last_date": "2026-01-15",
-      "last_open": 26.059999465942383,
+      "last_open": 25.90999984741211,
       "last_high": 26.25,
       "last_low": 24.825000762939453,
       "last_close": 25.649999618530273,
@@ -18575,7 +18575,7 @@
     {
       "ticker": "SLM",
       "last_date": "2026-01-15",
-      "last_open": 26.639999389648438,
+      "last_open": 27.040000915527344,
       "last_high": 27.1299991607666,
       "last_low": 26.700000762939453,
       "last_close": 26.989999771118164,
@@ -18636,7 +18636,7 @@
     {
       "ticker": "SAVA",
       "last_date": "2026-01-15",
-      "last_open": 2.130000114440918,
+      "last_open": 2.1500000953674316,
       "last_high": 2.1600000858306885,
       "last_low": 2.1050000190734863,
       "last_close": 2.130000114440918,
@@ -18831,7 +18831,7 @@
     {
       "ticker": "SEPN",
       "last_date": "2026-01-15",
-      "last_open": 24.84000015258789,
+      "last_open": 26.860000610351562,
       "last_high": 27.829999923706055,
       "last_low": 26.264999389648438,
       "last_close": 27.3799991607666,
@@ -18953,7 +18953,7 @@
     {
       "ticker": "PGY",
       "last_date": "2026-01-15",
-      "last_open": 25.0,
+      "last_open": 23.68000030517578,
       "last_high": 23.68000030517578,
       "last_low": 22.25,
       "last_close": 22.829999923706055,
@@ -19148,7 +19148,7 @@
     {
       "ticker": "SIGI",
       "last_date": "2026-01-15",
-      "last_open": 83.06999969482422,
+      "last_open": 82.22000122070312,
       "last_high": 83.09400177001953,
       "last_low": 82.12999725341797,
       "last_close": 82.97000122070312,
@@ -19209,7 +19209,7 @@
     {
       "ticker": "PRTH",
       "last_date": "2026-01-15",
-      "last_open": 5.860000133514404,
+      "last_open": 5.78000020980835,
       "last_high": 5.875,
       "last_low": 5.690100193023682,
       "last_close": 5.809999942779541,
@@ -19776,7 +19776,7 @@
     {
       "ticker": "RWAY",
       "last_date": "2026-01-15",
-      "last_open": 9.300000190734863,
+      "last_open": 9.390000343322754,
       "last_high": 9.59000015258789,
       "last_low": 9.330100059509277,
       "last_close": 9.59000015258789,
@@ -19837,7 +19837,7 @@
     {
       "ticker": "PGC",
       "last_date": "2026-01-15",
-      "last_open": 28.235000610351562,
+      "last_open": 28.549999237060547,
       "last_high": 29.34000015258789,
       "last_low": 28.3799991607666,
       "last_close": 29.190000534057617,
@@ -19898,7 +19898,7 @@
     {
       "ticker": "POWW",
       "last_date": "2026-01-15",
-      "last_open": 1.940000057220459,
+      "last_open": 1.809999942779541,
       "last_high": 1.8600000143051147,
       "last_low": 1.8049999475479126,
       "last_close": 1.8300000429153442,
@@ -20020,7 +20020,7 @@
     {
       "ticker": "PHIO",
       "last_date": "2026-01-15",
-      "last_open": 1.1679999828338623,
+      "last_open": 1.1399999856948853,
       "last_high": 1.1399999856948853,
       "last_low": 1.090000033378601,
       "last_close": 1.1299999952316284,
@@ -20081,7 +20081,7 @@
     {
       "ticker": "RGP",
       "last_date": "2026-01-15",
-      "last_open": 4.699999809265137,
+      "last_open": 4.650000095367432,
       "last_high": 4.769999980926514,
       "last_low": 4.625,
       "last_close": 4.659999847412109,
@@ -20282,7 +20282,7 @@
     {
       "ticker": "SMSI",
       "last_date": "2026-01-15",
-      "last_open": 0.5720000267028809,
+      "last_open": 0.5870000123977661,
       "last_high": 0.5870000123977661,
       "last_low": 0.5785999894142151,
       "last_close": 0.5799999833106995,
@@ -20343,7 +20343,7 @@
     {
       "ticker": "SHPH",
       "last_date": "2026-01-15",
-      "last_open": 1.3700000047683716,
+      "last_open": 1.5199999809265137,
       "last_high": 1.6200000047683716,
       "last_low": 1.375599980354309,
       "last_close": 1.4800000190734863,
@@ -20410,7 +20410,7 @@
     {
       "ticker": "PRE",
       "last_date": "2026-01-15",
-      "last_open": 16.0,
+      "last_open": 15.699999809265137,
       "last_high": 15.699999809265137,
       "last_low": 14.119999885559082,
       "last_close": 14.869999885559082,
@@ -20471,7 +20471,7 @@
     {
       "ticker": "SION",
       "last_date": "2026-01-15",
-      "last_open": 36.849998474121094,
+      "last_open": 41.47999954223633,
       "last_high": 41.47999954223633,
       "last_low": 37.81999969482422,
       "last_close": 38.849998474121094,
@@ -20532,7 +20532,7 @@
     {
       "ticker": "SEED",
       "last_date": "2026-01-15",
-      "last_open": 1.1299999952316284,
+      "last_open": 1.1799999475479126,
       "last_high": 1.3200000524520874,
       "last_low": 1.1799999475479126,
       "last_close": 1.3200000524520874,
@@ -20593,7 +20593,7 @@
     {
       "ticker": "PFG",
       "last_date": "2026-01-15",
-      "last_open": 90.18000030517578,
+      "last_open": 91.44999694824219,
       "last_high": 92.04859924316406,
       "last_low": 90.68000030517578,
       "last_close": 90.9800033569336,
@@ -20782,7 +20782,7 @@
     {
       "ticker": "PRPL",
       "last_date": "2026-01-15",
-      "last_open": 0.741100013256073,
+      "last_open": 0.7700999975204468,
       "last_high": 0.8052999973297119,
       "last_low": 0.7501000165939331,
       "last_close": 0.7904000282287598,
@@ -20843,7 +20843,7 @@
     {
       "ticker": "PLRX",
       "last_date": "2026-01-15",
-      "last_open": 1.3300000429153442,
+      "last_open": 1.309999942779541,
       "last_high": 1.3200000524520874,
       "last_low": 1.2599999904632568,
       "last_close": 1.2799999713897705,
@@ -20904,7 +20904,7 @@
     {
       "ticker": "RDNT",
       "last_date": "2026-01-15",
-      "last_open": 76.44000244140625,
+      "last_open": 72.69000244140625,
       "last_high": 73.91999816894531,
       "last_low": 70.54000091552734,
       "last_close": 72.98999786376953,
@@ -21026,7 +21026,7 @@
     {
       "ticker": "PAGP",
       "last_date": "2026-01-15",
-      "last_open": 20.110000610351562,
+      "last_open": 20.1299991607666,
       "last_high": 20.280000686645508,
       "last_low": 20.030000686645508,
       "last_close": 20.170000076293945,
@@ -21087,7 +21087,7 @@
     {
       "ticker": "SCYX",
       "last_date": "2026-01-15",
-      "last_open": 0.6499999761581421,
+      "last_open": 0.6514999866485596,
       "last_high": 0.6581000089645386,
       "last_low": 0.6348999738693237,
       "last_close": 0.6420999765396118,
@@ -21148,7 +21148,7 @@
     {
       "ticker": "RXST",
       "last_date": "2026-01-15",
-      "last_open": 10.09000015258789,
+      "last_open": 9.630000114440918,
       "last_high": 9.90999984741211,
       "last_low": 9.503899574279785,
       "last_close": 9.789999961853027,
@@ -21215,7 +21215,7 @@
     {
       "ticker": "PLBY",
       "last_date": "2026-01-15",
-      "last_open": 1.850000023841858,
+      "last_open": 1.8700000047683716,
       "last_high": 2.0399999618530273,
       "last_low": 1.8700000047683716,
       "last_close": 1.9700000286102295,
@@ -21276,7 +21276,7 @@
     {
       "ticker": "RMSG",
       "last_date": "2026-01-15",
-      "last_open": 1.1200000047683716,
+      "last_open": 1.25,
       "last_high": 1.440000057220459,
       "last_low": 1.2000000476837158,
       "last_close": 1.440000057220459,
@@ -21538,7 +21538,7 @@
     {
       "ticker": "PPC",
       "last_date": "2026-01-15",
-      "last_open": 39.86000061035156,
+      "last_open": 41.43000030517578,
       "last_high": 41.869998931884766,
       "last_low": 40.91999816894531,
       "last_close": 41.630001068115234,
@@ -21605,7 +21605,7 @@
     {
       "ticker": "ROST",
       "last_date": "2026-01-15",
-      "last_open": 192.22999572753906,
+      "last_open": 192.57000732421875,
       "last_high": 194.52000427246094,
       "last_low": 191.27999877929688,
       "last_close": 193.7899932861328,
@@ -21733,7 +21733,7 @@
     {
       "ticker": "RBB",
       "last_date": "2026-01-15",
-      "last_open": 20.3700008392334,
+      "last_open": 21.549999237060547,
       "last_high": 22.18000030517578,
       "last_low": 21.549999237060547,
       "last_close": 21.860000610351562,
@@ -21989,7 +21989,7 @@
     {
       "ticker": "QURE",
       "last_date": "2026-01-15",
-      "last_open": 21.530000686645508,
+      "last_open": 22.049999237060547,
       "last_high": 22.739999771118164,
       "last_low": 21.420000076293945,
       "last_close": 21.979999542236328,
@@ -22239,7 +22239,7 @@
     {
       "ticker": "RAPT",
       "last_date": "2026-01-15",
-      "last_open": 34.27000045776367,
+      "last_open": 34.939998626708984,
       "last_high": 34.939998626708984,
       "last_low": 32.08000183105469,
       "last_close": 32.189998626708984,
@@ -22300,7 +22300,7 @@
     {
       "ticker": "SINT",
       "last_date": "2026-01-15",
-      "last_open": 3.7741000652313232,
+      "last_open": 3.690000057220459,
       "last_high": 3.7699999809265137,
       "last_low": 3.650099992752075,
       "last_close": 3.6700000762939453,
@@ -22361,7 +22361,7 @@
     {
       "ticker": "PLCE",
       "last_date": "2026-01-15",
-      "last_open": 4.730000019073486,
+      "last_open": 4.400000095367432,
       "last_high": 4.699999809265137,
       "last_low": 4.311800003051758,
       "last_close": 4.53000020980835,
@@ -22422,7 +22422,7 @@
     {
       "ticker": "RRR",
       "last_date": "2026-01-15",
-      "last_open": 62.0099983215332,
+      "last_open": 62.2599983215332,
       "last_high": 64.23500061035156,
       "last_low": 61.910701751708984,
       "last_close": 63.560001373291016,
@@ -22489,7 +22489,7 @@
     {
       "ticker": "SBUX",
       "last_date": "2026-01-15",
-      "last_open": 89.69000244140625,
+      "last_open": 92.07099914550781,
       "last_high": 94.1697998046875,
       "last_low": 91.63999938964844,
       "last_close": 93.27999877929688,
@@ -22556,7 +22556,7 @@
     {
       "ticker": "REAX",
       "last_date": "2026-01-15",
-      "last_open": 4.260000228881836,
+      "last_open": 3.890000104904175,
       "last_high": 3.9200000762939453,
       "last_low": 3.7899999618530273,
       "last_close": 3.859999895095825,
@@ -22690,7 +22690,7 @@
     {
       "ticker": "SMPL",
       "last_date": "2026-01-15",
-      "last_open": 20.6299991607666,
+      "last_open": 20.93000030517578,
       "last_high": 21.270000457763672,
       "last_low": 20.688499450683594,
       "last_close": 21.149999618530273,
@@ -22751,7 +22751,7 @@
     {
       "ticker": "RPAY",
       "last_date": "2026-01-15",
-      "last_open": 3.809999942779541,
+      "last_open": 3.5799999237060547,
       "last_high": 3.674999952316284,
       "last_low": 3.549999952316284,
       "last_close": 3.5999999046325684,
@@ -22812,7 +22812,7 @@
     {
       "ticker": "SIGA",
       "last_date": "2026-01-15",
-      "last_open": 6.599999904632568,
+      "last_open": 6.71999979019165,
       "last_high": 6.71999979019165,
       "last_low": 6.539999961853027,
       "last_close": 6.610000133514404,
@@ -22873,7 +22873,7 @@
     {
       "ticker": "RNAC",
       "last_date": "2026-01-15",
-      "last_open": 7.25,
+      "last_open": 7.599999904632568,
       "last_high": 7.611700057983398,
       "last_low": 7.179999828338623,
       "last_close": 7.360000133514404,
@@ -22940,7 +22940,7 @@
     {
       "ticker": "RCKY",
       "last_date": "2026-01-15",
-      "last_open": 32.07500076293945,
+      "last_open": 31.799999237060547,
       "last_high": 33.52989959716797,
       "last_low": 31.799999237060547,
       "last_close": 33.0099983215332,
@@ -23525,7 +23525,7 @@
     {
       "ticker": "QNTM",
       "last_date": "2026-01-15",
-      "last_open": 7.070000171661377,
+      "last_open": 6.900000095367432,
       "last_high": 7.050000190734863,
       "last_low": 6.849999904632568,
       "last_close": 6.960000038146973,
@@ -23647,7 +23647,7 @@
     {
       "ticker": "RICK",
       "last_date": "2026-01-15",
-      "last_open": 25.3700008392334,
+      "last_open": 25.809999465942383,
       "last_high": 26.989999771118164,
       "last_low": 25.56999969482422,
       "last_close": 26.739999771118164,
@@ -23769,7 +23769,7 @@
     {
       "ticker": "RGNX",
       "last_date": "2026-01-15",
-      "last_open": 15.0649995803833,
+      "last_open": 15.020000457763672,
       "last_high": 15.020000457763672,
       "last_low": 13.680000305175781,
       "last_close": 13.760000228881836,
@@ -23830,7 +23830,7 @@
     {
       "ticker": "SGMT",
       "last_date": "2026-01-15",
-      "last_open": 6.300000190734863,
+      "last_open": 6.389999866485596,
       "last_high": 6.420000076293945,
       "last_low": 6.170000076293945,
       "last_close": 6.260000228881836,
@@ -24025,7 +24025,7 @@
     {
       "ticker": "SLMT",
       "last_date": "2026-01-15",
-      "last_open": 2.0799999237060547,
+      "last_open": 2.0999999046325684,
       "last_high": 2.0999999046325684,
       "last_low": 1.9500000476837158,
       "last_close": 1.9700000286102295,
@@ -24086,7 +24086,7 @@
     {
       "ticker": "RXRX",
       "last_date": "2026-01-15",
-      "last_open": 4.880000114440918,
+      "last_open": 4.849999904632568,
       "last_high": 4.864999771118164,
       "last_low": 4.630000114440918,
       "last_close": 4.639999866485596,
@@ -24147,7 +24147,7 @@
     {
       "ticker": "RITR",
       "last_date": "2026-01-15",
-      "last_open": 1.090000033378601,
+      "last_open": 1.059999942779541,
       "last_high": 1.059999942779541,
       "last_low": 0.9476000070571899,
       "last_close": 1.0,
@@ -24336,7 +24336,7 @@
     {
       "ticker": "OSUR",
       "last_date": "2026-01-15",
-      "last_open": 2.690000057220459,
+      "last_open": 2.6700000762939453,
       "last_high": 2.805000066757202,
       "last_low": 2.6700000762939453,
       "last_close": 2.740000009536743,
@@ -24397,7 +24397,7 @@
     {
       "ticker": "RCT",
       "last_date": "2026-01-15",
-      "last_open": 1.4500000476837158,
+      "last_open": 1.559999942779541,
       "last_high": 1.6699999570846558,
       "last_low": 1.4900000095367432,
       "last_close": 1.5399999618530273,
@@ -24458,7 +24458,7 @@
     {
       "ticker": "PASW",
       "last_date": "2026-01-15",
-      "last_open": 0.24959999322891235,
+      "last_open": 0.21209999918937683,
       "last_high": 0.24050000309944153,
       "last_low": 0.21209999918937683,
       "last_close": 0.2175000011920929,
@@ -24775,7 +24775,7 @@
     {
       "ticker": "SABS",
       "last_date": "2026-01-15",
-      "last_open": 3.7200000286102295,
+      "last_open": 4.0,
       "last_high": 4.0,
       "last_low": 3.799999952316284,
       "last_close": 4.0,
@@ -24909,7 +24909,7 @@
     {
       "ticker": "PTRN",
       "last_date": "2026-01-15",
-      "last_open": 13.399999618530273,
+      "last_open": 13.170000076293945,
       "last_high": 14.229999542236328,
       "last_low": 12.90999984741211,
       "last_close": 14.199999809265137,
@@ -24976,7 +24976,7 @@
     {
       "ticker": "PRSO",
       "last_date": "2026-01-15",
-      "last_open": 0.9570000171661377,
+      "last_open": 1.0199999809265137,
       "last_high": 1.024999976158142,
       "last_low": 0.9803000092506409,
       "last_close": 0.995199978351593,
@@ -25104,7 +25104,7 @@
     {
       "ticker": "PETZ",
       "last_date": "2026-01-15",
-      "last_open": 1.0211999416351318,
+      "last_open": 1.0499999523162842,
       "last_high": 1.1123000383377075,
       "last_low": 1.038699984550476,
       "last_close": 1.0743000507354736,
@@ -25171,7 +25171,7 @@
     {
       "ticker": "PCH",
       "last_date": "2026-01-15",
-      "last_open": 42.7599983215332,
+      "last_open": 44.279998779296875,
       "last_high": 45.0,
       "last_low": 43.93000030517578,
       "last_close": 44.47999954223633,
@@ -25305,7 +25305,7 @@
     {
       "ticker": "RUSHA",
       "last_date": "2026-01-15",
-      "last_open": 59.279998779296875,
+      "last_open": 59.380001068115234,
       "last_high": 61.915000915527344,
       "last_low": 58.880001068115234,
       "last_close": 61.470001220703125,
@@ -25366,7 +25366,7 @@
     {
       "ticker": "SHOO",
       "last_date": "2026-01-15",
-      "last_open": 45.22999954223633,
+      "last_open": 45.779998779296875,
       "last_high": 46.54999923706055,
       "last_low": 45.06999969482422,
       "last_close": 46.22999954223633,
@@ -25427,7 +25427,7 @@
     {
       "ticker": "ROCK",
       "last_date": "2026-01-15",
-      "last_open": 55.849998474121094,
+      "last_open": 56.2599983215332,
       "last_high": 58.529998779296875,
       "last_low": 55.900001525878906,
       "last_close": 58.2599983215332,
@@ -25494,7 +25494,7 @@
     {
       "ticker": "SAMG",
       "last_date": "2026-01-15",
-      "last_open": 15.5,
+      "last_open": 15.350000381469727,
       "last_high": 15.579999923706055,
       "last_low": 15.289999961853027,
       "last_close": 15.34000015258789,
@@ -25622,7 +25622,7 @@
     {
       "ticker": "SEV",
       "last_date": "2026-01-15",
-      "last_open": 4.269999980926514,
+      "last_open": 4.559999942779541,
       "last_high": 4.929999828338623,
       "last_low": 4.480000019073486,
       "last_close": 4.53000020980835,
@@ -25689,7 +25689,7 @@
     {
       "ticker": "QRHC",
       "last_date": "2026-01-15",
-      "last_open": 1.8899999856948853,
+      "last_open": 2.0299999713897705,
       "last_high": 2.059999942779541,
       "last_low": 1.9500000476837158,
       "last_close": 1.9800000190734863,
@@ -25750,7 +25750,7 @@
     {
       "ticker": "RMBS",
       "last_date": "2026-01-15",
-      "last_open": 93.62999725341797,
+      "last_open": 103.7699966430664,
       "last_high": 108.22000122070312,
       "last_low": 102.71499633789062,
       "last_close": 103.06999969482422,
@@ -25817,7 +25817,7 @@
     {
       "ticker": "QTRX",
       "last_date": "2026-01-15",
-      "last_open": 7.360000133514404,
+      "last_open": 7.329999923706055,
       "last_high": 7.96999979019165,
       "last_low": 7.25,
       "last_close": 7.949999809265137,
@@ -25878,7 +25878,7 @@
     {
       "ticker": "PEBK",
       "last_date": "2026-01-15",
-      "last_open": 36.369998931884766,
+      "last_open": 37.06999969482422,
       "last_high": 37.595001220703125,
       "last_low": 37.0099983215332,
       "last_close": 37.0099983215332,
@@ -25939,7 +25939,7 @@
     {
       "ticker": "POOL",
       "last_date": "2026-01-15",
-      "last_open": 261.94000244140625,
+      "last_open": 265.1199951171875,
       "last_high": 268.7200012207031,
       "last_low": 263.32000732421875,
       "last_close": 267.6099853515625,
@@ -26000,7 +26000,7 @@
     {
       "ticker": "ROIV",
       "last_date": "2026-01-15",
-      "last_open": 23.479999542236328,
+      "last_open": 23.760000228881836,
       "last_high": 23.90999984741211,
       "last_low": 23.290000915527344,
       "last_close": 23.299999237060547,
@@ -26122,7 +26122,7 @@
     {
       "ticker": "SHC",
       "last_date": "2026-01-15",
-      "last_open": 18.989999771118164,
+      "last_open": 19.190000534057617,
       "last_high": 19.405000686645508,
       "last_low": 18.985000610351562,
       "last_close": 19.350000381469727,
@@ -26311,7 +26311,7 @@
     {
       "ticker": "PSMT",
       "last_date": "2026-01-15",
-      "last_open": 137.98500061035156,
+      "last_open": 140.85000610351562,
       "last_high": 141.0850067138672,
       "last_low": 138.77000427246094,
       "last_close": 140.8000030517578,
@@ -26378,7 +26378,7 @@
     {
       "ticker": "PGEN",
       "last_date": "2026-01-15",
-      "last_open": 4.150000095367432,
+      "last_open": 4.409999847412109,
       "last_high": 4.440000057220459,
       "last_low": 4.03000020980835,
       "last_close": 4.139999866485596,
@@ -26439,7 +26439,7 @@
     {
       "ticker": "SKIN",
       "last_date": "2026-01-15",
-      "last_open": 1.5299999713897705,
+      "last_open": 1.559999942779541,
       "last_high": 1.6449999809265137,
       "last_low": 1.5449999570846558,
       "last_close": 1.559999942779541,
@@ -26567,7 +26567,7 @@
     {
       "ticker": "PI",
       "last_date": "2026-01-15",
-      "last_open": 205.69000244140625,
+      "last_open": 184.8699951171875,
       "last_high": 185.9799041748047,
       "last_low": 171.33999633789062,
       "last_close": 171.7100067138672,
@@ -26689,7 +26689,7 @@
     {
       "ticker": "SMTI",
       "last_date": "2026-01-15",
-      "last_open": 23.959999084472656,
+      "last_open": 23.309999465942383,
       "last_high": 24.079999923706055,
       "last_low": 22.950000762939453,
       "last_close": 23.770000457763672,
@@ -26756,7 +26756,7 @@
     {
       "ticker": "SBET",
       "last_date": "2026-01-15",
-      "last_open": 10.979999542236328,
+      "last_open": 10.770000457763672,
       "last_high": 10.869999885559082,
       "last_low": 10.399999618530273,
       "last_close": 10.4399995803833,
@@ -26823,7 +26823,7 @@
     {
       "ticker": "PNBK",
       "last_date": "2026-01-15",
-      "last_open": 1.6299999952316284,
+      "last_open": 1.5,
       "last_high": 1.6399999856948853,
       "last_low": 1.5,
       "last_close": 1.6200000047683716,
@@ -26884,7 +26884,7 @@
     {
       "ticker": "PRME",
       "last_date": "2026-01-15",
-      "last_open": 4.340000152587891,
+      "last_open": 4.309999942779541,
       "last_high": 4.309999942779541,
       "last_low": 3.9149999618530273,
       "last_close": 3.990000009536743,
@@ -27018,7 +27018,7 @@
     {
       "ticker": "SCVL",
       "last_date": "2026-01-15",
-      "last_open": 18.770000457763672,
+      "last_open": 19.200000762939453,
       "last_high": 19.6299991607666,
       "last_low": 18.950000762939453,
       "last_close": 19.389999389648438,
@@ -27079,7 +27079,7 @@
     {
       "ticker": "PXS",
       "last_date": "2026-01-15",
-      "last_open": 2.9272000789642334,
+      "last_open": 3.299999952316284,
       "last_high": 3.369999885559082,
       "last_low": 3.2100000381469727,
       "last_close": 3.2950000762939453,
@@ -27140,7 +27140,7 @@
     {
       "ticker": "QVCGA",
       "last_date": "2026-01-15",
-      "last_open": 9.070599555969238,
+      "last_open": 9.380000114440918,
       "last_high": 10.5600004196167,
       "last_low": 9.380000114440918,
       "last_close": 9.829999923706055,
@@ -27274,7 +27274,7 @@
     {
       "ticker": "REAL",
       "last_date": "2026-01-15",
-      "last_open": 16.75,
+      "last_open": 16.579999923706055,
       "last_high": 16.969999313354492,
       "last_low": 16.26460075378418,
       "last_close": 16.31999969482422,
@@ -27335,7 +27335,7 @@
     {
       "ticker": "PLUG",
       "last_date": "2026-01-15",
-      "last_open": 2.315000057220459,
+      "last_open": 2.3499999046325684,
       "last_high": 2.4100000858306885,
       "last_low": 2.25,
       "last_close": 2.259999990463257,
@@ -27396,7 +27396,7 @@
     {
       "ticker": "QMCO",
       "last_date": "2026-01-15",
-      "last_open": 7.329999923706055,
+      "last_open": 8.0600004196167,
       "last_high": 8.234999656677246,
       "last_low": 7.550000190734863,
       "last_close": 7.909999847412109,
@@ -27463,7 +27463,7 @@
     {
       "ticker": "RMTI",
       "last_date": "2026-01-15",
-      "last_open": 0.9700000286102295,
+      "last_open": 0.9599999785423279,
       "last_high": 0.9898999929428101,
       "last_low": 0.9484000205993652,
       "last_close": 0.9502000212669373,
@@ -27524,7 +27524,7 @@
     {
       "ticker": "PESI",
       "last_date": "2026-01-15",
-      "last_open": 14.75,
+      "last_open": 14.5,
       "last_high": 14.880000114440918,
       "last_low": 14.359999656677246,
       "last_close": 14.640000343322754,
@@ -27591,7 +27591,7 @@
     {
       "ticker": "SLP",
       "last_date": "2026-01-15",
-      "last_open": 18.90999984741211,
+      "last_open": 19.889999389648438,
       "last_high": 20.600000381469727,
       "last_low": 19.479999542236328,
       "last_close": 20.260000228881836,
@@ -27658,7 +27658,7 @@
     {
       "ticker": "SERA",
       "last_date": "2026-01-15",
-      "last_open": 3.609999895095825,
+      "last_open": 3.5799999237060547,
       "last_high": 3.5799999237060547,
       "last_low": 3.4100000858306885,
       "last_close": 3.5199999809265137,
@@ -27719,7 +27719,7 @@
     {
       "ticker": "PAX",
       "last_date": "2026-01-15",
-      "last_open": 17.270000457763672,
+      "last_open": 17.489999771118164,
       "last_high": 17.774999618530273,
       "last_low": 17.385000228881836,
       "last_close": 17.43000030517578,
@@ -27780,7 +27780,7 @@
     {
       "ticker": "RCON",
       "last_date": "2026-01-15",
-      "last_open": 1.559999942779541,
+      "last_open": 1.4199999570846558,
       "last_high": 1.5399999618530273,
       "last_low": 1.4199999570846558,
       "last_close": 1.4199999570846558,
@@ -27841,7 +27841,7 @@
     {
       "ticker": "ORKA",
       "last_date": "2026-01-15",
-      "last_open": 31.920000076293945,
+      "last_open": 32.13999938964844,
       "last_high": 32.724998474121094,
       "last_low": 30.96339988708496,
       "last_close": 32.5,
@@ -28164,7 +28164,7 @@
     {
       "ticker": "PCSA",
       "last_date": "2026-01-15",
-      "last_open": 3.069999933242798,
+      "last_open": 3.4700000286102295,
       "last_high": 3.799999952316284,
       "last_low": 3.4000000953674316,
       "last_close": 3.7100000381469727,
@@ -28225,7 +28225,7 @@
     {
       "ticker": "PROF",
       "last_date": "2026-01-15",
-      "last_open": 8.40999984741211,
+      "last_open": 7.679999828338623,
       "last_high": 8.470000267028809,
       "last_low": 7.449999809265137,
       "last_close": 8.34000015258789,
@@ -28408,7 +28408,7 @@
     {
       "ticker": "RPID",
       "last_date": "2026-01-15",
-      "last_open": 3.059999942779541,
+      "last_open": 3.6700000762939453,
       "last_high": 3.6700000762939453,
       "last_low": 3.4100000858306885,
       "last_close": 3.450000047683716,
@@ -28530,7 +28530,7 @@
     {
       "ticker": "QDEL",
       "last_date": "2026-01-15",
-      "last_open": 33.59000015258789,
+      "last_open": 34.31999969482422,
       "last_high": 35.560001373291016,
       "last_low": 33.279998779296875,
       "last_close": 35.380001068115234,
@@ -28652,7 +28652,7 @@
     {
       "ticker": "SIFY",
       "last_date": "2026-01-15",
-      "last_open": 14.34000015258789,
+      "last_open": 13.90999984741211,
       "last_high": 15.850000381469727,
       "last_low": 13.779999732971191,
       "last_close": 14.75,
@@ -28835,7 +28835,7 @@
     {
       "ticker": "PLXS",
       "last_date": "2026-01-15",
-      "last_open": 161.35000610351562,
+      "last_open": 177.58999633789062,
       "last_high": 186.47000122070312,
       "last_low": 177.58999633789062,
       "last_close": 179.72999572753906,
@@ -28902,7 +28902,7 @@
     {
       "ticker": "PPIH",
       "last_date": "2026-01-15",
-      "last_open": 32.61000061035156,
+      "last_open": 31.770000457763672,
       "last_high": 32.25,
       "last_low": 31.43000030517578,
       "last_close": 31.81999969482422,
@@ -28963,7 +28963,7 @@
     {
       "ticker": "RKDA",
       "last_date": "2026-01-15",
-      "last_open": 2.450000047683716,
+      "last_open": 2.2699999809265137,
       "last_high": 2.4000000953674316,
       "last_low": 2.259999990463257,
       "last_close": 2.4000000953674316,
@@ -29024,7 +29024,7 @@
     {
       "ticker": "SENS",
       "last_date": "2026-01-15",
-      "last_open": 7.10099983215332,
+      "last_open": 7.170000076293945,
       "last_high": 7.300000190734863,
       "last_low": 6.900000095367432,
       "last_close": 7.269999980926514,
@@ -29158,7 +29158,7 @@
     {
       "ticker": "SCOR",
       "last_date": "2026-01-15",
-      "last_open": 7.860000133514404,
+      "last_open": 8.4399995803833,
       "last_high": 8.630000114440918,
       "last_low": 8.25,
       "last_close": 8.619999885559082,
@@ -29219,7 +29219,7 @@
     {
       "ticker": "PRFX",
       "last_date": "2026-01-15",
-      "last_open": 0.8281999826431274,
+      "last_open": 0.8399999737739563,
       "last_high": 0.8399999737739563,
       "last_low": 0.7900000214576721,
       "last_close": 0.819100022315979,
@@ -29408,7 +29408,7 @@
     {
       "ticker": "POWI",
       "last_date": "2026-01-15",
-      "last_open": 40.494998931884766,
+      "last_open": 42.810001373291016,
       "last_high": 43.755001068115234,
       "last_low": 42.119300842285156,
       "last_close": 43.47999954223633,
@@ -29542,7 +29542,7 @@
     {
       "ticker": "PAL",
       "last_date": "2026-01-15",
-      "last_open": 9.770000457763672,
+      "last_open": 9.760000228881836,
       "last_high": 10.149999618530273,
       "last_low": 9.710000038146973,
       "last_close": 10.010000228881836,
@@ -29664,7 +29664,7 @@
     {
       "ticker": "SND",
       "last_date": "2026-01-15",
-      "last_open": 3.799999952316284,
+      "last_open": 3.8499999046325684,
       "last_high": 3.869999885559082,
       "last_low": 3.6802000999450684,
       "last_close": 3.7799999713897705,
@@ -29731,7 +29731,7 @@
     {
       "ticker": "RGLD",
       "last_date": "2026-01-15",
-      "last_open": 249.8000030517578,
+      "last_open": 253.0800018310547,
       "last_high": 259.8699951171875,
       "last_low": 251.7550048828125,
       "last_close": 259.1499938964844,
@@ -29859,7 +29859,7 @@
     {
       "ticker": "PDSB",
       "last_date": "2026-01-15",
-      "last_open": 0.9800000190734863,
+      "last_open": 0.980400025844574,
       "last_high": 1.0199999809265137,
       "last_low": 0.9348999857902527,
       "last_close": 0.9447000026702881,
@@ -29920,7 +29920,7 @@
     {
       "ticker": "SEZL",
       "last_date": "2026-01-15",
-      "last_open": 76.05999755859375,
+      "last_open": 74.25,
       "last_high": 74.25,
       "last_low": 69.3499984741211,
       "last_close": 69.37000274658203,
@@ -30048,7 +30048,7 @@
     {
       "ticker": "SKK",
       "last_date": "2026-01-15",
-      "last_open": 0.32600000500679016,
+      "last_open": 0.33000001311302185,
       "last_high": 0.3691999912261963,
       "last_low": 0.33000001311302185,
       "last_close": 0.34209999442100525,
@@ -30304,7 +30304,7 @@
     {
       "ticker": "SNCY",
       "last_date": "2026-01-15",
-      "last_open": 17.100000381469727,
+      "last_open": 17.219999313354492,
       "last_high": 17.75,
       "last_low": 17.139999389648438,
       "last_close": 17.559999465942383,
@@ -30426,7 +30426,7 @@
     {
       "ticker": "SANA",
       "last_date": "2026-01-15",
-      "last_open": 4.610000133514404,
+      "last_open": 4.75,
       "last_high": 4.829999923706055,
       "last_low": 4.59499979019165,
       "last_close": 4.670000076293945,
@@ -30493,7 +30493,7 @@
     {
       "ticker": "PAVS",
       "last_date": "2026-01-15",
-      "last_open": 2.1500000953674316,
+      "last_open": 1.940000057220459,
       "last_high": 2.130000114440918,
       "last_low": 1.8700000047683716,
       "last_close": 2.009999990463257,
@@ -30560,7 +30560,7 @@
     {
       "ticker": "SLDP",
       "last_date": "2026-01-15",
-      "last_open": 5.565000057220459,
+      "last_open": 5.929999828338623,
       "last_high": 6.029900074005127,
       "last_low": 5.619999885559082,
       "last_close": 5.630000114440918,
@@ -30627,7 +30627,7 @@
     {
       "ticker": "PPSI",
       "last_date": "2026-01-15",
-      "last_open": 5.139999866485596,
+      "last_open": 4.800000190734863,
       "last_high": 4.969900131225586,
       "last_low": 4.699999809265137,
       "last_close": 4.820000171661377,
@@ -30688,7 +30688,7 @@
     {
       "ticker": "SMLR",
       "last_date": "2026-01-15",
-      "last_open": 20.0,
+      "last_open": 21.3700008392334,
       "last_high": 21.389999389648438,
       "last_low": 20.270000457763672,
       "last_close": 20.329999923706055,
@@ -30816,7 +30816,7 @@
     {
       "ticker": "SKYE",
       "last_date": "2026-01-15",
-      "last_open": 0.9898999929428101,
+      "last_open": 1.0299999713897705,
       "last_high": 1.0299999713897705,
       "last_low": 0.9401999711990356,
       "last_close": 0.9625999927520752,
@@ -31005,7 +31005,7 @@
     {
       "ticker": "SCWO",
       "last_date": "2026-01-15",
-      "last_open": 2.627700090408325,
+      "last_open": 2.5299999713897705,
       "last_high": 2.740000009536743,
       "last_low": 2.4600000381469727,
       "last_close": 2.5,
@@ -31066,7 +31066,7 @@
     {
       "ticker": "PAVM",
       "last_date": "2026-01-15",
-      "last_open": 8.710000038146973,
+      "last_open": 9.270000457763672,
       "last_high": 9.274999618530273,
       "last_low": 8.460000038146973,
       "last_close": 8.75,
@@ -31133,7 +31133,7 @@
     {
       "ticker": "RDZN",
       "last_date": "2026-01-15",
-      "last_open": 2.0799999237060547,
+      "last_open": 1.850000023841858,
       "last_high": 1.8899999856948853,
       "last_low": 1.7699999809265137,
       "last_close": 1.809999942779541,
@@ -31194,7 +31194,7 @@
     {
       "ticker": "PMAX",
       "last_date": "2026-01-15",
-      "last_open": 1.909999966621399,
+      "last_open": 2.3499999046325684,
       "last_high": 2.6700000762939453,
       "last_low": 2.2200000286102295,
       "last_close": 2.359999895095825,
@@ -31322,7 +31322,7 @@
     {
       "ticker": "SNSE",
       "last_date": "2026-01-15",
-      "last_open": 11.539999961853027,
+      "last_open": 11.850000381469727,
       "last_high": 11.899999618530273,
       "last_low": 10.800000190734863,
       "last_close": 11.609999656677246,
@@ -31450,7 +31450,7 @@
     {
       "ticker": "RFIL",
       "last_date": "2026-01-15",
-      "last_open": 6.78000020980835,
+      "last_open": 9.069999694824219,
       "last_high": 9.289999961853027,
       "last_low": 8.539999961853027,
       "last_close": 8.84000015258789,
@@ -31572,7 +31572,7 @@
     {
       "ticker": "SGLY",
       "last_date": "2026-01-15",
-      "last_open": 0.746999979019165,
+      "last_open": 0.720300018787384,
       "last_high": 0.720300018787384,
       "last_low": 0.699999988079071,
       "last_close": 0.7200999855995178,
@@ -31633,7 +31633,7 @@
     {
       "ticker": "QIPT",
       "last_date": "2026-01-15",
-      "last_open": 3.559999942779541,
+      "last_open": 3.609999895095825,
       "last_high": 3.609999895095825,
       "last_low": 3.5799999237060547,
       "last_close": 3.5799999237060547,
@@ -31822,7 +31822,7 @@
     {
       "ticker": "PRLD",
       "last_date": "2026-01-15",
-      "last_open": 2.1700000762939453,
+      "last_open": 2.2699999809265137,
       "last_high": 2.2699999809265137,
       "last_low": 2.0950000286102295,
       "last_close": 2.1500000953674316,
@@ -31883,7 +31883,7 @@
     {
       "ticker": "SKYQ",
       "last_date": "2026-01-15",
-      "last_open": 0.5051000118255615,
+      "last_open": 0.3653999865055084,
       "last_high": 0.41600000858306885,
       "last_low": 0.33719998598098755,
       "last_close": 0.35910001397132874,
@@ -31950,7 +31950,7 @@
     {
       "ticker": "RVMD",
       "last_date": "2026-01-15",
-      "last_open": 118.08999633789062,
+      "last_open": 120.69999694824219,
       "last_high": 124.16000366210938,
       "last_low": 120.69999694824219,
       "last_close": 123.2699966430664,
@@ -32011,7 +32011,7 @@
     {
       "ticker": "ROMA",
       "last_date": "2026-01-15",
-      "last_open": 1.6299999952316284,
+      "last_open": 2.180000066757202,
       "last_high": 2.449899911880493,
       "last_low": 1.9749000072479248,
       "last_close": 2.3299999237060547,
@@ -32078,7 +32078,7 @@
     {
       "ticker": "SHIM",
       "last_date": "2026-01-15",
-      "last_open": 3.7799999713897705,
+      "last_open": 3.6700000762939453,
       "last_high": 3.759999990463257,
       "last_low": 3.6600000858306885,
       "last_close": 3.6600000858306885,
@@ -32200,7 +32200,7 @@
     {
       "ticker": "QTTB",
       "last_date": "2026-01-15",
-      "last_open": 3.609999895095825,
+      "last_open": 3.5799999237060547,
       "last_high": 3.700000047683716,
       "last_low": 3.490000009536743,
       "last_close": 3.5999999046325684,
@@ -32322,7 +32322,7 @@
     {
       "ticker": "RMCO",
       "last_date": "2026-01-15",
-      "last_open": 3.4800000190734863,
+      "last_open": 3.619999885559082,
       "last_high": 3.75,
       "last_low": 3.4100000858306885,
       "last_close": 3.700000047683716,
@@ -32383,7 +32383,7 @@
     {
       "ticker": "PSNY",
       "last_date": "2026-01-15",
-      "last_open": 19.979999542236328,
+      "last_open": 21.260000228881836,
       "last_high": 23.18000030517578,
       "last_low": 21.0,
       "last_close": 22.350000381469727,
@@ -32444,7 +32444,7 @@
     {
       "ticker": "SEGG",
       "last_date": "2026-01-15",
-      "last_open": 0.503000020980835,
+      "last_open": 0.9100000262260437,
       "last_high": 1.2699999809265137,
       "last_low": 0.8532000184059143,
       "last_close": 0.9994000196456909,
@@ -32633,7 +32633,7 @@
     {
       "ticker": "SHMD",
       "last_date": "2026-01-15",
-      "last_open": 7.599999904632568,
+      "last_open": 7.590000152587891,
       "last_high": 8.039999961853027,
       "last_low": 7.46999979019165,
       "last_close": 7.71999979019165,
@@ -32755,7 +32755,7 @@
     {
       "ticker": "RKLB",
       "last_date": "2026-01-15",
-      "last_open": 86.27999877929688,
+      "last_open": 89.26499938964844,
       "last_high": 92.45899963378906,
       "last_low": 86.66000366210938,
       "last_close": 90.76000213623047,
@@ -32877,7 +32877,7 @@
     {
       "ticker": "SKYT",
       "last_date": "2026-01-15",
-      "last_open": 28.6299991607666,
+      "last_open": 31.010000228881836,
       "last_high": 34.970001220703125,
       "last_low": 31.010000228881836,
       "last_close": 32.029998779296875,
@@ -33066,7 +33066,7 @@
     {
       "ticker": "RILY",
       "last_date": "2026-01-15",
-      "last_open": 8.100000381469727,
+      "last_open": 10.041999816894531,
       "last_high": 10.970000267028809,
       "last_low": 9.143799781799316,
       "last_close": 9.5,
@@ -33194,7 +33194,7 @@
     {
       "ticker": "RGC",
       "last_date": "2026-01-15",
-      "last_open": 44.369998931884766,
+      "last_open": 33.869998931884766,
       "last_high": 33.900001525878906,
       "last_low": 28.229999542236328,
       "last_close": 30.059999465942383,

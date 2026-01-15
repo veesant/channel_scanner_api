@@ -20,11 +20,11 @@
     "recent_hl_allow_equal_lows": false,
     "rta_pullback_min_pct": 2.0,
     "rta_pullback_lookback_bars": 20,
-    "lastUpdatedTs": "2026-01-15T23:21:59.733718+00:00"
+    "lastUpdatedTs": "2026-01-15T23:38:17.062390+00:00"
   },
   "count": 520,
   "count_clean_trend": 8,
-  "count_entry_signal": 6,
+  "count_entry_signal": 7,
   "count_recent_hl_uptrend": 130,
   "count_ready_to_act": 7,
   "data": [
@@ -165,7 +165,7 @@
     {
       "ticker": "NXT",
       "last_date": "2026-01-15",
-      "last_open": 96.73999786376953,
+      "last_open": 100.03500366210938,
       "last_high": 100.94000244140625,
       "last_low": 96.73999786376953,
       "last_close": 98.6500015258789,
@@ -230,9 +230,70 @@
       "metric_max_dd_ok": null
     },
     {
+      "ticker": "NWSA",
+      "last_date": "2026-01-15",
+      "last_open": 26.579999923706055,
+      "last_high": 26.915000915527344,
+      "last_low": 26.604999542236328,
+      "last_close": 26.700000762939453,
+      "has_hh_hl": true,
+      "structure_bars": 35,
+      "min_pivots_per_side": 3,
+      "pivot_last_hh": 26.700000762939453,
+      "pivot_last_hl": 25.889999389648438,
+      "range_hh": 26.915000915527344,
+      "range_hl": 25.1299991607666,
+      "entry_level_source": "range",
+      "last_hl": 25.1299991607666,
+      "last_hh": 26.915000915527344,
+      "at_hl_zone": true,
+      "bounce_ok": true,
+      "momentum_ok": true,
+      "entry_signal": true,
+      "hl_touch_pct": 5.869480424705,
+      "close_vs_hl_pct": 6.24751951692846,
+      "breakout_distance_pct": 0.7988116116461151,
+      "hl_touch_pct_threshold": 100,
+      "bounce_min_pct_threshold": 0.3,
+      "sma_fast": 10,
+      "sma_slow": 20,
+      "sma_fast_last": 26.483000183105467,
+      "sma_slow_last": 26.363000106811523,
+      "sma_fast_gt_slow": true,
+      "metric_structure_high_pivots": 4.0,
+      "metric_structure_low_pivots": 3.0,
+      "recent_hl_uptrend": false,
+      "recent_hl_count_required": 2,
+      "recent_hl_lookback_bars": 20,
+      "recent_hl_pivots_found": 1,
+      "recent_hl_prices": null,
+      "recent_hl_dates": null,
+      "recent_hl_chain_ok": null,
+      "recent_hl_slope": null,
+      "recent_hl_slope_pct_per_bar": null,
+      "recent_hl_slope_min_pct_per_bar": 0.02,
+      "ready_to_act": true,
+      "rta_second_last_hh": 26.549999237060547,
+      "rta_last_hh": 26.700000762939453,
+      "rta_pullback_ok": true,
+      "rta_pullback_pct_from_last_hh": 0.9363295612598216,
+      "rta_pullback_min_pct": 2.0,
+      "rta_pullback_lookback_bars": 20,
+      "metric_structure_points": 7.0,
+      "metric_hh_chain_ok": 1.0,
+      "metric_hl_chain_ok": 1.0,
+      "metric_close_slope": 0.033123257313790115,
+      "metric_max_drawdown_pct": 1.2585809776813288,
+      "metric_sma_ok": 1.0,
+      "metric_last_close": 26.700000762939453,
+      "metric_last_sma_fast": 26.483000183105467,
+      "metric_last_sma_slow": 26.363000106811523,
+      "metric_max_dd_ok": null
+    },
+    {
       "ticker": "NWS",
       "last_date": "2026-01-15",
-      "last_open": 30.920000076293945,
+      "last_open": 30.5,
       "last_high": 30.979999542236328,
       "last_low": 30.610000610351562,
       "last_close": 30.700000762939453,
@@ -293,7 +354,7 @@
     {
       "ticker": "LINC",
       "last_date": "2026-01-15",
-      "last_open": 25.239999771118164,
+      "last_open": 25.15999984741211,
       "last_high": 26.75,
       "last_low": 25.219999313354492,
       "last_close": 26.709999084472656,
@@ -354,7 +415,7 @@
     {
       "ticker": "NHTC",
       "last_date": "2026-01-15",
-      "last_open": 3.690000057220459,
+      "last_open": 3.5299999713897705,
       "last_high": 3.8299999237060547,
       "last_low": 3.690000057220459,
       "last_close": 3.75,
@@ -480,70 +541,9 @@
       "metric_max_dd_ok": null
     },
     {
-      "ticker": "NWSA",
-      "last_date": "2026-01-15",
-      "last_open": 26.850000381469727,
-      "last_high": 26.915000915527344,
-      "last_low": 26.604999542236328,
-      "last_close": 26.700000762939453,
-      "has_hh_hl": true,
-      "structure_bars": 35,
-      "min_pivots_per_side": 3,
-      "pivot_last_hh": 26.700000762939453,
-      "pivot_last_hl": 25.889999389648438,
-      "range_hh": 26.915000915527344,
-      "range_hl": 25.1299991607666,
-      "entry_level_source": "range",
-      "last_hl": 25.1299991607666,
-      "last_hh": 26.915000915527344,
-      "at_hl_zone": true,
-      "bounce_ok": true,
-      "momentum_ok": false,
-      "entry_signal": false,
-      "hl_touch_pct": 5.869480424705,
-      "close_vs_hl_pct": 6.24751951692846,
-      "breakout_distance_pct": 0.7988116116461151,
-      "hl_touch_pct_threshold": 100,
-      "bounce_min_pct_threshold": 0.3,
-      "sma_fast": 10,
-      "sma_slow": 20,
-      "sma_fast_last": 26.483000183105467,
-      "sma_slow_last": 26.363000106811523,
-      "sma_fast_gt_slow": true,
-      "metric_structure_high_pivots": 4.0,
-      "metric_structure_low_pivots": 3.0,
-      "recent_hl_uptrend": false,
-      "recent_hl_count_required": 2,
-      "recent_hl_lookback_bars": 20,
-      "recent_hl_pivots_found": 1,
-      "recent_hl_prices": null,
-      "recent_hl_dates": null,
-      "recent_hl_chain_ok": null,
-      "recent_hl_slope": null,
-      "recent_hl_slope_pct_per_bar": null,
-      "recent_hl_slope_min_pct_per_bar": 0.02,
-      "ready_to_act": true,
-      "rta_second_last_hh": 26.549999237060547,
-      "rta_last_hh": 26.700000762939453,
-      "rta_pullback_ok": true,
-      "rta_pullback_pct_from_last_hh": 0.9363295612598216,
-      "rta_pullback_min_pct": 2.0,
-      "rta_pullback_lookback_bars": 20,
-      "metric_structure_points": 7.0,
-      "metric_hh_chain_ok": 1.0,
-      "metric_hl_chain_ok": 1.0,
-      "metric_close_slope": 0.033123257313790115,
-      "metric_max_drawdown_pct": 1.2585809776813288,
-      "metric_sma_ok": 1.0,
-      "metric_last_close": 26.700000762939453,
-      "metric_last_sma_fast": 26.483000183105467,
-      "metric_last_sma_slow": 26.363000106811523,
-      "metric_max_dd_ok": null
-    },
-    {
       "ticker": "NTRP",
       "last_date": "2026-01-15",
-      "last_open": 3.25,
+      "last_open": 3.4800000190734863,
       "last_high": 3.2500998973846436,
       "last_low": 2.869999885559082,
       "last_close": 2.869999885559082,
@@ -677,7 +677,7 @@
     {
       "ticker": "NEPH",
       "last_date": "2026-01-15",
-      "last_open": 4.400000095367432,
+      "last_open": 4.619999885559082,
       "last_high": 4.526299953460693,
       "last_low": 4.179999828338623,
       "last_close": 4.380000114440918,
@@ -811,7 +811,7 @@
     {
       "ticker": "LMRI",
       "last_date": "2026-01-15",
-      "last_open": 15.329999923706055,
+      "last_open": 15.779999732971191,
       "last_high": 15.8100004196167,
       "last_low": 14.0,
       "last_close": 15.430000305175781,
@@ -945,7 +945,7 @@
     {
       "ticker": "NITO",
       "last_date": "2026-01-15",
-      "last_open": 1.4600000381469727,
+      "last_open": 1.5800000429153442,
       "last_high": 1.7999999523162842,
       "last_low": 1.399999976158142,
       "last_close": 1.75,
@@ -1213,7 +1213,7 @@
     {
       "ticker": "NAUT",
       "last_date": "2026-01-15",
-      "last_open": 1.9199999570846558,
+      "last_open": 2.009999990463257,
       "last_high": 1.9199999570846558,
       "last_low": 1.820099949836731,
       "last_close": 1.8300000429153442,
@@ -1280,7 +1280,7 @@
     {
       "ticker": "OBIO",
       "last_date": "2026-01-15",
-      "last_open": 4.440000057220459,
+      "last_open": 4.690000057220459,
       "last_high": 4.53000020980835,
       "last_low": 4.059999942779541,
       "last_close": 4.170000076293945,
@@ -1414,7 +1414,7 @@
     {
       "ticker": "NTRA",
       "last_date": "2026-01-15",
-      "last_open": 240.24000549316406,
+      "last_open": 236.83999633789062,
       "last_high": 243.02999877929688,
       "last_low": 234.51499938964844,
       "last_close": 240.33999633789062,
@@ -1481,7 +1481,7 @@
     {
       "ticker": "MAXN",
       "last_date": "2026-01-15",
-      "last_open": 3.0799999237060547,
+      "last_open": 3.109999895095825,
       "last_high": 3.0799999237060547,
       "last_low": 2.8701000213623047,
       "last_close": 2.950000047683716,
@@ -1682,7 +1682,7 @@
     {
       "ticker": "OLED",
       "last_date": "2026-01-15",
-      "last_open": 122.37999725341797,
+      "last_open": 125.9000015258789,
       "last_high": 123.37989807128906,
       "last_low": 119.52999877929688,
       "last_close": 119.73999786376953,
@@ -1749,7 +1749,7 @@
     {
       "ticker": "MOVE",
       "last_date": "2026-01-15",
-      "last_open": 6.920000076293945,
+      "last_open": 7.130000114440918,
       "last_high": 7.0528998374938965,
       "last_low": 6.550000190734863,
       "last_close": 7.03000020980835,
@@ -1816,7 +1816,7 @@
     {
       "ticker": "NGNE",
       "last_date": "2026-01-15",
-      "last_open": 18.850000381469727,
+      "last_open": 17.09000015258789,
       "last_high": 18.868499755859375,
       "last_low": 17.540000915527344,
       "last_close": 18.059999465942383,
@@ -1883,7 +1883,7 @@
     {
       "ticker": "LITS",
       "last_date": "2026-01-15",
-      "last_open": 1.5700000524520874,
+      "last_open": 1.4600000381469727,
       "last_high": 1.5700000524520874,
       "last_low": 1.3899999856948853,
       "last_close": 1.399999976158142,
@@ -1950,7 +1950,7 @@
     {
       "ticker": "MCRB",
       "last_date": "2026-01-15",
-      "last_open": 16.0,
+      "last_open": 15.75,
       "last_high": 16.110000610351562,
       "last_low": 15.0,
       "last_close": 15.180000305175781,
@@ -2017,7 +2017,7 @@
     {
       "ticker": "LIEN",
       "last_date": "2026-01-15",
-      "last_open": 10.789999961853027,
+      "last_open": 10.600000381469727,
       "last_high": 11.15999984741211,
       "last_low": 10.614100456237793,
       "last_close": 10.90999984741211,
@@ -2084,7 +2084,7 @@
     {
       "ticker": "OMDA",
       "last_date": "2026-01-15",
-      "last_open": 15.579999923706055,
+      "last_open": 16.31999969482422,
       "last_high": 16.09000015258789,
       "last_low": 15.229999542236328,
       "last_close": 15.649999618530273,
@@ -2218,7 +2218,7 @@
     {
       "ticker": "NEON",
       "last_date": "2026-01-15",
-      "last_open": 1.8799999952316284,
+      "last_open": 1.9199999570846558,
       "last_high": 1.940000057220459,
       "last_low": 1.8594000339508057,
       "last_close": 1.899999976158142,
@@ -2352,7 +2352,7 @@
     {
       "ticker": "NWE",
       "last_date": "2026-01-15",
-      "last_open": 67.72000122070312,
+      "last_open": 66.01000213623047,
       "last_high": 69.02999877929688,
       "last_low": 67.5999984741211,
       "last_close": 68.44000244140625,
@@ -2486,7 +2486,7 @@
     {
       "ticker": "MELI",
       "last_date": "2026-01-15",
-      "last_open": 2137.1201171875,
+      "last_open": 2127.2099609375,
       "last_high": 2151.3798828125,
       "last_low": 2084.614990234375,
       "last_close": 2098.85009765625,
@@ -2620,7 +2620,7 @@
     {
       "ticker": "MPAA",
       "last_date": "2026-01-15",
-      "last_open": 13.100000381469727,
+      "last_open": 13.300000190734863,
       "last_high": 13.739999771118164,
       "last_low": 13.079999923706055,
       "last_close": 13.600000381469727,
@@ -2754,7 +2754,7 @@
     {
       "ticker": "LE",
       "last_date": "2026-01-15",
-      "last_open": 15.050000190734863,
+      "last_open": 15.130000114440918,
       "last_high": 15.979999542236328,
       "last_low": 14.890000343322754,
       "last_close": 15.880000114440918,
@@ -2821,7 +2821,7 @@
     {
       "ticker": "LINE",
       "last_date": "2026-01-15",
-      "last_open": 36.95000076293945,
+      "last_open": 36.52000045776367,
       "last_high": 37.08000183105469,
       "last_low": 36.36000061035156,
       "last_close": 36.459999084472656,
@@ -2888,7 +2888,7 @@
     {
       "ticker": "NUVL",
       "last_date": "2026-01-15",
-      "last_open": 107.69999694824219,
+      "last_open": 98.41000366210938,
       "last_high": 108.6500015258789,
       "last_low": 105.7699966430664,
       "last_close": 106.16000366210938,
@@ -3089,7 +3089,7 @@
     {
       "ticker": "MGPI",
       "last_date": "2026-01-15",
-      "last_open": 24.940000534057617,
+      "last_open": 24.959999084472656,
       "last_high": 25.177499771118164,
       "last_low": 24.649999618530273,
       "last_close": 24.860000610351562,
@@ -3156,7 +3156,7 @@
     {
       "ticker": "NEO",
       "last_date": "2026-01-15",
-      "last_open": 13.1899995803833,
+      "last_open": 12.550000190734863,
       "last_high": 13.289999961853027,
       "last_low": 12.805000305175781,
       "last_close": 12.829999923706055,
@@ -3357,7 +3357,7 @@
     {
       "ticker": "NXST",
       "last_date": "2026-01-15",
-      "last_open": 211.89999389648438,
+      "last_open": 210.8699951171875,
       "last_high": 220.0,
       "last_low": 209.89999389648438,
       "last_close": 218.2899932861328,
@@ -3424,7 +3424,7 @@
     {
       "ticker": "MSTR",
       "last_date": "2026-01-15",
-      "last_open": 179.125,
+      "last_open": 178.8800048828125,
       "last_high": 179.25,
       "last_low": 170.08999633789062,
       "last_close": 170.91000366210938,
@@ -3625,7 +3625,7 @@
     {
       "ticker": "NXTT",
       "last_date": "2026-01-15",
-      "last_open": 6.960000038146973,
+      "last_open": 6.920000076293945,
       "last_high": 7.112400054931641,
       "last_low": 6.650000095367432,
       "last_close": 7.099999904632568,
@@ -3759,7 +3759,7 @@
     {
       "ticker": "LFUS",
       "last_date": "2026-01-15",
-      "last_open": 283.989990234375,
+      "last_open": 275.3999938964844,
       "last_high": 296.4100036621094,
       "last_low": 282.8599853515625,
       "last_close": 293.79998779296875,
@@ -3893,7 +3893,7 @@
     {
       "ticker": "LAES",
       "last_date": "2026-01-15",
-      "last_open": 4.360000133514404,
+      "last_open": 4.380000114440918,
       "last_high": 4.929999828338623,
       "last_low": 4.295000076293945,
       "last_close": 4.650000095367432,
@@ -4094,7 +4094,7 @@
     {
       "ticker": "MATW",
       "last_date": "2026-01-15",
-      "last_open": 27.920000076293945,
+      "last_open": 28.010000228881836,
       "last_high": 29.104999542236328,
       "last_low": 27.809999465942383,
       "last_close": 28.690000534057617,
@@ -4161,7 +4161,7 @@
     {
       "ticker": "OLB",
       "last_date": "2026-01-15",
-      "last_open": 0.6389999985694885,
+      "last_open": 0.5842000246047974,
       "last_high": 0.8999999761581421,
       "last_low": 0.6100000143051147,
       "last_close": 0.7304999828338623,
@@ -4362,7 +4362,7 @@
     {
       "ticker": "MIMI",
       "last_date": "2026-01-15",
-      "last_open": 0.30000001192092896,
+      "last_open": 0.3156000077724457,
       "last_high": 0.3100000023841858,
       "last_low": 0.30000001192092896,
       "last_close": 0.30169999599456787,
@@ -4429,7 +4429,7 @@
     {
       "ticker": "NEOV",
       "last_date": "2026-01-15",
-      "last_open": 3.740000009536743,
+      "last_open": 4.0,
       "last_high": 3.799999952316284,
       "last_low": 3.4000000953674316,
       "last_close": 3.430000066757202,
@@ -4496,7 +4496,7 @@
     {
       "ticker": "LAKE",
       "last_date": "2026-01-15",
-      "last_open": 9.449999809265137,
+      "last_open": 9.34000015258789,
       "last_high": 9.670000076293945,
       "last_low": 9.300000190734863,
       "last_close": 9.329999923706055,
@@ -4563,7 +4563,7 @@
     {
       "ticker": "MLCI",
       "last_date": "2026-01-15",
-      "last_open": 8.4399995803833,
+      "last_open": 8.319999694824219,
       "last_high": 8.579999923706055,
       "last_low": 8.399999618530273,
       "last_close": 8.539999961853027,
@@ -4697,7 +4697,7 @@
     {
       "ticker": "LFWD",
       "last_date": "2026-01-15",
-      "last_open": 0.6669999957084656,
+      "last_open": 0.7200000286102295,
       "last_high": 0.7250000238418579,
       "last_low": 0.6553999781608582,
       "last_close": 0.7225000262260437,
@@ -4898,7 +4898,7 @@
     {
       "ticker": "NVAX",
       "last_date": "2026-01-15",
-      "last_open": 8.039999961853027,
+      "last_open": 7.869999885559082,
       "last_high": 8.149999618530273,
       "last_low": 7.760000228881836,
       "last_close": 7.78000020980835,
@@ -4965,7 +4965,7 @@
     {
       "ticker": "NFE",
       "last_date": "2026-01-15",
-      "last_open": 1.2699999809265137,
+      "last_open": 1.25,
       "last_high": 1.409999966621399,
       "last_low": 1.2699999809265137,
       "last_close": 1.399999976158142,
@@ -5099,7 +5099,7 @@
     {
       "ticker": "MGIC",
       "last_date": "2026-01-15",
-      "last_open": 27.549999237060547,
+      "last_open": 27.520000457763672,
       "last_high": 27.549999237060547,
       "last_low": 27.34000015258789,
       "last_close": 27.450000762939453,
@@ -5233,7 +5233,7 @@
     {
       "ticker": "NWL",
       "last_date": "2026-01-15",
-      "last_open": 4.239999771118164,
+      "last_open": 4.179999828338623,
       "last_high": 4.289999961853027,
       "last_low": 4.144999980926514,
       "last_close": 4.28000020980835,
@@ -5300,7 +5300,7 @@
     {
       "ticker": "OPXS",
       "last_date": "2026-01-15",
-      "last_open": 15.600000381469727,
+      "last_open": 15.0,
       "last_high": 15.600000381469727,
       "last_low": 15.152000427246094,
       "last_close": 15.369999885559082,
@@ -5367,7 +5367,7 @@
     {
       "ticker": "OPAL",
       "last_date": "2026-01-15",
-      "last_open": 2.5199999809265137,
+      "last_open": 2.569999933242798,
       "last_high": 2.7100000381469727,
       "last_low": 2.484999895095825,
       "last_close": 2.569999933242798,
@@ -5434,7 +5434,7 @@
     {
       "ticker": "NVCR",
       "last_date": "2026-01-15",
-      "last_open": 13.789999961853027,
+      "last_open": 13.859999656677246,
       "last_high": 13.875,
       "last_low": 13.5,
       "last_close": 13.800000190734863,
@@ -5568,7 +5568,7 @@
     {
       "ticker": "MIST",
       "last_date": "2026-01-15",
-      "last_open": 2.0299999713897705,
+      "last_open": 1.9874999523162842,
       "last_high": 2.130000114440918,
       "last_low": 2.0199999809265137,
       "last_close": 2.0299999713897705,
@@ -5635,7 +5635,7 @@
     {
       "ticker": "LSAK",
       "last_date": "2026-01-15",
-      "last_open": 4.699999809265137,
+      "last_open": 4.670000076293945,
       "last_high": 4.702099800109863,
       "last_low": 4.6305999755859375,
       "last_close": 4.670000076293945,
@@ -5769,7 +5769,7 @@
     {
       "ticker": "OCS",
       "last_date": "2026-01-15",
-      "last_open": 23.850000381469727,
+      "last_open": 23.780000686645508,
       "last_high": 24.372499465942383,
       "last_low": 23.579999923706055,
       "last_close": 23.84000015258789,
@@ -5836,7 +5836,7 @@
     {
       "ticker": "MRTN",
       "last_date": "2026-01-15",
-      "last_open": 12.449999809265137,
+      "last_open": 12.579999923706055,
       "last_high": 12.845000267028809,
       "last_low": 12.4399995803833,
       "last_close": 12.729999542236328,
@@ -5903,7 +5903,7 @@
     {
       "ticker": "NCEL",
       "last_date": "2026-01-15",
-      "last_open": 2.4100000858306885,
+      "last_open": 2.2699999809265137,
       "last_high": 2.619999885559082,
       "last_low": 2.399899959564209,
       "last_close": 2.440000057220459,
@@ -5970,7 +5970,7 @@
     {
       "ticker": "NERV",
       "last_date": "2026-01-15",
-      "last_open": 4.340000152587891,
+      "last_open": 4.309999942779541,
       "last_high": 4.534999847412109,
       "last_low": 4.140100002288818,
       "last_close": 4.329999923706055,
@@ -6037,7 +6037,7 @@
     {
       "ticker": "NTIC",
       "last_date": "2026-01-15",
-      "last_open": 9.449999809265137,
+      "last_open": 9.231300354003906,
       "last_high": 10.029999732971191,
       "last_low": 9.369999885559082,
       "last_close": 9.569999694824219,
@@ -6104,7 +6104,7 @@
     {
       "ticker": "ON",
       "last_date": "2026-01-15",
-      "last_open": 60.68000030517578,
+      "last_open": 59.0,
       "last_high": 61.98500061035156,
       "last_low": 60.2400016784668,
       "last_close": 60.279998779296875,
@@ -6171,7 +6171,7 @@
     {
       "ticker": "MIDD",
       "last_date": "2026-01-15",
-      "last_open": 153.9600067138672,
+      "last_open": 155.33999633789062,
       "last_high": 155.52999877929688,
       "last_low": 148.32000732421875,
       "last_close": 148.85000610351562,
@@ -6238,7 +6238,7 @@
     {
       "ticker": "MGNX",
       "last_date": "2026-01-15",
-      "last_open": 1.7799999713897705,
+      "last_open": 1.7999999523162842,
       "last_high": 1.7799999713897705,
       "last_low": 1.6950000524520874,
       "last_close": 1.7000000476837158,
@@ -6305,7 +6305,7 @@
     {
       "ticker": "LSCC",
       "last_date": "2026-01-15",
-      "last_open": 88.69000244140625,
+      "last_open": 84.12000274658203,
       "last_high": 89.79000091552734,
       "last_low": 84.66999816894531,
       "last_close": 85.2300033569336,
@@ -6439,7 +6439,7 @@
     {
       "ticker": "MENS",
       "last_date": "2026-01-15",
-      "last_open": 3.440000057220459,
+      "last_open": 3.509999990463257,
       "last_high": 3.7885000705718994,
       "last_low": 3.369999885559082,
       "last_close": 3.4600000381469727,
@@ -6506,7 +6506,7 @@
     {
       "ticker": "ODFL",
       "last_date": "2026-01-15",
-      "last_open": 174.14999389648438,
+      "last_open": 171.1750030517578,
       "last_high": 178.55999755859375,
       "last_low": 174.0225067138672,
       "last_close": 178.2100067138672,
@@ -6573,7 +6573,7 @@
     {
       "ticker": "KYTX",
       "last_date": "2026-01-15",
-      "last_open": 9.319999694824219,
+      "last_open": 8.329999923706055,
       "last_high": 9.319999694824219,
       "last_low": 8.524999618530273,
       "last_close": 8.720000267028809,
@@ -6707,7 +6707,7 @@
     {
       "ticker": "MKZR",
       "last_date": "2026-01-15",
-      "last_open": 4.460000038146973,
+      "last_open": 4.570000171661377,
       "last_high": 4.530600070953369,
       "last_low": 4.320000171661377,
       "last_close": 4.356599807739258,
@@ -6774,7 +6774,7 @@
     {
       "ticker": "NTHI",
       "last_date": "2026-01-15",
-      "last_open": 9.289999961853027,
+      "last_open": 10.100000381469727,
       "last_high": 9.470000267028809,
       "last_low": 8.5,
       "last_close": 8.699999809265137,
@@ -6841,7 +6841,7 @@
     {
       "ticker": "NDLS",
       "last_date": "2026-01-15",
-      "last_open": 0.8240000009536743,
+      "last_open": 0.8600000143051147,
       "last_high": 0.8507999777793884,
       "last_low": 0.800000011920929,
       "last_close": 0.838699996471405,
@@ -7042,7 +7042,7 @@
     {
       "ticker": "NAKA",
       "last_date": "2026-01-15",
-      "last_open": 0.5005000233650208,
+      "last_open": 0.4699999988079071,
       "last_high": 0.5072000026702881,
       "last_low": 0.4699999988079071,
       "last_close": 0.4837000072002411,
@@ -7109,7 +7109,7 @@
     {
       "ticker": "LITM",
       "last_date": "2026-01-15",
-      "last_open": 3.700000047683716,
+      "last_open": 3.940000057220459,
       "last_high": 3.7699999809265137,
       "last_low": 3.5,
       "last_close": 3.680000066757202,
@@ -7310,7 +7310,7 @@
     {
       "ticker": "MKSI",
       "last_date": "2026-01-15",
-      "last_open": 205.0,
+      "last_open": 187.85000610351562,
       "last_high": 211.0800018310547,
       "last_low": 202.32000732421875,
       "last_close": 205.25999450683594,
@@ -7444,7 +7444,7 @@
     {
       "ticker": "LTRX",
       "last_date": "2026-01-15",
-      "last_open": 6.800000190734863,
+      "last_open": 6.340000152587891,
       "last_high": 6.940000057220459,
       "last_low": 6.619999885559082,
       "last_close": 6.820000171661377,
@@ -7511,7 +7511,7 @@
     {
       "ticker": "NVCT",
       "last_date": "2026-01-15",
-      "last_open": 8.399999618530273,
+      "last_open": 8.25,
       "last_high": 8.608799934387207,
       "last_low": 8.199999809265137,
       "last_close": 8.529999732971191,
@@ -7578,7 +7578,7 @@
     {
       "ticker": "OMER",
       "last_date": "2026-01-15",
-      "last_open": 12.850000381469727,
+      "last_open": 12.520000457763672,
       "last_high": 12.929699897766113,
       "last_low": 11.920000076293945,
       "last_close": 12.210000038146973,
@@ -7645,7 +7645,7 @@
     {
       "ticker": "MRCY",
       "last_date": "2026-01-15",
-      "last_open": 99.05000305175781,
+      "last_open": 98.0,
       "last_high": 103.06999969482422,
       "last_low": 97.23999786376953,
       "last_close": 102.94999694824219,
@@ -7712,7 +7712,7 @@
     {
       "ticker": "LGO",
       "last_date": "2026-01-15",
-      "last_open": 1.3799999952316284,
+      "last_open": 1.25,
       "last_high": 1.3799999952316284,
       "last_low": 1.2913000583648682,
       "last_close": 1.309999942779541,
@@ -7980,7 +7980,7 @@
     {
       "ticker": "LRCX",
       "last_date": "2026-01-15",
-      "last_open": 228.14500427246094,
+      "last_open": 219.4199981689453,
       "last_high": 229.32000732421875,
       "last_low": 217.2100067138672,
       "last_close": 217.47000122070312,
@@ -8047,7 +8047,7 @@
     {
       "ticker": "NVMI",
       "last_date": "2026-01-15",
-      "last_open": 438.92999267578125,
+      "last_open": 404.94000244140625,
       "last_high": 448.6099853515625,
       "last_low": 433.20001220703125,
       "last_close": 434.54998779296875,
@@ -8114,7 +8114,7 @@
     {
       "ticker": "MRAM",
       "last_date": "2026-01-15",
-      "last_open": 11.640000343322754,
+      "last_open": 11.479999542236328,
       "last_high": 12.369999885559082,
       "last_low": 11.52869987487793,
       "last_close": 12.130000114440918,
@@ -8181,7 +8181,7 @@
     {
       "ticker": "MODD",
       "last_date": "2026-01-15",
-      "last_open": 0.4668000042438507,
+      "last_open": 0.5,
       "last_high": 0.48559999465942383,
       "last_low": 0.46619999408721924,
       "last_close": 0.47440001368522644,
@@ -8382,7 +8382,7 @@
     {
       "ticker": "MERC",
       "last_date": "2026-01-15",
-      "last_open": 2.690000057220459,
+      "last_open": 2.5899999141693115,
       "last_high": 2.819999933242798,
       "last_low": 2.6050000190734863,
       "last_close": 2.740000009536743,
@@ -8449,7 +8449,7 @@
     {
       "ticker": "NKLR",
       "last_date": "2026-01-15",
-      "last_open": 6.5,
+      "last_open": 5.800000190734863,
       "last_high": 7.349999904632568,
       "last_low": 6.260000228881836,
       "last_close": 6.659999847412109,
@@ -8516,7 +8516,7 @@
     {
       "ticker": "KRUS",
       "last_date": "2026-01-15",
-      "last_open": 73.69999694824219,
+      "last_open": 69.72000122070312,
       "last_high": 75.1449966430664,
       "last_low": 72.0,
       "last_close": 73.83999633789062,
@@ -8583,7 +8583,7 @@
     {
       "ticker": "NMTC",
       "last_date": "2026-01-15",
-      "last_open": 0.8896999955177307,
+      "last_open": 0.8999999761581421,
       "last_high": 0.9117000102996826,
       "last_low": 0.8841000199317932,
       "last_close": 0.8989999890327454,
@@ -8717,7 +8717,7 @@
     {
       "ticker": "KTOS",
       "last_date": "2026-01-15",
-      "last_open": 119.89299774169922,
+      "last_open": 118.01000213623047,
       "last_high": 126.30999755859375,
       "last_low": 117.2667007446289,
       "last_close": 124.55999755859375,
@@ -8784,7 +8784,7 @@
     {
       "ticker": "ONDS",
       "last_date": "2026-01-15",
-      "last_open": 13.569999694824219,
+      "last_open": 13.660099983215332,
       "last_high": 14.069999694824219,
       "last_low": 12.800000190734863,
       "last_close": 12.819999694824219,
@@ -9229,7 +9229,7 @@
     {
       "ticker": "LPSN",
       "last_date": "2026-01-15",
-      "last_open": 3.5399999618530273,
+      "last_open": 3.859999895095825,
       "last_high": 3.5399999618530273,
       "last_low": 3.265000104904175,
       "last_close": 3.2699999809265137,
@@ -9351,7 +9351,7 @@
     {
       "ticker": "LCID",
       "last_date": "2026-01-15",
-      "last_open": 10.829999923706055,
+      "last_open": 10.920000076293945,
       "last_high": 10.890000343322754,
       "last_low": 10.029999732971191,
       "last_close": 10.050000190734863,
@@ -9418,7 +9418,7 @@
     {
       "ticker": "KURA",
       "last_date": "2026-01-15",
-      "last_open": 9.324999809265137,
+      "last_open": 9.020000457763672,
       "last_high": 9.375,
       "last_low": 8.890000343322754,
       "last_close": 8.90999984741211,
@@ -9485,7 +9485,7 @@
     {
       "ticker": "MLYS",
       "last_date": "2026-01-15",
-      "last_open": 33.0,
+      "last_open": 32.75,
       "last_high": 33.40999984741211,
       "last_low": 31.299999237060547,
       "last_close": 31.3799991607666,
@@ -9546,7 +9546,7 @@
     {
       "ticker": "MMSI",
       "last_date": "2026-01-15",
-      "last_open": 81.41000366210938,
+      "last_open": 80.80999755859375,
       "last_high": 81.7750015258789,
       "last_low": 79.9000015258789,
       "last_close": 80.3499984741211,
@@ -9607,7 +9607,7 @@
     {
       "ticker": "META",
       "last_date": "2026-01-15",
-      "last_open": 618.47998046875,
+      "last_open": 626.4000244140625,
       "last_high": 624.1699829101562,
       "last_low": 614.22998046875,
       "last_close": 620.7999877929688,
@@ -9668,7 +9668,7 @@
     {
       "ticker": "NBIX",
       "last_date": "2026-01-15",
-      "last_open": 135.24000549316406,
+      "last_open": 133.1999969482422,
       "last_high": 135.97999572753906,
       "last_low": 131.3000030517578,
       "last_close": 133.35000610351562,
@@ -9735,7 +9735,7 @@
     {
       "ticker": "LWAY",
       "last_date": "2026-01-15",
-      "last_open": 22.059999465942383,
+      "last_open": 22.655000686645508,
       "last_high": 22.215299606323242,
       "last_low": 21.780099868774414,
       "last_close": 22.139999389648438,
@@ -9796,7 +9796,7 @@
     {
       "ticker": "LZ",
       "last_date": "2026-01-15",
-      "last_open": 9.279999732971191,
+      "last_open": 10.229999542236328,
       "last_high": 9.34000015258789,
       "last_low": 9.020000457763672,
       "last_close": 9.220000267028809,
@@ -9863,7 +9863,7 @@
     {
       "ticker": "NAMS",
       "last_date": "2026-01-15",
-      "last_open": 32.45000076293945,
+      "last_open": 32.56999969482422,
       "last_high": 32.45000076293945,
       "last_low": 30.969999313354492,
       "last_close": 31.829999923706055,
@@ -9991,7 +9991,7 @@
     {
       "ticker": "NKTR",
       "last_date": "2026-01-15",
-      "last_open": 36.15999984741211,
+      "last_open": 38.70000076293945,
       "last_high": 36.3849983215332,
       "last_low": 34.34000015258789,
       "last_close": 35.36000061035156,
@@ -10058,7 +10058,7 @@
     {
       "ticker": "NAGE",
       "last_date": "2026-01-15",
-      "last_open": 6.340000152587891,
+      "last_open": 6.429999828338623,
       "last_high": 6.340000152587891,
       "last_low": 6.119999885559082,
       "last_close": 6.309999942779541,
@@ -10119,7 +10119,7 @@
     {
       "ticker": "MXCT",
       "last_date": "2026-01-15",
-      "last_open": 1.2799999713897705,
+      "last_open": 1.3700000047683716,
       "last_high": 1.3700000047683716,
       "last_low": 1.25,
       "last_close": 1.2899999618530273,
@@ -10241,7 +10241,7 @@
     {
       "ticker": "MYGN",
       "last_date": "2026-01-15",
-      "last_open": 6.079999923706055,
+      "last_open": 6.599999904632568,
       "last_high": 6.199999809265137,
       "last_low": 5.809999942779541,
       "last_close": 6.039999961853027,
@@ -10302,7 +10302,7 @@
     {
       "ticker": "ONMD",
       "last_date": "2026-01-15",
-      "last_open": 1.0800000429153442,
+      "last_open": 1.1699999570846558,
       "last_high": 1.090000033378601,
       "last_low": 0.8144999742507935,
       "last_close": 0.8500000238418579,
@@ -10369,7 +10369,7 @@
     {
       "ticker": "LRHC",
       "last_date": "2026-01-15",
-      "last_open": 0.5799999833106995,
+      "last_open": 0.699999988079071,
       "last_high": 0.6176999807357788,
       "last_low": 0.5550000071525574,
       "last_close": 0.5799999833106995,
@@ -10436,7 +10436,7 @@
     {
       "ticker": "MDCX",
       "last_date": "2026-01-15",
-      "last_open": 1.4500000476837158,
+      "last_open": 1.4900000095367432,
       "last_high": 1.475000023841858,
       "last_low": 1.3138999938964844,
       "last_close": 1.3899999856948853,
@@ -10497,7 +10497,7 @@
     {
       "ticker": "MSS",
       "last_date": "2026-01-15",
-      "last_open": 0.29019999504089355,
+      "last_open": 0.3149999976158142,
       "last_high": 0.31299999356269836,
       "last_low": 0.2800000011920929,
       "last_close": 0.30720001459121704,
@@ -10619,7 +10619,7 @@
     {
       "ticker": "LESL",
       "last_date": "2026-01-15",
-      "last_open": 1.5199999809265137,
+      "last_open": 1.6699999570846558,
       "last_high": 1.8899999856948853,
       "last_low": 1.5199999809265137,
       "last_close": 1.7200000286102295,
@@ -10741,7 +10741,7 @@
     {
       "ticker": "NTSK",
       "last_date": "2026-01-15",
-      "last_open": 15.710000038146973,
+      "last_open": 16.399999618530273,
       "last_high": 16.019899368286133,
       "last_low": 15.350000381469727,
       "last_close": 15.399999618530273,
@@ -10808,7 +10808,7 @@
     {
       "ticker": "OFIX",
       "last_date": "2026-01-15",
-      "last_open": 14.3100004196167,
+      "last_open": 15.260000228881836,
       "last_high": 14.520000457763672,
       "last_low": 14.199999809265137,
       "last_close": 14.399999618530273,
@@ -11058,7 +11058,7 @@
     {
       "ticker": "NWFL",
       "last_date": "2026-01-15",
-      "last_open": 27.899999618530273,
+      "last_open": 28.079999923706055,
       "last_high": 28.59000015258789,
       "last_low": 27.594999313354492,
       "last_close": 28.280000686645508,
@@ -11180,7 +11180,7 @@
     {
       "ticker": "MQ",
       "last_date": "2026-01-15",
-      "last_open": 4.449999809265137,
+      "last_open": 4.659999847412109,
       "last_high": 4.46999979019165,
       "last_low": 4.369999885559082,
       "last_close": 4.409999847412109,
@@ -11247,7 +11247,7 @@
     {
       "ticker": "LBTYK",
       "last_date": "2026-01-15",
-      "last_open": 10.489999771118164,
+      "last_open": 10.680000305175781,
       "last_high": 10.58810043334961,
       "last_low": 10.350000381469727,
       "last_close": 10.460000038146973,
@@ -11442,7 +11442,7 @@
     {
       "ticker": "LATA",
       "last_date": "2026-01-15",
-      "last_open": 9.970000267028809,
+      "last_open": 9.960000038146973,
       "last_high": 10.010000228881836,
       "last_low": 9.970000267028809,
       "last_close": 10.010000228881836,
@@ -11808,7 +11808,7 @@
     {
       "ticker": "MTCH",
       "last_date": "2026-01-15",
-      "last_open": 32.0099983215332,
+      "last_open": 32.09000015258789,
       "last_high": 32.150001525878906,
       "last_low": 31.540000915527344,
       "last_close": 31.600000381469727,
@@ -11997,7 +11997,7 @@
     {
       "ticker": "LBTYA",
       "last_date": "2026-01-15",
-      "last_open": 10.539999961853027,
+      "last_open": 10.545000076293945,
       "last_high": 10.630000114440918,
       "last_low": 10.380000114440918,
       "last_close": 10.510000228881836,
@@ -12064,7 +12064,7 @@
     {
       "ticker": "ONCH",
       "last_date": "2026-01-15",
-      "last_open": 10.239999771118164,
+      "last_open": 10.1899995803833,
       "last_high": 10.239999771118164,
       "last_low": 10.229999542236328,
       "last_close": 10.229999542236328,
@@ -12186,7 +12186,7 @@
     {
       "ticker": "LBRDA",
       "last_date": "2026-01-15",
-      "last_open": 46.86000061035156,
+      "last_open": 47.689998626708984,
       "last_high": 46.86000061035156,
       "last_low": 45.040000915527344,
       "last_close": 45.150001525878906,
@@ -12369,7 +12369,7 @@
     {
       "ticker": "LBRDK",
       "last_date": "2026-01-15",
-      "last_open": 46.90999984741211,
+      "last_open": 47.564998626708984,
       "last_high": 46.90999984741211,
       "last_low": 45.220001220703125,
       "last_close": 45.34000015258789,
@@ -12552,7 +12552,7 @@
     {
       "ticker": "ODD",
       "last_date": "2026-01-15",
-      "last_open": 33.869998931884766,
+      "last_open": 35.459999084472656,
       "last_high": 35.38999938964844,
       "last_low": 33.33150100708008,
       "last_close": 35.34000015258789,
@@ -12979,7 +12979,7 @@
     {
       "ticker": "LIVN",
       "last_date": "2026-01-15",
-      "last_open": 61.18000030517578,
+      "last_open": 62.689998626708984,
       "last_high": 63.5,
       "last_low": 60.970001220703125,
       "last_close": 63.189998626708984,
@@ -13174,7 +13174,7 @@
     {
       "ticker": "NTGR",
       "last_date": "2026-01-15",
-      "last_open": 22.530000686645508,
+      "last_open": 23.329999923706055,
       "last_high": 22.899999618530273,
       "last_low": 22.3799991607666,
       "last_close": 22.68000030517578,
@@ -13235,7 +13235,7 @@
     {
       "ticker": "NRDS",
       "last_date": "2026-01-15",
-      "last_open": 13.050000190734863,
+      "last_open": 13.149999618530273,
       "last_high": 13.265000343322754,
       "last_low": 12.869999885559082,
       "last_close": 13.25,
@@ -13296,7 +13296,7 @@
     {
       "ticker": "KYIV",
       "last_date": "2026-01-15",
-      "last_open": 12.210000038146973,
+      "last_open": 12.25,
       "last_high": 12.3100004196167,
       "last_low": 12.09000015258789,
       "last_close": 12.119999885559082,
@@ -13430,7 +13430,7 @@
     {
       "ticker": "MDXG",
       "last_date": "2026-01-15",
-      "last_open": 5.710000038146973,
+      "last_open": 5.989999771118164,
       "last_high": 5.849999904632568,
       "last_low": 5.638000011444092,
       "last_close": 5.75,
@@ -13491,7 +13491,7 @@
     {
       "ticker": "MDGL",
       "last_date": "2026-01-15",
-      "last_open": 503.6499938964844,
+      "last_open": 511.57000732421875,
       "last_high": 510.5,
       "last_low": 495.3699951171875,
       "last_close": 495.8800048828125,
@@ -13552,7 +13552,7 @@
     {
       "ticker": "KZR",
       "last_date": "2026-01-15",
-      "last_open": 6.170000076293945,
+      "last_open": 6.25,
       "last_high": 6.224999904632568,
       "last_low": 6.144999980926514,
       "last_close": 6.199999809265137,
@@ -13619,7 +13619,7 @@
     {
       "ticker": "NAMM",
       "last_date": "2026-01-15",
-      "last_open": 0.9555000066757202,
+      "last_open": 0.9800000190734863,
       "last_high": 0.9850999712944031,
       "last_low": 0.9301000237464905,
       "last_close": 0.9399999976158142,
@@ -13686,7 +13686,7 @@
     {
       "ticker": "NCMI",
       "last_date": "2026-01-15",
-      "last_open": 3.7899999618530273,
+      "last_open": 3.809999942779541,
       "last_high": 3.9600000381469727,
       "last_low": 3.75,
       "last_close": 3.890000104904175,
@@ -13814,7 +13814,7 @@
     {
       "ticker": "LOAN",
       "last_date": "2026-01-15",
-      "last_open": 4.599999904632568,
+      "last_open": 4.519999980926514,
       "last_high": 4.820000171661377,
       "last_low": 4.550000190734863,
       "last_close": 4.659999847412109,
@@ -14009,7 +14009,7 @@
     {
       "ticker": "NMRK",
       "last_date": "2026-01-15",
-      "last_open": 16.790000915527344,
+      "last_open": 17.360000610351562,
       "last_high": 17.625,
       "last_low": 16.790000915527344,
       "last_close": 17.520000457763672,
@@ -14076,7 +14076,7 @@
     {
       "ticker": "NUKK",
       "last_date": "2026-01-15",
-      "last_open": 3.680000066757202,
+      "last_open": 3.5999999046325684,
       "last_high": 3.839900016784668,
       "last_low": 3.430000066757202,
       "last_close": 3.6500000953674316,
@@ -14399,7 +14399,7 @@
     {
       "ticker": "MYPS",
       "last_date": "2026-01-15",
-      "last_open": 0.6100000143051147,
+      "last_open": 0.6010000109672546,
       "last_high": 0.6448000073432922,
       "last_low": 0.60589998960495,
       "last_close": 0.6413999795913696,
@@ -14460,7 +14460,7 @@
     {
       "ticker": "MGEE",
       "last_date": "2026-01-15",
-      "last_open": 79.69999694824219,
+      "last_open": 78.63999938964844,
       "last_high": 80.76000213623047,
       "last_low": 78.96399688720703,
       "last_close": 79.94999694824219,
@@ -14527,7 +14527,7 @@
     {
       "ticker": "MORN",
       "last_date": "2026-01-15",
-      "last_open": 220.35000610351562,
+      "last_open": 217.80999755859375,
       "last_high": 220.35000610351562,
       "last_low": 214.125,
       "last_close": 215.63999938964844,
@@ -14661,7 +14661,7 @@
     {
       "ticker": "MCHB",
       "last_date": "2026-01-15",
-      "last_open": 14.460000038146973,
+      "last_open": 14.430000305175781,
       "last_high": 14.930000305175781,
       "last_low": 14.449999809265137,
       "last_close": 14.6899995803833,
@@ -14783,7 +14783,7 @@
     {
       "ticker": "NEXN",
       "last_date": "2026-01-15",
-      "last_open": 5.949999809265137,
+      "last_open": 5.960000038146973,
       "last_high": 6.170000076293945,
       "last_low": 5.929100036621094,
       "last_close": 6.139999866485596,
@@ -14850,7 +14850,7 @@
     {
       "ticker": "NCNO",
       "last_date": "2026-01-15",
-      "last_open": 24.489999771118164,
+      "last_open": 25.479999542236328,
       "last_high": 24.709999084472656,
       "last_low": 24.06999969482422,
       "last_close": 24.290000915527344,
@@ -14911,7 +14911,7 @@
     {
       "ticker": "LRMR",
       "last_date": "2026-01-15",
-      "last_open": 3.4200000762939453,
+      "last_open": 3.2300000190734863,
       "last_high": 3.4700000286102295,
       "last_low": 3.240000009536743,
       "last_close": 3.259999990463257,
@@ -14978,7 +14978,7 @@
     {
       "ticker": "NMIH",
       "last_date": "2026-01-15",
-      "last_open": 37.130001068115234,
+      "last_open": 39.40999984741211,
       "last_high": 37.720001220703125,
       "last_low": 37.130001068115234,
       "last_close": 37.619998931884766,
@@ -15100,7 +15100,7 @@
     {
       "ticker": "NVNO",
       "last_date": "2026-01-15",
-      "last_open": 0.33500000834465027,
+      "last_open": 0.33230000734329224,
       "last_high": 0.35409998893737793,
       "last_low": 0.31349998712539673,
       "last_close": 0.31349998712539673,
@@ -15161,7 +15161,7 @@
     {
       "ticker": "MNY",
       "last_date": "2026-01-15",
-      "last_open": 1.25,
+      "last_open": 1.2699999809265137,
       "last_high": 1.2599999904632568,
       "last_low": 1.25,
       "last_close": 1.25,
@@ -15222,7 +15222,7 @@
     {
       "ticker": "MDWD",
       "last_date": "2026-01-15",
-      "last_open": 17.1200008392334,
+      "last_open": 17.399999618530273,
       "last_high": 17.399999618530273,
       "last_low": 17.0,
       "last_close": 17.3700008392334,
@@ -15344,7 +15344,7 @@
     {
       "ticker": "LNT",
       "last_date": "2026-01-15",
-      "last_open": 67.05000305175781,
+      "last_open": 65.80999755859375,
       "last_high": 67.33000183105469,
       "last_low": 66.66999816894531,
       "last_close": 67.05999755859375,
@@ -15411,7 +15411,7 @@
     {
       "ticker": "MATH",
       "last_date": "2026-01-15",
-      "last_open": 2.259999990463257,
+      "last_open": 2.3320000171661377,
       "last_high": 2.259999990463257,
       "last_low": 2.140000104904175,
       "last_close": 2.140000104904175,
@@ -15472,7 +15472,7 @@
     {
       "ticker": "NSSC",
       "last_date": "2026-01-15",
-      "last_open": 39.61000061035156,
+      "last_open": 42.68000030517578,
       "last_high": 40.034000396728516,
       "last_low": 39.23139953613281,
       "last_close": 39.52000045776367,
@@ -15533,7 +15533,7 @@
     {
       "ticker": "NBTB",
       "last_date": "2026-01-15",
-      "last_open": 42.68000030517578,
+      "last_open": 42.0099983215332,
       "last_high": 43.97999954223633,
       "last_low": 42.68000030517578,
       "last_close": 43.709999084472656,
@@ -15594,7 +15594,7 @@
     {
       "ticker": "OCC",
       "last_date": "2026-01-15",
-      "last_open": 4.409999847412109,
+      "last_open": 4.199999809265137,
       "last_high": 4.421599864959717,
       "last_low": 4.210000038146973,
       "last_close": 4.230000019073486,
@@ -15728,7 +15728,7 @@
     {
       "ticker": "NTCT",
       "last_date": "2026-01-15",
-      "last_open": 27.780000686645508,
+      "last_open": 27.485000610351562,
       "last_high": 28.290000915527344,
       "last_low": 27.639999389648438,
       "last_close": 27.950000762939453,
@@ -15923,7 +15923,7 @@
     {
       "ticker": "NTNX",
       "last_date": "2026-01-15",
-      "last_open": 49.9900016784668,
+      "last_open": 52.27000045776367,
       "last_high": 51.0,
       "last_low": 48.400001525878906,
       "last_close": 48.66999816894531,
@@ -16045,7 +16045,7 @@
     {
       "ticker": "MIRA",
       "last_date": "2026-01-15",
-      "last_open": 1.4700000286102295,
+      "last_open": 1.5,
       "last_high": 1.4900000095367432,
       "last_low": 1.4600000381469727,
       "last_close": 1.4600000381469727,
@@ -16106,7 +16106,7 @@
     {
       "ticker": "OCFC",
       "last_date": "2026-01-15",
-      "last_open": 18.0,
+      "last_open": 18.010000228881836,
       "last_high": 18.514999389648438,
       "last_low": 18.0,
       "last_close": 18.40999984741211,
@@ -16173,7 +16173,7 @@
     {
       "ticker": "OPRT",
       "last_date": "2026-01-15",
-      "last_open": 5.010000228881836,
+      "last_open": 5.230000019073486,
       "last_high": 5.224999904632568,
       "last_low": 5.010000228881836,
       "last_close": 5.130000114440918,
@@ -16356,7 +16356,7 @@
     {
       "ticker": "OPRX",
       "last_date": "2026-01-15",
-      "last_open": 12.84000015258789,
+      "last_open": 14.130000114440918,
       "last_high": 12.989999771118164,
       "last_low": 12.380000114440918,
       "last_close": 12.600000381469727,
@@ -16417,7 +16417,7 @@
     {
       "ticker": "MGNI",
       "last_date": "2026-01-15",
-      "last_open": 15.430000305175781,
+      "last_open": 16.31999969482422,
       "last_high": 15.930000305175781,
       "last_low": 14.869999885559082,
       "last_close": 14.899999618530273,
@@ -16484,7 +16484,7 @@
     {
       "ticker": "MNSB",
       "last_date": "2026-01-15",
-      "last_open": 20.010000228881836,
+      "last_open": 20.09000015258789,
       "last_high": 20.485000610351562,
       "last_low": 20.010000228881836,
       "last_close": 20.420000076293945,
@@ -16606,7 +16606,7 @@
     {
       "ticker": "KUST",
       "last_date": "2026-01-15",
-      "last_open": 1.9600000381469727,
+      "last_open": 2.0999999046325684,
       "last_high": 2.690000057220459,
       "last_low": 1.899999976158142,
       "last_close": 2.309999942779541,
@@ -16673,7 +16673,7 @@
     {
       "ticker": "NEXT",
       "last_date": "2026-01-15",
-      "last_open": 5.210000038146973,
+      "last_open": 5.21999979019165,
       "last_high": 5.239999771118164,
       "last_low": 5.03000020980835,
       "last_close": 5.079999923706055,
@@ -16734,7 +16734,7 @@
     {
       "ticker": "LAMR",
       "last_date": "2026-01-15",
-      "last_open": 130.55999755859375,
+      "last_open": 129.72000122070312,
       "last_high": 133.77000427246094,
       "last_low": 130.22000122070312,
       "last_close": 132.7899932861328,
@@ -16801,7 +16801,7 @@
     {
       "ticker": "MGTX",
       "last_date": "2026-01-15",
-      "last_open": 7.480000019073486,
+      "last_open": 7.239999771118164,
       "last_high": 7.769999980926514,
       "last_low": 7.400000095367432,
       "last_close": 7.690000057220459,
@@ -16996,7 +16996,7 @@
     {
       "ticker": "LFCR",
       "last_date": "2026-01-15",
-      "last_open": 7.860000133514404,
+      "last_open": 7.590000152587891,
       "last_high": 8.149999618530273,
       "last_low": 7.750100135803223,
       "last_close": 8.100000381469727,
@@ -17124,7 +17124,7 @@
     {
       "ticker": "NRXP",
       "last_date": "2026-01-15",
-      "last_open": 2.1600000858306885,
+      "last_open": 2.174999952316284,
       "last_high": 2.244999885559082,
       "last_low": 2.0799999237060547,
       "last_close": 2.1500000953674316,
@@ -17185,7 +17185,7 @@
     {
       "ticker": "NCTY",
       "last_date": "2026-01-15",
-      "last_open": 6.650000095367432,
+      "last_open": 7.0,
       "last_high": 6.650000095367432,
       "last_low": 6.489999771118164,
       "last_close": 6.5,
@@ -17246,7 +17246,7 @@
     {
       "ticker": "LKFN",
       "last_date": "2026-01-15",
-      "last_open": 59.25,
+      "last_open": 57.25,
       "last_high": 60.419898986816406,
       "last_low": 59.18000030517578,
       "last_close": 59.470001220703125,
@@ -17496,7 +17496,7 @@
     {
       "ticker": "MAPS",
       "last_date": "2026-01-15",
-      "last_open": 0.8618000149726868,
+      "last_open": 0.8799999952316284,
       "last_high": 0.8637999892234802,
       "last_low": 0.8364999890327454,
       "last_close": 0.8388000130653381,
@@ -17557,7 +17557,7 @@
     {
       "ticker": "MEGL",
       "last_date": "2026-01-15",
-      "last_open": 1.2599999904632568,
+      "last_open": 1.2000000476837158,
       "last_high": 1.2599999904632568,
       "last_low": 1.215000033378601,
       "last_close": 1.2400000095367432,
@@ -17807,7 +17807,7 @@
     {
       "ticker": "NNOX",
       "last_date": "2026-01-15",
-      "last_open": 3.0299999713897705,
+      "last_open": 3.009999990463257,
       "last_high": 3.0799999237060547,
       "last_low": 2.950000047683716,
       "last_close": 3.069999933242798,
@@ -17868,7 +17868,7 @@
     {
       "ticker": "ORGN",
       "last_date": "2026-01-15",
-      "last_open": 0.2070000022649765,
+      "last_open": 0.21559999883174896,
       "last_high": 0.20999999344348907,
       "last_low": 0.20100000500679016,
       "last_close": 0.2020999938249588,
@@ -17929,7 +17929,7 @@
     {
       "ticker": "LILA",
       "last_date": "2026-01-15",
-      "last_open": 7.269999980926514,
+      "last_open": 7.110000133514404,
       "last_high": 7.5,
       "last_low": 7.215000152587891,
       "last_close": 7.480000019073486,
@@ -17990,7 +17990,7 @@
     {
       "ticker": "LZMH",
       "last_date": "2026-01-15",
-      "last_open": 1.399999976158142,
+      "last_open": 1.3700000047683716,
       "last_high": 1.409999966621399,
       "last_low": 1.350000023841858,
       "last_close": 1.350000023841858,
@@ -18057,7 +18057,7 @@
     {
       "ticker": "LMAT",
       "last_date": "2026-01-15",
-      "last_open": 85.13999938964844,
+      "last_open": 83.9000015258789,
       "last_high": 87.71499633789062,
       "last_low": 85.1050033569336,
       "last_close": 86.5,
@@ -18429,7 +18429,7 @@
     {
       "ticker": "MNST",
       "last_date": "2026-01-15",
-      "last_open": 78.08999633789062,
+      "last_open": 78.01499938964844,
       "last_high": 79.00499725341797,
       "last_low": 77.6449966430664,
       "last_close": 77.91000366210938,
@@ -18490,7 +18490,7 @@
     {
       "ticker": "MZTI",
       "last_date": "2026-01-15",
-      "last_open": 170.2899932861328,
+      "last_open": 168.91000366210938,
       "last_high": 170.63999938964844,
       "last_low": 168.66000366210938,
       "last_close": 169.72999572753906,
@@ -18557,7 +18557,7 @@
     {
       "ticker": "LOCO",
       "last_date": "2026-01-15",
-      "last_open": 11.050000190734863,
+      "last_open": 11.229999542236328,
       "last_high": 11.432499885559082,
       "last_low": 11.039999961853027,
       "last_close": 11.350000381469727,
@@ -18624,7 +18624,7 @@
     {
       "ticker": "LILAK",
       "last_date": "2026-01-15",
-      "last_open": 7.389999866485596,
+      "last_open": 7.199999809265137,
       "last_high": 7.610000133514404,
       "last_low": 7.304999828338623,
       "last_close": 7.590000152587891,
@@ -18685,7 +18685,7 @@
     {
       "ticker": "NCI",
       "last_date": "2026-01-15",
-      "last_open": 1.2000000476837158,
+      "last_open": 1.2599999904632568,
       "last_high": 1.2000000476837158,
       "last_low": 1.0997999906539917,
       "last_close": 1.1799999475479126,
@@ -18746,7 +18746,7 @@
     {
       "ticker": "LXEO",
       "last_date": "2026-01-15",
-      "last_open": 7.75,
+      "last_open": 8.109999656677246,
       "last_high": 7.769899845123291,
       "last_low": 7.449999809265137,
       "last_close": 7.5,
@@ -18813,7 +18813,7 @@
     {
       "ticker": "MAT",
       "last_date": "2026-01-15",
-      "last_open": 21.280000686645508,
+      "last_open": 21.389999389648438,
       "last_high": 21.7549991607666,
       "last_low": 21.200000762939453,
       "last_close": 21.75,
@@ -19142,7 +19142,7 @@
     {
       "ticker": "MASS",
       "last_date": "2026-01-15",
-      "last_open": 5.449999809265137,
+      "last_open": 5.53000020980835,
       "last_high": 5.650000095367432,
       "last_low": 5.440000057220459,
       "last_close": 5.519999980926514,
@@ -19264,7 +19264,7 @@
     {
       "ticker": "NN",
       "last_date": "2026-01-15",
-      "last_open": 14.5600004196167,
+      "last_open": 14.300000190734863,
       "last_high": 15.079999923706055,
       "last_low": 14.149999618530273,
       "last_close": 14.930000305175781,
@@ -19325,7 +19325,7 @@
     {
       "ticker": "LGND",
       "last_date": "2026-01-15",
-      "last_open": 197.57000732421875,
+      "last_open": 196.9600067138672,
       "last_high": 199.35000610351562,
       "last_low": 190.97999572753906,
       "last_close": 196.0800018310547,
@@ -19386,7 +19386,7 @@
     {
       "ticker": "LYEL",
       "last_date": "2026-01-15",
-      "last_open": 23.540000915527344,
+      "last_open": 23.8799991607666,
       "last_high": 23.989999771118164,
       "last_low": 22.3799991607666,
       "last_close": 22.93000030517578,
@@ -19447,7 +19447,7 @@
     {
       "ticker": "KSPI",
       "last_date": "2026-01-15",
-      "last_open": 81.05000305175781,
+      "last_open": 80.51000213623047,
       "last_high": 81.58000183105469,
       "last_low": 78.33000183105469,
       "last_close": 78.94999694824219,
@@ -19508,7 +19508,7 @@
     {
       "ticker": "NSIT",
       "last_date": "2026-01-15",
-      "last_open": 83.87999725341797,
+      "last_open": 85.55999755859375,
       "last_high": 86.0,
       "last_low": 83.87999725341797,
       "last_close": 84.88999938964844,
@@ -19569,7 +19569,7 @@
     {
       "ticker": "NATR",
       "last_date": "2026-01-15",
-      "last_open": 22.18000030517578,
+      "last_open": 22.389999389648438,
       "last_high": 22.719999313354492,
       "last_low": 21.950000762939453,
       "last_close": 22.639999389648438,
@@ -19697,7 +19697,7 @@
     {
       "ticker": "NCSM",
       "last_date": "2026-01-15",
-      "last_open": 38.15999984741211,
+      "last_open": 39.290000915527344,
       "last_high": 39.9900016784668,
       "last_low": 38.15999984741211,
       "last_close": 39.25,
@@ -19764,7 +19764,7 @@
     {
       "ticker": "MKTX",
       "last_date": "2026-01-15",
-      "last_open": 172.33999633789062,
+      "last_open": 170.0,
       "last_high": 176.42999267578125,
       "last_low": 172.33999633789062,
       "last_close": 174.66000366210938,
@@ -19825,7 +19825,7 @@
     {
       "ticker": "MGX",
       "last_date": "2026-01-15",
-      "last_open": 1.7200000286102295,
+      "last_open": 1.75,
       "last_high": 1.7293000221252441,
       "last_low": 1.6799999475479126,
       "last_close": 1.690000057220459,
@@ -19886,7 +19886,7 @@
     {
       "ticker": "OLLI",
       "last_date": "2026-01-15",
-      "last_open": 116.91999816894531,
+      "last_open": 119.43000030517578,
       "last_high": 119.48999786376953,
       "last_low": 116.55500030517578,
       "last_close": 117.30000305175781,
@@ -19947,7 +19947,7 @@
     {
       "ticker": "LPLA",
       "last_date": "2026-01-15",
-      "last_open": 376.5899963378906,
+      "last_open": 365.0,
       "last_high": 385.0,
       "last_low": 374.19000244140625,
       "last_close": 376.8299865722656,
@@ -20014,7 +20014,7 @@
     {
       "ticker": "OPBK",
       "last_date": "2026-01-15",
-      "last_open": 14.460000038146973,
+      "last_open": 14.234999656677246,
       "last_high": 14.979999542236328,
       "last_low": 14.460000038146973,
       "last_close": 14.760000228881836,
@@ -20075,7 +20075,7 @@
     {
       "ticker": "MASI",
       "last_date": "2026-01-15",
-      "last_open": 138.07000732421875,
+      "last_open": 131.38999938964844,
       "last_high": 143.89999389648438,
       "last_low": 137.72999572753906,
       "last_close": 139.8699951171875,
@@ -20209,7 +20209,7 @@
     {
       "ticker": "LYTS",
       "last_date": "2026-01-15",
-      "last_open": 19.489999771118164,
+      "last_open": 19.56999969482422,
       "last_high": 20.289899826049805,
       "last_low": 19.489999771118164,
       "last_close": 19.8700008392334,
@@ -20337,7 +20337,7 @@
     {
       "ticker": "MAZE",
       "last_date": "2026-01-15",
-      "last_open": 41.29999923706055,
+      "last_open": 39.90999984741211,
       "last_high": 41.5,
       "last_low": 39.41999816894531,
       "last_close": 39.810001373291016,
@@ -20404,7 +20404,7 @@
     {
       "ticker": "LASE",
       "last_date": "2026-01-15",
-      "last_open": 2.0999999046325684,
+      "last_open": 2.190000057220459,
       "last_high": 2.1802000999450684,
       "last_low": 2.0850000381469727,
       "last_close": 2.119999885559082,
@@ -20471,7 +20471,7 @@
     {
       "ticker": "LQDT",
       "last_date": "2026-01-15",
-      "last_open": 31.700000762939453,
+      "last_open": 31.780000686645508,
       "last_high": 32.05500030517578,
       "last_low": 31.219999313354492,
       "last_close": 31.829999923706055,
@@ -20538,7 +20538,7 @@
     {
       "ticker": "NBTX",
       "last_date": "2026-01-15",
-      "last_open": 21.139999389648438,
+      "last_open": 20.229999542236328,
       "last_high": 22.219900131225586,
       "last_low": 21.025999069213867,
       "last_close": 21.170000076293945,
@@ -20727,7 +20727,7 @@
     {
       "ticker": "MGRC",
       "last_date": "2026-01-15",
-      "last_open": 109.80000305175781,
+      "last_open": 109.51000213623047,
       "last_high": 112.37999725341797,
       "last_low": 109.7300033569336,
       "last_close": 111.26000213623047,
@@ -20861,7 +20861,7 @@
     {
       "ticker": "NPCE",
       "last_date": "2026-01-15",
-      "last_open": 16.75,
+      "last_open": 15.949999809265137,
       "last_high": 17.459999084472656,
       "last_low": 16.559999465942383,
       "last_close": 17.350000381469727,
@@ -20928,7 +20928,7 @@
     {
       "ticker": "OPEN",
       "last_date": "2026-01-15",
-      "last_open": 6.699999809265137,
+      "last_open": 7.050000190734863,
       "last_high": 6.739999771118164,
       "last_low": 6.215000152587891,
       "last_close": 6.300000190734863,
@@ -20995,7 +20995,7 @@
     {
       "ticker": "MCHX",
       "last_date": "2026-01-15",
-      "last_open": 1.7200000286102295,
+      "last_open": 1.7733999490737915,
       "last_high": 1.774999976158142,
       "last_low": 1.7200000286102295,
       "last_close": 1.7400000095367432,
@@ -21117,7 +21117,7 @@
     {
       "ticker": "NEUP",
       "last_date": "2026-01-15",
-      "last_open": 4.059999942779541,
+      "last_open": 4.1118998527526855,
       "last_high": 4.150000095367432,
       "last_low": 4.019999980926514,
       "last_close": 4.099999904632568,
@@ -21184,7 +21184,7 @@
     {
       "ticker": "NCT",
       "last_date": "2026-01-15",
-      "last_open": 0.22040000557899475,
+      "last_open": 0.2150000035762787,
       "last_high": 0.23010000586509705,
       "last_low": 0.20999999344348907,
       "last_close": 0.2167000025510788,
@@ -21251,7 +21251,7 @@
     {
       "ticker": "KYMR",
       "last_date": "2026-01-15",
-      "last_open": 75.37000274658203,
+      "last_open": 72.97000122070312,
       "last_high": 76.54000091552734,
       "last_low": 70.45999908447266,
       "last_close": 71.12000274658203,
@@ -21318,7 +21318,7 @@
     {
       "ticker": "OABI",
       "last_date": "2026-01-15",
-      "last_open": 1.9299999475479126,
+      "last_open": 1.899999976158142,
       "last_high": 1.940000057220459,
       "last_low": 1.8700000047683716,
       "last_close": 1.9199999570846558,
@@ -21379,7 +21379,7 @@
     {
       "ticker": "MYSE",
       "last_date": "2026-01-15",
-      "last_open": 1.909999966621399,
+      "last_open": 2.059999942779541,
       "last_high": 1.9700000286102295,
       "last_low": 1.850000023841858,
       "last_close": 1.8799999952316284,
@@ -21507,7 +21507,7 @@
     {
       "ticker": "NISN",
       "last_date": "2026-01-15",
-      "last_open": 1.0499999523162842,
+      "last_open": 1.031499981880188,
       "last_high": 1.2300000190734863,
       "last_low": 1.0499999523162842,
       "last_close": 1.1950000524520874,
@@ -21568,7 +21568,7 @@
     {
       "ticker": "LXRX",
       "last_date": "2026-01-15",
-      "last_open": 1.2400000095367432,
+      "last_open": 1.190000057220459,
       "last_high": 1.2899999618530273,
       "last_low": 1.2300000190734863,
       "last_close": 1.2799999713897705,
@@ -21635,7 +21635,7 @@
     {
       "ticker": "MDLZ",
       "last_date": "2026-01-15",
-      "last_open": 57.13999938964844,
+      "last_open": 55.20000076293945,
       "last_high": 57.564998626708984,
       "last_low": 56.8650016784668,
       "last_close": 57.29999923706055,
@@ -21702,7 +21702,7 @@
     {
       "ticker": "NUWE",
       "last_date": "2026-01-15",
-      "last_open": 1.899999976158142,
+      "last_open": 2.0199999809265137,
       "last_high": 2.8499999046325684,
       "last_low": 1.899999976158142,
       "last_close": 2.369999885559082,
@@ -21763,7 +21763,7 @@
     {
       "ticker": "OBT",
       "last_date": "2026-01-15",
-      "last_open": 29.229999542236328,
+      "last_open": 28.684999465942383,
       "last_high": 30.149999618530273,
       "last_low": 29.229999542236328,
       "last_close": 29.860000610351562,
@@ -21952,7 +21952,7 @@
     {
       "ticker": "LECO",
       "last_date": "2026-01-15",
-      "last_open": 257.9200134277344,
+      "last_open": 251.49000549316406,
       "last_high": 264.8699951171875,
       "last_low": 257.9200134277344,
       "last_close": 263.55999755859375,
@@ -22135,7 +22135,7 @@
     {
       "ticker": "MBAI",
       "last_date": "2026-01-15",
-      "last_open": 1.690000057220459,
+      "last_open": 1.6748000383377075,
       "last_high": 1.75,
       "last_low": 1.6799999475479126,
       "last_close": 1.75,
@@ -22324,7 +22324,7 @@
     {
       "ticker": "MVIS",
       "last_date": "2026-01-15",
-      "last_open": 0.949999988079071,
+      "last_open": 0.9614999890327454,
       "last_high": 0.9599999785423279,
       "last_low": 0.9081000089645386,
       "last_close": 0.9110000133514404,
@@ -22385,7 +22385,7 @@
     {
       "ticker": "MBIN",
       "last_date": "2026-01-15",
-      "last_open": 35.29999923706055,
+      "last_open": 34.720001220703125,
       "last_high": 35.970001220703125,
       "last_low": 35.29999923706055,
       "last_close": 35.65999984741211,
@@ -22513,7 +22513,7 @@
     {
       "ticker": "LGN",
       "last_date": "2026-01-15",
-      "last_open": 45.029998779296875,
+      "last_open": 45.470001220703125,
       "last_high": 47.790000915527344,
       "last_low": 45.029998779296875,
       "last_close": 46.310001373291016,
@@ -22635,7 +22635,7 @@
     {
       "ticker": "NSTS",
       "last_date": "2026-01-15",
-      "last_open": 12.520000457763672,
+      "last_open": 12.550000190734863,
       "last_high": 12.581899642944336,
       "last_low": 12.520000457763672,
       "last_close": 12.581899642944336,
@@ -22824,7 +22824,7 @@
     {
       "ticker": "LIN",
       "last_date": "2026-01-15",
-      "last_open": 441.7799987792969,
+      "last_open": 441.92999267578125,
       "last_high": 444.0,
       "last_low": 437.7699890136719,
       "last_close": 440.0400085449219,
@@ -22885,7 +22885,7 @@
     {
       "ticker": "ONCY",
       "last_date": "2026-01-15",
-      "last_open": 1.0499999523162842,
+      "last_open": 1.0,
       "last_high": 1.059999942779541,
       "last_low": 0.9713000059127808,
       "last_close": 0.9729999899864197,
@@ -22946,7 +22946,7 @@
     {
       "ticker": "MBOT",
       "last_date": "2026-01-15",
-      "last_open": 2.140000104904175,
+      "last_open": 2.109999895095825,
       "last_high": 2.1500000953674316,
       "last_low": 2.0899999141693115,
       "last_close": 2.0899999141693115,
@@ -23013,7 +23013,7 @@
     {
       "ticker": "MNRO",
       "last_date": "2026-01-15",
-      "last_open": 20.850000381469727,
+      "last_open": 20.8700008392334,
       "last_high": 21.440000534057617,
       "last_low": 20.68000030517578,
       "last_close": 21.299999237060547,
@@ -23147,7 +23147,7 @@
     {
       "ticker": "MEHA",
       "last_date": "2026-01-15",
-      "last_open": 0.20999999344348907,
+      "last_open": 0.20200000703334808,
       "last_high": 0.21719999611377716,
       "last_low": 0.20399999618530273,
       "last_close": 0.20990000665187836,
@@ -23281,7 +23281,7 @@
     {
       "ticker": "LGVN",
       "last_date": "2026-01-15",
-      "last_open": 0.5580000281333923,
+      "last_open": 0.5600000023841858,
       "last_high": 0.5690000057220459,
       "last_low": 0.5580000281333923,
       "last_close": 0.5640000104904175,
@@ -23342,7 +23342,7 @@
     {
       "ticker": "LAND",
       "last_date": "2026-01-15",
-      "last_open": 9.739999771118164,
+      "last_open": 9.699999809265137,
       "last_high": 10.069999694824219,
       "last_low": 9.725000381469727,
       "last_close": 9.989999771118164,
@@ -23464,7 +23464,7 @@
     {
       "ticker": "LSTA",
       "last_date": "2026-01-15",
-      "last_open": 2.059999942779541,
+      "last_open": 2.0799999237060547,
       "last_high": 2.2699999809265137,
       "last_low": 2.059999942779541,
       "last_close": 2.180000066757202,
@@ -23531,7 +23531,7 @@
     {
       "ticker": "MIGI",
       "last_date": "2026-01-15",
-      "last_open": 4.699999809265137,
+      "last_open": 4.449999809265137,
       "last_high": 4.699999809265137,
       "last_low": 4.320000171661377,
       "last_close": 4.400000095367432,
@@ -23598,7 +23598,7 @@
     {
       "ticker": "LMNR",
       "last_date": "2026-01-15",
-      "last_open": 13.930000305175781,
+      "last_open": 13.699999809265137,
       "last_high": 14.484999656677246,
       "last_low": 13.90999984741211,
       "last_close": 14.220000267028809,
@@ -23659,7 +23659,7 @@
     {
       "ticker": "LNTH",
       "last_date": "2026-01-15",
-      "last_open": 65.22000122070312,
+      "last_open": 67.44000244140625,
       "last_high": 65.98999786376953,
       "last_low": 64.69000244140625,
       "last_close": 65.41999816894531,
@@ -23720,7 +23720,7 @@
     {
       "ticker": "MBIO",
       "last_date": "2026-01-15",
-      "last_open": 1.0800000429153442,
+      "last_open": 1.1200000047683716,
       "last_high": 1.0800000429153442,
       "last_low": 1.0499999523162842,
       "last_close": 1.0499999523162842,
@@ -23781,7 +23781,7 @@
     {
       "ticker": "MEDP",
       "last_date": "2026-01-15",
-      "last_open": 619.4000244140625,
+      "last_open": 601.7100219726562,
       "last_high": 619.510009765625,
       "last_low": 605.9949951171875,
       "last_close": 618.0399780273438,
@@ -23842,7 +23842,7 @@
     {
       "ticker": "MRVI",
       "last_date": "2026-01-15",
-      "last_open": 3.9700000286102295,
+      "last_open": 3.990000009536743,
       "last_high": 4.019999980926514,
       "last_low": 3.6449999809265137,
       "last_close": 3.690000057220459,
@@ -23903,7 +23903,7 @@
     {
       "ticker": "NXXT",
       "last_date": "2026-01-15",
-      "last_open": 1.149999976158142,
+      "last_open": 1.2799999713897705,
       "last_high": 1.1799999475479126,
       "last_low": 1.1200000047683716,
       "last_close": 1.1299999952316284,
@@ -24025,7 +24025,7 @@
     {
       "ticker": "NTCL",
       "last_date": "2026-01-15",
-      "last_open": 0.38999998569488525,
+      "last_open": 0.44999998807907104,
       "last_high": 0.4228000044822693,
       "last_low": 0.38999998569488525,
       "last_close": 0.400299996137619,
@@ -24147,7 +24147,7 @@
     {
       "ticker": "MCW",
       "last_date": "2026-01-15",
-      "last_open": 6.090000152587891,
+      "last_open": 6.070000171661377,
       "last_high": 6.230000019073486,
       "last_low": 5.849999904632568,
       "last_close": 6.099999904632568,
@@ -24214,7 +24214,7 @@
     {
       "ticker": "MITK",
       "last_date": "2026-01-15",
-      "last_open": 10.220000267028809,
+      "last_open": 10.460000038146973,
       "last_high": 10.3100004196167,
       "last_low": 10.069999694824219,
       "last_close": 10.09000015258789,
@@ -24281,7 +24281,7 @@
     {
       "ticker": "MGN",
       "last_date": "2026-01-15",
-      "last_open": 1.909999966621399,
+      "last_open": 1.9199999570846558,
       "last_high": 1.909999966621399,
       "last_low": 1.6100000143051147,
       "last_close": 1.7450000047683716,
@@ -24348,7 +24348,7 @@
     {
       "ticker": "NYXH",
       "last_date": "2026-01-15",
-      "last_open": 5.25,
+      "last_open": 5.230000019073486,
       "last_high": 5.269999980926514,
       "last_low": 5.119999885559082,
       "last_close": 5.150000095367432,
@@ -24415,7 +24415,7 @@
     {
       "ticker": "NCPL",
       "last_date": "2026-01-15",
-      "last_open": 0.7361999750137329,
+      "last_open": 0.7700999975204468,
       "last_high": 0.7548999786376953,
       "last_low": 0.7031000256538391,
       "last_close": 0.7297999858856201,
@@ -24476,7 +24476,7 @@
     {
       "ticker": "NKTX",
       "last_date": "2026-01-15",
-      "last_open": 2.069999933242798,
+      "last_open": 2.180000066757202,
       "last_high": 2.069999933242798,
       "last_low": 1.9600000381469727,
       "last_close": 1.9600000381469727,
@@ -24665,7 +24665,7 @@
     {
       "ticker": "LUNG",
       "last_date": "2026-01-15",
-      "last_open": 2.0,
+      "last_open": 1.9900000095367432,
       "last_high": 2.005000114440918,
       "last_low": 1.8200000524520874,
       "last_close": 1.8300000429153442,
@@ -24726,7 +24726,7 @@
     {
       "ticker": "LYRA",
       "last_date": "2026-01-15",
-      "last_open": 1.8899999856948853,
+      "last_open": 1.9700000286102295,
       "last_high": 1.9735000133514404,
       "last_low": 1.8899999856948853,
       "last_close": 1.9450000524520874,
@@ -24927,7 +24927,7 @@
     {
       "ticker": "NDSN",
       "last_date": "2026-01-15",
-      "last_open": 267.9800109863281,
+      "last_open": 261.5199890136719,
       "last_high": 272.614990234375,
       "last_low": 267.7850036621094,
       "last_close": 271.9100036621094,
@@ -24988,7 +24988,7 @@
     {
       "ticker": "MNDR",
       "last_date": "2026-01-15",
-      "last_open": 1.0,
+      "last_open": 0.9699000120162964,
       "last_high": 1.059999942779541,
       "last_low": 0.9599999785423279,
       "last_close": 0.9984999895095825,
@@ -25244,7 +25244,7 @@
     {
       "ticker": "MDXH",
       "last_date": "2026-01-15",
-      "last_open": 3.569999933242798,
+      "last_open": 3.450000047683716,
       "last_high": 3.759999990463257,
       "last_low": 3.5,
       "last_close": 3.7100000381469727,
@@ -25311,7 +25311,7 @@
     {
       "ticker": "NRIM",
       "last_date": "2026-01-15",
-      "last_open": 27.8799991607666,
+      "last_open": 28.18630027770996,
       "last_high": 29.06999969482422,
       "last_low": 27.8799991607666,
       "last_close": 29.0,
@@ -25445,7 +25445,7 @@
     {
       "ticker": "LAUR",
       "last_date": "2026-01-15",
-      "last_open": 34.970001220703125,
+      "last_open": 35.2400016784668,
       "last_high": 35.83000183105469,
       "last_low": 34.95000076293945,
       "last_close": 35.41999816894531,
@@ -25512,7 +25512,7 @@
     {
       "ticker": "LULU",
       "last_date": "2026-01-15",
-      "last_open": 203.4600067138672,
+      "last_open": 209.0,
       "last_high": 205.83999633789062,
       "last_low": 201.0,
       "last_close": 205.00999450683594,
@@ -25579,7 +25579,7 @@
     {
       "ticker": "MYNZ",
       "last_date": "2026-01-15",
-      "last_open": 1.149999976158142,
+      "last_open": 1.1699999570846558,
       "last_high": 1.2000000476837158,
       "last_low": 1.090000033378601,
       "last_close": 1.190000057220459,
@@ -25640,7 +25640,7 @@
     {
       "ticker": "LFMD",
       "last_date": "2026-01-15",
-      "last_open": 3.880000114440918,
+      "last_open": 4.199999809265137,
       "last_high": 3.9200000762939453,
       "last_low": 3.7300000190734863,
       "last_close": 3.7699999809265137,
@@ -25701,7 +25701,7 @@
     {
       "ticker": "LOPE",
       "last_date": "2026-01-15",
-      "last_open": 178.22999572753906,
+      "last_open": 177.4199981689453,
       "last_high": 181.25,
       "last_low": 176.0850067138672,
       "last_close": 180.0,
@@ -25762,7 +25762,7 @@
     {
       "ticker": "LITE",
       "last_date": "2026-01-15",
-      "last_open": 334.864990234375,
+      "last_open": 337.25,
       "last_high": 354.5,
       "last_low": 329.8399963378906,
       "last_close": 343.2699890136719,
@@ -26085,7 +26085,7 @@
     {
       "ticker": "MARA",
       "last_date": "2026-01-15",
-      "last_open": 11.114999771118164,
+      "last_open": 10.899999618530273,
       "last_high": 11.244999885559082,
       "last_low": 10.645000457763672,
       "last_close": 10.65999984741211,
@@ -26152,7 +26152,7 @@
     {
       "ticker": "MTRX",
       "last_date": "2026-01-15",
-      "last_open": 13.390000343322754,
+      "last_open": 12.710000038146973,
       "last_high": 13.6850004196167,
       "last_low": 13.359999656677246,
       "last_close": 13.5600004196167,
@@ -26213,7 +26213,7 @@
     {
       "ticker": "KSCP",
       "last_date": "2026-01-15",
-      "last_open": 4.449999809265137,
+      "last_open": 4.164999961853027,
       "last_high": 4.639999866485596,
       "last_low": 4.210000038146973,
       "last_close": 4.449999809265137,
@@ -26335,7 +26335,7 @@
     {
       "ticker": "MTEN",
       "last_date": "2026-01-15",
-      "last_open": 0.03669999912381172,
+      "last_open": 0.034699998795986176,
       "last_high": 0.041600000113248825,
       "last_low": 0.03099999949336052,
       "last_close": 0.032999999821186066,
@@ -26396,7 +26396,7 @@
     {
       "ticker": "NWPX",
       "last_date": "2026-01-15",
-      "last_open": 68.05000305175781,
+      "last_open": 68.30000305175781,
       "last_high": 69.43000030517578,
       "last_low": 67.97000122070312,
       "last_close": 69.2699966430664,
@@ -26457,7 +26457,7 @@
     {
       "ticker": "OPCH",
       "last_date": "2026-01-15",
-      "last_open": 35.5099983215332,
+      "last_open": 35.25,
       "last_high": 36.18000030517578,
       "last_low": 35.15999984741211,
       "last_close": 36.11000061035156,
@@ -26646,7 +26646,7 @@
     {
       "ticker": "NOTV",
       "last_date": "2026-01-15",
-      "last_open": 0.6100000143051147,
+      "last_open": 0.5903000235557556,
       "last_high": 0.6100000143051147,
       "last_low": 0.5630999803543091,
       "last_close": 0.5674999952316284,
@@ -26713,7 +26713,7 @@
     {
       "ticker": "MSAI",
       "last_date": "2026-01-15",
-      "last_open": 0.3100000023841858,
+      "last_open": 0.3199999928474426,
       "last_high": 0.3199999928474426,
       "last_low": 0.30000001192092896,
       "last_close": 0.3010999858379364,
@@ -26774,7 +26774,7 @@
     {
       "ticker": "LBRX",
       "last_date": "2026-01-15",
-      "last_open": 19.3799991607666,
+      "last_open": 19.420000076293945,
       "last_high": 21.399999618530273,
       "last_low": 18.93000030517578,
       "last_close": 21.3799991607666,
@@ -26841,7 +26841,7 @@
     {
       "ticker": "MNOV",
       "last_date": "2026-01-15",
-      "last_open": 1.4800000190734863,
+      "last_open": 1.5202000141143799,
       "last_high": 1.629699945449829,
       "last_low": 1.4800000190734863,
       "last_close": 1.5800000429153442,
@@ -26963,7 +26963,7 @@
     {
       "ticker": "MYSZ",
       "last_date": "2026-01-15",
-      "last_open": 0.949999988079071,
+      "last_open": 1.0099999904632568,
       "last_high": 0.9797000288963318,
       "last_low": 0.9100000262260437,
       "last_close": 0.9297000169754028,
@@ -27024,7 +27024,7 @@
     {
       "ticker": "MDLN",
       "last_date": "2026-01-15",
-      "last_open": 43.93000030517578,
+      "last_open": 42.52410125732422,
       "last_high": 44.349998474121094,
       "last_low": 42.47999954223633,
       "last_close": 42.709999084472656,
@@ -27085,7 +27085,7 @@
     {
       "ticker": "NOVT",
       "last_date": "2026-01-15",
-      "last_open": 132.4499969482422,
+      "last_open": 131.47000122070312,
       "last_high": 136.74000549316406,
       "last_low": 132.4499969482422,
       "last_close": 133.17999267578125,
@@ -27280,7 +27280,7 @@
     {
       "ticker": "LIMN",
       "last_date": "2026-01-15",
-      "last_open": 0.8062999844551086,
+      "last_open": 0.8299999833106995,
       "last_high": 0.8062999844551086,
       "last_low": 0.7450000047683716,
       "last_close": 0.7789999842643738,
@@ -27341,7 +27341,7 @@
     {
       "ticker": "LSTR",
       "last_date": "2026-01-15",
-      "last_open": 155.50999450683594,
+      "last_open": 154.86000061035156,
       "last_high": 157.22999572753906,
       "last_low": 154.3426055908203,
       "last_close": 156.0,
@@ -27408,7 +27408,7 @@
     {
       "ticker": "MBUU",
       "last_date": "2026-01-15",
-      "last_open": 33.33000183105469,
+      "last_open": 32.595001220703125,
       "last_high": 34.439998626708984,
       "last_low": 33.064998626708984,
       "last_close": 34.040000915527344,
@@ -27475,7 +27475,7 @@
     {
       "ticker": "MRX",
       "last_date": "2026-01-15",
-      "last_open": 39.349998474121094,
+      "last_open": 39.779998779296875,
       "last_high": 40.369998931884766,
       "last_low": 39.349998474121094,
       "last_close": 39.939998626708984,
@@ -27542,7 +27542,7 @@
     {
       "ticker": "OKTA",
       "last_date": "2026-01-15",
-      "last_open": 93.77999877929688,
+      "last_open": 95.25499725341797,
       "last_high": 97.44999694824219,
       "last_low": 91.83000183105469,
       "last_close": 91.94000244140625,
@@ -27603,7 +27603,7 @@
     {
       "ticker": "LOOP",
       "last_date": "2026-01-15",
-      "last_open": 1.149999976158142,
+      "last_open": 1.1799999475479126,
       "last_high": 1.2099000215530396,
       "last_low": 1.0800000429153442,
       "last_close": 1.1299999952316284,
@@ -27664,7 +27664,7 @@
     {
       "ticker": "MLGO",
       "last_date": "2026-01-15",
-      "last_open": 5.320000171661377,
+      "last_open": 5.519999980926514,
       "last_high": 6.355000019073486,
       "last_low": 5.28000020980835,
       "last_close": 6.059999942779541,
@@ -27725,7 +27725,7 @@
     {
       "ticker": "MCFT",
       "last_date": "2026-01-15",
-      "last_open": 22.170000076293945,
+      "last_open": 21.700000762939453,
       "last_high": 22.700000762939453,
       "last_low": 22.170000076293945,
       "last_close": 22.489999771118164,
@@ -27792,7 +27792,7 @@
     {
       "ticker": "LNSR",
       "last_date": "2026-01-15",
-      "last_open": 11.890000343322754,
+      "last_open": 11.905699729919434,
       "last_high": 11.989999771118164,
       "last_low": 11.8100004196167,
       "last_close": 11.989999771118164,
@@ -28036,7 +28036,7 @@
     {
       "ticker": "LAB",
       "last_date": "2026-01-15",
-      "last_open": 1.5800000429153442,
+      "last_open": 1.5299999713897705,
       "last_high": 1.6100000143051147,
       "last_low": 1.534999966621399,
       "last_close": 1.5800000429153442,
@@ -28225,7 +28225,7 @@
     {
       "ticker": "KWM",
       "last_date": "2026-01-15",
-      "last_open": 0.48899999260902405,
+      "last_open": 0.46239998936653137,
       "last_high": 0.5389999747276306,
       "last_low": 0.4821000099182129,
       "last_close": 0.536300003528595,
@@ -28347,7 +28347,7 @@
     {
       "ticker": "MAMA",
       "last_date": "2026-01-15",
-      "last_open": 13.619999885559082,
+      "last_open": 12.9399995803833,
       "last_high": 13.949899673461914,
       "last_low": 13.350099563598633,
       "last_close": 13.729999542236328,
@@ -28536,7 +28536,7 @@
     {
       "ticker": "NXL",
       "last_date": "2026-01-15",
-      "last_open": 0.7170000076293945,
+      "last_open": 0.7045000195503235,
       "last_high": 0.7347999811172485,
       "last_low": 0.6819000244140625,
       "last_close": 0.6899999976158142,
@@ -28597,7 +28597,7 @@
     {
       "ticker": "OESX",
       "last_date": "2026-01-15",
-      "last_open": 17.530000686645508,
+      "last_open": 17.0,
       "last_high": 18.0,
       "last_low": 16.969999313354492,
       "last_close": 17.260000228881836,
@@ -28725,7 +28725,7 @@
     {
       "ticker": "NNBR",
       "last_date": "2026-01-15",
-      "last_open": 1.4800000190734863,
+      "last_open": 1.4500000476837158,
       "last_high": 1.5,
       "last_low": 1.399999976158142,
       "last_close": 1.4600000381469727,
@@ -28786,7 +28786,7 @@
     {
       "ticker": "LMB",
       "last_date": "2026-01-15",
-      "last_open": 84.16000366210938,
+      "last_open": 83.11000061035156,
       "last_high": 86.98999786376953,
       "last_low": 82.83000183105469,
       "last_close": 86.66999816894531,
@@ -28975,7 +28975,7 @@
     {
       "ticker": "OMEX",
       "last_date": "2026-01-15",
-      "last_open": 2.200000047683716,
+      "last_open": 2.0999999046325684,
       "last_high": 2.2200000286102295,
       "last_low": 2.1050000190734863,
       "last_close": 2.109999895095825,
@@ -29042,7 +29042,7 @@
     {
       "ticker": "NWTG",
       "last_date": "2026-01-15",
-      "last_open": 1.7400000095367432,
+      "last_open": 1.7401000261306763,
       "last_high": 1.7999999523162842,
       "last_low": 1.7300000190734863,
       "last_close": 1.7799999713897705,
@@ -29103,7 +29103,7 @@
     {
       "ticker": "NOMA",
       "last_date": "2026-01-15",
-      "last_open": 4.300000190734863,
+      "last_open": 4.087500095367432,
       "last_high": 4.585000038146973,
       "last_low": 4.300000190734863,
       "last_close": 4.46999979019165,
@@ -29231,7 +29231,7 @@
     {
       "ticker": "LEDS",
       "last_date": "2026-01-15",
-      "last_open": 2.009999990463257,
+      "last_open": 1.9600000381469727,
       "last_high": 2.049999952316284,
       "last_low": 1.909999966621399,
       "last_close": 1.9723999500274658,
@@ -29292,7 +29292,7 @@
     {
       "ticker": "MOB",
       "last_date": "2026-01-15",
-      "last_open": 7.800000190734863,
+      "last_open": 7.960000038146973,
       "last_high": 7.889999866485596,
       "last_low": 7.019999980926514,
       "last_close": 7.019999980926514,
@@ -29426,7 +29426,7 @@
     {
       "ticker": "LOVE",
       "last_date": "2026-01-15",
-      "last_open": 15.319999694824219,
+      "last_open": 16.1200008392334,
       "last_high": 16.149999618530273,
       "last_low": 14.970000267028809,
       "last_close": 15.989999771118164,
@@ -29682,7 +29682,7 @@
     {
       "ticker": "MTEK",
       "last_date": "2026-01-15",
-      "last_open": 1.5,
+      "last_open": 1.402400016784668,
       "last_high": 1.5199999809265137,
       "last_low": 1.412500023841858,
       "last_close": 1.5,
@@ -29749,7 +29749,7 @@
     {
       "ticker": "NBN",
       "last_date": "2026-01-15",
-      "last_open": 112.5999984741211,
+      "last_open": 108.08999633789062,
       "last_high": 116.38999938964844,
       "last_low": 112.30000305175781,
       "last_close": 115.5199966430664,
@@ -29810,7 +29810,7 @@
     {
       "ticker": "NRSN",
       "last_date": "2026-01-15",
-      "last_open": 0.9695000052452087,
+      "last_open": 1.0199999809265137,
       "last_high": 1.0299999713897705,
       "last_low": 0.9100000262260437,
       "last_close": 0.9904999732971191,
@@ -29877,7 +29877,7 @@
     {
       "ticker": "NMRA",
       "last_date": "2026-01-15",
-      "last_open": 2.1500000953674316,
+      "last_open": 2.240000009536743,
       "last_high": 2.1600000858306885,
       "last_low": 2.009999990463257,
       "last_close": 2.130000114440918,
@@ -29944,7 +29944,7 @@
     {
       "ticker": "MEOH",
       "last_date": "2026-01-15",
-      "last_open": 46.52000045776367,
+      "last_open": 47.849998474121094,
       "last_high": 46.93000030517578,
       "last_low": 46.04999923706055,
       "last_close": 46.34000015258789,
@@ -30005,7 +30005,7 @@
     {
       "ticker": "NRC",
       "last_date": "2026-01-15",
-      "last_open": 20.8799991607666,
+      "last_open": 20.7549991607666,
       "last_high": 21.674999237060547,
       "last_low": 20.575000762939453,
       "last_close": 21.299999237060547,
@@ -30066,7 +30066,7 @@
     {
       "ticker": "OKYO",
       "last_date": "2026-01-15",
-      "last_open": 2.8299999237060547,
+      "last_open": 2.9800000190734863,
       "last_high": 2.8299999237060547,
       "last_low": 2.309999942779541,
       "last_close": 2.390000104904175,
@@ -30127,7 +30127,7 @@
     {
       "ticker": "METCB",
       "last_date": "2026-01-15",
-      "last_open": 13.6899995803833,
+      "last_open": 12.449999809265137,
       "last_high": 13.989999771118164,
       "last_low": 12.752300262451172,
       "last_close": 13.300000190734863,
@@ -30249,7 +30249,7 @@
     {
       "ticker": "MIRM",
       "last_date": "2026-01-15",
-      "last_open": 90.98999786376953,
+      "last_open": 90.33999633789062,
       "last_high": 92.54000091552734,
       "last_low": 85.9800033569336,
       "last_close": 92.31999969482422,
@@ -30310,7 +30310,7 @@
     {
       "ticker": "ORIS",
       "last_date": "2026-01-15",
-      "last_open": 1.559999942779541,
+      "last_open": 1.2999999523162842,
       "last_high": 1.899999976158142,
       "last_low": 1.5199999809265137,
       "last_close": 1.8899999856948853,
@@ -30377,7 +30377,7 @@
     {
       "ticker": "NVX",
       "last_date": "2026-01-15",
-      "last_open": 1.399999976158142,
+      "last_open": 1.4299999475479126,
       "last_high": 1.409999966621399,
       "last_low": 1.350000023841858,
       "last_close": 1.3600000143051147,
@@ -30499,7 +30499,7 @@
     {
       "ticker": "NYAX",
       "last_date": "2026-01-15",
-      "last_open": 58.630001068115234,
+      "last_open": 55.9900016784668,
       "last_high": 59.46500015258789,
       "last_low": 58.630001068115234,
       "last_close": 59.08000183105469,
@@ -30810,7 +30810,7 @@
     {
       "ticker": "LTBR",
       "last_date": "2026-01-15",
-      "last_open": 18.0,
+      "last_open": 16.770000457763672,
       "last_high": 18.479999542236328,
       "last_low": 17.530000686645508,
       "last_close": 17.56999969482422,
@@ -30877,7 +30877,7 @@
     {
       "ticker": "NVTS",
       "last_date": "2026-01-15",
-      "last_open": 10.220000267028809,
+      "last_open": 10.819999694824219,
       "last_high": 10.640000343322754,
       "last_low": 10.0,
       "last_close": 10.0,
@@ -30938,7 +30938,7 @@
     {
       "ticker": "NEWT",
       "last_date": "2026-01-15",
-      "last_open": 14.239999771118164,
+      "last_open": 13.850000381469727,
       "last_high": 14.680000305175781,
       "last_low": 14.142800331115723,
       "last_close": 14.59000015258789,
@@ -30999,7 +30999,7 @@
     {
       "ticker": "NNE",
       "last_date": "2026-01-15",
-      "last_open": 34.540000915527344,
+      "last_open": 32.224998474121094,
       "last_high": 35.849998474121094,
       "last_low": 33.2599983215332,
       "last_close": 33.380001068115234,
@@ -31066,7 +31066,7 @@
     {
       "ticker": "ORIC",
       "last_date": "2026-01-15",
-      "last_open": 11.229999542236328,
+      "last_open": 9.069999694824219,
       "last_high": 11.5600004196167,
       "last_low": 11.079999923706055,
       "last_close": 11.520000457763672,
@@ -31261,7 +31261,7 @@
     {
       "ticker": "OMCL",
       "last_date": "2026-01-15",
-      "last_open": 50.689998626708984,
+      "last_open": 51.84000015258789,
       "last_high": 51.25,
       "last_low": 50.06999969482422,
       "last_close": 50.97999954223633,
@@ -31462,7 +31462,7 @@
     {
       "ticker": "LHSW",
       "last_date": "2026-01-15",
-      "last_open": 0.7502999901771545,
+      "last_open": 0.8169999718666077,
       "last_high": 0.7998999953269958,
       "last_low": 0.7502999901771545,
       "last_close": 0.781000018119812,
@@ -31590,7 +31590,7 @@
     {
       "ticker": "NUTX",
       "last_date": "2026-01-15",
-      "last_open": 169.74000549316406,
+      "last_open": 183.0399932861328,
       "last_high": 172.10000610351562,
       "last_low": 160.0,
       "last_close": 164.2100067138672,
@@ -31657,7 +31657,7 @@
     {
       "ticker": "METC",
       "last_date": "2026-01-15",
-      "last_open": 21.829999923706055,
+      "last_open": 22.31999969482422,
       "last_high": 22.25,
       "last_low": 20.75,
       "last_close": 21.530000686645508,
@@ -31718,7 +31718,7 @@
     {
       "ticker": "MBX",
       "last_date": "2026-01-15",
-      "last_open": 42.939998626708984,
+      "last_open": 36.41999816894531,
       "last_high": 44.88999938964844,
       "last_low": 40.477699279785156,
       "last_close": 40.90999984741211,
@@ -32090,7 +32090,7 @@
     {
       "ticker": "LUCY",
       "last_date": "2026-01-15",
-      "last_open": 1.559999942779541,
+      "last_open": 1.8899999856948853,
       "last_high": 1.5700000524520874,
       "last_low": 1.5099999904632568,
       "last_close": 1.5299999713897705,
@@ -32151,7 +32151,7 @@
     {
       "ticker": "NEOG",
       "last_date": "2026-01-15",
-      "last_open": 9.420000076293945,
+      "last_open": 9.399999618530273,
       "last_high": 9.779999732971191,
       "last_low": 9.270000457763672,
       "last_close": 9.460000038146973,
@@ -32218,7 +32218,7 @@
     {
       "ticker": "MRKR",
       "last_date": "2026-01-15",
-      "last_open": 1.850000023841858,
+      "last_open": 1.7999999523162842,
       "last_high": 1.899999976158142,
       "last_low": 1.75,
       "last_close": 1.7599999904632568,
@@ -32279,7 +32279,7 @@
     {
       "ticker": "NNNN",
       "last_date": "2026-01-15",
-      "last_open": 40.54999923706055,
+      "last_open": 35.88999938964844,
       "last_high": 40.599998474121094,
       "last_low": 33.29999923706055,
       "last_close": 34.59000015258789,
@@ -32401,7 +32401,7 @@
     {
       "ticker": "OM",
       "last_date": "2026-01-15",
-      "last_open": 5.5,
+      "last_open": 5.590000152587891,
       "last_high": 5.690000057220459,
       "last_low": 5.139999866485596,
       "last_close": 5.260000228881836,
@@ -32584,7 +32584,7 @@
     {
       "ticker": "MNTS",
       "last_date": "2026-01-15",
-      "last_open": 9.520000457763672,
+      "last_open": 10.010000228881836,
       "last_high": 10.390000343322754,
       "last_low": 8.835000038146973,
       "last_close": 9.109999656677246,
@@ -32645,7 +32645,7 @@
     {
       "ticker": "NVVE",
       "last_date": "2026-01-15",
-      "last_open": 4.039999961853027,
+      "last_open": 3.5999999046325684,
       "last_high": 4.179999828338623,
       "last_low": 3.7100000381469727,
       "last_close": 3.7799999713897705,
@@ -32767,7 +32767,7 @@
     {
       "ticker": "NUAI",
       "last_date": "2026-01-15",
-      "last_open": 4.139999866485596,
+      "last_open": 4.315000057220459,
       "last_high": 4.75,
       "last_low": 4.110000133514404,
       "last_close": 4.550000190734863,
@@ -32889,7 +32889,7 @@
     {
       "ticker": "LUNR",
       "last_date": "2026-01-15",
-      "last_open": 19.65999984741211,
+      "last_open": 17.350000381469727,
       "last_high": 20.209999084472656,
       "last_low": 19.149999618530273,
       "last_close": 19.5,
@@ -32950,7 +32950,7 @@
     {
       "ticker": "LVLU",
       "last_date": "2026-01-15",
-      "last_open": 12.979999542236328,
+      "last_open": 10.550000190734863,
       "last_high": 14.1899995803833,
       "last_low": 11.739999771118164,
       "last_close": 13.84000015258789,
@@ -33011,7 +33011,7 @@
     {
       "ticker": "KTTA",
       "last_date": "2026-01-15",
-      "last_open": 0.8799999952316284,
+      "last_open": 0.8779000043869019,
       "last_high": 0.8899999856948853,
       "last_low": 0.8500999808311462,
       "last_close": 0.8891000151634216,
@@ -33139,7 +33139,7 @@
     {
       "ticker": "MRNO",
       "last_date": "2026-01-15",
-      "last_open": 1.7799999713897705,
+      "last_open": 1.4500000476837158,
       "last_high": 1.9569000005722046,
       "last_low": 1.4500000476837158,
       "last_close": 1.590000033378601,
@@ -33200,7 +33200,7 @@
     {
       "ticker": "KXIN",
       "last_date": "2026-01-15",
-      "last_open": 9.350000381469727,
+      "last_open": 8.260000228881836,
       "last_high": 10.779999732971191,
       "last_low": 9.300000190734863,
       "last_close": 10.164999961853027,
@@ -33261,7 +33261,7 @@
     {
       "ticker": "LPCN",
       "last_date": "2026-01-15",
-      "last_open": 11.0,
+      "last_open": 9.050000190734863,
       "last_high": 12.369999885559082,
       "last_low": 10.805000305175781,
       "last_close": 11.260000228881836,
