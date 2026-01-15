@@ -2,7 +2,7 @@ name: Weekly Channel Scan API (Multi-Market)
 
 on:
   schedule:
-    - cron: "30 20 * * 6"   # Saturday 3:30 PM EST (20:30 UTC)
+    - cron: "30 20 * * *"   # Every day at 20:30 UTC (3:30 PM EST)
   workflow_dispatch:
     inputs:
       mode:
