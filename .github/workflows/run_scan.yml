@@ -38,6 +38,7 @@ jobs:
       matrix:
         market:
           - { out: nifty50, file: data/nifty50.txt }
+          - { out: nse, file: data/nse.txt }
           - { out: nasdaq_01, file: data/nasdaq_01.txt }
           - { out: nasdaq_02, file: data/nasdaq_02.txt }
           - { out: nasdaq_03, file: data/nasdaq_03.txt }
@@ -88,6 +89,7 @@ jobs:
       matrix:
         market:
           - { out: nifty50, file: data/nifty50.txt }
+          - { out: nse, file: data/nse.txt }
           - { out: nasdaq_01, file: data/nasdaq_01.txt }
           - { out: nasdaq_02, file: data/nasdaq_02.txt }
           - { out: nasdaq_03, file: data/nasdaq_03.txt }
