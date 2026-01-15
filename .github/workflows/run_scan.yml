@@ -1,4 +1,4 @@
-name: Weekly Channel Scan API (Optimized)
+name: Weekly Channel Scan API (Optimized + Sharded)
 
 on:
   schedule:
@@ -25,20 +25,39 @@ permissions:
 env:
   PYTHON_VERSION: "3.11"
 
-# -------------------------
-# ENTRY SIGNALS
-# -------------------------
+# Helper: common matrix definition pattern
+# - nifty50 is single file
+# - nasdaq/nyse are sharded into 6
+#
+# Output:
+# - shard outputs: api/<tab>/nasdaq_01.json etc
+# - merged outputs: api/<tab>/nasdaq.json + api/<tab>/nyse.json
+
 jobs:
+  # -------------------------
+  # ENTRY SIGNALS
+  # -------------------------
   entry:
     if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'entry_only' }}
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false
       matrix:
         market:
-          - { name: nifty50, file: data/nifty50.txt }
-          - { name: nasdaq,  file: data/nasdaq.txt }
-          - { name: nyse,    file: data/nyse.txt }
+          - { out: nifty50, file: data/nifty50.txt }
+          - { out: nasdaq_01, file: data/nasdaq_01.txt }
+          - { out: nasdaq_02, file: data/nasdaq_02.txt }
+          - { out: nasdaq_03, file: data/nasdaq_03.txt }
+          - { out: nasdaq_04, file: data/nasdaq_04.txt }
+          - { out: nasdaq_05, file: data/nasdaq_05.txt }
+          - { out: nasdaq_06, file: data/nasdaq_06.txt }
+          - { out: nyse_01, file: data/nyse_01.txt }
+          - { out: nyse_02, file: data/nyse_02.txt }
+          - { out: nyse_03, file: data/nyse_03.txt }
+          - { out: nyse_04, file: data/nyse_04.txt }
+          - { out: nyse_05, file: data/nyse_05.txt }
+          - { out: nyse_06, file: data/nyse_06.txt }
 
     steps:
       - uses: actions/checkout@v4
@@ -57,21 +76,39 @@ jobs:
             --recent_hl_lookback_bars 20 \
             --recent_hl_count 2 \
             --recent_hl_slope_min_pct_per_bar 0.02 \
-            --out api/entry/${{ matrix.market.name }}.json
+            --out api/entry/${{ matrix.market.out }}.json
 
-# -------------------------
-# CORRECTION WATCHLIST
-# -------------------------
+      # Upload shard outputs so publish job can merge them
+      - uses: actions/upload-artifact@v4
+        with:
+          name: entry-api
+          path: api/entry/*.json
+          if-no-files-found: error
+
+  # -------------------------
+  # CORRECTION WATCHLIST
+  # -------------------------
   corrwl:
     if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'corr_wl' }}
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false
       matrix:
         market:
-          - { name: nifty50, file: data/nifty50.txt }
-          - { name: nasdaq,  file: data/nasdaq.txt }
-          - { name: nyse,    file: data/nyse.txt }
+          - { out: nifty50, file: data/nifty50.txt }
+          - { out: nasdaq_01, file: data/nasdaq_01.txt }
+          - { out: nasdaq_02, file: data/nasdaq_02.txt }
+          - { out: nasdaq_03, file: data/nasdaq_03.txt }
+          - { out: nasdaq_04, file: data/nasdaq_04.txt }
+          - { out: nasdaq_05, file: data/nasdaq_05.txt }
+          - { out: nasdaq_06, file: data/nasdaq_06.txt }
+          - { out: nyse_01, file: data/nyse_01.txt }
+          - { out: nyse_02, file: data/nyse_02.txt }
+          - { out: nyse_03, file: data/nyse_03.txt }
+          - { out: nyse_04, file: data/nyse_04.txt }
+          - { out: nyse_05, file: data/nyse_05.txt }
+          - { out: nyse_06, file: data/nyse_06.txt }
 
     steps:
       - uses: actions/checkout@v4
@@ -94,21 +131,38 @@ jobs:
             --corr_bars_min 3 \
             --corr_bars_max 12 \
             --only_watchlist \
-            --out api/corrwl/${{ matrix.market.name }}.json
+            --out api/corrwl/${{ matrix.market.out }}.json
 
-# -------------------------
-# SIDEWAYS → UP
-# -------------------------
+      - uses: actions/upload-artifact@v4
+        with:
+          name: corrwl-api
+          path: api/corrwl/*.json
+          if-no-files-found: error
+
+  # -------------------------
+  # SIDEWAYS → UP
+  # -------------------------
   sideways:
     if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'sideways' }}
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false
       matrix:
         market:
-          - { name: nifty50, file: data/nifty50.txt }
-          - { name: nasdaq,  file: data/nasdaq.txt }
-          - { name: nyse,    file: data/nyse.txt }
+          - { out: nifty50, file: data/nifty50.txt }
+          - { out: nasdaq_01, file: data/nasdaq_01.txt }
+          - { out: nasdaq_02, file: data/nasdaq_02.txt }
+          - { out: nasdaq_03, file: data/nasdaq_03.txt }
+          - { out: nasdaq_04, file: data/nasdaq_04.txt }
+          - { out: nasdaq_05, file: data/nasdaq_05.txt }
+          - { out: nasdaq_06, file: data/nasdaq_06.txt }
+          - { out: nyse_01, file: data/nyse_01.txt }
+          - { out: nyse_02, file: data/nyse_02.txt }
+          - { out: nyse_03, file: data/nyse_03.txt }
+          - { out: nyse_04, file: data/nyse_04.txt }
+          - { out: nyse_05, file: data/nyse_05.txt }
+          - { out: nyse_06, file: data/nyse_06.txt }
 
     steps:
       - uses: actions/checkout@v4
@@ -127,21 +181,38 @@ jobs:
             --sideways_threshold_pct 10 \
             --prior_trend_weeks 20 \
             --recent_trend_weeks 6 \
-            --out api/sidetoup/${{ matrix.market.name }}.json
+            --out api/sidetoup/${{ matrix.market.out }}.json
 
-# -------------------------
-# DOWN → UP
-# -------------------------
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sidetoup-api
+          path: api/sidetoup/*.json
+          if-no-files-found: error
+
+  # -------------------------
+  # DOWN → UP
+  # -------------------------
   downtoup:
     if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'downtoup' }}
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false
       matrix:
         market:
-          - { name: nifty50, file: data/nifty50.txt }
-          - { name: nasdaq,  file: data/nasdaq.txt }
-          - { name: nyse,    file: data/nyse.txt }
+          - { out: nifty50, file: data/nifty50.txt }
+          - { out: nasdaq_01, file: data/nasdaq_01.txt }
+          - { out: nasdaq_02, file: data/nasdaq_02.txt }
+          - { out: nasdaq_03, file: data/nasdaq_03.txt }
+          - { out: nasdaq_04, file: data/nasdaq_04.txt }
+          - { out: nasdaq_05, file: data/nasdaq_05.txt }
+          - { out: nasdaq_06, file: data/nasdaq_06.txt }
+          - { out: nyse_01, file: data/nyse_01.txt }
+          - { out: nyse_02, file: data/nyse_02.txt }
+          - { out: nyse_03, file: data/nyse_03.txt }
+          - { out: nyse_04, file: data/nyse_04.txt }
+          - { out: nyse_05, file: data/nyse_05.txt }
+          - { out: nyse_06, file: data/nyse_06.txt }
 
     steps:
       - uses: actions/checkout@v4
@@ -160,21 +231,38 @@ jobs:
             --near_resistance_pct 6 \
             --corr_max_pct 12 \
             --n_down 40 \
-            --out api/downtoup/${{ matrix.market.name }}.json
+            --out api/downtoup/${{ matrix.market.out }}.json
 
-# -------------------------
-# BULL FLAG
-# -------------------------
+      - uses: actions/upload-artifact@v4
+        with:
+          name: downtoup-api
+          path: api/downtoup/*.json
+          if-no-files-found: error
+
+  # -------------------------
+  # BULL FLAG
+  # -------------------------
   bullflag:
     if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'bullflag' }}
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false
       matrix:
         market:
-          - { name: nifty50, file: data/nifty50.txt }
-          - { name: nasdaq,  file: data/nasdaq.txt }
-          - { name: nyse,    file: data/nyse.txt }
+          - { out: nifty50, file: data/nifty50.txt }
+          - { out: nasdaq_01, file: data/nasdaq_01.txt }
+          - { out: nasdaq_02, file: data/nasdaq_02.txt }
+          - { out: nasdaq_03, file: data/nasdaq_03.txt }
+          - { out: nasdaq_04, file: data/nasdaq_04.txt }
+          - { out: nasdaq_05, file: data/nasdaq_05.txt }
+          - { out: nasdaq_06, file: data/nasdaq_06.txt }
+          - { out: nyse_01, file: data/nyse_01.txt }
+          - { out: nyse_02, file: data/nyse_02.txt }
+          - { out: nyse_03, file: data/nyse_03.txt }
+          - { out: nyse_04, file: data/nyse_04.txt }
+          - { out: nyse_05, file: data/nyse_05.txt }
+          - { out: nyse_06, file: data/nyse_06.txt }
 
     steps:
       - uses: actions/checkout@v4
@@ -189,21 +277,38 @@ jobs:
         run: |
           python scanners/bull_flag_scanner.py \
             --tickers_file ${{ matrix.market.file }} \
-            --out api/bullishflag/${{ matrix.market.name }}.json
+            --out api/bullishflag/${{ matrix.market.out }}.json
 
-# -------------------------
-# CATCH ALL
-# -------------------------
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bullishflag-api
+          path: api/bullishflag/*.json
+          if-no-files-found: error
+
+  # -------------------------
+  # CATCH ALL
+  # -------------------------
   catchall:
     if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'catchall' }}
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false
       matrix:
         market:
-          - { name: nifty50, file: data/nifty50.txt }
-          - { name: nasdaq,  file: data/nasdaq.txt }
-          - { name: nyse,    file: data/nyse.txt }
+          - { out: nifty50, file: data/nifty50.txt }
+          - { out: nasdaq_01, file: data/nasdaq_01.txt }
+          - { out: nasdaq_02, file: data/nasdaq_02.txt }
+          - { out: nasdaq_03, file: data/nasdaq_03.txt }
+          - { out: nasdaq_04, file: data/nasdaq_04.txt }
+          - { out: nasdaq_05, file: data/nasdaq_05.txt }
+          - { out: nasdaq_06, file: data/nasdaq_06.txt }
+          - { out: nyse_01, file: data/nyse_01.txt }
+          - { out: nyse_02, file: data/nyse_02.txt }
+          - { out: nyse_03, file: data/nyse_03.txt }
+          - { out: nyse_04, file: data/nyse_04.txt }
+          - { out: nyse_05, file: data/nyse_05.txt }
+          - { out: nyse_06, file: data/nyse_06.txt }
 
     steps:
       - uses: actions/checkout@v4
@@ -218,11 +323,17 @@ jobs:
         run: |
           python scanners/catchall_scanner.py \
             --tickers_file ${{ matrix.market.file }} \
-            --out api/catchall/${{ matrix.market.name }}.json
+            --out api/catchall/${{ matrix.market.out }}.json
 
-# -------------------------
-# FINAL PUBLISH
-# -------------------------
+      - uses: actions/upload-artifact@v4
+        with:
+          name: catchall-api
+          path: api/catchall/*.json
+          if-no-files-found: error
+
+  # -------------------------
+  # FINAL PUBLISH (merge shards + push)
+  # -------------------------
   publish:
     needs: [entry, corrwl, sideways, downtoup, bullflag, catchall]
     runs-on: ubuntu-latest
@@ -230,19 +341,90 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Commit API results
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add api
-          git diff --cached --quiet || git commit -m "Update scan APIs"
+      # Download artifacts produced by matrix jobs
+      - uses: actions/download-artifact@v4
+        with:
+          name: entry-api
+          path: api/entry
+      - uses: actions/download-artifact@v4
+        with:
+          name: corrwl-api
+          path: api/corrwl
+      - uses: actions/download-artifact@v4
+        with:
+          name: sidetoup-api
+          path: api/sidetoup
+      - uses: actions/download-artifact@v4
+        with:
+          name: downtoup-api
+          path: api/downtoup
+      - uses: actions/download-artifact@v4
+        with:
+          name: bullishflag-api
+          path: api/bullishflag
+      - uses: actions/download-artifact@v4
+        with:
+          name: catchall-api
+          path: api/catchall
 
-      - name: Publish to gh-pages
+      # Merge sharded outputs -> stable filenames (nasdaq.json / nyse.json)
+      - name: Merge shard outputs
         run: |
+          python - <<'PY'
+          import json, glob, os
+          from collections import defaultdict
+
+          def merge_dir(tab):
+            def merge(pattern, out_file):
+              files = sorted(glob.glob(pattern))
+              if not files:
+                return
+              merged = {"meta": {"merged_from": files}, "counts": defaultdict(int), "data": []}
+              for f in files:
+                with open(f, "r", encoding="utf-8") as r:
+                  obj = json.load(r)
+                if isinstance(obj, dict):
+                  merged["data"].extend(obj.get("data", []) or [])
+                  counts = obj.get("counts", {}) or {}
+                  for k, v in counts.items():
+                    if isinstance(v, int):
+                      merged["counts"][k] += v
+              merged["counts"] = dict(merged["counts"])
+              with open(out_file, "w", encoding="utf-8") as w:
+                json.dump(merged, w, ensure_ascii=False)
+              print("Wrote", out_file, "from", len(files), "files")
+
+            # Only merge if shards exist
+            merge(f"api/{tab}/nasdaq_*.json", f"api/{tab}/nasdaq.json")
+            merge(f"api/{tab}/nyse_*.json", f"api/{tab}/nyse.json")
+
+          for tab in ["entry", "corrwl", "sidetoup", "downtoup", "bullishflag", "catchall"]:
+            os.makedirs(f"api/{tab}", exist_ok=True)
+            merge_dir(tab)
+          PY
+          
+      # Publish to gh-pages without losing files when switching branches
+      - name: Publish API JSON to gh-pages
+        run: |
+          set -e
+          mkdir -p /tmp/api_out
+          cp -r api /tmp/api_out/
+
           git fetch origin gh-pages
           git checkout gh-pages
+
           mkdir -p api
-          cp -r ../api/* api/
+          rm -rf api/*
+          cp -r /tmp/api_out/api/* api/
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add api
-          git diff --cached --quiet || git commit -m "Publish API JSON"
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+            exit 0
+          fi
+
+          git commit -m "Publish API JSON"
           git push origin gh-pages
