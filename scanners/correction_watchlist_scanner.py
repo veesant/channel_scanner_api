@@ -69,23 +69,55 @@ def normalize_ohlc(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def download_bars(ticker: str, tf: str, lookback_days: int, threads: bool) -> pd.DataFrame:
-    # only 1d supported in this script (as requested)
+    # only 1d supported in this script
     if tf != "1d":
         raise ValueError("This watchlist scanner supports only tf=1d")
+
+    import time
+    import random
+
+    def is_rate_limited(err) -> bool:
+        msg = str(err).lower()
+        return (
+            "too many requests" in msg
+            or "rate limited" in msg
+            or "429" in msg
+        )
 
     end = datetime.now(timezone.utc)
     start = end - timedelta(days=int(lookback_days))
 
-    raw = yf.download(
-        ticker.upper().strip(),
-        start=start.strftime("%Y-%m-%d"),
-        end=end.strftime("%Y-%m-%d"),
-        interval="1d",
-        auto_adjust=True,
-        progress=False,
-        threads=threads,
-    )
-    return normalize_ohlc(raw)
+    max_retries = 6
+    base_sleep = 2.0
+    last_err = None
+
+    for attempt in range(max_retries):
+        try:
+            raw = yf.download(
+                ticker.upper().strip(),
+                start=start.strftime("%Y-%m-%d"),
+                end=end.strftime("%Y-%m-%d"),
+                interval="1d",
+                auto_adjust=True,
+                progress=False,
+                threads=False,   # IMPORTANT: force no threading
+            )
+            return normalize_ohlc(raw)
+
+        except Exception as e:
+            last_err = e
+            if not is_rate_limited(e) or attempt == max_retries - 1:
+                raise
+
+            # Exponential backoff with jitter
+            sleep_s = min(
+                120.0,
+                base_sleep * (2 ** attempt) + random.uniform(0.0, 1.0)
+            )
+            time.sleep(sleep_s)
+
+    raise last_err
+
 
 
 def read_tickers_file(path: str) -> List[str]:

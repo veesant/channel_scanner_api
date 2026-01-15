@@ -162,14 +162,79 @@ def scan_channels(
     if not tickers:
         return pd.DataFrame()
 
-    data = yf.download(
-        tickers,
-        period=f"{years}y",
-        auto_adjust=True,
-        group_by="ticker",
-        threads=threads,
-        progress=False,
-    )
+    # ----------------------------
+    # Yahoo Finance download (SAFE)
+    # ----------------------------
+    import time
+    import random
+
+    def is_rate_limited(err):
+        msg = str(err).lower()
+        return (
+            "too many requests" in msg
+            or "rate limited" in msg
+            or "429" in msg
+        )
+
+    def download_batch(batch):
+        return yf.download(
+            batch,
+            period=f"{years}y",
+            auto_adjust=True,
+            group_by="ticker",
+            threads=False,   # IMPORTANT
+            progress=False,
+        )
+
+    def download_with_backoff(batch, max_retries=6, base_sleep=2.0):
+        last_err = None
+        for attempt in range(max_retries):
+            try:
+                return download_batch(batch)
+            except Exception as e:
+                last_err = e
+                if not is_rate_limited(e) or attempt == max_retries - 1:
+                    raise
+                sleep_s = min(
+                    120.0,
+                    base_sleep * (2 ** attempt) + random.uniform(0.0, 1.0)
+                )
+                time.sleep(sleep_s)
+        raise last_err
+
+    BATCH_SIZE = 40   # Safe for large universes (NASDAQ)
+    frames = []
+
+    for i in range(0, len(tickers), BATCH_SIZE):
+        batch = tickers[i:i + BATCH_SIZE]
+        if not batch:
+            continue
+
+        try:
+            df_batch = download_with_backoff(batch)
+            if df_batch is not None and not df_batch.empty:
+                frames.append(df_batch)
+        except Exception as e:
+            # Fallback to per-ticker if Yahoo is aggressive
+            if is_rate_limited(e):
+                for t in batch:
+                    try:
+                        df_one = download_with_backoff([t])
+                        if df_one is not None and not df_one.empty:
+                            frames.append(df_one)
+                        time.sleep(0.3 + random.uniform(0.0, 0.3))
+                    except Exception:
+                        pass
+            else:
+                raise
+
+        time.sleep(0.8 + random.uniform(0.0, 0.5))
+
+    data = pd.concat(frames, axis=1) if frames else pd.DataFrame()
+    # ----------------------------
+    # End Yahoo Finance download
+    # ----------------------------
+
 
     results: List[Dict[str, Any]] = []
 

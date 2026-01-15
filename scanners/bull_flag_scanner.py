@@ -70,18 +70,52 @@ def normalize_ohlc(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def download_daily(ticker: str, lookback_days: int, threads: bool = True) -> pd.DataFrame:
+    import time
+    import random
+
+    def is_rate_limited(err) -> bool:
+        msg = str(err).lower()
+        return (
+            "too many requests" in msg
+            or "rate limited" in msg
+            or "429" in msg
+        )
+
     end = datetime.now(timezone.utc)
     start = end - timedelta(days=int(lookback_days))
-    raw = yf.download(
-        ticker.upper().strip(),
-        start=start.strftime("%Y-%m-%d"),
-        end=end.strftime("%Y-%m-%d"),
-        interval="1d",
-        auto_adjust=True,
-        progress=False,
-        threads=threads,
-    )
-    return normalize_ohlc(raw)
+    t = ticker.upper().strip()
+
+    max_retries = 6
+    base_sleep = 2.0
+    last_err = None
+
+    for attempt in range(max_retries):
+        try:
+            raw = yf.download(
+                t,
+                start=start.strftime("%Y-%m-%d"),
+                end=end.strftime("%Y-%m-%d"),
+                interval="1d",
+                auto_adjust=True,
+                progress=False,
+                threads=False,   # IMPORTANT: disable threading
+            )
+            return normalize_ohlc(raw)
+
+        except Exception as e:
+            last_err = e
+            if not is_rate_limited(e) or attempt == max_retries - 1:
+                raise
+
+            # Exponential backoff + jitter
+            sleep_s = min(
+                120.0,
+                base_sleep * (2 ** attempt) + random.uniform(0.0, 1.0)
+            )
+            time.sleep(sleep_s)
+
+    raise last_err
+
 
 
 def read_tickers_file(path: str) -> List[str]:

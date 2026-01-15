@@ -60,38 +60,70 @@ def resample_ohlc(df: pd.DataFrame, rule: str) -> pd.DataFrame:
 
 
 def download_bars(ticker: str, tf: str, lookback_days: int, threads: bool = True) -> pd.DataFrame:
+    import time
+    import random
+
+    def is_rate_limited(err) -> bool:
+        msg = str(err).lower()
+        return (
+            "too many requests" in msg
+            or "rate limited" in msg
+            or "429" in msg
+        )
+
     end = datetime.now(timezone.utc)
     start = end - timedelta(days=int(lookback_days))
     t = ticker.upper().strip()
     tf_l = tf.lower().strip()
 
-    if tf_l in ("4h", "2h"):
-        raw = yf.download(
-            t,
-            start=start.strftime("%Y-%m-%d"),
-            end=end.strftime("%Y-%m-%d"),
-            interval="60m",
-            auto_adjust=True,
-            progress=False,
-            threads=threads,
-        )
-        raw = normalize_ohlc(raw)
-        if raw.empty:
-            return pd.DataFrame()
-        rule = "4h" if tf_l == "4h" else "2h"
-        return resample_ohlc(raw, rule)
+    max_retries = 6
+    base_sleep = 2.0
+    last_err = None
 
-    interval = "1d" if tf_l in ("1d", "d", "day") else tf_l
-    raw = yf.download(
-        t,
-        start=start.strftime("%Y-%m-%d"),
-        end=end.strftime("%Y-%m-%d"),
-        interval=interval,
-        auto_adjust=True,
-        progress=False,
-        threads=threads,
-    )
-    return normalize_ohlc(raw)
+    for attempt in range(max_retries):
+        try:
+            if tf_l in ("4h", "2h"):
+                raw = yf.download(
+                    t,
+                    start=start.strftime("%Y-%m-%d"),
+                    end=end.strftime("%Y-%m-%d"),
+                    interval="60m",
+                    auto_adjust=True,
+                    progress=False,
+                    threads=False,   # IMPORTANT
+                )
+                raw = normalize_ohlc(raw)
+                if raw.empty:
+                    return pd.DataFrame()
+                rule = "4h" if tf_l == "4h" else "2h"
+                return resample_ohlc(raw, rule)
+
+            interval = "1d" if tf_l in ("1d", "d", "day") else tf_l
+            raw = yf.download(
+                t,
+                start=start.strftime("%Y-%m-%d"),
+                end=end.strftime("%Y-%m-%d"),
+                interval=interval,
+                auto_adjust=True,
+                progress=False,
+                threads=False,   # IMPORTANT
+            )
+            return normalize_ohlc(raw)
+
+        except Exception as e:
+            last_err = e
+            if not is_rate_limited(e) or attempt == max_retries - 1:
+                raise
+
+            # Exponential backoff + jitter
+            sleep_s = min(
+                120.0,
+                base_sleep * (2 ** attempt) + random.uniform(0.0, 1.0)
+            )
+            time.sleep(sleep_s)
+
+    raise last_err
+
 
 
 def sma(series: pd.Series, n: int) -> pd.Series:

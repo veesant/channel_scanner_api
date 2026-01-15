@@ -674,15 +674,85 @@ def main() -> int:
         print("No tickers found.", file=sys.stderr)
         return 2
 
-    data = yf.download(
-        tickers=tickers,
-        start=pd.Timestamp.today(tz="UTC") - pd.Timedelta(days=int(args.last_days)),
-        interval="1d",
-        auto_adjust=True,
-        group_by="column",
-        progress=False,
-        threads=True,
-    )
+    # ============================
+    # Yahoo Finance download (SAFE)
+    # ============================
+
+    start_ts = pd.Timestamp.today(tz="UTC") - pd.Timedelta(days=int(args.last_days))
+
+    import time
+    import random
+
+    def _is_rate_limited(err):
+        msg = str(err).lower()
+        return (
+            "too many requests" in msg
+            or "rate limited" in msg
+            or "429" in msg
+        )
+
+    def _download_batch(batch):
+        return yf.download(
+            tickers=batch,
+            start=start_ts,
+            interval="1d",
+            auto_adjust=True,
+            group_by="column",
+            progress=False,
+            threads=False,   # IMPORTANT: disable threading
+        )
+
+    def _download_with_backoff(batch, max_retries=6, base_sleep=2.0):
+        last_err = None
+        for attempt in range(max_retries):
+            try:
+                return _download_batch(batch)
+            except Exception as e:
+                last_err = e
+                if not _is_rate_limited(e) or attempt == max_retries - 1:
+                    raise
+                sleep_s = min(
+                    120.0,
+                    base_sleep * (2 ** attempt) + random.uniform(0.0, 1.0)
+                )
+                time.sleep(sleep_s)
+        raise last_err
+
+    BATCH_SIZE = 40   # Safe for ~3,100 NASDAQ tickers
+    frames = []
+
+    for i in range(0, len(tickers), BATCH_SIZE):
+        batch = [t.strip().upper() for t in tickers[i:i + BATCH_SIZE] if t.strip()]
+        if not batch:
+            continue
+
+        try:
+            df_batch = _download_with_backoff(batch)
+            if df_batch is not None and not df_batch.empty:
+                frames.append(df_batch)
+        except Exception as e:
+            # If Yahoo throttles a batch, fall back to single-ticker downloads
+            if _is_rate_limited(e):
+                for t in batch:
+                    try:
+                        df_one = _download_with_backoff([t])
+                        if df_one is not None and not df_one.empty:
+                            frames.append(df_one)
+                        time.sleep(0.3 + random.uniform(0.0, 0.3))
+                    except Exception:
+                        pass
+            else:
+                raise
+
+        # Gentle pacing between batches
+        time.sleep(0.8 + random.uniform(0.0, 0.5))
+
+    data = pd.concat(frames, axis=1) if frames else pd.DataFrame()
+
+    # ============================
+    # End Yahoo Finance download
+    # ============================
+
 
     rows: List[Dict] = []
     for t in tickers:
