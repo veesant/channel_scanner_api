@@ -38,7 +38,11 @@ jobs:
       matrix:
         market:
           - { out: nifty50, file: data/nifty50.txt }
-          - { out: nse, file: data/nse.txt }
+          - { out: nse_01, file: data/nse_01.txt }
+          - { out: nse_02, file: data/nse_02.txt }
+          - { out: nse_03, file: data/nse_03.txt }
+          - { out: nse_04, file: data/nse_04.txt }
+          - { out: nse_05, file: data/nse_05.txt }
           - { out: nasdaq_01, file: data/nasdaq_01.txt }
           - { out: nasdaq_02, file: data/nasdaq_02.txt }
           - { out: nasdaq_03, file: data/nasdaq_03.txt }
@@ -89,7 +93,11 @@ jobs:
       matrix:
         market:
           - { out: nifty50, file: data/nifty50.txt }
-          - { out: nse, file: data/nse.txt }
+          - { out: nse_01, file: data/nse_01.txt }
+          - { out: nse_02, file: data/nse_02.txt }
+          - { out: nse_03, file: data/nse_03.txt }
+          - { out: nse_04, file: data/nse_04.txt }
+          - { out: nse_05, file: data/nse_05.txt }
           - { out: nasdaq_01, file: data/nasdaq_01.txt }
           - { out: nasdaq_02, file: data/nasdaq_02.txt }
           - { out: nasdaq_03, file: data/nasdaq_03.txt }
@@ -144,6 +152,11 @@ jobs:
       matrix:
         market:
           - { out: nifty50, file: data/nifty50.txt }
+          - { out: nse_01, file: data/nse_01.txt }
+          - { out: nse_02, file: data/nse_02.txt }
+          - { out: nse_03, file: data/nse_03.txt }
+          - { out: nse_04, file: data/nse_04.txt }
+          - { out: nse_05, file: data/nse_05.txt }
           - { out: nasdaq_01, file: data/nasdaq_01.txt }
           - { out: nasdaq_02, file: data/nasdaq_02.txt }
           - { out: nasdaq_03, file: data/nasdaq_03.txt }
@@ -194,6 +207,11 @@ jobs:
       matrix:
         market:
           - { out: nifty50, file: data/nifty50.txt }
+          - { out: nse_01, file: data/nse_01.txt }
+          - { out: nse_02, file: data/nse_02.txt }
+          - { out: nse_03, file: data/nse_03.txt }
+          - { out: nse_04, file: data/nse_04.txt }
+          - { out: nse_05, file: data/nse_05.txt }
           - { out: nasdaq_01, file: data/nasdaq_01.txt }
           - { out: nasdaq_02, file: data/nasdaq_02.txt }
           - { out: nasdaq_03, file: data/nasdaq_03.txt }
@@ -244,6 +262,11 @@ jobs:
       matrix:
         market:
           - { out: nifty50, file: data/nifty50.txt }
+          - { out: nse_01, file: data/nse_01.txt }
+          - { out: nse_02, file: data/nse_02.txt }
+          - { out: nse_03, file: data/nse_03.txt }
+          - { out: nse_04, file: data/nse_04.txt }
+          - { out: nse_05, file: data/nse_05.txt }
           - { out: nasdaq_01, file: data/nasdaq_01.txt }
           - { out: nasdaq_02, file: data/nasdaq_02.txt }
           - { out: nasdaq_03, file: data/nasdaq_03.txt }
@@ -290,6 +313,11 @@ jobs:
       matrix:
         market:
           - { out: nifty50, file: data/nifty50.txt }
+          - { out: nse_01, file: data/nse_01.txt }
+          - { out: nse_02, file: data/nse_02.txt }
+          - { out: nse_03, file: data/nse_03.txt }
+          - { out: nse_04, file: data/nse_04.txt }
+          - { out: nse_05, file: data/nse_05.txt }
           - { out: nasdaq_01, file: data/nasdaq_01.txt }
           - { out: nasdaq_02, file: data/nasdaq_02.txt }
           - { out: nasdaq_03, file: data/nasdaq_03.txt }
@@ -401,6 +429,7 @@ jobs:
             os.makedirs(f"api/{tab}", exist_ok=True)
             merge(f"api/{tab}/nasdaq_*.json", f"api/{tab}/nasdaq.json")
             merge(f"api/{tab}/nyse_*.json", f"api/{tab}/nyse.json")
+            merge(f"api/{tab}/nse_*.json", f"api/{tab}/nse.json")
           PY
 
       # Publish to gh-pages without losing files when switching branches
@@ -436,4 +465,3 @@ jobs:
 
           cd -
           git worktree remove /tmp/ghp --force
-

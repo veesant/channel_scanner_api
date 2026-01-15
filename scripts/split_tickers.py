@@ -15,5 +15,4 @@ def split_file(src_path, prefix, chunk):
         print(f"Wrote {out} ({min(chunk, len(lines)-i)} tickers)")
 
 if __name__ == "__main__":
-    split_file("data/nasdaq.txt", "nasdaq", 520)
-    split_file("data/nyse.txt", "nyse", 520)
+    split_file("data/nse.txt", "nse", 520)

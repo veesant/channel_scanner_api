@@ -477,9 +477,10 @@ def compute_ready_to_act(
       2) after the most recent pivot HH, price retraced (structure pullback)
       3) current close is above the second most recent pivot HH
 
-    Pullback is detected only when, after the most recent pivot HH, price dips below the
-    second most recent pivot HH (using intraday Low) and then reclaims it (enforced by
-    requiring current close > second-last HH).
+    Pullback is detected by either:
+      - a pivot low printed AFTER the most recent pivot HH (structure pullback), OR
+      - a measured retracement >= pullback_min_pct from the most recent pivot HH
+        using the minimum CLOSE observed after that HH (within pullback_lookback_bars).
     """
 
     out: Dict[str, Optional[object]] = {
@@ -521,33 +522,31 @@ def compute_ready_to_act(
     if require_clean_trend and not clean_ok:
         return out
 
-    # 2) Pullback gate (DIP BELOW 2ND-LAST HH + RECLAIM)
-    # Require price to actually DIP below the second-last HH after the most recent HH.
-    # Reclaim is enforced later by requiring last_close > second_last_hh.
+    # 2) Pullback gate
     pullback_ok = False
 
-    if pullback_lookback_bars > 0:
+    # A) Pivot low after last HH (structure pullback)
+    if pivot_lows:
+        if any(ts > last_hh_ts for ts in pivot_lows):
+            pullback_ok = True
+
+    # B) Fallback: measured retracement from last HH
+    if not pullback_ok and pullback_lookback_bars > 0:
         w = df.tail(pullback_lookback_bars)
         if not w.empty:
-            # Prefer measuring from the HH bar onward if it's within the lookback window.
-            # If HH is older than the window, we still evaluate the window (conservative).
             if last_hh_ts in w.index:
                 w2 = w.loc[last_hh_ts:]
             else:
+                # If HH is older than the lookback window, still allow a conservative pullback check
                 w2 = w
 
             if not w2.empty:
-                # Keep the existing debug metric: pullback % from last HH using min CLOSE.
                 min_close = safe_float(w2["Close"].min())
                 if min_close is not None and last_hh > 0:
                     pullback_pct = (last_hh - min_close) / last_hh * 100.0
                     out["rta_pullback_pct_from_last_hh"] = pullback_pct
-
-                # Actual pullback condition: price dipped below the second-last HH
-                # (use intraday Low to capture real dips, not just closes).
-                min_low = safe_float(w2["Low"].min())
-                if min_low is not None:
-                    pullback_ok = bool(min_low < second_last_hh)
+                    if pullback_pct >= pullback_min_pct:
+                        pullback_ok = True
 
     out["rta_pullback_ok"] = bool(pullback_ok)
 
