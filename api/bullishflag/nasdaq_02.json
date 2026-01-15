@@ -1,0 +1,40 @@
+{
+  "updated_utc": "2026-01-15T04:12:51.806736+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 1,
+  "data": [
+    {
+      "ticker": "CLPS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 0.9490000009536743,
+      "sma20": 0.8935500085353851,
+      "sma50": 0.8883800041675568,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 18.823524956884807,
+      "pole_high": 1.0199999809265137,
+      "pole_range": 0.21999996900558472,
+      "flag_bars": 8,
+      "flag_range": 0.06499999761581421,
+      "pullback_from_pole_high_pct": 6.960782480441495,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.4487519541074523
+    }
+  ]
+}

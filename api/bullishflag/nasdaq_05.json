@@ -1,0 +1,62 @@
+{
+  "updated_utc": "2026-01-15T04:13:02.609096+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 2,
+  "data": [
+    {
+      "ticker": "RPTX",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 2.5999999046325684,
+      "sma20": 2.4527499794960024,
+      "sma50": 2.19010000705719,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 19.5348753137422,
+      "pole_high": 2.6600000858306885,
+      "pole_range": 0.5199999809265137,
+      "flag_bars": 8,
+      "flag_range": 0.08500003814697266,
+      "pullback_from_pole_high_pct": 2.255645836920442,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.9524257903522333
+    },
+    {
+      "ticker": "PPSI",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 4.739999771118164,
+      "sma20": 4.510000050067902,
+      "sma50": 4.173800020217896,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 29.5580167261835,
+      "pole_high": 4.980000019073486,
+      "pole_range": 1.3600001335144043,
+      "flag_bars": 8,
+      "flag_range": 0.6960000991821289,
+      "pullback_from_pole_high_pct": 4.819282068998336,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.1470587857179337
+    }
+  ]
+}

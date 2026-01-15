@@ -1,0 +1,40 @@
+{
+  "updated_utc": "2026-01-15T04:10:11.665196+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 1,
+  "data": [
+    {
+      "ticker": "EPAC",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 40.18000030517578,
+      "sma20": 39.41499977111816,
+      "sma50": 39.00159980773926,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 10.471934812035354,
+      "pole_high": 40.7599983215332,
+      "pole_range": 5.75,
+      "flag_bars": 8,
+      "flag_range": 2.229999542236328,
+      "pullback_from_pole_high_pct": 1.4229588818481704,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.4029004344099634
+    }
+  ]
+}

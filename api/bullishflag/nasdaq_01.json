@@ -1,0 +1,62 @@
+{
+  "updated_utc": "2026-01-15T04:10:11.935329+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 2,
+  "data": [
+    {
+      "ticker": "AXSM",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 177.00999450683594,
+      "sma20": 162.4525001525879,
+      "sma50": 151.72659942626953,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 21.55782479007228,
+      "pole_high": 184.39500427246094,
+      "pole_range": 38.51499938964844,
+      "flag_bars": 8,
+      "flag_range": 13.699996948242188,
+      "pullback_from_pole_high_pct": 4.004994492536769,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.407157507233217
+    },
+    {
+      "ticker": "CCCX",
+      "tf": "1d",
+      "bars_used": 134,
+      "close": 17.299999237060547,
+      "sma20": 16.673000049591064,
+      "sma50": 15.829500007629395,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 28.48575107642234,
+      "pole_high": 18.6200008392334,
+      "pole_range": 5.520000457763672,
+      "flag_bars": 8,
+      "flag_range": 3.3000011444091797,
+      "pullback_from_pole_high_pct": 7.089159735114153,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.0036229254993834
+    }
+  ]
+}
