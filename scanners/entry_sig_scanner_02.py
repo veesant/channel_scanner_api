@@ -477,9 +477,9 @@ def compute_ready_to_act(
       2) after the most recent pivot HH, price retraced (structure pullback)
       3) current close is above the second most recent pivot HH
 
-    Pullback is detected only when, after the most recent pivot HH, price CLOSES below the
-    second most recent pivot HH at least once, and then reclaims it (enforced by requiring
-    current close > second-last HH).
+    Pullback is detected only when, after the most recent pivot HH, price dips below the
+    second most recent pivot HH (using intraday Low) and then reclaims it (enforced by
+    requiring current close > second-last HH).
     """
 
     out: Dict[str, Optional[object]] = {
@@ -521,9 +521,8 @@ def compute_ready_to_act(
     if require_clean_trend and not clean_ok:
         return out
 
-    # 2) Pullback gate (CLOSE BELOW 2ND-LAST HH + RECLAIM)
-    # Require price to actually CLOSE below the second-last HH after the most recent HH.
-    # (Using Close avoids triggering on tiny wicks.)
+    # 2) Pullback gate (DIP BELOW 2ND-LAST HH + RECLAIM)
+    # Require price to actually DIP below the second-last HH after the most recent HH.
     # Reclaim is enforced later by requiring last_close > second_last_hh.
     pullback_ok = False
 
@@ -544,10 +543,11 @@ def compute_ready_to_act(
                     pullback_pct = (last_hh - min_close) / last_hh * 100.0
                     out["rta_pullback_pct_from_last_hh"] = pullback_pct
 
-                # Actual pullback condition: at least one bar CLOSED below the second-last HH.
-                # This matches the intent "dip below then reclaim" more reliably than using Low.
-                dipped = bool((w2["Close"] < second_last_hh).any())
-                pullback_ok = dipped
+                # Actual pullback condition: price dipped below the second-last HH
+                # (use intraday Low to capture real dips, not just closes).
+                min_low = safe_float(w2["Low"].min())
+                if min_low is not None:
+                    pullback_ok = bool(min_low < second_last_hh)
 
     out["rta_pullback_ok"] = bool(pullback_ok)
 
