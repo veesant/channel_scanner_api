@@ -8,7 +8,7 @@ on:
       mode:
         description: "What to run"
         required: true
-        default: "all"
+        default: "entry_only"
         type: choice
         options:
           - entry_only
@@ -402,7 +402,7 @@ jobs:
             os.makedirs(f"api/{tab}", exist_ok=True)
             merge_dir(tab)
           PY
-          
+
       # Publish to gh-pages without losing files when switching branches
       - name: Publish API JSON to gh-pages
         run: |
