@@ -62,20 +62,20 @@ jobs:
         if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'entry_only' }}
         run: |
           python scanners/entry_sig_scanner.py \
-            --tickers_file data/nasdaq100.txt \
+            --tickers_file data/nasdaq.txt \
             --use_range_levels_for_entry \
             --recent_hl_lookback_bars 20 --recent_hl_count 2 \
             --recent_hl_slope_min_pct_per_bar 0.02 \
             --out api/entry/nasdaq.json
 
-      - name: Run Entry Signal Russel
+      - name: Run Entry Signal NYSE
         if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'entry_only' }}
         run: |
           python scanners/entry_sig_scanner.py \
-            --tickers_file data/russel.txt \
+            --tickers_file data/nyse.txt \
             --recent_hl_lookback_bars 20 --recent_hl_count 2 \
             --recent_hl_slope_min_pct_per_bar 0.02 \
-            --out api/entry/russel.json
+            --out api/entry/nyse.json
 
       # --------------------
       # Correction Watchlist tab
@@ -94,19 +94,19 @@ jobs:
         if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'corr_wl' }}
         run: |
           python scanners/correction_watchlist_scanner.py \
-            --tickers_file data/nasdaq100.txt \
+            --tickers_file data/nasdaq.txt \
             --tf 1d --pivot_strength 2 --min_hh 3 --min_hl 3 --min_pullback_pct 3 \
             --corr_bars_min 3 --corr_bars_max 12 --only_watchlist \
             --out api/corrwl/nasdaq.json
 
-      - name: Run Correction Watchlist Russel
+      - name: Run Correction Watchlist NYSE
         if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'corr_wl' }}
         run: |
           python scanners/correction_watchlist_scanner.py \
-            --tickers_file data/russel.txt \
+            --tickers_file data/nyse.txt \
             --tf 1d --pivot_strength 2 --min_hh 3 --min_hl 3 --min_pullback_pct 3 \
             --corr_bars_min 3 --corr_bars_max 12 --only_watchlist \
-            --out api/corrwl/russel.json
+            --out api/corrwl/nyse.json
 
       # --------------------
       # Sideways to UP trend
@@ -127,23 +127,23 @@ jobs:
         if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'sideways' }}
         run: |
           python scanners/side_to_up_scanner.py \
-            --tickers_file data/nasdaq100.txt \
+            --tickers_file data/nasdaq.txt \
             --only_in_channel \
             --sideways_threshold_pct 10 \
             --prior_trend_weeks 20 \
             --recent_trend_weeks 6 \
             --out api/sidetoup/nasdaq.json
 
-      - name: Run Sideways scan (Russel)
+      - name: Run Sideways scan (NYSE)
         if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'sideways' }}
         run: |
           python scanners/side_to_up_scanner.py \
-            --tickers_file data/russel.txt \
+            --tickers_file data/nyse.txt \
             --only_in_channel \
             --sideways_threshold_pct 10 \
             --prior_trend_weeks 20 \
             --recent_trend_weeks 6 \
-            --out api/sidetoup/russel.json
+            --out api/sidetoup/nyse.json
 
       # --------------------
       # Down to UP trend
@@ -164,23 +164,23 @@ jobs:
         if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'downtoup' }}
         run: |
           python scanners/down_to_up_scanner.py \
-            --tickers_file data/nasdaq100.txt \
+            --tickers_file data/nasdaq.txt \
             --pivot_strength 1 \
             --near_resistance_pct 6 \
             --corr_max_pct 12 \
             --n_down 40 \
             --out api/downtoup/nasdaq.json
 
-      - name: Run reversal scanner - Russel
+      - name: Run reversal scanner - NYSE
         if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'downtoup' }}
         run: |
           python scanners/down_to_up_scanner.py \
-            --tickers_file data/russel.txt \
+            --tickers_file data/nyse.txt \
             --pivot_strength 1 \
             --near_resistance_pct 6 \
             --corr_max_pct 12 \
             --n_down 40 \
-            --out api/downtoup/russel.json
+            --out api/downtoup/nyse.json
 
       # --------------------
       # Bullish Flag
@@ -197,15 +197,15 @@ jobs:
         if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'bullflag' }}
         run: |
           python scanners/bull_flag_scanner.py \
-            --tickers_file data/nasdaq100.txt \
+            --tickers_file data/nasdaq.txt \
             --out api/bullishflag/nasdaq.json
 
-      - name: Run Bullish flag - Russel
+      - name: Run Bullish flag - NYSE
         if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'bullflag' }}
         run: |
           python scanners/bull_flag_scanner.py \
-            --tickers_file data/russel.txt \
-            --out api/bullishflag/russel.json
+            --tickers_file data/nyse.txt \
+            --out api/bullishflag/nyse.json
 
       # --------------------
       # Catch-all tab
@@ -222,15 +222,15 @@ jobs:
         if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'catchall' }}
         run: |
           python scanners/catchall_scanner.py \
-            --tickers_file data/nasdaq100.txt \
+            --tickers_file data/nasdaq.txt \
             --out api/catchall/nasdaq.json
 
-      - name: Run Catchall - Russel
+      - name: Run Catchall - NYSE
         if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'catchall' }}
         run: |
           python scanners/catchall_scanner.py \
-            --tickers_file data/russel.txt \
-            --out api/catchall/russel.json
+            --tickers_file data/nyse.txt \
+            --out api/catchall/nyse.json
 
       # -----------------------------
       # Commit & Push (run when something ran)
