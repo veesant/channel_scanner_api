@@ -25,14 +25,6 @@ permissions:
 env:
   PYTHON_VERSION: "3.11"
 
-# Helper: common matrix definition pattern
-# - nifty50 is single file
-# - nasdaq/nyse are sharded into 6
-#
-# Output:
-# - shard outputs: api/<tab>/nasdaq_01.json etc
-# - merged outputs: api/<tab>/nasdaq.json + api/<tab>/nyse.json
-
 jobs:
   # -------------------------
   # ENTRY SIGNALS
@@ -78,11 +70,10 @@ jobs:
             --recent_hl_slope_min_pct_per_bar 0.02 \
             --out api/entry/${{ matrix.market.out }}.json
 
-      # Upload shard outputs so publish job can merge them
       - uses: actions/upload-artifact@v4
         with:
-          name: entry-api
-          path: api/entry/*.json
+          name: entry-api-${{ matrix.market.out }}
+          path: api/entry/${{ matrix.market.out }}.json
           if-no-files-found: error
 
   # -------------------------
@@ -135,8 +126,8 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: corrwl-api
-          path: api/corrwl/*.json
+          name: corrwl-api-${{ matrix.market.out }}
+          path: api/corrwl/${{ matrix.market.out }}.json
           if-no-files-found: error
 
   # -------------------------
@@ -185,8 +176,8 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: sidetoup-api
-          path: api/sidetoup/*.json
+          name: sidetoup-api-${{ matrix.market.out }}
+          path: api/sidetoup/${{ matrix.market.out }}.json
           if-no-files-found: error
 
   # -------------------------
@@ -235,8 +226,8 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: downtoup-api
-          path: api/downtoup/*.json
+          name: downtoup-api-${{ matrix.market.out }}
+          path: api/downtoup/${{ matrix.market.out }}.json
           if-no-files-found: error
 
   # -------------------------
@@ -281,8 +272,8 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: bullishflag-api
-          path: api/bullishflag/*.json
+          name: bullishflag-api-${{ matrix.market.out }}
+          path: api/bullishflag/${{ matrix.market.out }}.json
           if-no-files-found: error
 
   # -------------------------
@@ -327,8 +318,8 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: catchall-api
-          path: api/catchall/*.json
+          name: catchall-api-${{ matrix.market.out }}
+          path: api/catchall/${{ matrix.market.out }}.json
           if-no-files-found: error
 
   # -------------------------
@@ -341,31 +332,42 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Download artifacts produced by matrix jobs
+      # Download ALL artifacts produced by matrix jobs (pattern + merge)
       - uses: actions/download-artifact@v4
         with:
-          name: entry-api
+          pattern: entry-api-*
           path: api/entry
+          merge-multiple: true
+
       - uses: actions/download-artifact@v4
         with:
-          name: corrwl-api
+          pattern: corrwl-api-*
           path: api/corrwl
+          merge-multiple: true
+
       - uses: actions/download-artifact@v4
         with:
-          name: sidetoup-api
+          pattern: sidetoup-api-*
           path: api/sidetoup
+          merge-multiple: true
+
       - uses: actions/download-artifact@v4
         with:
-          name: downtoup-api
+          pattern: downtoup-api-*
           path: api/downtoup
+          merge-multiple: true
+
       - uses: actions/download-artifact@v4
         with:
-          name: bullishflag-api
+          pattern: bullishflag-api-*
           path: api/bullishflag
+          merge-multiple: true
+
       - uses: actions/download-artifact@v4
         with:
-          name: catchall-api
+          pattern: catchall-api-*
           path: api/catchall
+          merge-multiple: true
 
       # Merge sharded outputs -> stable filenames (nasdaq.json / nyse.json)
       - name: Merge shard outputs
@@ -374,33 +376,29 @@ jobs:
           import json, glob, os
           from collections import defaultdict
 
-          def merge_dir(tab):
-            def merge(pattern, out_file):
-              files = sorted(glob.glob(pattern))
-              if not files:
-                return
-              merged = {"meta": {"merged_from": files}, "counts": defaultdict(int), "data": []}
-              for f in files:
-                with open(f, "r", encoding="utf-8") as r:
-                  obj = json.load(r)
-                if isinstance(obj, dict):
-                  merged["data"].extend(obj.get("data", []) or [])
-                  counts = obj.get("counts", {}) or {}
-                  for k, v in counts.items():
-                    if isinstance(v, int):
-                      merged["counts"][k] += v
-              merged["counts"] = dict(merged["counts"])
-              with open(out_file, "w", encoding="utf-8") as w:
-                json.dump(merged, w, ensure_ascii=False)
-              print("Wrote", out_file, "from", len(files), "files")
-
-            # Only merge if shards exist
-            merge(f"api/{tab}/nasdaq_*.json", f"api/{tab}/nasdaq.json")
-            merge(f"api/{tab}/nyse_*.json", f"api/{tab}/nyse.json")
+          def merge(pattern, out_file):
+            files = sorted(glob.glob(pattern))
+            if not files:
+              return
+            merged = {"meta": {"merged_from": files}, "counts": defaultdict(int), "data": []}
+            for f in files:
+              with open(f, "r", encoding="utf-8") as r:
+                obj = json.load(r)
+              if isinstance(obj, dict):
+                merged["data"].extend(obj.get("data", []) or [])
+                counts = obj.get("counts", {}) or {}
+                for k, v in counts.items():
+                  if isinstance(v, int):
+                    merged["counts"][k] += v
+            merged["counts"] = dict(merged["counts"])
+            with open(out_file, "w", encoding="utf-8") as w:
+              json.dump(merged, w, ensure_ascii=False)
+            print("Wrote", out_file, "from", len(files), "files")
 
           for tab in ["entry", "corrwl", "sidetoup", "downtoup", "bullishflag", "catchall"]:
             os.makedirs(f"api/{tab}", exist_ok=True)
-            merge_dir(tab)
+            merge(f"api/{tab}/nasdaq_*.json", f"api/{tab}/nasdaq.json")
+            merge(f"api/{tab}/nyse_*.json", f"api/{tab}/nyse.json")
           PY
 
       # Publish to gh-pages without losing files when switching branches
