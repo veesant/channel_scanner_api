@@ -244,6 +244,32 @@ def max_drawdown_pct(close: np.ndarray) -> float:
 
 
 # -----------------------------
+# ADDED: Trend label over last N bars (default: 10)
+#   - purely additive output field; does NOT change any existing logic
+# -----------------------------
+
+def trend_label_last_n_bars(df: pd.DataFrame, n: int = 10) -> Optional[str]:
+    """Return 'uptrend' or 'downtrend' based on close slope over last n bars.
+
+    Uses a simple linear regression slope on Close. If slope is 0 or
+    insufficient data, returns None.
+    """
+    if df is None or df.empty or n <= 1:
+        return None
+
+    w = df.tail(n)
+    if len(w) < 3:
+        return None
+
+    slope = linear_slope(w["Close"].values)
+    if slope > 0:
+        return "uptrend"
+    if slope < 0:
+        return "downtrend"
+    return None
+
+
+# -----------------------------
 # Clean HH/HL uptrend definition (structure gate)
 # -----------------------------
 
@@ -678,9 +704,15 @@ def scan_one(ticker: str, data: pd.DataFrame, args: argparse.Namespace) -> Optio
 
     last_date = str(df.index[-1].date()) if len(df.index) else None
 
+    # ADDED: Trend label in the last 10 bars (output only)
+    trend_last_10_bars = trend_label_last_n_bars(df, n=10)
+
     out = {
         "ticker": ticker,
         "last_date": last_date,
+
+        # Trend direction over the last 10 bars (output only)
+        "trend_last_10_bars": trend_last_10_bars,
 
         "last_open": last_open,
         "last_high": last_high,
