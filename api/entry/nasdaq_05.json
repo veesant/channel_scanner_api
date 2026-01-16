@@ -20,7 +20,7 @@
     "recent_hl_allow_equal_lows": false,
     "rta_pullback_min_pct": 2.0,
     "rta_pullback_lookback_bars": 20,
-    "lastUpdatedTs": "2026-01-16T03:47:17.184867+00:00"
+    "lastUpdatedTs": "2026-01-16T13:59:08.559494+00:00"
   },
   "count": 520,
   "count_clean_trend": 4,
@@ -31,6 +31,7 @@
     {
       "ticker": "SBC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 4.460000038146973,
       "last_high": 4.525000095367432,
       "last_low": 4.420000076293945,
@@ -98,6 +99,7 @@
     {
       "ticker": "SEIC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 85.75,
       "last_high": 86.87999725341797,
       "last_low": 85.69999694824219,
@@ -159,6 +161,7 @@
     {
       "ticker": "PHAR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 18.399999618530273,
       "last_high": 18.459999084472656,
       "last_low": 18.010000228881836,
@@ -226,6 +229,7 @@
     {
       "ticker": "PRAX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 300.32000732421875,
       "last_high": 305.67498779296875,
       "last_low": 294.2900085449219,
@@ -293,6 +297,7 @@
     {
       "ticker": "PRCH",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 8.949999809265137,
       "last_high": 9.180000305175781,
       "last_low": 8.720000267028809,
@@ -360,6 +365,7 @@
     {
       "ticker": "PRVA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 22.829999923706055,
       "last_high": 24.0,
       "last_low": 22.59000015258789,
@@ -427,6 +433,7 @@
     {
       "ticker": "SEAT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 6.309999942779541,
       "last_high": 6.730000019073486,
       "last_low": 6.130000114440918,
@@ -494,6 +501,7 @@
     {
       "ticker": "QH",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.0099999904632568,
       "last_high": 1.0399999618530273,
       "last_low": 0.8799999952316284,
@@ -561,6 +569,7 @@
     {
       "ticker": "POLA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.5,
       "last_high": 1.5099999904632568,
       "last_low": 1.309999942779541,
@@ -628,6 +637,7 @@
     {
       "ticker": "SMTK",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.100000023841858,
       "last_high": 1.25,
       "last_low": 1.0099999904632568,
@@ -695,6 +705,7 @@
     {
       "ticker": "RTAC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 10.770000457763672,
       "last_high": 10.779000282287598,
       "last_low": 10.614999771118164,
@@ -762,6 +773,7 @@
     {
       "ticker": "RFAI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.75,
       "last_high": 10.75,
       "last_low": 10.75,
@@ -829,6 +841,7 @@
     {
       "ticker": "SNTG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.909999966621399,
       "last_high": 2.3299999237060547,
       "last_low": 1.8799999952316284,
@@ -896,6 +909,7 @@
     {
       "ticker": "SDGR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 18.34000015258789,
       "last_high": 18.34000015258789,
       "last_low": 17.149999618530273,
@@ -963,6 +977,7 @@
     {
       "ticker": "PHOE",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 14.220000267028809,
       "last_high": 14.220000267028809,
       "last_low": 14.220000267028809,
@@ -1030,6 +1045,7 @@
     {
       "ticker": "SOFI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 26.809999465942383,
       "last_high": 27.329999923706055,
       "last_low": 26.209999084472656,
@@ -1097,6 +1113,7 @@
     {
       "ticker": "OWLS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 6.510000228881836,
       "last_high": 6.610000133514404,
       "last_low": 6.25,
@@ -1164,6 +1181,7 @@
     {
       "ticker": "RVSB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 5.090000152587891,
       "last_high": 5.230000019073486,
       "last_low": 5.079999923706055,
@@ -1231,6 +1249,7 @@
     {
       "ticker": "PCB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 22.06999969482422,
       "last_high": 22.739999771118164,
       "last_low": 22.06999969482422,
@@ -1298,6 +1317,7 @@
     {
       "ticker": "PMEC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 0.9490000009536743,
       "last_high": 1.159999966621399,
       "last_low": 0.9490000009536743,
@@ -1365,6 +1385,7 @@
     {
       "ticker": "PBHC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 14.229999542236328,
       "last_high": 14.350000381469727,
       "last_low": 14.199999809265137,
@@ -1432,6 +1453,7 @@
     {
       "ticker": "RNW",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 5.460000038146973,
       "last_high": 5.5,
       "last_low": 5.394999980926514,
@@ -1499,6 +1521,7 @@
     {
       "ticker": "RDI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.0700000524520874,
       "last_high": 1.1200000047683716,
       "last_low": 1.0700000524520874,
@@ -1566,6 +1589,7 @@
     {
       "ticker": "PNTG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 28.84000015258789,
       "last_high": 30.15999984741211,
       "last_low": 28.674999237060547,
@@ -1633,6 +1657,7 @@
     {
       "ticker": "PTLE",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 0.11100000143051147,
       "last_high": 0.11100000143051147,
       "last_low": 0.10499999672174454,
@@ -1700,6 +1725,7 @@
     {
       "ticker": "PRPO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 24.719999313354492,
       "last_high": 25.540000915527344,
       "last_low": 23.6299991607666,
@@ -1767,6 +1793,7 @@
     {
       "ticker": "RUN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 18.520000457763672,
       "last_high": 19.530000686645508,
       "last_low": 18.200000762939453,
@@ -1834,6 +1861,7 @@
     {
       "ticker": "RDWR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 24.239999771118164,
       "last_high": 24.860000610351562,
       "last_low": 24.030000686645508,
@@ -1901,6 +1929,7 @@
     {
       "ticker": "PHUN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.9600000381469727,
       "last_high": 1.9600000381469727,
       "last_low": 1.909999966621399,
@@ -1968,6 +1997,7 @@
     {
       "ticker": "SHEN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 11.59000015258789,
       "last_high": 11.6899995803833,
       "last_low": 11.449999809265137,
@@ -2035,6 +2065,7 @@
     {
       "ticker": "SIEB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 3.240000009536743,
       "last_high": 3.240000009536743,
       "last_low": 3.059999942779541,
@@ -2102,6 +2133,7 @@
     {
       "ticker": "PAHC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 39.869998931884766,
       "last_high": 40.1150016784668,
       "last_low": 39.27000045776367,
@@ -2169,6 +2201,7 @@
     {
       "ticker": "RDIB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 11.479999542236328,
       "last_high": 11.479999542236328,
       "last_low": 11.479999542236328,
@@ -2236,6 +2269,7 @@
     {
       "ticker": "PULM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 2.3499999046325684,
       "last_high": 2.700000047683716,
       "last_low": 2.3499999046325684,
@@ -2303,6 +2337,7 @@
     {
       "ticker": "REE",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 0.7829999923706055,
       "last_high": 0.8080000281333923,
       "last_low": 0.7149999737739563,
@@ -2370,6 +2405,7 @@
     {
       "ticker": "SLNG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 4.599999904632568,
       "last_high": 4.71999979019165,
       "last_low": 4.510000228881836,
@@ -2437,6 +2473,7 @@
     {
       "ticker": "PCVX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 48.2400016784668,
       "last_high": 48.904998779296875,
       "last_low": 46.880001068115234,
@@ -2504,6 +2541,7 @@
     {
       "ticker": "SNGX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.399999976158142,
       "last_high": 1.399999976158142,
       "last_low": 1.3300000429153442,
@@ -2571,6 +2609,7 @@
     {
       "ticker": "SENEA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 116.5,
       "last_high": 119.22000122070312,
       "last_low": 116.5,
@@ -2638,6 +2677,7 @@
     {
       "ticker": "OSBC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 20.450000762939453,
       "last_high": 21.100000381469727,
       "last_low": 20.450000762939453,
@@ -2705,6 +2745,7 @@
     {
       "ticker": "PKOH",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 22.420000076293945,
       "last_high": 23.3799991607666,
       "last_low": 22.420000076293945,
@@ -2772,6 +2813,7 @@
     {
       "ticker": "OSIS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 288.0799865722656,
       "last_high": 293.2200012207031,
       "last_low": 284.9599914550781,
@@ -2839,6 +2881,7 @@
     {
       "ticker": "PSIG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 4.300000190734863,
       "last_high": 4.373000144958496,
       "last_low": 4.300000190734863,
@@ -2906,6 +2949,7 @@
     {
       "ticker": "SBLK",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 20.479999542236328,
       "last_high": 20.899999618530273,
       "last_low": 20.219999313354492,
@@ -2973,6 +3017,7 @@
     {
       "ticker": "ROKU",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 107.55999755859375,
       "last_high": 108.31999969482422,
       "last_low": 103.93000030517578,
@@ -3040,6 +3085,7 @@
     {
       "ticker": "SKYX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 2.2300000190734863,
       "last_high": 2.4000000953674316,
       "last_low": 2.180000066757202,
@@ -3107,6 +3153,7 @@
     {
       "ticker": "QSI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.2899999618530273,
       "last_high": 1.2999999523162842,
       "last_low": 1.2300000190734863,
@@ -3174,6 +3221,7 @@
     {
       "ticker": "PROP",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 2.0,
       "last_high": 2.009000062942505,
       "last_low": 1.809999942779541,
@@ -3241,6 +3289,7 @@
     {
       "ticker": "PXLW",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 6.829999923706055,
       "last_high": 7.150000095367432,
       "last_low": 6.659999847412109,
@@ -3308,6 +3357,7 @@
     {
       "ticker": "PWP",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 20.170000076293945,
       "last_high": 21.59000015258789,
       "last_low": 20.170000076293945,
@@ -3375,6 +3425,7 @@
     {
       "ticker": "PURR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.8499999046325684,
       "last_high": 3.8499999046325684,
       "last_low": 3.5899999141693115,
@@ -3442,6 +3493,7 @@
     {
       "ticker": "SEDG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 35.0,
       "last_high": 35.45399856567383,
       "last_low": 33.72999954223633,
@@ -3509,6 +3561,7 @@
     {
       "ticker": "QUBT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 12.975000381469727,
       "last_high": 13.307000160217285,
       "last_low": 12.15999984741211,
@@ -3576,6 +3629,7 @@
     {
       "ticker": "SANM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 169.8699951171875,
       "last_high": 176.4499969482422,
       "last_low": 169.55999755859375,
@@ -3643,6 +3697,7 @@
     {
       "ticker": "SNEX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 100.95999908447266,
       "last_high": 106.0,
       "last_low": 100.95999908447266,
@@ -3710,6 +3765,7 @@
     {
       "ticker": "PLUT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 3.180000066757202,
       "last_high": 3.3299999237060547,
       "last_low": 3.0999999046325684,
@@ -3777,6 +3833,7 @@
     {
       "ticker": "PSNL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 9.40999984741211,
       "last_high": 9.817999839782715,
       "last_low": 9.350000381469727,
@@ -3844,6 +3901,7 @@
     {
       "ticker": "RDNW",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 5.920000076293945,
       "last_high": 6.019999980926514,
       "last_low": 5.909999847412109,
@@ -3911,6 +3969,7 @@
     {
       "ticker": "RPTX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 2.5899999141693115,
       "last_high": 2.6040000915527344,
       "last_low": 2.559999942779541,
@@ -3978,6 +4037,7 @@
     {
       "ticker": "SMTC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 76.31999969482422,
       "last_high": 78.19999694824219,
       "last_low": 76.02999877929688,
@@ -4045,6 +4105,7 @@
     {
       "ticker": "RCKT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.940000057220459,
       "last_high": 3.9600000381469727,
       "last_low": 3.684999942779541,
@@ -4112,6 +4173,7 @@
     {
       "ticker": "SBLX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.0799999237060547,
       "last_high": 3.359999895095825,
       "last_low": 3.009999990463257,
@@ -4179,6 +4241,7 @@
     {
       "ticker": "PVLA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 106.2699966430664,
       "last_high": 106.2699966430664,
       "last_low": 102.0999984741211,
@@ -4246,6 +4309,7 @@
     {
       "ticker": "SHLS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 9.380000114440918,
       "last_high": 9.859999656677246,
       "last_low": 9.34000015258789,
@@ -4313,6 +4377,7 @@
     {
       "ticker": "OVID",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.649999976158142,
       "last_high": 1.649999976158142,
       "last_low": 1.5750000476837158,
@@ -4380,6 +4445,7 @@
     {
       "ticker": "REBN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.7899999618530273,
       "last_high": 1.9700000286102295,
       "last_low": 1.7100000381469727,
@@ -4447,6 +4513,7 @@
     {
       "ticker": "RARE",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 23.8700008392334,
       "last_high": 24.1200008392334,
       "last_low": 23.09000015258789,
@@ -4514,6 +4581,7 @@
     {
       "ticker": "SDST",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.7699999809265137,
       "last_high": 3.950000047683716,
       "last_low": 3.640000104904175,
@@ -4581,6 +4649,7 @@
     {
       "ticker": "PLPC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 241.42999267578125,
       "last_high": 248.50999450683594,
       "last_low": 241.42999267578125,
@@ -4648,6 +4717,7 @@
     {
       "ticker": "SCHL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 34.09000015258789,
       "last_high": 34.779998779296875,
       "last_low": 33.689998626708984,
@@ -4715,6 +4785,7 @@
     {
       "ticker": "RNXT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.0700000524520874,
       "last_high": 1.0700000524520874,
       "last_low": 1.0099999904632568,
@@ -4782,6 +4853,7 @@
     {
       "ticker": "PLAY",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 18.229999542236328,
       "last_high": 19.459999084472656,
       "last_low": 17.899999618530273,
@@ -4849,6 +4921,7 @@
     {
       "ticker": "PTEN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 7.059999942779541,
       "last_high": 7.179999828338623,
       "last_low": 7.0,
@@ -4916,6 +4989,7 @@
     {
       "ticker": "PACB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 2.3499999046325684,
       "last_high": 2.390000104904175,
       "last_low": 2.180000066757202,
@@ -4983,6 +5057,7 @@
     {
       "ticker": "OUST",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 28.149999618530273,
       "last_high": 28.56999969482422,
       "last_low": 26.600000381469727,
@@ -5050,6 +5125,7 @@
     {
       "ticker": "PBYI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 6.420000076293945,
       "last_high": 6.460000038146973,
       "last_low": 6.349999904632568,
@@ -5117,6 +5193,7 @@
     {
       "ticker": "PDFS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 33.619998931884766,
       "last_high": 35.41999816894531,
       "last_low": 33.61000061035156,
@@ -5184,6 +5261,7 @@
     {
       "ticker": "SAIA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 361.0,
       "last_high": 363.6000061035156,
       "last_low": 356.5799865722656,
@@ -5251,6 +5329,7 @@
     {
       "ticker": "POWL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 406.4200134277344,
       "last_high": 414.79998779296875,
       "last_low": 395.8999938964844,
@@ -5318,6 +5397,7 @@
     {
       "ticker": "QUIK",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 7.980000019073486,
       "last_high": 8.09000015258789,
       "last_low": 7.760000228881836,
@@ -5385,6 +5465,7 @@
     {
       "ticker": "PN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 0.8289999961853027,
       "last_high": 0.8299999833106995,
       "last_low": 0.8100000023841858,
@@ -5452,6 +5533,7 @@
     {
       "ticker": "PFSA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 0.08900000154972076,
       "last_high": 0.10199999809265137,
       "last_low": 0.08799999952316284,
@@ -5519,6 +5601,7 @@
     {
       "ticker": "PAMT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 12.239999771118164,
       "last_high": 12.859999656677246,
       "last_low": 12.050000190734863,
@@ -5586,6 +5669,7 @@
     {
       "ticker": "SOBR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.7799999713897705,
       "last_high": 1.8700000047683716,
       "last_low": 1.7480000257492065,
@@ -5653,6 +5737,7 @@
     {
       "ticker": "PSIX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 72.94000244140625,
       "last_high": 76.9000015258789,
       "last_low": 72.13999938964844,
@@ -5720,6 +5805,7 @@
     {
       "ticker": "RNAZ",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 8.885000228881836,
       "last_high": 9.15999984741211,
       "last_low": 8.550000190734863,
@@ -5787,6 +5873,7 @@
     {
       "ticker": "QCLS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 4.840000152587891,
       "last_high": 5.349999904632568,
       "last_low": 4.599999904632568,
@@ -5854,6 +5941,7 @@
     {
       "ticker": "PRTS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 0.5299999713897705,
       "last_high": 0.5400000214576721,
       "last_low": 0.5299999713897705,
@@ -5921,6 +6009,7 @@
     {
       "ticker": "RAIL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 11.359999656677246,
       "last_high": 11.479999542236328,
       "last_low": 11.109999656677246,
@@ -5988,6 +6077,7 @@
     {
       "ticker": "SLNH",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.7699999809265137,
       "last_high": 1.7999999523162842,
       "last_low": 1.5700000524520874,
@@ -6055,6 +6145,7 @@
     {
       "ticker": "SGML",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 16.149999618530273,
       "last_high": 16.489999771118164,
       "last_low": 13.87600040435791,
@@ -6122,6 +6213,7 @@
     {
       "ticker": "PCT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 11.460000038146973,
       "last_high": 11.725000381469727,
       "last_low": 11.09000015258789,
@@ -6189,6 +6281,7 @@
     {
       "ticker": "RYET",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.25,
       "last_high": 1.25,
       "last_low": 1.2000000476837158,
@@ -6256,6 +6349,7 @@
     {
       "ticker": "SERV",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 14.920000076293945,
       "last_high": 15.170000076293945,
       "last_low": 14.300999641418457,
@@ -6323,6 +6417,7 @@
     {
       "ticker": "PARK",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 16.399999618530273,
       "last_high": 16.399999618530273,
       "last_low": 14.765999794006348,
@@ -6390,6 +6485,7 @@
     {
       "ticker": "PDYN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 6.800000190734863,
       "last_high": 7.199999809265137,
       "last_low": 6.650000095367432,
@@ -6457,6 +6553,7 @@
     {
       "ticker": "SELX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 0.8999999761581421,
       "last_high": 0.9399999976158142,
       "last_low": 0.8659999966621399,
@@ -6524,6 +6621,7 @@
     {
       "ticker": "RPGL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 0.38999998569488525,
       "last_high": 0.44200000166893005,
       "last_low": 0.3889999985694885,
@@ -6591,6 +6689,7 @@
     {
       "ticker": "SATS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 129.74000549316406,
       "last_high": 132.25,
       "last_low": 122.0,
@@ -6658,6 +6757,7 @@
     {
       "ticker": "RZLV",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 4.099999904632568,
       "last_high": 4.809999942779541,
       "last_low": 4.079999923706055,
@@ -6725,6 +6825,7 @@
     {
       "ticker": "POET",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 8.300000190734863,
       "last_high": 8.729999542236328,
       "last_low": 8.15999984741211,
@@ -6792,6 +6893,7 @@
     {
       "ticker": "RENT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 8.6899995803833,
       "last_high": 9.210000038146973,
       "last_low": 8.5,
@@ -6859,6 +6961,7 @@
     {
       "ticker": "SLGL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 69.33000183105469,
       "last_high": 71.98999786376953,
       "last_low": 64.75,
@@ -6926,6 +7029,7 @@
     {
       "ticker": "RAY",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.069999933242798,
       "last_high": 3.2200000286102295,
       "last_low": 2.9000000953674316,
@@ -6993,6 +7097,7 @@
     {
       "ticker": "SNCR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 8.699999809265137,
       "last_high": 8.729999542236328,
       "last_low": 8.670000076293945,
@@ -7060,6 +7165,7 @@
     {
       "ticker": "RCAT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 13.319999694824219,
       "last_high": 14.649999618530273,
       "last_low": 13.029999732971191,
@@ -7127,6 +7233,7 @@
     {
       "ticker": "PETS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.490000009536743,
       "last_high": 3.490000009536743,
       "last_low": 3.390000104904175,
@@ -7194,6 +7301,7 @@
     {
       "ticker": "SATL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.6600000858306885,
       "last_high": 3.8299999237060547,
       "last_low": 3.440000057220459,
@@ -7261,6 +7369,7 @@
     {
       "ticker": "SLS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 4.019999980926514,
       "last_high": 4.079999923706055,
       "last_low": 3.700000047683716,
@@ -7328,6 +7437,7 @@
     {
       "ticker": "PLRZ",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 14.619999885559082,
       "last_high": 15.800000190734863,
       "last_low": 13.75,
@@ -7395,6 +7505,7 @@
     {
       "ticker": "OST",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.6950000524520874,
       "last_high": 1.6950000524520874,
       "last_low": 1.6950000524520874,
@@ -7456,6 +7567,7 @@
     {
       "ticker": "PC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 9.399999618530273,
       "last_high": 9.399999618530273,
       "last_low": 9.399999618530273,
@@ -7517,6 +7629,7 @@
     {
       "ticker": "PLTS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 17.5,
       "last_high": 17.5,
       "last_low": 17.5,
@@ -7578,6 +7691,7 @@
     {
       "ticker": "PRQR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.649999976158142,
       "last_high": 1.690000057220459,
       "last_low": 1.5800000429153442,
@@ -7645,6 +7759,7 @@
     {
       "ticker": "PTNM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.390000343322754,
       "last_high": 10.390000343322754,
       "last_low": 10.390000343322754,
@@ -7706,6 +7821,7 @@
     {
       "ticker": "QMMM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 119.4000015258789,
       "last_high": 119.4000015258789,
       "last_low": 119.4000015258789,
@@ -7767,6 +7883,7 @@
     {
       "ticker": "RDGT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 2.740000009536743,
       "last_high": 2.9200000762939453,
       "last_low": 2.359999895095825,
@@ -7828,6 +7945,7 @@
     {
       "ticker": "SDM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.850000023841858,
       "last_high": 1.850000023841858,
       "last_low": 1.850000023841858,
@@ -7889,6 +8007,7 @@
     {
       "ticker": "QCOM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 166.4499969482422,
       "last_high": 166.5,
       "last_low": 161.02999877929688,
@@ -7956,6 +8075,7 @@
     {
       "ticker": "PEGA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 56.189998626708984,
       "last_high": 56.63999938964844,
       "last_low": 52.880001068115234,
@@ -8023,6 +8143,7 @@
     {
       "ticker": "RUM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 6.269999980926514,
       "last_high": 6.269999980926514,
       "last_low": 6.019999980926514,
@@ -8084,6 +8205,7 @@
     {
       "ticker": "OTEX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 32.15999984741211,
       "last_high": 32.279998779296875,
       "last_low": 30.829999923706055,
@@ -8145,6 +8267,7 @@
     {
       "ticker": "ROP",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 423.739990234375,
       "last_high": 424.04998779296875,
       "last_low": 412.3299865722656,
@@ -8206,6 +8329,7 @@
     {
       "ticker": "PUBM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 7.949999809265137,
       "last_high": 8.0,
       "last_low": 7.801000118255615,
@@ -8267,6 +8391,7 @@
     {
       "ticker": "PSKY",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 12.069999694824219,
       "last_high": 12.119999885559082,
       "last_low": 11.770000457763672,
@@ -8328,6 +8453,7 @@
     {
       "ticker": "RAIN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 3.5,
       "last_high": 3.549999952316284,
       "last_low": 3.309999942779541,
@@ -8389,6 +8515,7 @@
     {
       "ticker": "RPD",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 13.539999961853027,
       "last_high": 13.539999961853027,
       "last_low": 13.220000267028809,
@@ -8456,6 +8583,7 @@
     {
       "ticker": "SNDL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.6200000047683716,
       "last_high": 1.6399999856948853,
       "last_low": 1.6100000143051147,
@@ -8523,6 +8651,7 @@
     {
       "ticker": "PCRX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 22.350000381469727,
       "last_high": 22.559999465942383,
       "last_low": 20.5,
@@ -8590,6 +8719,7 @@
     {
       "ticker": "PEPG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 5.170000076293945,
       "last_high": 5.295000076293945,
       "last_low": 4.949999809265137,
@@ -8651,6 +8781,7 @@
     {
       "ticker": "PAYS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 4.840000152587891,
       "last_high": 4.889999866485596,
       "last_low": 4.650000095367432,
@@ -8712,6 +8843,7 @@
     {
       "ticker": "RDVT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 51.38999938964844,
       "last_high": 52.5,
       "last_low": 50.43000030517578,
@@ -8773,6 +8905,7 @@
     {
       "ticker": "PCTY",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 140.8300018310547,
       "last_high": 142.41000366210938,
       "last_low": 138.80999755859375,
@@ -8834,6 +8967,7 @@
     {
       "ticker": "RDAC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 7.489999771118164,
       "last_high": 8.0,
       "last_low": 7.489999771118164,
@@ -8895,6 +9029,7 @@
     {
       "ticker": "PBM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 0.7089999914169312,
       "last_high": 0.7089999914169312,
       "last_low": 0.6499999761581421,
@@ -8962,6 +9097,7 @@
     {
       "ticker": "SCLX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 11.9399995803833,
       "last_high": 11.9399995803833,
       "last_low": 11.100000381469727,
@@ -9023,6 +9159,7 @@
     {
       "ticker": "PPCB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 0.43799999356269836,
       "last_high": 0.43799999356269836,
       "last_low": 0.3400000035762787,
@@ -9084,6 +9221,7 @@
     {
       "ticker": "REPL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 7.659999847412109,
       "last_high": 7.889999866485596,
       "last_low": 7.010000228881836,
@@ -9145,6 +9283,7 @@
     {
       "ticker": "RENX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 0.17299999296665192,
       "last_high": 0.1809999942779541,
       "last_low": 0.15700000524520874,
@@ -9212,6 +9351,7 @@
     {
       "ticker": "SGBX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.659999966621399,
       "last_high": 1.7400000095367432,
       "last_low": 1.5499999523162842,
@@ -9273,6 +9413,7 @@
     {
       "ticker": "PFAI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 2.0,
       "last_high": 2.2300000190734863,
       "last_low": 2.0,
@@ -9334,6 +9475,7 @@
     {
       "ticker": "RETO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.2699999809265137,
       "last_high": 1.409999966621399,
       "last_low": 1.1399999856948853,
@@ -9395,6 +9537,7 @@
     {
       "ticker": "PRHI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 0.6499999761581421,
       "last_high": 0.6660000085830688,
       "last_low": 0.6000000238418579,
@@ -9456,6 +9599,7 @@
     {
       "ticker": "PIII",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 3.0250000953674316,
       "last_high": 3.299999952316284,
       "last_low": 2.869999885559082,
@@ -9523,6 +9667,7 @@
     {
       "ticker": "SAFX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 0.12999999523162842,
       "last_high": 0.14100000262260437,
       "last_low": 0.11900000274181366,
@@ -9584,6 +9729,7 @@
     {
       "ticker": "RAYA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 3.319999933242798,
       "last_high": 4.199999809265137,
       "last_low": 3.240000009536743,
@@ -9645,6 +9791,7 @@
     {
       "ticker": "PTHL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 0.4230000078678131,
       "last_high": 1.090000033378601,
       "last_low": 0.39100000262260437,
@@ -9712,6 +9859,7 @@
     {
       "ticker": "PLTK",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 3.609999895095825,
       "last_high": 3.640000104904175,
       "last_low": 3.5299999713897705,
@@ -9773,6 +9921,7 @@
     {
       "ticker": "QRVO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 82.37999725341797,
       "last_high": 82.42500305175781,
       "last_low": 79.76000213623047,
@@ -9840,6 +9989,7 @@
     {
       "ticker": "RAAQ",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.279999732971191,
       "last_high": 10.399999618530273,
       "last_low": 10.220000267028809,
@@ -9901,6 +10051,7 @@
     {
       "ticker": "PACH",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.069999694824219,
       "last_high": 10.109999656677246,
       "last_low": 10.069999694824219,
@@ -9962,6 +10113,7 @@
     {
       "ticker": "PAYO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 5.309999942779541,
       "last_high": 5.420000076293945,
       "last_low": 5.264999866485596,
@@ -10023,6 +10175,7 @@
     {
       "ticker": "OYSE",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.109999656677246,
       "last_high": 10.109999656677246,
       "last_low": 10.109999656677246,
@@ -10084,6 +10237,7 @@
     {
       "ticker": "QUMS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.020000457763672,
       "last_high": 10.020000457763672,
       "last_low": 10.020000457763672,
@@ -10145,6 +10299,7 @@
     {
       "ticker": "RNGT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 9.979999542236328,
       "last_high": 9.979999542236328,
       "last_low": 9.970000267028809,
@@ -10212,6 +10367,7 @@
     {
       "ticker": "PCAP",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.180999755859375,
       "last_high": 10.1899995803833,
       "last_low": 10.170999526977539,
@@ -10273,6 +10429,7 @@
     {
       "ticker": "RANG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.4399995803833,
       "last_high": 10.470000267028809,
       "last_low": 10.4399995803833,
@@ -10334,6 +10491,7 @@
     {
       "ticker": "SOHO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 2.1500000953674316,
       "last_high": 2.1600000858306885,
       "last_low": 2.140000104904175,
@@ -10395,6 +10553,7 @@
     {
       "ticker": "SDHI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.270000457763672,
       "last_high": 10.270000457763672,
       "last_low": 10.270000457763672,
@@ -10462,6 +10621,7 @@
     {
       "ticker": "SOCA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.100000381469727,
       "last_high": 10.100000381469727,
       "last_low": 10.100000381469727,
@@ -10523,6 +10683,7 @@
     {
       "ticker": "PTC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 168.92999267578125,
       "last_high": 169.47999572753906,
       "last_low": 166.49000549316406,
@@ -10590,6 +10751,7 @@
     {
       "ticker": "SNWV",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 28.309999465942383,
       "last_high": 28.309999465942383,
       "last_low": 27.25,
@@ -10651,6 +10813,7 @@
     {
       "ticker": "PGAC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.390000343322754,
       "last_high": 10.390000343322754,
       "last_low": 10.390000343322754,
@@ -10712,6 +10875,7 @@
     {
       "ticker": "PYPL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 57.7400016784668,
       "last_high": 57.86199951171875,
       "last_low": 56.599998474121094,
@@ -10779,6 +10943,7 @@
     {
       "ticker": "OTGA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.050000190734863,
       "last_high": 10.050000190734863,
       "last_low": 10.039999961853027,
@@ -10840,6 +11005,7 @@
     {
       "ticker": "SIMA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.619999885559082,
       "last_high": 10.619999885559082,
       "last_low": 10.619999885559082,
@@ -10907,6 +11073,7 @@
     {
       "ticker": "POLE",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.550000190734863,
       "last_high": 10.550000190734863,
       "last_low": 10.550000190734863,
@@ -10968,6 +11135,7 @@
     {
       "ticker": "PLMK",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.482000350952148,
       "last_high": 10.482000350952148,
       "last_low": 10.460000038146973,
@@ -11029,6 +11197,7 @@
     {
       "ticker": "SABR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.2300000190734863,
       "last_high": 1.2799999713897705,
       "last_low": 1.2100000381469727,
@@ -11090,6 +11259,7 @@
     {
       "ticker": "PMVP",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.1399999856948853,
       "last_high": 1.149999976158142,
       "last_low": 1.1200000047683716,
@@ -11151,6 +11321,7 @@
     {
       "ticker": "RJET",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 18.049999237060547,
       "last_high": 18.93000030517578,
       "last_low": 17.510000228881836,
@@ -11212,6 +11383,7 @@
     {
       "ticker": "SNTI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.0800000429153442,
       "last_high": 1.0850000381469727,
       "last_low": 1.0499999523162842,
@@ -11273,6 +11445,7 @@
     {
       "ticker": "SGRY",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 15.449999809265137,
       "last_high": 16.010000228881836,
       "last_low": 15.329999923706055,
@@ -11340,6 +11513,7 @@
     {
       "ticker": "SIBN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 17.540000915527344,
       "last_high": 17.68000030517578,
       "last_low": 17.209999084472656,
@@ -11401,6 +11575,7 @@
     {
       "ticker": "SKYW",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 96.4800033569336,
       "last_high": 100.22000122070312,
       "last_low": 96.43000030517578,
@@ -11462,6 +11637,7 @@
     {
       "ticker": "QSEA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.25,
       "last_high": 10.25,
       "last_low": 10.25,
@@ -11523,6 +11699,7 @@
     {
       "ticker": "RLMD",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 3.869999885559082,
       "last_high": 3.9709999561309814,
       "last_low": 3.75,
@@ -11590,6 +11767,7 @@
     {
       "ticker": "PMTR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.390000343322754,
       "last_high": 10.420000076293945,
       "last_low": 10.34000015258789,
@@ -11651,6 +11829,7 @@
     {
       "ticker": "QS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 10.899999618530273,
       "last_high": 10.979999542236328,
       "last_low": 10.354999542236328,
@@ -11712,6 +11891,7 @@
     {
       "ticker": "PZZA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 37.43000030517578,
       "last_high": 38.47999954223633,
       "last_low": 36.91999816894531,
@@ -11779,6 +11959,7 @@
     {
       "ticker": "SKWD",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 45.470001220703125,
       "last_high": 46.72999954223633,
       "last_low": 45.439998626708984,
@@ -11840,6 +12021,7 @@
     {
       "ticker": "RIBB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.470000267028809,
       "last_high": 10.489999771118164,
       "last_low": 10.470000267028809,
@@ -11901,6 +12083,7 @@
     {
       "ticker": "PODD",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 282.0,
       "last_high": 287.8599853515625,
       "last_low": 279.8599853515625,
@@ -11968,6 +12151,7 @@
     {
       "ticker": "RIGL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 39.0,
       "last_high": 39.4900016784668,
       "last_low": 37.650001525878906,
@@ -12029,6 +12213,7 @@
     {
       "ticker": "SLDE",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 16.469999313354492,
       "last_high": 16.704999923706055,
       "last_low": 16.09000015258789,
@@ -12090,6 +12275,7 @@
     {
       "ticker": "RGEN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 162.05999755859375,
       "last_high": 165.02999877929688,
       "last_low": 158.8000030517578,
@@ -12151,6 +12337,7 @@
     {
       "ticker": "QLYS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 133.9600067138672,
       "last_high": 134.3300018310547,
       "last_low": 130.0800018310547,
@@ -12218,6 +12405,7 @@
     {
       "ticker": "OTLK",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 0.5370000004768372,
       "last_high": 0.5370000004768372,
       "last_low": 0.5099999904632568,
@@ -12285,6 +12473,7 @@
     {
       "ticker": "RMNI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.9200000762939453,
       "last_high": 3.940000057220459,
       "last_low": 3.809999942779541,
@@ -12346,6 +12535,7 @@
     {
       "ticker": "SGHT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 6.889999866485596,
       "last_high": 6.914999961853027,
       "last_low": 6.510000228881836,
@@ -12405,75 +12595,9 @@
       "metric_max_dd_ok": null
     },
     {
-      "ticker": "PECO",
-      "last_date": "2026-01-15",
-      "last_open": 35.040000915527344,
-      "last_high": 35.400001525878906,
-      "last_low": 35.029998779296875,
-      "last_close": 35.2599983215332,
-      "has_hh_hl": false,
-      "structure_bars": 35,
-      "min_pivots_per_side": 3,
-      "pivot_last_hh": 35.650001525878906,
-      "pivot_last_hl": 34.57500076293945,
-      "range_hh": 36.58000183105469,
-      "range_hl": 34.378742368962996,
-      "entry_level_source": "range",
-      "last_hl": 34.378742368962996,
-      "last_hh": 36.58000183105469,
-      "at_hl_zone": false,
-      "bounce_ok": false,
-      "momentum_ok": false,
-      "entry_signal": false,
-      "hl_touch_pct": 1.8943578661034175,
-      "close_vs_hl_pct": 2.5633746083911486,
-      "breakout_distance_pct": 3.608538664426375,
-      "hl_touch_pct_threshold": 100,
-      "bounce_min_pct_threshold": 0.3,
-      "sma_fast": 10,
-      "sma_slow": 20,
-      "sma_fast_last": 35.0629997253418,
-      "sma_slow_last": 35.48049964904785,
-      "sma_fast_gt_slow": false,
-      "metric_hh_chain_ok": 0.0,
-      "metric_hl_chain_ok": 0.0,
-      "recent_hl_uptrend": false,
-      "recent_hl_count_required": 2,
-      "recent_hl_lookback_bars": 20,
-      "recent_hl_pivots_found": 2,
-      "recent_hl_prices": [
-        35.5,
-        34.57500076293945
-      ],
-      "recent_hl_dates": [
-        "2025-12-23",
-        "2026-01-06"
-      ],
-      "recent_hl_chain_ok": false,
-      "recent_hl_slope": -0.11562490463256711,
-      "recent_hl_slope_pct_per_bar": -0.3344176488247662,
-      "recent_hl_slope_min_pct_per_bar": 0.02,
-      "ready_to_act": false,
-      "rta_second_last_hh": 36.290000915527344,
-      "rta_last_hh": 35.650001525878906,
-      "rta_pullback_ok": null,
-      "rta_pullback_pct_from_last_hh": null,
-      "rta_pullback_min_pct": 2.0,
-      "rta_pullback_lookback_bars": 20,
-      "metric_structure_high_pivots": null,
-      "metric_structure_low_pivots": null,
-      "metric_structure_points": null,
-      "metric_close_slope": null,
-      "metric_max_drawdown_pct": null,
-      "metric_sma_ok": null,
-      "metric_last_close": null,
-      "metric_last_sma_fast": null,
-      "metric_last_sma_slow": null,
-      "metric_max_dd_ok": null
-    },
-    {
       "ticker": "RNA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 72.5199966430664,
       "last_high": 72.69999694824219,
       "last_low": 72.41999816894531,
@@ -12535,6 +12659,7 @@
     {
       "ticker": "PAYX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 110.75,
       "last_high": 111.93000030517578,
       "last_low": 110.0,
@@ -12602,6 +12727,7 @@
     {
       "ticker": "SCNX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 0.5189999938011169,
       "last_high": 0.5400000214576721,
       "last_low": 0.5,
@@ -12669,6 +12795,7 @@
     {
       "ticker": "PGNY",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 26.0,
       "last_high": 26.149999618530273,
       "last_low": 24.260000228881836,
@@ -12736,6 +12863,7 @@
     {
       "ticker": "RXT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.0099999904632568,
       "last_high": 1.0199999809265137,
       "last_low": 0.9810000061988831,
@@ -12795,8 +12923,77 @@
       "metric_max_dd_ok": null
     },
     {
+      "ticker": "PECO",
+      "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
+      "last_open": 35.040000915527344,
+      "last_high": 35.400001525878906,
+      "last_low": 35.029998779296875,
+      "last_close": 35.2599983215332,
+      "has_hh_hl": false,
+      "structure_bars": 35,
+      "min_pivots_per_side": 3,
+      "pivot_last_hh": 35.54009133211463,
+      "pivot_last_hl": 34.46840445741959,
+      "range_hh": 36.467225177776484,
+      "range_hl": 34.27275111766371,
+      "entry_level_source": "range",
+      "last_hl": 34.27275111766371,
+      "last_hh": 36.467225177776484,
+      "at_hl_zone": false,
+      "bounce_ok": false,
+      "momentum_ok": false,
+      "entry_signal": false,
+      "hl_touch_pct": 2.209474398578089,
+      "close_vs_hl_pct": 2.8805601291828595,
+      "breakout_distance_pct": 3.3104434196956065,
+      "hl_touch_pct_threshold": 100,
+      "bounce_min_pct_threshold": 0.3,
+      "sma_fast": 10,
+      "sma_slow": 20,
+      "sma_fast_last": 34.965769577026364,
+      "sma_slow_last": 35.37654685974121,
+      "sma_fast_gt_slow": false,
+      "metric_hh_chain_ok": 0.0,
+      "metric_hl_chain_ok": 0.0,
+      "recent_hl_uptrend": false,
+      "recent_hl_count_required": 2,
+      "recent_hl_lookback_bars": 20,
+      "recent_hl_pivots_found": 2,
+      "recent_hl_prices": [
+        35.390551523333265,
+        34.46840445741959
+      ],
+      "recent_hl_dates": [
+        "2025-12-23",
+        "2026-01-06"
+      ],
+      "recent_hl_chain_ok": false,
+      "recent_hl_slope": -0.11526838323920874,
+      "recent_hl_slope_pct_per_bar": -0.3344175196203384,
+      "recent_hl_slope_min_pct_per_bar": 0.02,
+      "ready_to_act": false,
+      "rta_second_last_hh": 36.178117965529324,
+      "rta_last_hh": 35.54009133211463,
+      "rta_pullback_ok": null,
+      "rta_pullback_pct_from_last_hh": null,
+      "rta_pullback_min_pct": 2.0,
+      "rta_pullback_lookback_bars": 20,
+      "metric_structure_high_pivots": null,
+      "metric_structure_low_pivots": null,
+      "metric_structure_points": null,
+      "metric_close_slope": null,
+      "metric_max_drawdown_pct": null,
+      "metric_sma_ok": null,
+      "metric_last_close": null,
+      "metric_last_sma_fast": null,
+      "metric_last_sma_slow": null,
+      "metric_max_dd_ok": null
+    },
+    {
       "ticker": "RAPP",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 27.3700008392334,
       "last_high": 27.5,
       "last_low": 26.295000076293945,
@@ -12864,6 +13061,7 @@
     {
       "ticker": "SFBC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 43.7400016784668,
       "last_high": 43.900001525878906,
       "last_low": 43.7400016784668,
@@ -12931,6 +13129,7 @@
     {
       "ticker": "RVSN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 0.3070000112056732,
       "last_high": 0.3529999852180481,
       "last_low": 0.3070000112056732,
@@ -12998,6 +13197,7 @@
     {
       "ticker": "PBFS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 13.359999656677246,
       "last_high": 13.529999732971191,
       "last_low": 13.359999656677246,
@@ -13059,6 +13259,7 @@
     {
       "ticker": "PERI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 9.510000228881836,
       "last_high": 9.699999809265137,
       "last_low": 9.510000228881836,
@@ -13126,6 +13327,7 @@
     {
       "ticker": "SBFG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 21.649999618530273,
       "last_high": 22.110000610351562,
       "last_low": 20.670000076293945,
@@ -13187,6 +13389,7 @@
     {
       "ticker": "PRGS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 41.41999816894531,
       "last_high": 41.7400016784668,
       "last_low": 40.70000076293945,
@@ -13254,6 +13457,7 @@
     {
       "ticker": "RDCM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 12.779999732971191,
       "last_high": 13.029999732971191,
       "last_low": 12.649999618530273,
@@ -13321,6 +13525,7 @@
     {
       "ticker": "SHIP",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 9.420000076293945,
       "last_high": 9.479999542236328,
       "last_low": 9.270000457763672,
@@ -13388,6 +13593,7 @@
     {
       "ticker": "SMCI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 28.709999084472656,
       "last_high": 29.860000610351562,
       "last_low": 28.56999969482422,
@@ -13455,6 +13661,7 @@
     {
       "ticker": "SAFT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 75.87999725341797,
       "last_high": 76.88999938964844,
       "last_low": 75.87999725341797,
@@ -13522,6 +13729,7 @@
     {
       "ticker": "PRTA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 9.15999984741211,
       "last_high": 9.274999618530273,
       "last_low": 8.90999984741211,
@@ -13589,6 +13797,7 @@
     {
       "ticker": "PANL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 6.829999923706055,
       "last_high": 7.025000095367432,
       "last_low": 6.78000020980835,
@@ -13656,6 +13865,7 @@
     {
       "ticker": "RELI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 0.5299999713897705,
       "last_high": 0.5299999713897705,
       "last_low": 0.5049999952316284,
@@ -13723,6 +13933,7 @@
     {
       "ticker": "RGCO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 21.469999313354492,
       "last_high": 22.34000015258789,
       "last_low": 21.299999237060547,
@@ -13784,6 +13995,7 @@
     {
       "ticker": "PENN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 13.789999961853027,
       "last_high": 14.989999771118164,
       "last_low": 13.739999771118164,
@@ -13851,6 +14063,7 @@
     {
       "ticker": "SELF",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 5.070000171661377,
       "last_high": 5.139999866485596,
       "last_low": 5.019999980926514,
@@ -13912,6 +14125,7 @@
     {
       "ticker": "RRGB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 4.0,
       "last_high": 4.260000228881836,
       "last_low": 3.9800000190734863,
@@ -13973,6 +14187,7 @@
     {
       "ticker": "SNYR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.8519999980926514,
       "last_high": 1.8519999980926514,
       "last_low": 1.8200000524520874,
@@ -14034,6 +14249,7 @@
     {
       "ticker": "OSPN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 12.829999923706055,
       "last_high": 12.84000015258789,
       "last_low": 12.430000305175781,
@@ -14101,6 +14317,7 @@
     {
       "ticker": "ORRF",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 36.060001373291016,
       "last_high": 37.16999816894531,
       "last_low": 36.0,
@@ -14162,6 +14379,7 @@
     {
       "ticker": "QETA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 11.470000267028809,
       "last_high": 11.729999542236328,
       "last_low": 11.404999732971191,
@@ -14223,6 +14441,7 @@
     {
       "ticker": "SNOA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 3.309999942779541,
       "last_high": 3.4200000762939453,
       "last_low": 3.25,
@@ -14284,6 +14503,7 @@
     {
       "ticker": "SBRA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 19.290000915527344,
       "last_high": 19.489999771118164,
       "last_low": 19.010000228881836,
@@ -14351,6 +14571,7 @@
     {
       "ticker": "PSHG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 2.1500000953674316,
       "last_high": 2.1600000858306885,
       "last_low": 2.0399999618530273,
@@ -14418,6 +14639,7 @@
     {
       "ticker": "PROV",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 16.030000686645508,
       "last_high": 16.030000686645508,
       "last_low": 15.550000190734863,
@@ -14485,6 +14707,7 @@
     {
       "ticker": "OSW",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 20.709999084472656,
       "last_high": 21.0,
       "last_low": 20.049999237060547,
@@ -14546,6 +14769,7 @@
     {
       "ticker": "RBBN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 2.8299999237060547,
       "last_high": 2.9200000762939453,
       "last_low": 2.809999942779541,
@@ -14613,6 +14837,7 @@
     {
       "ticker": "PLUS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 87.18000030517578,
       "last_high": 89.25,
       "last_low": 87.18000030517578,
@@ -14680,6 +14905,7 @@
     {
       "ticker": "OXBR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.2899999618530273,
       "last_high": 1.2899999618530273,
       "last_low": 1.215999960899353,
@@ -14741,6 +14967,7 @@
     {
       "ticker": "SIRI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 21.110000610351562,
       "last_high": 21.270000457763672,
       "last_low": 20.770000457763672,
@@ -14802,6 +15029,7 @@
     {
       "ticker": "PELI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.75,
       "last_high": 10.869999885559082,
       "last_low": 10.5,
@@ -14863,6 +15091,7 @@
     {
       "ticker": "RGS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 24.75,
       "last_high": 25.0,
       "last_low": 24.75,
@@ -14930,6 +15159,7 @@
     {
       "ticker": "SANG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 4.829999923706055,
       "last_high": 4.900000095367432,
       "last_low": 4.829999923706055,
@@ -14997,6 +15227,7 @@
     {
       "ticker": "SLSN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.5,
       "last_high": 1.6100000143051147,
       "last_low": 1.5,
@@ -15064,6 +15295,7 @@
     {
       "ticker": "SBFM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.2200000286102295,
       "last_high": 1.2400000095367432,
       "last_low": 1.2100000381469727,
@@ -15125,6 +15357,7 @@
     {
       "ticker": "PHAT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 15.050000190734863,
       "last_high": 15.140000343322754,
       "last_low": 14.390000343322754,
@@ -15186,6 +15419,7 @@
     {
       "ticker": "PRCT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 31.190000534057617,
       "last_high": 31.70599937438965,
       "last_low": 30.309999465942383,
@@ -15253,6 +15487,7 @@
     {
       "ticker": "RSVR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 7.590000152587891,
       "last_high": 7.599999904632568,
       "last_low": 7.539999961853027,
@@ -15320,6 +15555,7 @@
     {
       "ticker": "ORLY",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 95.05999755859375,
       "last_high": 95.33999633789062,
       "last_low": 93.08000183105469,
@@ -15387,6 +15623,7 @@
     {
       "ticker": "SNES",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 2.0899999141693115,
       "last_high": 2.140000104904175,
       "last_low": 2.0899999141693115,
@@ -15454,6 +15691,7 @@
     {
       "ticker": "SHFS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.059999942779541,
       "last_high": 1.100000023841858,
       "last_low": 1.0199999809265137,
@@ -15521,6 +15759,7 @@
     {
       "ticker": "QNST",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 14.430000305175781,
       "last_high": 14.699999809265137,
       "last_low": 14.229999542236328,
@@ -15588,6 +15827,7 @@
     {
       "ticker": "RPRX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 40.290000915527344,
       "last_high": 40.334999084472656,
       "last_low": 39.560001373291016,
@@ -15649,6 +15889,7 @@
     {
       "ticker": "RDAG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.220000267028809,
       "last_high": 10.220000267028809,
       "last_low": 10.220000267028809,
@@ -15710,6 +15951,7 @@
     {
       "ticker": "RVYL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 4.980000019073486,
       "last_high": 5.590000152587891,
       "last_low": 4.710000038146973,
@@ -15771,6 +16013,7 @@
     {
       "ticker": "SAIL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 19.3700008392334,
       "last_high": 19.75,
       "last_low": 18.8700008392334,
@@ -15838,6 +16081,7 @@
     {
       "ticker": "SGMO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 0.4399999976158142,
       "last_high": 0.4399999976158142,
       "last_low": 0.41999998688697815,
@@ -15899,6 +16143,7 @@
     {
       "ticker": "PFIS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 49.77000045776367,
       "last_high": 50.869998931884766,
       "last_low": 49.77000045776367,
@@ -15966,6 +16211,7 @@
     {
       "ticker": "RLAY",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 8.0600004196167,
       "last_high": 8.220000267028809,
       "last_low": 7.599999904632568,
@@ -16027,6 +16273,7 @@
     {
       "ticker": "PROK",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 2.2899999618530273,
       "last_high": 2.2899999618530273,
       "last_low": 2.1449999809265137,
@@ -16088,6 +16335,7 @@
     {
       "ticker": "PEBO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 30.889999389648438,
       "last_high": 31.65999984741211,
       "last_low": 30.760000228881836,
@@ -16149,6 +16397,7 @@
     {
       "ticker": "REG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 70.13999938964844,
       "last_high": 70.75,
       "last_low": 69.79000091552734,
@@ -16210,6 +16459,7 @@
     {
       "ticker": "ROOT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 72.94999694824219,
       "last_high": 73.55000305175781,
       "last_low": 71.6500015258789,
@@ -16271,6 +16521,7 @@
     {
       "ticker": "RSSS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 2.8499999046325684,
       "last_high": 2.930000066757202,
       "last_low": 2.8399999141693115,
@@ -16338,6 +16589,7 @@
     {
       "ticker": "SLNO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 42.27000045776367,
       "last_high": 42.994998931884766,
       "last_low": 41.5,
@@ -16399,6 +16651,7 @@
     {
       "ticker": "PANW",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 190.66000366210938,
       "last_high": 194.07000732421875,
       "last_low": 186.5500030517578,
@@ -16466,6 +16719,7 @@
     {
       "ticker": "RCEL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.5,
       "last_high": 3.5899999141693115,
       "last_low": 3.390000104904175,
@@ -16533,6 +16787,7 @@
     {
       "ticker": "REFI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 12.649999618530273,
       "last_high": 12.829999923706055,
       "last_low": 12.520000457763672,
@@ -16594,6 +16849,7 @@
     {
       "ticker": "SBGI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 15.039999961853027,
       "last_high": 15.390000343322754,
       "last_low": 15.010000228881836,
@@ -16661,6 +16917,7 @@
     {
       "ticker": "PDLB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 16.15999984741211,
       "last_high": 16.610000610351562,
       "last_low": 16.110000610351562,
@@ -16722,6 +16979,7 @@
     {
       "ticker": "SHOP",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 159.64999389648438,
       "last_high": 161.2899932861328,
       "last_low": 157.36000061035156,
@@ -16783,6 +17041,7 @@
     {
       "ticker": "PFX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 43.36899948120117,
       "last_high": 43.36899948120117,
       "last_low": 43.29999923706055,
@@ -16850,6 +17109,7 @@
     {
       "ticker": "SBCF",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 32.790000915527344,
       "last_high": 34.06999969482422,
       "last_low": 32.439998626708984,
@@ -16917,6 +17177,7 @@
     {
       "ticker": "SBAC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 191.8800048828125,
       "last_high": 192.75999450683594,
       "last_low": 190.05999755859375,
@@ -16984,6 +17245,7 @@
     {
       "ticker": "SEER",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.909999966621399,
       "last_high": 1.909999966621399,
       "last_low": 1.8600000143051147,
@@ -17045,6 +17307,7 @@
     {
       "ticker": "RMBI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 14.3100004196167,
       "last_high": 14.3100004196167,
       "last_low": 13.86299991607666,
@@ -17106,6 +17369,7 @@
     {
       "ticker": "SFNC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 19.030000686645508,
       "last_high": 19.559999465942383,
       "last_low": 19.030000686645508,
@@ -17173,6 +17437,7 @@
     {
       "ticker": "SMMT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 17.649999618530273,
       "last_high": 17.860000610351562,
       "last_low": 17.209999084472656,
@@ -17234,6 +17499,7 @@
     {
       "ticker": "RNTX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.1200000047683716,
       "last_high": 1.1699999570846558,
       "last_low": 1.0800000429153442,
@@ -17301,6 +17567,7 @@
     {
       "ticker": "SLN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 5.889999866485596,
       "last_high": 5.929999828338623,
       "last_low": 5.550000190734863,
@@ -17368,6 +17635,7 @@
     {
       "ticker": "PTCT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 77.29000091552734,
       "last_high": 77.87000274658203,
       "last_low": 75.4000015258789,
@@ -17435,6 +17703,7 @@
     {
       "ticker": "RCMT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 20.780000686645508,
       "last_high": 21.0,
       "last_low": 20.139999389648438,
@@ -17496,6 +17765,7 @@
     {
       "ticker": "RBCAA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 71.0999984741211,
       "last_high": 73.5,
       "last_low": 70.9000015258789,
@@ -17557,6 +17827,7 @@
     {
       "ticker": "PALI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.940000057220459,
       "last_high": 1.940000057220459,
       "last_low": 1.75,
@@ -17618,6 +17889,7 @@
     {
       "ticker": "SGA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 11.619999885559082,
       "last_high": 11.65999984741211,
       "last_low": 11.329999923706055,
@@ -17685,6 +17957,7 @@
     {
       "ticker": "PCYO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 11.329999923706055,
       "last_high": 11.699999809265137,
       "last_low": 11.180999755859375,
@@ -17746,6 +18019,7 @@
     {
       "ticker": "RELY",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 13.470000267028809,
       "last_high": 13.899999618530273,
       "last_low": 13.260000228881836,
@@ -17807,6 +18081,7 @@
     {
       "ticker": "REGN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 754.8499755859375,
       "last_high": 756.5,
       "last_low": 737.0,
@@ -17868,6 +18143,7 @@
     {
       "ticker": "ROAD",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 115.2699966430664,
       "last_high": 116.77999877929688,
       "last_low": 108.29000091552734,
@@ -17935,6 +18211,7 @@
     {
       "ticker": "RANI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.4299999475479126,
       "last_high": 1.440000057220459,
       "last_low": 1.371000051498413,
@@ -17996,6 +18273,7 @@
     {
       "ticker": "PLUR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.2100000381469727,
       "last_high": 3.2100000381469727,
       "last_low": 3.009999990463257,
@@ -18057,6 +18335,7 @@
     {
       "ticker": "PHVS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 25.90999984741211,
       "last_high": 26.25,
       "last_low": 24.709999084472656,
@@ -18118,6 +18397,7 @@
     {
       "ticker": "OZK",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 47.779998779296875,
       "last_high": 48.59000015258789,
       "last_low": 47.65999984741211,
@@ -18179,6 +18459,7 @@
     {
       "ticker": "SCSC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 41.279998779296875,
       "last_high": 42.22999954223633,
       "last_low": 41.279998779296875,
@@ -18246,6 +18527,7 @@
     {
       "ticker": "PEP",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 146.05999755859375,
       "last_high": 147.02000427246094,
       "last_low": 145.52999877929688,
@@ -18313,6 +18595,7 @@
     {
       "ticker": "REYN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 24.329999923706055,
       "last_high": 24.530000686645508,
       "last_low": 24.184999465942383,
@@ -18374,6 +18657,7 @@
     {
       "ticker": "PTGX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 84.5999984741211,
       "last_high": 87.44000244140625,
       "last_low": 84.33000183105469,
@@ -18441,6 +18725,7 @@
     {
       "ticker": "SFST",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 53.59000015258789,
       "last_high": 55.93000030517578,
       "last_low": 53.59000015258789,
@@ -18502,6 +18787,7 @@
     {
       "ticker": "SLM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 27.040000915527344,
       "last_high": 27.1299991607666,
       "last_low": 26.700000762939453,
@@ -18563,6 +18849,7 @@
     {
       "ticker": "PRAA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 16.520000457763672,
       "last_high": 16.959999084472656,
       "last_low": 16.389999389648438,
@@ -18624,6 +18911,7 @@
     {
       "ticker": "OTTR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 86.66999816894531,
       "last_high": 88.47000122070312,
       "last_low": 86.4800033569336,
@@ -18691,6 +18979,7 @@
     {
       "ticker": "SEPN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 26.860000610351562,
       "last_high": 27.829999923706055,
       "last_low": 26.264999389648438,
@@ -18752,6 +19041,7 @@
     {
       "ticker": "RRBI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 73.30999755859375,
       "last_high": 75.5999984741211,
       "last_low": 73.30999755859375,
@@ -18813,6 +19103,7 @@
     {
       "ticker": "SHBI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 18.059999465942383,
       "last_high": 18.920000076293945,
       "last_low": 18.020000457763672,
@@ -18880,6 +19171,7 @@
     {
       "ticker": "SAVA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 2.1500000953674316,
       "last_high": 2.1600000858306885,
       "last_low": 2.109999895095825,
@@ -18947,6 +19239,7 @@
     {
       "ticker": "PGY",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 23.68000030517578,
       "last_high": 23.68000030517578,
       "last_low": 22.25,
@@ -19008,6 +19301,7 @@
     {
       "ticker": "RLYB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 0.6990000009536743,
       "last_high": 0.7099999785423279,
       "last_low": 0.6700000166893005,
@@ -19075,6 +19369,7 @@
     {
       "ticker": "SFM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 81.0,
       "last_high": 82.72000122070312,
       "last_low": 80.25,
@@ -19142,6 +19437,7 @@
     {
       "ticker": "PSTV",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 0.30000001192092896,
       "last_high": 0.30000001192092896,
       "last_low": 0.27000001072883606,
@@ -19209,6 +19505,7 @@
     {
       "ticker": "SIGI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 82.22000122070312,
       "last_high": 83.08999633789062,
       "last_low": 82.12999725341797,
@@ -19270,6 +19567,7 @@
     {
       "ticker": "PRTH",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 5.78000020980835,
       "last_high": 5.875,
       "last_low": 5.690000057220459,
@@ -19331,6 +19629,7 @@
     {
       "ticker": "PLSE",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 14.300000190734863,
       "last_high": 14.789999961853027,
       "last_low": 14.020000457763672,
@@ -19392,6 +19691,7 @@
     {
       "ticker": "REFR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.350000023841858,
       "last_high": 1.399999976158142,
       "last_low": 1.2999999523162842,
@@ -19459,6 +19759,7 @@
     {
       "ticker": "POCI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 4.300000190734863,
       "last_high": 4.429999828338623,
       "last_low": 4.289999961853027,
@@ -19520,6 +19821,7 @@
     {
       "ticker": "SAGT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.9900000095367432,
       "last_high": 2.0,
       "last_low": 1.9199999570846558,
@@ -19581,6 +19883,7 @@
     {
       "ticker": "SFD",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 23.450000762939453,
       "last_high": 23.600000381469727,
       "last_low": 23.014999389648438,
@@ -19642,6 +19945,7 @@
     {
       "ticker": "PTON",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 6.570000171661377,
       "last_high": 6.764999866485596,
       "last_low": 6.46999979019165,
@@ -19709,6 +20013,7 @@
     {
       "ticker": "PLBL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 10.449999809265137,
       "last_high": 11.0,
       "last_low": 10.324999809265137,
@@ -19776,6 +20081,7 @@
     {
       "ticker": "RWAY",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 9.390000343322754,
       "last_high": 9.59000015258789,
       "last_low": 9.329999923706055,
@@ -19837,6 +20143,7 @@
     {
       "ticker": "PGC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 28.549999237060547,
       "last_high": 29.34000015258789,
       "last_low": 28.3799991607666,
@@ -19898,6 +20205,7 @@
     {
       "ticker": "OVBC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 40.0,
       "last_high": 40.83000183105469,
       "last_low": 40.0,
@@ -19959,6 +20267,7 @@
     {
       "ticker": "PHIO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.1399999856948853,
       "last_high": 1.1399999856948853,
       "last_low": 1.090000033378601,
@@ -20020,6 +20329,7 @@
     {
       "ticker": "POWW",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.809999942779541,
       "last_high": 1.8600000143051147,
       "last_low": 1.809999942779541,
@@ -20081,6 +20391,7 @@
     {
       "ticker": "SNFCA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 8.970000267028809,
       "last_high": 9.020000457763672,
       "last_low": 8.9399995803833,
@@ -20148,6 +20459,7 @@
     {
       "ticker": "RGP",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 4.650000095367432,
       "last_high": 4.769999980926514,
       "last_low": 4.630000114440918,
@@ -20215,6 +20527,7 @@
     {
       "ticker": "PRE",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 15.699999809265137,
       "last_high": 15.699999809265137,
       "last_low": 14.119999885559082,
@@ -20276,6 +20589,7 @@
     {
       "ticker": "SHPH",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.5199999809265137,
       "last_high": 1.6200000047683716,
       "last_low": 1.3760000467300415,
@@ -20343,6 +20657,7 @@
     {
       "ticker": "SGRP",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 0.8399999737739563,
       "last_high": 0.8500000238418579,
       "last_low": 0.8299999833106995,
@@ -20404,6 +20719,7 @@
     {
       "ticker": "SION",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 41.47999954223633,
       "last_high": 41.47999954223633,
       "last_low": 37.81999969482422,
@@ -20465,6 +20781,7 @@
     {
       "ticker": "SEED",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.1799999475479126,
       "last_high": 1.3200000524520874,
       "last_low": 1.1799999475479126,
@@ -20526,6 +20843,7 @@
     {
       "ticker": "PFG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 91.44999694824219,
       "last_high": 92.05000305175781,
       "last_low": 90.68000030517578,
@@ -20593,6 +20911,7 @@
     {
       "ticker": "SMSI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 0.5899999737739563,
       "last_high": 0.5899999737739563,
       "last_low": 0.5799999833106995,
@@ -20654,6 +20973,7 @@
     {
       "ticker": "PRPL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 0.7699999809265137,
       "last_high": 0.8050000071525574,
       "last_low": 0.75,
@@ -20715,6 +21035,7 @@
     {
       "ticker": "PLBC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 46.0099983215332,
       "last_high": 46.0099983215332,
       "last_low": 46.0099983215332,
@@ -20776,6 +21097,7 @@
     {
       "ticker": "SENEB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 119.0,
       "last_high": 119.70999908447266,
       "last_low": 119.0,
@@ -20837,6 +21159,7 @@
     {
       "ticker": "PLRX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.309999942779541,
       "last_high": 1.3200000524520874,
       "last_low": 1.2599999904632568,
@@ -20898,6 +21221,7 @@
     {
       "ticker": "RDNT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 72.69000244140625,
       "last_high": 73.93000030517578,
       "last_low": 70.54000091552734,
@@ -20959,6 +21283,7 @@
     {
       "ticker": "RYTM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 114.0,
       "last_high": 114.0,
       "last_low": 105.56999969482422,
@@ -21020,6 +21345,7 @@
     {
       "ticker": "PAGP",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 20.1299991607666,
       "last_high": 20.280000686645508,
       "last_low": 20.030000686645508,
@@ -21081,6 +21407,7 @@
     {
       "ticker": "SCYX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 0.6520000100135803,
       "last_high": 0.6579999923706055,
       "last_low": 0.6349999904632568,
@@ -21142,6 +21469,7 @@
     {
       "ticker": "RXST",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 9.630000114440918,
       "last_high": 9.90999984741211,
       "last_low": 9.503999710083008,
@@ -21209,6 +21537,7 @@
     {
       "ticker": "PLBY",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.8700000047683716,
       "last_high": 2.0399999618530273,
       "last_low": 1.8700000047683716,
@@ -21270,6 +21599,7 @@
     {
       "ticker": "PNRG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 176.55999755859375,
       "last_high": 176.86000061035156,
       "last_low": 169.5800018310547,
@@ -21331,6 +21661,7 @@
     {
       "ticker": "RMSG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.25,
       "last_high": 1.440000057220459,
       "last_low": 1.2000000476837158,
@@ -21398,6 +21729,7 @@
     {
       "ticker": "RMR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 16.229999542236328,
       "last_high": 16.781999588012695,
       "last_low": 16.229999542236328,
@@ -21465,6 +21797,7 @@
     {
       "ticker": "SLGB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.0199999809265137,
       "last_high": 1.3949999809265137,
       "last_low": 1.0199999809265137,
@@ -21526,6 +21859,7 @@
     {
       "ticker": "RUBI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 0.9100000262260437,
       "last_high": 0.9100000262260437,
       "last_low": 0.8500000238418579,
@@ -21593,6 +21927,7 @@
     {
       "ticker": "PPC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 41.43000030517578,
       "last_high": 41.869998931884766,
       "last_low": 40.91999816894531,
@@ -21660,6 +21995,7 @@
     {
       "ticker": "ROST",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 192.57000732421875,
       "last_high": 194.52000427246094,
       "last_low": 191.27999877929688,
@@ -21727,6 +22063,7 @@
     {
       "ticker": "SMBC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 61.25,
       "last_high": 62.58000183105469,
       "last_low": 61.25,
@@ -21788,6 +22125,7 @@
     {
       "ticker": "RBB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 21.549999237060547,
       "last_high": 22.18000030517578,
       "last_low": 21.549999237060547,
@@ -21849,6 +22187,7 @@
     {
       "ticker": "RELL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 10.819999694824219,
       "last_high": 11.199999809265137,
       "last_low": 10.800000190734863,
@@ -21916,6 +22255,7 @@
     {
       "ticker": "RUSHB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 58.209999084472656,
       "last_high": 59.4900016784668,
       "last_low": 57.56999969482422,
@@ -21983,6 +22323,7 @@
     {
       "ticker": "QURE",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 22.049999237060547,
       "last_high": 22.739999771118164,
       "last_low": 21.420000076293945,
@@ -22044,6 +22385,7 @@
     {
       "ticker": "PMTS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 13.850000381469727,
       "last_high": 14.25,
       "last_low": 13.850000381469727,
@@ -22105,6 +22447,7 @@
     {
       "ticker": "OVLY",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 30.690000534057617,
       "last_high": 31.219999313354492,
       "last_low": 30.690000534057617,
@@ -22172,6 +22515,7 @@
     {
       "ticker": "SCKT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.090000033378601,
       "last_high": 1.090000033378601,
       "last_low": 1.0800000429153442,
@@ -22233,6 +22577,7 @@
     {
       "ticker": "RAPT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 34.939998626708984,
       "last_high": 34.939998626708984,
       "last_low": 32.060001373291016,
@@ -22294,6 +22639,7 @@
     {
       "ticker": "SINT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 3.690000057220459,
       "last_high": 3.7699999809265137,
       "last_low": 3.6500000953674316,
@@ -22355,6 +22701,7 @@
     {
       "ticker": "PLCE",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 4.400000095367432,
       "last_high": 4.699999809265137,
       "last_low": 4.309999942779541,
@@ -22416,6 +22763,7 @@
     {
       "ticker": "SBUX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 92.06999969482422,
       "last_high": 94.16999816894531,
       "last_low": 91.63999938964844,
@@ -22483,6 +22831,7 @@
     {
       "ticker": "RRR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 62.2599983215332,
       "last_high": 64.23500061035156,
       "last_low": 61.9109992980957,
@@ -22550,6 +22899,7 @@
     {
       "ticker": "REAX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.890000104904175,
       "last_high": 3.930000066757202,
       "last_low": 3.7899999618530273,
@@ -22617,6 +22967,7 @@
     {
       "ticker": "RPAY",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 3.5799999237060547,
       "last_high": 3.680000066757202,
       "last_low": 3.5399999618530273,
@@ -22678,6 +23029,7 @@
     {
       "ticker": "PENG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 20.559999465942383,
       "last_high": 20.899999618530273,
       "last_low": 19.979999542236328,
@@ -22745,6 +23097,7 @@
     {
       "ticker": "RECT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.7000000476837158,
       "last_high": 1.75,
       "last_low": 1.6799999475479126,
@@ -22806,6 +23159,7 @@
     {
       "ticker": "SMPL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 20.93000030517578,
       "last_high": 21.270000457763672,
       "last_low": 20.68899917602539,
@@ -22867,6 +23221,7 @@
     {
       "ticker": "SIGA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 6.71999979019165,
       "last_high": 6.71999979019165,
       "last_low": 6.539999961853027,
@@ -22928,6 +23283,7 @@
     {
       "ticker": "RNAC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 7.599999904632568,
       "last_high": 7.614999771118164,
       "last_low": 7.179999828338623,
@@ -22995,6 +23351,7 @@
     {
       "ticker": "RCKY",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 31.799999237060547,
       "last_high": 33.529998779296875,
       "last_low": 31.799999237060547,
@@ -23062,6 +23419,7 @@
     {
       "ticker": "SNDX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 21.239999771118164,
       "last_high": 21.489999771118164,
       "last_low": 20.610000610351562,
@@ -23129,6 +23487,7 @@
     {
       "ticker": "RBKB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 11.609999656677246,
       "last_high": 12.0,
       "last_low": 11.609999656677246,
@@ -23196,6 +23555,7 @@
     {
       "ticker": "PLTR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 178.7100067138672,
       "last_high": 180.60000610351562,
       "last_low": 176.52999877929688,
@@ -23263,6 +23623,7 @@
     {
       "ticker": "SGC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.229999542236328,
       "last_high": 10.40999984741211,
       "last_low": 10.149999618530273,
@@ -23330,6 +23691,7 @@
     {
       "ticker": "PRDO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 31.110000610351562,
       "last_high": 32.02000045776367,
       "last_low": 31.079999923706055,
@@ -23391,6 +23753,7 @@
     {
       "ticker": "PKBK",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 25.049999237060547,
       "last_high": 25.850000381469727,
       "last_low": 24.979999542236328,
@@ -23458,6 +23821,7 @@
     {
       "ticker": "REKR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.590000033378601,
       "last_high": 1.600000023841858,
       "last_low": 1.5499999523162842,
@@ -23519,6 +23883,7 @@
     {
       "ticker": "QNTM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 6.900000095367432,
       "last_high": 7.050000190734863,
       "last_low": 6.849999904632568,
@@ -23580,6 +23945,7 @@
     {
       "ticker": "RIVN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 17.479999542236328,
       "last_high": 17.56999969482422,
       "last_low": 16.875,
@@ -23641,6 +24007,7 @@
     {
       "ticker": "RBNE",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.4200000762939453,
       "last_high": 3.4579999446868896,
       "last_low": 3.1500000953674316,
@@ -23702,6 +24069,7 @@
     {
       "ticker": "RICK",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 25.809999465942383,
       "last_high": 26.989999771118164,
       "last_low": 25.56999969482422,
@@ -23763,6 +24131,7 @@
     {
       "ticker": "RGNX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 15.020000457763672,
       "last_high": 15.020000457763672,
       "last_low": 13.680000305175781,
@@ -23824,6 +24193,7 @@
     {
       "ticker": "SGMT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 6.389999866485596,
       "last_high": 6.420000076293945,
       "last_low": 6.170000076293945,
@@ -23891,6 +24261,7 @@
     {
       "ticker": "QNCX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.0,
       "last_high": 3.0799999237060547,
       "last_low": 2.8499999046325684,
@@ -23958,6 +24329,7 @@
     {
       "ticker": "SILC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 15.479999542236328,
       "last_high": 15.989999771118164,
       "last_low": 15.210000038146973,
@@ -24019,6 +24391,7 @@
     {
       "ticker": "SLMT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 2.0999999046325684,
       "last_high": 2.0999999046325684,
       "last_low": 1.9500000476837158,
@@ -24080,6 +24453,7 @@
     {
       "ticker": "RXRX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 4.849999904632568,
       "last_high": 4.869999885559082,
       "last_low": 4.630000114440918,
@@ -24141,6 +24515,7 @@
     {
       "ticker": "SILO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 0.3799999952316284,
       "last_high": 0.4000000059604645,
       "last_low": 0.3720000088214874,
@@ -24202,6 +24577,7 @@
     {
       "ticker": "RGTI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 26.290000915527344,
       "last_high": 26.489999771118164,
       "last_low": 24.649999618530273,
@@ -24269,6 +24645,7 @@
     {
       "ticker": "RITR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.059999942779541,
       "last_high": 1.059999942779541,
       "last_low": 0.9480000138282776,
@@ -24330,6 +24707,7 @@
     {
       "ticker": "OSUR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 2.6700000762939453,
       "last_high": 2.809999942779541,
       "last_low": 2.6700000762939453,
@@ -24391,6 +24769,7 @@
     {
       "ticker": "PASW",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 0.21199999749660492,
       "last_high": 0.23999999463558197,
       "last_low": 0.21199999749660492,
@@ -24458,6 +24837,7 @@
     {
       "ticker": "RCT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.559999942779541,
       "last_high": 1.6799999475479126,
       "last_low": 1.4900000095367432,
@@ -24519,6 +24899,7 @@
     {
       "ticker": "PLMR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 129.75,
       "last_high": 133.43499755859375,
       "last_low": 129.75,
@@ -24580,6 +24961,7 @@
     {
       "ticker": "SDA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 2.140000104904175,
       "last_high": 2.140000104904175,
       "last_low": 2.0899999141693115,
@@ -24641,6 +25023,7 @@
     {
       "ticker": "RAVE",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.1700000762939453,
       "last_high": 3.200000047683716,
       "last_low": 3.1500000953674316,
@@ -24702,6 +25085,7 @@
     {
       "ticker": "SNAL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 0.7599999904632568,
       "last_high": 0.7879999876022339,
       "last_low": 0.7599999904632568,
@@ -24769,6 +25153,7 @@
     {
       "ticker": "SABS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 4.0,
       "last_high": 4.0,
       "last_low": 3.799999952316284,
@@ -24836,6 +25221,7 @@
     {
       "ticker": "QCRH",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 86.22000122070312,
       "last_high": 87.22000122070312,
       "last_low": 86.05000305175781,
@@ -24903,6 +25289,7 @@
     {
       "ticker": "PTRN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 13.170000076293945,
       "last_high": 14.229999542236328,
       "last_low": 12.90999984741211,
@@ -24970,6 +25357,7 @@
     {
       "ticker": "PRSO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.0199999809265137,
       "last_high": 1.0299999713897705,
       "last_low": 0.9800000190734863,
@@ -25031,6 +25419,7 @@
     {
       "ticker": "SMID",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 36.36000061035156,
       "last_high": 38.47999954223633,
       "last_low": 36.36000061035156,
@@ -25098,6 +25487,7 @@
     {
       "ticker": "PETZ",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.0499999523162842,
       "last_high": 1.1299999952316284,
       "last_low": 1.0390000343322754,
@@ -25165,6 +25555,7 @@
     {
       "ticker": "PCH",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 44.279998779296875,
       "last_high": 45.0,
       "last_low": 43.91999816894531,
@@ -25232,6 +25623,7 @@
     {
       "ticker": "PATK",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 120.23999786376953,
       "last_high": 126.44999694824219,
       "last_low": 120.0,
@@ -25299,6 +25691,7 @@
     {
       "ticker": "RUSHA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 59.380001068115234,
       "last_high": 61.939998626708984,
       "last_low": 58.880001068115234,
@@ -25360,6 +25753,7 @@
     {
       "ticker": "SHOO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 45.779998779296875,
       "last_high": 46.54999923706055,
       "last_low": 45.06999969482422,
@@ -25421,6 +25815,7 @@
     {
       "ticker": "ROCK",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 56.2599983215332,
       "last_high": 58.529998779296875,
       "last_low": 55.900001525878906,
@@ -25488,6 +25883,7 @@
     {
       "ticker": "SAMG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 15.350000381469727,
       "last_high": 15.579999923706055,
       "last_low": 15.289999961853027,
@@ -25549,6 +25945,7 @@
     {
       "ticker": "SLDB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 5.75,
       "last_high": 5.889999866485596,
       "last_low": 5.631999969482422,
@@ -25616,6 +26013,7 @@
     {
       "ticker": "SEV",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 4.559999942779541,
       "last_high": 4.929999828338623,
       "last_low": 4.480000019073486,
@@ -25683,6 +26081,7 @@
     {
       "ticker": "QRHC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 2.0299999713897705,
       "last_high": 2.059999942779541,
       "last_low": 1.9500000476837158,
@@ -25744,6 +26143,7 @@
     {
       "ticker": "RMBS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 103.7699966430664,
       "last_high": 108.22000122070312,
       "last_low": 102.63999938964844,
@@ -25811,6 +26211,7 @@
     {
       "ticker": "QTRX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 7.329999923706055,
       "last_high": 7.96999979019165,
       "last_low": 7.25,
@@ -25872,6 +26273,7 @@
     {
       "ticker": "PEBK",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 37.06999969482422,
       "last_high": 37.599998474121094,
       "last_low": 37.0099983215332,
@@ -25933,6 +26335,7 @@
     {
       "ticker": "POOL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 265.1199951171875,
       "last_high": 268.7200012207031,
       "last_low": 263.32000732421875,
@@ -25994,6 +26397,7 @@
     {
       "ticker": "ROIV",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 23.760000228881836,
       "last_high": 23.90999984741211,
       "last_low": 23.290000915527344,
@@ -26055,6 +26459,7 @@
     {
       "ticker": "PYPD",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 4.239999771118164,
       "last_high": 4.559999942779541,
       "last_low": 4.21999979019165,
@@ -26116,6 +26521,7 @@
     {
       "ticker": "SHC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 19.190000534057617,
       "last_high": 19.405000686645508,
       "last_low": 18.985000610351562,
@@ -26177,6 +26583,7 @@
     {
       "ticker": "SLXN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 2.1449999809265137,
       "last_high": 2.569999933242798,
       "last_low": 1.9299999475479126,
@@ -26244,6 +26651,7 @@
     {
       "ticker": "REVB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 0.8999999761581421,
       "last_high": 0.9079999923706055,
       "last_low": 0.8899999856948853,
@@ -26305,6 +26713,7 @@
     {
       "ticker": "PSMT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 140.85000610351562,
       "last_high": 141.08999633789062,
       "last_low": 138.75,
@@ -26372,6 +26781,7 @@
     {
       "ticker": "PGEN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 4.409999847412109,
       "last_high": 4.440000057220459,
       "last_low": 4.03000020980835,
@@ -26433,6 +26843,7 @@
     {
       "ticker": "SKIN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.559999942779541,
       "last_high": 1.6449999809265137,
       "last_low": 1.5449999570846558,
@@ -26494,6 +26905,7 @@
     {
       "ticker": "PCAR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 120.02999877929688,
       "last_high": 122.6500015258789,
       "last_low": 119.4800033569336,
@@ -26561,6 +26973,7 @@
     {
       "ticker": "PI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 184.8699951171875,
       "last_high": 185.97999572753906,
       "last_low": 171.33999633789062,
@@ -26622,6 +27035,7 @@
     {
       "ticker": "ORKT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 0.7379999756813049,
       "last_high": 0.7850000262260437,
       "last_low": 0.7300000190734863,
@@ -26683,6 +27097,7 @@
     {
       "ticker": "SMTI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 23.309999465942383,
       "last_high": 24.079999923706055,
       "last_low": 22.950000762939453,
@@ -26750,6 +27165,7 @@
     {
       "ticker": "SBET",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.770000457763672,
       "last_high": 10.869999885559082,
       "last_low": 10.399999618530273,
@@ -26817,6 +27233,7 @@
     {
       "ticker": "PNBK",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.5,
       "last_high": 1.6399999856948853,
       "last_low": 1.5,
@@ -26878,6 +27295,7 @@
     {
       "ticker": "PTLO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 5.440000057220459,
       "last_high": 5.539999961853027,
       "last_low": 5.295000076293945,
@@ -26945,6 +27363,7 @@
     {
       "ticker": "PRME",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 4.309999942779541,
       "last_high": 4.309999942779541,
       "last_low": 3.9149999618530273,
@@ -27012,6 +27431,7 @@
     {
       "ticker": "SCVL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 19.200000762939453,
       "last_high": 19.6299991607666,
       "last_low": 18.950000762939453,
@@ -27073,6 +27493,7 @@
     {
       "ticker": "PXS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.299999952316284,
       "last_high": 3.369999885559082,
       "last_low": 3.2100000381469727,
@@ -27134,6 +27555,7 @@
     {
       "ticker": "PDEX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 41.20000076293945,
       "last_high": 42.36000061035156,
       "last_low": 40.029998779296875,
@@ -27201,6 +27623,7 @@
     {
       "ticker": "QVCGA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 9.380000114440918,
       "last_high": 10.5600004196167,
       "last_low": 9.380000114440918,
@@ -27268,6 +27691,7 @@
     {
       "ticker": "REAL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 16.579999923706055,
       "last_high": 16.969999313354492,
       "last_low": 16.264999389648438,
@@ -27329,6 +27753,7 @@
     {
       "ticker": "PLUG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 2.3499999046325684,
       "last_high": 2.4100000858306885,
       "last_low": 2.25,
@@ -27390,6 +27815,7 @@
     {
       "ticker": "QMCO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 8.0600004196167,
       "last_high": 8.239999771118164,
       "last_low": 7.550000190734863,
@@ -27457,6 +27883,7 @@
     {
       "ticker": "SERA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.5799999237060547,
       "last_high": 3.5799999237060547,
       "last_low": 3.4000000953674316,
@@ -27518,6 +27945,7 @@
     {
       "ticker": "SAIH",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 8.25,
       "last_high": 8.960000038146973,
       "last_low": 8.25,
@@ -27585,6 +28013,7 @@
     {
       "ticker": "PESI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 14.5,
       "last_high": 14.880000114440918,
       "last_low": 14.359999656677246,
@@ -27652,6 +28081,7 @@
     {
       "ticker": "SLP",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 19.889999389648438,
       "last_high": 20.600000381469727,
       "last_low": 19.479999542236328,
@@ -27719,6 +28149,7 @@
     {
       "ticker": "RMTI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 0.9599999785423279,
       "last_high": 0.9900000095367432,
       "last_low": 0.949999988079071,
@@ -27780,6 +28211,7 @@
     {
       "ticker": "PAX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 17.489999771118164,
       "last_high": 17.774999618530273,
       "last_low": 17.3799991607666,
@@ -27841,6 +28273,7 @@
     {
       "ticker": "RCON",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.4199999570846558,
       "last_high": 1.6299999952316284,
       "last_low": 1.4199999570846558,
@@ -27902,6 +28335,7 @@
     {
       "ticker": "ORKA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 32.13999938964844,
       "last_high": 32.88999938964844,
       "last_low": 30.959999084472656,
@@ -27969,6 +28403,7 @@
     {
       "ticker": "SLAB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 150.22999572753906,
       "last_high": 153.91000366210938,
       "last_low": 147.86000061035156,
@@ -28036,6 +28471,7 @@
     {
       "ticker": "PCSA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.4700000286102295,
       "last_high": 3.799999952316284,
       "last_low": 3.3910000324249268,
@@ -28097,6 +28533,7 @@
     {
       "ticker": "PCSC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 13.34000015258789,
       "last_high": 13.6899995803833,
       "last_low": 13.222000122070312,
@@ -28158,6 +28595,7 @@
     {
       "ticker": "RR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 4.105000019073486,
       "last_high": 4.125,
       "last_low": 3.7699999809265137,
@@ -28219,6 +28657,7 @@
     {
       "ticker": "PROF",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 7.679999828338623,
       "last_high": 8.470000267028809,
       "last_low": 7.449999809265137,
@@ -28280,6 +28719,7 @@
     {
       "ticker": "RMCF",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.940000057220459,
       "last_high": 2.0399999618530273,
       "last_low": 1.8799999952316284,
@@ -28341,6 +28781,7 @@
     {
       "ticker": "OSRH",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 0.7350000143051147,
       "last_high": 0.7879999876022339,
       "last_low": 0.6809999942779541,
@@ -28402,6 +28843,7 @@
     {
       "ticker": "RPID",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.6700000762939453,
       "last_high": 3.6700000762939453,
       "last_low": 3.4100000858306885,
@@ -28463,6 +28905,7 @@
     {
       "ticker": "PODC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 2.569999933242798,
       "last_high": 2.6700000762939453,
       "last_low": 2.4200000762939453,
@@ -28524,6 +28967,7 @@
     {
       "ticker": "SAIC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 108.25,
       "last_high": 110.94999694824219,
       "last_low": 107.22000122070312,
@@ -28585,6 +29029,7 @@
     {
       "ticker": "QDEL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 34.31999969482422,
       "last_high": 35.560001373291016,
       "last_low": 33.279998779296875,
@@ -28646,6 +29091,7 @@
     {
       "ticker": "SIFY",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 13.90999984741211,
       "last_high": 15.850000381469727,
       "last_low": 13.779999732971191,
@@ -28707,6 +29153,7 @@
     {
       "ticker": "PMN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 7.980000019073486,
       "last_high": 8.510000228881836,
       "last_low": 7.980000019073486,
@@ -28768,6 +29215,7 @@
     {
       "ticker": "SNPS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 510.0,
       "last_high": 519.0999755859375,
       "last_low": 502.0,
@@ -28829,6 +29277,7 @@
     {
       "ticker": "PLXS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 177.58999633789062,
       "last_high": 186.47000122070312,
       "last_low": 177.58999633789062,
@@ -28896,6 +29345,7 @@
     {
       "ticker": "PPIH",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 31.770000457763672,
       "last_high": 32.25,
       "last_low": 31.43000030517578,
@@ -28957,6 +29407,7 @@
     {
       "ticker": "RKDA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 2.2699999809265137,
       "last_high": 2.4000000953674316,
       "last_low": 2.259999990463257,
@@ -29018,6 +29469,7 @@
     {
       "ticker": "SENS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 7.170000076293945,
       "last_high": 7.300000190734863,
       "last_low": 6.900000095367432,
@@ -29085,6 +29537,7 @@
     {
       "ticker": "RYOJ",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.299999952316284,
       "last_high": 3.3299999237060547,
       "last_low": 3.109999895095825,
@@ -29152,6 +29605,7 @@
     {
       "ticker": "SCOR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 8.4399995803833,
       "last_high": 8.630000114440918,
       "last_low": 8.25,
@@ -29213,6 +29667,7 @@
     {
       "ticker": "PRFX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 0.8399999737739563,
       "last_high": 0.8399999737739563,
       "last_low": 0.7900000214576721,
@@ -29274,6 +29729,7 @@
     {
       "ticker": "SFIX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 5.159999847412109,
       "last_high": 5.349999904632568,
       "last_low": 5.159999847412109,
@@ -29341,6 +29797,7 @@
     {
       "ticker": "PSNYW",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 3.9200000762939453,
       "last_high": 4.300000190734863,
       "last_low": 3.9000000953674316,
@@ -29402,6 +29859,7 @@
     {
       "ticker": "POWI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 42.810001373291016,
       "last_high": 43.7599983215332,
       "last_low": 42.119998931884766,
@@ -29469,6 +29927,7 @@
     {
       "ticker": "RIOT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 16.899999618530273,
       "last_high": 17.329999923706055,
       "last_low": 16.510000228881836,
@@ -29536,6 +29995,7 @@
     {
       "ticker": "PAL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 9.760000228881836,
       "last_high": 10.149999618530273,
       "last_low": 9.710000038146973,
@@ -29597,6 +30057,7 @@
     {
       "ticker": "SLE",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 0.7210000157356262,
       "last_high": 0.7350000143051147,
       "last_low": 0.699999988079071,
@@ -29658,6 +30119,7 @@
     {
       "ticker": "SND",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 3.8499999046325684,
       "last_high": 3.869999885559082,
       "last_low": 3.680000066757202,
@@ -29725,6 +30187,7 @@
     {
       "ticker": "RGLD",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 253.0800018310547,
       "last_high": 259.9200134277344,
       "last_low": 251.75999450683594,
@@ -29786,6 +30249,7 @@
     {
       "ticker": "RIME",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.0099999904632568,
       "last_high": 1.0499999523162842,
       "last_low": 0.9700000286102295,
@@ -29853,6 +30317,7 @@
     {
       "ticker": "PDSB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 0.9800000190734863,
       "last_high": 1.0199999809265137,
       "last_low": 0.9350000023841858,
@@ -29914,6 +30379,7 @@
     {
       "ticker": "SEZL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 74.25,
       "last_high": 74.25,
       "last_low": 69.3499984741211,
@@ -29975,6 +30441,7 @@
     {
       "ticker": "SITM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 365.8299865722656,
       "last_high": 367.2749938964844,
       "last_low": 353.239990234375,
@@ -30042,6 +30509,7 @@
     {
       "ticker": "SKK",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 0.33000001311302185,
       "last_high": 0.36899998784065247,
       "last_low": 0.33000001311302185,
@@ -30103,6 +30571,7 @@
     {
       "ticker": "PPTA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 31.770000457763672,
       "last_high": 32.40999984741211,
       "last_low": 31.15999984741211,
@@ -30170,6 +30639,7 @@
     {
       "ticker": "SMXT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 0.9750000238418579,
       "last_high": 1.0670000314712524,
       "last_low": 0.9399999976158142,
@@ -30237,6 +30707,7 @@
     {
       "ticker": "SNCY",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 17.219999313354492,
       "last_high": 17.75,
       "last_low": 17.139999389648438,
@@ -30298,6 +30769,7 @@
     {
       "ticker": "PMCB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 0.8876000046730042,
       "last_high": 1.0,
       "last_low": 0.8799999952316284,
@@ -30359,6 +30831,7 @@
     {
       "ticker": "SANA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 4.75,
       "last_high": 4.829999923706055,
       "last_low": 4.59499979019165,
@@ -30426,6 +30899,7 @@
     {
       "ticker": "PAVS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.940000057220459,
       "last_high": 2.130000114440918,
       "last_low": 1.8700000047683716,
@@ -30493,6 +30967,7 @@
     {
       "ticker": "SLDP",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 5.929999828338623,
       "last_high": 6.03000020980835,
       "last_low": 5.614999771118164,
@@ -30560,6 +31035,7 @@
     {
       "ticker": "RVPH",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 0.3499999940395355,
       "last_high": 0.3499999940395355,
       "last_low": 0.3400000035762787,
@@ -30621,6 +31097,7 @@
     {
       "ticker": "PPSI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 4.800000190734863,
       "last_high": 4.96999979019165,
       "last_low": 4.699999809265137,
@@ -30682,6 +31159,7 @@
     {
       "ticker": "SMLR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 21.3700008392334,
       "last_high": 21.389999389648438,
       "last_low": 20.270000457763672,
@@ -30743,6 +31221,7 @@
     {
       "ticker": "ORMP",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.7100000381469727,
       "last_high": 3.7100000381469727,
       "last_low": 3.4600000381469727,
@@ -30810,6 +31289,7 @@
     {
       "ticker": "SKYE",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.0299999713897705,
       "last_high": 1.0299999713897705,
       "last_low": 0.9399999976158142,
@@ -30871,6 +31351,7 @@
     {
       "ticker": "RYM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 20.9060001373291,
       "last_high": 21.600000381469727,
       "last_low": 20.239999771118164,
@@ -30938,6 +31419,7 @@
     {
       "ticker": "OS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 23.639999389648438,
       "last_high": 23.649999618530273,
       "last_low": 23.610000610351562,
@@ -30999,6 +31481,7 @@
     {
       "ticker": "SCWO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 2.5299999713897705,
       "last_high": 2.740000009536743,
       "last_low": 2.4600000381469727,
@@ -31060,6 +31543,7 @@
     {
       "ticker": "PAVM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 9.270000457763672,
       "last_high": 9.274999618530273,
       "last_low": 8.460000038146973,
@@ -31127,6 +31611,7 @@
     {
       "ticker": "RDZN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.850000023841858,
       "last_high": 1.8899999856948853,
       "last_low": 1.7699999809265137,
@@ -31188,6 +31673,7 @@
     {
       "ticker": "PMAX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 2.3499999046325684,
       "last_high": 2.6700000762939453,
       "last_low": 2.2200000286102295,
@@ -31255,6 +31741,7 @@
     {
       "ticker": "SJ",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 0.7200000286102295,
       "last_high": 0.7200000286102295,
       "last_low": 0.7200000286102295,
@@ -31316,6 +31803,7 @@
     {
       "ticker": "SNSE",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 11.850000381469727,
       "last_high": 11.899999618530273,
       "last_low": 10.800000190734863,
@@ -31377,6 +31865,7 @@
     {
       "ticker": "PLAB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 32.84000015258789,
       "last_high": 34.75,
       "last_low": 32.529998779296875,
@@ -31444,6 +31933,7 @@
     {
       "ticker": "RFIL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 9.069999694824219,
       "last_high": 9.289999961853027,
       "last_low": 8.539999961853027,
@@ -31505,6 +31995,7 @@
     {
       "ticker": "SNT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 4.429999828338623,
       "last_high": 4.460000038146973,
       "last_low": 4.25,
@@ -31566,6 +32057,7 @@
     {
       "ticker": "SGLY",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 0.7200000286102295,
       "last_high": 0.7200000286102295,
       "last_low": 0.699999988079071,
@@ -31627,6 +32119,7 @@
     {
       "ticker": "QIPT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.609999895095825,
       "last_high": 3.609999895095825,
       "last_low": 3.5799999237060547,
@@ -31688,6 +32181,7 @@
     {
       "ticker": "SKBL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.7100000381469727,
       "last_high": 3.9000000953674316,
       "last_low": 3.5199999809265137,
@@ -31755,6 +32249,7 @@
     {
       "ticker": "SFWL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 0.9300000071525574,
       "last_high": 0.9649999737739563,
       "last_low": 0.9100000262260437,
@@ -31816,6 +32311,7 @@
     {
       "ticker": "PRLD",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 2.2699999809265137,
       "last_high": 2.2699999809265137,
       "last_low": 2.0899999141693115,
@@ -31877,6 +32373,7 @@
     {
       "ticker": "SKYQ",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 0.36500000953674316,
       "last_high": 0.41600000858306885,
       "last_low": 0.3370000123977661,
@@ -31944,6 +32441,7 @@
     {
       "ticker": "RVMD",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 120.69999694824219,
       "last_high": 124.16000366210938,
       "last_low": 120.69999694824219,
@@ -32005,6 +32503,7 @@
     {
       "ticker": "ROMA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 2.180000066757202,
       "last_high": 2.450000047683716,
       "last_low": 1.975000023841858,
@@ -32072,6 +32571,7 @@
     {
       "ticker": "SHIM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.6700000762939453,
       "last_high": 3.759999990463257,
       "last_low": 3.6600000858306885,
@@ -32133,6 +32633,7 @@
     {
       "ticker": "PYXS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 2.0,
       "last_high": 2.0,
       "last_low": 1.7999999523162842,
@@ -32194,6 +32695,7 @@
     {
       "ticker": "QTTB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.5799999237060547,
       "last_high": 3.700000047683716,
       "last_low": 3.490000009536743,
@@ -32255,6 +32757,7 @@
     {
       "ticker": "PRZO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.4550000429153442,
       "last_high": 1.4800000190734863,
       "last_low": 1.340999960899353,
@@ -32316,6 +32819,7 @@
     {
       "ticker": "RMCO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.619999885559082,
       "last_high": 3.75,
       "last_low": 3.4100000858306885,
@@ -32377,6 +32881,7 @@
     {
       "ticker": "PSNY",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 21.260000228881836,
       "last_high": 23.18000030517578,
       "last_low": 21.0,
@@ -32438,6 +32943,7 @@
     {
       "ticker": "SEGG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 0.9100000262260437,
       "last_high": 1.2699999809265137,
       "last_low": 0.8529999852180481,
@@ -32505,6 +33011,7 @@
     {
       "ticker": "PASG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 15.498000144958496,
       "last_high": 16.1200008392334,
       "last_low": 14.279999732971191,
@@ -32566,6 +33073,7 @@
     {
       "ticker": "SFHG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 0.781000018119812,
       "last_high": 0.7829999923706055,
       "last_low": 0.7419999837875366,
@@ -32627,6 +33135,7 @@
     {
       "ticker": "SHMD",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 7.590000152587891,
       "last_high": 8.039999961853027,
       "last_low": 7.46999979019165,
@@ -32688,6 +33197,7 @@
     {
       "ticker": "SNDK",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 398.8299865722656,
       "last_high": 423.3500061035156,
       "last_low": 398.614990234375,
@@ -32749,6 +33259,7 @@
     {
       "ticker": "RKLB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 89.26499938964844,
       "last_high": 92.45899963378906,
       "last_low": 86.6500015258789,
@@ -32810,6 +33321,7 @@
     {
       "ticker": "SDOT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.2100000381469727,
       "last_high": 3.2100000381469727,
       "last_low": 2.5510001182556152,
@@ -32871,6 +33383,7 @@
     {
       "ticker": "SKYT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 31.010000228881836,
       "last_high": 34.970001220703125,
       "last_low": 31.010000228881836,
@@ -32932,6 +33445,7 @@
     {
       "ticker": "OSS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 11.6899995803833,
       "last_high": 11.899999618530273,
       "last_low": 10.819999694824219,
@@ -32999,6 +33513,7 @@
     {
       "ticker": "RZLT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 2.700000047683716,
       "last_high": 2.8499999046325684,
       "last_low": 2.625,
@@ -33060,6 +33575,7 @@
     {
       "ticker": "RILY",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.039999961853027,
       "last_high": 10.970000267028809,
       "last_low": 9.140000343322754,
@@ -33121,6 +33637,7 @@
     {
       "ticker": "SNBR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.489999771118164,
       "last_high": 11.8100004196167,
       "last_low": 10.1899995803833,
@@ -33188,6 +33705,7 @@
     {
       "ticker": "RGC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 33.869998931884766,
       "last_high": 33.900001525878906,
       "last_low": 28.229999542236328,
@@ -33249,6 +33767,7 @@
     {
       "ticker": "SMX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 24.610000610351562,
       "last_high": 25.0,
       "last_low": 23.0,
@@ -33310,6 +33829,7 @@
     {
       "ticker": "SIDU",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 4.0,
       "last_high": 4.050000190734863,
       "last_low": 3.5199999809265137,

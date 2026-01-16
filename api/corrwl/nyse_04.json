@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-16T03:47:30.613352+00:00",
+  "updated_utc": "2026-01-16T13:57:56.632146+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -21,7 +21,7 @@
     "only_actionable": false,
     "only_watchlist": true
   },
-  "count": 7,
+  "count": 8,
   "data": [
     {
       "ticker": "RDDT",
@@ -104,6 +104,47 @@
       "dist_to_support": 0.002402342888596518,
       "actionable_reason": "watchlist_correction",
       "rank_score": 3.1975976571114035
+    },
+    {
+      "ticker": "NOM",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 11.25,
+      "sma_fast": 20,
+      "sma_slow": 50,
+      "sma_fast_now": 11.523702716827392,
+      "sma_slow_now": 11.216218280792237,
+      "trend_ok": true,
+      "recent_swing_high": 11.934349351044442,
+      "recent_swing_high_date": "2026-01-06",
+      "resistance_level": 11.934349351044442,
+      "pullback_from_swing_high_pct": 5.734282874705283,
+      "had_correction": true,
+      "bars_since_swing_high": 7,
+      "correction_age_ok": true,
+      "anchor_support_close": 11.178507226686952,
+      "anchor_support_date": "2025-12-23",
+      "support_level": 11.178507226686952,
+      "support_tolerance_pct": 1.0,
+      "support_floor": 11.178507226686952,
+      "support_floor_adj": 11.066722154420082,
+      "correction_close_low": 11.08899974822998,
+      "support_held": true,
+      "close_above_sma_fast": false,
+      "rebound_ok": false,
+      "uptrend_window_used": 50,
+      "uptrend_hh_count": 4,
+      "uptrend_hl_count": 7,
+      "uptrend_pivot_highs": 9,
+      "uptrend_pivot_lows": 9,
+      "uptrend_overall_up": true,
+      "uptrend_ok": true,
+      "uptrend_actionable": true,
+      "watchlist_correction": true,
+      "actionable_after_correction": true,
+      "dist_to_support": 0.006395556388993556,
+      "actionable_reason": "watchlist_correction",
+      "rank_score": 3.167032731081535
     },
     {
       "ticker": "NCLH",

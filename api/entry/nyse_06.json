@@ -20,7 +20,7 @@
     "recent_hl_allow_equal_lows": false,
     "rta_pullback_min_pct": 2.0,
     "rta_pullback_lookback_bars": 20,
-    "lastUpdatedTs": "2026-01-16T03:51:53.348225+00:00"
+    "lastUpdatedTs": "2026-01-16T13:58:49.007616+00:00"
   },
   "count": 95,
   "count_clean_trend": 1,
@@ -31,6 +31,7 @@
     {
       "ticker": "WPM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 131.6300048828125,
       "last_high": 135.52000427246094,
       "last_low": 130.86000061035156,
@@ -97,6 +98,7 @@
     {
       "ticker": "YALA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 6.789999961853027,
       "last_high": 6.909999847412109,
       "last_low": 6.71999979019165,
@@ -163,6 +165,7 @@
     {
       "ticker": "WIW",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 8.640000343322754,
       "last_high": 8.640000343322754,
       "last_low": 8.600000381469727,
@@ -229,6 +232,7 @@
     {
       "ticker": "WIA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 8.270000457763672,
       "last_high": 8.300000190734863,
       "last_low": 8.260000228881836,
@@ -295,6 +299,7 @@
     {
       "ticker": "WDI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 13.869999885559082,
       "last_high": 13.890000343322754,
       "last_low": 13.779999732971191,
@@ -361,6 +366,7 @@
     {
       "ticker": "ZBH",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 89.30000305175781,
       "last_high": 90.26000213623047,
       "last_low": 88.33999633789062,
@@ -427,6 +433,7 @@
     {
       "ticker": "WEA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 11.199999809265137,
       "last_high": 11.369999885559082,
       "last_low": 11.170000076293945,
@@ -493,6 +500,7 @@
     {
       "ticker": "WMB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 60.56999969482422,
       "last_high": 61.18000030517578,
       "last_low": 60.15999984741211,
@@ -559,6 +567,7 @@
     {
       "ticker": "WEC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 107.44000244140625,
       "last_high": 108.30999755859375,
       "last_low": 106.94999694824219,
@@ -625,6 +634,7 @@
     {
       "ticker": "WM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 218.4600067138672,
       "last_high": 219.94000244140625,
       "last_low": 216.0399932861328,
@@ -691,6 +701,7 @@
     {
       "ticker": "YUMC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 47.5099983215332,
       "last_high": 48.540000915527344,
       "last_low": 47.439998626708984,
@@ -755,74 +766,9 @@
       "metric_max_drawdown_pct": null
     },
     {
-      "ticker": "XFLT",
-      "last_date": "2026-01-15",
-      "last_open": 4.659999847412109,
-      "last_high": 4.739999771118164,
-      "last_low": 4.650000095367432,
-      "last_close": 4.650000095367432,
-      "has_hh_hl": false,
-      "structure_bars": 35,
-      "min_pivots_per_side": 3,
-      "pivot_last_hh": 4.829999923706055,
-      "pivot_last_hl": 4.590000152587891,
-      "range_hh": 4.829999923706055,
-      "range_hl": 4.431522036252272,
-      "entry_level_source": "range",
-      "last_hl": 4.431522036252272,
-      "last_hh": 4.829999923706055,
-      "at_hl_zone": false,
-      "bounce_ok": false,
-      "momentum_ok": false,
-      "entry_signal": false,
-      "hl_touch_pct": 4.930090775311284,
-      "close_vs_hl_pct": 4.930090775311284,
-      "breakout_distance_pct": 3.726704579334845,
-      "hl_touch_pct_threshold": 100,
-      "bounce_min_pct_threshold": 0.3,
-      "sma_fast": 10,
-      "sma_slow": 20,
-      "sma_fast_last": 4.713999938964844,
-      "sma_slow_last": 4.6774999618530275,
-      "sma_fast_gt_slow": true,
-      "metric_structure_high_pivots": null,
-      "metric_structure_low_pivots": null,
-      "recent_hl_uptrend": true,
-      "recent_hl_count_required": 2,
-      "recent_hl_lookback_bars": 20,
-      "recent_hl_pivots_found": 2,
-      "recent_hl_prices": [
-        4.559999942779541,
-        4.590000152587891
-      ],
-      "recent_hl_dates": [
-        "2025-12-23",
-        "2026-01-05"
-      ],
-      "recent_hl_chain_ok": true,
-      "recent_hl_slope": 0.00428574425833544,
-      "recent_hl_slope_pct_per_bar": 0.0933713315002635,
-      "recent_hl_slope_min_pct_per_bar": 0.02,
-      "ready_to_act": false,
-      "rta_second_last_hh": 4.644999980926514,
-      "rta_last_hh": 4.829999923706055,
-      "rta_pullback_ok": null,
-      "rta_pullback_pct_from_last_hh": null,
-      "rta_pullback_min_pct": 2.0,
-      "rta_pullback_lookback_bars": 20,
-      "metric_hh_chain_ok": 0.0,
-      "metric_hl_chain_ok": 0.0,
-      "metric_sma_ok": null,
-      "metric_last_close": null,
-      "metric_last_sma_fast": null,
-      "metric_last_sma_slow": null,
-      "metric_structure_points": null,
-      "metric_close_slope": null,
-      "metric_max_drawdown_pct": null
-    },
-    {
       "ticker": "WFC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 89.33999633789062,
       "last_high": 89.91000366210938,
       "last_low": 88.36000061035156,
@@ -887,8 +833,76 @@
       "metric_max_drawdown_pct": null
     },
     {
+      "ticker": "XFLT",
+      "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
+      "last_open": 4.659999847412109,
+      "last_high": 4.739999771118164,
+      "last_low": 4.650000095367432,
+      "last_close": 4.650000095367432,
+      "has_hh_hl": false,
+      "structure_bars": 35,
+      "min_pivots_per_side": 3,
+      "pivot_last_hh": 4.768989226629869,
+      "pivot_last_hl": 4.601136501337885,
+      "range_hh": 4.768989226629869,
+      "range_hl": 4.375544566186502,
+      "entry_level_source": "range",
+      "last_hl": 4.375544566186502,
+      "last_hh": 4.768989226629869,
+      "at_hl_zone": false,
+      "bounce_ok": false,
+      "momentum_ok": false,
+      "entry_signal": false,
+      "hl_touch_pct": 6.272488487533131,
+      "close_vs_hl_pct": 6.272488487533131,
+      "breakout_distance_pct": 2.495059762307833,
+      "hl_touch_pct_threshold": 100,
+      "bounce_min_pct_threshold": 0.3,
+      "sma_fast": 10,
+      "sma_slow": 20,
+      "sma_fast_last": 4.66032829284668,
+      "sma_slow_last": 4.621352505683899,
+      "sma_fast_gt_slow": true,
+      "metric_structure_high_pivots": null,
+      "metric_structure_low_pivots": null,
+      "recent_hl_uptrend": true,
+      "recent_hl_count_required": 2,
+      "recent_hl_lookback_bars": 20,
+      "recent_hl_pivots_found": 2,
+      "recent_hl_prices": [
+        4.532021016040801,
+        4.601136501337885
+      ],
+      "recent_hl_dates": [
+        "2026-01-05",
+        "2026-01-12"
+      ],
+      "recent_hl_chain_ok": true,
+      "recent_hl_slope": 0.013823097059417158,
+      "recent_hl_slope_pct_per_bar": 0.30042788461932785,
+      "recent_hl_slope_min_pct_per_bar": 0.02,
+      "ready_to_act": false,
+      "rta_second_last_hh": 4.586325996185543,
+      "rta_last_hh": 4.768989226629869,
+      "rta_pullback_ok": null,
+      "rta_pullback_pct_from_last_hh": null,
+      "rta_pullback_min_pct": 2.0,
+      "rta_pullback_lookback_bars": 20,
+      "metric_hh_chain_ok": 0.0,
+      "metric_hl_chain_ok": 0.0,
+      "metric_sma_ok": null,
+      "metric_last_close": null,
+      "metric_last_sma_fast": null,
+      "metric_last_sma_slow": null,
+      "metric_structure_points": null,
+      "metric_close_slope": null,
+      "metric_max_drawdown_pct": null
+    },
+    {
       "ticker": "XPER",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 6.110000133514404,
       "last_high": 6.269999980926514,
       "last_low": 6.019999980926514,
@@ -955,6 +969,7 @@
     {
       "ticker": "ZTS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 126.0,
       "last_high": 126.36000061035156,
       "last_low": 123.70999908447266,
@@ -1021,6 +1036,7 @@
     {
       "ticker": "WES",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 42.0099983215332,
       "last_high": 42.2400016784668,
       "last_low": 41.349998474121094,
@@ -1087,6 +1103,7 @@
     {
       "ticker": "WSR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 13.970000267028809,
       "last_high": 14.109999656677246,
       "last_low": 13.970000267028809,
@@ -1153,6 +1170,7 @@
     {
       "ticker": "WDS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 15.960000038146973,
       "last_high": 15.979999542236328,
       "last_low": 15.760000228881836,
@@ -1219,6 +1237,7 @@
     {
       "ticker": "WPC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 68.5,
       "last_high": 68.94999694824219,
       "last_low": 68.12000274658203,
@@ -1285,6 +1304,7 @@
     {
       "ticker": "XXI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 9.75,
       "last_high": 9.899999618530273,
       "last_low": 9.380000114440918,
@@ -1351,6 +1371,7 @@
     {
       "ticker": "WMS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 158.33999633789062,
       "last_high": 159.5,
       "last_low": 157.25999450683594,
@@ -1417,6 +1438,7 @@
     {
       "ticker": "WEAV",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 6.880000114440918,
       "last_high": 6.980000019073486,
       "last_low": 6.71999979019165,
@@ -1483,6 +1505,7 @@
     {
       "ticker": "XPEV",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 20.8700008392334,
       "last_high": 21.1299991607666,
       "last_low": 20.399999618530273,
@@ -1549,6 +1572,7 @@
     {
       "ticker": "WFG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 67.80999755859375,
       "last_high": 69.3499984741211,
       "last_low": 67.05999755859375,
@@ -1615,6 +1639,7 @@
     {
       "ticker": "WS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 37.29999923706055,
       "last_high": 39.0,
       "last_low": 36.965999603271484,
@@ -1681,6 +1706,7 @@
     {
       "ticker": "XPO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 152.9499969482422,
       "last_high": 155.16000366210938,
       "last_low": 149.3000030517578,
@@ -1747,6 +1773,7 @@
     {
       "ticker": "WCC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 279.8900146484375,
       "last_high": 284.79998779296875,
       "last_low": 279.75,
@@ -1813,6 +1840,7 @@
     {
       "ticker": "WOLF",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 19.969999313354492,
       "last_high": 20.8799991607666,
       "last_low": 19.46500015258789,
@@ -1879,6 +1907,7 @@
     {
       "ticker": "ZIM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 22.100000381469727,
       "last_high": 22.93000030517578,
       "last_low": 21.799999237060547,
@@ -1945,6 +1974,7 @@
     {
       "ticker": "ZETA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 22.600000381469727,
       "last_high": 22.649999618530273,
       "last_low": 21.520000457763672,
@@ -2011,6 +2041,7 @@
     {
       "ticker": "WNC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.5600004196167,
       "last_high": 11.109999656677246,
       "last_low": 10.5,
@@ -2077,6 +2108,7 @@
     {
       "ticker": "XZO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 21.889999389648438,
       "last_high": 23.040000915527344,
       "last_low": 21.520000457763672,
@@ -2143,6 +2175,7 @@
     {
       "ticker": "XPOF",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 8.069999694824219,
       "last_high": 8.420000076293945,
       "last_low": 7.920000076293945,
@@ -2209,6 +2242,7 @@
     {
       "ticker": "WLK",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 90.81999969482422,
       "last_high": 91.08000183105469,
       "last_low": 86.2699966430664,
@@ -2275,6 +2309,7 @@
     {
       "ticker": "YEXT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 7.650000095367432,
       "last_high": 7.789999961853027,
       "last_low": 7.510000228881836,
@@ -2335,6 +2370,7 @@
     {
       "ticker": "ZIP",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 2.940000057220459,
       "last_high": 2.9800000190734863,
       "last_low": 2.8350000381469727,
@@ -2395,6 +2431,7 @@
     {
       "ticker": "YMM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 9.989999771118164,
       "last_high": 9.989999771118164,
       "last_low": 9.710000038146973,
@@ -2455,6 +2492,7 @@
     {
       "ticker": "YCY",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.020000457763672,
       "last_high": 10.029999732971191,
       "last_low": 10.015000343322754,
@@ -2515,6 +2553,7 @@
     {
       "ticker": "WCN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 164.7100067138672,
       "last_high": 167.63999938964844,
       "last_low": 163.99000549316406,
@@ -2575,6 +2614,7 @@
     {
       "ticker": "YELP",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 29.260000228881836,
       "last_high": 29.270000457763672,
       "last_low": 28.770000457763672,
@@ -2635,6 +2675,7 @@
     {
       "ticker": "ZTR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 6.320000171661377,
       "last_high": 6.320000171661377,
       "last_low": 6.28000020980835,
@@ -2695,6 +2736,7 @@
     {
       "ticker": "YPF",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 34.08000183105469,
       "last_high": 34.58000183105469,
       "last_low": 33.689998626708984,
@@ -2755,6 +2797,7 @@
     {
       "ticker": "WK",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 86.2699966430664,
       "last_high": 86.80500030517578,
       "last_low": 84.4209976196289,
@@ -2815,6 +2858,7 @@
     {
       "ticker": "WTM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 2084.56005859375,
       "last_high": 2098.8798828125,
       "last_low": 2059.7099609375,
@@ -2881,6 +2925,7 @@
     {
       "ticker": "WELL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 189.67999267578125,
       "last_high": 192.0500030517578,
       "last_low": 187.6999969482422,
@@ -2947,6 +2992,7 @@
     {
       "ticker": "WST",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 275.6199951171875,
       "last_high": 281.54998779296875,
       "last_low": 272.80999755859375,
@@ -3013,6 +3059,7 @@
     {
       "ticker": "XYL",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 141.57000732421875,
       "last_high": 144.99000549316406,
       "last_low": 140.8699951171875,
@@ -3079,6 +3126,7 @@
     {
       "ticker": "YOU",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 33.939998626708984,
       "last_high": 34.2400016784668,
       "last_low": 33.529998779296875,
@@ -3139,6 +3187,7 @@
     {
       "ticker": "ZWS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 46.86000061035156,
       "last_high": 47.529998779296875,
       "last_low": 46.79999923706055,
@@ -3205,6 +3254,7 @@
     {
       "ticker": "ZVIA",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.7599999904632568,
       "last_high": 1.9500000476837158,
       "last_low": 1.7300000190734863,
@@ -3265,6 +3315,7 @@
     {
       "ticker": "WOR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 53.58000183105469,
       "last_high": 54.900001525878906,
       "last_low": 53.189998626708984,
@@ -3331,6 +3382,7 @@
     {
       "ticker": "WMK",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 67.44999694824219,
       "last_high": 69.77999877929688,
       "last_low": 66.87000274658203,
@@ -3397,6 +3449,7 @@
     {
       "ticker": "ZEPP",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 21.170000076293945,
       "last_high": 23.299999237060547,
       "last_low": 21.079999923706055,
@@ -3463,6 +3516,7 @@
     {
       "ticker": "WLY",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 30.989999771118164,
       "last_high": 31.719999313354492,
       "last_low": 30.7549991607666,
@@ -3523,6 +3577,7 @@
     {
       "ticker": "ZGN",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 10.760000228881836,
       "last_high": 11.074999809265137,
       "last_low": 10.670000076293945,
@@ -3583,6 +3638,7 @@
     {
       "ticker": "WRB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 69.19999694824219,
       "last_high": 69.77999877929688,
       "last_low": 68.30999755859375,
@@ -3643,6 +3699,7 @@
     {
       "ticker": "WTRG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 39.599998474121094,
       "last_high": 40.11000061035156,
       "last_low": 39.58000183105469,
@@ -3709,6 +3766,7 @@
     {
       "ticker": "YRD",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 4.0,
       "last_high": 4.050000190734863,
       "last_low": 3.9000000953674316,
@@ -3769,6 +3827,7 @@
     {
       "ticker": "XYZ",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 65.53500366210938,
       "last_high": 65.58100128173828,
       "last_low": 64.4000015258789,
@@ -3835,6 +3894,7 @@
     {
       "ticker": "WDH",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 1.7999999523162842,
       "last_high": 1.8179999589920044,
       "last_low": 1.784999966621399,
@@ -3895,6 +3955,7 @@
     {
       "ticker": "WF",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 57.650001525878906,
       "last_high": 58.11000061035156,
       "last_low": 57.279998779296875,
@@ -3955,6 +4016,7 @@
     {
       "ticker": "WD",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 64.66999816894531,
       "last_high": 66.0999984741211,
       "last_low": 63.83000183105469,
@@ -4021,6 +4083,7 @@
     {
       "ticker": "WTS",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 292.2699890136719,
       "last_high": 297.7200012207031,
       "last_low": 290.79998779296875,
@@ -4087,6 +4150,7 @@
     {
       "ticker": "WHG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 17.59000015258789,
       "last_high": 18.510000228881836,
       "last_low": 17.559999465942383,
@@ -4153,6 +4217,7 @@
     {
       "ticker": "XHR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 14.699999809265137,
       "last_high": 14.949999809265137,
       "last_low": 14.5600004196167,
@@ -4219,6 +4284,7 @@
     {
       "ticker": "WIT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 2.9800000190734863,
       "last_high": 2.990000009536743,
       "last_low": 2.940000057220459,
@@ -4279,6 +4345,7 @@
     {
       "ticker": "XYF",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 6.079999923706055,
       "last_high": 6.199999809265137,
       "last_low": 6.0,
@@ -4339,6 +4406,7 @@
     {
       "ticker": "WLYB",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 32.89500045776367,
       "last_high": 32.95000076293945,
       "last_low": 32.89500045776367,
@@ -4399,6 +4467,7 @@
     {
       "ticker": "YUM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 157.14999389648438,
       "last_high": 161.05999755859375,
       "last_low": 156.94000244140625,
@@ -4459,6 +4528,7 @@
     {
       "ticker": "WH",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 80.63999938964844,
       "last_high": 81.04000091552734,
       "last_low": 78.56999969482422,
@@ -4519,6 +4589,7 @@
     {
       "ticker": "WEX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 161.91000366210938,
       "last_high": 161.91000366210938,
       "last_low": 159.41000366210938,
@@ -4585,6 +4656,7 @@
     {
       "ticker": "ZH",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.809999942779541,
       "last_high": 3.809999942779541,
       "last_low": 3.619999885559082,
@@ -4645,6 +4717,7 @@
     {
       "ticker": "WSO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 376.5199890136719,
       "last_high": 382.239990234375,
       "last_low": 372.3800048828125,
@@ -4711,6 +4784,7 @@
     {
       "ticker": "WU",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 9.390000343322754,
       "last_high": 9.520000457763672,
       "last_low": 9.220000267028809,
@@ -4777,6 +4851,7 @@
     {
       "ticker": "XOM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 129.1300048828125,
       "last_high": 130.1999969482422,
       "last_low": 128.3000030517578,
@@ -4837,6 +4912,7 @@
     {
       "ticker": "WLKP",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 20.600000381469727,
       "last_high": 21.15999984741211,
       "last_low": 20.600000381469727,
@@ -4897,6 +4973,7 @@
     {
       "ticker": "ZTO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 22.510000228881836,
       "last_high": 22.69499969482422,
       "last_low": 22.34000015258789,
@@ -4957,6 +5034,7 @@
     {
       "ticker": "XIFR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 10.170000076293945,
       "last_high": 10.279999732971191,
       "last_low": 10.045000076293945,
@@ -5017,6 +5095,7 @@
     {
       "ticker": "WTI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 1.840000033378601,
       "last_high": 1.8799999952316284,
       "last_low": 1.7200000286102295,
@@ -5083,6 +5162,7 @@
     {
       "ticker": "ZKH",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 3.490000009536743,
       "last_high": 3.5850000381469727,
       "last_low": 3.4100000858306885,
@@ -5149,6 +5229,7 @@
     {
       "ticker": "WTTR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 11.579999923706055,
       "last_high": 12.020000457763672,
       "last_low": 11.289999961853027,
@@ -5209,6 +5290,7 @@
     {
       "ticker": "WPP",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "downtrend",
       "last_open": 21.799999237060547,
       "last_high": 21.799999237060547,
       "last_low": 21.450000762939453,
@@ -5269,6 +5351,7 @@
     {
       "ticker": "WWW",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 18.280000686645508,
       "last_high": 19.479999542236328,
       "last_low": 17.959999084472656,
@@ -5335,6 +5418,7 @@
     {
       "ticker": "WSM",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 206.0399932861328,
       "last_high": 210.92999267578125,
       "last_low": 204.58999633789062,
@@ -5395,6 +5479,7 @@
     {
       "ticker": "WHR",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 84.77999877929688,
       "last_high": 85.70999908447266,
       "last_low": 84.0,
@@ -5455,6 +5540,7 @@
     {
       "ticker": "WKC",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 27.31999969482422,
       "last_high": 28.15999984741211,
       "last_low": 27.239999771118164,
@@ -5515,6 +5601,7 @@
     {
       "ticker": "YETI",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 49.040000915527344,
       "last_high": 49.59000015258789,
       "last_low": 48.369998931884766,
@@ -5575,6 +5662,7 @@
     {
       "ticker": "WY",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 26.649999618530273,
       "last_high": 26.90999984741211,
       "last_low": 26.31999969482422,
@@ -5641,6 +5729,7 @@
     {
       "ticker": "WHD",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 51.83000183105469,
       "last_high": 53.5,
       "last_low": 51.34600067138672,
@@ -5707,6 +5796,7 @@
     {
       "ticker": "WBX",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 3.049999952316284,
       "last_high": 3.119999885559082,
       "last_low": 2.9200000762939453,
@@ -5767,6 +5857,7 @@
     {
       "ticker": "WT",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 13.989999771118164,
       "last_high": 14.25,
       "last_low": 13.920000076293945,
@@ -5827,6 +5918,7 @@
     {
       "ticker": "XPRO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 16.280000686645508,
       "last_high": 16.510000228881836,
       "last_low": 16.049999237060547,
@@ -5887,6 +5979,7 @@
     {
       "ticker": "YSG",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 4.429999828338623,
       "last_high": 4.650000095367432,
       "last_low": 4.300000190734863,
@@ -5947,6 +6040,7 @@
     {
       "ticker": "WGO",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 46.22999954223633,
       "last_high": 48.0,
       "last_low": 45.97999954223633,
@@ -6007,6 +6101,7 @@
     {
       "ticker": "WRBY",
       "last_date": "2026-01-15",
+      "trend_last_10_bars": "uptrend",
       "last_open": 28.809999465942383,
       "last_high": 29.280000686645508,
       "last_low": 28.209999084472656,

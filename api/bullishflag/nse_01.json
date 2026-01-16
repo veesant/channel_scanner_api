@@ -1,0 +1,40 @@
+{
+  "updated_utc": "2026-01-16T13:55:59.202515+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 1,
+  "data": [
+    {
+      "ticker": "ATLASCYCLE.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 105.51000213623047,
+      "sma20": 100.29550018310547,
+      "sma50": 99.37739974975585,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 14.626111496057504,
+      "pole_high": 109.87999725341797,
+      "pole_range": 19.87999725341797,
+      "flag_bars": 8,
+      "flag_range": 10.089996337890625,
+      "pullback_from_pole_high_pct": 3.977061545705095,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.8853969789020506
+    }
+  ]
+}
