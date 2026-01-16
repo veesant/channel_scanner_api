@@ -454,110 +454,6 @@ def compute_recent_hl_uptrend(
 
 
 # -----------------------------
-# ADDED: Ready-to-Act flag
-#   - Uptrend recently (uses existing clean trend gate: has_hh_hl)
-#   - Pulled back from most recent pivot HH
-#   - Current close is above the *second most recent* pivot HH
-# -----------------------------
-
-def compute_ready_to_act(
-    df: pd.DataFrame,
-    pivot_highs: List[pd.Timestamp],
-    pivot_lows: List[pd.Timestamp],
-    require_clean_trend: bool,
-    clean_ok: bool,
-    pullback_min_pct: float,
-    pullback_lookback_bars: int,
-) -> Dict[str, Optional[object]]:
-    """
-    Non-breaking add-on flag.
-
-    READY-TO-ACT is True when:
-      1) (optional) clean uptrend gate is satisfied (has_hh_hl)
-      2) after the most recent pivot HH, price retraced (structure pullback)
-      3) current close is above the second most recent pivot HH
-
-    Pullback is detected by either:
-      - a pivot low printed AFTER the most recent pivot HH (structure pullback), OR
-      - a measured retracement >= pullback_min_pct from the most recent pivot HH
-        using the minimum CLOSE observed after that HH (within pullback_lookback_bars).
-    """
-
-    out: Dict[str, Optional[object]] = {
-        "ready_to_act": False,
-
-        # Debug fields (helpful for UI)
-        "rta_second_last_hh": None,
-        "rta_last_hh": None,
-        "rta_pullback_ok": None,
-        "rta_pullback_pct_from_last_hh": None,
-        "rta_pullback_min_pct": pullback_min_pct,
-        "rta_pullback_lookback_bars": pullback_lookback_bars,
-    }
-
-    if df is None or df.empty:
-        return out
-
-    last_close = safe_float(df["Close"].iloc[-1])
-    if last_close is None:
-        return out
-
-    # Need at least 2 pivot highs for "close above second most recent HH"
-    if len(pivot_highs) < 2:
-        return out
-
-    second_last_hh_ts = pivot_highs[-2]
-    last_hh_ts = pivot_highs[-1]
-
-    second_last_hh = safe_float(df.at[second_last_hh_ts, "High"])
-    last_hh = safe_float(df.at[last_hh_ts, "High"])
-
-    out["rta_second_last_hh"] = second_last_hh
-    out["rta_last_hh"] = last_hh
-
-    if second_last_hh is None or last_hh is None or last_hh <= 0:
-        return out
-
-    # 1) Trend gate (reuse existing clean uptrend)
-    if require_clean_trend and not clean_ok:
-        return out
-
-    # 2) Pullback gate
-    pullback_ok = False
-
-    # A) Pivot low after last HH (structure pullback)
-    if pivot_lows:
-        if any(ts > last_hh_ts for ts in pivot_lows):
-            pullback_ok = True
-
-    # B) Fallback: measured retracement from last HH
-    if not pullback_ok and pullback_lookback_bars > 0:
-        w = df.tail(pullback_lookback_bars)
-        if not w.empty:
-            if last_hh_ts in w.index:
-                w2 = w.loc[last_hh_ts:]
-            else:
-                # If HH is older than the lookback window, still allow a conservative pullback check
-                w2 = w
-
-            if not w2.empty:
-                min_close = safe_float(w2["Close"].min())
-                if min_close is not None and last_hh > 0:
-                    pullback_pct = (last_hh - min_close) / last_hh * 100.0
-                    out["rta_pullback_pct_from_last_hh"] = pullback_pct
-                    if pullback_pct >= pullback_min_pct:
-                        pullback_ok = True
-
-    out["rta_pullback_ok"] = bool(pullback_ok)
-
-    # 3) Close above second-last HH
-    close_above_second_last_hh = bool(last_close > second_last_hh)
-
-    out["ready_to_act"] = bool(pullback_ok and close_above_second_last_hh)
-    return out
-
-
-# -----------------------------
 # Scan per ticker
 # -----------------------------
 
@@ -665,17 +561,6 @@ def scan_one(ticker: str, data: pd.DataFrame, args: argparse.Namespace) -> Optio
         require_strict_higher_lows=(not args.recent_hl_allow_equal_lows),
     )
 
-    # ADDED: Ready-to-act fields (independent; does not change existing flags)
-    ready_to_act_fields = compute_ready_to_act(
-        df=df,
-        pivot_highs=raw_highs,
-        pivot_lows=raw_lows,
-        require_clean_trend=True,
-        clean_ok=clean_ok,
-        pullback_min_pct=args.rta_pullback_min_pct,
-        pullback_lookback_bars=args.rta_pullback_lookback_bars,
-    )
-
     last_date = str(df.index[-1].date()) if len(df.index) else None
 
     out = {
@@ -731,7 +616,6 @@ def scan_one(ticker: str, data: pd.DataFrame, args: argparse.Namespace) -> Optio
 
     # Append new fields (no removals)
     out.update(recent_hl_fields)
-    out.update(ready_to_act_fields)
     return out
 
 
@@ -778,12 +662,6 @@ def parse_args() -> argparse.Namespace:
                    help="Minimum HL slope in %% per bar (0.02 = 0.02%% per bar)")
     p.add_argument("--recent_hl_allow_equal_lows", action="store_true",
                    help="Allow equal pivot lows (>=) instead of strictly higher lows (>)")
-
-    # ADDED: ready-to-act knobs (new only; does not affect existing behavior)
-    p.add_argument("--rta_pullback_min_pct", type=float, default=2.0,
-                   help="Min pullback %% from most recent pivot HH to qualify as a pullback (default 2.0)")
-    p.add_argument("--rta_pullback_lookback_bars", type=int, default=20,
-                   help="Lookback bars used to measure pullback from last HH (default 20)")
 
     return p.parse_args()
 
@@ -888,11 +766,11 @@ def main() -> int:
     df = pd.DataFrame(rows)
 
     if not df.empty:
-        for c in ["entry_signal", "has_hh_hl", "at_hl_zone", "bounce_ok", "momentum_ok", "recent_hl_uptrend", "ready_to_act"]:
+        for c in ["entry_signal", "has_hh_hl", "at_hl_zone", "bounce_ok", "momentum_ok", "recent_hl_uptrend"]:
             if c in df.columns:
                 df[c] = df[c].fillna(False).astype(bool)
 
-        # Keep your existing sort columns (unchanged)
+        # Keep your existing sort columns; add recent_hl_uptrend as an extra sort hint (doesn't change fields)
         sort_cols = ["entry_signal", "at_hl_zone", "recent_hl_uptrend", "has_hh_hl", "hl_touch_pct", "close_vs_hl_pct", "last_date"]
         existing = [c for c in sort_cols if c in df.columns]
         if existing:
@@ -929,17 +807,12 @@ def main() -> int:
             "recent_hl_count": args.recent_hl_count,
             "recent_hl_slope_min_pct_per_bar": args.recent_hl_slope_min_pct_per_bar,
             "recent_hl_allow_equal_lows": bool(args.recent_hl_allow_equal_lows),
-
-            # ADDED meta (ready-to-act)
-            "rta_pullback_min_pct": args.rta_pullback_min_pct,
-            "rta_pullback_lookback_bars": args.rta_pullback_lookback_bars,
             "lastUpdatedTs": datetime.now(timezone.utc).isoformat(),
         },
         "count": int(len(df)),
         "count_clean_trend": int(df["has_hh_hl"].sum()) if (not df.empty and "has_hh_hl" in df.columns) else 0,
         "count_entry_signal": int(df["entry_signal"].sum()) if (not df.empty and "entry_signal" in df.columns) else 0,
         "count_recent_hl_uptrend": int(df["recent_hl_uptrend"].sum()) if (not df.empty and "recent_hl_uptrend" in df.columns) else 0,
-        "count_ready_to_act": int(df["ready_to_act"].sum()) if (not df.empty and "ready_to_act" in df.columns) else 0,
         "data": df.to_dict(orient="records") if not df.empty else [],
     }
 
@@ -958,7 +831,7 @@ def main() -> int:
         return 0
 
     preview_cols = [
-        "ticker", "entry_signal", "ready_to_act", "has_hh_hl", "at_hl_zone", "bounce_ok", "momentum_ok",
+        "ticker", "entry_signal", "has_hh_hl", "at_hl_zone", "bounce_ok", "momentum_ok",
         "recent_hl_uptrend", "recent_hl_pivots_found", "recent_hl_slope_pct_per_bar",
         "entry_level_source",
         "hl_touch_pct", "close_vs_hl_pct",
