@@ -468,82 +468,34 @@ def compute_ready_to_act(
     clean_ok: bool,
     pullback_min_pct: float,
     pullback_lookback_bars: int,
-    min_hh_separation_bars: int,
-    break_min_pct: float,
-    break_min_closes: int,
 ) -> Dict[str, Optional[object]]:
     """
-    Entry Signal (reclaim) definition (adds fields only; no existing logic changes elsewhere):
+    Non-breaking add-on flag.
 
-    - Trend gate: uses existing clean_ok (has_hh_hl)
-    - Reference level: "second most recent HH", but we skip HHs that are too close to the last HH
-      (min_hh_separation_bars) to avoid tiny-adjacent HH pairs.
-    - Pullback: price must CLOSE below (reference_HH * (1 - break_min_pct/100)) at least
-      break_min_closes times AFTER the last HH.
-    - Reclaim: current close must be above reference_HH.
+    READY-TO-ACT is True when:
+      1) (optional) clean uptrend gate is satisfied (has_hh_hl)
+      2) after the most recent pivot HH, price retraced (structure pullback)
+      3) current close is above the second most recent pivot HH
+
+    Pullback is detected only when, after the most recent pivot HH, price CLOSES below the
+    second most recent pivot HH at least once, and then reclaims it (enforced by requiring
+    current close > second-last HH).
     """
+
     out: Dict[str, Optional[object]] = {
         "ready_to_act": False,
+
+        # Debug fields (helpful for UI)
         "rta_second_last_hh": None,
         "rta_last_hh": None,
         "rta_pullback_ok": None,
-        "rta_pullback_pct_from_last_hh": None,  # retained for backward compatibility
+        "rta_pullback_pct_from_last_hh": None,
         "rta_pullback_min_pct": pullback_min_pct,
         "rta_pullback_lookback_bars": pullback_lookback_bars,
-        "rta_min_hh_separation_bars": min_hh_separation_bars,
-        "rta_break_min_pct": break_min_pct,
-        "rta_break_min_closes": break_min_closes,
     }
 
     if df is None or df.empty:
         return out
-
-    last_close = safe_float(df["Close"].iloc[-1])
-    if last_close is None:
-        return out
-
-    if require_clean_trend and not clean_ok:
-        return out
-
-    if len(pivot_highs) < 2:
-        return out
-
-    last_hh_ts = pivot_highs[-1]
-    last_hh = safe_float(df.at[last_hh_ts, "High"]) if last_hh_ts in df.index else None
-    out["rta_last_hh"] = last_hh
-    if last_hh is None:
-        return out
-
-    # Choose reference HH not too close to last HH in bars
-    ref_ts = None
-    if last_hh_ts in df.index:
-        last_idx = df.index.get_loc(last_hh_ts)
-        for ts in reversed(pivot_highs[:-1]):
-            if ts in df.index:
-                sep = last_idx - df.index.get_loc(ts)
-                if sep >= max(1, int(min_hh_separation_bars)):
-                    ref_ts = ts
-                    break
-    if ref_ts is None:
-        ref_ts = pivot_highs[-2]
-
-    ref_hh = safe_float(df.at[ref_ts, "High"]) if ref_ts in df.index else None
-    out["rta_second_last_hh"] = ref_hh
-    if ref_hh is None or ref_hh <= 0:
-        return out
-
-    # Evaluate only bars AFTER the last HH
-    after = df.loc[last_hh_ts:] if last_hh_ts in df.index else df.tail(max(1, int(pullback_lookback_bars)))
-
-    break_level = ref_hh * (1.0 - (max(0.0, float(break_min_pct)) / 100.0))
-    below_count = int((after["Close"] < break_level).sum()) if not after.empty else 0
-
-    pullback_ok = below_count >= max(1, int(break_min_closes))
-    out["rta_pullback_ok"] = bool(pullback_ok)
-
-    reclaim_ok = last_close > ref_hh
-    out["ready_to_act"] = bool(pullback_ok and reclaim_ok)
-    return out
 
     last_close = safe_float(df["Close"].iloc[-1])
     if last_close is None:
@@ -723,9 +675,6 @@ def scan_one(ticker: str, data: pd.DataFrame, args: argparse.Namespace) -> Optio
         clean_ok=clean_ok,
         pullback_min_pct=args.rta_pullback_min_pct,
         pullback_lookback_bars=args.rta_pullback_lookback_bars,
-        min_hh_separation_bars=args.rta_min_hh_separation_bars,
-        break_min_pct=args.rta_break_min_pct,
-        break_min_closes=args.rta_break_min_closes,
     )
 
     last_date = str(df.index[-1].date()) if len(df.index) else None
@@ -985,9 +934,6 @@ def main() -> int:
             # ADDED meta (ready-to-act)
             "rta_pullback_min_pct": args.rta_pullback_min_pct,
             "rta_pullback_lookback_bars": args.rta_pullback_lookback_bars,
-            "rta_min_hh_separation_bars": args.rta_min_hh_separation_bars,
-            "rta_break_min_pct": args.rta_break_min_pct,
-            "rta_break_min_closes": args.rta_break_min_closes,
             "lastUpdatedTs": datetime.now(timezone.utc).isoformat(),
         },
         "count": int(len(df)),
