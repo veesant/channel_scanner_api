@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-13T14:09:30.014787+00:00",
+  "updated_utc": "2026-01-16T03:52:13.262664+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,6 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "SHRIRAMFIN.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 972.7999877929688,
-      "sma20": 959.407504272461,
-      "sma50": 881.959033203125,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 14.578181404386317,
-      "pole_high": 1000.2000122070312,
-      "pole_range": 149.70001220703125,
-      "flag_bars": 8,
-      "flag_range": 64.5999755859375,
-      "pullback_from_pole_high_pct": 2.7394545170622306,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": true,
-      "pattern": "bull_flag",
-      "rank_score": 2.0965416847919474
-    }
-  ]
+  "count": 0,
+  "data": []
 }

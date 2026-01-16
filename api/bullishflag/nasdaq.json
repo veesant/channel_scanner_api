@@ -1,17 +1,1 @@
-{
-  "updated_utc": "2026-01-13T14:09:38.324395+00:00",
-  "tf": "1d",
-  "params": {
-    "pole_bars": 10,
-    "flag_bars": 8,
-    "min_pole_gain_pct": 10.0,
-    "near_breakout_pct": 3.0,
-    "flag_pullback_min_pct": 1.0,
-    "flag_pullback_max_pct": 8.0,
-    "tight_ratio": 0.6,
-    "sma_fast": 20,
-    "sma_slow": 50
-  },
-  "count": 0,
-  "data": []
-}
+{"meta": {"merged_from": ["api/bullishflag/nasdaq_05.json", "api/bullishflag/nasdaq_06.json"]}, "counts": {}, "data": [{"ticker": "RPTX", "tf": "1d", "bars_used": 320, "close": 2.569999933242798, "sma20": 2.4697499752044676, "sma50": 2.204700005054474, "trend_ok": true, "pole_bars": 10, "pole_gain_pct": 20.09344893737179, "pole_high": 2.6600000858306885, "pole_range": 0.5199999809265137, "flag_bars": 8, "flag_range": 0.08500003814697266, "pullback_from_pole_high_pct": 3.3834642738285696, "pullback_ok": true, "tight_ok": true, "flag_hold_ok": true, "near_breakout": false, "pattern": "bull_flag", "rank_score": 2.7275639703052708}, {"ticker": "PSNY", "tf": "1d", "bars_used": 320, "close": 22.350000381469727, "sma20": 18.587500238418578, "sma50": 18.1742000579834, "trend_ok": true, "pole_bars": 10, "pole_gain_pct": 67.00547829600545, "pole_high": 23.2810001373291, "pole_range": 11.41100025177002, "flag_bars": 8, "flag_range": 3.6800003051757812, "pullback_from_pole_high_pct": 3.998968044188944, "pullback_ok": true, "tight_ok": true, "flag_hold_ok": true, "near_breakout": false, "pattern": "bull_flag", "rank_score": 2.4625069050359314}, {"ticker": "PPSI", "tf": "1d", "bars_used": 320, "close": 4.820000171661377, "sma20": 4.557000052928925, "sma50": 4.177600021362305, "trend_ok": true, "pole_bars": 10, "pole_gain_pct": 30.666669209798176, "pole_high": 4.980000019073486, "pole_range": 1.3399999141693115, "flag_bars": 8, "flag_range": 0.6949996948242188, "pullback_from_pole_high_pct": 3.2128483293033567, "pullback_ok": true, "tight_ok": true, "flag_hold_ok": true, "near_breakout": false, "pattern": "bull_flag", "rank_score": 2.135572463506387}, {"ticker": "VRA", "tf": "1d", "bars_used": 320, "close": 2.8399999141693115, "sma20": 2.633999991416931, "sma50": 2.517200000286102, "trend_ok": true, "pole_bars": 10, "pole_gain_pct": 21.276596608125264, "pole_high": 2.880000114440918, "pole_range": 0.7800002098083496, "flag_bars": 8, "flag_range": 0.4500000476837158, "pullback_from_pole_high_pct": 1.3888957875743526, "pullback_ok": true, "tight_ok": true, "flag_hold_ok": true, "near_breakout": true, "pattern": "bull_flag", "rank_score": 2.5754964326879146}, {"ticker": "VICR", "tf": "1d", "bars_used": 320, "close": 145.47999572753906, "sma20": 122.52449951171874, "sma50": 103.95860015869141, "trend_ok": true, "pole_bars": 10, "pole_gain_pct": 28.00766037969976, "pole_high": 149.99000549316406, "pole_range": 52.24000549316406, "flag_bars": 8, "flag_range": 29.899993896484375, "pullback_from_pole_high_pct": 3.00687352520335, "pullback_ok": true, "tight_ok": true, "flag_hold_ok": true, "near_breakout": false, "pattern": "bull_flag", "rank_score": 2.0460697182099588}, {"ticker": "WFRD", "tf": "1d", "bars_used": 320, "close": 84.11000061035156, "sma20": 82.65074996948242, "sma50": 77.9924559020996, "trend_ok": true, "pole_bars": 10, "pole_gain_pct": 12.406442410412444, "pole_high": 91.2300033569336, "pole_range": 14.540000915527344, "flag_bars": 8, "flag_range": 6.989997863769531, "pullback_from_pole_high_pct": 7.80445301391179, "pullback_ok": true, "tight_ok": true, "flag_hold_ok": true, "near_breakout": false, "pattern": "bull_flag", "rank_score": 1.819084451603092}]}
