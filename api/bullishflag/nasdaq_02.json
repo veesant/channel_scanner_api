@@ -1,0 +1,40 @@
+{
+  "updated_utc": "2026-01-16T16:45:34.443105+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 1,
+  "data": [
+    {
+      "ticker": "ENLT",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 50.220001220703125,
+      "sma20": 46.98774967193604,
+      "sma50": 41.7297998046875,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 19.808619007468682,
+      "pole_high": 50.79999923706055,
+      "pole_range": 9.619998931884766,
+      "flag_bars": 8,
+      "flag_range": 3.6199989318847656,
+      "pullback_from_pole_high_pct": 1.1417283958033824,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.9826893066898763
+    }
+  ]
+}

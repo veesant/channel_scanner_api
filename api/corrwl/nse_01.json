@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-16T13:50:02.950815+00:00",
+  "updated_utc": "2026-01-16T16:50:59.857700+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -21,7 +21,7 @@
     "only_actionable": false,
     "only_watchlist": true
   },
-  "count": 14,
+  "count": 13,
   "data": [
     {
       "ticker": "AARVI.NS",
@@ -555,47 +555,6 @@
       "dist_to_support": 0.05855459820643573,
       "actionable_reason": "watchlist_correction",
       "rank_score": 2.7184318242246723
-    },
-    {
-      "ticker": "BESTAGRO.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 434.20001220703125,
-      "sma_fast": 20,
-      "sma_slow": 50,
-      "sma_fast_now": 405.0975006103516,
-      "sma_slow_now": 368.7770013427734,
-      "trend_ok": true,
-      "recent_swing_high": 451.8999938964844,
-      "recent_swing_high_date": "2026-01-06",
-      "resistance_level": 451.8999938964844,
-      "pullback_from_swing_high_pct": 3.916791752271547,
-      "had_correction": true,
-      "bars_since_swing_high": 6,
-      "correction_age_ok": true,
-      "anchor_support_close": 376.54998779296875,
-      "anchor_support_date": "2026-01-01",
-      "support_level": 376.54998779296875,
-      "support_tolerance_pct": 1.0,
-      "support_floor": 376.54998779296875,
-      "support_floor_adj": 372.78448791503905,
-      "correction_close_low": 430.1000061035156,
-      "support_held": true,
-      "close_above_sma_fast": true,
-      "rebound_ok": false,
-      "uptrend_window_used": 50,
-      "uptrend_hh_count": 3,
-      "uptrend_hl_count": 4,
-      "uptrend_pivot_highs": 7,
-      "uptrend_pivot_lows": 7,
-      "uptrend_overall_up": true,
-      "uptrend_ok": true,
-      "uptrend_actionable": true,
-      "watchlist_correction": true,
-      "actionable_after_correction": true,
-      "dist_to_support": 0.15310058765891954,
-      "actionable_reason": "watchlist_correction",
-      "rank_score": 2.688578587568235
     }
   ]
 }
