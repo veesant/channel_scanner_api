@@ -8,7 +8,7 @@ on:
       mode:
         description: "What to run"
         required: true
-        default: "entry_only"
+        default: "all"
         type: choice
         options:
           - entry_only
@@ -411,7 +411,7 @@ jobs:
             files = sorted(glob.glob(pattern))
             if not files:
               return
-            merged = {"meta-merge": {"merged_from": files}, "counts-merge": defaultdict(int), "data": []}
+            merged = {"meta": {"merged_from": files}, "counts": defaultdict(int), "data": []}
             for f in files:
               with open(f, "r", encoding="utf-8") as r:
                 obj = json.load(r)
