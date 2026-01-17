@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-16T20:47:02.496538+00:00",
+  "updated_utc": "2026-01-17T20:45:28.582275+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,51 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 2,
+  "data": [
+    {
+      "ticker": "STM",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 28.030000686645508,
+      "sma20": 27.229500102996827,
+      "sma50": 25.317480545043946,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 13.377020978849238,
+      "pole_high": 29.530000686645508,
+      "pole_range": 3.6300010681152344,
+      "flag_bars": 8,
+      "flag_range": 1.4500007629394531,
+      "pullback_from_pole_high_pct": 5.079579969933262,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.0031025015220054
+    },
+    {
+      "ticker": "TECK",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 50.540000915527344,
+      "sma20": 48.66500034332275,
+      "sma50": 44.96900039672852,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 13.659513468575913,
+      "pole_high": 52.2400016784668,
+      "pole_range": 7.590000152587891,
+      "flag_bars": 8,
+      "flag_range": 4.209999084472656,
+      "pullback_from_pole_high_pct": 3.254212688205539,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.7585138816335275
+    }
+  ]
 }

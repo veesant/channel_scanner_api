@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-16T20:47:24.570388+00:00",
+  "updated_utc": "2026-01-17T20:45:58.076950+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,73 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 3,
+  "data": [
+    {
+      "ticker": "METC",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 20.889999389648438,
+      "sma20": 18.869999742507936,
+      "sma50": 18.597199897766114,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 27.442155455896454,
+      "pole_high": 21.200000762939453,
+      "pole_range": 6.340001106262207,
+      "flag_bars": 8,
+      "flag_range": 3.2900009155273438,
+      "pullback_from_pole_high_pct": 1.4622705761074364,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.64769731020986
+    },
+    {
+      "ticker": "MRVI",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 3.9200000762939453,
+      "sma20": 3.6190000057220457,
+      "sma50": 3.5324000024795534,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 10.85714612688337,
+      "pole_high": 4.014999866485596,
+      "pole_range": 0.8249998092651367,
+      "flag_bars": 8,
+      "flag_range": 0.46000003814697266,
+      "pullback_from_pole_high_pct": 2.366121876731355,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 1.8248567928960562
+    },
+    {
+      "ticker": "LSAK",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 4.619999885559082,
+      "sma20": 4.603499984741211,
+      "sma50": 4.245400004386902,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 11.034483439006662,
+      "pole_high": 4.980000019073486,
+      "pole_range": 0.7100000381469727,
+      "flag_bars": 8,
+      "flag_range": 0.37999963760375977,
+      "pullback_from_pole_high_pct": 7.2289183159758545,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.659706291229463
+    }
+  ]
 }

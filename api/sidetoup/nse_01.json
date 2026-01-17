@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-16T20:52:19.227606+00:00",
+  "updated_utc": "2026-01-17T20:51:53.512117+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -265,27 +265,27 @@
     },
     {
       "ticker": "BEPL.NS",
-      "slope": -0.0095606454204582,
-      "r2": 0.9271941032706436,
+      "slope": -0.009560645288225266,
+      "r2": 0.927194105162169,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.3370860933985172,
+      "pos": 0.33708606761298254,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -39.174042883438865,
+      "annual_trend_pct": -39.17404246519273,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -37.83725819924007,
+      "prior_trend_pct": -37.83725722552512,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -30.6768635736128,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9298884422954701
+      "rank_score": 0.9298884458197862
     },
     {
       "ticker": "BLUEJET.NS",
@@ -2953,15 +2953,15 @@
     },
     {
       "ticker": "BEL.NS",
-      "slope": 0.00956959831188947,
-      "r2": 0.7066210200902441,
+      "slope": 0.00956959836688928,
+      "r2": 0.7066210105589172,
       "inside": 0.9615384615384616,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.20710379594860387,
+      "pos": 0.20710380362886796,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 64.48005196574431,
+      "annual_trend_pct": 64.48005243615565,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -2973,7 +2973,7 @@
       "recent_trend_pct": 98.86322377335435,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8172155150656464
+      "rank_score": 0.8172155095319565
     },
     {
       "ticker": "BLKASHYAP.NS",

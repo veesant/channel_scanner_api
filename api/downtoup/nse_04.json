@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-16T20:43:50.899217+00:00",
+  "updated_utc": "2026-01-17T20:51:28.417760+00:00",
   "tf": "1d",
   "params": {
     "n_down": 40,
@@ -15,49 +15,28 @@
     "near_resistance_pct": 6.0,
     "breakout_wiggle_pct": 0.2
   },
-  "count": 2,
+  "count": 1,
   "data": [
     {
       "ticker": "SATIN.NS",
       "tf": "1d",
       "bars_used": 350,
-      "close": 151.3800048828125,
-      "sma20": 144.97100067138672,
-      "sma50": 147.16259979248048,
+      "close": 150.8000030517578,
+      "sma20": 145.52950057983398,
+      "sma50": 147.15699981689454,
       "trend_ok": true,
       "prior_downtrend_ok": true,
-      "down_slope": -0.3575918888285281,
+      "down_slope": -0.3506266123358349,
       "fresh_uptrend_ok": true,
-      "up_slope": 0.7253344911517519,
+      "up_slope": 0.5766674619732481,
       "up_hh_steps": 1,
       "up_hl_steps": 1,
       "up_pivot_highs": 2,
       "up_pivot_lows": 2,
       "resistance": 156.5,
-      "pullback_from_resistance_pct": 3.2715623751996805,
+      "pullback_from_resistance_pct": 3.642170573956669,
       "state": "correction",
-      "rank_score": 2.6016160607147576
-    },
-    {
-      "ticker": "SENCO.NS",
-      "tf": "1d",
-      "bars_used": 350,
-      "close": 332.95001220703125,
-      "sma20": 327.7824996948242,
-      "sma50": 321.8230010986328,
-      "trend_ok": true,
-      "prior_downtrend_ok": true,
-      "down_slope": -0.3277440398540103,
-      "fresh_uptrend_ok": true,
-      "up_slope": 2.3248496315696023,
-      "up_hh_steps": 1,
-      "up_hl_steps": 1,
-      "up_pivot_highs": 2,
-      "up_pivot_lows": 2,
-      "resistance": 380.79998779296875,
-      "pullback_from_resistance_pct": 12.565645252056129,
-      "state": "uptrend",
-      "rank_score": 1.4229608374065565
+      "rank_score": 2.5187528711434557
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-16T20:46:02.535300+00:00",
+  "updated_utc": "2026-01-17T20:42:54.544527+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -15,26 +15,26 @@
   "count": 1,
   "data": [
     {
-      "ticker": "ATLASCYCLE.NS",
+      "ticker": "AETHER.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 105.51000213623047,
-      "sma20": 100.29550018310547,
-      "sma50": 99.37739974975585,
+      "close": 984.6500244140625,
+      "sma20": 922.8650024414062,
+      "sma50": 879.407001953125,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 14.626111496057504,
-      "pole_high": 109.87999725341797,
-      "pole_range": 19.87999725341797,
+      "pole_gain_pct": 17.874651262449582,
+      "pole_high": 1021.75,
+      "pole_range": 192.75,
       "flag_bars": 8,
-      "flag_range": 10.089996337890625,
-      "pullback_from_pole_high_pct": 3.977061545705095,
+      "flag_range": 72.95001220703125,
+      "pullback_from_pole_high_pct": 3.631022812423538,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 1.8853969789020506
+      "rank_score": 2.2629499240647077
     }
   ]
 }

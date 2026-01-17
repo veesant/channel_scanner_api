@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-16T20:46:21.309313+00:00",
+  "updated_utc": "2026-01-17T20:45:32.317339+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,73 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 3,
+  "data": [
+    {
+      "ticker": "AP",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 5.699999809265137,
+      "sma20": 5.0620000004768375,
+      "sma50": 3.64360000371933,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 28.17954047645661,
+      "pole_high": 5.820000171661377,
+      "pole_range": 1.9100000858306885,
+      "flag_bars": 8,
+      "flag_range": 1.070000171661377,
+      "pullback_from_pole_high_pct": 2.061861836027832,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.3790302400167165
+    },
+    {
+      "ticker": "ALUR",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 1.850000023841858,
+      "sma20": 1.5687500059604644,
+      "sma50": 1.543600001335144,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 32.142861096226504,
+      "pole_high": 1.909999966621399,
+      "pole_range": 0.7269999980926514,
+      "flag_bars": 8,
+      "flag_range": 0.2799999713897705,
+      "pullback_from_pole_high_pct": 3.141358315606412,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.358092681970713
+    },
+    {
+      "ticker": "BURL",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 306.30999755859375,
+      "sma20": 296.0845016479492,
+      "sma50": 280.3188006591797,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 10.687644890473722,
+      "pole_high": 315.1400146484375,
+      "pole_range": 37.33001708984375,
+      "flag_bars": 8,
+      "flag_range": 17.709991455078125,
+      "pullback_from_pole_high_pct": 2.8019345939595457,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 1.809709192203426
+    }
+  ]
 }

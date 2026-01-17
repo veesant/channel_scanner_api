@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-16T20:46:18.163862+00:00",
+  "updated_utc": "2026-01-17T20:45:30.491621+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,51 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
+  "count": 2,
   "data": [
     {
       "ticker": "ONTF",
       "tf": "1d",
       "bars_used": 320,
-      "close": 7.96999979019165,
-      "sma20": 7.1059999704360965,
-      "sma50": 6.1949999904632564,
+      "close": 7.960000038146973,
+      "sma20": 7.2174999713897705,
+      "sma50": 6.249199991226196,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 37.99654272469201,
+      "pole_gain_pct": 36.70668772711108,
       "pole_high": 8.100000381469727,
-      "pole_range": 2.4100003242492676,
+      "pole_range": 2.385000228881836,
       "flag_bars": 8,
       "flag_range": 0.05000019073486328,
-      "pullback_from_pole_high_pct": 1.6049454957493208,
+      "pullback_from_pole_high_pct": 1.7283992188819028,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": true,
       "pattern": "bull_flag",
-      "rank_score": 3.4304398942193304
+      "rank_score": 3.388926196126379
+    },
+    {
+      "ticker": "MSB",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 40.959999084472656,
+      "sma20": 38.45200042724609,
+      "sma50": 35.5748002243042,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 13.671879199266948,
+      "pole_high": 41.90999984741211,
+      "pole_range": 7.400001525878906,
+      "flag_bars": 8,
+      "flag_range": 3.420001983642578,
+      "pullback_from_pole_high_pct": 2.2667639379581495,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.157735422437023
     }
   ]
 }

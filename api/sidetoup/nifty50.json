@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-16T20:50:30.307832+00:00",
+  "updated_utc": "2026-01-17T20:51:00.464102+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -337,15 +337,15 @@
     },
     {
       "ticker": "BEL.NS",
-      "slope": 0.00956959836688928,
-      "r2": 0.7066210105589172,
+      "slope": 0.00956959831188947,
+      "r2": 0.7066210200902441,
       "inside": 0.9615384615384616,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.20710380362886796,
+      "pos": 0.20710379594860387,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 64.48005243615565,
+      "annual_trend_pct": 64.48005196574431,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -357,7 +357,7 @@
       "recent_trend_pct": 98.86322377335435,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8172155095319565
+      "rank_score": 0.8172155150656464
     },
     {
       "ticker": "JSWSTEEL.NS",
@@ -433,15 +433,15 @@
     },
     {
       "ticker": "ASIANPAINT.NS",
-      "slope": 0.006123230313204746,
-      "r2": 0.7055150317315133,
+      "slope": 0.0061232302624660145,
+      "r2": 0.7055150009345793,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.38639820235990113,
+      "pos": 0.38639821565940863,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 37.493708854541666,
+      "annual_trend_pct": 37.49370849177633,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -453,7 +453,7 @@
       "recent_trend_pct": 3.3925569756163787,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.8038612853733563
+      "rank_score": 0.8038612686449386
     },
     {
       "ticker": "NESTLEIND.NS",
@@ -481,27 +481,27 @@
     },
     {
       "ticker": "HCLTECH.NS",
-      "slope": 0.007394540986240436,
-      "r2": 0.7461509113356254,
+      "slope": 0.007456233614950119,
+      "r2": 0.7478488949534599,
       "inside": 0.9230769230769231,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.5860512088441654,
+      "pos": 0.6322985476546475,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 46.89033930590243,
+      "annual_trend_pct": 47.36232262682862,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 40.1445889592102,
+      "prior_trend_pct": 40.14459103533996,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 15.2496985274166,
+      "recent_trend_pct": 21.598054380692624,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7837011040141654
+      "rank_score": 0.7799253619420344
     },
     {
       "ticker": "TITAN.NS",
