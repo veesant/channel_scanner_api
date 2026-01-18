@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-17T20:51:53.512117+00:00",
+  "updated_utc": "2026-01-18T20:45:13.254979+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -265,27 +265,27 @@
     },
     {
       "ticker": "BEPL.NS",
-      "slope": -0.009560645288225266,
-      "r2": 0.927194105162169,
+      "slope": -0.009560645901690715,
+      "r2": 0.9271941423643901,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.33708606761298254,
+      "pos": 0.3370860930519946,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -39.17404246519273,
+      "annual_trend_pct": -39.17404440555311,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -37.83725722552512,
+      "prior_trend_pct": -37.83726053997558,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -30.6768635736128,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9298884458197862
+      "rank_score": 0.9298884618769956
     },
     {
       "ticker": "BLUEJET.NS",
@@ -2065,27 +2065,27 @@
     },
     {
       "ticker": "AURIONPRO.NS",
-      "slope": -0.011947514380807173,
-      "r2": 0.8031620925618272,
+      "slope": -0.01194751315666686,
+      "r2": 0.8031620785868944,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.34451179934666304,
+      "pos": 0.34451174402590223,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -46.2738719964569,
+      "annual_trend_pct": -46.273868576504185,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -54.806666198548285,
+      "prior_trend_pct": -54.80666178212087,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -75.91087373411449,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.851745250961632
+      "rank_score": 0.8517452495062416
     },
     {
       "ticker": "DIAMONDYD.NS",
@@ -3361,15 +3361,15 @@
     },
     {
       "ticker": "ASIANPAINT.NS",
-      "slope": 0.006123230313204746,
-      "r2": 0.7055150317315133,
+      "slope": 0.0061232302624660145,
+      "r2": 0.7055150009345793,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.38639820235990113,
+      "pos": 0.38639821565940863,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 37.493708854541666,
+      "annual_trend_pct": 37.49370849177633,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -3381,7 +3381,7 @@
       "recent_trend_pct": 3.3925569756163787,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.8038612853733563
+      "rank_score": 0.8038612686449386
     },
     {
       "ticker": "BAJAJHIND.NS",

@@ -1,0 +1,40 @@
+{
+  "updated_utc": "2026-01-18T20:46:32.406517+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 1,
+  "data": [
+    {
+      "ticker": "AXSM",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 177.27000427246094,
+      "sma20": 165.27950057983398,
+      "sma50": 153.34119964599608,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 11.105370571092003,
+      "pole_high": 184.39500427246094,
+      "pole_range": 36.260009765625,
+      "flag_bars": 8,
+      "flag_range": 13.699996948242188,
+      "pullback_from_pole_high_pct": 3.8639875457103727,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.9255574944247464
+    }
+  ]
+}
