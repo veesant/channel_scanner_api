@@ -52,11 +52,13 @@ def normalize_ohlc(df: pd.DataFrame) -> pd.DataFrame:
         df.columns = [c[0] for c in df.columns]
 
     df = df.rename(columns={c: str(c).title() for c in df.columns})
-    need = {"Open", "High", "Low", "Close"}
+    need = {"Open", "High", "Low", "Close", "Volume"}
     if not need.issubset(df.columns):
         return pd.DataFrame()
 
-    df = df[["Open", "High", "Low", "Close"]].copy()
+    df = df[["Open", "High", "Low", "Close", "Volume"]].copy()
+
+    
 
     if not isinstance(df.index, pd.DatetimeIndex):
         df.index = pd.to_datetime(df.index)
@@ -130,6 +132,79 @@ def read_tickers_file(path: str) -> List[str]:
             out.append(s.split()[0].upper())
     return out
 
+#price quality check
+
+def price_quality_gate(
+    df: pd.DataFrame,
+    n_bars: int = 50,
+    # wick rules
+    long_wick_ratio: float = 0.45,
+    max_body_ratio: float = 0.35,
+    max_long_wicks: int = 6,
+    # gap rules
+    gap_thresh_pct: float = 2.5,
+    max_gap_count: int = 2,
+    max_gap_pct: float = 6.0,
+):
+    """
+    Returns: (ok: bool, diagnostics: dict)
+    """
+    d = df.tail(n_bars).copy()
+    if len(d) < 3:
+        return True, {"note": "not_enough_bars_for_quality_gate"}
+
+    o = d["Open"].astype(float).values
+    h = d["High"].astype(float).values
+    l = d["Low"].astype(float).values
+    c = d["Close"].astype(float).values
+
+    rng = h - l
+    rng_safe = np.where(rng <= 0, np.nan, rng)
+
+    body = np.abs(c - o)
+    upper = h - np.maximum(o, c)
+    lower = np.minimum(o, c) - l
+
+    max_wick = np.maximum(upper, lower)
+    max_wick_ratio_arr = max_wick / rng_safe
+    body_ratio_arr = body / rng_safe
+
+    long_wick_bar = (max_wick_ratio_arr >= long_wick_ratio) & (body_ratio_arr <= max_body_ratio)
+    long_wick_count = int(np.nansum(long_wick_bar))
+
+    # gaps vs previous close (align within the tail window)
+    prev_c = np.roll(c, 1)
+    prev_c[0] = np.nan
+    gap_pct = np.abs(o - prev_c) / prev_c * 100.0
+    gap_count = int(np.nansum(gap_pct >= gap_thresh_pct))
+    max_gap = float(np.nanmax(gap_pct)) if np.isfinite(np.nanmax(gap_pct)) else None
+
+    ok = True
+    if long_wick_count > max_long_wicks:
+        ok = False
+    if gap_count > max_gap_count:
+        ok = False
+    if max_gap is not None and max_gap >= max_gap_pct:
+        ok = False
+
+    avg_volume_50 = None
+    if "Volume" in d.columns:
+        avg_volume_50 = int(d["Volume"].mean())
+
+
+    diag = {
+        "quality_n_bars": int(len(d)),
+        "long_wick_count": long_wick_count,
+        "max_long_wicks_allowed": int(max_long_wicks),
+        "gap_thresh_pct": float(gap_thresh_pct),
+        "gap_count": gap_count,
+        "max_gap_count_allowed": int(max_gap_count),
+        "max_gap_pct": max_gap,
+        "max_gap_pct_allowed": float(max_gap_pct),
+        "avg_volume_50": avg_volume_50,
+        "price_quality_ok": bool(ok),
+    }
+    return ok, diag
 
 # -----------------------------
 # Pivot logic
@@ -487,6 +562,8 @@ def scan(
         if len(df) < min_len:
             continue
 
+        pq_ok, pq = price_quality_gate(df, n_bars=50)
+
         info = compute_actionable(
             df=df,
             sma_fast=sma_fast,
@@ -529,7 +606,20 @@ def scan(
         score += min(0.3, 0.05 * float(info.get("uptrend_hh_count", 0)))
         score += min(0.3, 0.05 * float(info.get("uptrend_hl_count", 0)))
 
-        results.append({"ticker": t, "tf": tf, "bars_used": int(len(df)), **info, "rank_score": float(score)})
+        results.append({
+            "ticker": t,
+            "tf": tf,
+            "bars_used": int(len(df)),
+            **info,
+
+            # price quality metadata (NO filtering)
+            "priceQuality": pq,
+            "priceQualityOk": pq["price_quality_ok"],
+            "avgVolume50": pq.get("avg_volume_50"),
+
+            "rank_score": float(score),
+        })
+
 
     results.sort(key=lambda r: r.get("rank_score", 0.0), reverse=True)
 
