@@ -479,6 +479,81 @@ def compute_recent_hl_uptrend(
     return out
 
 
+
+#price quality check
+
+def price_quality_gate(
+    df: pd.DataFrame,
+    n_bars: int = 50,
+    # wick rules
+    long_wick_ratio: float = 0.45,
+    max_body_ratio: float = 0.35,
+    max_long_wicks: int = 6,
+    # gap rules
+    gap_thresh_pct: float = 2.5,
+    max_gap_count: int = 2,
+    max_gap_pct: float = 6.0,
+):
+    """
+    Returns: (ok: bool, diagnostics: dict)
+    """
+    d = df.tail(n_bars).copy()
+    if len(d) < 3:
+        return True, {"note": "not_enough_bars_for_quality_gate"}
+
+    o = d["Open"].astype(float).values
+    h = d["High"].astype(float).values
+    l = d["Low"].astype(float).values
+    c = d["Close"].astype(float).values
+
+    rng = h - l
+    rng_safe = np.where(rng <= 0, np.nan, rng)
+
+    body = np.abs(c - o)
+    upper = h - np.maximum(o, c)
+    lower = np.minimum(o, c) - l
+
+    max_wick = np.maximum(upper, lower)
+    max_wick_ratio_arr = max_wick / rng_safe
+    body_ratio_arr = body / rng_safe
+
+    long_wick_bar = (max_wick_ratio_arr >= long_wick_ratio) & (body_ratio_arr <= max_body_ratio)
+    long_wick_count = int(np.nansum(long_wick_bar))
+
+    # gaps vs previous close (align within the tail window)
+    prev_c = np.roll(c, 1)
+    prev_c[0] = np.nan
+    gap_pct = np.abs(o - prev_c) / prev_c * 100.0
+    gap_count = int(np.nansum(gap_pct >= gap_thresh_pct))
+    max_gap = float(np.nanmax(gap_pct)) if np.isfinite(np.nanmax(gap_pct)) else None
+
+    ok = True
+    if long_wick_count > max_long_wicks:
+        ok = False
+    if gap_count > max_gap_count:
+        ok = False
+    if max_gap is not None and max_gap >= max_gap_pct:
+        ok = False
+
+    avg_volume_50 = None
+    if "Volume" in d.columns:
+        avg_volume_50 = int(d["Volume"].mean())
+
+
+    diag = {
+        "quality_n_bars": int(len(d)),
+        "long_wick_count": long_wick_count,
+        "max_long_wicks_allowed": int(max_long_wicks),
+        "gap_thresh_pct": float(gap_thresh_pct),
+        "gap_count": gap_count,
+        "max_gap_count_allowed": int(max_gap_count),
+        "max_gap_pct": max_gap,
+        "max_gap_pct_allowed": float(max_gap_pct),
+        "avg_volume_50": avg_volume_50,
+        "price_quality_ok": bool(ok),
+    }
+    return ok, diag
+
 # -----------------------------
 # ADDED: Ready-to-Act flag
 #   - Uptrend recently (uses existing clean trend gate: has_hh_hl)
@@ -707,6 +782,9 @@ def scan_one(ticker: str, data: pd.DataFrame, args: argparse.Namespace) -> Optio
     # ADDED: Trend label in the last 10 bars (output only)
     trend_last_10_bars = trend_label_last_n_bars(df, n=10)
 
+    # PRICE QUALITY CHECK.
+    ok, q = price_quality_gate(df, n_bars=50)
+
     out = {
         "ticker": ticker,
         "last_date": last_date,
@@ -759,6 +837,10 @@ def scan_one(ticker: str, data: pd.DataFrame, args: argparse.Namespace) -> Optio
 
         # Trend debug metrics
         **{f"metric_{k}": v for k, v in metrics.items()},
+        
+        # AVOID NOISE
+        "priceQuality": q,
+        "priceQualityOk": q["price_quality_ok"],
     }
 
     # Append new fields (no removals)
