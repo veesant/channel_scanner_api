@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-19T20:53:39.985769+00:00",
+  "updated_utc": "2026-01-19T22:54:18.743115+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -62,6 +62,20 @@
       "actionable_after_correction": true,
       "dist_to_support": 0.0496287046626265,
       "actionable_reason": "watchlist_correction",
+      "priceQuality": {
+        "quality_n_bars": 50,
+        "long_wick_count": 18,
+        "max_long_wicks_allowed": 6,
+        "gap_thresh_pct": 2.5,
+        "gap_count": 0,
+        "max_gap_count_allowed": 2,
+        "max_gap_pct": 1.3449293224309722,
+        "max_gap_pct_allowed": 6.0,
+        "avg_volume_50": 1356089,
+        "price_quality_ok": false
+      },
+      "priceQualityOk": false,
+      "avgVolume50": 1356089,
       "rank_score": 3.163550003081406
     }
   ]
