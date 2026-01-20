@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-19T23:58:19.887834+00:00",
+  "updated_utc": "2026-01-20T20:54:10.032150+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,6 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "VCL.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 2.299999952316284,
-      "sma20": 2.1479999721050262,
-      "sma50": 1.8613999903202056,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 30.555553715905976,
-      "pole_high": 2.3499999046325684,
-      "pole_range": 0.7099999189376831,
-      "flag_bars": 8,
-      "flag_range": 0.3299999237060547,
-      "pullback_from_pole_high_pct": 2.127657631718154,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": true,
-      "pattern": "bull_flag",
-      "rank_score": 2.5161329927538034
-    }
-  ]
+  "count": 0,
+  "data": []
 }

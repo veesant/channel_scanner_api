@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-20T00:03:05.240781+00:00",
+  "updated_utc": "2026-01-20T20:54:06.678149+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 260,
@@ -15108,19 +15108,19 @@
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 15.097581100463866,
-      "sma_slow_now": 14.515335788726807,
+      "sma_slow_now": 14.51533597946167,
       "trend_ok": true,
       "recent_swing_high": 14.643025589250197,
       "recent_swing_high_date": "2025-12-23",
       "resistance_level": 14.643025589250197,
       "pullback_from_swing_high_pct": -10.701159303940662,
       "had_correction": false,
-      "anchor_support_close": 14.299866084052663,
+      "anchor_support_close": 14.299867036453746,
       "anchor_support_date": "2025-12-16",
-      "support_level": 14.299866084052663,
+      "support_level": 14.299867036453746,
       "support_tolerance_pct": 1.0,
-      "support_floor": 14.299866084052663,
-      "support_floor_adj": 14.156867423212136,
+      "support_floor": 14.299867036453746,
+      "support_floor_adj": 14.156868366089208,
       "correction_close_low": 14.366777420043945,
       "support_held": true,
       "close_above_sma_fast": true,
@@ -15134,7 +15134,7 @@
       "uptrend_ok": true,
       "uptrend_actionable": true,
       "actionable_after_correction": true,
-      "dist_to_support": 0.1335769852103853,
+      "dist_to_support": 0.13357690971178487,
       "actionable_reason": "hh_hl_uptrend",
       "priceQuality": {
         "quality_n_bars": 50,
@@ -15143,14 +15143,14 @@
         "gap_thresh_pct": 2.5,
         "gap_count": 0,
         "max_gap_count_allowed": 2,
-        "max_gap_pct": 1.040947770943443,
+        "max_gap_pct": 1.0409477709434456,
         "max_gap_pct_allowed": 6.0,
         "avg_volume_50": 1048422,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
       "avgVolume50": 1048422,
-      "rank_score": 1.1463070843955485
+      "rank_score": 1.146307159894149
     },
     {
       "ticker": "UGRO",
@@ -22477,11 +22477,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 9.890106723095888,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 63195,
+        "avg_volume_50": 63846,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 63195,
+      "avgVolume50": 63846,
       "rank_score": 0.533519792625312
     },
     {

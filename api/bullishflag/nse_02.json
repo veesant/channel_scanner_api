@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-19T23:58:12.827021+00:00",
+  "updated_utc": "2026-01-20T20:54:06.738527+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,51 +12,29 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 4,
+  "count": 3,
   "data": [
-    {
-      "ticker": "HINDCOPPER.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 561.4500122070312,
-      "sma20": 513.3199981689453,
-      "sma50": 414.0389990234375,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 29.481162708923602,
-      "pole_high": 574.5999755859375,
-      "pole_range": 161.89996337890625,
-      "flag_bars": 8,
-      "flag_range": 64.70001220703125,
-      "pullback_from_pole_high_pct": 2.2885422794348056,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": true,
-      "pattern": "bull_flag",
-      "rank_score": 2.5711032957586775
-    },
     {
       "ticker": "ENTERO.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 1192.0,
-      "sma20": 1096.549996948242,
-      "sma50": 1070.3019995117188,
+      "close": 1200.800048828125,
+      "sma20": 1108.1600006103515,
+      "sma50": 1071.4580004882812,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 23.932685203847086,
+      "pole_gain_pct": 21.844809922755374,
       "pole_high": 1224.5999755859375,
       "pole_range": 280.5999755859375,
       "flag_bars": 8,
       "flag_range": 105.4000244140625,
-      "pullback_from_pole_high_pct": 2.662091804333028,
+      "pullback_from_pole_high_pct": 1.9434858102479455,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": true,
       "pattern": "bull_flag",
-      "rank_score": 2.4865964264449127
+      "rank_score": 2.7261317578066064
     },
     {
       "ticker": "JAIPURKURT.NS",
@@ -81,26 +59,26 @@
       "rank_score": 2.3431795389328576
     },
     {
-      "ticker": "HITECHGEAR.NS",
+      "ticker": "HINDCOPPER.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 745.6500244140625,
-      "sma20": 716.5300048828125,
-      "sma50": 711.6950012207031,
+      "close": 547.7999877929688,
+      "sma20": 520.5399978637695,
+      "sma50": 418.2359985351562,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 12.169387692497295,
-      "pole_high": 785.0,
-      "pole_range": 145.0,
+      "pole_gain_pct": 26.274198926659242,
+      "pole_high": 575.0,
+      "pole_range": 138.45001220703125,
       "flag_bars": 8,
-      "flag_range": 65.45001220703125,
-      "pullback_from_pole_high_pct": 5.012735743431529,
+      "flag_range": 64.70001220703125,
+      "pullback_from_pole_high_pct": 4.730436905570652,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 1.856170393739448
+      "rank_score": 2.2211387203264614
     }
   ]
 }

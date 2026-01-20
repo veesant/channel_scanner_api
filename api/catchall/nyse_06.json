@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-20T00:02:33.600613+00:00",
+  "updated_utc": "2026-01-20T21:00:02.515049+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 260,
@@ -1328,7 +1328,7 @@
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 11.11255693435669,
-      "sma_slow_now": 11.021943111419677,
+      "sma_slow_now": 11.021943092346191,
       "trend_ok": true,
       "recent_swing_high": 11.270000457763672,
       "recent_swing_high_date": "2026-01-07",
@@ -3757,11 +3757,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 2.7867750968056666,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 599382,
+        "avg_volume_50": 599716,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 599382,
+      "avgVolume50": 599716,
       "rank_score": 0.6704749663179506
     },
     {
@@ -3772,7 +3772,7 @@
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 13.77067174911499,
-      "sma_slow_now": 13.87369436264038,
+      "sma_slow_now": 13.873694267272949,
       "trend_ok": false,
       "recent_swing_high": 13.899999618530273,
       "recent_swing_high_date": "2026-01-14",
@@ -3807,7 +3807,7 @@
         "gap_thresh_pct": 2.5,
         "gap_count": 0,
         "max_gap_count_allowed": 2,
-        "max_gap_pct": 0.8450672731273883,
+        "max_gap_pct": 0.8450742630654935,
         "max_gap_pct_allowed": 6.0,
         "avg_volume_50": 257086,
         "price_quality_ok": false
@@ -4188,7 +4188,7 @@
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 6.2646503210067745,
-      "sma_slow_now": 6.296622047424316,
+      "sma_slow_now": 6.296622037887573,
       "trend_ok": false,
       "recent_swing_high": 6.2899214732539015,
       "recent_swing_high_date": "2025-12-26",
@@ -4261,7 +4261,7 @@
       "uptrend_hh_count": 2,
       "uptrend_hl_count": 2,
       "uptrend_pivot_highs": 5,
-      "uptrend_pivot_lows": 7,
+      "uptrend_pivot_lows": 6,
       "uptrend_overall_up": false,
       "uptrend_ok": false,
       "uptrend_actionable": false,
