@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-19T22:48:34.388238+00:00",
+  "updated_utc": "2026-01-19T23:58:12.827021+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,7 +12,7 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 5,
+  "count": 4,
   "data": [
     {
       "ticker": "HINDCOPPER.NS",
@@ -59,48 +59,26 @@
       "rank_score": 2.4865964264449127
     },
     {
-      "ticker": "IIFLCAPS.NS",
-      "tf": "1d",
-      "bars_used": 286,
-      "close": 377.6000061035156,
-      "sma20": 359.3975006103516,
-      "sma50": 332.7789990234375,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 17.66753186227307,
-      "pole_high": 392.0,
-      "pole_range": 80.64999389648438,
-      "flag_bars": 8,
-      "flag_range": 46.0,
-      "pullback_from_pole_high_pct": 3.6734678307358095,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 1.93276689108355
-    },
-    {
-      "ticker": "IIFL.NS",
+      "ticker": "JAIPURKURT.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 633.6500244140625,
-      "sma20": 623.157504272461,
-      "sma50": 585.9050024414063,
+      "close": 38.29999923706055,
+      "sma20": 33.30950031280518,
+      "sma50": 32.3460001373291,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 10.462508917325671,
-      "pole_high": 675.0,
-      "pole_range": 104.1500244140625,
+      "pole_gain_pct": 35.17144022953447,
+      "pole_high": 39.880001068115234,
+      "pole_range": 13.880001068115234,
       "flag_bars": 8,
-      "flag_range": 38.75,
-      "pullback_from_pole_high_pct": 6.125922309027778,
+      "flag_range": 5.470001220703125,
+      "pullback_from_pole_high_pct": 3.961890142269647,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 1.9030263753507206
+      "rank_score": 2.3431795389328576
     },
     {
       "ticker": "HITECHGEAR.NS",

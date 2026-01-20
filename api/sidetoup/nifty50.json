@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-19T22:46:18.851475+00:00",
+  "updated_utc": "2026-01-20T00:01:41.875341+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -241,15 +241,15 @@
     },
     {
       "ticker": "POWERGRID.NS",
-      "slope": -0.0029653092943150204,
-      "r2": 0.7486152231287347,
+      "slope": -0.0029653101796670066,
+      "r2": 0.7486152039552597,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.19533737770851176,
+      "pos": 0.19533763338950758,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -14.289605923977188,
+      "annual_trend_pct": -14.289609869938214,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -261,7 +261,7 @@
       "recent_trend_pct": -31.416987073705183,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8547738737935162
+      "rank_score": 0.8547738386386791
     },
     {
       "ticker": "TITAN.NS",
@@ -337,15 +337,15 @@
     },
     {
       "ticker": "ASIANPAINT.NS",
-      "slope": 0.006324029189822485,
-      "r2": 0.7333278702519785,
+      "slope": 0.006324029550646193,
+      "r2": 0.7333279102518135,
       "inside": 0.9487179487179487,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.33422961981033994,
+      "pos": 0.3342295883556889,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 38.93687646857864,
+      "annual_trend_pct": 38.93687907542807,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -357,7 +357,7 @@
       "recent_trend_pct": -7.4909391124708735,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.8127281526321347
+      "rank_score": 0.8127281757775173
     },
     {
       "ticker": "BAJAJ-AUTO.NS",
