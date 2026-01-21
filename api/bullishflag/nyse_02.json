@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-20T20:54:04.723800+00:00",
+  "updated_utc": "2026-01-21T21:03:09.841440+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,51 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 2,
+  "data": [
+    {
+      "ticker": "CNC",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 45.7599983215332,
+      "sma20": 43.53699970245361,
+      "sma50": 40.155,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 15.580813690371029,
+      "pole_high": 46.88999938964844,
+      "pole_range": 7.549999237060547,
+      "flag_bars": 8,
+      "flag_range": 3.240001678466797,
+      "pullback_from_pole_high_pct": 2.409897809392372,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.2605091838438027
+    },
+    {
+      "ticker": "ETSY",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 58.93000030517578,
+      "sma20": 58.710500144958495,
+      "sma50": 56.57240020751953,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 12.209297409568318,
+      "pole_high": 63.70000076293945,
+      "pole_range": 9.240001678466797,
+      "flag_bars": 8,
+      "flag_range": 5.369998931884766,
+      "pullback_from_pole_high_pct": 7.488226688591894,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.6418505204761522
+    }
+  ]
 }

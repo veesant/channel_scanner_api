@@ -1,0 +1,62 @@
+{
+  "updated_utc": "2026-01-21T21:03:10.216408+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 2,
+  "data": [
+    {
+      "ticker": "UAA",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 5.739999771118164,
+      "sma20": 5.292000031471252,
+      "sma50": 4.794600028991699,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 25.438593464214676,
+      "pole_high": 5.869999885559082,
+      "pole_range": 1.359999656677246,
+      "flag_bars": 8,
+      "flag_range": 0.7200002670288086,
+      "pullback_from_pole_high_pct": 2.2146527593762677,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.3794289223794465
+    },
+    {
+      "ticker": "VLO",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 184.72999572753906,
+      "sma20": 174.90350112915038,
+      "sma50": 174.55195251464843,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 11.585844415178702,
+      "pole_high": 187.64999389648438,
+      "pole_range": 26.67999267578125,
+      "flag_bars": 8,
+      "flag_range": 13.660003662109375,
+      "pullback_from_pole_high_pct": 1.5560875373948087,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.207272573607124
+    }
+  ]
+}
