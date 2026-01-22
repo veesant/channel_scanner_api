@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-21T20:57:50.818293+00:00",
+  "updated_utc": "2026-01-22T20:50:09.521391+00:00",
   "tf": "1d",
   "params": {
     "n_down": 40,
@@ -15,6 +15,28 @@
     "near_resistance_pct": 6.0,
     "breakout_wiggle_pct": 0.2
   },
-  "count": 0,
-  "data": []
+  "count": 1,
+  "data": [
+    {
+      "ticker": "XPROINDIA.NS",
+      "tf": "1d",
+      "bars_used": 350,
+      "close": 1019.8499755859375,
+      "sma20": 967.5700042724609,
+      "sma50": 985.9099963378907,
+      "trend_ok": true,
+      "prior_downtrend_ok": true,
+      "down_slope": -2.271711396008003,
+      "fresh_uptrend_ok": true,
+      "up_slope": 23.50575838955966,
+      "up_hh_steps": 1,
+      "up_hl_steps": 1,
+      "up_pivot_highs": 2,
+      "up_pivot_lows": 2,
+      "resistance": 1133.800048828125,
+      "pullback_from_resistance_pct": 10.050279443889972,
+      "state": "uptrend",
+      "rank_score": 1.5294607740319592
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-21T20:55:54.652151+00:00",
+  "updated_utc": "2026-01-22T21:00:00.050391+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,29 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 1,
+  "data": [
+    {
+      "ticker": "WKC",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 26.6299991607666,
+      "sma20": 25.541999912261964,
+      "sma50": 24.52189693450928,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 14.468083483107547,
+      "pole_high": 27.299999237060547,
+      "pole_range": 4.069999694824219,
+      "flag_bars": 8,
+      "flag_range": 2.3199996948242188,
+      "pullback_from_pole_high_pct": 2.454212802264114,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 1.955292343760254
+    }
+  ]
 }
