@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-23T22:39:36.516314+00:00",
+  "updated_utc": "2026-01-23T22:58:12.474819+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -385,15 +385,15 @@
     },
     {
       "ticker": "BEL.NS",
-      "slope": 0.009206331623927207,
-      "r2": 0.6855293343767137,
+      "slope": 0.009206331306333382,
+      "r2": 0.6855293377486036,
       "inside": 0.9615384615384616,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.2160526315425815,
+      "pos": 0.2160526321775209,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 61.402207094958804,
+      "annual_trend_pct": 61.40220442942093,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -405,7 +405,7 @@
       "recent_trend_pct": 67.56833169429865,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8057747886494833
+      "rank_score": 0.8057747902719343
     },
     {
       "ticker": "TITAN.NS",

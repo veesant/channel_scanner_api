@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-23T22:44:27.838395+00:00",
+  "updated_utc": "2026-01-23T23:01:48.090595+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -361,27 +361,27 @@
     },
     {
       "ticker": "IOC.NS",
-      "slope": 0.00680795086243359,
-      "r2": 0.8652649067247211,
+      "slope": 0.00680795112695021,
+      "r2": 0.8652649334329687,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.14981381894999374,
+      "pos": 0.14981379817150037,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 42.47743422235099,
+      "annual_trend_pct": 42.477436182108775,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 86.14520972147386,
+      "prior_trend_pct": 86.14522547472309,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": -30.387685969992706,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.9099587637750536
+      "rank_score": 0.9099587792070267
     },
     {
       "ticker": "GENUSPAPER.NS",
@@ -745,27 +745,27 @@
     },
     {
       "ticker": "GPPL.NS",
-      "slope": 0.007612668295904107,
-      "r2": 0.8276324945213834,
+      "slope": 0.00761266832409749,
+      "r2": 0.827632486968077,
       "inside": 0.9615384615384616,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.057692307692307696,
-      "pos": 0.052013211519030926,
+      "pos": 0.05201325471863842,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 48.56594553929248,
+      "annual_trend_pct": 48.56594575709845,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 96.76640235518086,
+      "prior_trend_pct": 96.76642750793043,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": -67.52618555431799,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8932303107241732
+      "rank_score": 0.8932303026275593
     },
     {
       "ticker": "FOCUS.NS",
@@ -2257,15 +2257,15 @@
     },
     {
       "ticker": "GPTINFRA.NS",
-      "slope": -0.0068373810821657326,
-      "r2": 0.7479901469815808,
+      "slope": -0.006837381140462636,
+      "r2": 0.7479902000867722,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.49541637034126096,
+      "pos": 0.4954163839689084,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -29.92077626574008,
+      "annual_trend_pct": -29.920776478180976,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2277,7 +2277,7 @@
       "recent_trend_pct": -45.38028917634499,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.814197026200254
+      "rank_score": 0.8141970513900849
     },
     {
       "ticker": "GLOBAL.NS",
