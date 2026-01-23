@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-23T20:48:40.243085+00:00",
+  "updated_utc": "2026-01-23T22:39:36.516314+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -361,15 +361,15 @@
     },
     {
       "ticker": "ASIANPAINT.NS",
-      "slope": 0.0062531325772382405,
-      "r2": 0.7251488104618949,
+      "slope": 0.00625313221641444,
+      "r2": 0.7251487701924552,
       "inside": 0.9230769230769231,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.24116382564945743,
+      "pos": 0.2411638605965732,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 38.42561146547303,
+      "annual_trend_pct": 38.4256088682158,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -381,19 +381,19 @@
       "recent_trend_pct": -19.329403342715768,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8076887918967709
+      "rank_score": 0.8076887682673395
     },
     {
       "ticker": "BEL.NS",
-      "slope": 0.009206331306333382,
-      "r2": 0.6855293377486036,
+      "slope": 0.009206331623927207,
+      "r2": 0.6855293343767137,
       "inside": 0.9615384615384616,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.2160526321775209,
+      "pos": 0.2160526315425815,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 61.40220442942093,
+      "annual_trend_pct": 61.402207094958804,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -405,7 +405,7 @@
       "recent_trend_pct": 67.56833169429865,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8057747902719343
+      "rank_score": 0.8057747886494833
     },
     {
       "ticker": "TITAN.NS",
