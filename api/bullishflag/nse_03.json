@@ -1,0 +1,62 @@
+{
+  "updated_utc": "2026-01-23T20:56:50.623358+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 2,
+  "data": [
+    {
+      "ticker": "KRYSTAL.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 602.9000244140625,
+      "sma20": 558.9074996948242,
+      "sma50": 542.3869989013672,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 21.760342444850973,
+      "pole_high": 623.9000244140625,
+      "pole_range": 123.9000244140625,
+      "flag_bars": 8,
+      "flag_range": 67.0,
+      "pullback_from_pole_high_pct": 3.3659238945730467,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.0987357170044865
+    },
+    {
+      "ticker": "KRISHNADEF.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 944.4500122070312,
+      "sma20": 873.5399963378907,
+      "sma50": 807.4099975585938,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 12.870389546476154,
+      "pole_high": 1019.0,
+      "pole_range": 234.0,
+      "flag_bars": 8,
+      "flag_range": 109.9000244140625,
+      "pullback_from_pole_high_pct": 7.315994876640702,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.860755770670941
+    }
+  ]
+}

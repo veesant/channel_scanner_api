@@ -1,0 +1,62 @@
+{
+  "updated_utc": "2026-01-23T20:55:56.299285+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 2,
+  "data": [
+    {
+      "ticker": "RVMD",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 118.80999755859375,
+      "sma20": 100.12199897766114,
+      "sma50": 84.64499961853028,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 46.922599863341716,
+      "pole_high": 121.61499786376953,
+      "pole_range": 45.334999084472656,
+      "flag_bars": 8,
+      "flag_range": 11.159996032714844,
+      "pullback_from_pole_high_pct": 2.3064591986572918,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.820901370820432
+    },
+    {
+      "ticker": "SKBL",
+      "tf": "1d",
+      "bars_used": 232,
+      "close": 3.5999999046325684,
+      "sma20": 3.30699999332428,
+      "sma50": 2.956400012969971,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 21.192056587623803,
+      "pole_high": 3.869999885559082,
+      "pole_range": 1.0999999046325684,
+      "flag_bars": 8,
+      "flag_range": 0.5699999332427979,
+      "pullback_from_pole_high_pct": 6.976743899502931,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.136363662635658
+    }
+  ]
+}

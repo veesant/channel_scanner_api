@@ -1,0 +1,40 @@
+{
+  "updated_utc": "2026-01-23T20:56:39.205790+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 1,
+  "data": [
+    {
+      "ticker": "AETHER.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 979.3499755859375,
+      "sma20": 948.0975006103515,
+      "sma50": 898.1620007324219,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 18.224943920080563,
+      "pole_high": 1021.75,
+      "pole_range": 192.0999755859375,
+      "flag_bars": 8,
+      "flag_range": 64.9000244140625,
+      "pullback_from_pole_high_pct": 4.149745477275508,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.348172125188199
+    }
+  ]
+}
