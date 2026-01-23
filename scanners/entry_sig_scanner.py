@@ -863,7 +863,7 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--max_trading_days", type=int, default=100, help="Keep last N trading days after download")
 
     p.add_argument("--pivot", type=int, default=3, help="Pivot window n (uses [i-n..i+n])")
-    p.add_argument("--structure_bars", type=int, default=35, help="Bars used to validate clean uptrend")
+    p.add_argument("--structure_bars", type=int, default=20, help="Bars used to validate clean uptrend")
     p.add_argument("--min_pivots_per_side", type=int, default=3, help="Min pivot highs and lows in structure window")
 
     p.add_argument("--sma_fast", type=int, default=10, help="Fast SMA")
