@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-24T20:12:44.962778+00:00",
+  "updated_utc": "2026-01-24T20:50:37.883568+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -385,15 +385,15 @@
     },
     {
       "ticker": "NMDC.NS",
-      "slope": 0.005286400655252649,
-      "r2": 0.8447898011432694,
+      "slope": 0.00528640113962153,
+      "r2": 0.8447898531077027,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.09521600170991956,
+      "pos": 0.09521590209205773,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 31.638959519720867,
+      "annual_trend_pct": 31.638962835335317,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -405,7 +405,7 @@
       "recent_trend_pct": -5.83275462762235,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.9128733004006427
+      "rank_score": 0.9128733363446456
     },
     {
       "ticker": "MCX.NS",
@@ -1417,15 +1417,15 @@
     },
     {
       "ticker": "LTIM.NS",
-      "slope": 0.006660603323066475,
-      "r2": 0.7637931759515334,
+      "slope": 0.006660603713040433,
+      "r2": 0.7637931668105747,
       "inside": 1.0,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.24232036291591527,
+      "pos": 0.242320356914149,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 41.38993343131301,
+      "annual_trend_pct": 41.3899362985094,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1437,7 +1437,7 @@
       "recent_trend_pct": -16.820097846272642,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8576645516841751
+      "rank_score": 0.8576645477138725
     },
     {
       "ticker": "LTFOODS.NS",
@@ -1465,15 +1465,15 @@
     },
     {
       "ticker": "MOTHERSON.NS",
-      "slope": 0.006830237616005007,
-      "r2": 0.7550847273184496,
+      "slope": 0.006830237921410838,
+      "r2": 0.7550847287165701,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.14461540297566558,
+      "pos": 0.144615399415997,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 42.642648630504596,
+      "annual_trend_pct": 42.64265089582724,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -1485,7 +1485,7 @@
       "recent_trend_pct": -65.59809011905108,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8553885156693505
+      "rank_score": 0.8553885167243777
     },
     {
       "ticker": "NRAIL.NS",
@@ -2449,27 +2449,27 @@
     },
     {
       "ticker": "LLOYDSENT.NS",
-      "slope": -0.011030102243084759,
-      "r2": 0.6718832200403595,
+      "slope": -0.011030101433608112,
+      "r2": 0.6718832173707543,
       "inside": 0.9230769230769231,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.14392813301705035,
+      "pos": 0.14392808158100948,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -43.648724849204456,
+      "annual_trend_pct": -43.648722477222265,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -52.6507745636002,
+      "prior_trend_pct": -52.650771232341384,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -91.73347753625607,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.790779565949244
+      "rank_score": 0.7907795697580454
     },
     {
       "ticker": "METROPOLIS.NS",
