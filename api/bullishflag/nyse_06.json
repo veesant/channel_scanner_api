@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-23T23:01:10.706343+00:00",
+  "updated_utc": "2026-01-24T20:07:58.652629+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -18,23 +18,23 @@
       "ticker": "WKC",
       "tf": "1d",
       "bars_used": 320,
-      "close": 26.559999465942383,
-      "sma20": 25.705499839782714,
-      "sma50": 24.54631660461426,
+      "close": 26.420000076293945,
+      "sma20": 25.858499813079835,
+      "sma50": 24.56734119415283,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 14.946923871760726,
-      "pole_high": 27.389999389648438,
-      "pole_range": 4.129999160766602,
+      "pole_gain_pct": 14.97889925223888,
+      "pole_high": 27.459999084472656,
+      "pole_range": 4.039999008178711,
       "flag_bars": 8,
       "flag_range": 2.3199996948242188,
-      "pullback_from_pole_high_pct": 3.0303028192827868,
+      "pullback_from_pole_high_pct": 3.7873235355159998,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 1.8111072241538047
+      "rank_score": 1.7918491439712576
     }
   ]
 }

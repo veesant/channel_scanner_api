@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-23T22:58:12.474819+00:00",
+  "updated_utc": "2026-01-24T20:12:11.452236+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -241,15 +241,15 @@
     },
     {
       "ticker": "POWERGRID.NS",
-      "slope": -0.0030179156843114434,
-      "r2": 0.7449018690224557,
+      "slope": -0.0030179147989595418,
+      "r2": 0.7449018793320381,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.05052675260244713,
+      "pos": 0.05052646338455605,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -14.523749074603987,
+      "annual_trend_pct": -14.523745139422706,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -261,7 +261,7 @@
       "recent_trend_pct": -38.04296850353936,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8673982592509831
+      "rank_score": 0.8673982933275635
     },
     {
       "ticker": "JSWSTEEL.NS",

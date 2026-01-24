@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-23T23:02:57.717128+00:00",
+  "updated_utc": "2026-01-24T20:08:51.524230+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -145,27 +145,27 @@
     },
     {
       "ticker": "BEPL.NS",
-      "slope": -0.010199448983659357,
-      "r2": 0.9345773244543949,
+      "slope": -0.010199448451770954,
+      "r2": 0.9345772838805787,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.10070791324738841,
+      "pos": 0.10070797889135347,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -41.161356652087065,
+      "annual_trend_pct": -41.16135502471625,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -39.93078661483045,
+      "prior_trend_pct": -39.930784004941565,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -50.19817576894185,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9418332555178432
+      "rank_score": 0.9418332286665386
     },
     {
       "ticker": "CUPID.NS",
@@ -625,15 +625,15 @@
     },
     {
       "ticker": "BPCL.NS",
-      "slope": 0.007725833494062165,
-      "r2": 0.8499373267261676,
+      "slope": 0.007725833535569297,
+      "r2": 0.8499373160709933,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.08426188366977079,
+      "pos": 0.0842618987068176,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 49.442772615747764,
+      "annual_trend_pct": 49.442772938300685,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -645,7 +645,7 @@
       "recent_trend_pct": -38.96142148419119,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.908850167303799
+      "rank_score": 0.9088501604725072
     },
     {
       "ticker": "AXISBANK.NS",
