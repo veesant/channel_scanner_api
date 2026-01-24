@@ -411,19 +411,43 @@ jobs:
             files = sorted(glob.glob(pattern))
             if not files:
               return
-            merged = {"meta": {"merged_from": files}, "counts": defaultdict(int), "data": []}
+
+            merged = {
+              "meta": {},
+              "counts": defaultdict(int),
+              "data": []
+            }
+
             for f in files:
               with open(f, "r", encoding="utf-8") as r:
                 obj = json.load(r)
-              if isinstance(obj, dict):
-                merged["data"].extend(obj.get("data", []) or [])
-                counts = obj.get("counts", {}) or {}
-                for k, v in counts.items():
-                  if isinstance(v, int):
-                    merged["counts"][k] += v
+
+              if not isinstance(obj, dict):
+                continue
+
+              # merge data
+              merged["data"].extend(obj.get("data", []) or [])
+
+              # merge counts
+              counts = obj.get("counts", {}) or {}
+              for k, v in counts.items():
+                if isinstance(v, int):
+                  merged["counts"][k] += v
+
+              # 🔑 FIX: merge meta instead of overwriting
+              meta = obj.get("meta", {}) or {}
+              if isinstance(meta, dict):
+                for k, v in meta.items():
+                  if k != "merged_from":
+                    merged["meta"].setdefault(k, v)
+
+            # add merged_from last
+            merged["meta"]["merged_from"] = files
             merged["counts"] = dict(merged["counts"])
+
             with open(out_file, "w", encoding="utf-8") as w:
               json.dump(merged, w, ensure_ascii=False)
+
             print("Wrote", out_file, "from", len(files), "files")
 
           for tab in ["entry", "corrwl", "sidetoup", "downtoup", "bullishflag", "catchall"]:
