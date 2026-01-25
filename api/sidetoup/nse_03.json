@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-24T20:50:37.883568+00:00",
+  "updated_utc": "2026-01-25T20:47:10.293867+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -385,15 +385,15 @@
     },
     {
       "ticker": "NMDC.NS",
-      "slope": 0.00528640113962153,
-      "r2": 0.8447898531077027,
+      "slope": 0.005286400655252649,
+      "r2": 0.8447898011432694,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.09521590209205773,
+      "pos": 0.09521600170991956,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 31.638962835335317,
+      "annual_trend_pct": 31.638959519720867,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -405,7 +405,7 @@
       "recent_trend_pct": -5.83275462762235,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.9128733363446456
+      "rank_score": 0.9128733004006427
     },
     {
       "ticker": "MCX.NS",
@@ -1273,15 +1273,15 @@
     },
     {
       "ticker": "NAVINFLUOR.NS",
-      "slope": 0.008332822304528826,
-      "r2": 0.8491850107833957,
+      "slope": 0.008332822906347624,
+      "r2": 0.8491850182803642,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.4647579351873251,
+      "pos": 0.4647579158922012,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 54.23492789503801,
+      "annual_trend_pct": 54.234932721754994,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1293,7 +1293,7 @@
       "recent_trend_pct": 38.622679087192815,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.86273209648835
+      "rank_score": 0.8627321021663465
     },
     {
       "ticker": "MANKIND.NS",
@@ -2449,27 +2449,27 @@
     },
     {
       "ticker": "LLOYDSENT.NS",
-      "slope": -0.011030101433608112,
-      "r2": 0.6718832173707543,
+      "slope": -0.011030102243084759,
+      "r2": 0.6718832200403595,
       "inside": 0.9230769230769231,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.14392808158100948,
+      "pos": 0.14392813301705035,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -43.648722477222265,
+      "annual_trend_pct": -43.648724849204456,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -52.650771232341384,
+      "prior_trend_pct": -52.6507745636002,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -91.73347753625607,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.7907795697580454
+      "rank_score": 0.790779565949244
     },
     {
       "ticker": "METROPOLIS.NS",
