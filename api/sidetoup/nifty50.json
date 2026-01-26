@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-25T20:45:36.462839+00:00",
+  "updated_utc": "2026-01-26T20:50:37.363418+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -241,15 +241,15 @@
     },
     {
       "ticker": "POWERGRID.NS",
-      "slope": -0.0030179147989595418,
-      "r2": 0.7449018793320381,
+      "slope": -0.0030179156843114434,
+      "r2": 0.7449018690224557,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.05052646338455605,
+      "pos": 0.05052675260244713,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -14.523745139422706,
+      "annual_trend_pct": -14.523749074603987,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -261,7 +261,7 @@
       "recent_trend_pct": -38.04296850353936,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8673982933275635
+      "rank_score": 0.8673982592509831
     },
     {
       "ticker": "JSWSTEEL.NS",
@@ -361,15 +361,15 @@
     },
     {
       "ticker": "ASIANPAINT.NS",
-      "slope": 0.00625313221641444,
-      "r2": 0.7251487701924552,
+      "slope": 0.0062531325772382405,
+      "r2": 0.7251488104618949,
       "inside": 0.9230769230769231,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.2411638605965732,
+      "pos": 0.24116382564945743,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 38.4256088682158,
+      "annual_trend_pct": 38.42561146547303,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -381,19 +381,19 @@
       "recent_trend_pct": -19.329403342715768,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8076887682673395
+      "rank_score": 0.8076887918967709
     },
     {
       "ticker": "BEL.NS",
-      "slope": 0.009206331306333382,
-      "r2": 0.6855293377486036,
+      "slope": 0.009206331623927207,
+      "r2": 0.6855293343767137,
       "inside": 0.9615384615384616,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.2160526321775209,
+      "pos": 0.2160526315425815,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 61.40220442942093,
+      "annual_trend_pct": 61.402207094958804,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -405,7 +405,7 @@
       "recent_trend_pct": 67.56833169429865,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8057747902719343
+      "rank_score": 0.8057747886494833
     },
     {
       "ticker": "TITAN.NS",

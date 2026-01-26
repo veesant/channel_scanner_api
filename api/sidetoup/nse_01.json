@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-25T20:47:16.431009+00:00",
+  "updated_utc": "2026-01-26T20:51:57.445322+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -145,27 +145,27 @@
     },
     {
       "ticker": "BEPL.NS",
-      "slope": -0.010199448983659357,
-      "r2": 0.9345773244543949,
+      "slope": -0.010199447434774902,
+      "r2": 0.9345772637590278,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.10070791324738841,
+      "pos": 0.10070791741517676,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -41.161356652087065,
+      "annual_trend_pct": -41.16135191310535,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -39.93078661483045,
+      "prior_trend_pct": -39.9307790335515,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -50.19817576894185,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9418332555178432
+      "rank_score": 0.9418332247533809
     },
     {
       "ticker": "CUPID.NS",
@@ -2161,27 +2161,27 @@
     },
     {
       "ticker": "CHAMBLFERT.NS",
-      "slope": -0.009094958138846037,
-      "r2": 0.7598700869219857,
+      "slope": -0.009094958652344533,
+      "r2": 0.7598701463037383,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.5382048343630973,
+      "pos": 0.5382048646852731,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -37.683118339647095,
+      "annual_trend_pct": -37.683120003627565,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -46.150789711303474,
+      "prior_trend_pct": -46.15079211461315,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -44.266432707025,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8261145600246831
+      "rank_score": 0.8261145866833418
     },
     {
       "ticker": "BALMLAWRIE.NS",
@@ -2305,15 +2305,15 @@
     },
     {
       "ticker": "ALKEM.NS",
-      "slope": 0.004081936488849259,
-      "r2": 0.7611313751868956,
+      "slope": 0.004081936700813154,
+      "r2": 0.7611314340482622,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.48427435528296364,
+      "pos": 0.4842743280688907,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 23.64701876529811,
+      "annual_trend_pct": 23.647020128150697,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -2325,7 +2325,7 @@
       "recent_trend_pct": 72.72835662972426,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.816753636680536
+      "rank_score": 0.8167536688326267
     },
     {
       "ticker": "BECTORFOOD.NS",
