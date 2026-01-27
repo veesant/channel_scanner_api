@@ -2,7 +2,9 @@ name: Weekly Channel Scan API (Optimized + Sharded)
 
 on:
   schedule:
-    - cron: "30 20 * * *"   # Daily 20:30 UTC
+    - cron: "45 13 * * *"   # 9:45 AM US market (EDT)
+    - cron: "0 20 * * *"    # 4:00 PM US market close (EDT)
+    
   workflow_dispatch:
     inputs:
       mode:
