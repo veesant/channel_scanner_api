@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-27T18:24:05.435522+00:00",
+  "updated_utc": "2026-01-27T20:21:55.154752+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -265,27 +265,27 @@
     },
     {
       "ticker": "HCLTECH.NS",
-      "slope": 0.008516363249375849,
-      "r2": 0.8272791513621105,
+      "slope": 0.00851636165946891,
+      "r2": 0.8272792436361902,
       "inside": 0.9230769230769231,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.5365533546127859,
+      "pos": 0.536553428151959,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 55.71401302576131,
+      "annual_trend_pct": 55.714000152080764,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 56.149781167857405,
+      "prior_trend_pct": 56.14976547772492,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 76.37054937730407,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8292150094505459
+      "rank_score": 0.8292150482336684
     },
     {
       "ticker": "TITAN.NS",
@@ -409,15 +409,15 @@
     },
     {
       "ticker": "BEL.NS",
-      "slope": 0.009015281378491582,
-      "r2": 0.6717215294869081,
+      "slope": 0.009015281710810211,
+      "r2": 0.6717215271455189,
       "inside": 0.9615384615384616,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.24697859183946758,
+      "pos": 0.24697858901024985,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 59.80667727663103,
+      "annual_trend_pct": 59.806680038181305,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -429,7 +429,7 @@
       "recent_trend_pct": 45.04717202471342,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.795778290174892
+      "rank_score": 0.7957782892871191
     },
     {
       "ticker": "NESTLEIND.NS",
