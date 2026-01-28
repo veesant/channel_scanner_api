@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-28T14:14:14.000634+00:00",
+  "updated_utc": "2026-01-28T20:18:49.913143+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -2953,15 +2953,15 @@
     },
     {
       "ticker": "SYMPHONY.NS",
-      "slope": -0.007362172571405831,
-      "r2": 0.7746717219927997,
+      "slope": -0.0073621727592450125,
+      "r2": 0.7746718207902503,
       "inside": 0.9615384615384616,
       "near_upper": 0.09615384615384616,
       "near_lower": 0.038461538461538464,
-      "pos": 0.4992172144607349,
+      "pos": 0.4992172409252437,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -31.807321052602056,
+      "annual_trend_pct": -31.80732171868341,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2973,7 +2973,7 @@
       "recent_trend_pct": -41.52088335037818,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8220295241657111
+      "rank_score": 0.8220295709179855
     },
     {
       "ticker": "SCHNEIDER.NS",
@@ -3193,27 +3193,27 @@
     },
     {
       "ticker": "SCI.NS",
-      "slope": 0.008911870833356681,
-      "r2": 0.6691067134745933,
+      "slope": 0.008911871312366745,
+      "r2": 0.6691067343812286,
       "inside": 0.9615384615384616,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.057692307692307696,
-      "pos": 0.15929601102339586,
+      "pos": 0.15929599505800526,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 58.9496474438592,
+      "annual_trend_pct": 58.94965140306026,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 68.62921878509943,
+      "prior_trend_pct": 68.62921616990843,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": -57.30543161494139,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8032391402503417
+      "rank_score": 0.8032391523001984
     },
     {
       "ticker": "TTL.NS",
@@ -3817,27 +3817,27 @@
     },
     {
       "ticker": "TIPSMUSIC.NS",
-      "slope": -0.0050183131645966704,
-      "r2": 0.6889691756823948,
+      "slope": -0.0050183136161773894,
+      "r2": 0.6889693216292123,
       "inside": 0.9423076923076923,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.07692307692307693,
-      "pos": 0.8255935115692656,
+      "pos": 0.8255936338444065,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -22.968232521428067,
+      "annual_trend_pct": -22.968234330303204,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -31.914274064936432,
+      "prior_trend_pct": -31.914270170229376,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 19.381900583966004,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7388483136073477
+      "rank_score": 0.7388483743532425
     }
   ]
 }

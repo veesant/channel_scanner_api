@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-28T14:13:17.720395+00:00",
+  "updated_utc": "2026-01-28T20:15:44.589818+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -217,15 +217,15 @@
     },
     {
       "ticker": "POWERGRID.NS",
-      "slope": -0.0030444160799970223,
-      "r2": 0.746999551806063,
+      "slope": -0.003044415570500159,
+      "r2": 0.7469995979599862,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.3725040070980724,
+      "pos": 0.3725038812369081,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -14.64145598720834,
+      "annual_trend_pct": -14.641453725732967,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -237,7 +237,7 @@
       "recent_trend_pct": -36.18353545794136,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8362493751932243
+      "rank_score": 0.8362494108563023
     },
     {
       "ticker": "TITAN.NS",
@@ -265,27 +265,27 @@
     },
     {
       "ticker": "HCLTECH.NS",
-      "slope": 0.00856293959995821,
-      "r2": 0.8283662116833077,
+      "slope": 0.008562941189865466,
+      "r2": 0.8283661205114904,
       "inside": 0.9230769230769231,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.5755532167827543,
+      "pos": 0.5755531237075148,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 56.091604803192105,
+      "annual_trend_pct": 56.09161770809374,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 56.14976547772492,
+      "prior_trend_pct": 56.149781167857405,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 83.65703172620978,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8258585533941477
+      "rank_score": 0.8258585171157631
     },
     {
       "ticker": "BAJAJ-AUTO.NS",
