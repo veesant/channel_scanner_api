@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-27T20:13:39.721780+00:00",
+  "updated_utc": "2026-01-28T14:14:14.829872+00:00",
   "tf": "1d",
   "params": {
     "n_down": 40,
@@ -15,49 +15,28 @@
     "near_resistance_pct": 6.0,
     "breakout_wiggle_pct": 0.2
   },
-  "count": 2,
+  "count": 1,
   "data": [
-    {
-      "ticker": "OFSS.NS",
-      "tf": "1d",
-      "bars_used": 350,
-      "close": 7956.0,
-      "sma20": 7718.05,
-      "sma50": 7910.15,
-      "trend_ok": true,
-      "prior_downtrend_ok": true,
-      "down_slope": -18.49136960600375,
-      "fresh_uptrend_ok": true,
-      "up_slope": 38.66969696969697,
-      "up_hh_steps": 1,
-      "up_hl_steps": 1,
-      "up_pivot_highs": 2,
-      "up_pivot_lows": 2,
-      "resistance": 8022.5,
-      "pullback_from_resistance_pct": 0.8289186662511686,
-      "state": "uptrend",
-      "rank_score": 2.334518104386449
-    },
     {
       "ticker": "KIRLPNU.NS",
       "tf": "1d",
       "bars_used": 350,
-      "close": 1068.0,
-      "sma20": 1066.1099975585937,
-      "sma50": 1061.84400390625,
+      "close": 1102.5,
+      "sma20": 1069.4349975585938,
+      "sma50": 1063.4080029296874,
       "trend_ok": true,
       "prior_downtrend_ok": true,
-      "down_slope": -1.5277388753407892,
+      "down_slope": -1.5190053743000997,
       "fresh_uptrend_ok": true,
-      "up_slope": 5.25151885061553,
+      "up_slope": 3.5272779060132575,
       "up_hh_steps": 1,
       "up_hl_steps": 1,
       "up_pivot_highs": 3,
       "up_pivot_lows": 2,
       "resistance": 1121.0,
-      "pullback_from_resistance_pct": 4.727921498661909,
+      "pullback_from_resistance_pct": 1.650312221231044,
       "state": "uptrend",
-      "rank_score": 1.6681150317262319
+      "rank_score": 2.1374025145038003
     }
   ]
 }

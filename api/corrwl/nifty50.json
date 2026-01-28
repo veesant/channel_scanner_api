@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-27T20:14:40.073048+00:00",
+  "updated_utc": "2026-01-28T14:06:33.751079+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -21,62 +21,6 @@
     "only_actionable": false,
     "only_watchlist": true
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "COALINDIA.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 418.3999938964844,
-      "sma_fast": 20,
-      "sma_slow": 50,
-      "sma_fast_now": 420.67249908447263,
-      "sma_slow_now": 398.21099975585935,
-      "trend_ok": true,
-      "recent_swing_high": 442.0,
-      "recent_swing_high_date": "2026-01-14",
-      "resistance_level": 442.0,
-      "pullback_from_swing_high_pct": 5.339367896722992,
-      "had_correction": true,
-      "bars_since_swing_high": 7,
-      "correction_age_ok": true,
-      "anchor_support_close": 395.5,
-      "anchor_support_date": "2025-12-30",
-      "support_level": 395.5,
-      "support_tolerance_pct": 1.0,
-      "support_floor": 395.5,
-      "support_floor_adj": 391.545,
-      "correction_close_low": 414.04998779296875,
-      "support_held": true,
-      "close_above_sma_fast": false,
-      "rebound_ok": false,
-      "uptrend_window_used": 50,
-      "uptrend_hh_count": 4,
-      "uptrend_hl_count": 5,
-      "uptrend_pivot_highs": 6,
-      "uptrend_pivot_lows": 7,
-      "uptrend_overall_up": true,
-      "uptrend_ok": true,
-      "uptrend_actionable": true,
-      "watchlist_correction": true,
-      "actionable_after_correction": true,
-      "dist_to_support": 0.05790137521234987,
-      "actionable_reason": "watchlist_correction",
-      "priceQuality": {
-        "quality_n_bars": 50,
-        "long_wick_count": 15,
-        "max_long_wicks_allowed": 6,
-        "gap_thresh_pct": 2.5,
-        "gap_count": 0,
-        "max_gap_count_allowed": 2,
-        "max_gap_pct": 0.8491493377403441,
-        "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 6477481,
-        "price_quality_ok": false
-      },
-      "priceQualityOk": false,
-      "avgVolume50": 6477481,
-      "rank_score": 3.0260354144599497
-    }
-  ]
+  "count": 0,
+  "data": []
 }

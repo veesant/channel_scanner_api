@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-27T20:14:28.567411+00:00",
+  "updated_utc": "2026-01-28T14:16:34.458331+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -27,18 +27,18 @@
       "ticker": "VENKEYS.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 1480.5,
+      "close": 1490.5,
       "sma_fast": 20,
       "sma_slow": 50,
-      "sma_fast_now": 1530.2349975585937,
-      "sma_slow_now": 1441.6660034179688,
+      "sma_fast_now": 1530.7399963378907,
+      "sma_slow_now": 1444.5200024414062,
       "trend_ok": true,
       "recent_swing_high": 1631.800048828125,
       "recent_swing_high_date": "2026-01-13",
       "resistance_level": 1631.800048828125,
-      "pullback_from_swing_high_pct": 9.271972318960337,
+      "pullback_from_swing_high_pct": 8.659152138743925,
       "had_correction": true,
-      "bars_since_swing_high": 7,
+      "bars_since_swing_high": 8,
       "correction_age_ok": true,
       "anchor_support_close": 1450.199951171875,
       "anchor_support_date": "2025-12-30",
@@ -53,14 +53,14 @@
       "uptrend_window_used": 50,
       "uptrend_hh_count": 4,
       "uptrend_hl_count": 4,
-      "uptrend_pivot_highs": 8,
+      "uptrend_pivot_highs": 7,
       "uptrend_pivot_lows": 8,
       "uptrend_overall_up": true,
       "uptrend_ok": true,
       "uptrend_actionable": true,
       "watchlist_correction": true,
       "actionable_after_correction": true,
-      "dist_to_support": 0.020893704212057235,
+      "dist_to_support": 0.02778930505104445,
       "actionable_reason": "watchlist_correction",
       "priceQuality": {
         "quality_n_bars": 50,
@@ -71,12 +71,12 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 3.7686809616634176,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 150829,
+        "avg_volume_50": 150688,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 150829,
-      "rank_score": 3.2791062957879435
+      "avgVolume50": 150688,
+      "rank_score": 3.2722106949489564
     }
   ]
 }
