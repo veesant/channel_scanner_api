@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-29T14:26:10.474441+00:00",
+  "updated_utc": "2026-01-29T20:17:47.406485+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -1705,15 +1705,15 @@
     },
     {
       "ticker": "PRECWIRE.NS",
-      "slope": 0.01260584694302915,
-      "r2": 0.8219065000304143,
+      "slope": 0.0126058471896948,
+      "r2": 0.8219065279974819,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.49433679586877594,
+      "pos": 0.49433679614273857,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 92.61131127975995,
+      "annual_trend_pct": 92.61131375031087,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1725,7 +1725,7 @@
       "recent_trend_pct": -21.079138633991356,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8538272627360218
+      "rank_score": 0.8538272766921594
     },
     {
       "ticker": "MTARTECH.NS",
@@ -1753,15 +1753,15 @@
     },
     {
       "ticker": "NAVINFLUOR.NS",
-      "slope": 0.008487658652437627,
-      "r2": 0.8571332193998613,
+      "slope": 0.008487659302721192,
+      "r2": 0.8571332303717812,
       "inside": 0.9423076923076923,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.5295744341893039,
+      "pos": 0.5295744062771114,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 55.48176158762408,
+      "annual_trend_pct": 55.48176684520034,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1773,7 +1773,7 @@
       "recent_trend_pct": 64.28487702652734,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8525322432040772
+      "rank_score": 0.8525322514812564
     },
     {
       "ticker": "NCC.NS",
@@ -1825,15 +1825,15 @@
     },
     {
       "ticker": "MOTHERSON.NS",
-      "slope": 0.0070066240414779395,
-      "r2": 0.7778354179219453,
+      "slope": 0.007006624362502619,
+      "r2": 0.7778354210629412,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.3116481409942697,
+      "pos": 0.3116481273477566,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 43.956998887677386,
+      "annual_trend_pct": 43.957001290792384,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1845,7 +1845,7 @@
       "recent_trend_pct": -58.68736353068247,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.850060587169238
+      "rank_score": 0.8500605901043873
     },
     {
       "ticker": "NILKAMAL.NS",
@@ -2617,27 +2617,27 @@
     },
     {
       "ticker": "POLYPLEX.NS",
-      "slope": -0.008636325397025088,
-      "r2": 0.7572058956877774,
+      "slope": -0.008636325022784113,
+      "r2": 0.7572058562418075,
       "inside": 0.9807692307692307,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.5358120175622644,
+      "pos": 0.5358119967593118,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -36.17906538163308,
+      "annual_trend_pct": -36.17906413964381,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -55.375051708132204,
+      "prior_trend_pct": -55.375048104706956,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 44.72767440204019,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8173294383953547
+      "rank_score": 0.8173294207526649
     },
     {
       "ticker": "KIRLOSIND.NS",
@@ -2737,15 +2737,15 @@
     },
     {
       "ticker": "KSOLVES.NS",
-      "slope": -0.008414449002463954,
-      "r2": 0.7282829937682089,
+      "slope": -0.00841444910573064,
+      "r2": 0.7282830236991475,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.09615384615384616,
-      "pos": 0.3957381530404664,
+      "pos": 0.3957381428622909,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -35.43846255642135,
+      "annual_trend_pct": -35.43846290310826,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2757,7 +2757,7 @@
       "recent_trend_pct": -59.01194977671624,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8091830661954426
+      "rank_score": 0.8091830821787294
     },
     {
       "ticker": "PRECOT.NS",
