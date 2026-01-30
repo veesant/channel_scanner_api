@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-29T20:20:39.958888+00:00",
+  "updated_utc": "2026-01-30T14:21:01.534742+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,29 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 1,
+  "data": [
+    {
+      "ticker": "SOUTHBANK.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 44.2599983215332,
+      "sma20": 42.645499801635744,
+      "sma50": 40.560999908447265,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 10.778148306902633,
+      "pole_high": 45.16999816894531,
+      "pole_range": 6.4199981689453125,
+      "flag_bars": 8,
+      "flag_range": 3.8199996948242188,
+      "pullback_from_pole_high_pct": 2.0146112116465407,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 1.8756775139732054
+    }
+  ]
 }
