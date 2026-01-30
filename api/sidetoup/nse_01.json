@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-30T14:26:53.032279+00:00",
+  "updated_utc": "2026-01-30T20:17:26.943363+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -265,27 +265,27 @@
     },
     {
       "ticker": "BEPL.NS",
-      "slope": -0.01010633239948808,
-      "r2": 0.936080230324323,
+      "slope": -0.010106331912275257,
+      "r2": 0.9360801984530541,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.30190356121198886,
+      "pos": 0.30190356474928753,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -40.87576540349113,
+      "annual_trend_pct": -40.87576390557467,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -40.172428839860416,
+      "prior_trend_pct": -40.17242655905932,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -66.76300585113381,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9224651436563472
+      "rank_score": 0.9224651273669829
     },
     {
       "ticker": "CENTRUM.NS",
@@ -1393,15 +1393,15 @@
     },
     {
       "ticker": "CANFINHOME.NS",
-      "slope": 0.008010925801355762,
-      "r2": 0.8447603316972802,
+      "slope": 0.008010925726619832,
+      "r2": 0.8447603374985451,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.4722473568939474,
+      "pos": 0.47224735688015396,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 51.67473514993128,
+      "annual_trend_pct": 51.67473456048257,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1413,7 +1413,7 @@
       "recent_trend_pct": -9.778691007251194,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.8674631224669377
+      "rank_score": 0.8674631253689494
     },
     {
       "ticker": "ASHOKAMET.NS",
@@ -3313,15 +3313,15 @@
     },
     {
       "ticker": "BEL.NS",
-      "slope": 0.009181735219561966,
-      "r2": 0.6841530119605959,
+      "slope": 0.009181735551880569,
+      "r2": 0.6841530093764858,
       "inside": 0.9615384615384616,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.43145345316021577,
+      "pos": 0.43145344241363665,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 61.19590353009639,
+      "annual_trend_pct": 61.19590631565308,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -3333,7 +3333,7 @@
       "recent_trend_pct": 155.96257056209492,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7835465452796609
+      "rank_score": 0.783546545062264
     },
     {
       "ticker": "AVROIND.NS",

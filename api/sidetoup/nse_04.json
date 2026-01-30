@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-30T14:31:41.593858+00:00",
+  "updated_utc": "2026-01-30T20:20:39.559376+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -1225,15 +1225,15 @@
     },
     {
       "ticker": "TDPOWERSYS.NS",
-      "slope": 0.01577798528120513,
-      "r2": 0.8727003333500297,
+      "slope": 0.01577798555216238,
+      "r2": 0.8727003513463406,
       "inside": 0.9423076923076923,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.057692307692307696,
-      "pos": 0.3109554906517922,
+      "pos": 0.31095546676856245,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 127.15336829724748,
+      "annual_trend_pct": 127.1533714977878,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1245,7 +1245,7 @@
       "recent_trend_pct": -20.230959283594775,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8821776945329126
+      "rank_score": 0.8821777059193909
     },
     {
       "ticker": "SANDESH.NS",
@@ -1345,15 +1345,15 @@
     },
     {
       "ticker": "UNIPARTS.NS",
-      "slope": 0.010936584068158372,
-      "r2": 0.8120804800172492,
+      "slope": 0.010936583673120557,
+      "r2": 0.812080503272425,
       "inside": 0.9423076923076923,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.07692307692307693,
-      "pos": 0.056585096481835635,
+      "pos": 0.05658505885254494,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 76.59739858857195,
+      "annual_trend_pct": 76.59739496091417,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -1365,7 +1365,7 @@
       "recent_trend_pct": -80.40188341632792,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8773048072835179
+      "rank_score": 0.877304822674035
     },
     {
       "ticker": "ROSSTECH.NS",
@@ -3457,15 +3457,15 @@
     },
     {
       "ticker": "SYMPHONY.NS",
-      "slope": -0.0071561610825085975,
-      "r2": 0.7566526001032573,
+      "slope": -0.007156160391303827,
+      "r2": 0.7566526156990749,
       "inside": 0.9615384615384616,
       "near_upper": 0.09615384615384616,
       "near_lower": 0.038461538461538464,
-      "pos": 0.8551329288698818,
+      "pos": 0.8551329558426343,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -31.072873438797,
+      "annual_trend_pct": -31.0728709613735,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -3477,7 +3477,7 @@
       "recent_trend_pct": 18.110499599063658,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7774283917800251
+      "rank_score": 0.7774283968806588
     },
     {
       "ticker": "SHREECEM.NS",
@@ -3601,27 +3601,27 @@
     },
     {
       "ticker": "TIPSMUSIC.NS",
-      "slope": -0.005039823467534863,
-      "r2": 0.6927694776147738,
+      "slope": -0.005039823661218278,
+      "r2": 0.6927694643001375,
       "inside": 0.9423076923076923,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.7821679595934122,
+      "pos": 0.7821679710155555,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -23.05434713733645,
+      "annual_trend_pct": -23.05434791229748,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -31.914274064936432,
+      "prior_trend_pct": -31.914270170229376,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 10.933532751992292,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7450910197711226
+      "rank_score": 0.7450910119715902
     }
   ]
 }
