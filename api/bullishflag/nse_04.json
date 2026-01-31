@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-30T20:23:12.642670+00:00",
+  "updated_utc": "2026-01-31T14:06:01.088645+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -15,26 +15,26 @@
   "count": 1,
   "data": [
     {
-      "ticker": "SOUTHBANK.NS",
+      "ticker": "STYLEBAAZA.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 44.2599983215332,
-      "sma20": 42.645499801635744,
-      "sma50": 40.560999908447265,
+      "close": 325.1499938964844,
+      "sma20": 290.8724998474121,
+      "sma50": 284.04899993896487,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 10.778148306902633,
-      "pole_high": 45.16999816894531,
-      "pole_range": 6.4199981689453125,
+      "pole_gain_pct": 26.918609382570253,
+      "pole_high": 339.70001220703125,
+      "pole_range": 107.75001525878906,
       "flag_bars": 8,
-      "flag_range": 3.8199996948242188,
-      "pullback_from_pole_high_pct": 2.0146112116465407,
+      "flag_range": 39.350006103515625,
+      "pullback_from_pole_high_pct": 4.283196287222775,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
-      "near_breakout": true,
+      "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 1.8756775139732054
+      "rank_score": 2.3913379654903593
     }
   ]
 }
