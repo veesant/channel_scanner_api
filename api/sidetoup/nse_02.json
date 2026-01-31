@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-31T14:11:13.399834+00:00",
+  "updated_utc": "2026-01-31T20:13:18.750608+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -865,15 +865,15 @@
     },
     {
       "ticker": "IOC.NS",
-      "slope": 0.006867755056743808,
-      "r2": 0.8696677297496689,
+      "slope": 0.006867754758140574,
+      "r2": 0.8696677004752227,
       "inside": 0.9807692307692307,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.38226185625686293,
+      "pos": 0.3822618659472346,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 42.92120278884764,
+      "annual_trend_pct": 42.921200569657536,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -885,7 +885,7 @@
       "recent_trend_pct": -11.9844686312507,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8889153715568404
+      "rank_score": 0.8889153559505802
     },
     {
       "ticker": "ITCHOTELS.NS",
@@ -1561,27 +1561,27 @@
     },
     {
       "ticker": "GARFIBRES.NS",
-      "slope": -0.00945502973596703,
-      "r2": 0.8588999214080355,
+      "slope": -0.00945503091426883,
+      "r2": 0.8588999383459026,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.6450137740824763,
+      "pos": 0.6450138425628248,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -38.839066773421415,
+      "annual_trend_pct": -38.839070520855266,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -36.75376718276353,
+      "prior_trend_pct": -36.75377347983779,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -66.17642169716437,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8649485832957702
+      "rank_score": 0.8649485849166688
     },
     {
       "ticker": "ERIS.NS",
@@ -2281,27 +2281,27 @@
     },
     {
       "ticker": "HCLTECH.NS",
-      "slope": 0.00839325150004816,
-      "r2": 0.822736713784682,
+      "slope": 0.008393253089955128,
+      "r2": 0.8227366195131195,
       "inside": 0.9230769230769231,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.43322335663136596,
+      "pos": 0.4332233360147695,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 54.720345379615296,
+      "annual_trend_pct": 54.72035817114549,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 56.14976547772492,
+      "prior_trend_pct": 56.149781167857405,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 58.473416544481395,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8372767904599736
+      "rank_score": 0.837276745385852
     },
     {
       "ticker": "EMBDL.NS",
@@ -2809,15 +2809,15 @@
     },
     {
       "ticker": "GESHIP.NS",
-      "slope": 0.005794186877443833,
-      "r2": 0.841356427658632,
+      "slope": 0.005794186759823864,
+      "r2": 0.8413564190335919,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.8764800458566939,
+      "pos": 0.8764800523437225,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 35.161168026555956,
+      "annual_trend_pct": 35.16116719987803,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": true,
@@ -2829,7 +2829,7 @@
       "recent_trend_pct": 103.29866550100996,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8176455938590312
+      "rank_score": 0.8176455888978084
     },
     {
       "ticker": "GENSOL.NS",
