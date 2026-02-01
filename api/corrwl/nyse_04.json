@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-31T20:13:55.820898+00:00",
+  "updated_utc": "2026-02-01T14:05:39.009383+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -1571,7 +1571,7 @@
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 7.808766722679138,
-      "sma_slow_now": 7.3230827522277835,
+      "sma_slow_now": 7.323082790374756,
       "trend_ok": true,
       "recent_swing_high": 8.179565233600337,
       "recent_swing_high_date": "2026-01-22",
@@ -1580,12 +1580,12 @@
       "had_correction": true,
       "bars_since_swing_high": 6,
       "correction_age_ok": true,
-      "anchor_support_close": 7.01733585278027,
+      "anchor_support_close": 7.017336326997415,
       "anchor_support_date": "2025-12-30",
-      "support_level": 7.01733585278027,
+      "support_level": 7.017336326997415,
       "support_tolerance_pct": 1.0,
-      "support_floor": 7.01733585278027,
-      "support_floor_adj": 6.947162494252467,
+      "support_floor": 7.017336326997415,
+      "support_floor_adj": 6.947162963727441,
       "correction_close_low": 7.800000190734863,
       "support_held": true,
       "close_above_sma_fast": false,
@@ -1600,7 +1600,7 @@
       "uptrend_actionable": true,
       "watchlist_correction": true,
       "actionable_after_correction": true,
-      "dist_to_support": 0.11153297410505184,
+      "dist_to_support": 0.11153289898994126,
       "actionable_reason": "watchlist_correction",
       "priceQuality": {
         "quality_n_bars": 50,
@@ -1616,7 +1616,7 @@
       },
       "priceQualityOk": false,
       "avgVolume50": 6511018,
-      "rank_score": 2.8025076344425544
+      "rank_score": 2.802507709557665
     },
     {
       "ticker": "MVO",
