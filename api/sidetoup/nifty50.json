@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-01T14:03:18.252636+00:00",
+  "updated_utc": "2026-02-01T20:21:55.860315+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -169,15 +169,15 @@
     },
     {
       "ticker": "POWERGRID.NS",
-      "slope": -0.003268160946565247,
-      "r2": 0.7538901747233746,
+      "slope": -0.0032681608389574495,
+      "r2": 0.7538902686946295,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.09077453154985364,
+      "pos": 0.09077438835189641,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -15.628824836748144,
+      "annual_trend_pct": -15.628824364640327,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -189,7 +189,7 @@
       "recent_trend_pct": -45.23322226891664,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.867867634206702
+      "rank_score": 0.8678676955121252
     },
     {
       "ticker": "TITAN.NS",

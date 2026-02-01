@@ -20,7 +20,7 @@
     "recent_hl_allow_equal_lows": false,
     "rta_pullback_min_pct": 2.0,
     "rta_pullback_lookback_bars": 20,
-    "lastUpdatedTs": "2026-02-01T14:07:32.954896+00:00"
+    "lastUpdatedTs": "2026-02-01T20:16:46.242018+00:00"
   },
   "count": 520,
   "count_clean_trend": 5,
@@ -425,7 +425,7 @@
       "metric_last_sma_fast": 2.9579999923706053,
       "metric_last_sma_slow": 2.7160820364952087,
       "metric_structure_points": 6.0,
-      "metric_close_slope": 0.022825603057690363
+      "metric_close_slope": 0.02282560412623303
     },
     {
       "ticker": "GOSS",
@@ -22119,7 +22119,7 @@
       "sma_fast_last": 13.851890563964844,
       "sma_slow_last": 13.860772466659546,
       "sma_fast_gt_slow": false,
-      "metric_hh_chain_ok": 1.0,
+      "metric_hh_chain_ok": 0.0,
       "metric_hl_chain_ok": 0.0,
       "priceQuality": {
         "quality_n_bars": 50,
