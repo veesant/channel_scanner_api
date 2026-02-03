@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-03T12:24:10.921171+00:00",
+  "updated_utc": "2026-02-03T14:39:34.588206+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -1225,15 +1225,15 @@
     },
     {
       "ticker": "IOC.NS",
-      "slope": 0.006899531066395673,
-      "r2": 0.8709850043457087,
+      "slope": 0.006899531399085637,
+      "r2": 0.870985035094644,
       "inside": 0.9807692307692307,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.499012501643623,
+      "pos": 0.4990124965516995,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 43.157554210005735,
+      "annual_trend_pct": 43.15755668661399,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1245,7 +1245,7 @@
       "recent_trend_pct": 15.257992078432569,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8778989443161843
+      "rank_score": 0.8778989601998444
     },
     {
       "ticker": "FCSSOFT.NS",
@@ -1753,27 +1753,27 @@
     },
     {
       "ticker": "HCLTECH.NS",
-      "slope": 0.008693181494140176,
-      "r2": 0.8474461739104938,
+      "slope": 0.008693183321138267,
+      "r2": 0.8474461019325478,
       "inside": 0.9230769230769231,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.34221872553083166,
+      "pos": 0.3422187184156385,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 57.1523353354672,
+      "annual_trend_pct": 57.15235026555278,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 63.01531444870658,
+      "prior_trend_pct": 63.01533524869174,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 53.71289522292755,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8587319836329329
+      "rank_score": 0.8587319483554794
     },
     {
       "ticker": "ITCHOTELS.NS",
@@ -2113,15 +2113,15 @@
     },
     {
       "ticker": "GLOBAL.NS",
-      "slope": 0.011754004569822823,
-      "r2": 0.7972825177932961,
+      "slope": 0.011754004412917681,
+      "r2": 0.7972825081124577,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.11538461538461539,
-      "pos": 0.4068643159725495,
+      "pos": 0.40686432791791455,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 84.26564211617304,
+      "annual_trend_pct": 84.26564061273724,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -2133,7 +2133,7 @@
       "recent_trend_pct": -37.0189113092893,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8502625196070854
+      "rank_score": 0.8502625135721298
     },
     {
       "ticker": "ESSENTIA.NS",
@@ -2857,15 +2857,15 @@
     },
     {
       "ticker": "GESHIP.NS",
-      "slope": 0.006082021925147237,
-      "r2": 0.852389591134826,
+      "slope": 0.006082021674369208,
+      "r2": 0.8523895802798143,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.9204545622740066,
+      "pos": 0.9204545776999801,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 37.19939780362529,
+      "annual_trend_pct": 37.19939601448239,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": true,
@@ -2877,7 +2877,7 @@
       "recent_trend_pct": 216.77191716788082,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8264570316477046
+      "rank_score": 0.8264570246776015
     },
     {
       "ticker": "EMCURE.NS",
@@ -4249,15 +4249,15 @@
     },
     {
       "ticker": "ESABINDIA.NS",
-      "slope": 0.0050556485189086715,
-      "r2": 0.6574473221296147,
+      "slope": 0.005055648502312857,
+      "r2": 0.6574472990330877,
       "inside": 0.9807692307692307,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.4557514643605522,
+      "pos": 0.4557514688958408,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 30.068847831475786,
+      "annual_trend_pct": 30.068847719228664,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -4269,7 +4269,7 @@
       "recent_trend_pct": -50.83518000489307,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.7754562069364445
+      "rank_score": 0.7754561949346521
     },
     {
       "ticker": "IONEXCHANG.NS",

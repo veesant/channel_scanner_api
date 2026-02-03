@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-03T12:27:27.274286+00:00",
+  "updated_utc": "2026-02-03T14:35:13.945101+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -95,12 +95,12 @@
       "had_correction": true,
       "bars_since_swing_high": 6,
       "correction_age_ok": true,
-      "anchor_support_close": 60.43299865722656,
+      "anchor_support_close": 60.432498931884766,
       "anchor_support_date": "2026-01-02",
-      "support_level": 60.43299865722656,
+      "support_level": 60.432498931884766,
       "support_tolerance_pct": 1.0,
-      "support_floor": 60.43299865722656,
-      "support_floor_adj": 59.828668670654295,
+      "support_floor": 60.432498931884766,
+      "support_floor_adj": 59.82817394256592,
       "correction_close_low": 63.900001525878906,
       "support_held": true,
       "close_above_sma_fast": false,
@@ -115,23 +115,23 @@
       "uptrend_actionable": true,
       "watchlist_correction": true,
       "actionable_after_correction": true,
-      "dist_to_support": 0.05736936683081108,
+      "dist_to_support": 0.05737811037571794,
       "actionable_reason": "watchlist_correction",
       "priceQuality": {
         "quality_n_bars": 50,
-        "long_wick_count": 17,
+        "long_wick_count": 16,
         "max_long_wicks_allowed": 6,
         "gap_thresh_pct": 2.5,
         "gap_count": 1,
         "max_gap_count_allowed": 2,
         "max_gap_pct": 2.5905803281048603,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 677268,
+        "avg_volume_50": 677279,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 677268,
-      "rank_score": 3.2926306331691895
+      "avgVolume50": 677279,
+      "rank_score": 3.2926218896242827
     },
     {
       "ticker": "NVST",
@@ -509,7 +509,7 @@
         "gap_thresh_pct": 2.5,
         "gap_count": 9,
         "max_gap_count_allowed": 2,
-        "max_gap_pct": 4.390688528482184,
+        "max_gap_pct": 4.390670418304151,
         "max_gap_pct_allowed": 6.0,
         "avg_volume_50": 6106,
         "price_quality_ok": false

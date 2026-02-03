@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-03T12:25:00.074076+00:00",
+  "updated_utc": "2026-02-03T14:33:36.428487+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -1513,15 +1513,15 @@
     },
     {
       "ticker": "PRECWIRE.NS",
-      "slope": 0.012888709035980916,
-      "r2": 0.8380402162375359,
+      "slope": 0.012888708748671159,
+      "r2": 0.8380401932224817,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.44640883239229057,
+      "pos": 0.44640883751562477,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 95.46533631621898,
+      "annual_trend_pct": 95.46533339594589,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1533,7 +1533,7 @@
       "recent_trend_pct": 45.07799864717694,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8666869171872312
+      "rank_score": 0.8666869051673707
     },
     {
       "ticker": "MASTERTR.NS",
@@ -1921,15 +1921,15 @@
     },
     {
       "ticker": "MSUMI.NS",
-      "slope": 0.007501719825019575,
-      "r2": 0.7790641308832138,
+      "slope": 0.007501719847411828,
+      "r2": 0.77906411987735,
       "inside": 0.9230769230769231,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.07178041268992186,
+      "pos": 0.07178042587373874,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 47.71128875123638,
+      "annual_trend_pct": 47.711288923230974,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -1941,7 +1941,7 @@
       "recent_trend_pct": -72.98749332032574,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.851584793403384
+      "rank_score": 0.8515847865820704
     },
     {
       "ticker": "PNBGILTS.NS",
@@ -2617,15 +2617,15 @@
     },
     {
       "ticker": "MOTHERSON.NS",
-      "slope": 0.007234288666936473,
-      "r2": 0.7978350335296494,
+      "slope": 0.0072342890035799875,
+      "r2": 0.7978350385403763,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.5428744891439037,
+      "pos": 0.5428744648644899,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 45.67137035442499,
+      "annual_trend_pct": 45.67137290446976,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -2637,7 +2637,7 @@
       "recent_trend_pct": -21.016574727505912,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8292454524658189
+      "rank_score": 0.8292454573991237
     },
     {
       "ticker": "NOCIL.NS",
@@ -3529,27 +3529,27 @@
     },
     {
       "ticker": "KSOLVES.NS",
-      "slope": -0.008074496987554584,
-      "r2": 0.7234936825643452,
+      "slope": -0.008074496051051277,
+      "r2": 0.723493532648784,
       "inside": 0.9615384615384616,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.09615384615384616,
-      "pos": 0.5560789133434748,
+      "pos": 0.5560788425959747,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -34.2870284132293,
+      "annual_trend_pct": -34.287025213127635,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -19.851666611081864,
+      "prior_trend_pct": -19.85166800073035,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -49.76736997603031,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.7907543345632098
+      "rank_score": 0.7907542666801792
     },
     {
       "ticker": "PRECOT.NS",
@@ -3817,15 +3817,15 @@
     },
     {
       "ticker": "NAM-INDIA.NS",
-      "slope": 0.005384487052842088,
-      "r2": 0.7157387266623583,
+      "slope": 0.005384487598688657,
+      "r2": 0.7157387555577264,
       "inside": 0.9487179487179487,
       "near_upper": 0.10256410256410256,
       "near_lower": 0.05128205128205128,
-      "pos": 0.6022721576627758,
+      "pos": 0.6022721145932378,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 32.312098278795155,
+      "annual_trend_pct": 32.31210203434467,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -3837,7 +3837,7 @@
       "recent_trend_pct": 21.353203420279243,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.777129327052081
+      "rank_score": 0.7771293458067189
     },
     {
       "ticker": "MANORG.NS",
