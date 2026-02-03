@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-03T14:33:36.428487+00:00",
+  "updated_utc": "2026-02-03T20:33:06.901653+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -1513,15 +1513,15 @@
     },
     {
       "ticker": "PRECWIRE.NS",
-      "slope": 0.012888708748671159,
-      "r2": 0.8380401932224817,
+      "slope": 0.012888708982231212,
+      "r2": 0.8380402037078261,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.44640883751562477,
+      "pos": 0.4464088250834194,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 95.46533339594589,
+      "annual_trend_pct": 95.4653357698964,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1533,7 +1533,7 @@
       "recent_trend_pct": 45.07799864717694,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8666869051673707
+      "rank_score": 0.8666869116532634
     },
     {
       "ticker": "MASTERTR.NS",
@@ -1657,27 +1657,27 @@
     },
     {
       "ticker": "PATANJALI.NS",
-      "slope": -0.0063916894982626845,
-      "r2": 0.7658196631281976,
+      "slope": -0.006391690300895014,
+      "r2": 0.7658197474203138,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.1924448298774004,
+      "pos": 0.1924448526966074,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -28.277655912441546,
+      "annual_trend_pct": -28.27765890590843,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -20.1857203414197,
+      "prior_trend_pct": -20.185725756387598,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -69.07782236108639,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8636653485763588
+      "rank_score": 0.8636653884404962
     },
     {
       "ticker": "PANSARI.NS",
@@ -1897,15 +1897,15 @@
     },
     {
       "ticker": "MAHABANK.NS",
-      "slope": 0.006587852868744527,
-      "r2": 0.8312598025008138,
+      "slope": 0.00658785343888427,
+      "r2": 0.8312598010930161,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.5481886000598462,
+      "pos": 0.5481885506425752,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 40.85606243283906,
+      "annual_trend_pct": 40.85606660883636,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1917,19 +1917,19 @@
       "recent_trend_pct": 42.49609274379509,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8531187335521146
+      "rank_score": 0.8531187377899427
     },
     {
       "ticker": "MSUMI.NS",
-      "slope": 0.007501719847411828,
-      "r2": 0.77906411987735,
+      "slope": 0.007501719825019575,
+      "r2": 0.7790641308832138,
       "inside": 0.9230769230769231,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.07178042587373874,
+      "pos": 0.07178041268992186,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 47.711288923230974,
+      "annual_trend_pct": 47.71128875123638,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -1941,7 +1941,7 @@
       "recent_trend_pct": -72.98749332032574,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8515847865820704
+      "rank_score": 0.851584793403384
     },
     {
       "ticker": "PNBGILTS.NS",

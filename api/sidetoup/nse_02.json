@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-03T14:39:34.588206+00:00",
+  "updated_utc": "2026-02-03T20:34:01.382776+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -817,15 +817,15 @@
     },
     {
       "ticker": "IRCTC.NS",
-      "slope": -0.005293946057644307,
-      "r2": 0.8267044975627804,
+      "slope": -0.005293946310005414,
+      "r2": 0.8267045370471123,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.1090875646598085,
+      "pos": 0.10908757375416107,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -24.064447205740514,
+      "annual_trend_pct": -24.064448202225876,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -837,7 +837,7 @@
       "recent_trend_pct": -64.81159255543984,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8921870820589992
+      "rank_score": 0.8921871008917298
     },
     {
       "ticker": "GPTHEALTH.NS",
@@ -1225,15 +1225,15 @@
     },
     {
       "ticker": "IOC.NS",
-      "slope": 0.006899531399085637,
-      "r2": 0.870985035094644,
+      "slope": 0.006899531066395673,
+      "r2": 0.8709850043457087,
       "inside": 0.9807692307692307,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.4990124965516995,
+      "pos": 0.499012501643623,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 43.15755668661399,
+      "annual_trend_pct": 43.157554210005735,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1245,7 +1245,7 @@
       "recent_trend_pct": 15.257992078432569,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8778989601998444
+      "rank_score": 0.8778989443161843
     },
     {
       "ticker": "FCSSOFT.NS",
@@ -1705,27 +1705,27 @@
     },
     {
       "ticker": "JAMNAAUTO.NS",
-      "slope": 0.01114919423371619,
-      "r2": 0.867367194557161,
+      "slope": 0.011149194158043848,
+      "r2": 0.8673671933487781,
       "inside": 0.9423076923076923,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.511439960209459,
+      "pos": 0.5114399435658151,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 78.56064405786556,
+      "annual_trend_pct": 78.56064335523625,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 87.47055145014897,
+      "prior_trend_pct": 87.47053508601013,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": -47.03888871684826,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8594626781807115
+      "rank_score": 0.8594626792408845
     },
     {
       "ticker": "IL&FSENGG.NS",
@@ -2041,15 +2041,15 @@
     },
     {
       "ticker": "JSL.NS",
-      "slope": 0.007240340896936583,
-      "r2": 0.7848565775531027,
+      "slope": 0.0072403408724832094,
+      "r2": 0.7848566271195063,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.11538461538461539,
-      "pos": 0.33863495917133585,
+      "pos": 0.3386349503605618,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 45.71722267444143,
+      "annual_trend_pct": 45.717222489151,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -2061,7 +2061,7 @@
       "recent_trend_pct": -21.57127710216885,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.85087248516711
+      "rank_score": 0.8508725108313894
     },
     {
       "ticker": "HEADSUP.NS",
@@ -2113,15 +2113,15 @@
     },
     {
       "ticker": "GLOBAL.NS",
-      "slope": 0.011754004412917681,
-      "r2": 0.7972825081124577,
+      "slope": 0.011754004569822823,
+      "r2": 0.7972825177932961,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.11538461538461539,
-      "pos": 0.40686432791791455,
+      "pos": 0.4068643159725495,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 84.26564061273724,
+      "annual_trend_pct": 84.26564211617304,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -2133,7 +2133,7 @@
       "recent_trend_pct": -37.0189113092893,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8502625135721298
+      "rank_score": 0.8502625196070854
     },
     {
       "ticker": "ESSENTIA.NS",
