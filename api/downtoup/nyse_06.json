@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-02T14:28:12.615707+00:00",
+  "updated_utc": "2026-02-03T12:24:51.911166+00:00",
   "tf": "1d",
   "params": {
     "n_down": 40,
@@ -15,49 +15,28 @@
     "near_resistance_pct": 6.0,
     "breakout_wiggle_pct": 0.2
   },
-  "count": 2,
+  "count": 1,
   "data": [
     {
       "ticker": "WEC",
       "tf": "1d",
       "bars_used": 350,
-      "close": 110.66999816894531,
-      "sma20": 107.78649978637695,
-      "sma50": 107.29740005493164,
+      "close": 109.83999633789062,
+      "sma20": 107.95499954223632,
+      "sma50": 107.26220001220703,
       "trend_ok": true,
       "prior_downtrend_ok": true,
-      "down_slope": -0.13637894564229597,
+      "down_slope": -0.11063318950373952,
       "fresh_uptrend_ok": true,
-      "up_slope": 0.20830350933652936,
+      "up_slope": 0.14448505748401988,
       "up_hh_steps": 1,
       "up_hl_steps": 1,
       "up_pivot_highs": 2,
-      "up_pivot_lows": 2,
+      "up_pivot_lows": 3,
       "resistance": 111.44999694824219,
-      "pullback_from_resistance_pct": 0.699864334369708,
+      "pullback_from_resistance_pct": 1.4445945755379905,
       "state": "correction",
-      "rank_score": 3.0333559442717153
-    },
-    {
-      "ticker": "YALA",
-      "tf": "1d",
-      "bars_used": 350,
-      "close": 7.050000190734863,
-      "sma20": 7.004000020027161,
-      "sma50": 7.03600001335144,
-      "trend_ok": true,
-      "prior_downtrend_ok": true,
-      "down_slope": -0.0004831131582635876,
-      "fresh_uptrend_ok": true,
-      "up_slope": 0.05775760014851888,
-      "up_hh_steps": 1,
-      "up_hl_steps": 1,
-      "up_pivot_highs": 2,
-      "up_pivot_lows": 2,
-      "resistance": 7.318999767303467,
-      "pullback_from_resistance_pct": 3.6753598185686345,
-      "state": "correction",
-      "rank_score": 2.4897517509001665
+      "rank_score": 2.8813606948030874
     }
   ]
 }

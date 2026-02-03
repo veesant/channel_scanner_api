@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-02T14:34:58.028961+00:00",
+  "updated_utc": "2026-02-03T12:22:43.327977+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,73 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 3,
+  "data": [
+    {
+      "ticker": "WFG",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 68.75,
+      "sma20": 68.00300006866455,
+      "sma50": 63.63100021362305,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 14.659945119502563,
+      "pole_high": 71.54000091552734,
+      "pole_range": 10.790000915527344,
+      "flag_bars": 8,
+      "flag_range": 4.769996643066406,
+      "pullback_from_pole_high_pct": 3.899917360668904,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.9962045098623595
+    },
+    {
+      "ticker": "WS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 42.2400016784668,
+      "sma20": 38.40400009155273,
+      "sma50": 36.302558479309084,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 14.265335545894073,
+      "pole_high": 44.0,
+      "pole_range": 9.479999542236328,
+      "flag_bars": 8,
+      "flag_range": 4.460002899169922,
+      "pullback_from_pole_high_pct": 3.9999961853027344,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.9291593380310852
+    },
+    {
+      "ticker": "XPRO",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 16.09000015258789,
+      "sma20": 15.470999956130981,
+      "sma50": 14.47560001373291,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 14.356791055985225,
+      "pole_high": 16.780000686645508,
+      "pole_range": 2.820000648498535,
+      "flag_bars": 8,
+      "flag_range": 1.5500011444091797,
+      "pullback_from_pole_high_pct": 4.1120411550802825,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.8017634369808402
+    }
+  ]
 }

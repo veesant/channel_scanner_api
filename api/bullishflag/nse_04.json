@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-02T14:28:26.104136+00:00",
+  "updated_utc": "2026-02-03T12:24:33.264619+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,6 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "STYLEBAAZA.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 325.1499938964844,
-      "sma20": 290.8724998474121,
-      "sma50": 284.04899993896487,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 26.918609382570253,
-      "pole_high": 339.70001220703125,
-      "pole_range": 107.75001525878906,
-      "flag_bars": 8,
-      "flag_range": 39.350006103515625,
-      "pullback_from_pole_high_pct": 4.283196287222775,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 2.3913379654903593
-    }
-  ]
+  "count": 0,
+  "data": []
 }
