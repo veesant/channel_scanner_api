@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-03T20:32:04.068679+00:00",
+  "updated_utc": "2026-02-04T14:37:18.755831+00:00",
   "tf": "1d",
   "params": {
     "n_down": 40,
@@ -15,49 +15,28 @@
     "near_resistance_pct": 6.0,
     "breakout_wiggle_pct": 0.2
   },
-  "count": 2,
+  "count": 1,
   "data": [
     {
-      "ticker": "SGA",
+      "ticker": "RVSB",
       "tf": "1d",
       "bars_used": 350,
-      "close": 11.4399995803833,
-      "sma20": 11.285000038146972,
-      "sma50": 11.485350131988525,
+      "close": 5.480000019073486,
+      "sma20": 5.14850001335144,
+      "sma50": 5.181791343688965,
       "trend_ok": true,
       "prior_downtrend_ok": true,
-      "down_slope": -0.017815022620653792,
+      "down_slope": -0.004766537011452509,
       "fresh_uptrend_ok": true,
-      "up_slope": 0.027575741392193417,
-      "up_hh_steps": 2,
-      "up_hl_steps": 2,
-      "up_pivot_highs": 3,
-      "up_pivot_lows": 3,
-      "resistance": 11.520000457763672,
-      "pullback_from_resistance_pct": 0.6944520329984546,
-      "state": "correction",
-      "rank_score": 3.234892406225076
-    },
-    {
-      "ticker": "ORKT",
-      "tf": "1d",
-      "bars_used": 350,
-      "close": 1.4500000476837158,
-      "sma20": 0.8379999995231628,
-      "sma50": 0.9196799981594086,
-      "trend_ok": true,
-      "prior_downtrend_ok": true,
-      "down_slope": -0.00970262646898767,
-      "fresh_uptrend_ok": true,
-      "up_slope": 0.06681212259061409,
+      "up_slope": 0.029818202510024563,
       "up_hh_steps": 1,
       "up_hl_steps": 1,
       "up_pivot_highs": 2,
       "up_pivot_lows": 2,
-      "resistance": 1.7699999809265137,
-      "pullback_from_resistance_pct": 18.079092468424353,
+      "resistance": 5.309999942779541,
+      "pullback_from_resistance_pct": -3.201508062633953,
       "state": "uptrend",
-      "rank_score": 1.5246322099764007
+      "rank_score": 3.0337760547130483
     }
   ]
 }

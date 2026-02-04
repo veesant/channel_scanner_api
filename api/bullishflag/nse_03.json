@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-03T20:24:01.546513+00:00",
+  "updated_utc": "2026-02-04T14:31:44.682227+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,6 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "MCL.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 82.55000305175781,
-      "sma20": 81.85550003051758,
-      "sma50": 63.61219985961914,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 18.70820820024233,
-      "pole_high": 88.7699966430664,
-      "pole_range": 21.269996643066406,
-      "flag_bars": 8,
-      "flag_range": 10.649993896484375,
-      "pullback_from_pole_high_pct": 7.006864736424907,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 2.1009020588666965
-    }
-  ]
+  "count": 0,
+  "data": []
 }

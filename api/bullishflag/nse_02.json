@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-03T20:22:25.516484+00:00",
+  "updated_utc": "2026-02-04T14:36:41.117222+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,6 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "INDSWFTLAB.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 108.6500015258789,
-      "sma20": 101.89549980163574,
-      "sma50": 97.2234001159668,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 19.875011089483664,
-      "pole_high": 113.66000366210938,
-      "pole_range": 26.410003662109375,
-      "flag_bars": 8,
-      "flag_range": 15.75,
-      "pullback_from_pole_high_pct": 4.407884897773098,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 1.9998090035435763
-    }
-  ]
+  "count": 0,
+  "data": []
 }
