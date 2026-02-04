@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-04T14:33:08.539514+00:00",
+  "updated_utc": "2026-02-04T20:22:09.392511+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -505,27 +505,27 @@
     },
     {
       "ticker": "KAJARIACER.NS",
-      "slope": -0.013132538559747362,
-      "r2": 0.8914112493186271,
+      "slope": -0.013132538383379586,
+      "r2": 0.8914112452861442,
       "inside": 0.9615384615384616,
       "near_upper": 0.11538461538461539,
       "near_lower": 0.038461538461538464,
-      "pos": 0.29180099520679065,
+      "pos": 0.29180098005143296,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -49.48460300097756,
+      "annual_trend_pct": -49.48460253769456,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -43.75218849849115,
+      "prior_trend_pct": -43.75218731710655,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -66.5424362535208,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9011409097540192
+      "rank_score": 0.9011409092533135
     },
     {
       "ticker": "GODFRYPHLP.NS",
@@ -937,15 +937,15 @@
     },
     {
       "ticker": "IRCTC.NS",
-      "slope": -0.005242619946010704,
-      "r2": 0.8288888441557438,
+      "slope": -0.005242619693649417,
+      "r2": 0.8288888046898569,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.21293872604716815,
+      "pos": 0.21293870706089896,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -23.861507721444177,
+      "annual_trend_pct": -23.861506722294955,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -957,7 +957,7 @@
       "recent_trend_pct": -61.144489767313495,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8828941392167449
+      "rank_score": 0.8828941213824283
     },
     {
       "ticker": "HINDCOPPER.NS",
@@ -1465,15 +1465,15 @@
     },
     {
       "ticker": "IOC.NS",
-      "slope": 0.0069660587759087225,
-      "r2": 0.8719820315530737,
+      "slope": 0.006966058443218752,
+      "r2": 0.8719820012462934,
       "inside": 0.9807692307692307,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.6737652862422656,
+      "pos": 0.6737652759316574,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 43.653656931675044,
+      "annual_trend_pct": 43.65365444648428,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1485,7 +1485,7 @@
       "recent_trend_pct": 44.6297612987189,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8609221794600027
+      "rank_score": 0.8609221653376733
     },
     {
       "ticker": "JUSTDIAL.NS",
@@ -1513,15 +1513,15 @@
     },
     {
       "ticker": "JSL.NS",
-      "slope": 0.007165778818946578,
-      "r2": 0.7776775779095292,
+      "slope": 0.007165778794493238,
+      "r2": 0.7776776277985674,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.09615384615384616,
-      "pos": 0.20390483690365757,
+      "pos": 0.20390480842842726,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 45.15333763237599,
+      "annual_trend_pct": 45.15333744780283,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1533,7 +1533,7 @@
       "recent_trend_pct": -39.18902932966375,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8607559975720911
+      "rank_score": 0.8607560253641333
     },
     {
       "ticker": "ESSENTIA.NS",
@@ -1777,15 +1777,15 @@
     },
     {
       "ticker": "GLOBAL.NS",
-      "slope": 0.011745450058969386,
-      "r2": 0.7969380817257784,
+      "slope": 0.011745450215874517,
+      "r2": 0.7969380914068641,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.11538461538461539,
-      "pos": 0.39677999988795837,
+      "pos": 0.3967799877835324,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 84.18369261786836,
+      "annual_trend_pct": 84.18369412063542,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1797,7 +1797,7 @@
       "recent_trend_pct": -38.830700790744174,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8510987331817856
+      "rank_score": 0.8510987392327711
     },
     {
       "ticker": "EMAMILTD.NS",
@@ -3193,27 +3193,27 @@
     },
     {
       "ticker": "GESHIP.NS",
-      "slope": 0.008256069483362402,
-      "r2": 0.8039298247964549,
+      "slope": 0.008256068216328754,
+      "r2": 0.8039297102143994,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.945068330577995,
+      "pos": 0.9450682364498115,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 53.62058046231639,
+      "annual_trend_pct": 53.62057034090961,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": true,
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 59.19670294852728,
+      "prior_trend_pct": 59.19669534014358,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 258.57614280357365,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.807458079340428
+      "rank_score": 0.8074580314622186
     },
     {
       "ticker": "EIDPARRY.NS",
@@ -4081,15 +4081,15 @@
     },
     {
       "ticker": "ESABINDIA.NS",
-      "slope": 0.005071142386909631,
-      "r2": 0.6589575339333835,
+      "slope": 0.005071142370313875,
+      "r2": 0.6589575108666299,
       "inside": 0.9807692307692307,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.4855138044884949,
+      "pos": 0.48551380759681045,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 30.173684075182372,
+      "annual_trend_pct": 30.173683962845168,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -4101,7 +4101,7 @@
       "recent_trend_pct": -48.16599734544826,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.7732350788255347
+      "rank_score": 0.7732350669813262
     },
     {
       "ticker": "GLOBALVECT.NS",
