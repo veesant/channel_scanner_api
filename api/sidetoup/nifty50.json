@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-05T14:38:32.653572+00:00",
+  "updated_utc": "2026-02-05T20:24:09.525908+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -40,7 +40,7 @@
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 295.7309641740024,
+      "prior_trend_pct": 295.73096417400245,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 7.8059123621632365,
       "recent_trend_type": "Sideways",
@@ -66,7 +66,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 58.048906840883106,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -35.155395454268245,
+      "recent_trend_pct": -35.155395454266625,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.9223701635736357
@@ -90,22 +90,22 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 85.2035288199867,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 132.8753439218124,
+      "recent_trend_pct": 132.87534392181817,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.9216670331984591
     },
     {
       "ticker": "HINDALCO.NS",
-      "slope": 0.012133543907270184,
-      "r2": 0.9159696411977704,
+      "slope": 0.012133543907270294,
+      "r2": 0.9159696411977702,
       "inside": 0.9230769230769231,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.37891811702838585,
+      "pos": 0.3789181170283938,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 87.93844127180097,
+      "annual_trend_pct": 87.93844127180203,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -114,10 +114,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 71.55504500831775,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 48.812055797625376,
+      "recent_trend_pct": 48.81205579762351,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.889323778126816
+      "rank_score": 0.889323778126815
     },
     {
       "ticker": "SBILIFE.NS",
@@ -138,7 +138,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 45.68393646596638,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -32.57306324085957,
+      "recent_trend_pct": -32.573063240860414,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.8746753611800807
@@ -186,7 +186,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 45.094118991532994,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -43.26695526327302,
+      "recent_trend_pct": -43.26695526327514,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.852801778731666
@@ -208,7 +208,7 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 42.92366119276303,
+      "prior_trend_pct": 42.923661192760896,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": -20.089459233799857,
       "recent_trend_type": "Descending",
@@ -256,7 +256,7 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -24.185067345101917,
+      "prior_trend_pct": -24.185067345101928,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -24.799734341356373,
       "recent_trend_type": "Descending",
@@ -282,7 +282,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 20.480276044689983,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 73.3094152967323,
+      "recent_trend_pct": 73.30941529673447,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.7938119886067394
@@ -306,7 +306,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 19.769235036072107,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 132.21038864862638,
+      "recent_trend_pct": 132.21038864862868,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.7868114764294798
@@ -337,15 +337,15 @@
     },
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.006087945301326165,
-      "r2": 0.6875450521610577,
+      "slope": 0.006087945301326046,
+      "r2": 0.6875450521610578,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.7079921208510893,
+      "pos": 0.7079921208510964,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 37.24166386211807,
+      "annual_trend_pct": 37.24166386211722,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -357,7 +357,7 @@
       "recent_trend_pct": 29.26058548402648,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7729733139954199
+      "rank_score": 0.7729733139954192
     },
     {
       "ticker": "MAXHEALTH.NS",
