@@ -1,0 +1,40 @@
+{
+  "updated_utc": "2026-02-05T14:40:36.064597+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 1,
+  "data": [
+    {
+      "ticker": "HLF",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 16.920000076293945,
+      "sma20": 16.39800000190735,
+      "sma50": 14.469199943542481,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 11.081441242582923,
+      "pole_high": 17.670000076293945,
+      "pole_range": 3.130000114440918,
+      "flag_bars": 8,
+      "flag_range": 1.5300006866455078,
+      "pullback_from_pole_high_pct": 4.244482154848427,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.7393752406676357
+    }
+  ]
+}
