@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-06T14:30:19.503975+00:00",
+  "updated_utc": "2026-02-06T20:26:09.598221+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -49,15 +49,15 @@
     },
     {
       "ticker": "ROUTE.NS",
-      "slope": -0.014446065962502174,
-      "r2": 0.9269427333955733,
+      "slope": -0.014446066475375927,
+      "r2": 0.9269427347693324,
       "inside": 1.0,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.22402714441912636,
+      "pos": 0.22402717815134052,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -52.81977910468325,
+      "annual_trend_pct": -52.819780362953075,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -69,7 +69,7 @@
       "recent_trend_pct": -88.94980362832851,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.941068652255874
+      "rank_score": 0.9410686495695322
     },
     {
       "ticker": "TPLPLASTEH.NS",
@@ -1393,15 +1393,15 @@
     },
     {
       "ticker": "TDPOWERSYS.NS",
-      "slope": 0.015987939372497685,
-      "r2": 0.8786491265762867,
+      "slope": 0.015987939654963826,
+      "r2": 0.8786491448616116,
       "inside": 0.9423076923076923,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.057692307692307696,
-      "pos": 0.45354682173230604,
+      "pos": 0.4535468057691804,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 129.64692789746204,
+      "annual_trend_pct": 129.6469312705711,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1413,7 +1413,7 @@
       "recent_trend_pct": 253.81849120978418,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8708929580379896
+      "rank_score": 0.8708929687769646
     },
     {
       "ticker": "SARVESHWAR.NS",
@@ -3457,15 +3457,15 @@
     },
     {
       "ticker": "RITES.NS",
-      "slope": -0.005478252658102345,
-      "r2": 0.7386781536537161,
+      "slope": -0.005478252619010501,
+      "r2": 0.7386782146507908,
       "inside": 0.9487179487179487,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.44146194726438415,
+      "pos": 0.4414619307566645,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -24.78873293183762,
+      "annual_trend_pct": -24.788732778949974,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -3477,7 +3477,7 @@
       "recent_trend_pct": -57.20253898063815,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8046800615875991
+      "rank_score": 0.8046800937369083
     },
     {
       "ticker": "SABTNL.NS",
@@ -4393,15 +4393,15 @@
     },
     {
       "ticker": "TIPSMUSIC.NS",
-      "slope": -0.00484323865639204,
-      "r2": 0.6636525099553074,
+      "slope": -0.00484323865030598,
+      "r2": 0.6636524415381224,
       "inside": 0.9423076923076923,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.07692307692307693,
-      "pos": 0.8934775439373,
+      "pos": 0.8934774854252014,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -22.263743057331208,
+      "annual_trend_pct": -22.26374303272961,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -4413,7 +4413,7 @@
       "recent_trend_pct": 41.46669846232034,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7194015775070006
+      "rank_score": 0.719401549149618
     }
   ]
 }

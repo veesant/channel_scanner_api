@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-06T14:35:19.909324+00:00",
+  "updated_utc": "2026-02-06T20:25:29.139067+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -697,27 +697,27 @@
     },
     {
       "ticker": "BEPL.NS",
-      "slope": -0.00858323761130497,
-      "r2": 0.9317063362136841,
+      "slope": -0.00858323708777491,
+      "r2": 0.9317063008149911,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.10256410256410256,
-      "pos": 0.6089481066772001,
+      "pos": 0.6089480405975622,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -36.002640147746504,
+      "annual_trend_pct": -36.00263840551031,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -39.450956650358485,
+      "prior_trend_pct": -39.450953318092154,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -51.585737610202585,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8947019471827118
+      "rank_score": 0.8947019360913291
     },
     {
       "ticker": "CRAFTSMAN.NS",
@@ -1033,15 +1033,15 @@
     },
     {
       "ticker": "CANFINHOME.NS",
-      "slope": 0.008098040277064355,
-      "r2": 0.8503961035790574,
+      "slope": 0.008098040359467065,
+      "r2": 0.8503960983884769,
       "inside": 0.9807692307692307,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.07692307692307693,
-      "pos": 0.4075206321869332,
+      "pos": 0.40752063319652776,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 52.36337310262593,
+      "annual_trend_pct": 52.36337375549398,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1053,7 +1053,7 @@
       "recent_trend_pct": 7.051828155063866,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.8767536808785277
+      "rank_score": 0.8767536781822779
     },
     {
       "ticker": "BASF.NS",
@@ -1777,15 +1777,15 @@
     },
     {
       "ticker": "BPCL.NS",
-      "slope": 0.007643615653942653,
-      "r2": 0.8442508650261104,
+      "slope": 0.00764361579340915,
+      "r2": 0.8442508161293275,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.669464953134423,
+      "pos": 0.6694648990295711,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 48.80521963755036,
+      "annual_trend_pct": 48.80522071672419,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1797,7 +1797,7 @@
       "recent_trend_pct": 44.95382193815174,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8474866295073051
+      "rank_score": 0.847486610469399
     },
     {
       "ticker": "ANURAS.NS",
@@ -1849,15 +1849,15 @@
     },
     {
       "ticker": "BAJAJHLDNG.NS",
-      "slope": -0.007540567755145458,
-      "r2": 0.8277054125626371,
+      "slope": -0.007540567002376362,
+      "r2": 0.8277053208630885,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.5835858075506478,
+      "pos": 0.5835857335138818,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -32.43698873093368,
+      "annual_trend_pct": -32.436986086247586,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -1869,7 +1869,7 @@
       "recent_trend_pct": -19.991474568361454,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8452377152698436
+      "rank_score": 0.8452376768237457
     },
     {
       "ticker": "BAJAJHIND.NS",
@@ -2593,15 +2593,15 @@
     },
     {
       "ticker": "AURIONPRO.NS",
-      "slope": -0.008286914755393738,
-      "r2": 0.7242495662238254,
+      "slope": -0.00828691436442867,
+      "r2": 0.724249540887615,
       "inside": 0.9423076923076923,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.09615384615384616,
-      "pos": 0.1764951102617583,
+      "pos": 0.17649509905055383,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -35.008881720358666,
+      "annual_trend_pct": -35.00888039907729,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -2613,7 +2613,7 @@
       "recent_trend_pct": -86.34573214393777,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8213983490088139
+      "rank_score": 0.8213983374618291
     },
     {
       "ticker": "DIAMINESQ.NS",
@@ -3337,15 +3337,15 @@
     },
     {
       "ticker": "CONCOR.NS",
-      "slope": -0.005446467294339262,
-      "r2": 0.7710518432516894,
+      "slope": -0.0054464659886489485,
+      "r2": 0.7710516476148508,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.7641897283000499,
+      "pos": 0.7641895426407604,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -24.66431803215964,
+      "annual_trend_pct": -24.664312917175824,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -3357,7 +3357,7 @@
       "recent_trend_pct": -41.25043294243691,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.7988505385394294
+      "rank_score": 0.7988504592869392
     },
     {
       "ticker": "ASHOKA.NS",
@@ -3673,15 +3673,15 @@
     },
     {
       "ticker": "BEL.NS",
-      "slope": 0.008900086151257475,
-      "r2": 0.6690939013310746,
+      "slope": 0.00890008580421394,
+      "r2": 0.6690939036237274,
       "inside": 0.9615384615384616,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.31186353495856195,
+      "pos": 0.31186354123105015,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 58.8522723874175,
+      "annual_trend_pct": 58.85226952072753,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -3693,7 +3693,7 @@
       "recent_trend_pct": 119.56830113500266,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7879759817850658
+      "rank_score": 0.7879759823041433
     },
     {
       "ticker": "BFINVEST.NS",
@@ -3889,15 +3889,15 @@
     },
     {
       "ticker": "COLPAL.NS",
-      "slope": -0.0040912075759848236,
-      "r2": 0.7219167753879722,
+      "slope": -0.004091207942593015,
+      "r2": 0.7219168056418211,
       "inside": 0.9230769230769231,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.7336186641524266,
+      "pos": 0.7336186986931605,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -19.163597340259642,
+      "annual_trend_pct": -19.163598881294575,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -3909,7 +3909,7 @@
       "recent_trend_pct": 37.5520588488006,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7568272905095127
+      "rank_score": 0.7568273021823637
     },
     {
       "ticker": "BOHRAIND.NS",
