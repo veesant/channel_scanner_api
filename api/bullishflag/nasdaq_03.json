@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-05T20:21:34.183253+00:00",
+  "updated_utc": "2026-02-06T14:26:23.331150+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,51 +12,29 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 2,
+  "count": 1,
   "data": [
     {
-      "ticker": "FLNT",
+      "ticker": "KNDI",
       "tf": "1d",
       "bars_used": 320,
-      "close": 3.7699999809265137,
-      "sma20": 3.44099999666214,
-      "sma50": 2.6722000002861024,
+      "close": 1.059999942779541,
+      "sma20": 1.0124999910593033,
+      "sma50": 0.9523999989032745,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 21.26983547907525,
-      "pole_high": 3.9700000286102295,
-      "pole_range": 1.1200001239776611,
+      "pole_gain_pct": 27.272728504228205,
+      "pole_high": 1.1399999856948853,
+      "pole_range": 0.3399999737739563,
       "flag_bars": 8,
-      "flag_range": 0.440000057220459,
-      "pullback_from_pole_high_pct": 5.037784540110683,
+      "flag_range": 0.19000005722045898,
+      "pullback_from_pole_high_pct": 7.017547712211622,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 2.3452380825670414
-    },
-    {
-      "ticker": "HFWA",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 27.110000610351562,
-      "sma20": 25.350686645507814,
-      "sma50": 24.682733459472658,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 10.153343899054152,
-      "pole_high": 28.08820854302105,
-      "pole_range": 4.8052140658532885,
-      "flag_bars": 8,
-      "flag_range": 2.0900001525878906,
-      "pullback_from_pole_high_pct": 3.4826284174415196,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 1.7827601377625448
+      "rank_score": 2.0686270986461035
     }
   ]
 }

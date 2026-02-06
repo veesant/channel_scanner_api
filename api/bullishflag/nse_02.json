@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-06T14:28:44.778869+00:00",
+  "updated_utc": "2026-02-06T14:36:38.393468+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -15,26 +15,26 @@
   "count": 1,
   "data": [
     {
-      "ticker": "SLNG",
+      "ticker": "KAPSTON.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 5.639999866485596,
-      "sma20": 5.032500004768371,
-      "sma50": 4.842200012207031,
+      "close": 400.04998779296875,
+      "sma20": 363.25499572753904,
+      "sma50": 325.7019982910156,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 29.03225133052944,
-      "pole_high": 6.110000133514404,
-      "pole_range": 1.9300003051757812,
+      "pole_gain_pct": 29.120101299338874,
+      "pole_high": 427.3500061035156,
+      "pole_range": 117.35000610351562,
       "flag_bars": 8,
-      "flag_range": 0.9900002479553223,
-      "pullback_from_pole_high_pct": 7.692311894573882,
+      "flag_range": 64.64999389648438,
+      "pullback_from_pole_high_pct": 6.38821058164068,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 2.1450776412656625
+      "rank_score": 2.081806696009657
     }
   ]
 }

@@ -1,0 +1,63 @@
+{
+  "updated_utc": "2026-02-06T14:29:03.499853+00:00",
+  "tf": "1d",
+  "params": {
+    "n_down": 40,
+    "n_up": 10,
+    "n_corr": 8,
+    "sma_slow": 50,
+    "sma_fast": 20,
+    "pivot_strength": 1,
+    "min_hh_steps": 1,
+    "min_hl_steps": 1,
+    "corr_min_pct": 0.5,
+    "corr_max_pct": 12.0,
+    "near_resistance_pct": 6.0,
+    "breakout_wiggle_pct": 0.2
+  },
+  "count": 2,
+  "data": [
+    {
+      "ticker": "LBTYK",
+      "tf": "1d",
+      "bars_used": 350,
+      "close": 11.25,
+      "sma20": 10.742999982833862,
+      "sma50": 10.950200004577637,
+      "trend_ok": true,
+      "prior_downtrend_ok": true,
+      "down_slope": -0.023268297063029506,
+      "fresh_uptrend_ok": true,
+      "up_slope": 0.04903029239538944,
+      "up_hh_steps": 1,
+      "up_hl_steps": 1,
+      "up_pivot_highs": 2,
+      "up_pivot_lows": 2,
+      "resistance": 11.390000343322754,
+      "pullback_from_resistance_pct": 1.2291513529657385,
+      "state": "correction",
+      "rank_score": 2.9253860279040196
+    },
+    {
+      "ticker": "MGEE",
+      "tf": "1d",
+      "bars_used": 350,
+      "close": 80.91000366210938,
+      "sma20": 79.3245002746582,
+      "sma50": 79.41959930419922,
+      "trend_ok": true,
+      "prior_downtrend_ok": true,
+      "down_slope": -0.0438712966375011,
+      "fresh_uptrend_ok": true,
+      "up_slope": 0.19442439223780777,
+      "up_hh_steps": 1,
+      "up_hl_steps": 2,
+      "up_pivot_highs": 2,
+      "up_pivot_lows": 3,
+      "resistance": 80.69000244140625,
+      "pullback_from_resistance_pct": -0.27264991206671585,
+      "state": "uptrend",
+      "rank_score": 2.6485566764690307
+    }
+  ]
+}

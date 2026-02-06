@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-05T20:19:15.802110+00:00",
+  "updated_utc": "2026-02-06T14:28:10.881179+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,51 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 2,
+  "data": [
+    {
+      "ticker": "WTI",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 2.0999999046325684,
+      "sma20": 1.9544999837875365,
+      "sma50": 1.7987999868392945,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 21.89348361133315,
+      "pole_high": 2.130000114440918,
+      "pole_range": 0.5100001096725464,
+      "flag_bars": 8,
+      "flag_range": 0.25,
+      "pullback_from_pole_high_pct": 1.4084604787086623,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.713519885401167
+    },
+    {
+      "ticker": "WT",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 15.5,
+      "sma20": 15.337500143051148,
+      "sma50": 13.290800037384033,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 18.970587142198585,
+      "pole_high": 16.5,
+      "pole_range": 3.2799997329711914,
+      "flag_bars": 8,
+      "flag_range": 1.6700000762939453,
+      "pullback_from_pole_high_pct": 6.0606060606060606,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.0999520134866043
+    }
+  ]
 }
