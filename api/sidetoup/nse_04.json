@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-06T20:26:09.598221+00:00",
+  "updated_utc": "2026-02-07T14:08:48.964665+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -49,27 +49,27 @@
     },
     {
       "ticker": "ROUTE.NS",
-      "slope": -0.014446066475375927,
-      "r2": 0.9269427347693324,
+      "slope": -0.01444606596901595,
+      "r2": 0.9269427378485631,
       "inside": 1.0,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.22402717815134052,
+      "pos": 0.22402713577933805,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -52.819780362953075,
+      "annual_trend_pct": -52.81977912066396,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -55.41141581645186,
+      "prior_trend_pct": -55.411413481237524,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -88.94980362832851,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9410686495695322
+      "rank_score": 0.9410686553463478
     },
     {
       "ticker": "TPLPLASTEH.NS",
@@ -1177,15 +1177,15 @@
     },
     {
       "ticker": "RAMAPHO.NS",
-      "slope": 0.014149300090096465,
-      "r2": 0.77842905838879,
+      "slope": 0.014149299804041403,
+      "r2": 0.7784290543913962,
       "inside": 0.9807692307692307,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.07692307692307693,
-      "pos": 0.0744826204137527,
+      "pos": 0.07448262613240847,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 108.70750844938648,
+      "annual_trend_pct": 108.70750534489089,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -1197,7 +1197,7 @@
       "recent_trend_pct": -76.59938702409941,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.874073959460712
+      "rank_score": 0.8740739568901496
     },
     {
       "ticker": "SANSERA.NS",
@@ -1393,15 +1393,15 @@
     },
     {
       "ticker": "TDPOWERSYS.NS",
-      "slope": 0.015987939654963826,
-      "r2": 0.8786491448616116,
+      "slope": 0.015987939372497685,
+      "r2": 0.8786491265762867,
       "inside": 0.9423076923076923,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.057692307692307696,
-      "pos": 0.4535468057691804,
+      "pos": 0.45354682173230604,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 129.6469312705711,
+      "annual_trend_pct": 129.64692789746204,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1413,7 +1413,7 @@
       "recent_trend_pct": 253.81849120978418,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8708929687769646
+      "rank_score": 0.8708929580379896
     },
     {
       "ticker": "SARVESHWAR.NS",
@@ -1969,15 +1969,15 @@
     },
     {
       "ticker": "UNIPARTS.NS",
-      "slope": 0.011164046317483625,
-      "r2": 0.8267321783003883,
+      "slope": 0.011164045894958834,
+      "r2": 0.8267321995009406,
       "inside": 0.9423076923076923,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.3743697506275056,
+      "pos": 0.3743697513685038,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 78.69860120117762,
+      "annual_trend_pct": 78.69859727493902,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1989,7 +1989,7 @@
       "recent_trend_pct": -24.28463716591709,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8528521910105205
+      "rank_score": 0.8528522015366967
     },
     {
       "ticker": "ROSSARI.NS",
@@ -2592,6 +2592,30 @@
       "rank_score": 0.8305186465044939
     },
     {
+      "ticker": "SEQUENT.NS",
+      "slope": 0.008422774504034518,
+      "r2": 0.6943560368999964,
+      "inside": 1.0,
+      "near_upper": 0.057692307692307696,
+      "near_lower": 0.038461538461538464,
+      "pos": 0.1746492343562396,
+      "k": 2.0,
+      "lookback": 52.0,
+      "annual_trend_pct": 54.95805388494421,
+      "trend_type": "Ascending",
+      "near_support": true,
+      "near_resistance": false,
+      "action_zone": "Near Support",
+      "prior_trend_weeks": 20,
+      "recent_trend_weeks": 6,
+      "prior_trend_pct": 90.09102416378624,
+      "prior_trend_type": "Ascending",
+      "recent_trend_pct": -10.482690290542983,
+      "recent_trend_type": "Descending",
+      "previously_descending": false,
+      "rank_score": 0.8297130950143743
+    },
+    {
       "ticker": "SOMICONVEY.NS",
       "slope": -0.011191773832924563,
       "r2": 0.6911869294734674,
@@ -2782,30 +2806,6 @@
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.8260549491307588
-    },
-    {
-      "ticker": "SEQUENT.NS",
-      "slope": 0.00850116612070117,
-      "r2": 0.7021764368867762,
-      "inside": 1.0,
-      "near_upper": 0.057692307692307696,
-      "near_lower": 0.038461538461538464,
-      "pos": 0.2708800039587169,
-      "k": 2.0,
-      "lookback": 52.0,
-      "annual_trend_pct": 55.59100852795238,
-      "trend_type": "Ascending",
-      "near_support": false,
-      "near_resistance": false,
-      "action_zone": "Mid Channel",
-      "prior_trend_weeks": 20,
-      "recent_trend_weeks": 6,
-      "prior_trend_pct": 90.09102416378624,
-      "prior_trend_type": "Ascending",
-      "recent_trend_pct": 16.970192684364772,
-      "recent_trend_type": "Ascending",
-      "previously_descending": false,
-      "rank_score": 0.8240002180475164
     },
     {
       "ticker": "THEMISMED.NS",
@@ -3193,15 +3193,15 @@
     },
     {
       "ticker": "TCIEXP.NS",
-      "slope": -0.010054641981180541,
-      "r2": 0.830164407398814,
+      "slope": -0.010054642757785249,
+      "r2": 0.830164433330597,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.8331240244259773,
+      "pos": 0.8331240708034348,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -40.7166314973909,
+      "annual_trend_pct": -40.71663389145749,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -3213,7 +3213,7 @@
       "recent_trend_pct": -4.504045960809244,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.8112569807439888
+      "rank_score": 0.8112569890721345
     },
     {
       "ticker": "RISHABH.NS",
@@ -3457,15 +3457,15 @@
     },
     {
       "ticker": "RITES.NS",
-      "slope": -0.005478252619010501,
-      "r2": 0.7386782146507908,
+      "slope": -0.005478252658102345,
+      "r2": 0.7386781536537161,
       "inside": 0.9487179487179487,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.4414619307566645,
+      "pos": 0.44146194726438415,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -24.788732778949974,
+      "annual_trend_pct": -24.78873293183762,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -3477,7 +3477,7 @@
       "recent_trend_pct": -57.20253898063815,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8046800937369083
+      "rank_score": 0.8046800615875991
     },
     {
       "ticker": "SABTNL.NS",
@@ -4393,15 +4393,15 @@
     },
     {
       "ticker": "TIPSMUSIC.NS",
-      "slope": -0.00484323865030598,
-      "r2": 0.6636524415381224,
+      "slope": -0.004843237927977526,
+      "r2": 0.6636523952557728,
       "inside": 0.9423076923076923,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.07692307692307693,
-      "pos": 0.8934774854252014,
+      "pos": 0.893477449207761,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -22.26374303272961,
+      "annual_trend_pct": -22.263740112871822,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -4413,7 +4413,7 @@
       "recent_trend_pct": 41.46669846232034,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.719401549149618
+      "rank_score": 0.7194015296301872
     }
   ]
 }

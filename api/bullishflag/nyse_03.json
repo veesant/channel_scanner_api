@@ -1,0 +1,40 @@
+{
+  "updated_utc": "2026-02-07T14:09:05.927218+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 1,
+  "data": [
+    {
+      "ticker": "MCI",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 20.489999771118164,
+      "sma20": 20.280000019073487,
+      "sma50": 19.831695404052734,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 11.405833289233275,
+      "pole_high": 21.170000076293945,
+      "pole_range": 2.520000457763672,
+      "flag_bars": 8,
+      "flag_range": 0.7999992370605469,
+      "pullback_from_pole_high_pct": 3.212094013817421,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.041191736062913
+    }
+  ]
+}
