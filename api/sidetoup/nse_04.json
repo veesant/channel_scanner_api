@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-07T14:08:48.964665+00:00",
+  "updated_utc": "2026-02-07T20:14:08.143534+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -1393,15 +1393,15 @@
     },
     {
       "ticker": "TDPOWERSYS.NS",
-      "slope": 0.015987939372497685,
-      "r2": 0.8786491265762867,
+      "slope": 0.015987939654963826,
+      "r2": 0.8786491448616116,
       "inside": 0.9423076923076923,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.057692307692307696,
-      "pos": 0.45354682173230604,
+      "pos": 0.4535468057691804,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 129.64692789746204,
+      "annual_trend_pct": 129.6469312705711,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1413,7 +1413,7 @@
       "recent_trend_pct": 253.81849120978418,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8708929580379896
+      "rank_score": 0.8708929687769646
     },
     {
       "ticker": "SARVESHWAR.NS",
@@ -3457,15 +3457,15 @@
     },
     {
       "ticker": "RITES.NS",
-      "slope": -0.005478252658102345,
-      "r2": 0.7386781536537161,
+      "slope": -0.005478252619010501,
+      "r2": 0.7386782146507908,
       "inside": 0.9487179487179487,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.44146194726438415,
+      "pos": 0.4414619307566645,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -24.78873293183762,
+      "annual_trend_pct": -24.788732778949974,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -3477,7 +3477,7 @@
       "recent_trend_pct": -57.20253898063815,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8046800615875991
+      "rank_score": 0.8046800937369083
     },
     {
       "ticker": "SABTNL.NS",
@@ -4393,27 +4393,27 @@
     },
     {
       "ticker": "TIPSMUSIC.NS",
-      "slope": -0.004843237927977526,
-      "r2": 0.6636523952557728,
+      "slope": -0.0048432379829290535,
+      "r2": 0.6636523446092776,
       "inside": 0.9423076923076923,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.07692307692307693,
-      "pos": 0.893477449207761,
+      "pos": 0.8934773944959112,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -22.263740112871822,
+      "annual_trend_pct": -22.26374033500158,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -30.50260892451894,
+      "prior_trend_pct": -30.502613252737664,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 41.46669846232034,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7194015296301872
+      "rank_score": 0.7194015097781246
     }
   ]
 }

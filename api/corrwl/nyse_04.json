@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-07T14:03:39.448222+00:00",
+  "updated_utc": "2026-02-07T20:19:03.161241+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -251,7 +251,7 @@
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 4.621774196624756,
-      "sma_slow_now": 4.5459154605865475,
+      "sma_slow_now": 4.545915479660034,
       "trend_ok": true,
       "recent_swing_high": 5.247977025269337,
       "recent_swing_high_date": "2026-01-29",
@@ -289,7 +289,7 @@
         "gap_thresh_pct": 2.5,
         "gap_count": 5,
         "max_gap_count_allowed": 2,
-        "max_gap_pct": 12.653049235864696,
+        "max_gap_pct": 12.653058856254207,
         "max_gap_pct_allowed": 6.0,
         "avg_volume_50": 14984,
         "price_quality_ok": false

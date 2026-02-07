@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-07T14:14:16.895445+00:00",
+  "updated_utc": "2026-02-07T20:16:29.950943+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -145,27 +145,27 @@
     },
     {
       "ticker": "VIDHIING.NS",
-      "slope": -0.007108647847818769,
-      "r2": 0.9115675028154364,
+      "slope": -0.007108647558263235,
+      "r2": 0.9115674821958171,
       "inside": 0.9423076923076923,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.057692307692307696,
-      "pos": 0.20053294444100297,
+      "pos": 0.2005329466919933,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -30.9023654509744,
+      "annual_trend_pct": -30.902364410579064,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -26.469030987718455,
+      "prior_trend_pct": -26.469030423870887,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -63.39166304513626,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9126535338866948
+      "rank_score": 0.9126535233517861
     },
     {
       "ticker": "VPRPL.NS",
@@ -1297,15 +1297,15 @@
     },
     {
       "ticker": "WHEELS.NS",
-      "slope": 0.007535652861302966,
-      "r2": 0.659374478908552,
+      "slope": 0.0075356526722418,
+      "r2": 0.6593744804028074,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.3227179298487759,
+      "pos": 0.32271793322927544,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 47.972158048896496,
+      "annual_trend_pct": 47.9721565941555,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1317,7 +1317,7 @@
       "recent_trend_pct": -42.89592930027323,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.782030831084783
+      "rank_score": 0.7820308314938608
     },
     {
       "ticker": "VRAJ.NS",

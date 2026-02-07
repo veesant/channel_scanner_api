@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-07T14:10:03.672097+00:00",
+  "updated_utc": "2026-02-07T20:17:16.538818+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -1369,27 +1369,27 @@
     },
     {
       "ticker": "GOPAL.NS",
-      "slope": -0.008846820724260398,
-      "r2": 0.8674340337747122,
+      "slope": -0.008846819813484747,
+      "r2": 0.8674341273112013,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.4822028025923753,
+      "pos": 0.4822027771827737,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -36.87382455541015,
+      "annual_trend_pct": -36.87382156573334,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -37.817752414015146,
+      "prior_trend_pct": -37.817749599424246,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -58.00452027733161,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8701121212435031
+      "rank_score": 0.870112170552708
     },
     {
       "ticker": "DLINKINDIA.NS",
@@ -1609,15 +1609,15 @@
     },
     {
       "ticker": "JSL.NS",
-      "slope": 0.007173559168393475,
-      "r2": 0.7785346907787095,
+      "slope": 0.007173559143940036,
+      "r2": 0.778534740648485,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.09615384615384616,
-      "pos": 0.2177479940976604,
+      "pos": 0.21774796759244744,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 45.21207538546965,
+      "annual_trend_pct": 45.21207520082105,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1629,7 +1629,7 @@
       "recent_trend_pct": -37.5529969620236,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.859800238287281
+      "rank_score": 0.8598002658726902
     },
     {
       "ticker": "HISARMETAL.NS",
@@ -1777,15 +1777,15 @@
     },
     {
       "ticker": "IOC.NS",
-      "slope": 0.006996339413939918,
-      "r2": 0.8716716941606726,
+      "slope": 0.0069963397466298646,
+      "r2": 0.8716717242894129,
       "inside": 0.9807692307692307,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.7518581438041145,
+      "pos": 0.7518581607955472,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 43.880031176719434,
+      "annual_trend_pct": 43.88003366582633,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1797,7 +1797,7 @@
       "recent_trend_pct": 60.372870815626726,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8529577250076171
+      "rank_score": 0.852957738372844
     },
     {
       "ticker": "JKLAKSHMI.NS",
@@ -2161,15 +2161,15 @@
     },
     {
       "ticker": "GLOBAL.NS",
-      "slope": 0.011772552528100893,
-      "r2": 0.7979889871538692,
+      "slope": 0.011772552685005974,
+      "r2": 0.7979889968342615,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.11538461538461539,
-      "pos": 0.4287616667896689,
+      "pos": 0.4287616551944707,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 84.44345092512553,
+      "annual_trend_pct": 84.4434524300115,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -2181,7 +2181,7 @@
       "recent_trend_pct": -32.9040151560869,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8407337115133524
+      "rank_score": 0.8407337175130682
     },
     {
       "ticker": "JOCIL.NS",
@@ -3673,15 +3673,15 @@
     },
     {
       "ticker": "ESABINDIA.NS",
-      "slope": 0.0050375593196217506,
-      "r2": 0.6555033295770775,
+      "slope": 0.00503755933621749,
+      "r2": 0.6555033526970699,
       "inside": 0.9807692307692307,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.42105605408955915,
+      "pos": 0.42105604789855283,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 29.946557607839463,
+      "annual_trend_pct": 29.94655771998056,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -3693,7 +3693,7 @@
       "recent_trend_pct": -53.77805940156687,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.7779537516872751
+      "rank_score": 0.777953763866372
     },
     {
       "ticker": "GSFC.NS",
