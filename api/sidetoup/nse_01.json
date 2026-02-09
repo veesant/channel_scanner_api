@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-09T14:50:54.650231+00:00",
+  "updated_utc": "2026-02-09T20:36:45.047228+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -1537,15 +1537,15 @@
     },
     {
       "ticker": "BPCL.NS",
-      "slope": 0.0075505040140299,
-      "r2": 0.8456750778676088,
+      "slope": 0.007550504085555722,
+      "r2": 0.8456751420128676,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.6612358015885292,
+      "pos": 0.6612358477412337,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 48.086475154638734,
+      "annual_trend_pct": 48.086475705423084,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1557,7 +1557,7 @@
       "recent_trend_pct": 287.2210163497376,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8490216510826437
+      "rank_score": 0.8490216785400027
     },
     {
       "ticker": "COSMOFIRST.NS",
@@ -1585,15 +1585,15 @@
     },
     {
       "ticker": "ASHOKLEY.NS",
-      "slope": 0.013140039355803153,
-      "r2": 0.914060038469115,
+      "slope": 0.013140039358300187,
+      "r2": 0.9140600354971817,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.057692307692307696,
-      "pos": 0.9399625894684679,
+      "pos": 0.9399625810826583,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 98.0366733513538,
+      "annual_trend_pct": 98.03667337706803,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": true,
@@ -1605,7 +1605,7 @@
       "recent_trend_pct": 205.32332450101202,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8476491449030954
+      "rank_score": 0.8476491442557096
     },
     {
       "ticker": "AMNPLST.NS",
@@ -1657,27 +1657,27 @@
     },
     {
       "ticker": "AURIONPRO.NS",
-      "slope": -0.01227938035468061,
-      "r2": 0.8056034897163289,
+      "slope": -0.012279379627949673,
+      "r2": 0.8056034890465786,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.5606437414386545,
+      "pos": 0.5606437149350131,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -47.19307129667355,
+      "annual_trend_pct": -47.193069301099214,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -37.988657864470596,
+      "prior_trend_pct": -37.98865405518493,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -63.198117919459264,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.846737370714299
+      "rank_score": 0.846737373029788
     },
     {
       "ticker": "DCMNVL.NS",
@@ -2017,15 +2017,15 @@
     },
     {
       "ticker": "BAJAJHLDNG.NS",
-      "slope": -0.00784964615291044,
-      "r2": 0.8651194650381622,
+      "slope": -0.007849645659644215,
+      "r2": 0.8651194191308426,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.7285485568338658,
+      "pos": 0.7285484859004288,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -33.5141870345283,
+      "annual_trend_pct": -33.51418532917756,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2037,7 +2037,7 @@
       "recent_trend_pct": 20.626733622700044,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.839192056322874
+      "rank_score": 0.8391920404625578
     },
     {
       "ticker": "AVADHSUGAR.NS",
@@ -3649,15 +3649,15 @@
     },
     {
       "ticker": "COLPAL.NS",
-      "slope": -0.003397600301969442,
-      "r2": 0.7124926952555835,
+      "slope": -0.0033976005795079466,
+      "r2": 0.712492690671467,
       "inside": 0.9423076923076923,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.7181547184419376,
+      "pos": 0.7181547233246585,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -16.194807356683828,
+      "annual_trend_pct": -16.194808566160546,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -3669,7 +3669,7 @@
       "recent_trend_pct": 45.497863490272564,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7613539527066748
+      "rank_score": 0.7613539499263446
     },
     {
       "ticker": "DATAMATICS.NS",

@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-09T14:40:16.354223+00:00",
+  "updated_utc": "2026-02-09T20:38:45.025897+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -121,15 +121,15 @@
     },
     {
       "ticker": "VIDHIING.NS",
-      "slope": -0.0071975016399574605,
-      "r2": 0.912703609234044,
+      "slope": -0.00719750195083499,
+      "r2": 0.9127036099947107,
       "inside": 0.9423076923076923,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.057692307692307696,
-      "pos": 0.30415731199429413,
+      "pos": 0.30415732548072877,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -31.220887551602083,
+      "annual_trend_pct": -31.220888663459867,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -141,7 +141,7 @@
       "recent_trend_pct": -60.83814897269523,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9028591503406695
+      "rank_score": 0.9028591493723594
     },
     {
       "ticker": "ZODIAC.NS",
@@ -1105,15 +1105,15 @@
     },
     {
       "ticker": "WHEELS.NS",
-      "slope": 0.007463418007031994,
-      "r2": 0.6543712670790207,
+      "slope": 0.007463417808837893,
+      "r2": 0.6543712680139449,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.4070412364804793,
+      "pos": 0.40704124293377003,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 47.41738576426262,
+      "annual_trend_pct": 47.41738424496531,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1125,7 +1125,7 @@
       "recent_trend_pct": 234.89287424758362,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7710968945068472
+      "rank_score": 0.7710968943289801
     },
     {
       "ticker": "WSTCSTPAPR.NS",
