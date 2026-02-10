@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-10T14:47:53.293768+00:00",
+  "updated_utc": "2026-02-10T20:42:57.993748+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -361,15 +361,15 @@
     },
     {
       "ticker": "IMFA.NS",
-      "slope": 0.019906089392872736,
-      "r2": 0.8837066639085408,
+      "slope": 0.019906089690162873,
+      "r2": 0.8837066586582913,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.4229497681291906,
+      "pos": 0.42294976331074957,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 181.54346324981114,
+      "annual_trend_pct": 181.54346760221608,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -381,7 +381,7 @@
       "recent_trend_pct": 508.76338924458554,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8918660474490436
+      "rank_score": 0.8918660453057631
     },
     {
       "ticker": "HILTON.NS",
@@ -1369,15 +1369,15 @@
     },
     {
       "ticker": "IRCTC.NS",
-      "slope": -0.005176641390865386,
-      "r2": 0.8269672507237446,
+      "slope": -0.0051766416423951744,
+      "r2": 0.8269672901669793,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.459379258438557,
+      "pos": 0.45937930004200284,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -23.599836695542365,
+      "annual_trend_pct": -23.599837694822046,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -1389,7 +1389,7 @@
       "recent_trend_pct": -5.729200830042414,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.8572892892616063
+      "rank_score": 0.8572893048228792
     },
     {
       "ticker": "ENIL.NS",
@@ -2665,15 +2665,15 @@
     },
     {
       "ticker": "IOC.NS",
-      "slope": 0.006795588249512738,
-      "r2": 0.7891653788853608,
+      "slope": 0.006795588997747776,
+      "r2": 0.7891653931219075,
       "inside": 1.0,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.8346668510954901,
+      "pos": 0.8346667771593465,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 42.38587120121633,
+      "annual_trend_pct": 42.385876741197535,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": true,
@@ -2685,7 +2685,7 @@
       "recent_trend_pct": 284.7861027505269,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8111160043331314
+      "rank_score": 0.811116018845019
     },
     {
       "ticker": "HUBTOWN.NS",
@@ -2809,15 +2809,15 @@
     },
     {
       "ticker": "JSL.NS",
-      "slope": 0.005203690970459142,
-      "r2": 0.665456117468123,
+      "slope": 0.005203690326834547,
+      "r2": 0.6654561379666308,
       "inside": 1.0,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.25987396666680523,
+      "pos": 0.25987395698337934,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 31.074008813728703,
+      "annual_trend_pct": 31.074004426881064,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -2829,7 +2829,7 @@
       "recent_trend_pct": 16.243366819231664,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.806740662067381
+      "rank_score": 0.8067406732849776
     },
     {
       "ticker": "GRAPHITE.NS",
@@ -3001,15 +3001,15 @@
     },
     {
       "ticker": "DLINKINDIA.NS",
-      "slope": -0.007196487878967965,
-      "r2": 0.7762870557900691,
+      "slope": -0.007196487739125448,
+      "r2": 0.7762871721853579,
       "inside": 0.9230769230769231,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.10256410256410256,
-      "pos": 0.640443207469972,
+      "pos": 0.6404432565775929,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -31.21726172581739,
+      "annual_trend_pct": -31.217261225642325,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -3021,7 +3021,7 @@
       "recent_trend_pct": 45.96405487329118,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7933299763788065
+      "rank_score": 0.7933300296656889
     },
     {
       "ticker": "GENCON.NS",
@@ -3313,15 +3313,15 @@
     },
     {
       "ticker": "ESABINDIA.NS",
-      "slope": 0.005128686514776722,
-      "r2": 0.6675860574214602,
+      "slope": 0.005128686732520744,
+      "r2": 0.6675860714971762,
       "inside": 0.9807692307692307,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.43559546206331695,
+      "pos": 0.4355954470088405,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 30.563785451548252,
+      "annual_trend_pct": 30.56378692988142,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -3333,7 +3333,7 @@
       "recent_trend_pct": 4.125273332263357,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.7825411748120907
+      "rank_score": 0.7825411833553962
     },
     {
       "ticker": "HIMATSEIDE.NS",

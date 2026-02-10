@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-10T14:46:56.470140+00:00",
+  "updated_utc": "2026-02-10T20:41:04.487565+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -121,15 +121,15 @@
     },
     {
       "ticker": "ROUTE.NS",
-      "slope": -0.014870824917503097,
-      "r2": 0.9350402329511864,
+      "slope": -0.014870824926152174,
+      "r2": 0.9350402325221554,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.35729408274574215,
+      "pos": 0.35729408441967425,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -53.850446299305446,
+      "annual_trend_pct": -53.850446320061295,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -141,7 +141,7 @@
       "recent_trend_pct": -80.14994160486916,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9215342979446088
+      "rank_score": 0.9215342975627001
     },
     {
       "ticker": "UMAEXPORTS.NS",
@@ -1537,15 +1537,15 @@
     },
     {
       "ticker": "TDPOWERSYS.NS",
-      "slope": 0.015961735359849426,
-      "r2": 0.8786453453897681,
+      "slope": 0.015961735445548814,
+      "r2": 0.8786453639545408,
       "inside": 0.9423076923076923,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.057692307692307696,
-      "pos": 0.639282839928368,
+      "pos": 0.6392828475145076,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 129.3342221014885,
+      "annual_trend_pct": 129.33422312348623,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1557,7 +1557,7 @@
       "recent_trend_pct": 1395.0068753314567,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8523174656251241
+      "rank_score": 0.8523174741488966
     },
     {
       "ticker": "SANATHAN.NS",
@@ -3649,27 +3649,27 @@
     },
     {
       "ticker": "RITES.NS",
-      "slope": -0.005348343774047066,
-      "r2": 0.727585946239401,
+      "slope": -0.005348343079008756,
+      "r2": 0.7275859100344229,
       "inside": 0.9487179487179487,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.6474456958824412,
+      "pos": 0.6474456518973963,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -24.278941169812363,
+      "annual_trend_pct": -24.278938433102404,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -20.43964776662992,
+      "prior_trend_pct": -20.439647972664666,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -9.914177502343136,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.7785355830186358
+      "rank_score": 0.7785355693146513
     },
     {
       "ticker": "TATATECH.NS",
@@ -3865,15 +3865,15 @@
     },
     {
       "ticker": "SHRIPISTON.NS",
-      "slope": 0.006743297085411834,
-      "r2": 0.702285681827969,
+      "slope": 0.0067432967700357446,
+      "r2": 0.7022856719564252,
       "inside": 0.9487179487179487,
       "near_upper": 0.10256410256410256,
       "near_lower": 0.05128205128205128,
-      "pos": 0.5988359542401173,
+      "pos": 0.5988359731543975,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 41.99922991169909,
+      "annual_trend_pct": 41.9992275829747,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -3885,7 +3885,7 @@
       "recent_trend_pct": -7.593281706444532,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.7707464249771523
+      "rank_score": 0.7707464181499524
     },
     {
       "ticker": "SOLARINDS.NS",
@@ -4057,27 +4057,27 @@
     },
     {
       "ticker": "SCI.NS",
-      "slope": 0.008932289732261067,
-      "r2": 0.6768089225149501,
+      "slope": 0.008932290258360974,
+      "r2": 0.6768089461061475,
       "inside": 0.9615384615384616,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.057692307692307696,
-      "pos": 0.6254704061407698,
+      "pos": 0.6254703838366322,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 59.11850706677817,
+      "annual_trend_pct": 59.118511419814304,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 37.175842923093285,
+      "prior_trend_pct": 37.175850415626456,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 616.7790415578428,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7604728052587826
+      "rank_score": 0.7604728192847952
     },
     {
       "ticker": "TNPL.NS",
