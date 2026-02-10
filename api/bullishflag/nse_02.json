@@ -1,0 +1,40 @@
+{
+  "updated_utc": "2026-02-10T14:50:01.833710+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 1,
+  "data": [
+    {
+      "ticker": "KAPSTON.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 403.45001220703125,
+      "sma20": 372.44249572753904,
+      "sma50": 329.76999816894534,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 30.023640661938533,
+      "pole_high": 433.5,
+      "pole_range": 121.5,
+      "flag_bars": 8,
+      "flag_range": 51.149993896484375,
+      "pullback_from_pole_high_pct": 6.931946434364186,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.2983539931895147
+    }
+  ]
+}

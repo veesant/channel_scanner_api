@@ -1,0 +1,40 @@
+{
+  "updated_utc": "2026-02-10T14:49:31.869522+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 1,
+  "data": [
+    {
+      "ticker": "SRL",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 8.989999771118164,
+      "sma20": 8.781499981880188,
+      "sma50": 7.551999988555909,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 18.46553431587417,
+      "pole_high": 9.5600004196167,
+      "pole_range": 1.9300003051757812,
+      "flag_bars": 8,
+      "flag_range": 0.6099996566772461,
+      "pullback_from_pole_high_pct": 5.962349617986616,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.3965068019570985
+    }
+  ]
+}

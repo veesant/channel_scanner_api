@@ -1,0 +1,40 @@
+{
+  "updated_utc": "2026-02-10T14:50:10.437627+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 1,
+  "data": [
+    {
+      "ticker": "KARO",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 50.43000030517578,
+      "sma20": 48.02949981689453,
+      "sma50": 46.9576000213623,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 11.000876976687625,
+      "pole_high": 51.650001525878906,
+      "pole_range": 9.540000915527344,
+      "flag_bars": 8,
+      "flag_range": 4.090000152587891,
+      "pullback_from_pole_high_pct": 2.362054568559598,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.048157077888597
+    }
+  ]
+}

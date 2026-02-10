@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-09T20:37:15.082963+00:00",
+  "updated_utc": "2026-02-10T14:49:55.064522+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,51 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
+  "count": 2,
   "data": [
     {
       "ticker": "WT",
       "tf": "1d",
       "bars_used": 320,
-      "close": 15.739999771118164,
-      "sma20": 15.467000150680542,
-      "sma50": 13.38540002822876,
+      "close": 15.979999542236328,
+      "sma20": 15.593500137329102,
+      "sma50": 13.485000019073487,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 24.158567865055584,
-      "pole_high": 16.65999984741211,
-      "pole_range": 3.4200000762939453,
+      "pole_gain_pct": 21.751605979298215,
+      "pole_high": 17.010000228881836,
+      "pole_range": 3.770000457763672,
       "flag_bars": 8,
       "flag_range": 1.7100000381469727,
-      "pullback_from_pole_high_pct": 5.52220939207784,
+      "pullback_from_pole_high_pct": 6.055265566055878,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 2.1666666666666665
+      "rank_score": 2.2440319051661652
+    },
+    {
+      "ticker": "YPF",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 38.290000915527344,
+      "sma20": 36.90850009918213,
+      "sma50": 36.11740005493164,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 11.722139874076344,
+      "pole_high": 38.900001525878906,
+      "pole_range": 5.3300018310546875,
+      "flag_bars": 8,
+      "flag_range": 3.1599998474121094,
+      "pullback_from_pole_high_pct": 1.5681249008325844,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.0752815071116717
     }
   ]
 }

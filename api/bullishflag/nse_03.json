@@ -1,0 +1,40 @@
+{
+  "updated_utc": "2026-02-10T14:52:41.998835+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 1,
+  "data": [
+    {
+      "ticker": "ORICONENT.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 65.93000030517578,
+      "sma20": 63.64750022888184,
+      "sma50": 60.871199951171874,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 10.466835846357615,
+      "pole_high": 67.80000305175781,
+      "pole_range": 9.60000228881836,
+      "flag_bars": 8,
+      "flag_range": 4.8899993896484375,
+      "pullback_from_pole_high_pct": 2.758116021255177,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 1.7550117602706672
+    }
+  ]
+}
