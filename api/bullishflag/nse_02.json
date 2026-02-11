@@ -1,0 +1,40 @@
+{
+  "updated_utc": "2026-02-11T20:29:25.794876+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 1,
+  "data": [
+    {
+      "ticker": "FEDERALBNK.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 282.25,
+      "sma20": 277.2650016784668,
+      "sma50": 267.86000244140627,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 16.508000402038327,
+      "pole_high": 289.6000061035156,
+      "pole_range": 42.75,
+      "flag_bars": 8,
+      "flag_range": 22.25,
+      "pullback_from_pole_high_pct": 2.537985479492156,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.111958466509014
+    }
+  ]
+}

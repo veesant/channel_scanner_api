@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-11T14:48:38.611644+00:00",
+  "updated_utc": "2026-02-11T20:35:56.206504+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -505,15 +505,15 @@
     },
     {
       "ticker": "CANFINHOME.NS",
-      "slope": 0.00786569660780636,
-      "r2": 0.842028329217281,
+      "slope": 0.00786569669787595,
+      "r2": 0.8420283237463997,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.24220519544902874,
+      "pos": 0.24220520094338688,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 50.533614226782,
+      "annual_trend_pct": 50.53361493182405,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -525,19 +525,19 @@
       "recent_trend_pct": 17.071856661780572,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8891013373714298
+      "rank_score": 0.8891013340865536
     },
     {
       "ticker": "BEPL.NS",
-      "slope": -0.008710571375748245,
-      "r2": 0.9412802900611223,
+      "slope": -0.00871057126117963,
+      "r2": 0.9412802816249737,
       "inside": 1.0,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.10256410256410256,
-      "pos": 0.8510792988977305,
+      "pos": 0.8510792737552059,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -36.42498962831012,
+      "annual_trend_pct": -36.42498924955768,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -549,7 +549,7 @@
       "recent_trend_pct": 8.780966719825622,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.8855322151407882
+      "rank_score": 0.8855322134369663
     },
     {
       "ticker": "ALANKIT.NS",
@@ -1465,15 +1465,15 @@
     },
     {
       "ticker": "ASHOKLEY.NS",
-      "slope": 0.013145849836677635,
-      "r2": 0.9138900179302952,
+      "slope": 0.013145849839174713,
+      "r2": 0.9138900149621598,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.057692307692307696,
-      "pos": 0.9493882990802753,
+      "pos": 0.9493882905404262,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 98.09651818356073,
+      "annual_trend_pct": 98.09651820928316,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": true,
@@ -1485,7 +1485,7 @@
       "recent_trend_pct": 211.43721562985615,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8466215636725047
+      "rank_score": 0.8466215630424219
     },
     {
       "ticker": "ASHOKAMET.NS",
@@ -1945,27 +1945,27 @@
     },
     {
       "ticker": "AURIONPRO.NS",
-      "slope": -0.012019227264683994,
-      "r2": 0.79438397528989,
+      "slope": -0.012019226537953152,
+      "r2": 0.7943839746762874,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.6988810464024505,
+      "pos": 0.6988810284973264,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -46.47384739368678,
+      "annual_trend_pct": -46.47384537093323,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -37.988657864470596,
+      "prior_trend_pct": -37.98865405518493,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -53.86097194968498,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8273038830046999
+      "rank_score": 0.8273038844884111
     },
     {
       "ticker": "CROWN.NS",
@@ -2785,15 +2785,15 @@
     },
     {
       "ticker": "APOLLOTYRE.NS",
-      "slope": 0.004510308936810501,
-      "r2": 0.7149696328518862,
+      "slope": 0.004510309230711783,
+      "r2": 0.7149696563328618,
       "inside": 0.9423076923076923,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.37572835978055946,
+      "pos": 0.3757283336655298,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 26.43220690275614,
+      "annual_trend_pct": 26.432208835002726,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -2805,7 +2805,7 @@
       "recent_trend_pct": 6.91665747117447,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.796835057370964
+      "rank_score": 0.7968350717229549
     },
     {
       "ticker": "AARVI.NS",
@@ -3265,15 +3265,15 @@
     },
     {
       "ticker": "CONCOR.NS",
-      "slope": -0.005400120366882002,
-      "r2": 0.7631213223225373,
+      "slope": -0.005400120780979998,
+      "r2": 0.7631213971308152,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.9037180600671088,
+      "pos": 0.9037181498661594,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -24.482537046272213,
+      "annual_trend_pct": -24.48253867239697,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -3285,7 +3285,7 @@
       "recent_trend_pct": 6.165535970942138,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.7809324448981476
+      "rank_score": 0.7809324733223814
     },
     {
       "ticker": "BSE.NS",
@@ -3601,15 +3601,15 @@
     },
     {
       "ticker": "COLPAL.NS",
-      "slope": -0.0033796973189852766,
-      "r2": 0.7083226248160024,
+      "slope": -0.003379697041446762,
+      "r2": 0.7083226290929038,
       "inside": 0.9423076923076923,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.774974862373523,
+      "pos": 0.774974862778139,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -16.11675215660767,
+      "annual_trend_pct": -16.116750946004398,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -3621,7 +3621,7 @@
       "recent_trend_pct": 54.66333735992317,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7535869030937258
+      "rank_score": 0.753586905191715
     },
     {
       "ticker": "BELRISE.NS",

@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-11T14:41:15.750991+00:00",
+  "updated_utc": "2026-02-11T20:34:00.196525+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -145,27 +145,27 @@
     },
     {
       "ticker": "VIDHIING.NS",
-      "slope": -0.007191522085911247,
-      "r2": 0.9127610846246755,
+      "slope": -0.007191522440153401,
+      "r2": 0.9127610634629989,
       "inside": 0.9423076923076923,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.057692307692307696,
-      "pos": 0.3227798222394238,
+      "pos": 0.3227798475563874,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -31.199498268569638,
+      "annual_trend_pct": -31.1994995359156,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -25.401303723593895,
+      "prior_trend_pct": -25.401303139975695,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -60.03090772807968,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9010256370114722
+      "rank_score": 0.9010256238989377
     },
     {
       "ticker": "YATRA.NS",
@@ -1105,15 +1105,15 @@
     },
     {
       "ticker": "WHEELS.NS",
-      "slope": 0.007433849678396631,
-      "r2": 0.6519156129209009,
+      "slope": 0.007433849876590831,
+      "r2": 0.651915612014978,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.3690128654912459,
+      "pos": 0.36901286014418716,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 47.19089787060244,
+      "annual_trend_pct": 47.19089938756633,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1125,7 +1125,7 @@
       "recent_trend_pct": 202.7533989316227,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7736719045267104
+      "rank_score": 0.7736719046084549
     },
     {
       "ticker": "VGUARD.NS",
