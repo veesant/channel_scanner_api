@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-12T14:35:34.939306+00:00",
+  "updated_utc": "2026-02-12T20:28:30.155321+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -71,11 +71,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 3.17902780324928,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 1678590,
+        "avg_volume_50": 1678622,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 1678590,
+      "avgVolume50": 1678622,
       "rank_score": 3.3114788559458685
     },
     {
@@ -841,11 +841,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 11.504424405327622,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 6232188,
+        "avg_volume_50": 6232320,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 6232188,
+      "avgVolume50": 6232320,
       "rank_score": 2.9621639904143233
     },
     {
@@ -896,11 +896,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 10.453624244089035,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 12102562,
+        "avg_volume_50": 12102710,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 12102562,
+      "avgVolume50": 12102710,
       "rank_score": 2.9485326024638683
     },
     {
@@ -965,23 +965,23 @@
       "close": 121.19000244140625,
       "sma_fast": 20,
       "sma_slow": 50,
-      "sma_fast_now": 117.78950004577636,
-      "sma_slow_now": 108.36420028686524,
+      "sma_fast_now": 117.78024978637696,
+      "sma_slow_now": 108.35542922973633,
       "trend_ok": true,
-      "recent_swing_high": 126.26000213623047,
+      "recent_swing_high": 126.2495492592154,
       "recent_swing_high_date": "2026-02-04",
-      "resistance_level": 126.26000213623047,
-      "pullback_from_swing_high_pct": 4.015523213245199,
+      "resistance_level": 126.2495492592154,
+      "pullback_from_swing_high_pct": 4.007576143833112,
       "had_correction": true,
       "bars_since_swing_high": 5,
       "correction_age_ok": true,
-      "anchor_support_close": 109.56999969482422,
+      "anchor_support_close": 109.56093138869618,
       "anchor_support_date": "2026-01-30",
-      "support_level": 109.56999969482422,
+      "support_level": 109.56093138869618,
       "support_tolerance_pct": 1.0,
-      "support_floor": 109.56999969482422,
-      "support_floor_adj": 108.47429969787598,
-      "correction_close_low": 120.79000091552734,
+      "support_floor": 109.56093138869618,
+      "support_floor_adj": 108.46532207480921,
+      "correction_close_low": 120.77999877929688,
       "support_held": true,
       "close_above_sma_fast": true,
       "rebound_ok": false,
@@ -995,7 +995,7 @@
       "uptrend_actionable": true,
       "watchlist_correction": true,
       "actionable_after_correction": true,
-      "dist_to_support": 0.10605095171074394,
+      "dist_to_support": 0.10614249902141568,
       "actionable_reason": "watchlist_correction",
       "priceQuality": {
         "quality_n_bars": 50,
@@ -1004,14 +1004,14 @@
         "gap_thresh_pct": 2.5,
         "gap_count": 0,
         "max_gap_count_allowed": 2,
-        "max_gap_pct": 2.492059279001016,
+        "max_gap_pct": 2.4920614429015475,
         "max_gap_pct_allowed": 6.0,
         "avg_volume_50": 111058,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
       "avgVolume50": 111058,
-      "rank_score": 2.7955013696137767
+      "rank_score": 2.7946151153618963
     },
     {
       "ticker": "MBWM",
