@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-11T20:28:33.799266+00:00",
+  "updated_utc": "2026-02-12T14:35:34.198612+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -18,23 +18,23 @@
       "ticker": "YPF",
       "tf": "1d",
       "bars_used": 320,
-      "close": 39.099998474121094,
-      "sma20": 37.17250003814697,
-      "sma50": 36.178199996948244,
+      "close": 38.9900016784668,
+      "sma20": 37.38050003051758,
+      "sma50": 36.22160003662109,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 17.94187134651116,
-      "pole_high": 39.849998474121094,
-      "pole_range": 6.279998779296875,
+      "pole_gain_pct": 15.972017845800183,
+      "pole_high": 40.380001068115234,
+      "pole_range": 6.810001373291016,
       "flag_bars": 8,
-      "flag_range": 3.1599998474121094,
-      "pullback_from_pole_high_pct": 1.8820577885016885,
+      "flag_range": 2.7399978637695312,
+      "pullback_from_pole_high_pct": 3.4422965648359174,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
-      "near_breakout": true,
+      "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 2.431099659679732
+      "rank_score": 2.128019073585374
     }
   ]
 }

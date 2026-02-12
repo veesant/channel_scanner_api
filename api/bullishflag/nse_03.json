@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-11T20:28:30.541636+00:00",
+  "updated_utc": "2026-02-12T14:37:57.695995+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,51 +12,29 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 2,
+  "count": 1,
   "data": [
-    {
-      "ticker": "OMAXAUTO.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 121.52999877929688,
-      "sma20": 106.07949981689453,
-      "sma50": 100.5420001220703,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 28.098032152716012,
-      "pole_high": 132.0,
-      "pole_range": 41.48999786376953,
-      "flag_bars": 8,
-      "flag_range": 16.470001220703125,
-      "pullback_from_pole_high_pct": 7.931819106593277,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 2.3383947108255825
-    },
     {
       "ticker": "OIL.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 488.8500061035156,
-      "sma20": 470.042497253418,
-      "sma50": 434.6309991455078,
+      "close": 479.25,
+      "sma20": 471.60999755859376,
+      "sma50": 435.9319989013672,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 12.390829694323143,
+      "pole_gain_pct": 13.685499773048255,
       "pole_high": 520.0,
       "pole_range": 94.14999389648438,
       "flag_bars": 8,
-      "flag_range": 48.75,
-      "pullback_from_pole_high_pct": 5.99038344163161,
+      "flag_range": 51.0,
+      "pullback_from_pole_high_pct": 7.836538461538462,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 1.7565568297268812
+      "rank_score": 1.7814602726636317
     }
   ]
 }

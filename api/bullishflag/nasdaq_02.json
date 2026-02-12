@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-11T20:28:22.341996+00:00",
+  "updated_utc": "2026-02-12T14:41:47.921792+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -18,23 +18,23 @@
       "ticker": "CHRW",
       "tf": "1d",
       "bars_used": 320,
-      "close": 196.61000061035156,
-      "sma20": 186.46300048828124,
-      "sma50": 171.79151000976563,
+      "close": 196.3300018310547,
+      "sma20": 187.6085006713867,
+      "sma50": 172.5533755493164,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 10.488792104940922,
+      "pole_gain_pct": 10.911982823901146,
       "pole_high": 200.3300018310547,
-      "pole_range": 28.740005493164062,
+      "pole_range": 28.160003662109375,
       "flag_bars": 8,
-      "flag_range": 13.529998779296875,
-      "pullback_from_pole_high_pct": 1.8569366478817948,
+      "flag_range": 9.959991455078125,
+      "pullback_from_pole_high_pct": 1.9967054177802783,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": true,
       "pattern": "bull_flag",
-      "rank_score": 2.120840205728843
+      "rank_score": 2.2905426146352315
     }
   ]
 }

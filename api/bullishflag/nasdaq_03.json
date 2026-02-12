@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-11T20:34:43.882454+00:00",
+  "updated_utc": "2026-02-12T14:45:15.983110+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,29 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 1,
+  "data": [
+    {
+      "ticker": "HWBK",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 34.619998931884766,
+      "sma20": 33.81050004959106,
+      "sma50": 33.75395137786865,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 11.668246199197217,
+      "pole_high": 35.63999938964844,
+      "pole_range": 4.10999870300293,
+      "flag_bars": 8,
+      "flag_range": 2.229999542236328,
+      "pullback_from_pole_high_pct": 2.861954195375011,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 1.7251290193847855
+    }
+  ]
 }

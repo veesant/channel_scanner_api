@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-11T20:29:42.694540+00:00",
+  "updated_utc": "2026-02-12T14:38:22.301477+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,6 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "ZM",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 94.98999786376953,
-      "sma20": 88.8122501373291,
-      "sma50": 87.78450012207031,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 13.567229690175628,
-      "pole_high": 97.58000183105469,
-      "pole_range": 17.81000518798828,
-      "flag_bars": 8,
-      "flag_range": 9.327995300292969,
-      "pullback_from_pole_high_pct": 2.654236440545845,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": true,
-      "pattern": "bull_flag",
-      "rank_score": 1.9206988619833343
-    }
-  ]
+  "count": 0,
+  "data": []
 }

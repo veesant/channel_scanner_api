@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-11T20:28:35.263529+00:00",
+  "updated_utc": "2026-02-12T14:42:02.116293+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,18 +12,18 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 3,
+  "count": 2,
   "data": [
     {
       "ticker": "LSTA",
       "tf": "1d",
       "bars_used": 320,
       "close": 4.539999961853027,
-      "sma20": 3.874000036716461,
-      "sma50": 2.7510000014305116,
+      "sma20": 3.9945000290870665,
+      "sma50": 2.800600001811981,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 112.84402405490277,
+      "pole_gain_pct": 114.3518486324653,
       "pole_high": 4.889999866485596,
       "pole_range": 2.8399999141693115,
       "flag_bars": 8,
@@ -37,48 +37,26 @@
       "rank_score": 2.818075145452827
     },
     {
-      "ticker": "LYTS",
+      "ticker": "MIRM",
       "tf": "1d",
       "bars_used": 320,
-      "close": 22.84000015258789,
-      "sma20": 21.54699487686157,
-      "sma50": 19.863112487792968,
+      "close": 99.87999725341797,
+      "sma20": 98.29599990844727,
+      "sma50": 84.26059997558593,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 12.229483324345814,
-      "pole_high": 24.694029900335497,
-      "pole_range": 5.3379020691743975,
+      "pole_gain_pct": 13.366279803447364,
+      "pole_high": 103.80999755859375,
+      "pole_range": 14.339996337890625,
       "flag_bars": 8,
-      "flag_range": 1.4892289923194824,
-      "pullback_from_pole_high_pct": 7.5080080295943015,
+      "flag_range": 8.25,
+      "pullback_from_pole_high_pct": 3.7857628336399496,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 2.1464884305542227
-    },
-    {
-      "ticker": "MIRM",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 100.91000366210938,
-      "sma20": 97.82400016784668,
-      "sma50": 83.72400009155274,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 11.481800811482636,
-      "pole_high": 103.80999755859375,
-      "pole_range": 17.829994201660156,
-      "flag_bars": 8,
-      "flag_range": 8.25,
-      "pullback_from_pole_high_pct": 2.7935593533248317,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": true,
-      "pattern": "bull_flag",
-      "rank_score": 1.8717311569633397
+      "rank_score": 1.7094573994166005
     }
   ]
 }
