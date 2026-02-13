@@ -1,0 +1,62 @@
+{
+  "updated_utc": "2026-02-13T20:29:45.606006+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 2,
+  "data": [
+    {
+      "ticker": "PLXS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 199.0800018310547,
+      "sma20": 191.55200119018554,
+      "sma50": 169.84800048828126,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 16.553880921229943,
+      "pole_high": 208.36000061035156,
+      "pole_range": 36.6300048828125,
+      "flag_bars": 8,
+      "flag_range": 18.349990844726562,
+      "pullback_from_pole_high_pct": 4.453829310862382,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.9927687389973272
+    },
+    {
+      "ticker": "SBC",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 4.630000114440918,
+      "sma20": 4.484500002861023,
+      "sma50": 4.326399974822998,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 14.685317483517995,
+      "pole_high": 4.96999979019165,
+      "pole_range": 0.8499999046325684,
+      "flag_bars": 8,
+      "flag_range": 0.4700002670288086,
+      "pullback_from_pole_high_pct": 6.841040042330093,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.8126966197417345
+    }
+  ]
+}

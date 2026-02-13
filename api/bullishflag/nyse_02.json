@@ -1,0 +1,62 @@
+{
+  "updated_utc": "2026-02-13T20:30:03.166545+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 2,
+  "data": [
+    {
+      "ticker": "DECK",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 116.0199966430664,
+      "sma20": 107.67250061035156,
+      "sma50": 104.24959991455079,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 18.64665851919827,
+      "pole_high": 119.6500015258789,
+      "pole_range": 22.650001525878906,
+      "flag_bars": 8,
+      "flag_range": 9.519996643066406,
+      "pullback_from_pole_high_pct": 3.0338527676720273,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.2318181355459354
+    },
+    {
+      "ticker": "EDU",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 60.2400016784668,
+      "sma20": 59.008999824523926,
+      "sma50": 56.82639984130859,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 14.708061818678807,
+      "pole_high": 63.779998779296875,
+      "pole_range": 9.979999542236328,
+      "flag_bars": 8,
+      "flag_range": 5.620002746582031,
+      "pullback_from_pole_high_pct": 5.550324817471099,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.7968588350286447
+    }
+  ]
+}
