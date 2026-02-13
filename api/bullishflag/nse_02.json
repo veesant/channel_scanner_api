@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-12T20:23:55.251713+00:00",
+  "updated_utc": "2026-02-13T14:35:54.006848+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,29 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 1,
+  "data": [
+    {
+      "ticker": "GENCON.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 52.52000045776367,
+      "sma20": 48.5725004196167,
+      "sma50": 46.35020011901855,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 16.146664033763937,
+      "pole_high": 53.09000015258789,
+      "pole_range": 10.09000015258789,
+      "flag_bars": 8,
+      "flag_range": 4.490001678466797,
+      "pullback_from_pole_high_pct": 1.0736479434657413,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.7077918801685765
+    }
+  ]
 }

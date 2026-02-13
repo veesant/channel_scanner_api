@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-12T20:27:17.904862+00:00",
+  "updated_utc": "2026-02-13T14:36:12.586895+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -15,26 +15,26 @@
   "count": 1,
   "data": [
     {
-      "ticker": "HWBK",
+      "ticker": "FUSB",
       "tf": "1d",
       "bars_used": 320,
-      "close": 34.619998931884766,
-      "sma20": 33.81050004959106,
-      "sma50": 33.75395137786865,
+      "close": 15.649999618530273,
+      "sma20": 14.98799991607666,
+      "sma50": 14.240628242492676,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 11.668246199197217,
-      "pole_high": 35.63999938964844,
-      "pole_range": 4.10999870300293,
+      "pole_gain_pct": 11.624649008776409,
+      "pole_high": 15.989999771118164,
+      "pole_range": 2.09999942779541,
       "flag_bars": 8,
-      "flag_range": 2.229999542236328,
-      "pullback_from_pole_high_pct": 2.861954195375011,
+      "flag_range": 0.9099998474121094,
+      "pullback_from_pole_high_pct": 2.1263299403044003,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": true,
       "pattern": "bull_flag",
-      "rank_score": 1.7251290193847855
+      "rank_score": 2.1502335057600064
     }
   ]
 }

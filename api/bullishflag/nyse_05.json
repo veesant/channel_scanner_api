@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-12T20:30:46.473278+00:00",
+  "updated_utc": "2026-02-13T14:35:16.421187+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,51 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
+  "count": 2,
   "data": [
     {
-      "ticker": "TSQ",
+      "ticker": "VLRS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 7.070000171661377,
-      "sma20": 6.298538398742676,
-      "sma50": 5.530215406417847,
+      "close": 10.119999885559082,
+      "sma20": 9.766999959945679,
+      "sma50": 9.04939998626709,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 24.25856313650966,
-      "pole_high": 7.449999809265137,
-      "pole_range": 2.201302190248305,
+      "pole_gain_pct": 17.820654030031537,
+      "pole_high": 10.579999923706055,
+      "pole_range": 2.1700000762939453,
       "flag_bars": 8,
-      "flag_range": 0.9900002479553223,
-      "pullback_from_pole_high_pct": 5.10066640714777,
+      "flag_range": 0.8100004196166992,
+      "pullback_from_pole_high_pct": 4.347826478866739,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 2.250443478152015
+      "rank_score": 2.268912585419933
+    },
+    {
+      "ticker": "SFBS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 86.11000061035156,
+      "sma20": 83.28399963378907,
+      "sma50": 77.39716751098632,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 10.480806770720157,
+      "pole_high": 89.06999969482422,
+      "pole_range": 13.199996948242188,
+      "flag_bars": 8,
+      "flag_range": 4.199005126953125,
+      "pullback_from_pole_high_pct": 3.3232279045855426,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.9938628009429284
     }
   ]
 }

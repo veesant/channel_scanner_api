@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-12T20:30:39.118039+00:00",
+  "updated_utc": "2026-02-13T14:34:35.001270+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,29 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 1,
+  "data": [
+    {
+      "ticker": "RAIN.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 156.77000427246094,
+      "sma20": 152.0099983215332,
+      "sma50": 137.1757992553711,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 12.194414172988017,
+      "pole_high": 169.6300048828125,
+      "pole_range": 39.62001037597656,
+      "flag_bars": 8,
+      "flag_range": 22.490005493164062,
+      "pullback_from_pole_high_pct": 7.581206296159568,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.663649717427888
+    }
+  ]
 }

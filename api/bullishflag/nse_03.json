@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-12T20:27:33.055008+00:00",
+  "updated_utc": "2026-02-13T14:27:40.565578+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,6 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "OIL.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 479.25,
-      "sma20": 471.60999755859376,
-      "sma50": 435.9319989013672,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 13.685499773048255,
-      "pole_high": 520.0,
-      "pole_range": 94.14999389648438,
-      "flag_bars": 8,
-      "flag_range": 51.0,
-      "pullback_from_pole_high_pct": 7.836538461538462,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 1.7814602726636317
-    }
-  ]
+  "count": 0,
+  "data": []
 }
