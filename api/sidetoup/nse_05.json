@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-14T14:10:33.241251+00:00",
+  "updated_utc": "2026-02-14T20:21:10.802306+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -289,15 +289,15 @@
     },
     {
       "ticker": "VIDHIING.NS",
-      "slope": -0.0071615222795525955,
-      "r2": 0.9127618165791838,
+      "slope": -0.00716152198000648,
+      "r2": 0.9127617931429652,
       "inside": 0.9423076923076923,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.057692307692307696,
-      "pos": 0.4170369533533975,
+      "pos": 0.4170369482403125,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -31.09208641972647,
+      "annual_trend_pct": -31.092085346389375,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -309,7 +309,7 @@
       "recent_trend_pct": -55.72265862685597,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8916002898773291
+      "rank_score": 0.8916002786705283
     },
     {
       "ticker": "VAISHALI.NS",
@@ -769,15 +769,15 @@
     },
     {
       "ticker": "UNOMINDA.NS",
-      "slope": 0.008534220731485659,
-      "r2": 0.7292330239288966,
+      "slope": 0.008534220281022624,
+      "r2": 0.7292330226449819,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.1928997598197274,
+      "pos": 0.19289976767620864,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 55.858674511400054,
+      "annual_trend_pct": 55.85867086055438,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -789,7 +789,7 @@
       "recent_trend_pct": -6.410368696969959,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.8299419205978602
+      "rank_score": 0.8299419191702548
     },
     {
       "ticker": "VASWANI.NS",

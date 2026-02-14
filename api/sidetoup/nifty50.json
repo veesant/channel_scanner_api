@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-14T14:10:34.100723+00:00",
+  "updated_utc": "2026-02-14T20:14:46.229437+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -42,7 +42,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 347.6114662268818,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 104.22056909153086,
+      "recent_trend_pct": 104.22056909153082,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.9505201181854775
@@ -66,7 +66,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 76.58293225735892,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 13.054634649371755,
+      "recent_trend_pct": 13.054634649367514,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.9240604704380359
@@ -90,7 +90,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 45.08259320925363,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 61.53484392754156,
+      "recent_trend_pct": 61.53484392754558,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.8685054125645078
@@ -114,7 +114,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 50.77195916762991,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -27.163932750445262,
+      "recent_trend_pct": -27.163932750442545,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.8646951737707039
@@ -136,7 +136,7 @@
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 42.7859822443482,
+      "prior_trend_pct": 42.78598224435031,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": -4.515300587606241,
       "recent_trend_type": "Sideways",
@@ -160,7 +160,7 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 46.239263746591064,
+      "prior_trend_pct": 46.23926374659104,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": -10.981073773065742,
       "recent_trend_type": "Descending",
@@ -186,7 +186,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 17.805548759918043,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 99.4228841304525,
+      "recent_trend_pct": 99.42288413045353,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.8106195707703321
@@ -241,27 +241,27 @@
     },
     {
       "ticker": "BEL.NS",
-      "slope": 0.00838072778078662,
-      "r2": 0.6553857614387191,
+      "slope": 0.00838072755799914,
+      "r2": 0.6553857616188332,
       "inside": 0.9615384615384616,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.3498906729855039,
+      "pos": 0.3498906785599124,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 54.61961912450774,
+      "annual_trend_pct": 54.61961733324736,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 15.801687530480123,
+      "prior_trend_pct": 15.80168753048068,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 88.20949102882958,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7773191980361938
+      "rank_score": 0.77731919756881
     },
     {
       "ticker": "HINDUNILVR.NS",
@@ -282,7 +282,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -31.72615120910568,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -11.120467606662931,
+      "recent_trend_pct": -11.120467606660721,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.7751919122858617
