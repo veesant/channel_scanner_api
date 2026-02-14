@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-13T20:24:25.694426+00:00",
+  "updated_utc": "2026-02-14T14:12:02.255802+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,51 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 2,
+  "data": [
+    {
+      "ticker": "WAAREEENER.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 3096.199951171875,
+      "sma20": 2857.6550048828126,
+      "sma50": 2854.8680126953127,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 23.7741832173848,
+      "pole_high": 3195.0,
+      "pole_range": 792.0,
+      "flag_bars": 8,
+      "flag_range": 207.800048828125,
+      "pullback_from_pole_high_pct": 3.0923332966549295,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.562710334957649
+    },
+    {
+      "ticker": "VTL.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 510.54998779296875,
+      "sma20": 450.76500091552737,
+      "sma50": 442.005,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 27.082041566478587,
+      "pole_high": 539.8499755859375,
+      "pole_range": 148.8499755859375,
+      "flag_bars": 8,
+      "flag_range": 53.79998779296875,
+      "pullback_from_pole_high_pct": 5.427431530615037,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.3976038896301586
+    }
+  ]
 }

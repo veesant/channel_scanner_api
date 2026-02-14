@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-13T20:22:41.751250+00:00",
+  "updated_utc": "2026-02-14T14:03:53.108994+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,29 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 1,
+  "data": [
+    {
+      "ticker": "TMPV.NS",
+      "tf": "1d",
+      "bars_used": 83,
+      "close": 380.25,
+      "sma20": 360.425,
+      "sma50": 357.57599975585936,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 10.122829975315854,
+      "pole_high": 384.6000061035156,
+      "pole_range": 49.0,
+      "flag_bars": 8,
+      "flag_range": 26.5,
+      "pullback_from_pole_high_pct": 1.1310468108377552,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.2277653509355204
+    }
+  ]
 }
