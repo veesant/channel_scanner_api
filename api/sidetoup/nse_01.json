@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-16T14:36:54.168722+00:00",
+  "updated_utc": "2026-02-16T20:26:53.202133+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -841,27 +841,27 @@
     },
     {
       "ticker": "BEPL.NS",
-      "slope": -0.00893319591084332,
-      "r2": 0.951715938572113,
+      "slope": -0.008933195430232362,
+      "r2": 0.9517159102471486,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.7189578832781557,
+      "pos": 0.7189577884704478,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -37.15672059415079,
+      "annual_trend_pct": -37.15671902358601,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -40.31319451543087,
+      "prior_trend_pct": -40.31319118979527,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 15.281274881613971,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8834493604454204
+      "rank_score": 0.883449355763709
     },
     {
       "ticker": "BAJAJHCARE.NS",
@@ -913,15 +913,15 @@
     },
     {
       "ticker": "CANFINHOME.NS",
-      "slope": 0.0075435753912127925,
-      "r2": 0.8322019351654867,
+      "slope": 0.007543575488949156,
+      "r2": 0.8322019289657768,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.2689848891020863,
+      "pos": 0.26898489349619864,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 48.033130927674115,
+      "annual_trend_pct": 48.03313168002155,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -933,7 +933,7 @@
       "recent_trend_pct": -18.407745973171462,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.881510170980227
+      "rank_score": 0.8815101674409609
     },
     {
       "ticker": "CORALFINAC.NS",
@@ -2497,15 +2497,15 @@
     },
     {
       "ticker": "CHAMBLFERT.NS",
-      "slope": -0.006807402167241061,
-      "r2": 0.8054325479701226,
+      "slope": -0.00680740204562303,
+      "r2": 0.8054325300297884,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.7199441079481911,
+      "pos": 0.7199440942402556,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -29.811444316409595,
+      "annual_trend_pct": -29.81144387252751,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2517,7 +2517,7 @@
       "recent_trend_pct": 28.73274823600136,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8307218631902422
+      "rank_score": 0.8307218555908686
     },
     {
       "ticker": "ALLCARGO.NS",
@@ -2617,27 +2617,27 @@
     },
     {
       "ticker": "BPCL.NS",
-      "slope": 0.008661958060477511,
-      "r2": 0.7661470525541666,
+      "slope": 0.008661957070439623,
+      "r2": 0.7661470251144857,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.4080156128457252,
+      "pos": 0.4080156433142927,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 56.89738691406843,
+      "annual_trend_pct": 56.89737883668202,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 76.54244993551795,
+      "prior_trend_pct": 76.5424379223288,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 169.31816675275937,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8268873496078954
+      "rank_score": 0.8268873328411982
     },
     {
       "ticker": "AARTIDRUGS.NS",
@@ -2737,15 +2737,15 @@
     },
     {
       "ticker": "CCL.NS",
-      "slope": 0.010676345044013255,
-      "r2": 0.735211040585651,
+      "slope": 0.010676345673840114,
+      "r2": 0.7352110371723501,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.3634799068523082,
+      "pos": 0.3634798941835487,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 74.22370393671747,
+      "annual_trend_pct": 74.2237096427175,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -2757,7 +2757,7 @@
       "recent_trend_pct": 119.69460107713834,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.823565221915287
+      "rank_score": 0.8235652214755125
     },
     {
       "ticker": "ANTGRAPHIC.NS",
