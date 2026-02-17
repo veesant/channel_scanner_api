@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-16T20:16:12.403594+00:00",
+  "updated_utc": "2026-02-17T20:22:59.028518+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 260,
@@ -2468,16 +2468,16 @@
       "ticker": "ADEA",
       "tf": "1d",
       "bars_used": 178,
-      "close": 18.809999465942383,
+      "close": 18.799999237060547,
       "sma_fast": 20,
       "sma_slow": 50,
-      "sma_fast_now": 18.675250148773195,
-      "sma_slow_now": 16.92610013961792,
+      "sma_fast_now": 18.674750137329102,
+      "sma_slow_now": 16.925900135040283,
       "trend_ok": true,
       "recent_swing_high": 19.600000381469727,
       "recent_swing_high_date": "2026-02-10",
       "resistance_level": 19.600000381469727,
-      "pullback_from_swing_high_pct": 4.030616837508983,
+      "pullback_from_swing_high_pct": 4.081638412443698,
       "had_correction": true,
       "anchor_support_close": 16.829999923706055,
       "anchor_support_date": "2026-02-05",
@@ -2498,7 +2498,7 @@
       "uptrend_ok": true,
       "uptrend_actionable": true,
       "actionable_after_correction": true,
-      "dist_to_support": 0.11764703215758077,
+      "dist_to_support": 0.11705284149048813,
       "actionable_reason": "hh_hl_uptrend",
       "priceQuality": {
         "quality_n_bars": 50,
@@ -2514,7 +2514,7 @@
       },
       "priceQualityOk": false,
       "avgVolume50": 890727,
-      "rank_score": 2.785414651593318
+      "rank_score": 2.791110999753882
     },
     {
       "ticker": "ATYR",
@@ -3668,7 +3668,7 @@
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 11.547920989990235,
-      "sma_slow_now": 10.994686241149902,
+      "sma_slow_now": 10.99468614578247,
       "trend_ok": true,
       "recent_swing_high": 11.569999694824219,
       "recent_swing_high_date": "2026-02-04",
@@ -3688,7 +3688,7 @@
       "uptrend_window_used": 50,
       "uptrend_hh_count": 4,
       "uptrend_hl_count": 4,
-      "uptrend_pivot_highs": 6,
+      "uptrend_pivot_highs": 7,
       "uptrend_pivot_lows": 7,
       "uptrend_overall_up": true,
       "uptrend_ok": true,
