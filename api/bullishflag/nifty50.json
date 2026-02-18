@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-17T20:27:45.088286+00:00",
+  "updated_utc": "2026-02-18T20:26:01.650139+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,51 +12,29 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 2,
+  "count": 1,
   "data": [
     {
       "ticker": "ONGC.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 271.54998779296875,
-      "sma20": 261.0465003967285,
-      "sma50": 247.130400390625,
+      "close": 265.6000061035156,
+      "sma20": 256.4488380432129,
+      "sma50": 242.04703491210938,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 10.141526420363688,
-      "pole_high": 277.7699890136719,
-      "pole_range": 38.25999450683594,
+      "pole_gain_pct": 10.323349282945887,
+      "pole_high": 271.3838815188969,
+      "pole_range": 35.38726416774492,
       "flag_bars": 8,
-      "flag_range": 15.5999755859375,
-      "pullback_from_pole_high_pct": 2.239263227388102,
+      "flag_range": 15.241317606616576,
+      "pullback_from_pole_high_pct": 2.131252373210131,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": true,
       "pattern": "bull_flag",
-      "rank_score": 2.0810953120587934
-    },
-    {
-      "ticker": "TMPV.NS",
-      "tf": "1d",
-      "bars_used": 84,
-      "close": 377.25,
-      "sma20": 361.60749969482424,
-      "sma50": 357.98399963378904,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 10.670600503177965,
-      "pole_high": 384.6000061035156,
-      "pole_range": 49.0,
-      "flag_bars": 8,
-      "flag_range": 26.5,
-      "pullback_from_pole_high_pct": 1.9110779997068852,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": true,
-      "pattern": "bull_flag",
-      "rank_score": 1.995143481038916
+      "rank_score": 2.0879155931421676
     }
   ]
 }

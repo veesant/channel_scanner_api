@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-17T20:22:59.669904+00:00",
+  "updated_utc": "2026-02-18T20:27:27.502432+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,51 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 2,
+  "data": [
+    {
+      "ticker": "MGY",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 26.010000228881836,
+      "sma20": 25.34749174118042,
+      "sma50": 23.41935344696045,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 11.022286246736678,
+      "pole_high": 26.374446908026194,
+      "pole_range": 3.0911819381057697,
+      "flag_bars": 8,
+      "flag_range": 1.8089882975827933,
+      "pullback_from_pole_high_pct": 1.3818173340857827,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.1151597659925003
+    },
+    {
+      "ticker": "INR",
+      "tf": "1d",
+      "bars_used": 262,
+      "close": 16.25,
+      "sma20": 15.86100001335144,
+      "sma50": 14.90959997177124,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 16.24825591989668,
+      "pole_high": 17.149999618530273,
+      "pole_range": 2.969999313354492,
+      "flag_bars": 8,
+      "flag_range": 1.779998779296875,
+      "pullback_from_pole_high_pct": 5.247811303493206,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.8135355845348984
+    }
+  ]
 }

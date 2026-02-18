@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-17T20:27:25.024599+00:00",
+  "updated_utc": "2026-02-18T20:27:03.288071+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,29 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 1,
+  "data": [
+    {
+      "ticker": "WS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 45.34000015258789,
+      "sma20": 43.36100025177002,
+      "sma50": 39.03928024291992,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 15.658454573667438,
+      "pole_high": 46.59000015258789,
+      "pole_range": 8.580001831054688,
+      "flag_bars": 8,
+      "flag_range": 4.179996490478516,
+      "pullback_from_pole_high_pct": 2.682979171294481,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.0766313812924433
+    }
+  ]
 }
