@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-18T20:26:01.650139+00:00",
+  "updated_utc": "2026-02-19T14:34:41.170695+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -15,26 +15,26 @@
   "count": 1,
   "data": [
     {
-      "ticker": "ONGC.NS",
+      "ticker": "ADANIPORTS.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 265.6000061035156,
-      "sma20": 256.4488380432129,
-      "sma50": 242.04703491210938,
+      "close": 1550.800048828125,
+      "sma20": 1484.85,
+      "sma50": 1476.1199975585937,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 10.323349282945887,
-      "pole_high": 271.3838815188969,
-      "pole_range": 35.38726416774492,
+      "pole_gain_pct": 18.518795646333093,
+      "pole_high": 1577.699951171875,
+      "pole_range": 285.699951171875,
       "flag_bars": 8,
-      "flag_range": 15.241317606616576,
-      "pullback_from_pole_high_pct": 2.131252373210131,
+      "flag_range": 88.5999755859375,
+      "pullback_from_pole_high_pct": 1.7050074904147297,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": true,
       "pattern": "bull_flag",
-      "rank_score": 2.0879155931421676
+      "rank_score": 2.8407448299739158
     }
   ]
 }

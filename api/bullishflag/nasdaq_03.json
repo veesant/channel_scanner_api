@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-18T20:33:51.115990+00:00",
+  "updated_utc": "2026-02-19T14:35:11.181931+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,51 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 2,
+  "data": [
+    {
+      "ticker": "FNLC",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 28.850000381469727,
+      "sma20": 28.329500102996825,
+      "sma50": 27.373116073608397,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 10.47937462212737,
+      "pole_high": 29.780000686645508,
+      "pole_range": 3.6400012969970703,
+      "flag_bars": 8,
+      "flag_range": 1.4799995422363281,
+      "pullback_from_pole_high_pct": 3.122902228786143,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.8463135045101131
+    },
+    {
+      "ticker": "GABC",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 43.189998626708984,
+      "sma20": 42.44531593322754,
+      "sma50": 40.898190307617185,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 10.111799743555627,
+      "pole_high": 44.485078766639965,
+      "pole_range": 5.024427774227583,
+      "flag_bars": 8,
+      "flag_range": 2.253673847623098,
+      "pullback_from_pole_high_pct": 2.9112686227323965,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 1.7875948025824933
+    }
+  ]
 }
