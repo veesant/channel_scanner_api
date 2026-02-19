@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-19T14:39:57.319913+00:00",
+  "updated_utc": "2026-02-19T20:21:37.197600+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -14,28 +14,6 @@
   },
   "count": 6,
   "data": [
-    {
-      "ticker": "BOTJ",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 20.770000457763672,
-      "sma20": 19.5731689453125,
-      "sma50": 18.757321739196776,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 15.838846966134856,
-      "pole_high": 21.0977823919204,
-      "pole_range": 3.841389373004425,
-      "flag_bars": 8,
-      "flag_range": 1.4828149014219392,
-      "pullback_from_pole_high_pct": 1.5536321688589223,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": true,
-      "pattern": "bull_flag",
-      "rank_score": 2.6307148764475428
-    },
     {
       "ticker": "ATLO",
       "tf": "1d",
@@ -57,6 +35,28 @@
       "near_breakout": true,
       "pattern": "bull_flag",
       "rank_score": 2.6171227542975033
+    },
+    {
+      "ticker": "BOTJ",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 20.770000457763672,
+      "sma20": 19.658000183105468,
+      "sma50": 18.844200096130372,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 15.838845468873537,
+      "pole_high": 21.200000762939453,
+      "pole_range": 3.8600006103515625,
+      "flag_bars": 8,
+      "flag_range": 1.489999771118164,
+      "pullback_from_pole_high_pct": 2.0283032533068655,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.4724907850718676
     },
     {
       "ticker": "ARKO",
