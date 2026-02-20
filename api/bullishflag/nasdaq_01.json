@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-20T14:26:06.378327+00:00",
+  "updated_utc": "2026-02-20T20:16:26.086459+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -103,6 +103,28 @@
       "rank_score": 2.3930345893463456
     },
     {
+      "ticker": "BOTJ",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 20.899999618530273,
+      "sma20": 19.717532444000245,
+      "sma50": 18.821038246154785,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 11.444139298776786,
+      "pole_high": 21.38638298792748,
+      "pole_range": 3.7219662130304734,
+      "flag_bars": 8,
+      "flag_range": 1.3832976091870464,
+      "pullback_from_pole_high_pct": 2.274266619426798,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.1946884991150806
+    },
+    {
       "ticker": "ANIK",
       "tf": "1d",
       "bars_used": 320,
@@ -145,28 +167,6 @@
       "near_breakout": false,
       "pattern": "bull_flag",
       "rank_score": 2.0876046373413653
-    },
-    {
-      "ticker": "BOTJ",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 20.899999618530273,
-      "sma20": 19.798000144958497,
-      "sma50": 18.906200103759765,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 11.444143530320346,
-      "pole_high": 21.489999771118164,
-      "pole_range": 3.739999771118164,
-      "flag_bars": 8,
-      "flag_range": 1.3899993896484375,
-      "pullback_from_pole_high_pct": 2.745463745331589,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": true,
-      "pattern": "bull_flag",
-      "rank_score": 2.037623238805615
     },
     {
       "ticker": "CARE",

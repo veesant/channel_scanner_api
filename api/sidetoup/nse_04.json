@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-20T14:33:48.895554+00:00",
+  "updated_utc": "2026-02-20T20:24:01.456519+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -1393,27 +1393,27 @@
     },
     {
       "ticker": "UNIPARTS.NS",
-      "slope": 0.011394018407182833,
-      "r2": 0.8368131952210538,
+      "slope": 0.011394018447280196,
+      "r2": 0.8368132363836714,
       "inside": 0.9423076923076923,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.26508265187507996,
+      "pos": 0.26508261677095296,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 80.84840577150425,
+      "annual_trend_pct": 80.84840614858453,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 93.4039372208589,
+      "prior_trend_pct": 93.40395090630795,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 542.622592702211,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8688214093460959
+      "rank_score": 0.8688214334378174
     },
     {
       "ticker": "SUMICHEM.NS",
@@ -2041,15 +2041,15 @@
     },
     {
       "ticker": "QUESS.NS",
-      "slope": -0.012742359043318363,
-      "r2": 0.9214862558500668,
+      "slope": -0.012742359026804456,
+      "r2": 0.9214862448085198,
       "inside": 0.9487179487179487,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.909672499333497,
+      "pos": 0.9096724675219541,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -48.449211007161274,
+      "annual_trend_pct": -48.44921096289343,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -2061,7 +2061,7 @@
       "recent_trend_pct": 48.766453923197986,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8492630574788631
+      "rank_score": 0.849263055139244
     },
     {
       "ticker": "SHEKHAWATI.NS",
@@ -2089,15 +2089,15 @@
     },
     {
       "ticker": "TDPOWERSYS.NS",
-      "slope": 0.015893537200017127,
-      "r2": 0.8785641268362107,
+      "slope": 0.015893537110668276,
+      "r2": 0.878564108161264,
       "inside": 0.9423076923076923,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.057692307692307696,
-      "pos": 0.6910918993097279,
+      "pos": 0.6910918877253912,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 128.5223735427836,
+      "annual_trend_pct": 128.52237248103665,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -2109,7 +2109,7 @@
       "recent_trend_pct": 3107.1933217495393,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8470959504102095
+      "rank_score": 0.8470959422311697
     },
     {
       "ticker": "SMLT.NS",
@@ -3049,15 +3049,15 @@
     },
     {
       "ticker": "TCIEXP.NS",
-      "slope": -0.010171544290703837,
-      "r2": 0.8411702776220784,
+      "slope": -0.01017154374514994,
+      "r2": 0.8411702640507742,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.8231342939443091,
+      "pos": 0.8231342636571469,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -41.07591721650648,
+      "annual_trend_pct": -41.07591554490079,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -3069,7 +3069,7 @@
       "recent_trend_pct": 372.99936527779766,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8177588889037878
+      "rank_score": 0.8177588851468518
     },
     {
       "ticker": "UCAL.NS",
@@ -3169,15 +3169,15 @@
     },
     {
       "ticker": "RITES.NS",
-      "slope": -0.005699542392076906,
-      "r2": 0.7570028177583236,
+      "slope": -0.005699543031225964,
+      "r2": 0.7570028889107127,
       "inside": 0.9487179487179487,
       "near_upper": 0.10256410256410256,
       "near_lower": 0.07692307692307693,
-      "pos": 0.4365499257978735,
+      "pos": 0.4365499732461285,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -25.64923354465587,
+      "annual_trend_pct": -25.649236015759392,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -3189,7 +3189,7 @@
       "recent_trend_pct": -24.328007751403725,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.814333595786554
+      "rank_score": 0.8143336266179229
     },
     {
       "ticker": "TNPL.NS",
@@ -3937,15 +3937,15 @@
     },
     {
       "ticker": "SCI.NS",
-      "slope": 0.008828094605282248,
-      "r2": 0.6729956324615535,
+      "slope": 0.00882809463658516,
+      "r2": 0.6729956376325454,
       "inside": 0.9615384615384616,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.057692307692307696,
-      "pos": 0.5188236517874973,
+      "pos": 0.5188236576691996,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 58.258711022134335,
+      "annual_trend_pct": 58.25871127974018,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -3957,7 +3957,7 @@
       "recent_trend_pct": 1284.1712837963555,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7692308356674117
+      "rank_score": 0.7692308376647374
     },
     {
       "ticker": "TRF.NS",

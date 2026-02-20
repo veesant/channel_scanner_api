@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-20T14:26:10.302807+00:00",
+  "updated_utc": "2026-02-20T20:21:27.933187+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -103,6 +103,28 @@
       "rank_score": 2.1647486499215294
     },
     {
+      "ticker": "LAND",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 10.989999771118164,
+      "sma20": 10.640230226516724,
+      "sma50": 9.724539394378661,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 14.68749666455559,
+      "pole_high": 11.25847400347724,
+      "pole_range": 1.8573256968566412,
+      "flag_bars": 8,
+      "flag_range": 0.9859249677703747,
+      "pullback_from_pole_high_pct": 2.3846414023441875,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.0547770098532494
+    },
+    {
       "ticker": "MRBK",
       "tf": "1d",
       "bars_used": 320,
@@ -167,28 +189,6 @@
       "near_breakout": false,
       "pattern": "bull_flag",
       "rank_score": 1.9311453023567446
-    },
-    {
-      "ticker": "LAND",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 10.989999771118164,
-      "sma20": 10.679649877548218,
-      "sma50": 9.762906150817871,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 14.687497826914079,
-      "pole_high": 11.305000305175781,
-      "pole_range": 1.8650007247924805,
-      "flag_bars": 8,
-      "flag_range": 0.9899997711181641,
-      "pullback_from_pole_high_pct": 2.7863823578439013,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": true,
-      "pattern": "bull_flag",
-      "rank_score": 1.92086282177306
     },
     {
       "ticker": "OFLX",
