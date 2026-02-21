@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-20T20:16:28.934436+00:00",
+  "updated_utc": "2026-02-21T14:05:58.445965+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -17,46 +17,46 @@
     {
       "ticker": "TMPV.NS",
       "tf": "1d",
-      "bars_used": 87,
-      "close": 375.70001220703125,
-      "sma20": 367.62250061035155,
-      "sma50": 359.645,
+      "bars_used": 88,
+      "close": 378.0,
+      "sma20": 369.1575012207031,
+      "sma50": 360.31099975585937,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 10.820733350288043,
+      "pole_gain_pct": 11.426051549920015,
       "pole_high": 384.6000061035156,
       "pole_range": 49.0,
       "flag_bars": 8,
       "flag_range": 13.95001220703125,
-      "pullback_from_pole_high_pct": 2.314090940000903,
+      "pullback_from_pole_high_pct": 1.7160702024896026,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": true,
       "pattern": "bull_flag",
-      "rank_score": 2.295182809723922
+      "rank_score": 2.5247889655426214
     },
     {
       "ticker": "ADANIPORTS.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 1513.300048828125,
-      "sma20": 1491.5850036621093,
-      "sma50": 1476.4419995117187,
+      "close": 1511.5,
+      "sma20": 1496.4500061035155,
+      "sma50": 1476.71,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 14.502523881307813,
+      "pole_gain_pct": 12.50451723749561,
       "pole_high": 1583.9000244140625,
-      "pole_range": 261.9000244140625,
+      "pole_range": 235.9000244140625,
       "flag_bars": 8,
       "flag_range": 81.199951171875,
-      "pullback_from_pole_high_pct": 4.457350495467969,
+      "pullback_from_pole_high_pct": 4.570997114596655,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 2.2083898850257095
+      "rank_score": 2.051536849805914
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-20T20:25:36.548923+00:00",
+  "updated_utc": "2026-02-21T14:10:29.184515+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -21,7 +21,7 @@
     "prior_trend_weeks": 20,
     "recent_trend_weeks": 6
   },
-  "count": 166,
+  "count": 165,
   "data": [
     {
       "ticker": "MCX.NS",
@@ -385,15 +385,15 @@
     },
     {
       "ticker": "NATIONALUM.NS",
-      "slope": 0.021668807897247157,
-      "r2": 0.9023478951677645,
+      "slope": 0.021668807306323434,
+      "r2": 0.9023478778440772,
       "inside": 1.0,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.41451625196278385,
+      "pos": 0.4145162790716068,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 208.56983789661703,
+      "annual_trend_pct": 208.5698284148728,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -405,7 +405,7 @@
       "recent_trend_pct": -47.958566107304755,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.9097223223876039
+      "rank_score": 0.909722311014878
     },
     {
       "ticker": "NETWORK18.NS",
@@ -841,27 +841,27 @@
     },
     {
       "ticker": "KPEL.NS",
-      "slope": -0.016332113446190955,
-      "r2": 0.8590156591593373,
+      "slope": -0.016332113237049122,
+      "r2": 0.8590156324031655,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.4068615101541573,
+      "pos": 0.40686150660466003,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -57.22728981244608,
+      "annual_trend_pct": -57.22728934727681,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -48.52422632953041,
+      "prior_trend_pct": -48.524225115475886,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -18.861048025457194,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.888821678564253
+      "rank_score": 0.8888216655411167
     },
     {
       "ticker": "KCPSUGIND.NS",
@@ -1318,30 +1318,6 @@
       "recent_trend_type": "Sideways",
       "previously_descending": false,
       "rank_score": 0.8744778638657444
-    },
-    {
-      "ticker": "MEGASOFT.NS",
-      "slope": 0.022544859902727827,
-      "r2": 0.8055301993931467,
-      "inside": 0.9487179487179487,
-      "near_upper": 0.05128205128205128,
-      "near_lower": 0.05128205128205128,
-      "pos": 0.07843382330710508,
-      "k": 2.0,
-      "lookback": 39.0,
-      "annual_trend_pct": 222.95174020508642,
-      "trend_type": "Ascending",
-      "near_support": true,
-      "near_resistance": false,
-      "action_zone": "Near Support",
-      "prior_trend_weeks": 20,
-      "recent_trend_weeks": 6,
-      "prior_trend_pct": 176.09114577472695,
-      "prior_trend_type": "Ascending",
-      "recent_trend_pct": 19.620562459680492,
-      "recent_trend_type": "Ascending",
-      "previously_descending": false,
-      "rank_score": 0.8744088968530424
     },
     {
       "ticker": "PNB.NS",
@@ -2065,15 +2041,15 @@
     },
     {
       "ticker": "NAVINFLUOR.NS",
-      "slope": 0.00901758405939851,
-      "r2": 0.8733665291660445,
+      "slope": 0.009017583400992044,
+      "r2": 0.8733665153314791,
       "inside": 0.9423076923076923,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.687766928353092,
+      "pos": 0.6877669641380822,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 59.82581357909027,
+      "annual_trend_pct": 59.8258081071122,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -2085,7 +2061,7 @@
       "recent_trend_pct": 120.22587168679948,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.84482964867079
+      "rank_score": 0.8448296381750082
     },
     {
       "ticker": "MANORG.NS",
@@ -2137,27 +2113,27 @@
     },
     {
       "ticker": "MANAPPURAM.NS",
-      "slope": 0.006842367076029171,
-      "r2": 0.8098601434958594,
+      "slope": 0.006842367401918142,
+      "r2": 0.8098601713607272,
       "inside": 0.9423076923076923,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.385221665126807,
+      "pos": 0.3852216262163645,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 42.73264628154052,
+      "annual_trend_pct": 42.7326487003203,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 21.06264229765258,
+      "prior_trend_pct": 21.062655653773632,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 4.444631980296743,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.8433309821583259
+      "rank_score": 0.843330999981804
     },
     {
       "ticker": "MAHSEAMLES.NS",
@@ -2473,15 +2449,15 @@
     },
     {
       "ticker": "MAHABANK.NS",
-      "slope": 0.006982276491775619,
-      "r2": 0.8429329178797326,
+      "slope": 0.006982275849770412,
+      "r2": 0.8429329175754765,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.8298769446824221,
+      "pos": 0.829877028634714,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 43.77485420656,
+      "annual_trend_pct": 43.77484940674141,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": true,
@@ -2493,7 +2469,7 @@
       "recent_trend_pct": 42.33459643218922,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8307864567793164
+      "rank_score": 0.8307864482319592
     },
     {
       "ticker": "NESCO.NS",
@@ -3385,15 +3361,15 @@
     },
     {
       "ticker": "MGL.NS",
-      "slope": -0.007354381076504651,
-      "r2": 0.76500415311363,
+      "slope": -0.007354380837007772,
+      "r2": 0.7650040545917756,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.7728031018130401,
+      "pos": 0.7728030131608172,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -31.77968666350037,
+      "annual_trend_pct": -31.779685813895654,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -3405,7 +3381,7 @@
       "recent_trend_pct": 136.686637378805,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7949653561191007
+      "rank_score": 0.7949653157233959
     },
     {
       "ticker": "PARACABLES.NS",
@@ -3793,27 +3769,27 @@
     },
     {
       "ticker": "METROBRAND.NS",
-      "slope": -0.007086900148076899,
-      "r2": 0.6519849577167491,
+      "slope": -0.007086899228930048,
+      "r2": 0.6519847832277468,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.4552272486869308,
+      "pos": 0.45522721367594954,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -30.824180090491225,
+      "annual_trend_pct": -30.82417678418882,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -24.448419808730513,
+      "prior_trend_pct": -24.448413773141773,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 0.6478791966689323,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.7650851386050661
+      "rank_score": 0.765085054861663
     },
     {
       "ticker": "PFS.NS",
@@ -3913,15 +3889,15 @@
     },
     {
       "ticker": "NAM-INDIA.NS",
-      "slope": 0.005035387068919053,
-      "r2": 0.7075927372745797,
+      "slope": 0.00503538768086409,
+      "r2": 0.7075927613384927,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.7600353558326091,
+      "pos": 0.7600352889503357,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 29.9318800587653,
+      "annual_trend_pct": 29.931884193346157,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -3933,7 +3909,7 @@
       "recent_trend_pct": 208.5442183079416,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7572800125412084
+      "rank_score": 0.7572800312613922
     },
     {
       "ticker": "PGEL.NS",
