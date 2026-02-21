@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-21T14:02:13.354015+00:00",
+  "updated_utc": "2026-02-21T20:13:14.745712+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,29 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 11,
+  "count": 10,
   "data": [
     {
-      "ticker": "GSK",
+      "ticker": "HSY",
       "tf": "1d",
       "bars_used": 320,
-      "close": 59.52000045776367,
-      "sma20": 56.06399974822998,
-      "sma50": 51.88880012512207,
+      "close": 221.77000427246094,
+      "sma20": 210.58815231323243,
+      "sma50": 195.8094287109375,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 16.161415763335576,
-      "pole_high": 60.369998931884766,
-      "pole_range": 10.770000457763672,
+      "pole_gain_pct": 20.304746320712994,
+      "pole_high": 233.33782695672645,
+      "pole_range": 45.77939850821963,
       "flag_bars": 8,
-      "flag_range": 3.6800003051757812,
-      "pullback_from_pole_high_pct": 1.407981595428126,
+      "flag_range": 16.621598977686688,
+      "pullback_from_pole_high_pct": 4.957542818983573,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
-      "near_breakout": true,
+      "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 2.769260434512377
+      "rank_score": 2.3948661217591756
     },
     {
       "ticker": "LUV",
@@ -57,28 +57,6 @@
       "near_breakout": false,
       "pattern": "bull_flag",
       "rank_score": 2.3687587731912227
-    },
-    {
-      "ticker": "HSY",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 221.77000427246094,
-      "sma20": 211.6809989929199,
-      "sma50": 196.97919982910156,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 20.3047473839574,
-      "pole_high": 234.8699951171875,
-      "pole_range": 46.08000183105469,
-      "flag_bars": 8,
-      "flag_range": 18.139999389648438,
-      "pullback_from_pole_high_pct": 5.577549758192983,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 2.3438947240730017
     },
     {
       "ticker": "IP",
