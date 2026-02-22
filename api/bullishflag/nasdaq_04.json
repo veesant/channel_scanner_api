@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-21T20:12:50.419891+00:00",
+  "updated_utc": "2026-02-22T14:05:11.766202+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -213,6 +213,28 @@
       "rank_score": 1.9690955578452094
     },
     {
+      "ticker": "LAND",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 10.90999984741211,
+      "sma20": 10.699091291427612,
+      "sma50": 9.762926120758056,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 11.758705953969635,
+      "pole_high": 11.25847400347724,
+      "pole_range": 1.7577370715792373,
+      "flag_bars": 8,
+      "flag_range": 0.8763775913949079,
+      "pullback_from_pole_high_pct": 3.0952165982485904,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.7569638500295695
+    },
+    {
       "ticker": "MLAB",
       "tf": "1d",
       "bars_used": 320,
@@ -233,28 +255,6 @@
       "near_breakout": false,
       "pattern": "bull_flag",
       "rank_score": 1.7452761497958444
-    },
-    {
-      "ticker": "LAND",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 10.90999984741211,
-      "sma20": 10.736499881744384,
-      "sma50": 9.800549755096435,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 11.758697378360933,
-      "pole_high": 11.305000305175781,
-      "pole_range": 1.765000343322754,
-      "flag_bars": 8,
-      "flag_range": 0.9199991226196289,
-      "pullback_from_pole_high_pct": 3.4940331455172835,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 1.7191917681965503
     }
   ]
 }

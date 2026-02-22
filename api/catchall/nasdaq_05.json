@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-21T20:13:45.755375+00:00",
+  "updated_utc": "2026-02-22T14:10:24.248638+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 260,
@@ -23,7 +23,7 @@
     {
       "ticker": "SHIM",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.450000047683716,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -75,7 +75,7 @@
     {
       "ticker": "PLSE",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 21.420000076293945,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -127,7 +127,7 @@
     {
       "ticker": "PLPC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 262.6199951171875,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -179,7 +179,7 @@
     {
       "ticker": "SCHL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 32.439998626708984,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -231,7 +231,7 @@
     {
       "ticker": "SHMD",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 7.840000152587891,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -283,7 +283,7 @@
     {
       "ticker": "POWI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 45.5099983215332,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -333,9 +333,61 @@
       "rank_score": 3.185438919324163
     },
     {
+      "ticker": "PWP",
+      "tf": "1d",
+      "bars_used": 177,
+      "close": 20.1200008392334,
+      "sma_fast": 20,
+      "sma_slow": 50,
+      "sma_fast_now": 22.027434062957763,
+      "sma_slow_now": 20.039462280273437,
+      "trend_ok": true,
+      "recent_swing_high": 25.84051505431928,
+      "recent_swing_high_date": "2026-02-09",
+      "resistance_level": 25.84051505431928,
+      "pullback_from_swing_high_pct": 22.13777164681433,
+      "had_correction": true,
+      "anchor_support_close": 20.50296480231627,
+      "anchor_support_date": "2026-02-03",
+      "support_level": 20.50296480231627,
+      "support_tolerance_pct": 1.0,
+      "support_floor": 20.50296480231627,
+      "support_floor_adj": 20.297935154293107,
+      "correction_close_low": 20.1200008392334,
+      "support_held": false,
+      "close_above_sma_fast": false,
+      "rebound_ok": false,
+      "uptrend_window_used": 50,
+      "uptrend_hh_count": 3,
+      "uptrend_hl_count": 3,
+      "uptrend_pivot_highs": 6,
+      "uptrend_pivot_lows": 6,
+      "uptrend_overall_up": true,
+      "uptrend_ok": true,
+      "uptrend_actionable": true,
+      "actionable_after_correction": true,
+      "dist_to_support": 0.018678467566778826,
+      "actionable_reason": "hh_hl_uptrend",
+      "priceQuality": {
+        "quality_n_bars": 50,
+        "long_wick_count": 19,
+        "max_long_wicks_allowed": 6,
+        "gap_thresh_pct": 2.5,
+        "gap_count": 3,
+        "max_gap_count_allowed": 2,
+        "max_gap_pct": 10.032509789571579,
+        "max_gap_pct_allowed": 6.0,
+        "avg_volume_50": 1009402,
+        "price_quality_ok": false
+      },
+      "priceQualityOk": false,
+      "avgVolume50": 1009402,
+      "rank_score": 3.181321532433221
+    },
+    {
       "ticker": "PAMT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 11.899999618530273,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -385,61 +437,9 @@
       "rank_score": 3.1802913846844323
     },
     {
-      "ticker": "PWP",
-      "tf": "1d",
-      "bars_used": 178,
-      "close": 20.1200008392334,
-      "sma_fast": 20,
-      "sma_slow": 50,
-      "sma_fast_now": 22.086000061035158,
-      "sma_slow_now": 20.099599990844727,
-      "trend_ok": true,
-      "recent_swing_high": 25.924999237060547,
-      "recent_swing_high_date": "2026-02-09",
-      "resistance_level": 25.924999237060547,
-      "pullback_from_swing_high_pct": 22.391508461565287,
-      "had_correction": true,
-      "anchor_support_close": 20.56999969482422,
-      "anchor_support_date": "2026-02-03",
-      "support_level": 20.56999969482422,
-      "support_tolerance_pct": 1.0,
-      "support_floor": 20.56999969482422,
-      "support_floor_adj": 20.364299697875975,
-      "correction_close_low": 20.1200008392334,
-      "support_held": false,
-      "close_above_sma_fast": false,
-      "rebound_ok": false,
-      "uptrend_window_used": 50,
-      "uptrend_hh_count": 3,
-      "uptrend_hl_count": 3,
-      "uptrend_pivot_highs": 6,
-      "uptrend_pivot_lows": 6,
-      "uptrend_overall_up": true,
-      "uptrend_ok": true,
-      "uptrend_actionable": true,
-      "actionable_after_correction": true,
-      "dist_to_support": 0.021876463892415522,
-      "actionable_reason": "hh_hl_uptrend",
-      "priceQuality": {
-        "quality_n_bars": 50,
-        "long_wick_count": 19,
-        "max_long_wicks_allowed": 6,
-        "gap_thresh_pct": 2.5,
-        "gap_count": 3,
-        "max_gap_count_allowed": 2,
-        "max_gap_pct": 10.03251174419098,
-        "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 1009402,
-        "price_quality_ok": false
-      },
-      "priceQualityOk": false,
-      "avgVolume50": 1009402,
-      "rank_score": 3.1781235361075844
-    },
-    {
       "ticker": "RLAY",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 8.699999809265137,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -491,7 +491,7 @@
     {
       "ticker": "RMCF",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.549999952316284,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -543,7 +543,7 @@
     {
       "ticker": "RMCO",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.934999942779541,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -595,7 +595,7 @@
     {
       "ticker": "SJ",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.2000000476837158,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -647,7 +647,7 @@
     {
       "ticker": "PDYN",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 6.869999885559082,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -699,7 +699,7 @@
     {
       "ticker": "SILC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 19.780000686645508,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -751,7 +751,7 @@
     {
       "ticker": "PLRZ",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 13.020000457763672,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -803,7 +803,7 @@
     {
       "ticker": "SNCY",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 20.479999542236328,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -855,7 +855,7 @@
     {
       "ticker": "RDIB",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 12.680000305175781,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -907,7 +907,7 @@
     {
       "ticker": "RGC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 29.170000076293945,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -959,7 +959,7 @@
     {
       "ticker": "SEPN",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 27.280000686645508,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1011,7 +1011,7 @@
     {
       "ticker": "QURE",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 23.43000030517578,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1063,7 +1063,7 @@
     {
       "ticker": "ROCK",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 52.790000915527344,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1115,7 +1115,7 @@
     {
       "ticker": "RPID",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.890000104904175,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1167,7 +1167,7 @@
     {
       "ticker": "ROAD",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 131.89999389648438,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1219,7 +1219,7 @@
     {
       "ticker": "OSUR",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.75,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1271,7 +1271,7 @@
     {
       "ticker": "PLXS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 198.4600067138672,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1323,7 +1323,7 @@
     {
       "ticker": "RCAT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 12.470000267028809,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1375,7 +1375,7 @@
     {
       "ticker": "SITM",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 406.9700012207031,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1427,7 +1427,7 @@
     {
       "ticker": "RNAZ",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 9.6899995803833,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1479,7 +1479,7 @@
     {
       "ticker": "SND",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 5.25,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1531,7 +1531,7 @@
     {
       "ticker": "SEDG",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 37.900001525878906,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1581,61 +1581,9 @@
       "rank_score": 2.966692015081658
     },
     {
-      "ticker": "RRR",
-      "tf": "1d",
-      "bars_used": 178,
-      "close": 64.0199966430664,
-      "sma_fast": 20,
-      "sma_slow": 50,
-      "sma_fast_now": 63.42800025939941,
-      "sma_slow_now": 62.56247451782227,
-      "trend_ok": true,
-      "recent_swing_high": 68.98999786376953,
-      "recent_swing_high_date": "2026-02-11",
-      "resistance_level": 68.98999786376953,
-      "pullback_from_swing_high_pct": 7.203944592833722,
-      "had_correction": true,
-      "anchor_support_close": 60.16999816894531,
-      "anchor_support_date": "2026-01-27",
-      "support_level": 60.16999816894531,
-      "support_tolerance_pct": 1.0,
-      "support_floor": 60.16999816894531,
-      "support_floor_adj": 59.568298187255856,
-      "correction_close_low": 61.599998474121094,
-      "support_held": true,
-      "close_above_sma_fast": true,
-      "rebound_ok": true,
-      "uptrend_window_used": 50,
-      "uptrend_hh_count": 2,
-      "uptrend_hl_count": 2,
-      "uptrend_pivot_highs": 7,
-      "uptrend_pivot_lows": 6,
-      "uptrend_overall_up": true,
-      "uptrend_ok": true,
-      "uptrend_actionable": true,
-      "actionable_after_correction": true,
-      "dist_to_support": 0.06398535135917852,
-      "actionable_reason": "correction_setup",
-      "priceQuality": {
-        "quality_n_bars": 50,
-        "long_wick_count": 16,
-        "max_long_wicks_allowed": 6,
-        "gap_thresh_pct": 2.5,
-        "gap_count": 0,
-        "max_gap_count_allowed": 2,
-        "max_gap_pct": 2.0194196132707476,
-        "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 671622,
-        "price_quality_ok": false
-      },
-      "priceQualityOk": false,
-      "avgVolume50": 671622,
-      "rank_score": 2.956409107924194
-    },
-    {
       "ticker": "PDFS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 32.43000030517578,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1687,7 +1635,7 @@
     {
       "ticker": "PRPO",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 25.360000610351562,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1739,7 +1687,7 @@
     {
       "ticker": "RELL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 13.680000305175781,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1791,7 +1739,7 @@
     {
       "ticker": "PTEN",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 8.40999984741211,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1843,7 +1791,7 @@
     {
       "ticker": "PSIG",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 5.460000038146973,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1895,7 +1843,7 @@
     {
       "ticker": "SCYX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.7839999794960022,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1947,7 +1895,7 @@
     {
       "ticker": "SENS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 8.15999984741211,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1999,7 +1947,7 @@
     {
       "ticker": "SHLS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 10.609999656677246,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2049,9 +1997,61 @@
       "rank_score": 2.85259597925379
     },
     {
+      "ticker": "RRR",
+      "tf": "1d",
+      "bars_used": 177,
+      "close": 64.0199966430664,
+      "sma_fast": 20,
+      "sma_slow": 50,
+      "sma_fast_now": 62.51657638549805,
+      "sma_slow_now": 61.63508415222168,
+      "trend_ok": true,
+      "recent_swing_high": 67.94596383832638,
+      "recent_swing_high_date": "2026-02-11",
+      "resistance_level": 67.94596383832638,
+      "pullback_from_swing_high_pct": 5.778072711723674,
+      "had_correction": true,
+      "anchor_support_close": 59.259435422086774,
+      "anchor_support_date": "2026-01-27",
+      "support_level": 59.259435422086774,
+      "support_tolerance_pct": 1.0,
+      "support_floor": 59.259435422086774,
+      "support_floor_adj": 58.6668410678659,
+      "correction_close_low": 60.66779708862305,
+      "support_held": true,
+      "close_above_sma_fast": true,
+      "rebound_ok": true,
+      "uptrend_window_used": 50,
+      "uptrend_hh_count": 3,
+      "uptrend_hl_count": 2,
+      "uptrend_pivot_highs": 8,
+      "uptrend_pivot_lows": 6,
+      "uptrend_overall_up": true,
+      "uptrend_ok": true,
+      "uptrend_actionable": true,
+      "actionable_after_correction": true,
+      "dist_to_support": 0.08033423179062735,
+      "actionable_reason": "correction_setup",
+      "priceQuality": {
+        "quality_n_bars": 50,
+        "long_wick_count": 16,
+        "max_long_wicks_allowed": 6,
+        "gap_thresh_pct": 2.5,
+        "gap_count": 0,
+        "max_gap_count_allowed": 2,
+        "max_gap_pct": 2.0194168842042455,
+        "max_gap_pct_allowed": 6.0,
+        "avg_volume_50": 671622,
+        "price_quality_ok": false
+      },
+      "priceQualityOk": false,
+      "avgVolume50": 671622,
+      "rank_score": 2.84747303938174
+    },
+    {
       "ticker": "SHBI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 19.709999084472656,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2103,24 +2103,24 @@
     {
       "ticker": "POWL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 546.8200073242188,
       "sma_fast": 20,
       "sma_slow": 50,
-      "sma_fast_now": 513.0914978027344,
-      "sma_slow_now": 421.6993994140625,
+      "sma_fast_now": 512.883937072754,
+      "sma_slow_now": 421.51231872558594,
       "trend_ok": true,
-      "recent_swing_high": 612.5,
+      "recent_swing_high": 612.2055432149272,
       "recent_swing_high_date": "2026-02-12",
-      "resistance_level": 612.5,
-      "pullback_from_swing_high_pct": 10.723264110331634,
+      "resistance_level": 612.2055432149272,
+      "pullback_from_swing_high_pct": 10.680324053804508,
       "had_correction": true,
-      "anchor_support_close": 410.510009765625,
+      "anchor_support_close": 410.3126587815566,
       "anchor_support_date": "2026-01-23",
-      "support_level": 410.510009765625,
+      "support_level": 410.3126587815566,
       "support_tolerance_pct": 1.0,
-      "support_floor": 410.510009765625,
-      "support_floor_adj": 406.40490966796875,
+      "support_floor": 410.3126587815566,
+      "support_floor_adj": 406.20953219374104,
       "correction_close_low": 536.3599853515625,
       "support_held": true,
       "close_above_sma_fast": true,
@@ -2134,7 +2134,7 @@
       "uptrend_ok": true,
       "uptrend_actionable": true,
       "actionable_after_correction": true,
-      "dist_to_support": 0.33205036251471204,
+      "dist_to_support": 0.33269104820706086,
       "actionable_reason": "hh_hl_uptrend",
       "priceQuality": {
         "quality_n_bars": 50,
@@ -2143,19 +2143,19 @@
         "gap_thresh_pct": 2.5,
         "gap_count": 5,
         "max_gap_count_allowed": 2,
-        "max_gap_pct": 2.9015718086790305,
+        "max_gap_pct": 2.901575632524244,
         "max_gap_pct_allowed": 6.0,
         "avg_volume_50": 260446,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
       "avgVolume50": 260446,
-      "rank_score": 2.817949637485288
+      "rank_score": 2.8173089517929393
     },
     {
       "ticker": "OTTR",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 84.94999694824219,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2207,7 +2207,7 @@
     {
       "ticker": "RJET",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 19.75,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2257,9 +2257,61 @@
       "rank_score": 2.7904953210507597
     },
     {
+      "ticker": "REGN",
+      "tf": "1d",
+      "bars_used": 177,
+      "close": 779.6699829101562,
+      "sma_fast": 20,
+      "sma_slow": 50,
+      "sma_fast_now": 770.100048828125,
+      "sma_slow_now": 764.5384973144531,
+      "trend_ok": true,
+      "recent_swing_high": 814.0208362369124,
+      "recent_swing_high_date": "2026-02-17",
+      "resistance_level": 814.0208362369124,
+      "pullback_from_swing_high_pct": 4.219898533009868,
+      "had_correction": true,
+      "anchor_support_close": 744.1748242028914,
+      "anchor_support_date": "2026-02-11",
+      "support_level": 744.1748242028914,
+      "support_tolerance_pct": 1.0,
+      "support_floor": 744.1748242028914,
+      "support_floor_adj": 736.7330759608625,
+      "correction_close_low": 779.6699829101562,
+      "support_held": true,
+      "close_above_sma_fast": true,
+      "rebound_ok": false,
+      "uptrend_window_used": 50,
+      "uptrend_hh_count": 4,
+      "uptrend_hl_count": 2,
+      "uptrend_pivot_highs": 7,
+      "uptrend_pivot_lows": 4,
+      "uptrend_overall_up": true,
+      "uptrend_ok": true,
+      "uptrend_actionable": true,
+      "actionable_after_correction": true,
+      "dist_to_support": 0.04769733878767644,
+      "actionable_reason": "hh_hl_uptrend",
+      "priceQuality": {
+        "quality_n_bars": 50,
+        "long_wick_count": 18,
+        "max_long_wicks_allowed": 6,
+        "gap_thresh_pct": 2.5,
+        "gap_count": 0,
+        "max_gap_count_allowed": 2,
+        "max_gap_pct": 1.6885333241401321,
+        "max_gap_pct_allowed": 6.0,
+        "avg_volume_50": 851268,
+        "price_quality_ok": false
+      },
+      "priceQualityOk": false,
+      "avgVolume50": 851268,
+      "rank_score": 2.7742925145133106
+    },
+    {
       "ticker": "PSIX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 88.08999633789062,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2311,7 +2363,7 @@
     {
       "ticker": "RUN",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 20.280000686645508,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2361,61 +2413,9 @@
       "rank_score": 2.7450567906866175
     },
     {
-      "ticker": "REGN",
-      "tf": "1d",
-      "bars_used": 178,
-      "close": 779.6699829101562,
-      "sma_fast": 20,
-      "sma_slow": 50,
-      "sma_fast_now": 770.9795013427735,
-      "sma_slow_now": 765.4393994140624,
-      "trend_ok": true,
-      "recent_swing_high": 815.0,
-      "recent_swing_high_date": "2026-02-17",
-      "resistance_level": 815.0,
-      "pullback_from_swing_high_pct": 4.334971422066718,
-      "had_correction": true,
-      "anchor_support_close": 745.0700073242188,
-      "anchor_support_date": "2026-02-11",
-      "support_level": 745.0700073242188,
-      "support_tolerance_pct": 1.0,
-      "support_floor": 745.0700073242188,
-      "support_floor_adj": 737.6193072509766,
-      "correction_close_low": 779.6699829101562,
-      "support_held": true,
-      "close_above_sma_fast": true,
-      "rebound_ok": false,
-      "uptrend_window_used": 50,
-      "uptrend_hh_count": 3,
-      "uptrend_hl_count": 2,
-      "uptrend_pivot_highs": 6,
-      "uptrend_pivot_lows": 4,
-      "uptrend_overall_up": true,
-      "uptrend_ok": true,
-      "uptrend_actionable": true,
-      "actionable_after_correction": true,
-      "dist_to_support": 0.04643855643873912,
-      "actionable_reason": "hh_hl_uptrend",
-      "priceQuality": {
-        "quality_n_bars": 50,
-        "long_wick_count": 18,
-        "max_long_wicks_allowed": 6,
-        "gap_thresh_pct": 2.5,
-        "gap_count": 0,
-        "max_gap_count_allowed": 2,
-        "max_gap_pct": 1.6885333517231866,
-        "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 851268,
-        "price_quality_ok": false
-      },
-      "priceQualityOk": false,
-      "avgVolume50": 851268,
-      "rank_score": 2.7370585857679326
-    },
-    {
       "ticker": "QETA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 11.569999694824219,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2467,7 +2467,7 @@
     {
       "ticker": "QCRH",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 92.41999816894531,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2519,7 +2519,7 @@
     {
       "ticker": "SIGA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 6.75,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2571,7 +2571,7 @@
     {
       "ticker": "PFIS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 56.439998626708984,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2623,7 +2623,7 @@
     {
       "ticker": "SBUX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 97.48999786376953,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2675,7 +2675,7 @@
     {
       "ticker": "SMTC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 86.7699966430664,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2727,7 +2727,7 @@
     {
       "ticker": "PEBK",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 39.5099983215332,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2777,61 +2777,9 @@
       "rank_score": 2.6649075203229735
     },
     {
-      "ticker": "RPRX",
-      "tf": "1d",
-      "bars_used": 178,
-      "close": 45.119998931884766,
-      "sma_fast": 20,
-      "sma_slow": 50,
-      "sma_fast_now": 43.29000015258789,
-      "sma_slow_now": 40.90060012817383,
-      "trend_ok": true,
-      "recent_swing_high": 46.13999938964844,
-      "recent_swing_high_date": "2026-02-17",
-      "resistance_level": 46.13999938964844,
-      "pullback_from_swing_high_pct": 2.2106642203218367,
-      "had_correction": false,
-      "anchor_support_close": 42.5,
-      "anchor_support_date": "2026-02-11",
-      "support_level": 42.5,
-      "support_tolerance_pct": 1.0,
-      "support_floor": 42.5,
-      "support_floor_adj": 42.075,
-      "correction_close_low": 45.11000061035156,
-      "support_held": true,
-      "close_above_sma_fast": true,
-      "rebound_ok": false,
-      "uptrend_window_used": 50,
-      "uptrend_hh_count": 4,
-      "uptrend_hl_count": 5,
-      "uptrend_pivot_highs": 8,
-      "uptrend_pivot_lows": 6,
-      "uptrend_overall_up": true,
-      "uptrend_ok": true,
-      "uptrend_actionable": true,
-      "actionable_after_correction": true,
-      "dist_to_support": 0.06164703369140625,
-      "actionable_reason": "hh_hl_uptrend",
-      "priceQuality": {
-        "quality_n_bars": 50,
-        "long_wick_count": 15,
-        "max_long_wicks_allowed": 6,
-        "gap_thresh_pct": 2.5,
-        "gap_count": 1,
-        "max_gap_count_allowed": 2,
-        "max_gap_pct": 2.872654340790789,
-        "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 3869296,
-        "price_quality_ok": false
-      },
-      "priceQualityOk": false,
-      "avgVolume50": 3869296,
-      "rank_score": 2.659419388340778
-    },
-    {
       "ticker": "PCH",
       "tf": "1d",
-      "bars_used": 167,
+      "bars_used": 166,
       "close": 41.72999954223633,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2883,7 +2831,7 @@
     {
       "ticker": "RILY",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 6.800000190734863,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2935,7 +2883,7 @@
     {
       "ticker": "PRTS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.6700000166893005,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2987,7 +2935,7 @@
     {
       "ticker": "SFD",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 25.040000915527344,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3039,7 +2987,7 @@
     {
       "ticker": "RBKB",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 15.130000114440918,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3091,7 +3039,7 @@
     {
       "ticker": "PBFS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 14.449999809265137,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3143,7 +3091,7 @@
     {
       "ticker": "SFNC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 21.469999313354492,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3195,7 +3143,7 @@
     {
       "ticker": "PBYI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 6.829999923706055,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3245,61 +3193,9 @@
       "rank_score": 2.6170463749748083
     },
     {
-      "ticker": "PSMT",
-      "tf": "1d",
-      "bars_used": 178,
-      "close": 153.72999572753906,
-      "sma_fast": 20,
-      "sma_slow": 50,
-      "sma_fast_now": 149.46800003051757,
-      "sma_slow_now": 137.97720031738282,
-      "trend_ok": true,
-      "recent_swing_high": 157.8699951171875,
-      "recent_swing_high_date": "2026-02-12",
-      "resistance_level": 157.8699951171875,
-      "pullback_from_swing_high_pct": 2.622410538858445,
-      "had_correction": false,
-      "anchor_support_close": 139.0399932861328,
-      "anchor_support_date": "2026-01-23",
-      "support_level": 139.0399932861328,
-      "support_tolerance_pct": 1.0,
-      "support_floor": 139.0399932861328,
-      "support_floor_adj": 137.64959335327148,
-      "correction_close_low": 152.10000610351562,
-      "support_held": true,
-      "close_above_sma_fast": true,
-      "rebound_ok": true,
-      "uptrend_window_used": 50,
-      "uptrend_hh_count": 5,
-      "uptrend_hl_count": 3,
-      "uptrend_pivot_highs": 7,
-      "uptrend_pivot_lows": 6,
-      "uptrend_overall_up": true,
-      "uptrend_ok": true,
-      "uptrend_actionable": true,
-      "actionable_after_correction": true,
-      "dist_to_support": 0.10565307214288654,
-      "actionable_reason": "hh_hl_uptrend",
-      "priceQuality": {
-        "quality_n_bars": 50,
-        "long_wick_count": 22,
-        "max_long_wicks_allowed": 6,
-        "gap_thresh_pct": 2.5,
-        "gap_count": 1,
-        "max_gap_count_allowed": 2,
-        "max_gap_pct": 5.038395366550791,
-        "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 217850,
-        "price_quality_ok": false
-      },
-      "priceQualityOk": false,
-      "avgVolume50": 217850,
-      "rank_score": 2.6065879817429582
-    },
-    {
       "ticker": "PLAB",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 38.0,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3351,7 +3247,7 @@
     {
       "ticker": "PDLB",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 16.700000762939453,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3401,9 +3297,61 @@
       "rank_score": 2.603640386555039
     },
     {
+      "ticker": "RPRX",
+      "tf": "1d",
+      "bars_used": 177,
+      "close": 45.119998931884766,
+      "sma_fast": 20,
+      "sma_slow": 50,
+      "sma_fast_now": 43.076233100891116,
+      "sma_slow_now": 40.69222923278809,
+      "trend_ok": true,
+      "recent_swing_high": 45.899631800836204,
+      "recent_swing_high_date": "2026-02-17",
+      "resistance_level": 45.899631800836204,
+      "pullback_from_swing_high_pct": 1.6985601809059276,
+      "had_correction": false,
+      "anchor_support_close": 42.278594539663885,
+      "anchor_support_date": "2026-02-11",
+      "support_level": 42.278594539663885,
+      "support_tolerance_pct": 1.0,
+      "support_floor": 42.278594539663885,
+      "support_floor_adj": 41.855808594267245,
+      "correction_close_low": 44.875,
+      "support_held": true,
+      "close_above_sma_fast": true,
+      "rebound_ok": false,
+      "uptrend_window_used": 50,
+      "uptrend_hh_count": 4,
+      "uptrend_hl_count": 5,
+      "uptrend_pivot_highs": 8,
+      "uptrend_pivot_lows": 6,
+      "uptrend_overall_up": true,
+      "uptrend_ok": true,
+      "uptrend_actionable": true,
+      "actionable_after_correction": true,
+      "dist_to_support": 0.06720668989020441,
+      "actionable_reason": "hh_hl_uptrend",
+      "priceQuality": {
+        "quality_n_bars": 50,
+        "long_wick_count": 15,
+        "max_long_wicks_allowed": 6,
+        "gap_thresh_pct": 2.5,
+        "gap_count": 1,
+        "max_gap_count_allowed": 2,
+        "max_gap_pct": 2.8726574811544725,
+        "max_gap_pct_allowed": 6.0,
+        "avg_volume_50": 3869296,
+        "price_quality_ok": false
+      },
+      "priceQualityOk": false,
+      "avgVolume50": 3869296,
+      "rank_score": 2.6026493282003886
+    },
+    {
       "ticker": "RIME",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.109999895095825,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3455,7 +3403,7 @@
     {
       "ticker": "OSBC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 20.56999969482422,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3507,7 +3455,7 @@
     {
       "ticker": "PLUR",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.6600000858306885,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3559,7 +3507,7 @@
     {
       "ticker": "SBCF",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 33.75,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3611,7 +3559,7 @@
     {
       "ticker": "RCKY",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 33.75,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3663,12 +3611,12 @@
     {
       "ticker": "PCAR",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 128.4600067138672,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 125.3375473022461,
-      "sma_slow_now": 118.66244033813477,
+      "sma_slow_now": 118.66244049072266,
       "trend_ok": true,
       "recent_swing_high": 130.6999969482422,
       "recent_swing_high_date": "2026-02-12",
@@ -3715,7 +3663,7 @@
     {
       "ticker": "PHVS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 28.100000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3767,7 +3715,7 @@
     {
       "ticker": "PEP",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 164.94000244140625,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3817,9 +3765,61 @@
       "rank_score": 2.5784423443670126
     },
     {
+      "ticker": "PSMT",
+      "tf": "1d",
+      "bars_used": 177,
+      "close": 153.72999572753906,
+      "sma_fast": 20,
+      "sma_slow": 50,
+      "sma_fast_now": 148.9333740234375,
+      "sma_slow_now": 137.41177673339843,
+      "trend_ok": true,
+      "recent_swing_high": 157.1601460740499,
+      "recent_swing_high_date": "2026-02-12",
+      "resistance_level": 157.1601460740499,
+      "pullback_from_swing_high_pct": 2.1825828189893817,
+      "had_correction": false,
+      "anchor_support_close": 138.41481268728376,
+      "anchor_support_date": "2026-01-23",
+      "support_level": 138.41481268728376,
+      "support_tolerance_pct": 1.0,
+      "support_floor": 138.41481268728376,
+      "support_floor_adj": 137.0306645604109,
+      "correction_close_low": 152.10000610351562,
+      "support_held": true,
+      "close_above_sma_fast": true,
+      "rebound_ok": true,
+      "uptrend_window_used": 50,
+      "uptrend_hh_count": 5,
+      "uptrend_hl_count": 3,
+      "uptrend_pivot_highs": 7,
+      "uptrend_pivot_lows": 6,
+      "uptrend_overall_up": true,
+      "uptrend_ok": true,
+      "uptrend_actionable": true,
+      "actionable_after_correction": true,
+      "dist_to_support": 0.11064699465985926,
+      "actionable_reason": "hh_hl_uptrend",
+      "priceQuality": {
+        "quality_n_bars": 50,
+        "long_wick_count": 22,
+        "max_long_wicks_allowed": 6,
+        "gap_thresh_pct": 2.5,
+        "gap_count": 1,
+        "max_gap_count_allowed": 2,
+        "max_gap_pct": 5.038400142058381,
+        "max_gap_pct_allowed": 6.0,
+        "avg_volume_50": 217850,
+        "price_quality_ok": false
+      },
+      "priceQualityOk": false,
+      "avgVolume50": 217850,
+      "rank_score": 2.5576112872390793
+    },
+    {
       "ticker": "PLBC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 52.72999954223633,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3871,7 +3871,7 @@
     {
       "ticker": "RBB",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 22.200000762939453,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3923,7 +3923,7 @@
     {
       "ticker": "SAFT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 78.41999816894531,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3975,7 +3975,7 @@
     {
       "ticker": "RBCAA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 71.87999725341797,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4027,7 +4027,7 @@
     {
       "ticker": "OVBC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 44.060001373291016,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4079,7 +4079,7 @@
     {
       "ticker": "PKOH",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 27.010000228881836,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4131,7 +4131,7 @@
     {
       "ticker": "PROV",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 16.25,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4183,7 +4183,7 @@
     {
       "ticker": "RNA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 72.86000061035156,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4235,7 +4235,7 @@
     {
       "ticker": "PCB",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 23.06999969482422,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4287,7 +4287,7 @@
     {
       "ticker": "RVSB",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 5.420000076293945,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4339,7 +4339,7 @@
     {
       "ticker": "PFAI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.305000066757202,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4391,7 +4391,7 @@
     {
       "ticker": "RSVR",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 7.639999866485596,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4443,7 +4443,7 @@
     {
       "ticker": "OSS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 9.720000267028809,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4495,7 +4495,7 @@
     {
       "ticker": "PXS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.549999952316284,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4547,7 +4547,7 @@
     {
       "ticker": "PKBK",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 28.5,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4599,7 +4599,7 @@
     {
       "ticker": "SIMA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 10.710000038146973,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4651,7 +4651,7 @@
     {
       "ticker": "SLNG",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 5.619999885559082,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4703,7 +4703,7 @@
     {
       "ticker": "SBAC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 199.5399932861328,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4755,7 +4755,7 @@
     {
       "ticker": "OVLY",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 33.810001373291016,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4807,7 +4807,7 @@
     {
       "ticker": "PFG",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 95.76000213623047,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4859,7 +4859,7 @@
     {
       "ticker": "SMBC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 65.48999786376953,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4911,7 +4911,7 @@
     {
       "ticker": "QUIK",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 8.109999656677246,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4963,7 +4963,7 @@
     {
       "ticker": "OZK",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 49.81999969482422,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5015,7 +5015,7 @@
     {
       "ticker": "RAY",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 4.179999828338623,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5067,7 +5067,7 @@
     {
       "ticker": "RRBI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 89.43000030517578,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5119,7 +5119,7 @@
     {
       "ticker": "SNEX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 128.6699981689453,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5171,7 +5171,7 @@
     {
       "ticker": "RAAQ",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 10.300000190734863,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5223,7 +5223,7 @@
     {
       "ticker": "REG",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 76.8499984741211,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5275,7 +5275,7 @@
     {
       "ticker": "PNTG",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 32.31999969482422,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5327,7 +5327,7 @@
     {
       "ticker": "PRDO",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 32.84000015258789,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5379,7 +5379,7 @@
     {
       "ticker": "RGLD",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 285.5400085449219,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5431,7 +5431,7 @@
     {
       "ticker": "RAPT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 57.91999816894531,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5535,7 +5535,7 @@
     {
       "ticker": "SAIA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 411.6300048828125,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5587,7 +5587,7 @@
     {
       "ticker": "SNCR",
       "tf": "1d",
-      "bars_used": 177,
+      "bars_used": 176,
       "close": 9.0,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5639,7 +5639,7 @@
     {
       "ticker": "PETZ",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.1399999856948853,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5691,7 +5691,7 @@
     {
       "ticker": "PRAX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 335.2799987792969,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5743,7 +5743,7 @@
     {
       "ticker": "SGC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 10.470000267028809,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5795,7 +5795,7 @@
     {
       "ticker": "SEAT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 7.590000152587891,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5847,7 +5847,7 @@
     {
       "ticker": "PPTA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 30.18000030517578,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5899,7 +5899,7 @@
     {
       "ticker": "ROIV",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 27.149999618530273,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5951,7 +5951,7 @@
     {
       "ticker": "PEBO",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 34.029998779296875,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6003,7 +6003,7 @@
     {
       "ticker": "ORRF",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 38.08000183105469,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6055,7 +6055,7 @@
     {
       "ticker": "PGC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 34.58000183105469,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6107,7 +6107,7 @@
     {
       "ticker": "PAHC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 52.79999923706055,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6159,7 +6159,7 @@
     {
       "ticker": "SNDK",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 649.969970703125,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6211,7 +6211,7 @@
     {
       "ticker": "RAIL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 13.899999618530273,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6263,7 +6263,7 @@
     {
       "ticker": "RIBB",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 10.5,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6315,7 +6315,7 @@
     {
       "ticker": "SAMG",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 15.430000305175781,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6367,7 +6367,7 @@
     {
       "ticker": "SEER",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.9800000190734863,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6417,9 +6417,61 @@
       "rank_score": 2.2316071174901757
     },
     {
+      "ticker": "PECO",
+      "tf": "1d",
+      "bars_used": 177,
+      "close": 39.25,
+      "sma_fast": 20,
+      "sma_slow": 50,
+      "sma_fast_now": 37.032345581054685,
+      "sma_slow_now": 35.934582214355466,
+      "trend_ok": true,
+      "recent_swing_high": 38.58000183105469,
+      "recent_swing_high_date": "2026-02-17",
+      "resistance_level": 38.58000183105469,
+      "pullback_from_swing_high_pct": -1.73664628601962,
+      "had_correction": false,
+      "anchor_support_close": 37.020039673972704,
+      "anchor_support_date": "2026-02-09",
+      "support_level": 37.020039673972704,
+      "support_tolerance_pct": 1.0,
+      "support_floor": 37.020039673972704,
+      "support_floor_adj": 36.64983927723298,
+      "correction_close_low": 38.08000183105469,
+      "support_held": true,
+      "close_above_sma_fast": true,
+      "rebound_ok": true,
+      "uptrend_window_used": 50,
+      "uptrend_hh_count": 3,
+      "uptrend_hl_count": 4,
+      "uptrend_pivot_highs": 6,
+      "uptrend_pivot_lows": 7,
+      "uptrend_overall_up": true,
+      "uptrend_ok": true,
+      "uptrend_actionable": true,
+      "actionable_after_correction": true,
+      "dist_to_support": 0.06023657310111127,
+      "actionable_reason": "hh_hl_uptrend",
+      "priceQuality": {
+        "quality_n_bars": 50,
+        "long_wick_count": 17,
+        "max_long_wicks_allowed": 6,
+        "gap_thresh_pct": 2.5,
+        "gap_count": 0,
+        "max_gap_count_allowed": 2,
+        "max_gap_pct": 0.9134844771581276,
+        "max_gap_pct_allowed": 6.0,
+        "avg_volume_50": 975990,
+        "price_quality_ok": false
+      },
+      "priceQualityOk": false,
+      "avgVolume50": 975990,
+      "rank_score": 2.216098798296927
+    },
+    {
       "ticker": "PCVX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 58.5099983215332,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6471,7 +6523,7 @@
     {
       "ticker": "PPIH",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 33.81999969482422,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6523,7 +6575,7 @@
     {
       "ticker": "RPTX",
       "tf": "1d",
-      "bars_used": 162,
+      "bars_used": 161,
       "close": 2.6500000953674316,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6573,61 +6625,9 @@
       "rank_score": 2.175667639309907
     },
     {
-      "ticker": "PECO",
-      "tf": "1d",
-      "bars_used": 178,
-      "close": 39.25,
-      "sma_fast": 20,
-      "sma_slow": 50,
-      "sma_fast_now": 37.11550006866455,
-      "sma_slow_now": 36.02772888183594,
-      "trend_ok": true,
-      "recent_swing_high": 38.58000183105469,
-      "recent_swing_high_date": "2026-02-17",
-      "resistance_level": 38.58000183105469,
-      "pullback_from_swing_high_pct": -1.73664628601962,
-      "had_correction": false,
-      "anchor_support_close": 37.125,
-      "anchor_support_date": "2026-02-09",
-      "support_level": 37.125,
-      "support_tolerance_pct": 1.0,
-      "support_floor": 37.125,
-      "support_floor_adj": 36.75375,
-      "correction_close_low": 38.08000183105469,
-      "support_held": true,
-      "close_above_sma_fast": true,
-      "rebound_ok": true,
-      "uptrend_window_used": 50,
-      "uptrend_hh_count": 2,
-      "uptrend_hl_count": 4,
-      "uptrend_pivot_highs": 6,
-      "uptrend_pivot_lows": 7,
-      "uptrend_overall_up": true,
-      "uptrend_ok": true,
-      "uptrend_actionable": true,
-      "actionable_after_correction": true,
-      "dist_to_support": 0.05723905723905724,
-      "actionable_reason": "hh_hl_uptrend",
-      "priceQuality": {
-        "quality_n_bars": 50,
-        "long_wick_count": 17,
-        "max_long_wicks_allowed": 6,
-        "gap_thresh_pct": 2.5,
-        "gap_count": 0,
-        "max_gap_count_allowed": 2,
-        "max_gap_pct": 0.9134877523829046,
-        "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 975990,
-        "price_quality_ok": false
-      },
-      "priceQualityOk": false,
-      "avgVolume50": 975990,
-      "rank_score": 2.169096314158981
-    },
-    {
       "ticker": "SENEA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 131.05999755859375,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6679,7 +6679,7 @@
     {
       "ticker": "RUSHB",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 66.73999786376953,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6731,7 +6731,7 @@
     {
       "ticker": "SFST",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 60.720001220703125,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6783,7 +6783,7 @@
     {
       "ticker": "RVMD",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 101.83000183105469,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6835,7 +6835,7 @@
     {
       "ticker": "PANL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 9.300000190734863,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6887,7 +6887,7 @@
     {
       "ticker": "SMCI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 32.41999816894531,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6939,7 +6939,7 @@
     {
       "ticker": "RUSHA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 75.26000213623047,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6991,7 +6991,7 @@
     {
       "ticker": "SCVL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 21.280000686645508,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7043,7 +7043,7 @@
     {
       "ticker": "SIRI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 21.059999465942383,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7095,7 +7095,7 @@
     {
       "ticker": "SIFY",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 15.65999984741211,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7147,7 +7147,7 @@
     {
       "ticker": "PROP",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.8799999952316284,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7199,7 +7199,7 @@
     {
       "ticker": "PAGP",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 22.270000457763672,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7251,7 +7251,7 @@
     {
       "ticker": "PLBY",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.109999895095825,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7303,7 +7303,7 @@
     {
       "ticker": "SGA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 11.979999542236328,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7355,7 +7355,7 @@
     {
       "ticker": "OSIS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 292.8900146484375,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7407,7 +7407,7 @@
     {
       "ticker": "RLMD",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 4.130000114440918,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7459,7 +7459,7 @@
     {
       "ticker": "REYN",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 24.34000015258789,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7511,7 +7511,7 @@
     {
       "ticker": "POWW",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.0799999237060547,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7563,7 +7563,7 @@
     {
       "ticker": "RCEL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 4.789999961853027,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7615,7 +7615,7 @@
     {
       "ticker": "RAVE",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.069999933242798,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7667,7 +7667,7 @@
     {
       "ticker": "SBLK",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 25.239999771118164,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7719,7 +7719,7 @@
     {
       "ticker": "PRE",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 17.049999237060547,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7771,7 +7771,7 @@
     {
       "ticker": "PODD",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 241.88999938964844,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7823,7 +7823,7 @@
     {
       "ticker": "SNTG",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.9600000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7875,7 +7875,7 @@
     {
       "ticker": "RECT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.5,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7927,7 +7927,7 @@
     {
       "ticker": "PYXS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.4199999570846558,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7979,7 +7979,7 @@
     {
       "ticker": "RNXT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.9129999876022339,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8031,7 +8031,7 @@
     {
       "ticker": "PMAX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.421999931335449,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8083,7 +8083,7 @@
     {
       "ticker": "PMVP",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.0399999618530273,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8135,7 +8135,7 @@
     {
       "ticker": "SIDU",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.069999933242798,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8187,7 +8187,7 @@
     {
       "ticker": "RFIL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 9.289999961853027,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8239,7 +8239,7 @@
     {
       "ticker": "SCKT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.0099999904632568,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8291,7 +8291,7 @@
     {
       "ticker": "SBC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 4.170000076293945,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8343,7 +8343,7 @@
     {
       "ticker": "PTCT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 70.66000366210938,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8395,7 +8395,7 @@
     {
       "ticker": "PBM",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.5,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8447,7 +8447,7 @@
     {
       "ticker": "PLUS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 81.94999694824219,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8499,7 +8499,7 @@
     {
       "ticker": "SCLX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 8.119999885559082,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8551,7 +8551,7 @@
     {
       "ticker": "SNDX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 19.690000534057617,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8603,7 +8603,7 @@
     {
       "ticker": "PLUG",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.8700000047683716,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8655,7 +8655,7 @@
     {
       "ticker": "QSI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.9409999847412109,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8707,7 +8707,7 @@
     {
       "ticker": "PESI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 13.420000076293945,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8759,7 +8759,7 @@
     {
       "ticker": "PLMR",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 120.61000061035156,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8811,7 +8811,7 @@
     {
       "ticker": "PRPL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.6359999775886536,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8863,7 +8863,7 @@
     {
       "ticker": "PRME",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.2699999809265137,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8915,7 +8915,7 @@
     {
       "ticker": "RDWR",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 24.209999084472656,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8967,7 +8967,7 @@
     {
       "ticker": "PCSC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 13.329999923706055,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9019,7 +9019,7 @@
     {
       "ticker": "PANW",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 148.6999969482422,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9071,7 +9071,7 @@
     {
       "ticker": "SBLX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.3499999046325684,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9123,7 +9123,7 @@
     {
       "ticker": "QCLS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.5199999809265137,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9175,7 +9175,7 @@
     {
       "ticker": "PCSA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.0999999046325684,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9227,7 +9227,7 @@
     {
       "ticker": "SLN",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 5.0,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9279,7 +9279,7 @@
     {
       "ticker": "QUBT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 7.900000095367432,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9331,7 +9331,7 @@
     {
       "ticker": "PASG",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 8.609999656677246,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9383,7 +9383,7 @@
     {
       "ticker": "RZLV",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.1500000953674316,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9435,7 +9435,7 @@
     {
       "ticker": "SNT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.75,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9487,7 +9487,7 @@
     {
       "ticker": "QTTB",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 4.690000057220459,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9539,7 +9539,7 @@
     {
       "ticker": "SMID",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 33.06999969482422,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9591,7 +9591,7 @@
     {
       "ticker": "ROP",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 335.7900085449219,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9643,7 +9643,7 @@
     {
       "ticker": "PRGS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 40.33000183105469,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9695,7 +9695,7 @@
     {
       "ticker": "SLSN",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.2699999809265137,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9747,7 +9747,7 @@
     {
       "ticker": "PODC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.490000009536743,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9799,7 +9799,7 @@
     {
       "ticker": "RARE",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 22.719999313354492,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9851,7 +9851,7 @@
     {
       "ticker": "SLXN",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.559999942779541,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9903,7 +9903,7 @@
     {
       "ticker": "SAIH",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 6.099999904632568,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9955,7 +9955,7 @@
     {
       "ticker": "RXRX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.4200000762939453,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10007,7 +10007,7 @@
     {
       "ticker": "SAIL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 14.1899995803833,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10059,7 +10059,7 @@
     {
       "ticker": "QDEL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 22.479999542236328,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10111,7 +10111,7 @@
     {
       "ticker": "QNTM",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.690000057220459,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10163,7 +10163,7 @@
     {
       "ticker": "PSNL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 8.279999732971191,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10215,7 +10215,7 @@
     {
       "ticker": "PACB",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.6100000143051147,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10267,7 +10267,7 @@
     {
       "ticker": "RWAY",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 8.25,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10319,7 +10319,7 @@
     {
       "ticker": "PDSB",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.6480000019073486,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10371,7 +10371,7 @@
     {
       "ticker": "RYM",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 15.40999984741211,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10423,7 +10423,7 @@
     {
       "ticker": "SABS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.569999933242798,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10475,7 +10475,7 @@
     {
       "ticker": "OVID",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.4700000286102295,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10527,7 +10527,7 @@
     {
       "ticker": "PRCT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 27.270000457763672,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10579,7 +10579,7 @@
     {
       "ticker": "SILO",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.28600001335144043,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10631,7 +10631,7 @@
     {
       "ticker": "SKYT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 28.139999389648438,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10683,7 +10683,7 @@
     {
       "ticker": "PAYO",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 5.409999847412109,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10735,7 +10735,7 @@
     {
       "ticker": "SIBN",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 15.479999542236328,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10787,7 +10787,7 @@
     {
       "ticker": "PROF",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 6.960000038146973,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10839,7 +10839,7 @@
     {
       "ticker": "PGEN",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 4.380000114440918,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10891,7 +10891,7 @@
     {
       "ticker": "PHAT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 11.420000076293945,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10943,7 +10943,7 @@
     {
       "ticker": "SFHG",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.6079999804496765,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10995,7 +10995,7 @@
     {
       "ticker": "SCNX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.4009999930858612,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11047,7 +11047,7 @@
     {
       "ticker": "SCSC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 37.2400016784668,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11099,7 +11099,7 @@
     {
       "ticker": "SMXT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.6729999780654907,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11151,7 +11151,7 @@
     {
       "ticker": "SHFS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.9399999976158142,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11203,7 +11203,7 @@
     {
       "ticker": "SEED",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.0800000429153442,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11255,7 +11255,7 @@
     {
       "ticker": "SHOO",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 39.88999938964844,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11307,7 +11307,7 @@
     {
       "ticker": "SNWV",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 24.25,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11359,7 +11359,7 @@
     {
       "ticker": "RDCM",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 11.399999618530273,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11411,7 +11411,7 @@
     {
       "ticker": "REBN",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.7000000476837158,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11463,7 +11463,7 @@
     {
       "ticker": "RENT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 6.349999904632568,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11515,7 +11515,7 @@
     {
       "ticker": "SOBR",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.7670000195503235,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11567,7 +11567,7 @@
     {
       "ticker": "SGBX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.8810999989509583,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11619,7 +11619,7 @@
     {
       "ticker": "PYPD",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 4.179999828338623,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11671,7 +11671,7 @@
     {
       "ticker": "OUST",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 18.6200008392334,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11723,7 +11723,7 @@
     {
       "ticker": "REKR",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.8230000138282776,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11775,7 +11775,7 @@
     {
       "ticker": "PMCB",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.7024999856948853,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11827,7 +11827,7 @@
     {
       "ticker": "PALI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.600000023841858,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11879,7 +11879,7 @@
     {
       "ticker": "SERA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.509999990463257,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11931,7 +11931,7 @@
     {
       "ticker": "PRQR",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.440000057220459,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11983,7 +11983,7 @@
     {
       "ticker": "SNOA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.940000057220459,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12035,7 +12035,7 @@
     {
       "ticker": "PN",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.47600001096725464,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12087,7 +12087,7 @@
     {
       "ticker": "SABR",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.9779999852180481,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12139,7 +12139,7 @@
     {
       "ticker": "PTLE",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.11299999803304672,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12191,7 +12191,7 @@
     {
       "ticker": "POCI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 4.429999828338623,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12243,7 +12243,7 @@
     {
       "ticker": "OTLK",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.4129999876022339,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12295,7 +12295,7 @@
     {
       "ticker": "SATL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.559999942779541,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12347,7 +12347,7 @@
     {
       "ticker": "PMTS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 12.0,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12399,7 +12399,7 @@
     {
       "ticker": "SLMT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.0800000429153442,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12451,7 +12451,7 @@
     {
       "ticker": "SAFX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.16899999976158142,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12503,7 +12503,7 @@
     {
       "ticker": "SGHT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 5.400000095367432,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12555,7 +12555,7 @@
     {
       "ticker": "SLDB",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 5.710000038146973,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12607,7 +12607,7 @@
     {
       "ticker": "SION",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 35.4900016784668,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12659,7 +12659,7 @@
     {
       "ticker": "PETS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.950000047683716,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12711,7 +12711,7 @@
     {
       "ticker": "RMTI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.949999988079071,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12763,7 +12763,7 @@
     {
       "ticker": "SMPL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 16.90999984741211,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12815,7 +12815,7 @@
     {
       "ticker": "QMCO",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 5.360000133514404,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12867,7 +12867,7 @@
     {
       "ticker": "PHUN",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.7100000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12919,7 +12919,7 @@
     {
       "ticker": "QRHC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.7699999809265137,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12971,7 +12971,7 @@
     {
       "ticker": "SNBR",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 8.960000038146973,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13023,7 +13023,7 @@
     {
       "ticker": "ROKU",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 89.05999755859375,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13075,7 +13075,7 @@
     {
       "ticker": "SDST",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.5799999237060547,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13127,7 +13127,7 @@
     {
       "ticker": "RMR",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 16.489999771118164,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13179,7 +13179,7 @@
     {
       "ticker": "SLE",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.609999895095825,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13231,7 +13231,7 @@
     {
       "ticker": "RYET",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.0199999809265137,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13283,7 +13283,7 @@
     {
       "ticker": "SCWO",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.450000047683716,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13335,7 +13335,7 @@
     {
       "ticker": "PATK",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 136.85000610351562,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13387,7 +13387,7 @@
     {
       "ticker": "SNAL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.6399999856948853,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13439,7 +13439,7 @@
     {
       "ticker": "SELX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.6299999952316284,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13491,7 +13491,7 @@
     {
       "ticker": "POOL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 221.6199951171875,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13595,7 +13595,7 @@
     {
       "ticker": "RMBS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 102.63999938964844,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13647,7 +13647,7 @@
     {
       "ticker": "SAIC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 89.91000366210938,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13697,9 +13697,61 @@
       "rank_score": 1.179057535541432
     },
     {
+      "ticker": "RGP",
+      "tf": "1d",
+      "bars_used": 177,
+      "close": 3.7200000286102295,
+      "sma_fast": 20,
+      "sma_slow": 50,
+      "sma_fast_now": 4.139061582088471,
+      "sma_slow_now": 4.594569563865662,
+      "trend_ok": false,
+      "recent_swing_high": 4.664524236217393,
+      "recent_swing_high_date": "2026-02-02",
+      "resistance_level": 4.664524236217393,
+      "pullback_from_swing_high_pct": 20.24910065368441,
+      "had_correction": true,
+      "anchor_support_close": 4.232441990834421,
+      "anchor_support_date": "2026-01-20",
+      "support_level": 4.232441990834421,
+      "support_tolerance_pct": 1.0,
+      "support_floor": 4.232441990834421,
+      "support_floor_adj": 4.190117570926077,
+      "correction_close_low": 3.711979389190674,
+      "support_held": false,
+      "close_above_sma_fast": false,
+      "rebound_ok": false,
+      "uptrend_window_used": 50,
+      "uptrend_hh_count": 3,
+      "uptrend_hl_count": 2,
+      "uptrend_pivot_highs": 6,
+      "uptrend_pivot_lows": 7,
+      "uptrend_overall_up": false,
+      "uptrend_ok": false,
+      "uptrend_actionable": false,
+      "actionable_after_correction": false,
+      "dist_to_support": 0.12107477511420409,
+      "actionable_reason": "none",
+      "priceQuality": {
+        "quality_n_bars": 50,
+        "long_wick_count": 13,
+        "max_long_wicks_allowed": 6,
+        "gap_thresh_pct": 2.5,
+        "gap_count": 1,
+        "max_gap_count_allowed": 2,
+        "max_gap_pct": 12.713476064754733,
+        "max_gap_pct_allowed": 6.0,
+        "avg_volume_50": 424318,
+        "price_quality_ok": false
+      },
+      "priceQualityOk": false,
+      "avgVolume50": 424318,
+      "rank_score": 1.178925224885796
+    },
+    {
       "ticker": "RIVN",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 15.270000457763672,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13751,7 +13803,7 @@
     {
       "ticker": "PLAY",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 15.40999984741211,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13803,7 +13855,7 @@
     {
       "ticker": "RKDA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.8899999856948853,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13855,7 +13907,7 @@
     {
       "ticker": "REAX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.630000114440918,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13907,7 +13959,7 @@
     {
       "ticker": "SGMT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 5.320000171661377,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13959,7 +14011,7 @@
     {
       "ticker": "SINT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.0299999713897705,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14011,7 +14063,7 @@
     {
       "ticker": "SDOT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.319999933242798,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14063,7 +14115,7 @@
     {
       "ticker": "RR",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.609999895095825,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14115,7 +14167,7 @@
     {
       "ticker": "PCYO",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 10.739999771118164,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14165,61 +14217,9 @@
       "rank_score": 1.1634876088657673
     },
     {
-      "ticker": "RGP",
-      "tf": "1d",
-      "bars_used": 178,
-      "close": 3.7200000286102295,
-      "sma_fast": 20,
-      "sma_slow": 50,
-      "sma_fast_now": 4.211499953269959,
-      "sma_slow_now": 4.677399988174439,
-      "trend_ok": false,
-      "recent_swing_high": 4.75,
-      "recent_swing_high_date": "2026-02-02",
-      "resistance_level": 4.75,
-      "pullback_from_swing_high_pct": 21.68420992399517,
-      "had_correction": true,
-      "anchor_support_close": 4.309999942779541,
-      "anchor_support_date": "2026-01-20",
-      "support_level": 4.309999942779541,
-      "support_tolerance_pct": 1.0,
-      "support_floor": 4.309999942779541,
-      "support_floor_adj": 4.266899943351746,
-      "correction_close_low": 3.7200000286102295,
-      "support_held": false,
-      "close_above_sma_fast": false,
-      "rebound_ok": false,
-      "uptrend_window_used": 50,
-      "uptrend_hh_count": 1,
-      "uptrend_hl_count": 1,
-      "uptrend_pivot_highs": 5,
-      "uptrend_pivot_lows": 5,
-      "uptrend_overall_up": false,
-      "uptrend_ok": false,
-      "uptrend_actionable": false,
-      "actionable_after_correction": false,
-      "dist_to_support": 0.1368909331791818,
-      "actionable_reason": "none",
-      "priceQuality": {
-        "quality_n_bars": 50,
-        "long_wick_count": 13,
-        "max_long_wicks_allowed": 6,
-        "gap_thresh_pct": 2.5,
-        "gap_count": 1,
-        "max_gap_count_allowed": 2,
-        "max_gap_pct": 12.713473979484782,
-        "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 424318,
-        "price_quality_ok": false
-      },
-      "priceQualityOk": false,
-      "avgVolume50": 424318,
-      "rank_score": 1.1631090668208182
-    },
-    {
       "ticker": "SLM",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 22.600000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14271,7 +14271,7 @@
     {
       "ticker": "PAVS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.2300000190734863,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14323,7 +14323,7 @@
     {
       "ticker": "RKLB",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 70.86000061035156,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14375,7 +14375,7 @@
     {
       "ticker": "SNYR",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.4600000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14427,7 +14427,7 @@
     {
       "ticker": "SGML",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 12.470000267028809,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14479,7 +14479,7 @@
     {
       "ticker": "RCT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.9480000138282776,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14531,7 +14531,7 @@
     {
       "ticker": "SKYE",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.7820000052452087,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14583,7 +14583,7 @@
     {
       "ticker": "RBNE",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 4.119999885559082,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14635,7 +14635,7 @@
     {
       "ticker": "PGNY",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 20.979999542236328,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14687,7 +14687,7 @@
     {
       "ticker": "OTEX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 24.760000228881836,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14739,7 +14739,7 @@
     {
       "ticker": "SKK",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.2980000078678131,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14791,7 +14791,7 @@
     {
       "ticker": "RDGT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.5800000429153442,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14843,7 +14843,7 @@
     {
       "ticker": "SGMO",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.3799999952316284,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14895,7 +14895,7 @@
     {
       "ticker": "SNTI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.8600000143051147,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14947,7 +14947,7 @@
     {
       "ticker": "QTRX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 5.760000228881836,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14999,7 +14999,7 @@
     {
       "ticker": "PTHL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.3720000088214874,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15051,7 +15051,7 @@
     {
       "ticker": "POET",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 5.690000057220459,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15103,7 +15103,7 @@
     {
       "ticker": "SHOP",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 126.19999694824219,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15155,7 +15155,7 @@
     {
       "ticker": "RCON",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.2100000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15207,7 +15207,7 @@
     {
       "ticker": "SMSI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.46000000834465027,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15259,7 +15259,7 @@
     {
       "ticker": "PCT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 8.989999771118164,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15311,7 +15311,7 @@
     {
       "ticker": "PENN",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 13.020000457763672,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15363,7 +15363,7 @@
     {
       "ticker": "QH",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.9120000004768372,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15415,7 +15415,7 @@
     {
       "ticker": "RVYL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 5.519999980926514,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15467,7 +15467,7 @@
     {
       "ticker": "PNRG",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 188.0399932861328,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15519,7 +15519,7 @@
     {
       "ticker": "OXBR",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.159999966621399,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15571,7 +15571,7 @@
     {
       "ticker": "PRCH",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 8.050000190734863,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15623,7 +15623,7 @@
     {
       "ticker": "RZLT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.2899999618530273,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15675,7 +15675,7 @@
     {
       "ticker": "SKBL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.059999942779541,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15727,7 +15727,7 @@
     {
       "ticker": "SHPH",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.059999942779541,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15779,7 +15779,7 @@
     {
       "ticker": "SFWL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.8870000243186951,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15831,7 +15831,7 @@
     {
       "ticker": "SKYX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.0999999046325684,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15883,7 +15883,7 @@
     {
       "ticker": "SIEB",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.200000047683716,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15935,7 +15935,7 @@
     {
       "ticker": "SEGG",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.190000057220459,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15987,7 +15987,7 @@
     {
       "ticker": "PTON",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 4.409999847412109,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16039,7 +16039,7 @@
     {
       "ticker": "SNFCA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 8.899999618530273,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16089,61 +16089,9 @@
       "rank_score": 1.1085908645879337
     },
     {
-      "ticker": "PAX",
-      "tf": "1d",
-      "bars_used": 178,
-      "close": 14.0,
-      "sma_fast": 20,
-      "sma_slow": 50,
-      "sma_fast_now": 14.584999895095825,
-      "sma_slow_now": 15.70959997177124,
-      "trend_ok": false,
-      "recent_swing_high": 14.9399995803833,
-      "recent_swing_high_date": "2026-02-10",
-      "resistance_level": 14.9399995803833,
-      "pullback_from_swing_high_pct": 6.291831370715367,
-      "had_correction": true,
-      "anchor_support_close": 13.699999809265137,
-      "anchor_support_date": "2026-02-05",
-      "support_level": 13.699999809265137,
-      "support_tolerance_pct": 1.0,
-      "support_floor": 13.699999809265137,
-      "support_floor_adj": 13.562999811172485,
-      "correction_close_low": 13.6899995803833,
-      "support_held": true,
-      "close_above_sma_fast": false,
-      "rebound_ok": false,
-      "uptrend_window_used": 50,
-      "uptrend_hh_count": 1,
-      "uptrend_hl_count": 2,
-      "uptrend_pivot_highs": 7,
-      "uptrend_pivot_lows": 5,
-      "uptrend_overall_up": false,
-      "uptrend_ok": false,
-      "uptrend_actionable": false,
-      "actionable_after_correction": false,
-      "dist_to_support": 0.021897824446097943,
-      "actionable_reason": "none",
-      "priceQuality": {
-        "quality_n_bars": 50,
-        "long_wick_count": 17,
-        "max_long_wicks_allowed": 6,
-        "gap_thresh_pct": 2.5,
-        "gap_count": 2,
-        "max_gap_count_allowed": 2,
-        "max_gap_pct": 3.279790753380389,
-        "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 860184,
-        "price_quality_ok": false
-      },
-      "priceQualityOk": false,
-      "avgVolume50": 860184,
-      "rank_score": 1.1072853126254387
-    },
-    {
       "ticker": "PPSI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.7899999618530273,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16195,7 +16143,7 @@
     {
       "ticker": "SLGL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 83.9800033569336,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16247,7 +16195,7 @@
     {
       "ticker": "SEZL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 62.75,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16351,7 +16299,7 @@
     {
       "ticker": "SERV",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 9.489999771118164,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16403,7 +16351,7 @@
     {
       "ticker": "RANI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.2899999618530273,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16455,7 +16403,7 @@
     {
       "ticker": "PNBK",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.2599999904632568,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16507,7 +16455,7 @@
     {
       "ticker": "SLNO",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 39.36000061035156,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16559,7 +16507,7 @@
     {
       "ticker": "PAYS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.2799999713897705,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16611,7 +16559,7 @@
     {
       "ticker": "RELI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.18250000476837158,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16663,7 +16611,7 @@
     {
       "ticker": "PZZA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 31.59000015258789,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16715,7 +16663,7 @@
     {
       "ticker": "RVPH",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.25,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16767,7 +16715,7 @@
     {
       "ticker": "RITR",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.6850000023841858,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16819,7 +16767,7 @@
     {
       "ticker": "SKYW",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 103.2300033569336,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16871,7 +16819,7 @@
     {
       "ticker": "RSSS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.450000047683716,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16923,7 +16871,7 @@
     {
       "ticker": "RGEN",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 135.67999267578125,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16975,7 +16923,7 @@
     {
       "ticker": "PXLW",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 5.869999885559082,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17027,7 +16975,7 @@
     {
       "ticker": "RVSN",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 6.28000020980835,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17079,7 +17027,7 @@
     {
       "ticker": "PPCB",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.1915999948978424,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17131,7 +17079,7 @@
     {
       "ticker": "PMEC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.7110000252723694,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17183,7 +17131,7 @@
     {
       "ticker": "SHC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 17.489999771118164,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17235,7 +17183,7 @@
     {
       "ticker": "SGRP",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.7799999713897705,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17287,7 +17235,7 @@
     {
       "ticker": "RAIN",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.5899999141693115,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17339,7 +17287,7 @@
     {
       "ticker": "SHEN",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 13.470000267028809,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17391,7 +17339,7 @@
     {
       "ticker": "SNGX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.100000023841858,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17443,7 +17391,7 @@
     {
       "ticker": "OSRH",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.41499999165534973,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17495,7 +17443,7 @@
     {
       "ticker": "PHIO",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.0299999713897705,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17547,7 +17495,7 @@
     {
       "ticker": "PAVM",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 9.470000267028809,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17599,7 +17547,7 @@
     {
       "ticker": "SCOR",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 7.639999866485596,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17651,7 +17599,7 @@
     {
       "ticker": "SLP",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 11.65999984741211,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17755,7 +17703,7 @@
     {
       "ticker": "QLYS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 92.66000366210938,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17807,7 +17755,7 @@
     {
       "ticker": "SEIC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 81.38999938964844,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17859,7 +17807,7 @@
     {
       "ticker": "SANG",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 4.619999885559082,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17911,7 +17859,7 @@
     {
       "ticker": "RGCO",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 21.06999969482422,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17963,7 +17911,7 @@
     {
       "ticker": "RETO",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.6000000238418579,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18015,7 +17963,7 @@
     {
       "ticker": "SFIX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.4800000190734863,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18067,7 +18015,7 @@
     {
       "ticker": "RGTI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 15.920000076293945,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18119,7 +18067,7 @@
     {
       "ticker": "PSKY",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 10.710000038146973,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18171,7 +18119,7 @@
     {
       "ticker": "RDAC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 4.590000152587891,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18223,7 +18171,7 @@
     {
       "ticker": "SATS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 110.36000061035156,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18275,7 +18223,7 @@
     {
       "ticker": "REAL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 11.109999656677246,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18327,7 +18275,7 @@
     {
       "ticker": "SLDP",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.4700000286102295,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18377,9 +18325,61 @@
       "rank_score": 0.9967871516706968
     },
     {
+      "ticker": "PAX",
+      "tf": "1d",
+      "bars_used": 177,
+      "close": 14.0,
+      "sma_fast": 20,
+      "sma_slow": 50,
+      "sma_fast_now": 14.436232042312621,
+      "sma_slow_now": 15.544282722473145,
+      "trend_ok": false,
+      "recent_swing_high": 14.779928242009383,
+      "recent_swing_high_date": "2026-02-10",
+      "resistance_level": 14.779928242009383,
+      "pullback_from_swing_high_pct": 5.276942007015788,
+      "had_correction": true,
+      "anchor_support_close": 13.553213825535467,
+      "anchor_support_date": "2026-02-05",
+      "support_level": 13.553213825535467,
+      "support_tolerance_pct": 1.0,
+      "support_floor": 13.553213825535467,
+      "support_floor_adj": 13.417681687280112,
+      "correction_close_low": 13.543320655822754,
+      "support_held": true,
+      "close_above_sma_fast": false,
+      "rebound_ok": false,
+      "uptrend_window_used": 50,
+      "uptrend_hh_count": 1,
+      "uptrend_hl_count": 2,
+      "uptrend_pivot_highs": 7,
+      "uptrend_pivot_lows": 5,
+      "uptrend_overall_up": false,
+      "uptrend_ok": false,
+      "uptrend_actionable": false,
+      "actionable_after_correction": false,
+      "dist_to_support": 0.032965330600978775,
+      "actionable_reason": "none",
+      "priceQuality": {
+        "quality_n_bars": 50,
+        "long_wick_count": 17,
+        "max_long_wicks_allowed": 6,
+        "gap_thresh_pct": 2.5,
+        "gap_count": 2,
+        "max_gap_count_allowed": 2,
+        "max_gap_pct": 3.2797889012988857,
+        "max_gap_pct_allowed": 6.0,
+        "avg_volume_50": 860184,
+        "price_quality_ok": false
+      },
+      "priceQualityOk": false,
+      "avgVolume50": 860184,
+      "rank_score": 0.9947288701006001
+    },
+    {
       "ticker": "SOFI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 19.020000457763672,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18431,7 +18431,7 @@
     {
       "ticker": "PRAA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 10.779999732971191,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18483,7 +18483,7 @@
     {
       "ticker": "QS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 6.880000114440918,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18535,7 +18535,7 @@
     {
       "ticker": "RUM",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 5.880000114440918,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18587,7 +18587,7 @@
     {
       "ticker": "SGLY",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.3799999952316284,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18639,7 +18639,7 @@
     {
       "ticker": "RENX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.1509999930858612,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18691,7 +18691,7 @@
     {
       "ticker": "PPC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 41.7400016784668,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18743,7 +18743,7 @@
     {
       "ticker": "PRHI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.7400000095367432,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18795,7 +18795,7 @@
     {
       "ticker": "SKIN",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.9399999976158142,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18847,7 +18847,7 @@
     {
       "ticker": "RNAC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 6.929999828338623,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18899,7 +18899,7 @@
     {
       "ticker": "SAGT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.3499999046325684,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18951,7 +18951,7 @@
     {
       "ticker": "PFX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 42.20000076293945,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19003,7 +19003,7 @@
     {
       "ticker": "PAYX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 91.23999786376953,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19055,7 +19055,7 @@
     {
       "ticker": "SBGI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 14.600000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19159,7 +19159,7 @@
     {
       "ticker": "SFM",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 67.4800033569336,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19211,7 +19211,7 @@
     {
       "ticker": "RPD",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 6.570000171661377,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19263,7 +19263,7 @@
     {
       "ticker": "RYTM",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 99.77999877929688,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19315,7 +19315,7 @@
     {
       "ticker": "POLA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.5299999713897705,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19367,7 +19367,7 @@
     {
       "ticker": "ORKA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 32.34000015258789,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19419,7 +19419,7 @@
     {
       "ticker": "SMLR",
       "tf": "1d",
-      "bars_used": 157,
+      "bars_used": 156,
       "close": 20.329999923706055,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19471,7 +19471,7 @@
     {
       "ticker": "RGNX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 8.140000343322754,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19523,7 +19523,7 @@
     {
       "ticker": "PTC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 155.16000366210938,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19575,7 +19575,7 @@
     {
       "ticker": "REFI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 11.949999809265137,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19627,7 +19627,7 @@
     {
       "ticker": "PRSO",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.8799999952316284,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19679,7 +19679,7 @@
     {
       "ticker": "RAYA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.847000002861023,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19731,7 +19731,7 @@
     {
       "ticker": "RDI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.0700000524520874,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19783,7 +19783,7 @@
     {
       "ticker": "PSNY",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 17.219999313354492,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19835,7 +19835,7 @@
     {
       "ticker": "ORKT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.159999966621399,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19887,7 +19887,7 @@
     {
       "ticker": "PERI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 9.0,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19939,7 +19939,7 @@
     {
       "ticker": "PIII",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.140000104904175,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19991,7 +19991,7 @@
     {
       "ticker": "ORMP",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.2200000286102295,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20043,7 +20043,7 @@
     {
       "ticker": "RDZN",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.3300000429153442,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20095,7 +20095,7 @@
     {
       "ticker": "SLNH",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.8999999761581421,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20147,7 +20147,7 @@
     {
       "ticker": "SBFM",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.1799999475479126,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20199,7 +20199,7 @@
     {
       "ticker": "PGY",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 11.890000343322754,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20251,7 +20251,7 @@
     {
       "ticker": "RPAY",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.2699999809265137,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20303,7 +20303,7 @@
     {
       "ticker": "PUBM",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 6.570000171661377,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20355,7 +20355,7 @@
     {
       "ticker": "ORLY",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 93.5,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20407,7 +20407,7 @@
     {
       "ticker": "QRVO",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 82.23999786376953,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20459,7 +20459,7 @@
     {
       "ticker": "SIGI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 85.0999984741211,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20511,7 +20511,7 @@
     {
       "ticker": "ROOT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 60.52000045776367,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20563,7 +20563,7 @@
     {
       "ticker": "PLTR",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 135.24000549316406,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20615,7 +20615,7 @@
     {
       "ticker": "PCTY",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 105.66000366210938,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20667,7 +20667,7 @@
     {
       "ticker": "SMTK",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.3089999854564667,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20719,7 +20719,7 @@
     {
       "ticker": "QVCGA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 4.650000095367432,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20771,7 +20771,7 @@
     {
       "ticker": "PTGX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 82.76000213623047,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20823,7 +20823,7 @@
     {
       "ticker": "RDNT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 70.08000183105469,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20875,7 +20875,7 @@
     {
       "ticker": "PEPG",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 6.21999979019165,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20927,7 +20927,7 @@
     {
       "ticker": "RIGL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 35.459999084472656,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20979,7 +20979,7 @@
     {
       "ticker": "SDGR",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 11.529999732971191,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21031,7 +21031,7 @@
     {
       "ticker": "RNW",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 5.400000095367432,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21083,7 +21083,7 @@
     {
       "ticker": "SELF",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 4.96999979019165,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21187,7 +21187,7 @@
     {
       "ticker": "PHOE",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 15.6899995803833,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21239,7 +21239,7 @@
     {
       "ticker": "QNCX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.15000000596046448,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21291,7 +21291,7 @@
     {
       "ticker": "REVB",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.4199999570846558,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21343,7 +21343,7 @@
     {
       "ticker": "ROMA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.380000114440918,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21447,7 +21447,7 @@
     {
       "ticker": "SMX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 36.88999938964844,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21499,7 +21499,7 @@
     {
       "ticker": "RRGB",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.75,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21551,7 +21551,7 @@
     {
       "ticker": "OSW",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 22.479999542236328,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21603,7 +21603,7 @@
     {
       "ticker": "SAVA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.130000114440918,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21655,7 +21655,7 @@
     {
       "ticker": "SBET",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 6.71999979019165,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21707,7 +21707,7 @@
     {
       "ticker": "PRVA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 21.989999771118164,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21759,7 +21759,7 @@
     {
       "ticker": "SANM",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 149.3699951171875,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21811,7 +21811,7 @@
     {
       "ticker": "SBRA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 19.93000030517578,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21863,7 +21863,7 @@
     {
       "ticker": "RMBI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 14.109999656677246,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21915,7 +21915,7 @@
     {
       "ticker": "PENG",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 19.1200008392334,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21967,7 +21967,7 @@
     {
       "ticker": "PBHC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 13.300000190734863,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22019,7 +22019,7 @@
     {
       "ticker": "PRTH",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 5.510000228881836,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22071,7 +22071,7 @@
     {
       "ticker": "OSPN",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 11.380000114440918,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22123,7 +22123,7 @@
     {
       "ticker": "PDEX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 39.52000045776367,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22227,7 +22227,7 @@
     {
       "ticker": "RXST",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 8.630000114440918,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22279,7 +22279,7 @@
     {
       "ticker": "RCKT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.7799999713897705,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22331,7 +22331,7 @@
     {
       "ticker": "SFBC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 43.560001373291016,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22383,7 +22383,7 @@
     {
       "ticker": "SNPS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 439.94000244140625,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22435,7 +22435,7 @@
     {
       "ticker": "SGRY",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 15.539999961853027,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22487,7 +22487,7 @@
     {
       "ticker": "RCMT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 18.59000015258789,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22539,7 +22539,7 @@
     {
       "ticker": "PRFX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.4600000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22591,7 +22591,7 @@
     {
       "ticker": "PRTA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 9.020000457763672,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22643,7 +22643,7 @@
     {
       "ticker": "PLMK",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 10.489999771118164,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22695,7 +22695,7 @@
     {
       "ticker": "PLTK",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.4700000286102295,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22747,7 +22747,7 @@
     {
       "ticker": "PTLO",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 5.659999847412109,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22799,7 +22799,7 @@
     {
       "ticker": "RGS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 22.559999465942383,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22851,7 +22851,7 @@
     {
       "ticker": "RICK",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 23.239999771118164,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23007,7 +23007,7 @@
     {
       "ticker": "PYPL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 41.650001525878906,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23059,7 +23059,7 @@
     {
       "ticker": "PI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 127.91999816894531,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23111,7 +23111,7 @@
     {
       "ticker": "RBBN",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.0799999237060547,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23215,7 +23215,7 @@
     {
       "ticker": "OS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 23.489999771118164,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23267,7 +23267,7 @@
     {
       "ticker": "PAL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 7.460000038146973,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23319,7 +23319,7 @@
     {
       "ticker": "SBFG",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 21.65999984741211,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23371,7 +23371,7 @@
     {
       "ticker": "PHAR",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 16.360000610351562,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23475,7 +23475,7 @@
     {
       "ticker": "RANG",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 10.460000038146973,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23527,7 +23527,7 @@
     {
       "ticker": "PGAC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 10.420000076293945,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23579,7 +23579,7 @@
     {
       "ticker": "QCOM",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 142.8800048828125,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23631,7 +23631,7 @@
     {
       "ticker": "PMN",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 16.09000015258789,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23735,7 +23735,7 @@
     {
       "ticker": "QNST",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 11.520000457763672,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23787,7 +23787,7 @@
     {
       "ticker": "SDHI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 10.279999732971191,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23839,7 +23839,7 @@
     {
       "ticker": "SKWD",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 46.880001068115234,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23891,7 +23891,7 @@
     {
       "ticker": "OST",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.6950000524520874,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23943,7 +23943,7 @@
     {
       "ticker": "REE",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.5960000157356262,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23995,7 +23995,7 @@
     {
       "ticker": "QSEA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 10.3100004196167,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -24047,7 +24047,7 @@
     {
       "ticker": "REFR",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.1100000143051147,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -24099,7 +24099,7 @@
     {
       "ticker": "PC",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 9.399999618530273,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -24151,7 +24151,7 @@
     {
       "ticker": "RFAI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 10.850000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -24203,7 +24203,7 @@
     {
       "ticker": "PTNM",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 10.390000343322754,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -24255,7 +24255,7 @@
     {
       "ticker": "POLE",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 10.600000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -24307,7 +24307,7 @@
     {
       "ticker": "SOHO",
       "tf": "1d",
-      "bars_used": 174,
+      "bars_used": 173,
       "close": 2.25,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -24359,7 +24359,7 @@
     {
       "ticker": "PROK",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.0899999141693115,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -24411,7 +24411,7 @@
     {
       "ticker": "RDVT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 42.61000061035156,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -24463,7 +24463,7 @@
     {
       "ticker": "PVLA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 85.66000366210938,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -24515,7 +24515,7 @@
     {
       "ticker": "RNTX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.2100000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -24567,7 +24567,7 @@
     {
       "ticker": "SANA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 4.010000228881836,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -24619,7 +24619,7 @@
     {
       "ticker": "SDM",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.850000023841858,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -24671,7 +24671,7 @@
     {
       "ticker": "PLUT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.240000009536743,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -24723,7 +24723,7 @@
     {
       "ticker": "RDNW",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 6.960000038146973,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -24775,7 +24775,7 @@
     {
       "ticker": "PRLD",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.7799999713897705,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -24827,7 +24827,7 @@
     {
       "ticker": "SMTI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 20.450000762939453,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -24879,7 +24879,7 @@
     {
       "ticker": "PEGA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 45.36000061035156,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -24931,7 +24931,7 @@
     {
       "ticker": "SMMT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 15.9399995803833,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -24983,7 +24983,7 @@
     {
       "ticker": "PSHG",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.2300000190734863,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -25035,7 +25035,7 @@
     {
       "ticker": "SNDL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.5800000429153442,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -25087,7 +25087,7 @@
     {
       "ticker": "SLAB",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 204.63999938964844,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -25139,7 +25139,7 @@
     {
       "ticker": "PLRX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.2400000095367432,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -25191,7 +25191,7 @@
     {
       "ticker": "RLYB",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 5.059999942779541,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -25243,7 +25243,7 @@
     {
       "ticker": "PLCE",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 4.389999866485596,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -25295,7 +25295,7 @@
     {
       "ticker": "PRZO",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.1699999570846558,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -25347,7 +25347,7 @@
     {
       "ticker": "RAPP",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 29.760000228881836,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -25399,7 +25399,7 @@
     {
       "ticker": "ROST",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 201.4499969482422,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -25451,7 +25451,7 @@
     {
       "ticker": "QMMM",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 119.4000015258789,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -25503,7 +25503,7 @@
     {
       "ticker": "REPL",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 8.640000343322754,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -25555,7 +25555,7 @@
     {
       "ticker": "RIOT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 15.680000305175781,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -25607,7 +25607,7 @@
     {
       "ticker": "RMSG",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.8889999985694885,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -25659,7 +25659,7 @@
     {
       "ticker": "QIPT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.609999895095825,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -25711,7 +25711,7 @@
     {
       "ticker": "PULM",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.8440001010894775,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -25763,7 +25763,7 @@
     {
       "ticker": "SLS",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 4.150000095367432,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -25815,7 +25815,7 @@
     {
       "ticker": "PSTV",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.2800000011920929,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -25867,7 +25867,7 @@
     {
       "ticker": "RMNI",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 3.5899999141693115,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -25919,7 +25919,7 @@
     {
       "ticker": "PCRX",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 23.219999313354492,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -25971,7 +25971,7 @@
     {
       "ticker": "SDA",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.259999990463257,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -26023,7 +26023,7 @@
     {
       "ticker": "SHIP",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 13.8100004196167,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -26075,7 +26075,7 @@
     {
       "ticker": "SKYQ",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 0.36000001430511475,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -26127,7 +26127,7 @@
     {
       "ticker": "SENEB",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 130.0,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -26179,7 +26179,7 @@
     {
       "ticker": "SNES",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 2.369999885559082,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -26231,7 +26231,7 @@
     {
       "ticker": "RELY",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 17.149999618530273,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -26283,7 +26283,7 @@
     {
       "ticker": "SNSE",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 33.5,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -26335,7 +26335,7 @@
     {
       "ticker": "RXT",
       "tf": "1d",
-      "bars_used": 178,
+      "bars_used": 177,
       "close": 1.6799999475479126,
       "sma_fast": 20,
       "sma_slow": 50,

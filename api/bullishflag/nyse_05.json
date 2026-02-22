@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-21T20:13:16.605956+00:00",
+  "updated_utc": "2026-02-22T14:04:49.849639+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,7 +12,7 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 11,
+  "count": 10,
   "data": [
     {
       "ticker": "RRX",
@@ -189,28 +189,6 @@
       "near_breakout": true,
       "pattern": "bull_flag",
       "rank_score": 2.2263353307809624
-    },
-    {
-      "ticker": "UPS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 116.7300033569336,
-      "sma20": 113.4319995880127,
-      "sma50": 107.25920043945312,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 10.000001423394544,
-      "pole_high": 118.0,
-      "pole_range": 14.410003662109375,
-      "flag_bars": 8,
-      "flag_range": 8.200004577636719,
-      "pullback_from_pole_high_pct": 1.0762683415817003,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": true,
-      "pattern": "bull_flag",
-      "rank_score": 2.1928282166527397
     },
     {
       "ticker": "RNST",
