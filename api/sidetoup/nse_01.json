@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-22T14:04:39.899122+00:00",
+  "updated_utc": "2026-02-22T20:18:07.241647+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -1057,15 +1057,15 @@
     },
     {
       "ticker": "BEPL.NS",
-      "slope": -0.008930065549004535,
-      "r2": 0.9516071213423513,
+      "slope": -0.008930065788374002,
+      "r2": 0.9516071026237964,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.7267598380045258,
+      "pos": 0.7267598180146146,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -37.14649020693707,
+      "annual_trend_pct": -37.14649098928804,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -1077,7 +1077,7 @@
       "recent_trend_pct": 15.98016407420495,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8826147563579025
+      "rank_score": 0.8826147489976163
     },
     {
       "ticker": "CRAFTSMAN.NS",
@@ -1129,15 +1129,15 @@
     },
     {
       "ticker": "DALMIASUG.NS",
-      "slope": -0.011664269960670874,
-      "r2": 0.9150174986795014,
+      "slope": -0.011664270471660977,
+      "r2": 0.9150175076716195,
       "inside": 1.0,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.7919279953282182,
+      "pos": 0.791928035751613,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -45.47669919359388,
+      "annual_trend_pct": -45.47670064235895,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -1149,7 +1149,7 @@
       "recent_trend_pct": 106.15154714203818,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.878315949806929
+      "rank_score": 0.8783159502606485
     },
     {
       "ticker": "BOMDYEING.NS",
@@ -1873,27 +1873,27 @@
     },
     {
       "ticker": "AURIONPRO.NS",
-      "slope": -0.012066172835089775,
-      "r2": 0.805914576306576,
+      "slope": -0.01206617204516484,
+      "r2": 0.8059145773859675,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.5327174331921093,
+      "pos": 0.5327174005636769,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -46.60435445375596,
+      "annual_trend_pct": -46.604352260471224,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -34.398274065719725,
+      "prior_trend_pct": -34.398269561782925,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -19.863375503077652,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8496855448340771
+      "rank_score": 0.849685548636616
     },
     {
       "ticker": "ADANIPOWER.NS",
@@ -1921,27 +1921,27 @@
     },
     {
       "ticker": "BPCL.NS",
-      "slope": 0.00847615832952489,
-      "r2": 0.7529115997665479,
+      "slope": 0.008476157339487032,
+      "r2": 0.7529115711053124,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.2842746669918082,
+      "pos": 0.28427469186001436,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 55.388808679898524,
+      "annual_trend_pct": 55.388800680176956,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 76.54244993551795,
+      "prior_trend_pct": 76.5424379223288,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 129.1569059367101,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8480283331840931
+      "rank_score": 0.8480283163666548
     },
     {
       "ticker": "CELEBRITY.NS",
@@ -2281,15 +2281,15 @@
     },
     {
       "ticker": "BAJAJHLDNG.NS",
-      "slope": -0.00797728422219306,
-      "r2": 0.8745362467709276,
+      "slope": -0.007977283699952636,
+      "r2": 0.874536198335969,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.8494641440998002,
+      "pos": 0.8494640444726462,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -33.95400412911387,
+      "annual_trend_pct": -33.95400233553563,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -2301,7 +2301,7 @@
       "recent_trend_pct": 58.25683220636071,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8318088884626633
+      "rank_score": 0.8318088742078993
     },
     {
       "ticker": "ASHOKA.NS",
@@ -2401,15 +2401,15 @@
     },
     {
       "ticker": "CCL.NS",
-      "slope": 0.010607893393797611,
-      "r2": 0.730972485242295,
+      "slope": 0.010607894023624513,
+      "r2": 0.7309724819604769,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.2895052305563402,
+      "pos": 0.2895052229874923,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 73.60465952807662,
+      "annual_trend_pct": 73.60466521380273,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -2421,7 +2421,7 @@
       "recent_trend_pct": 73.9326814394063,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8288434118732059
+      "rank_score": 0.8288434109891816
     },
     {
       "ticker": "DCXINDIA.NS",
@@ -3889,15 +3889,15 @@
     },
     {
       "ticker": "COLPAL.NS",
-      "slope": -0.0033969550957671643,
-      "r2": 0.7098287999151061,
+      "slope": -0.0033969551605763522,
+      "r2": 0.7098287446973942,
       "inside": 0.9423076923076923,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.8797768347768318,
+      "pos": 0.8797767752290243,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -16.191995584751616,
+      "annual_trend_pct": -16.19199586719111,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -3909,7 +3909,7 @@
       "recent_trend_pct": 27.52505246850938,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7438597934029467
+      "rank_score": 0.7438597717488716
     },
     {
       "ticker": "CLSEL.NS",
