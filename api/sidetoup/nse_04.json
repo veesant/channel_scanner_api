@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-23T14:40:39.618707+00:00",
+  "updated_utc": "2026-02-23T20:32:35.228646+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -49,27 +49,27 @@
     },
     {
       "ticker": "ROUTE.NS",
-      "slope": -0.01660484197610396,
-      "r2": 0.94626393627184,
+      "slope": -0.016604842430482207,
+      "r2": 0.9462639344689096,
       "inside": 0.9487179487179487,
       "near_upper": 0.10256410256410256,
       "near_lower": 0.05128205128205128,
-      "pos": 0.06663152614356904,
+      "pos": 0.06663158877283368,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -57.82960632129903,
+      "annual_trend_pct": -57.82960731768711,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -49.471801110617605,
+      "prior_trend_pct": -49.47179758378527,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -84.40191777190125,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9459559950087426
+      "rank_score": 0.9459559878443509
     },
     {
       "ticker": "SDBL.NS",
@@ -1849,27 +1849,27 @@
     },
     {
       "ticker": "UNIPARTS.NS",
-      "slope": 0.011361947781716886,
-      "r2": 0.8352884120115125,
+      "slope": 0.01136194778852861,
+      "r2": 0.8352883963290669,
       "inside": 0.9423076923076923,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.29664705121422097,
+      "pos": 0.2966470585186937,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 80.54706119602277,
+      "annual_trend_pct": 80.54706125997429,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 63.2693604423529,
+      "prior_trend_pct": 63.26934701959519,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 522.6370920904488,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8649025778074111
+      "rank_score": 0.864902569235741
     },
     {
       "ticker": "TATACHEM.NS",
@@ -2593,15 +2593,15 @@
     },
     {
       "ticker": "SANOFI.NS",
-      "slope": -0.009213299493679567,
-      "r2": 0.8486654230205842,
+      "slope": -0.009213299528414412,
+      "r2": 0.848665437549948,
       "inside": 0.9615384615384616,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.057692307692307696,
-      "pos": 0.6418674154389943,
+      "pos": 0.6418674261700024,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -38.06542336697657,
+      "annual_trend_pct": -38.06542347884354,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2613,7 +2613,7 @@
       "recent_trend_pct": 8.378171136335123,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.8447613545817774
+      "rank_score": 0.8447613607733585
     },
     {
       "ticker": "STEELCITY.NS",
@@ -3601,15 +3601,15 @@
     },
     {
       "ticker": "RITES.NS",
-      "slope": -0.005772059915368764,
-      "r2": 0.7629537447387023,
+      "slope": -0.005772060153564591,
+      "r2": 0.7629536647812792,
       "inside": 0.9487179487179487,
       "near_upper": 0.10256410256410256,
       "near_lower": 0.07692307692307693,
-      "pos": 0.5101606048218944,
+      "pos": 0.5101606258451101,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -25.929075721832696,
+      "annual_trend_pct": -25.929076639288706,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -3621,7 +3621,7 @@
       "recent_trend_pct": -6.393916156210389,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.8099479913743411
+      "rank_score": 0.8099479492933082
     },
     {
       "ticker": "TRF.NS",
@@ -4465,15 +4465,15 @@
     },
     {
       "ticker": "SCI.NS",
-      "slope": 0.008508454418579933,
-      "r2": 0.6699272868879832,
+      "slope": 0.008508454560477255,
+      "r2": 0.6699273103432354,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.057692307692307696,
-      "pos": 0.5547639163255522,
+      "pos": 0.5547639122206256,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 55.64998737159159,
+      "annual_trend_pct": 55.64998852008003,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -4485,7 +4485,7 @@
       "recent_trend_pct": 1595.4538773410356,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.764102636426821
+      "rank_score": 0.7641026485649398
     },
     {
       "ticker": "SFL.NS",

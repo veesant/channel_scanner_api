@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-23T14:36:17.116497+00:00",
+  "updated_utc": "2026-02-23T20:32:33.570241+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -2137,15 +2137,15 @@
     },
     {
       "ticker": "GARFIBRES.NS",
-      "slope": -0.00923177480337283,
-      "r2": 0.8678035535784459,
+      "slope": -0.009231773981713846,
+      "r2": 0.8678035695888474,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.7234162509591396,
+      "pos": 0.7234162465611078,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -38.12489633924996,
+      "annual_trend_pct": -38.124893695557695,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2157,7 +2157,7 @@
       "recent_trend_pct": 82.51784916553027,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8513037414368988
+      "rank_score": 0.8513037498819027
     },
     {
       "ticker": "GUFICBIO.NS",
@@ -2857,15 +2857,15 @@
     },
     {
       "ticker": "DLINKINDIA.NS",
-      "slope": -0.007848228637576955,
-      "r2": 0.8646679982378118,
+      "slope": -0.00784822791985713,
+      "r2": 0.8646680158160426,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.77828974307481,
+      "pos": 0.7782897345121675,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -33.50928613162022,
+      "annual_trend_pct": -33.50928365009159,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2877,7 +2877,7 @@
       "recent_trend_pct": 119.42321524396577,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8339922042986043
+      "rank_score": 0.833992213943984
     },
     {
       "ticker": "HTMEDIA.NS",
@@ -3025,15 +3025,15 @@
     },
     {
       "ticker": "HINDPETRO.NS",
-      "slope": 0.005983527640691212,
-      "r2": 0.7023457018808503,
+      "slope": 0.005983527547554482,
+      "r2": 0.7023457021384025,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.09615384615384616,
-      "pos": 0.13002779041079895,
+      "pos": 0.13002778767988035,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 36.49849969293142,
+      "annual_trend_pct": 36.49849903185418,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -3045,7 +3045,7 @@
       "recent_trend_pct": 50.719717227599894,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8304777642070377
+      "rank_score": 0.8304777646089057
     },
     {
       "ticker": "EUROBOND.NS",
@@ -3385,27 +3385,27 @@
     },
     {
       "ticker": "GESHIP.NS",
-      "slope": 0.009851156827058258,
-      "r2": 0.7890931348256505,
+      "slope": 0.009851158309425085,
+      "r2": 0.7890932237497358,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.7911414549706136,
+      "pos": 0.7911414564212969,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 66.90592677886194,
+      "annual_trend_pct": 66.90593964448448,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 40.498627653417515,
+      "prior_trend_pct": 40.498639934981064,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 394.48068701756006,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8154324219157639
+      "rank_score": 0.8154324662327381
     },
     {
       "ticker": "HAVISHA.NS",
@@ -4153,27 +4153,27 @@
     },
     {
       "ticker": "GULFOILLUB.NS",
-      "slope": -0.0055461354475994365,
-      "r2": 0.7268163825765058,
+      "slope": -0.005546136215737164,
+      "r2": 0.7268164068644862,
       "inside": 0.9230769230769231,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.493554530689113,
+      "pos": 0.4935545873707127,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -25.053753539591806,
+      "annual_trend_pct": -25.053756533181804,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -20.226641098115362,
+      "prior_trend_pct": -20.226646277707548,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 48.29566571397967,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7832835074501109
+      "rank_score": 0.7832835139259411
     },
     {
       "ticker": "IDBI.NS",

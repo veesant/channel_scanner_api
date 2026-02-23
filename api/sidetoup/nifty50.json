@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-23T14:38:12.960277+00:00",
+  "updated_utc": "2026-02-23T20:31:13.673808+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -49,27 +49,27 @@
     },
     {
       "ticker": "HINDALCO.NS",
-      "slope": 0.010579084716914421,
-      "r2": 0.8701131885394328,
+      "slope": 0.010579084716914374,
+      "r2": 0.8701131885394333,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
       "pos": 0.12698504867947552,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 73.34478556075894,
+      "annual_trend_pct": 73.34478556075852,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 76.84157023688114,
+      "prior_trend_pct": 76.84157023688243,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": -36.34162297395712,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.9223580894017688
+      "rank_score": 0.9223580894017691
     },
     {
       "ticker": "EICHERMOT.NS",
@@ -90,7 +90,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 25.79685312664548,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 453.9210663530068,
+      "recent_trend_pct": 453.92106635303435,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.8814820718536931
@@ -112,7 +112,7 @@
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 81.45484469685836,
+      "prior_trend_pct": 81.45484469685833,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 656.0700920048189,
       "recent_trend_type": "Ascending",
@@ -160,7 +160,7 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -15.96046885060135,
+      "prior_trend_pct": -15.960468850600417,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 13.151122849060082,
       "recent_trend_type": "Ascending",
@@ -241,27 +241,27 @@
     },
     {
       "ticker": "JIOFIN.NS",
-      "slope": -0.007853671671059296,
-      "r2": 0.6934139954799723,
+      "slope": -0.007853671671059359,
+      "r2": 0.6934139954799725,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
       "pos": 0.33418140973829125,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -33.52810285003008,
+      "annual_trend_pct": -33.52810285003031,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -16.23471075079651,
+      "prior_trend_pct": -16.23471075079611,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 20.998568002962003,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7979042413815416
+      "rank_score": 0.7979042413815418
     },
     {
       "ticker": "INDIGO.NS",
@@ -304,7 +304,7 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -52.86154694564862,
+      "prior_trend_pct": -52.86154694564809,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 162.224605758449,
       "recent_trend_type": "Ascending",
@@ -313,15 +313,15 @@
     },
     {
       "ticker": "BAJAJ-AUTO.NS",
-      "slope": 0.004147733494357046,
-      "r2": 0.6849151998790439,
+      "slope": 0.004147733494356903,
+      "r2": 0.6849151998790372,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
       "pos": 0.7847735915226406,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 24.07079470065674,
+      "annual_trend_pct": 24.070794700655807,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -333,7 +333,7 @@
       "recent_trend_pct": 66.84954439749002,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7639802407872579
+      "rank_score": 0.7639802407872546
     }
   ]
 }
