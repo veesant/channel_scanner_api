@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-23T20:39:42.873029+00:00",
+  "updated_utc": "2026-02-24T14:46:50.422408+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,51 +12,6 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 2,
-  "data": [
-    {
-      "ticker": "TMPV.NS",
-      "tf": "1d",
-      "bars_used": 88,
-      "close": 378.0,
-      "sma20": 369.1575012207031,
-      "sma50": 360.31099975585937,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 11.426051549920015,
-      "pole_high": 384.6000061035156,
-      "pole_range": 49.0,
-      "flag_bars": 8,
-      "flag_range": 13.95001220703125,
-      "pullback_from_pole_high_pct": 1.7160702024896026,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": true,
-      "pattern": "bull_flag",
-      "rank_score": 2.5247889655426214
-    },
-    {
-      "ticker": "ADANIPORTS.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 1511.5,
-      "sma20": 1496.4500061035155,
-      "sma50": 1476.71,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 12.50451723749561,
-      "pole_high": 1583.9000244140625,
-      "pole_range": 235.9000244140625,
-      "flag_bars": 8,
-      "flag_range": 81.199951171875,
-      "pullback_from_pole_high_pct": 4.570997114596655,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 2.051536849805914
-    }
-  ]
+  "count": 0,
+  "data": []
 }
