@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-24T14:46:59.091164+00:00",
+  "updated_utc": "2026-02-24T20:30:09.735431+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -147,28 +147,6 @@
       "rank_score": 2.066974900382995
     },
     {
-      "ticker": "PSX",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 154.85000610351562,
-      "sma20": 150.88719024658204,
-      "sma50": 141.38293350219726,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 10.719317965629967,
-      "pole_high": 157.85227332693944,
-      "pole_range": 19.628632291144044,
-      "flag_bars": 8,
-      "flag_range": 10.19444399209118,
-      "pullback_from_pole_high_pct": 1.9019474095286533,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": true,
-      "pattern": "bull_flag",
-      "rank_score": 2.0363734493630754
-    },
-    {
       "ticker": "RGA",
       "tf": "1d",
       "bars_used": 320,
@@ -299,6 +277,28 @@
       "near_breakout": false,
       "pattern": "bull_flag",
       "rank_score": 1.8396624918263669
+    },
+    {
+      "ticker": "PSX",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 154.85000610351562,
+      "sma20": 152.06399993896486,
+      "sma50": 142.51979949951172,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 10.719309917836878,
+      "pole_high": 159.14999389648438,
+      "pole_range": 19.789993286132812,
+      "flag_bars": 8,
+      "flag_range": 11.529998779296875,
+      "pullback_from_pole_high_pct": 2.701846030710867,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 1.6643207864032297
     }
   ]
 }

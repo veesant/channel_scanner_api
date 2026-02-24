@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-24T14:44:57.782004+00:00",
+  "updated_utc": "2026-02-24T20:30:20.025733+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -97,15 +97,15 @@
     },
     {
       "ticker": "IMFA.NS",
-      "slope": 0.019769048708312836,
-      "r2": 0.8786416738658835,
+      "slope": 0.019769048373796602,
+      "r2": 0.8786416796103702,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.05913118630542873,
+      "pos": 0.059131176732762886,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 179.544283637697,
+      "annual_trend_pct": 179.54427877506777,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -117,7 +117,7 @@
       "recent_trend_pct": 295.6515452892775,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.933407718302399
+      "rank_score": 0.9334077221319088
     },
     {
       "ticker": "JISLDVREQS.NS",
@@ -649,15 +649,15 @@
     },
     {
       "ticker": "GPPL.NS",
-      "slope": 0.007433332498119575,
-      "r2": 0.8438608119552571,
+      "slope": 0.007433332829613727,
+      "r2": 0.8438608219889412,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.1634586400572793,
+      "pos": 0.1634586406568974,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 47.18693946390442,
+      "annual_trend_pct": 47.18694200106815,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -669,7 +669,7 @@
       "recent_trend_pct": 87.83710425310186,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8978922342795929
+      "rank_score": 0.8978922392364731
     },
     {
       "ticker": "FOODSIN.NS",
@@ -1729,27 +1729,27 @@
     },
     {
       "ticker": "KAJARIACER.NS",
-      "slope": -0.012734064424207684,
-      "r2": 0.881193038944952,
+      "slope": -0.012734063562792481,
+      "r2": 0.8811929994907303,
       "inside": 1.0,
       "near_upper": 0.11538461538461539,
       "near_lower": 0.038461538461538464,
-      "pos": 0.7566683710538032,
+      "pos": 0.7566682918785471,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -48.42697131499527,
+      "annual_trend_pct": -48.426969004854094,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -49.40883075468727,
+      "prior_trend_pct": -49.408826966962174,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 73.51310400395086,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8649296823670958
+      "rank_score": 0.8649296705575105
     },
     {
       "ticker": "GLOBECIVIL.NS",
@@ -1777,15 +1777,15 @@
     },
     {
       "ticker": "IRCTC.NS",
-      "slope": -0.005431144976890897,
-      "r2": 0.8365453900978179,
+      "slope": -0.005431145070222675,
+      "r2": 0.8365454100132181,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.3315956019758331,
+      "pos": 0.33159560904180524,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -24.60426961704988,
+      "annual_trend_pct": -24.6042699829644,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -1797,7 +1797,7 @@
       "recent_trend_pct": 19.28099244411556,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8646003143385051
+      "rank_score": 0.864600323589608
     },
     {
       "ticker": "GIPCL.NS",
@@ -2833,15 +2833,15 @@
     },
     {
       "ticker": "DLINKINDIA.NS",
-      "slope": -0.007859996345609402,
-      "r2": 0.8655892507125069,
+      "slope": -0.007859997063329287,
+      "r2": 0.8655892331299815,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.759449597676472,
+      "pos": 0.7594496094298498,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -33.5499607375309,
+      "annual_trend_pct": -33.549963217541624,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2853,7 +2853,7 @@
       "recent_trend_pct": 114.49200842630263,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8363368450757858
+      "rank_score": 0.8363368351091852
     },
     {
       "ticker": "GAEL.NS",
