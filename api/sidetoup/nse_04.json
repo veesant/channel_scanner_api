@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-25T14:37:33.212262+00:00",
+  "updated_utc": "2026-02-25T20:32:33.342449+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -1561,15 +1561,15 @@
     },
     {
       "ticker": "UNIPARTS.NS",
-      "slope": 0.011316669042347741,
-      "r2": 0.8328031956183448,
+      "slope": 0.011316668856976991,
+      "r2": 0.8328032080997284,
       "inside": 0.9423076923076923,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.2350523317348939,
+      "pos": 0.23505232866529402,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 80.12246419477135,
+      "annual_trend_pct": 80.12246245852066,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1581,7 +1581,7 @@
       "recent_trend_pct": 433.5023718601924,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8698194415587599
+      "rank_score": 0.8698194481064117
     },
     {
       "ticker": "RELCHEMQ.NS",
@@ -2593,15 +2593,15 @@
     },
     {
       "ticker": "SANOFI.NS",
-      "slope": -0.009193676825813233,
-      "r2": 0.847624418419454,
+      "slope": -0.00919367679107829,
+      "r2": 0.8476244038679877,
       "inside": 0.9615384615384616,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.057692307692307696,
-      "pos": 0.6768902248156214,
+      "pos": 0.676890212284223,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -38.00219438912155,
+      "annual_trend_pct": -38.00219427714004,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2613,7 +2613,7 @@
       "recent_trend_pct": 15.883235586050537,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8407385713435495
+      "rank_score": 0.8407385653209561
     },
     {
       "ticker": "SILINV.NS",
@@ -2977,15 +2977,15 @@
     },
     {
       "ticker": "THYROCARE.NS",
-      "slope": 0.012875241810403741,
-      "r2": 0.6698370654868844,
+      "slope": 0.012875242355099743,
+      "r2": 0.6698370699122977,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.05420726889968491,
+      "pos": 0.05420726990583288,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 95.32850069412429,
+      "annual_trend_pct": 95.32850622664635,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -2997,7 +2997,7 @@
       "recent_trend_pct": -58.69432628701827,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8294978058534738
+      "rank_score": 0.8294978079655656
     },
     {
       "ticker": "SWSOLAR.NS",
@@ -3481,27 +3481,27 @@
     },
     {
       "ticker": "RITES.NS",
-      "slope": -0.005785932143068932,
-      "r2": 0.7638174149275946,
+      "slope": -0.005785931638528241,
+      "r2": 0.7638174905578301,
       "inside": 0.9487179487179487,
       "near_upper": 0.10256410256410256,
       "near_lower": 0.07692307692307693,
-      "pos": 0.48800626125416946,
+      "pos": 0.488006208575096,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -25.98248794873821,
+      "annual_trend_pct": -25.98248600680615,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -27.148880673555663,
+      "prior_trend_pct": -27.148883906737442,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -8.868683260645883,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.8125952608255598
+      "rank_score": 0.8125953039085849
     },
     {
       "ticker": "SEAMECLTD.NS",
@@ -4321,27 +4321,27 @@
     },
     {
       "ticker": "SCI.NS",
-      "slope": 0.008558672152571493,
-      "r2": 0.6717836933508443,
+      "slope": 0.008558672394055498,
+      "r2": 0.6717837505697342,
       "inside": 0.9615384615384616,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.057692307692307696,
-      "pos": 0.6135246153758037,
+      "pos": 0.6135246090436577,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 56.05697078513203,
+      "annual_trend_pct": 56.056972744765666,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 3.4282822024613857,
+      "prior_trend_pct": 3.4282784040325254,
       "prior_trend_type": "Sideways",
       "recent_trend_pct": 1912.350199884712,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7591547697532264
+      "rank_score": 0.759154798995886
     },
     {
       "ticker": "TARIL.NS",
