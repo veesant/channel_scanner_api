@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-26T14:46:42.076560+00:00",
+  "updated_utc": "2026-02-26T20:32:16.820156+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -937,15 +937,15 @@
     },
     {
       "ticker": "UNOMINDA.NS",
-      "slope": 0.007677049878700188,
-      "r2": 0.6726052626159998,
+      "slope": 0.007677049558381725,
+      "r2": 0.6726052605271203,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.191943665841053,
+      "pos": 0.1919436710109911,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 49.064154393921356,
+      "annual_trend_pct": 49.064151911025334,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -957,7 +957,7 @@
       "recent_trend_pct": 116.23899334608679,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8171082647238946
+      "rank_score": 0.8171082631624611
     },
     {
       "ticker": "VCL.NS",
@@ -1057,27 +1057,27 @@
     },
     {
       "ticker": "VENUSPIPES.NS",
-      "slope": -0.010195139042114727,
-      "r2": 0.7848805402599321,
+      "slope": -0.01019513825015049,
+      "r2": 0.7848804750822052,
       "inside": 0.9230769230769231,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.532118460623471,
+      "pos": 0.5321184181196694,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -41.14816843639433,
+      "annual_trend_pct": -41.1481660127499,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -36.6293678305928,
+      "prior_trend_pct": -36.629363468599706,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 47.04683457727885,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8084591932983882
+      "rank_score": 0.8084591649599049
     },
     {
       "ticker": "XELPMOC.NS",
