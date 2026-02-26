@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-25T20:23:33.811009+00:00",
+  "updated_utc": "2026-02-26T14:34:59.352987+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,51 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 2,
+  "data": [
+    {
+      "ticker": "EICHERMOT.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 8008.0,
+      "sma20": 7608.925,
+      "sma50": 7415.99,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 15.45343926705318,
+      "pole_high": 8119.0,
+      "pole_range": 1381.0,
+      "flag_bars": 8,
+      "flag_range": 368.0,
+      "pullback_from_pole_high_pct": 1.3671634437738638,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.8728281989665367
+    },
+    {
+      "ticker": "BAJFINANCE.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 1021.0499877929688,
+      "sma20": 987.8974975585937,
+      "sma50": 977.8409985351562,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 13.394930414722298,
+      "pole_high": 1032.0,
+      "pole_range": 145.0,
+      "flag_bars": 8,
+      "flag_range": 42.70001220703125,
+      "pullback_from_pole_high_pct": 1.0610476944797724,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.8252592178976705
+    }
+  ]
 }
