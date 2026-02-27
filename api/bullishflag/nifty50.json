@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-26T20:27:14.294818+00:00",
+  "updated_utc": "2026-01-13T14:09:30.014787+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,51 +12,29 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 2,
+  "count": 1,
   "data": [
     {
-      "ticker": "EICHERMOT.NS",
+      "ticker": "SHRIRAMFIN.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 8008.0,
-      "sma20": 7608.925,
-      "sma50": 7415.99,
+      "close": 972.7999877929688,
+      "sma20": 959.407504272461,
+      "sma50": 881.959033203125,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 15.45343926705318,
-      "pole_high": 8119.0,
-      "pole_range": 1381.0,
+      "pole_gain_pct": 14.578181404386317,
+      "pole_high": 1000.2000122070312,
+      "pole_range": 149.70001220703125,
       "flag_bars": 8,
-      "flag_range": 368.0,
-      "pullback_from_pole_high_pct": 1.3671634437738638,
+      "flag_range": 64.5999755859375,
+      "pullback_from_pole_high_pct": 2.7394545170622306,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": true,
       "pattern": "bull_flag",
-      "rank_score": 2.8728281989665367
-    },
-    {
-      "ticker": "BAJFINANCE.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 1021.0499877929688,
-      "sma20": 987.8974975585937,
-      "sma50": 977.8409985351562,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 13.394930414722298,
-      "pole_high": 1032.0,
-      "pole_range": 145.0,
-      "flag_bars": 8,
-      "flag_range": 42.70001220703125,
-      "pullback_from_pole_high_pct": 1.0610476944797724,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": true,
-      "pattern": "bull_flag",
-      "rank_score": 2.8252592178976705
+      "rank_score": 2.0965416847919474
     }
   ]
 }
