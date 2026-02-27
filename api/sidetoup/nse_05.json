@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-27T14:26:45.746335+00:00",
+  "updated_utc": "2026-02-27T20:22:52.446825+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -553,15 +553,15 @@
     },
     {
       "ticker": "VIDHIING.NS",
-      "slope": -0.007316219645886954,
-      "r2": 0.9179635900986165,
+      "slope": -0.0073162197358095996,
+      "r2": 0.9179635898807915,
       "inside": 0.9230769230769231,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.057692307692307696,
-      "pos": 0.45556693542999777,
+      "pos": 0.45556694281173693,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -31.644176247700116,
+      "annual_trend_pct": -31.64417656733042,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -573,7 +573,7 @@
       "recent_trend_pct": -21.23542525533779,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8826558707370777
+      "rank_score": 0.8826558698899913
     },
     {
       "ticker": "VIMTALABS.NS",
@@ -841,27 +841,27 @@
     },
     {
       "ticker": "VEEDOL.NS",
-      "slope": -0.010234882669952995,
-      "r2": 0.7610153593922624,
+      "slope": -0.010234882838862041,
+      "r2": 0.7610154002573106,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.3642494469685438,
+      "pos": 0.3642494288768964,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -41.269670076479315,
+      "annual_trend_pct": -41.269670592323685,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -31.83516809581528,
+      "prior_trend_pct": -31.835168164050987,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -7.913436949458763,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.8286981196146616
+      "rank_score": 0.8286981418563504
     },
     {
       "ticker": "UTTAMSUGAR.NS",
@@ -889,15 +889,15 @@
     },
     {
       "ticker": "UNOMINDA.NS",
-      "slope": 0.007601266509323542,
-      "r2": 0.6629294746688605,
+      "slope": 0.007601266189005034,
+      "r2": 0.6629294722180947,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.09615384615384616,
-      "pos": 0.09755797873593855,
+      "pos": 0.09755798035041209,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 48.47788795161405,
+      "annual_trend_pct": 48.47788547848286,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -909,7 +909,7 @@
       "recent_trend_pct": 66.96712812295596,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8217089394608365
+      "rank_score": 0.8217089380740061
     },
     {
       "ticker": "VCL.NS",
