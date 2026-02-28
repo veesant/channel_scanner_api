@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-02-27T20:25:06.074910+00:00",
+  "updated_utc": "2026-02-28T13:59:39.018774+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -21,6 +21,62 @@
     "only_actionable": false,
     "only_watchlist": true
   },
-  "count": 0,
-  "data": []
+  "count": 1,
+  "data": [
+    {
+      "ticker": "ULTRACEMCO.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 12677.0,
+      "sma_fast": 20,
+      "sma_slow": 50,
+      "sma_fast_now": 12876.0,
+      "sma_slow_now": 12398.52,
+      "trend_ok": true,
+      "recent_swing_high": 13095.0,
+      "recent_swing_high_date": "2026-02-18",
+      "resistance_level": 13095.0,
+      "pullback_from_swing_high_pct": 3.192058037418862,
+      "had_correction": true,
+      "bars_since_swing_high": 7,
+      "correction_age_ok": true,
+      "anchor_support_close": 12191.0,
+      "anchor_support_date": "2026-02-02",
+      "support_level": 12191.0,
+      "support_tolerance_pct": 1.0,
+      "support_floor": 12191.0,
+      "support_floor_adj": 12069.09,
+      "correction_close_low": 12677.0,
+      "support_held": true,
+      "close_above_sma_fast": false,
+      "rebound_ok": false,
+      "uptrend_window_used": 50,
+      "uptrend_hh_count": 5,
+      "uptrend_hl_count": 5,
+      "uptrend_pivot_highs": 7,
+      "uptrend_pivot_lows": 6,
+      "uptrend_overall_up": true,
+      "uptrend_ok": true,
+      "uptrend_actionable": true,
+      "watchlist_correction": true,
+      "actionable_after_correction": true,
+      "dist_to_support": 0.03986547453039127,
+      "actionable_reason": "watchlist_correction",
+      "priceQuality": {
+        "quality_n_bars": 50,
+        "long_wick_count": 17,
+        "max_long_wicks_allowed": 6,
+        "gap_thresh_pct": 2.5,
+        "gap_count": 1,
+        "max_gap_count_allowed": 2,
+        "max_gap_pct": 3.712770297837617,
+        "max_gap_pct_allowed": 6.0,
+        "avg_volume_50": 232629,
+        "price_quality_ok": false
+      },
+      "priceQualityOk": false,
+      "avgVolume50": 232629,
+      "rank_score": 2.879340329211495
+    }
+  ]
 }
