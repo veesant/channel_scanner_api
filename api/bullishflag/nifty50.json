@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-01-13T14:09:30.014787+00:00",
+  "updated_utc": "2026-03-01T14:00:01.918325+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,51 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
+  "count": 2,
   "data": [
     {
-      "ticker": "SHRIRAMFIN.NS",
+      "ticker": "SBIN.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 972.7999877929688,
-      "sma20": 959.407504272461,
-      "sma50": 881.959033203125,
+      "close": 1201.699951171875,
+      "sma20": 1164.4799926757812,
+      "sma50": 1072.9459985351561,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 14.578181404386317,
-      "pole_high": 1000.2000122070312,
-      "pole_range": 149.70001220703125,
+      "pole_gain_pct": 13.59296759776996,
+      "pole_high": 1225.5,
+      "pole_range": 174.5,
       "flag_bars": 8,
-      "flag_range": 64.5999755859375,
-      "pullback_from_pole_high_pct": 2.7394545170622306,
+      "flag_range": 45.7999267578125,
+      "pullback_from_pole_high_pct": 1.9420684478274175,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": true,
       "pattern": "bull_flag",
-      "rank_score": 2.0965416847919474
+      "rank_score": 2.594852624520882
+    },
+    {
+      "ticker": "EICHERMOT.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 8010.5,
+      "sma20": 7710.0,
+      "sma50": 7456.08,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 10.40879422878736,
+      "pole_high": 8119.0,
+      "pole_range": 1055.5,
+      "flag_bars": 8,
+      "flag_range": 458.0,
+      "pullback_from_pole_high_pct": 1.3363714743194974,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.3517865956508857
     }
   ]
 }
