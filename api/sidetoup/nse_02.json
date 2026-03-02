@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-02T14:32:17.800495+00:00",
+  "updated_utc": "2026-03-02T20:27:19.823439+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -2353,27 +2353,27 @@
     },
     {
       "ticker": "EMAMILTD.NS",
-      "slope": -0.006861629643322657,
-      "r2": 0.8258394447960614,
+      "slope": -0.006861630340839736,
+      "r2": 0.825839305893995,
       "inside": 0.9230769230769231,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.21068590763141368,
+      "pos": 0.2106861500838214,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -30.009085236349897,
+      "annual_trend_pct": -30.0090877749825,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -27.41277735389689,
+      "prior_trend_pct": -27.412782414154314,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -48.829590602465245,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8610819008656586
+      "rank_score": 0.8610818071693846
     },
     {
       "ticker": "FMGOETZE.NS",
@@ -2617,27 +2617,27 @@
     },
     {
       "ticker": "IRCTC.NS",
-      "slope": -0.008090722892926991,
-      "r2": 0.7834708289495189,
+      "slope": -0.00809072397633013,
+      "r2": 0.7834708485326163,
       "inside": 0.9230769230769231,
       "near_upper": 0.11538461538461539,
       "near_lower": 0.07692307692307693,
-      "pos": 0.07487976547951702,
+      "pos": 0.07487982512301207,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -34.34245015682696,
+      "annual_trend_pct": -34.34245385577383,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -27.528079046552932,
+      "prior_trend_pct": -27.52808360727301,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -59.869538111327216,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.853478207157577
+      "rank_score": 0.8534782109847762
     },
     {
       "ticker": "INDIAMART.NS",
@@ -4609,15 +4609,15 @@
     },
     {
       "ticker": "IEX.NS",
-      "slope": -0.008812883527315773,
-      "r2": 0.6656853711449688,
+      "slope": -0.008812883488871362,
+      "r2": 0.6656853609184314,
       "inside": 0.9230769230769231,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.5052358133796582,
+      "pos": 0.5052358109718675,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -36.762325277732245,
+      "annual_trend_pct": -36.76232515131321,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -4629,7 +4629,7 @@
       "recent_trend_pct": -3.838045362709619,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.7515498734652879
+      "rank_score": 0.7515498685927983
     },
     {
       "ticker": "JTEKTINDIA.NS",

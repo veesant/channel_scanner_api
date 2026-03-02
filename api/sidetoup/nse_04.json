@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-02T14:32:09.279955+00:00",
+  "updated_utc": "2026-03-02T20:24:34.881100+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -1585,27 +1585,27 @@
     },
     {
       "ticker": "UNIPARTS.NS",
-      "slope": 0.011106758355867953,
-      "r2": 0.8184778913144963,
+      "slope": 0.011106758164392595,
+      "r2": 0.8184779222818307,
       "inside": 0.9423076923076923,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.08581183440596749,
+      "pos": 0.08581179603903208,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 78.16705483813533,
+      "annual_trend_pct": 78.1670530641761,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 34.97139139864185,
+      "prior_trend_pct": 34.97139534431986,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 11.919301243474333,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8775808391397284
+      "rank_score": 0.877580858460089
     },
     {
       "ticker": "REFEX.NS",
@@ -2425,27 +2425,27 @@
     },
     {
       "ticker": "RITES.NS",
-      "slope": -0.00585934916716639,
-      "r2": 0.7677486762242557,
+      "slope": -0.005859349622573252,
+      "r2": 0.7677486678278442,
       "inside": 0.9487179487179487,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.10256410256410256,
-      "pos": 0.08937599156247869,
+      "pos": 0.08937607352973873,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -26.264524806438228,
+      "annual_trend_pct": -26.26452655257956,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -30.116909702428885,
+      "prior_trend_pct": -30.11691304447799,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -61.23355063573144,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8544239184430595
+      "rank_score": 0.8544239060481277
     },
     {
       "ticker": "SOMICONVEY.NS",
@@ -2473,15 +2473,15 @@
     },
     {
       "ticker": "TCIEXP.NS",
-      "slope": -0.010084496972926772,
-      "r2": 0.8412103184490086,
+      "slope": -0.010084497274596359,
+      "r2": 0.8412103330154386,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.47266785312593246,
+      "pos": 0.4726678705135995,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -40.80859512683356,
+      "annual_trend_pct": -40.80859605535838,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2493,7 +2493,7 @@
       "recent_trend_pct": -39.0440270781484,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8528255533990906
+      "rank_score": 0.8528255589435388
     },
     {
       "ticker": "THANGAMAYL.NS",
@@ -4249,15 +4249,15 @@
     },
     {
       "ticker": "RECLTD.NS",
-      "slope": -0.002716115661483892,
-      "r2": 0.6661482891559083,
+      "slope": -0.0027161158387637584,
+      "r2": 0.6661482684344346,
       "inside": 0.9230769230769231,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.07692307692307693,
-      "pos": 0.32741481067537453,
+      "pos": 0.3274148569497236,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -13.171737666391914,
+      "annual_trend_pct": -13.171738466822857,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -4269,7 +4269,7 @@
       "recent_trend_pct": -49.89445474480545,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.769563432741186
+      "rank_score": 0.7695634177530142
     },
     {
       "ticker": "SITINET.NS",
