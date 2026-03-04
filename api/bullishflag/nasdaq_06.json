@@ -1,0 +1,40 @@
+{
+  "updated_utc": "2026-03-04T14:34:45.607830+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 1,
+  "data": [
+    {
+      "ticker": "STRO",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 19.700000762939453,
+      "sma20": 17.42699990272522,
+      "sma50": 14.605999965667724,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 33.972595581352664,
+      "pole_high": 19.899999618530273,
+      "pole_range": 7.049999237060547,
+      "flag_bars": 8,
+      "flag_range": 3.4099998474121094,
+      "pullback_from_pole_high_pct": 1.0050193940937944,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.8588469120309696
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-03T20:29:07.321773+00:00",
+  "updated_utc": "2026-03-04T14:27:13.876108+00:00",
   "tf": "1d",
   "params": {
     "n_down": 40,
@@ -15,49 +15,28 @@
     "near_resistance_pct": 6.0,
     "breakout_wiggle_pct": 0.2
   },
-  "count": 2,
+  "count": 1,
   "data": [
     {
       "ticker": "RSI",
       "tf": "1d",
       "bars_used": 350,
-      "close": 19.950000762939453,
-      "sma20": 17.94950032234192,
-      "sma50": 18.48420015335083,
+      "close": 19.989999771118164,
+      "sma20": 18.054500341415405,
+      "sma50": 18.50020013809204,
       "trend_ok": true,
       "prior_downtrend_ok": true,
-      "down_slope": -0.08758160294108722,
+      "down_slope": -0.08992212529924976,
       "fresh_uptrend_ok": true,
-      "up_slope": 0.2772727272727273,
-      "up_hh_steps": 1,
-      "up_hl_steps": 1,
-      "up_pivot_highs": 3,
-      "up_pivot_lows": 2,
-      "resistance": 19.93000030517578,
-      "pullback_from_resistance_pct": -0.10035352462326753,
-      "state": "uptrend",
-      "rank_score": 2.566725587437211
-    },
-    {
-      "ticker": "VAC",
-      "tf": "1d",
-      "bars_used": 350,
-      "close": 67.37000274658203,
-      "sma20": 57.54300079345703,
-      "sma50": 58.44664642333984,
-      "trend_ok": true,
-      "prior_downtrend_ok": true,
-      "down_slope": -0.14166803306307624,
-      "fresh_uptrend_ok": true,
-      "up_slope": 1.0518791198730468,
+      "up_slope": 0.21806060328628077,
       "up_hh_steps": 1,
       "up_hl_steps": 1,
       "up_pivot_highs": 2,
       "up_pivot_lows": 2,
-      "resistance": 73.37000274658203,
-      "pullback_from_resistance_pct": 8.177729011028982,
+      "resistance": 19.93000030517578,
+      "pullback_from_resistance_pct": -0.3010510036309486,
       "state": "uptrend",
-      "rank_score": 1.4919490519107963
+      "rank_score": 2.600175167271825
     }
   ]
 }
