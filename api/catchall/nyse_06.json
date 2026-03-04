@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-04T14:33:55.999926+00:00",
+  "updated_utc": "2026-03-04T20:27:43.146931+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 260,
@@ -533,11 +533,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 4.491959355592322,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 69586,
+        "avg_volume_50": 69608,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 69586,
+      "avgVolume50": 69608,
       "rank_score": 2.9911582676245034
     },
     {
@@ -637,11 +637,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 10.067873417069677,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 1233210,
+        "avg_volume_50": 1233290,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 1233210,
+      "avgVolume50": 1233290,
       "rank_score": 2.9385072541682975
     },
     {
@@ -1217,58 +1217,6 @@
       "rank_score": 2.5755172063561393
     },
     {
-      "ticker": "WIW",
-      "tf": "1d",
-      "bars_used": 178,
-      "close": 8.630000114440918,
-      "sma_fast": 20,
-      "sma_slow": 50,
-      "sma_fast_now": 8.648444843292236,
-      "sma_slow_now": 8.546340732574462,
-      "trend_ok": true,
-      "recent_swing_high": 8.729999542236328,
-      "recent_swing_high_date": "2026-02-27",
-      "resistance_level": 8.729999542236328,
-      "pullback_from_swing_high_pct": 1.1454688778803042,
-      "had_correction": false,
-      "anchor_support_close": 8.569999694824219,
-      "anchor_support_date": "2026-02-23",
-      "support_level": 8.569999694824219,
-      "support_tolerance_pct": 1.0,
-      "support_floor": 8.569999694824219,
-      "support_floor_adj": 8.484299697875976,
-      "correction_close_low": 8.630000114440918,
-      "support_held": true,
-      "close_above_sma_fast": false,
-      "rebound_ok": false,
-      "uptrend_window_used": 50,
-      "uptrend_hh_count": 3,
-      "uptrend_hl_count": 4,
-      "uptrend_pivot_highs": 6,
-      "uptrend_pivot_lows": 6,
-      "uptrend_overall_up": true,
-      "uptrend_ok": true,
-      "uptrend_actionable": true,
-      "actionable_after_correction": true,
-      "dist_to_support": 0.00700121607389741,
-      "actionable_reason": "hh_hl_uptrend",
-      "priceQuality": {
-        "quality_n_bars": 50,
-        "long_wick_count": 18,
-        "max_long_wicks_allowed": 6,
-        "gap_thresh_pct": 2.5,
-        "gap_count": 0,
-        "max_gap_count_allowed": 2,
-        "max_gap_pct": 0.5793774732195822,
-        "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 250834,
-        "price_quality_ok": false
-      },
-      "priceQualityOk": false,
-      "avgVolume50": 250834,
-      "rank_score": 2.557545671714133
-    },
-    {
       "ticker": "WELL",
       "tf": "1d",
       "bars_used": 178,
@@ -1477,6 +1425,58 @@
       "rank_score": 2.520852896402902
     },
     {
+      "ticker": "WIW",
+      "tf": "1d",
+      "bars_used": 178,
+      "close": 8.630000114440918,
+      "sma_fast": 20,
+      "sma_slow": 50,
+      "sma_fast_now": 8.648444843292236,
+      "sma_slow_now": 8.546340618133545,
+      "trend_ok": true,
+      "recent_swing_high": 8.729999542236328,
+      "recent_swing_high_date": "2026-02-27",
+      "resistance_level": 8.729999542236328,
+      "pullback_from_swing_high_pct": 1.1454688778803042,
+      "had_correction": false,
+      "anchor_support_close": 8.569999694824219,
+      "anchor_support_date": "2026-02-23",
+      "support_level": 8.569999694824219,
+      "support_tolerance_pct": 1.0,
+      "support_floor": 8.569999694824219,
+      "support_floor_adj": 8.484299697875976,
+      "correction_close_low": 8.630000114440918,
+      "support_held": true,
+      "close_above_sma_fast": false,
+      "rebound_ok": false,
+      "uptrend_window_used": 50,
+      "uptrend_hh_count": 3,
+      "uptrend_hl_count": 3,
+      "uptrend_pivot_highs": 6,
+      "uptrend_pivot_lows": 6,
+      "uptrend_overall_up": true,
+      "uptrend_ok": true,
+      "uptrend_actionable": true,
+      "actionable_after_correction": true,
+      "dist_to_support": 0.00700121607389741,
+      "actionable_reason": "hh_hl_uptrend",
+      "priceQuality": {
+        "quality_n_bars": 50,
+        "long_wick_count": 18,
+        "max_long_wicks_allowed": 6,
+        "gap_thresh_pct": 2.5,
+        "gap_count": 0,
+        "max_gap_count_allowed": 2,
+        "max_gap_pct": 0.5793886993705119,
+        "max_gap_pct_allowed": 6.0,
+        "avg_volume_50": 250834,
+        "price_quality_ok": false
+      },
+      "priceQualityOk": false,
+      "avgVolume50": 250834,
+      "rank_score": 2.5075456717141327
+    },
+    {
       "ticker": "ZWS",
       "tf": "1d",
       "bars_used": 178,
@@ -1625,11 +1625,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 19.689273714491517,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 1625942,
+        "avg_volume_50": 1625972,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 1625942,
+      "avgVolume50": 1625972,
       "rank_score": 2.2550003916076813
     },
     {
@@ -1729,11 +1729,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 6.738699077787549,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 2329978,
+        "avg_volume_50": 2330016,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 2329978,
+      "avgVolume50": 2330016,
       "rank_score": 2.2361788408341607
     },
     {
@@ -1833,11 +1833,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 4.491807280993852,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 20272740,
+        "avg_volume_50": 20273274,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 20272740,
+      "avgVolume50": 20273274,
       "rank_score": 2.20874208620505
     },
     {
@@ -1989,11 +1989,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 3.1687569259105377,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 7406190,
+        "avg_volume_50": 7406244,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 7406190,
+      "avgVolume50": 7406244,
       "rank_score": 1.9035829363814405
     },
     {
@@ -2093,11 +2093,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 15.697783907783522,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 8348348,
+        "avg_volume_50": 8348548,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 8348348,
+      "avgVolume50": 8348548,
       "rank_score": 1.7119073717497955
     },
     {
@@ -2717,11 +2717,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 4.999995364083061,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 361446,
+        "avg_volume_50": 361494,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 361446,
+      "avgVolume50": 361494,
       "rank_score": 1.2329268199606072
     },
     {
@@ -2925,11 +2925,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 6.121247650756041,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 6612180,
+        "avg_volume_50": 6612426,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 6612180,
+      "avgVolume50": 6612426,
       "rank_score": 1.2141704681793613
     },
     {
@@ -3237,11 +3237,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 14.838703673538198,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 1054330,
+        "avg_volume_50": 1054402,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 1054330,
+      "avgVolume50": 1054402,
       "rank_score": 1.164048321612407
     },
     {
@@ -3393,11 +3393,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 9.866602160517465,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 2241522,
+        "avg_volume_50": 2241610,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 2241522,
+      "avgVolume50": 2241610,
       "rank_score": 1.1428125835024343
     },
     {
@@ -3549,11 +3549,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 3.003416855895952,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 15940598,
+        "avg_volume_50": 15940616,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 15940598,
+      "avgVolume50": 15940616,
       "rank_score": 1.1254849939817326
     },
     {
@@ -3705,11 +3705,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 5.067562669450364,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 1161660,
+        "avg_volume_50": 1161696,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 1161660,
+      "avgVolume50": 1161696,
       "rank_score": 1.0686696384296215
     },
     {
@@ -3757,11 +3757,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 3.157904934148114,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 631260,
+        "avg_volume_50": 631364,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 631260,
+      "avgVolume50": 631364,
       "rank_score": 1.0455926854245319
     },
     {
@@ -3876,7 +3876,7 @@
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 11.047867822647095,
-      "sma_slow_now": 11.01386827468872,
+      "sma_slow_now": 11.013868236541748,
       "trend_ok": false,
       "recent_swing_high": 11.348175981261244,
       "recent_swing_high_date": "2026-02-05",
@@ -4069,11 +4069,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 19.245281966397197,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 2725206,
+        "avg_volume_50": 2726412,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 2725206,
+      "avgVolume50": 2726412,
       "rank_score": 0.7894701865107656
     },
     {
@@ -4121,11 +4121,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 6.060608249941017,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 9669610,
+        "avg_volume_50": 9669640,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 9669610,
+      "avgVolume50": 9669640,
       "rank_score": 0.7818211051997093
     },
     {
@@ -4173,11 +4173,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 5.126958827531908,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 1011308,
+        "avg_volume_50": 1011322,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 1011308,
+      "avgVolume50": 1011322,
       "rank_score": 0.7583462646861994
     },
     {
@@ -4381,11 +4381,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 6.7097391227657415,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 9273424,
+        "avg_volume_50": 9273804,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 9273424,
+      "avgVolume50": 9273804,
       "rank_score": 0.5977754796094931
     },
     {
@@ -4485,11 +4485,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 34.99999226750581,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 4409388,
+        "avg_volume_50": 4409424,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 4409388,
+      "avgVolume50": 4409424,
       "rank_score": 0.5658558158446254
     },
     {
@@ -4693,11 +4693,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 1.2621917851747992,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 1652440,
+        "avg_volume_50": 1652456,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 1652440,
+      "avgVolume50": 1652456,
       "rank_score": -0.0007088632409349427
     },
     {
@@ -4760,7 +4760,7 @@
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 6.821916627883911,
-      "sma_slow_now": 6.486111822128296,
+      "sma_slow_now": 6.4861118125915525,
       "trend_ok": true,
       "recent_swing_high": 6.4520649909973145,
       "recent_swing_high_date": "2026-01-29",

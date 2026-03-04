@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-04T14:31:21.197200+00:00",
+  "updated_utc": "2026-03-04T20:31:09.988371+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -73,15 +73,15 @@
     },
     {
       "ticker": "BEPL.NS",
-      "slope": -0.009153282004703056,
-      "r2": 0.9527714895210521,
+      "slope": -0.009153282427951446,
+      "r2": 0.9527715397975008,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.18967334208701558,
+      "pos": 0.18967325002357271,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -37.871829225163054,
+      "annual_trend_pct": -37.871830592536746,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -93,7 +93,7 @@
       "recent_trend_pct": -40.58107989642178,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9471620002954142
+      "rank_score": 0.9471620346399829
     },
     {
       "ticker": "ASHIMASYN.NS",
@@ -889,15 +889,15 @@
     },
     {
       "ticker": "BPCL.NS",
-      "slope": 0.006586081706711838,
-      "r2": 0.856491250134136,
+      "slope": 0.006586081776054524,
+      "r2": 0.8564912810075708,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.16290454415512376,
+      "pos": 0.16290450548591745,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 40.843090126913204,
+      "annual_trend_pct": 40.84309063476799,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -909,7 +909,7 @@
       "recent_trend_pct": -0.25666427677556447,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.904262862959248
+      "rank_score": 0.904262882262886
     },
     {
       "ticker": "CORALFINAC.NS",
@@ -1825,27 +1825,27 @@
     },
     {
       "ticker": "CONCOR.NS",
-      "slope": -0.005206831207367098,
-      "r2": 0.790501690294407,
+      "slope": -0.005206830087858355,
+      "r2": 0.7905016329163324,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.18148484022826836,
+      "pos": 0.1814847908873395,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -23.719680960308853,
+      "annual_trend_pct": -23.719676519691557,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -18.730792855840917,
+      "prior_trend_pct": -18.730786962247404,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -47.618937140872156,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8668459508679665
+      "rank_score": 0.866845927113022
     },
     {
       "ticker": "BAJEL.NS",
@@ -2209,27 +2209,27 @@
     },
     {
       "ticker": "ACCELYA.NS",
-      "slope": -0.006254486764028763,
-      "r2": 0.769224922859953,
+      "slope": -0.0062544856363620175,
+      "r2": 0.7692249516604491,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.362678250842993,
+      "pos": 0.3626781441186978,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -27.764120080078502,
+      "annual_trend_pct": -27.764115844262406,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -26.05155898175432,
+      "prior_trend_pct": -26.051552454856765,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -50.97169743064913,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8483446363456772
+      "rank_score": 0.8483446614183549
     },
     {
       "ticker": "ACE.NS",
@@ -3241,15 +3241,15 @@
     },
     {
       "ticker": "CRISIL.NS",
-      "slope": -0.007223378463414326,
-      "r2": 0.7348798416331958,
+      "slope": -0.007223378230618404,
+      "r2": 0.7348798403478319,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.577182082139051,
+      "pos": 0.5771820734817588,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -31.313374130334637,
+      "annual_trend_pct": -31.313373298856384,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -3261,7 +3261,7 @@
       "recent_trend_pct": -59.647437062453655,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8097217126026928
+      "rank_score": 0.80972171282574
     },
     {
       "ticker": "BANSWRAS.NS",
@@ -3505,27 +3505,27 @@
     },
     {
       "ticker": "BDL.NS",
-      "slope": -0.007981170282123523,
-      "r2": 0.666705067309904,
+      "slope": -0.007981170152123716,
+      "r2": 0.6667049795761206,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.37920692717893933,
+      "pos": 0.37920695791992715,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -33.96734903303427,
+      "annual_trend_pct": -33.96734858665421,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -19.938984367871637,
+      "prior_trend_pct": -19.938979714958627,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -73.25066551489024,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.7851754306806479
+      "rank_score": 0.7851753837396575
     },
     {
       "ticker": "BUTTERFLY.NS",
@@ -3913,15 +3913,15 @@
     },
     {
       "ticker": "COLPAL.NS",
-      "slope": -0.003245690284555014,
-      "r2": 0.6668569861865443,
+      "slope": -0.003245689965798906,
+      "r2": 0.6668569805395799,
       "inside": 0.9230769230769231,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.8088339195391042,
+      "pos": 0.8088339146973745,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -15.530181656608978,
+      "annual_trend_pct": -15.530180256494896,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -3933,7 +3933,7 @@
       "recent_trend_pct": 71.40286250241044,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.721775870370131
+      "rank_score": 0.7217758680308217
     }
   ]
 }

@@ -1,0 +1,62 @@
+{
+  "updated_utc": "2026-03-04T20:20:26.736330+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 2,
+  "data": [
+    {
+      "ticker": "ICHR",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 45.4900016784668,
+      "sma20": 43.77150039672851,
+      "sma50": 32.57080017089844,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 67.74193332652966,
+      "pole_high": 48.720001220703125,
+      "pole_range": 21.475000381469727,
+      "flag_bars": 8,
+      "flag_range": 11.410003662109375,
+      "pullback_from_pole_high_pct": 6.629719748167348,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.1144739263152084
+    },
+    {
+      "ticker": "GFS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 47.220001220703125,
+      "sma20": 45.90625,
+      "sma50": 42.45489990234375,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 10.91041560366628,
+      "pole_high": 50.97999954223633,
+      "pole_range": 10.979999542236328,
+      "flag_bars": 8,
+      "flag_range": 4.8600006103515625,
+      "pullback_from_pole_high_pct": 7.375438123372459,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.8078157387491451
+    }
+  ]
+}
