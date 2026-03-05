@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-04T20:20:25.488761+00:00",
+  "updated_utc": "2026-03-05T14:30:31.826713+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,51 +12,6 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 2,
-  "data": [
-    {
-      "ticker": "SBIN.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 1189.9000244140625,
-      "sma20": 1172.5399963378907,
-      "sma50": 1077.1929992675782,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 13.54448294495226,
-      "pole_high": 1225.5,
-      "pole_range": 174.5,
-      "flag_bars": 8,
-      "flag_range": 55.2999267578125,
-      "pullback_from_pole_high_pct": 2.9049347683343534,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": true,
-      "pattern": "bull_flag",
-      "rank_score": 2.1807375171360426
-    },
-    {
-      "ticker": "EICHERMOT.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 7826.0,
-      "sma20": 7752.025,
-      "sma50": 7470.47,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 11.096469935501768,
-      "pole_high": 8119.0,
-      "pole_range": 1055.5,
-      "flag_bars": 8,
-      "flag_range": 514.5,
-      "pullback_from_pole_high_pct": 3.6088188200517304,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 1.7424123172393233
-    }
-  ]
+  "count": 0,
+  "data": []
 }

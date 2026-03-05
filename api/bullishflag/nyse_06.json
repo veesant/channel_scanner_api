@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-04T20:22:07.932465+00:00",
+  "updated_utc": "2026-03-05T14:37:02.693862+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,51 +12,29 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 2,
+  "count": 1,
   "data": [
     {
       "ticker": "ZIM",
       "tf": "1d",
       "bars_used": 320,
-      "close": 27.90999984741211,
-      "sma20": 25.37350015640259,
-      "sma50": 23.229400024414062,
+      "close": 28.850000381469727,
+      "sma20": 25.728000164031982,
+      "sma50": 23.421400032043458,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 43.53172855229611,
+      "pole_gain_pct": 41.537717726425704,
       "pole_high": 29.969999313354492,
-      "pole_range": 9.899999618530273,
+      "pole_range": 9.789999008178711,
       "flag_bars": 8,
-      "flag_range": 1.7249984741210938,
-      "pullback_from_pole_high_pct": 6.873538582379803,
+      "flag_range": 1.635000228881836,
+      "pullback_from_pole_high_pct": 3.737066925409302,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 2.7095962052880056
-    },
-    {
-      "ticker": "ZBH",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 97.97000122070312,
-      "sma20": 95.53750038146973,
-      "sma50": 91.76018142700195,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 11.8561887130193,
-      "pole_high": 99.56999969482422,
-      "pole_range": 12.199996948242188,
-      "flag_bars": 8,
-      "flag_range": 5.2299957275390625,
-      "pullback_from_pole_high_pct": 1.606908184217122,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": true,
-      "pattern": "bull_flag",
-      "rank_score": 2.3426929048747827
+      "rank_score": 2.721654682580333
     }
   ]
 }

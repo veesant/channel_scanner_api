@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-04T20:22:11.782086+00:00",
+  "updated_utc": "2026-03-05T14:34:00.595616+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,51 +12,29 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 2,
+  "count": 1,
   "data": [
     {
       "ticker": "WEALTH.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 941.4500122070312,
-      "sma20": 925.3858581542969,
-      "sma50": 893.2505114746094,
+      "close": 945.4000244140625,
+      "sma20": 931.0161895751953,
+      "sma50": 893.2283129882812,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 18.52654074033569,
+      "pole_gain_pct": 14.4137744133428,
       "pole_high": 1004.9500122070312,
-      "pole_range": 233.6183016092898,
+      "pole_range": 192.26228001005938,
       "flag_bars": 8,
-      "flag_range": 78.0,
-      "pullback_from_pole_high_pct": 6.318722247740843,
+      "flag_range": 79.85003662109375,
+      "pullback_from_pole_high_pct": 5.925666657009878,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 2.369863784332858
-    },
-    {
-      "ticker": "WHIRLPOOL.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 914.3499755859375,
-      "sma20": 893.0800018310547,
-      "sma50": 865.8649963378906,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 11.809941936854882,
-      "pole_high": 945.5999755859375,
-      "pole_range": 154.0999755859375,
-      "flag_bars": 8,
-      "flag_range": 59.95001220703125,
-      "pullback_from_pole_high_pct": 3.304780119165724,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 1.9421083697725192
+      "rank_score": 2.028491611793124
     }
   ]
 }
