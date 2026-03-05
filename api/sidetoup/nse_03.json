@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-05T14:34:43.380109+00:00",
+  "updated_utc": "2026-03-05T20:29:00.220054+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -817,27 +817,27 @@
     },
     {
       "ticker": "NATIONALUM.NS",
-      "slope": 0.028501514036998108,
-      "r2": 0.9365725950482063,
+      "slope": 0.02850151428889945,
+      "r2": 0.9365725919158837,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.4889928389930833,
+      "pos": 0.48899283685764416,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 340.2086926358275,
+      "annual_trend_pct": 340.208698402064,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 414.3590650580947,
+      "prior_trend_pct": 414.35907179331383,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 29.25471330922047,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.9193870136247949
+      "rank_score": 0.9193870122721775
     },
     {
       "ticker": "PGHL.NS",
@@ -2281,15 +2281,15 @@
     },
     {
       "ticker": "LLOYDSENT.NS",
-      "slope": -0.011897481720760572,
-      "r2": 0.7914628157586411,
+      "slope": -0.011897481780125719,
+      "r2": 0.7914628630973843,
       "inside": 0.9487179487179487,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.20362950894462697,
+      "pos": 0.2036294693945558,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -46.13391082994154,
+      "annual_trend_pct": -46.13391099622548,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2301,7 +2301,7 @@
       "recent_trend_pct": -86.59824729564004,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8548556364720374
+      "rank_score": 0.854855664096416
     },
     {
       "ticker": "NAVINFLUOR.NS",
@@ -2857,15 +2857,15 @@
     },
     {
       "ticker": "MOTHERSON.NS",
-      "slope": 0.00756884849792892,
-      "r2": 0.8028002617423289,
+      "slope": 0.007568848681305923,
+      "r2": 0.8028002716211157,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.532759939666118,
+      "pos": 0.5327599267450928,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 48.22780418961037,
+      "annual_trend_pct": 48.22780560305202,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -2877,7 +2877,7 @@
       "recent_trend_pct": 287.8754662040041,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.840431829212245
+      "rank_score": 0.8404318354437409
     },
     {
       "ticker": "METROBRAND.NS",
@@ -3265,15 +3265,15 @@
     },
     {
       "ticker": "MAHABANK.NS",
-      "slope": 0.007404257183450953,
-      "r2": 0.8334789443913799,
+      "slope": 0.007404256671981243,
+      "r2": 0.8334789437960816,
       "inside": 0.9807692307692307,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.057692307692307696,
-      "pos": 0.8391865878202966,
+      "pos": 0.8391866510866958,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 46.96457326365022,
+      "annual_trend_pct": 46.96456935491804,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": true,
@@ -3285,7 +3285,7 @@
       "recent_trend_pct": 277.3421877983129,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8251285057213527
+      "rank_score": 0.8251284990970635
     },
     {
       "ticker": "OCCLLTD.NS",
@@ -3505,15 +3505,15 @@
     },
     {
       "ticker": "MGL.NS",
-      "slope": -0.007508753313589544,
-      "r2": 0.7756818236135316,
+      "slope": -0.0075087531773516064,
+      "r2": 0.7756818644880841,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.6428074471019725,
+      "pos": 0.6428074637927023,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -32.32512329148377,
+      "annual_trend_pct": -32.32512281204971,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -3525,7 +3525,7 @@
       "recent_trend_pct": 104.22114404599219,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8133037568401583
+      "rank_score": 0.8133037756083616
     },
     {
       "ticker": "NATCAPSUQ.NS",
