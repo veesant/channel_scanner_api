@@ -1,0 +1,62 @@
+{
+  "updated_utc": "2026-03-06T20:20:40.149071+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 2,
+  "data": [
+    {
+      "ticker": "AXISCADES.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 1472.4000244140625,
+      "sma20": 1382.4250061035157,
+      "sma50": 1326.1700048828125,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 19.72703272790417,
+      "pole_high": 1546.9000244140625,
+      "pole_range": 409.0999755859375,
+      "flag_bars": 8,
+      "flag_range": 179.0999755859375,
+      "pullback_from_pole_high_pct": 4.816083704453961,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.2567012401018176
+    },
+    {
+      "ticker": "AEROFLEX.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 223.72999572753906,
+      "sma20": 210.60200042724608,
+      "sma50": 194.44820098876954,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 13.552001008096587,
+      "pole_high": 233.99000549316406,
+      "pole_range": 48.760009765625,
+      "flag_bars": 8,
+      "flag_range": 26.889999389648438,
+      "pullback_from_pole_high_pct": 4.3848068399334865,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.7584725550488076
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-06T14:26:05.157374+00:00",
+  "updated_utc": "2026-03-06T20:22:29.824886+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -97,27 +97,27 @@
     },
     {
       "ticker": "BEPL.NS",
-      "slope": -0.009134564364128224,
-      "r2": 0.9531583422305744,
+      "slope": -0.009134563506112435,
+      "r2": 0.9531582914391272,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.23518783593157902,
+      "pos": 0.23518784316276853,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -37.81132936311072,
+      "annual_trend_pct": -37.81132658844988,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -44.41748032353775,
+      "prior_trend_pct": -44.41748424484968,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -38.3935912877402,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9428039772657191
+      "rank_score": 0.9428039511468764
     },
     {
       "ticker": "ASHIMASYN.NS",
@@ -601,15 +601,15 @@
     },
     {
       "ticker": "BPCL.NS",
-      "slope": 0.006563670733393503,
-      "r2": 0.8538672309973386,
+      "slope": 0.0065636707605445715,
+      "r2": 0.853867276244881,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.10745321388904366,
+      "pos": 0.10745315011241051,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 40.67905133025948,
+      "annual_trend_pct": 40.679051528877984,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -621,7 +621,7 @@
       "recent_trend_pct": -7.599732128082093,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.9084959864174573
+      "rank_score": 0.9084960154188918
     },
     {
       "ticker": "DCW.NS",
@@ -793,15 +793,15 @@
     },
     {
       "ticker": "CLEAN.NS",
-      "slope": -0.017762093046042822,
-      "r2": 0.9657085998084501,
+      "slope": -0.017762093023682143,
+      "r2": 0.9657086255599703,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.7171034471225011,
+      "pos": 0.7171035237048439,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -60.292449934104276,
+      "annual_trend_pct": -60.29244988793412,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -813,7 +813,7 @@
       "recent_trend_pct": -75.43367014434568,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9008875449355647
+      "rank_score": 0.9008875501530904
     },
     {
       "ticker": "ANIKINDS.NS",
@@ -1129,15 +1129,15 @@
     },
     {
       "ticker": "BAJAJHLDNG.NS",
-      "slope": -0.00826618945865972,
-      "r2": 0.8983637600031512,
+      "slope": -0.008266189190112157,
+      "r2": 0.8983637459409645,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.5690457320901624,
+      "pos": 0.5690457028967817,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -34.938802033167605,
+      "annual_trend_pct": -34.938801124622245,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -1149,7 +1149,7 @@
       "recent_trend_pct": -18.56233351878942,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8820208965361491
+      "rank_score": 0.8820208924243939
     },
     {
       "ticker": "DEEPINDS.NS",
@@ -2281,15 +2281,15 @@
     },
     {
       "ticker": "CHAMBLFERT.NS",
-      "slope": -0.00683588279565523,
-      "r2": 0.8014385080127242,
+      "slope": -0.006835882649713446,
+      "r2": 0.8014384874746792,
       "inside": 0.9743589743589743,
       "near_upper": 0.10256410256410256,
       "near_lower": 0.07692307692307693,
-      "pos": 0.4917444801861019,
+      "pos": 0.49174447260089243,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -29.91531611774978,
+      "annual_trend_pct": -29.91531558587901,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2301,7 +2301,7 @@
       "recent_trend_pct": 10.73829607358412,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8412883957313417
+      "rank_score": 0.8412883862208401
     },
     {
       "ticker": "ANURAS.NS",
@@ -2665,27 +2665,27 @@
     },
     {
       "ticker": "COCHINSHIP.NS",
-      "slope": -0.009561013419315756,
-      "r2": 0.8535827024207842,
+      "slope": -0.009561013926647901,
+      "r2": 0.8535826968243785,
       "inside": 0.9230769230769231,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.6455136689744398,
+      "pos": 0.6455136898582218,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -39.17520683420407,
+      "annual_trend_pct": -39.17520843883943,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -43.28555192406649,
+      "prior_trend_pct": -43.28555435618343,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -52.00783904609827,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8314707535437172
+      "rank_score": 0.8314707486571363
     },
     {
       "ticker": "BOHRAIND.NS",
@@ -3169,15 +3169,15 @@
     },
     {
       "ticker": "CCL.NS",
-      "slope": 0.009921391413708796,
-      "r2": 0.7064220776995545,
+      "slope": 0.00992139211054752,
+      "r2": 0.7064220735349451,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.33451104958934813,
+      "pos": 0.3345110365089489,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 67.5166148534865,
+      "annual_trend_pct": 67.51662092355397,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -3189,7 +3189,7 @@
       "recent_trend_pct": 61.51301199805683,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8120676261985348
+      "rank_score": 0.8120676254242699
     },
     {
       "ticker": "ACCELYA.NS",
@@ -3865,15 +3865,15 @@
     },
     {
       "ticker": "BLISSGVS.NS",
-      "slope": 0.009422077880069298,
-      "r2": 0.7073915726076843,
+      "slope": 0.009422078182815185,
+      "r2": 0.7073915965467492,
       "inside": 0.9615384615384616,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.7768158369475897,
+      "pos": 0.7768158398532338,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 63.22314229445099,
+      "annual_trend_pct": 63.22314486403804,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -3885,7 +3885,7 @@
       "recent_trend_pct": 745.7778020805804,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7606295872244677
+      "rank_score": 0.7606295989034358
     },
     {
       "ticker": "AMBICAAGAR.NS",
@@ -4057,15 +4057,15 @@
     },
     {
       "ticker": "COLPAL.NS",
-      "slope": -0.003224952692260899,
-      "r2": 0.6607537817111522,
+      "slope": -0.0032249523735048834,
+      "r2": 0.660753775474046,
       "inside": 0.9230769230769231,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.8695168536013327,
+      "pos": 0.8695168539629845,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -15.43904409211947,
+      "annual_trend_pct": -15.439042690495164,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -4077,7 +4077,7 @@
       "recent_trend_pct": 83.97085009527198,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7126559747262121
+      "rank_score": 0.7126559715714939
     }
   ]
 }

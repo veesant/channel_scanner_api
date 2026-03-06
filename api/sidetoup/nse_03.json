@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-06T14:25:24.371131+00:00",
+  "updated_utc": "2026-03-06T20:28:00.457177+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -697,27 +697,27 @@
     },
     {
       "ticker": "NATIONALUM.NS",
-      "slope": 0.02850583064113202,
-      "r2": 0.9365922900595862,
+      "slope": 0.028505830389230692,
+      "r2": 0.936592293190854,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.490894553546307,
+      "pos": 0.49089455574875523,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 340.30751447280164,
+      "annual_trend_pct": 340.3075087052713,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 414.3590995690407,
+      "prior_trend_pct": 414.35909283382057,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 29.740456458952067,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.9192066896751624
+      "rank_score": 0.9192066910205515
     },
     {
       "ticker": "PRECAM.NS",
@@ -1009,27 +1009,27 @@
     },
     {
       "ticker": "PAGEIND.NS",
-      "slope": -0.0128221862840122,
-      "r2": 0.95617730978824,
+      "slope": -0.012822185409373762,
+      "r2": 0.9561772563680823,
       "inside": 0.9230769230769231,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.46875515401234474,
+      "pos": 0.4687550848277674,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -48.66275566335895,
+      "annual_trend_pct": -48.66275332847948,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -51.445237294647185,
+      "prior_trend_pct": -51.44523351275112,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -53.66893075199934,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9004439087236548
+      "rank_score": 0.9004438889320336
     },
     {
       "ticker": "KCPSUGIND.NS",
@@ -2185,15 +2185,15 @@
     },
     {
       "ticker": "PANSARI.NS",
-      "slope": 0.01170358674332066,
-      "r2": 0.7702936754592451,
+      "slope": 0.011695097743386717,
+      "r2": 0.7696661443415398,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.17304402401191146,
+      "pos": 0.16408322268048592,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 83.78318062859478,
+      "annual_trend_pct": 83.70207149060673,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -2202,10 +2202,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 69.95751342786033,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 20.614648063237297,
+      "recent_trend_pct": 17.171028804529875,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.852457819943816
+      "rank_score": 0.853040134518106
     },
     {
       "ticker": "MANORG.NS",
@@ -2257,15 +2257,15 @@
     },
     {
       "ticker": "MOTHERSON.NS",
-      "slope": 0.007506445019768738,
-      "r2": 0.7998427415696916,
+      "slope": 0.007506445203145611,
+      "r2": 0.7998427514535207,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.41621477075004865,
+      "pos": 0.4162147570743493,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 47.747587370034836,
+      "annual_trend_pct": 47.74758877889636,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -2277,7 +2277,7 @@
       "recent_trend_pct": 213.48508113429455,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8506075860175333
+      "rank_score": 0.8506075923270177
     },
     {
       "ticker": "NAVINFLUOR.NS",
@@ -2497,15 +2497,15 @@
     },
     {
       "ticker": "MGL.NS",
-      "slope": -0.007677983820275004,
-      "r2": 0.7845442036673083,
+      "slope": -0.007677983956512991,
+      "r2": 0.7845441635890629,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.4272104516266231,
+      "pos": 0.427210464230876,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -32.91804858900773,
+      "annual_trend_pct": -32.91804906424145,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2517,7 +2517,7 @@
       "recent_trend_pct": 47.281621607473156,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8392946464145815
+      "rank_score": 0.8392946251150336
     },
     {
       "ticker": "NDRAUTO.NS",
@@ -2761,15 +2761,15 @@
     },
     {
       "ticker": "MAHABANK.NS",
-      "slope": 0.007365489244738513,
-      "r2": 0.8343436852797315,
+      "slope": 0.007365489756208281,
+      "r2": 0.8343436853431636,
       "inside": 0.9807692307692307,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.057692307692307696,
-      "pos": 0.7592220922257973,
+      "pos": 0.7592220333799926,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 46.66860098839889,
+      "annual_trend_pct": 46.66860488925981,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -2781,7 +2781,7 @@
       "recent_trend_pct": 230.58724050955672,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8335573257249783
+      "rank_score": 0.8335573316412748
     },
     {
       "ticker": "KRITI.NS",
@@ -3001,15 +3001,15 @@
     },
     {
       "ticker": "OCCLLTD.NS",
-      "slope": -0.012694370447838785,
-      "r2": 0.7650884155274518,
+      "slope": -0.012694370125346882,
+      "r2": 0.7650884107769127,
       "inside": 0.9230769230769231,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.25840274564452875,
+      "pos": 0.2584027323294758,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -48.32041017084598,
+      "annual_trend_pct": -48.32040930420101,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -3021,7 +3021,7 @@
       "recent_trend_pct": -64.4869541995697,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8259347024300423
+      "rank_score": 0.825934701386278
     },
     {
       "ticker": "PNBGILTS.NS",

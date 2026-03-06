@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-06T14:25:17.802057+00:00",
+  "updated_utc": "2026-03-06T20:20:41.545707+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -21,7 +21,7 @@
     "prior_trend_weeks": 20,
     "recent_trend_weeks": 6
   },
-  "count": 170,
+  "count": 169,
   "data": [
     {
       "ticker": "TTKHLTCARE.NS",
@@ -1441,15 +1441,15 @@
     },
     {
       "ticker": "UNIPARTS.NS",
-      "slope": 0.011141955257086845,
-      "r2": 0.8212695489589428,
+      "slope": 0.011141955847698129,
+      "r2": 0.8212695574063553,
       "inside": 0.9423076923076923,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.13067553394579035,
+      "pos": 0.13067551905786534,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 78.49344169792194,
+      "annual_trend_pct": 78.4934471797745,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -1461,7 +1461,7 @@
       "recent_trend_pct": 26.20143069111944,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8744902980079693
+      "rank_score": 0.8744903037204681
     },
     {
       "ticker": "SCILAL.NS",
@@ -2473,15 +2473,15 @@
     },
     {
       "ticker": "RITES.NS",
-      "slope": -0.005808757586011043,
-      "r2": 0.7696971837737738,
+      "slope": -0.0058087577570731744,
+      "r2": 0.7696972211072652,
       "inside": 0.9487179487179487,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.1653324227381561,
+      "pos": 0.16533239767955807,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -26.070288921830066,
+      "annual_trend_pct": -26.07028957945191,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -2493,7 +2493,7 @@
       "recent_trend_pct": -57.25434750949032,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8478025291002508
+      "rank_score": 0.8478025502728563
     },
     {
       "ticker": "SIMBHALS.NS",
@@ -2761,15 +2761,15 @@
     },
     {
       "ticker": "TCIEXP.NS",
-      "slope": -0.0099706580043271,
-      "r2": 0.8374874469627547,
+      "slope": -0.009970658305996591,
+      "r2": 0.8374874615598108,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.6059075070629883,
+      "pos": 0.6059075275540884,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -40.45716498450067,
+      "annual_trend_pct": -40.45716591853802,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2781,7 +2781,7 @@
       "recent_trend_pct": -24.05391469198388,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.837640152262258
+      "rank_score": 0.837640157511676
     },
     {
       "ticker": "SUPREMEINF.NS",
@@ -2926,30 +2926,6 @@
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.8295762898722179
-    },
-    {
-      "ticker": "SILVERTUC.NS",
-      "slope": 0.03600633486807564,
-      "r2": 0.7656176389970705,
-      "inside": 0.9615384615384616,
-      "near_upper": 0.07692307692307693,
-      "near_lower": 0.038461538461538464,
-      "pos": 0.3795912579760279,
-      "k": 2.0,
-      "lookback": 26.0,
-      "annual_trend_pct": 550.3427939136683,
-      "trend_type": "Ascending",
-      "near_support": false,
-      "near_resistance": false,
-      "action_zone": "Mid Channel",
-      "prior_trend_weeks": 20,
-      "recent_trend_weeks": 6,
-      "prior_trend_pct": 629.5561275497088,
-      "prior_trend_type": "Ascending",
-      "recent_trend_pct": 55.36765454881205,
-      "recent_trend_type": "Ascending",
-      "previously_descending": false,
-      "rank_score": 0.8294650783163171
     },
     {
       "ticker": "SPECIALITY.NS",
@@ -3313,15 +3289,15 @@
     },
     {
       "ticker": "SHRIPISTON.NS",
-      "slope": 0.006940548600042178,
-      "r2": 0.7153550853929018,
+      "slope": 0.006940548978493418,
+      "r2": 0.715355101661572,
       "inside": 0.9487179487179487,
       "near_upper": 0.10256410256410256,
       "near_lower": 0.05128205128205128,
-      "pos": 0.24860352998393195,
+      "pos": 0.24860351097491254,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 43.4632225052944,
+      "annual_trend_pct": 43.46322532857383,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -3333,7 +3309,7 @@
       "recent_trend_pct": 87.29635373812602,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8123043691852372
+      "rank_score": 0.8123043792204743
     },
     {
       "ticker": "SAGARDEEP.NS",
@@ -3913,27 +3889,27 @@
     },
     {
       "ticker": "RECLTD.NS",
-      "slope": -0.0027148319686911603,
-      "r2": 0.6660583031969517,
+      "slope": -0.0027148318443256138,
+      "r2": 0.6660582288747827,
       "inside": 0.9230769230769231,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.07692307692307693,
-      "pos": 0.3320515143898317,
+      "pos": 0.3320515212941499,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -13.165941510584222,
+      "annual_trend_pct": -13.165940949027632,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -9.314006219333859,
+      "prior_trend_pct": -9.314006594792424,
       "prior_trend_type": "Sideways",
       "recent_trend_pct": -49.6744310837231,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.7690547693902618
+      "rank_score": 0.7690547315387456
     },
     {
       "ticker": "SAILIFE.NS",

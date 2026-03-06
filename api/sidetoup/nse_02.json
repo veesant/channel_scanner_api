@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-06T14:30:35.568417+00:00",
+  "updated_utc": "2026-03-06T20:19:32.134864+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -21,7 +21,7 @@
     "prior_trend_weeks": 20,
     "recent_trend_weeks": 6
   },
-  "count": 177,
+  "count": 176,
   "data": [
     {
       "ticker": "GOCOLORS.NS",
@@ -1680,30 +1680,6 @@
       "rank_score": 0.8744561017513486
     },
     {
-      "ticker": "KAPSTON.NS",
-      "slope": 0.022013000542349774,
-      "r2": 0.8534287775243954,
-      "inside": 1.0,
-      "near_upper": 0.07692307692307693,
-      "near_lower": 0.038461538461538464,
-      "pos": 0.5256842639280518,
-      "k": 2.0,
-      "lookback": 26.0,
-      "annual_trend_pct": 214.1423459357215,
-      "trend_type": "Ascending",
-      "near_support": false,
-      "near_resistance": false,
-      "action_zone": "Mid Channel",
-      "prior_trend_weeks": 20,
-      "recent_trend_weeks": 6,
-      "prior_trend_pct": 165.45572836958007,
-      "prior_trend_type": "Ascending",
-      "recent_trend_pct": 40.78680446361827,
-      "recent_trend_type": "Ascending",
-      "previously_descending": false,
-      "rank_score": 0.8741459623693926
-    },
-    {
       "ticker": "IL&FSTRANS.NS",
       "slope": -0.010807006034929775,
       "r2": 0.831939109747604,
@@ -2209,15 +2185,15 @@
     },
     {
       "ticker": "DLINKINDIA.NS",
-      "slope": -0.008069910404203465,
-      "r2": 0.8882103835148624,
+      "slope": -0.008069909640216337,
+      "r2": 0.8882103951648647,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.6422565807400828,
+      "pos": 0.6422565362649778,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -34.271353846978805,
+      "annual_trend_pct": -34.27135123575509,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2229,7 +2205,7 @@
       "recent_trend_pct": 11.318010093852537,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8593667131706024
+      "rank_score": 0.859366723443114
     },
     {
       "ticker": "JIOFIN.NS",
@@ -3337,27 +3313,27 @@
     },
     {
       "ticker": "GOPAL.NS",
-      "slope": -0.005604435065500756,
-      "r2": 0.7356691403710094,
+      "slope": -0.005604435938592479,
+      "r2": 0.7356693653008279,
       "inside": 0.9487179487179487,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.3158702451151002,
+      "pos": 0.31587026052924133,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -25.280615043084033,
+      "annual_trend_pct": -25.280618435401525,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -41.31550589007966,
+      "prior_trend_pct": -41.31549940031466,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -11.004239036819008,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8157347251611742
+      "rank_score": 0.8157348360846693
     },
     {
       "ticker": "IONEXCHANG.NS",
