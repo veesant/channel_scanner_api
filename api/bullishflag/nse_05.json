@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-05T20:27:27.421500+00:00",
+  "updated_utc": "2026-03-06T14:25:27.491701+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -15,26 +15,26 @@
   "count": 1,
   "data": [
     {
-      "ticker": "WEALTH.NS",
+      "ticker": "USK.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 945.4000244140625,
-      "sma20": 931.0161895751953,
-      "sma50": 893.2283129882812,
+      "close": 27.219999313354492,
+      "sma20": 24.87799987792969,
+      "sma50": 23.291999969482422,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 14.4137744133428,
-      "pole_high": 1004.9500122070312,
-      "pole_range": 192.26228001005938,
+      "pole_gain_pct": 31.71415676748859,
+      "pole_high": 29.0,
+      "pole_range": 9.5,
       "flag_bars": 8,
-      "flag_range": 79.85003662109375,
-      "pullback_from_pole_high_pct": 5.925666657009878,
+      "flag_range": 4.649999618530273,
+      "pullback_from_pole_high_pct": 6.137933402225889,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 2.028491611793124
+      "rank_score": 2.184210593240303
     }
   ]
 }
