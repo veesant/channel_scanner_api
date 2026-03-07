@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-07T14:00:45.558828+00:00",
+  "updated_utc": "2026-03-07T20:03:16.531974+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -2353,15 +2353,15 @@
     },
     {
       "ticker": "TDPOWERSYS.NS",
-      "slope": 0.015591552231688368,
-      "r2": 0.8824147295226699,
+      "slope": 0.015591552524206199,
+      "r2": 0.8824147481239858,
       "inside": 0.9230769230769231,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.5973276246249185,
+      "pos": 0.5973276171113833,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 124.96186569405685,
+      "annual_trend_pct": 124.9618691159355,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -2373,7 +2373,7 @@
       "recent_trend_pct": 717.7136809425178,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8507053715296123
+      "rank_score": 0.8507053815816238
     },
     {
       "ticker": "TCI.NS",
@@ -2473,27 +2473,27 @@
     },
     {
       "ticker": "RITES.NS",
-      "slope": -0.0058087577570731744,
-      "r2": 0.7696972211072652,
+      "slope": -0.005808758705844531,
+      "r2": 0.7696972151700038,
       "inside": 0.9487179487179487,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.16533239767955807,
+      "pos": 0.16533253343528895,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -26.07028957945191,
+      "annual_trend_pct": -26.07029322685619,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -30.11691304447799,
+      "prior_trend_pct": -30.116909702428885,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -57.25434750949032,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8478025502728563
+      "rank_score": 0.8478025337286526
     },
     {
       "ticker": "SIMBHALS.NS",
@@ -3913,15 +3913,15 @@
     },
     {
       "ticker": "RECLTD.NS",
-      "slope": -0.0027148317396977688,
-      "r2": 0.6660581756431574,
+      "slope": -0.0027148317343721837,
+      "r2": 0.6660582470312677,
       "inside": 0.9230769230769231,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.07692307692307693,
-      "pos": 0.3320515392090429,
+      "pos": 0.33205150954496226,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -13.165940476594084,
+      "annual_trend_pct": -13.165940452547087,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -3933,7 +3933,7 @@
       "recent_trend_pct": -49.6744310837231,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.7690547031314436
+      "rank_score": 0.7690547417919069
     },
     {
       "ticker": "SAILIFE.NS",
