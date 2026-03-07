@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-06T20:26:19.628613+00:00",
+  "updated_utc": "2026-03-07T14:06:02.516882+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,6 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "USK.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 27.219999313354492,
-      "sma20": 24.87799987792969,
-      "sma50": 23.291999969482422,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 31.71415676748859,
-      "pole_high": 29.0,
-      "pole_range": 9.5,
-      "flag_bars": 8,
-      "flag_range": 4.649999618530273,
-      "pullback_from_pole_high_pct": 6.137933402225889,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 2.184210593240303
-    }
-  ]
+  "count": 0,
+  "data": []
 }

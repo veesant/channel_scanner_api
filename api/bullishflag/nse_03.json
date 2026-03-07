@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-06T20:25:36.417525+00:00",
+  "updated_utc": "2026-03-07T14:03:58.352306+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,51 +12,29 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 2,
+  "count": 1,
   "data": [
     {
       "ticker": "LEXUS.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 37.77000045776367,
-      "sma20": 34.92800006866455,
-      "sma50": 29.45999996185303,
+      "close": 37.79999923706055,
+      "sma20": 35.61750001907349,
+      "sma50": 29.67159996032715,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 17.183091495063994,
-      "pole_high": 38.279998779296875,
-      "pole_range": 10.769998550415039,
+      "pole_gain_pct": 14.519053350489086,
+      "pole_high": 38.88999938964844,
+      "pole_range": 8.789999008178711,
       "flag_bars": 8,
       "flag_range": 3.5,
-      "pullback_from_pole_high_pct": 1.3322840590293528,
+      "pullback_from_pole_high_pct": 2.8027774998577706,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": true,
       "pattern": "bull_flag",
-      "rank_score": 2.873431836555931
-    },
-    {
-      "ticker": "LINCOLN.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 622.9000244140625,
-      "sma20": 591.7124969482422,
-      "sma50": 520.7259979248047,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 26.05790307347668,
-      "pole_high": 677.0,
-      "pole_range": 216.79998779296875,
-      "flag_bars": 8,
-      "flag_range": 60.4000244140625,
-      "pullback_from_pole_high_pct": 7.991133764540251,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 2.5356701428742623
+      "rank_score": 2.128060509831402
     }
   ]
 }

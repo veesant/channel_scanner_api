@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-06T20:21:11.063653+00:00",
+  "updated_utc": "2026-03-07T14:02:40.708970+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -15,26 +15,26 @@
   "count": 1,
   "data": [
     {
-      "ticker": "GLBS",
+      "ticker": "KMRK",
       "tf": "1d",
-      "bars_used": 320,
-      "close": 1.9700000286102295,
-      "sma20": 1.89200000166893,
-      "sma50": 1.7572000074386596,
+      "bars_used": 162,
+      "close": 2.240000009536743,
+      "sma20": 2.0454999983310698,
+      "sma50": 1.683399999141693,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 15.642456835580685,
-      "pole_high": 2.0899999141693115,
+      "pole_gain_pct": 28.248587875027713,
+      "pole_high": 2.309999942779541,
       "pole_range": 0.6099998950958252,
       "flag_bars": 8,
-      "flag_range": 0.33000004291534424,
-      "pullback_from_pole_high_pct": 5.741621554409346,
+      "flag_range": 0.2990000247955322,
+      "pullback_from_pole_high_pct": 3.0303002154437033,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 1.8804832252030774
+      "rank_score": 2.1830599010497584
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-06T20:21:02.021600+00:00",
+  "updated_utc": "2026-03-07T13:59:57.651282+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,6 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "RATNAMANI.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 2379.800048828125,
-      "sma20": 2289.1799743652346,
-      "sma50": 2229.9019873046873,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 25.014977008852046,
-      "pole_high": 2539.0,
-      "pole_range": 602.5,
-      "flag_bars": 8,
-      "flag_range": 260.5,
-      "pullback_from_pole_high_pct": 6.270183189124655,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 2.2793914246196403
-    }
-  ]
+  "count": 0,
+  "data": []
 }

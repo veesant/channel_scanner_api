@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-06T20:25:53.267532+00:00",
+  "updated_utc": "2026-03-07T14:03:41.290263+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,20 +12,20 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 2,
+  "count": 1,
   "data": [
     {
       "ticker": "CBAT",
       "tf": "1d",
       "bars_used": 320,
       "close": 1.0099999904632568,
-      "sma20": 0.9639999836683273,
-      "sma50": 0.8949999952316284,
+      "sma20": 0.9744999825954437,
+      "sma50": 0.8969999945163727,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 24.390242661414284,
+      "pole_gain_pct": 19.999994390151237,
       "pole_high": 1.0499999523162842,
-      "pole_range": 0.24999994039535522,
+      "pole_range": 0.22999995946884155,
       "flag_bars": 8,
       "flag_range": 0.07999992370605469,
       "pullback_from_pole_high_pct": 3.809520349480781,
@@ -34,29 +34,7 @@
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 2.4666670481364843
-    },
-    {
-      "ticker": "CBUS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 3.2200000286102295,
-      "sma20": 2.9394999861717226,
-      "sma50": 2.3054999899864197,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 59.512197901846676,
-      "pole_high": 3.369999885559082,
-      "pole_range": 1.4799998998641968,
-      "flag_bars": 8,
-      "flag_range": 0.7200000286102295,
-      "pullback_from_pole_high_pct": 4.451034481977961,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 2.189189102111543
+      "rank_score": 2.4202900252768518
     }
   ]
 }

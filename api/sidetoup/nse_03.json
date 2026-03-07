@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-06T20:28:00.457177+00:00",
+  "updated_utc": "2026-03-07T14:00:50.112353+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -193,27 +193,27 @@
     },
     {
       "ticker": "KPEL.NS",
-      "slope": -0.018872168134274517,
-      "r2": 0.8914025026734307,
+      "slope": -0.018872168345355784,
+      "r2": 0.8914025263017696,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.05061209633170196,
+      "pos": 0.05061205933576399,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -62.51962573650927,
+      "annual_trend_pct": -62.519626147902315,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -58.97320259665469,
+      "prior_trend_pct": -58.973203573369595,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -77.50884756816686,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9406400417035452
+      "rank_score": 0.9406400572173085
     },
     {
       "ticker": "KOKUYOCMLN.NS",
@@ -697,27 +697,27 @@
     },
     {
       "ticker": "NATIONALUM.NS",
-      "slope": 0.028505830389230692,
-      "r2": 0.936592293190854,
+      "slope": 0.02850583064113202,
+      "r2": 0.9365922900595862,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.49089455574875523,
+      "pos": 0.490894553546307,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 340.3075087052713,
+      "annual_trend_pct": 340.30751447280164,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 414.35909283382057,
+      "prior_trend_pct": 414.3590995690407,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 29.740456458952067,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.9192066910205515
+      "rank_score": 0.9192066896751624
     },
     {
       "ticker": "PRECAM.NS",
@@ -1777,15 +1777,15 @@
     },
     {
       "ticker": "PIIND.NS",
-      "slope": -0.008289884198550842,
-      "r2": 0.9307866995740114,
+      "slope": -0.008289883834631341,
+      "r2": 0.9307867057405744,
       "inside": 0.9230769230769231,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.63908784963418,
+      "pos": 0.6390878248782833,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -35.01891629204968,
+      "annual_trend_pct": -35.018915062359724,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -1797,7 +1797,7 @@
       "recent_trend_pct": -27.458083149428948,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.870715334054357
+      "rank_score": 0.8707153396132281
     },
     {
       "ticker": "MMFL.NS",
@@ -3001,15 +3001,15 @@
     },
     {
       "ticker": "OCCLLTD.NS",
-      "slope": -0.012694370125346882,
-      "r2": 0.7650884107769127,
+      "slope": -0.012694370447838785,
+      "r2": 0.7650884155274518,
       "inside": 0.9230769230769231,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.2584027323294758,
+      "pos": 0.25840274564452875,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -48.32040930420101,
+      "annual_trend_pct": -48.32041017084598,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -3021,7 +3021,7 @@
       "recent_trend_pct": -64.4869541995697,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.825934701386278
+      "rank_score": 0.8259347024300423
     },
     {
       "ticker": "PNBGILTS.NS",

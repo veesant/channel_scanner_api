@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-06T20:20:29.520033+00:00",
+  "updated_utc": "2026-03-07T13:59:23.587477+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,51 +12,6 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 2,
-  "data": [
-    {
-      "ticker": "TMUS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 220.5399932861328,
-      "sma20": 212.70974349975586,
-      "sma50": 201.1804626464844,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 11.276940164632606,
-      "pole_high": 223.21667913652277,
-      "pole_range": 35.967056999095405,
-      "flag_bars": 8,
-      "flag_range": 12.51980510118841,
-      "pullback_from_pole_high_pct": 1.1991424031323645,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": true,
-      "pattern": "bull_flag",
-      "rank_score": 2.5839813803405742
-    },
-    {
-      "ticker": "TALK",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 4.78000020980835,
-      "sma20": 4.364000010490417,
-      "sma50": 4.0582000207901,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 19.68911945901464,
-      "pole_high": 5.179999828338623,
-      "pole_range": 1.499999761581421,
-      "flag_bars": 8,
-      "flag_range": 0.7899999618530273,
-      "pullback_from_pole_high_pct": 7.722000613628688,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 2.1066780980394437
-    }
-  ]
+  "count": 0,
+  "data": []
 }
