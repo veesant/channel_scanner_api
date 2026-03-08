@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-07T20:02:01.926878+00:00",
+  "updated_utc": "2026-03-08T14:03:00.791427+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 260,
@@ -21,61 +21,9 @@
   "count": 456,
   "data": [
     {
-      "ticker": "MATX",
-      "tf": "1d",
-      "bars_used": 179,
-      "close": 152.99000549316406,
-      "sma_fast": 20,
-      "sma_slow": 50,
-      "sma_fast_now": 164.42900161743165,
-      "sma_slow_now": 151.1462223815918,
-      "trend_ok": true,
-      "recent_swing_high": 177.50999450683594,
-      "recent_swing_high_date": "2026-02-25",
-      "resistance_level": 177.50999450683594,
-      "pullback_from_swing_high_pct": 13.813300530932981,
-      "had_correction": true,
-      "anchor_support_close": 153.82000732421875,
-      "anchor_support_date": "2026-02-12",
-      "support_level": 153.82000732421875,
-      "support_tolerance_pct": 1.0,
-      "support_floor": 153.82000732421875,
-      "support_floor_adj": 152.28180725097656,
-      "correction_close_low": 152.99000549316406,
-      "support_held": true,
-      "close_above_sma_fast": false,
-      "rebound_ok": false,
-      "uptrend_window_used": 50,
-      "uptrend_hh_count": 4,
-      "uptrend_hl_count": 4,
-      "uptrend_pivot_highs": 5,
-      "uptrend_pivot_lows": 6,
-      "uptrend_overall_up": true,
-      "uptrend_ok": true,
-      "uptrend_actionable": true,
-      "actionable_after_correction": true,
-      "dist_to_support": 0.005395928952891194,
-      "actionable_reason": "hh_hl_uptrend",
-      "priceQuality": {
-        "quality_n_bars": 50,
-        "long_wick_count": 17,
-        "max_long_wicks_allowed": 6,
-        "gap_thresh_pct": 2.5,
-        "gap_count": 4,
-        "max_gap_count_allowed": 2,
-        "max_gap_pct": 7.4135893038990295,
-        "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 293932,
-        "price_quality_ok": false
-      },
-      "priceQualityOk": false,
-      "avgVolume50": 293932,
-      "rank_score": 3.294604071047109
-    },
-    {
       "ticker": "LPG",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 34.08000183105469,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -127,7 +75,7 @@
     {
       "ticker": "GLW",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 123.29000091552734,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -179,7 +127,7 @@
     {
       "ticker": "MCK",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 919.260009765625,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -231,7 +179,7 @@
     {
       "ticker": "KMT",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 37.18000030517578,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -283,7 +231,7 @@
     {
       "ticker": "GEV",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 789.22998046875,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -333,9 +281,61 @@
       "rank_score": 3.2482418675760516
     },
     {
+      "ticker": "MATX",
+      "tf": "1d",
+      "bars_used": 178,
+      "close": 152.99000549316406,
+      "sma_fast": 20,
+      "sma_slow": 50,
+      "sma_fast_now": 164.42900161743165,
+      "sma_slow_now": 151.32820068359376,
+      "trend_ok": true,
+      "recent_swing_high": 177.50999450683594,
+      "recent_swing_high_date": "2026-02-25",
+      "resistance_level": 177.50999450683594,
+      "pullback_from_swing_high_pct": 13.813300530932981,
+      "had_correction": true,
+      "anchor_support_close": 153.82000732421875,
+      "anchor_support_date": "2026-02-12",
+      "support_level": 153.82000732421875,
+      "support_tolerance_pct": 1.0,
+      "support_floor": 153.82000732421875,
+      "support_floor_adj": 152.28180725097656,
+      "correction_close_low": 152.99000549316406,
+      "support_held": true,
+      "close_above_sma_fast": false,
+      "rebound_ok": false,
+      "uptrend_window_used": 50,
+      "uptrend_hh_count": 3,
+      "uptrend_hl_count": 4,
+      "uptrend_pivot_highs": 5,
+      "uptrend_pivot_lows": 6,
+      "uptrend_overall_up": true,
+      "uptrend_ok": true,
+      "uptrend_actionable": true,
+      "actionable_after_correction": true,
+      "dist_to_support": 0.005395928952891194,
+      "actionable_reason": "hh_hl_uptrend",
+      "priceQuality": {
+        "quality_n_bars": 50,
+        "long_wick_count": 17,
+        "max_long_wicks_allowed": 6,
+        "gap_thresh_pct": 2.5,
+        "gap_count": 4,
+        "max_gap_count_allowed": 2,
+        "max_gap_pct": 7.413583167862066,
+        "max_gap_pct_allowed": 6.0,
+        "avg_volume_50": 293932,
+        "price_quality_ok": false
+      },
+      "priceQualityOk": false,
+      "avgVolume50": 293932,
+      "rank_score": 3.244604071047109
+    },
+    {
       "ticker": "GRDN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 31.780000686645508,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -387,7 +387,7 @@
     {
       "ticker": "KF",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 48.290000915527344,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -439,7 +439,7 @@
     {
       "ticker": "GNT",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 8.579999923706055,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -491,7 +491,7 @@
     {
       "ticker": "HAL",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 34.04999923706055,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -543,7 +543,7 @@
     {
       "ticker": "GOLD",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 52.41999816894531,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -595,7 +595,7 @@
     {
       "ticker": "JCI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 132.39999389648438,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -647,7 +647,7 @@
     {
       "ticker": "GOLF",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 95.55000305175781,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -699,7 +699,7 @@
     {
       "ticker": "GSK",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 54.5099983215332,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -751,7 +751,7 @@
     {
       "ticker": "LBRT",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 26.799999237060547,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -803,7 +803,7 @@
     {
       "ticker": "JILL",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 16.290000915527344,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -855,7 +855,7 @@
     {
       "ticker": "LUXE",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 8.989999771118164,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -907,7 +907,7 @@
     {
       "ticker": "GE",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 323.1099853515625,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -959,7 +959,7 @@
     {
       "ticker": "IAG",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 21.760000228881836,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1011,7 +1011,7 @@
     {
       "ticker": "LOAR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 69.45999908447266,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1063,7 +1063,7 @@
     {
       "ticker": "KB",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 99.75,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1115,7 +1115,7 @@
     {
       "ticker": "HTH",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 36.790000915527344,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1167,7 +1167,7 @@
     {
       "ticker": "GHM",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 81.62000274658203,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1219,7 +1219,7 @@
     {
       "ticker": "LITB",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 2.6500000953674316,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1271,7 +1271,7 @@
     {
       "ticker": "LGI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 18.399999618530273,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1323,7 +1323,7 @@
     {
       "ticker": "KT",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 22.010000228881836,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1375,7 +1375,7 @@
     {
       "ticker": "GNK",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 22.200000762939453,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1427,7 +1427,7 @@
     {
       "ticker": "KEYS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 272.42999267578125,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1479,7 +1479,7 @@
     {
       "ticker": "IRM",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 105.18000030517578,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1531,7 +1531,7 @@
     {
       "ticker": "HII",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 429.1099853515625,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1583,7 +1583,7 @@
     {
       "ticker": "IBP",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 305.9200134277344,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1635,7 +1635,7 @@
     {
       "ticker": "JBS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 15.520000457763672,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1687,7 +1687,7 @@
     {
       "ticker": "LH",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 269.6700134277344,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1739,7 +1739,7 @@
     {
       "ticker": "JOE",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 68.91999816894531,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1791,7 +1791,7 @@
     {
       "ticker": "LTC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 38.400001525878906,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1843,7 +1843,7 @@
     {
       "ticker": "GRC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 60.95000076293945,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1895,7 +1895,7 @@
     {
       "ticker": "INVX",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 27.3700008392334,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1947,7 +1947,7 @@
     {
       "ticker": "HXL",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 88.58000183105469,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -1999,7 +1999,7 @@
     {
       "ticker": "IDE",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 13.279999732971191,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2051,7 +2051,7 @@
     {
       "ticker": "LNN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 129.60000610351562,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2103,7 +2103,7 @@
     {
       "ticker": "HP",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 34.09000015258789,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2155,7 +2155,7 @@
     {
       "ticker": "IBTA",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 23.40999984741211,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2207,7 +2207,7 @@
     {
       "ticker": "KO",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 77.04000091552734,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2259,7 +2259,7 @@
     {
       "ticker": "IEX",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 197.89999389648438,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2311,12 +2311,12 @@
     {
       "ticker": "MEGI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 14.960000038146973,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 15.228914976119995,
-      "sma_slow_now": 14.312816009521484,
+      "sma_slow_now": 14.312815952301026,
       "trend_ok": true,
       "recent_swing_high": 15.890000343322754,
       "recent_swing_high_date": "2026-03-02",
@@ -2363,7 +2363,7 @@
     {
       "ticker": "HWM",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 250.1300048828125,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2415,7 +2415,7 @@
     {
       "ticker": "GNRC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 204.02000427246094,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2467,7 +2467,7 @@
     {
       "ticker": "GSL",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 38.810001373291016,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2519,7 +2519,7 @@
     {
       "ticker": "HRL",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 24.420000076293945,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2571,7 +2571,7 @@
     {
       "ticker": "GIC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 31.940000534057617,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2623,7 +2623,7 @@
     {
       "ticker": "KNTK",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 45.58000183105469,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2675,7 +2675,7 @@
     {
       "ticker": "JNJ",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 240.39999389648438,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2727,7 +2727,7 @@
     {
       "ticker": "HG",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 28.600000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2779,7 +2779,7 @@
     {
       "ticker": "INSW",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 72.41000366210938,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2831,7 +2831,7 @@
     {
       "ticker": "KAI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 330.8599853515625,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2883,7 +2883,7 @@
     {
       "ticker": "LND",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 4.059999942779541,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2935,7 +2935,7 @@
     {
       "ticker": "JRS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 7.96999979019165,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -2987,7 +2987,7 @@
     {
       "ticker": "HSY",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 224.99000549316406,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3039,7 +3039,7 @@
     {
       "ticker": "LW",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 46.029998779296875,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3091,7 +3091,7 @@
     {
       "ticker": "JHG",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 51.36000061035156,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3143,7 +3143,7 @@
     {
       "ticker": "MDV",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 14.930000305175781,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3195,7 +3195,7 @@
     {
       "ticker": "GWW",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 1112.7900390625,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3247,7 +3247,7 @@
     {
       "ticker": "KEX",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 127.5999984741211,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3299,7 +3299,7 @@
     {
       "ticker": "GRNT",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 5.019999980926514,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3351,7 +3351,7 @@
     {
       "ticker": "KVUE",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 18.389999389648438,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3403,7 +3403,7 @@
     {
       "ticker": "GNE",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 14.270000457763672,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3455,7 +3455,7 @@
     {
       "ticker": "GMRE",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 35.7400016784668,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3507,7 +3507,7 @@
     {
       "ticker": "GHI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 7.650000095367432,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3559,7 +3559,7 @@
     {
       "ticker": "LYV",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 156.1300048828125,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3611,7 +3611,7 @@
     {
       "ticker": "HASI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 35.86000061035156,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3663,7 +3663,7 @@
     {
       "ticker": "HSHP",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 13.289999961853027,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3715,7 +3715,7 @@
     {
       "ticker": "MANU",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 17.299999237060547,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3767,7 +3767,7 @@
     {
       "ticker": "ITW",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 277.1600036621094,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3819,7 +3819,7 @@
     {
       "ticker": "MCD",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 328.05999755859375,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3871,7 +3871,7 @@
     {
       "ticker": "GLP",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 47.61000061035156,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3923,7 +3923,7 @@
     {
       "ticker": "MG",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 14.819999694824219,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -3975,12 +3975,12 @@
     {
       "ticker": "IGR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 4.78000020980835,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 4.891687870025635,
-      "sma_slow_now": 4.671532325744629,
+      "sma_slow_now": 4.671532316207886,
       "trend_ok": true,
       "recent_swing_high": 4.96999979019165,
       "recent_swing_high_date": "2026-02-23",
@@ -4027,7 +4027,7 @@
     {
       "ticker": "HLX",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 9.0,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4079,12 +4079,12 @@
     {
       "ticker": "MFM",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 5.489999771118164,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 5.536326003074646,
-      "sma_slow_now": 5.454624843597412,
+      "sma_slow_now": 5.454624862670898,
       "trend_ok": true,
       "recent_swing_high": 5.670000076293945,
       "recent_swing_high_date": "2026-02-25",
@@ -4103,9 +4103,9 @@
       "rebound_ok": false,
       "uptrend_window_used": 50,
       "uptrend_hh_count": 3,
-      "uptrend_hl_count": 6,
+      "uptrend_hl_count": 5,
       "uptrend_pivot_highs": 5,
-      "uptrend_pivot_lows": 7,
+      "uptrend_pivot_lows": 6,
       "uptrend_overall_up": true,
       "uptrend_ok": true,
       "uptrend_actionable": true,
@@ -4119,7 +4119,7 @@
         "gap_thresh_pct": 2.5,
         "gap_count": 0,
         "max_gap_count_allowed": 2,
-        "max_gap_pct": 2.425364770573323,
+        "max_gap_pct": 2.425373526932777,
         "max_gap_pct_allowed": 6.0,
         "avg_volume_50": 98532,
         "price_quality_ok": false
@@ -4131,12 +4131,12 @@
     {
       "ticker": "KYN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 14.0,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 13.805937433242798,
-      "sma_slow_now": 12.963444023132324,
+      "sma_slow_now": 12.963444061279297,
       "trend_ok": true,
       "recent_swing_high": 14.489999771118164,
       "recent_swing_high_date": "2026-03-02",
@@ -4183,7 +4183,7 @@
     {
       "ticker": "GUG",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 15.729999542236328,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4235,7 +4235,7 @@
     {
       "ticker": "HCA",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 532.8099975585938,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4287,7 +4287,7 @@
     {
       "ticker": "IMAX",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 40.79999923706055,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4339,7 +4339,7 @@
     {
       "ticker": "KRP",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 14.399999618530273,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4391,7 +4391,7 @@
     {
       "ticker": "LMT",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 671.77001953125,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4443,7 +4443,7 @@
     {
       "ticker": "GRMN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 243.47999572753906,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4495,7 +4495,7 @@
     {
       "ticker": "IIPR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 54.369998931884766,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4547,7 +4547,7 @@
     {
       "ticker": "GTN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 5.389999866485596,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4599,7 +4599,7 @@
     {
       "ticker": "IVT",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 31.1299991607666,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4651,7 +4651,7 @@
     {
       "ticker": "HTD",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 25.510000228881836,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4703,7 +4703,7 @@
     {
       "ticker": "HR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 18.389999389648438,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4755,7 +4755,7 @@
     {
       "ticker": "IGD",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 5.860000133514404,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4807,7 +4807,7 @@
     {
       "ticker": "GUT",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 6.050000190734863,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4859,7 +4859,7 @@
     {
       "ticker": "GPRK",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 8.619999885559082,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4911,7 +4911,7 @@
     {
       "ticker": "GL",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 142.17999267578125,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -4963,7 +4963,7 @@
     {
       "ticker": "GPJA",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 23.229999542236328,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5015,7 +5015,7 @@
     {
       "ticker": "KW",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 10.829999923706055,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5067,7 +5067,7 @@
     {
       "ticker": "MCI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 20.290000915527344,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5119,12 +5119,12 @@
     {
       "ticker": "HPS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 14.619999885559082,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 14.73309268951416,
-      "sma_slow_now": 14.529195785522461,
+      "sma_slow_now": 14.529195766448975,
       "trend_ok": true,
       "recent_swing_high": 14.899999618530273,
       "recent_swing_high_date": "2026-02-26",
@@ -5145,7 +5145,7 @@
       "uptrend_hh_count": 3,
       "uptrend_hl_count": 5,
       "uptrend_pivot_highs": 5,
-      "uptrend_pivot_lows": 7,
+      "uptrend_pivot_lows": 8,
       "uptrend_overall_up": true,
       "uptrend_ok": true,
       "uptrend_actionable": true,
@@ -5171,7 +5171,7 @@
     {
       "ticker": "MFA",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 10.100000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5223,7 +5223,7 @@
     {
       "ticker": "HAFN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 7.460000038146973,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5275,7 +5275,7 @@
     {
       "ticker": "KRG",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 25.770000457763672,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5327,7 +5327,7 @@
     {
       "ticker": "L",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 109.66000366210938,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5379,7 +5379,7 @@
     {
       "ticker": "GEL",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 18.09000015258789,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5431,12 +5431,12 @@
     {
       "ticker": "IDA",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 142.63999938964844,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 141.35200042724608,
-      "sma_slow_now": 134.3903828430176,
+      "sma_slow_now": 134.8870001220703,
       "trend_ok": true,
       "recent_swing_high": 144.8000030517578,
       "recent_swing_high_date": "2026-03-04",
@@ -5471,7 +5471,7 @@
         "gap_thresh_pct": 2.5,
         "gap_count": 0,
         "max_gap_count_allowed": 2,
-        "max_gap_pct": 1.8646491729711854,
+        "max_gap_pct": 1.8646419251579127,
         "max_gap_pct_allowed": 6.0,
         "avg_volume_50": 462126,
         "price_quality_ok": false
@@ -5483,12 +5483,12 @@
     {
       "ticker": "HESM",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 39.2599983215332,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 37.72849998474121,
-      "sma_slow_now": 35.49440444946289,
+      "sma_slow_now": 35.920800094604495,
       "trend_ok": true,
       "recent_swing_high": 39.900001525878906,
       "recent_swing_high_date": "2026-03-03",
@@ -5508,8 +5508,8 @@
       "uptrend_window_used": 50,
       "uptrend_hh_count": 7,
       "uptrend_hl_count": 4,
-      "uptrend_pivot_highs": 8,
-      "uptrend_pivot_lows": 5,
+      "uptrend_pivot_highs": 9,
+      "uptrend_pivot_lows": 6,
       "uptrend_overall_up": true,
       "uptrend_ok": true,
       "uptrend_actionable": true,
@@ -5521,9 +5521,9 @@
         "long_wick_count": 24,
         "max_long_wicks_allowed": 6,
         "gap_thresh_pct": 2.5,
-        "gap_count": 0,
+        "gap_count": 1,
         "max_gap_count_allowed": 2,
-        "max_gap_pct": 1.5253364734563937,
+        "max_gap_pct": 2.9664532960274905,
         "max_gap_pct_allowed": 6.0,
         "avg_volume_50": 1450014,
         "price_quality_ok": false
@@ -5535,7 +5535,7 @@
     {
       "ticker": "KIM",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 23.280000686645508,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5587,7 +5587,7 @@
     {
       "ticker": "KMI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 33.58000183105469,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5637,61 +5637,9 @@
       "rank_score": 2.597952895943815
     },
     {
-      "ticker": "MHF",
-      "tf": "1d",
-      "bars_used": 179,
-      "close": 6.940000057220459,
-      "sma_fast": 20,
-      "sma_slow": 50,
-      "sma_fast_now": 6.963163566589356,
-      "sma_slow_now": 6.8919451045989994,
-      "trend_ok": true,
-      "recent_swing_high": 7.039999961853027,
-      "recent_swing_high_date": "2026-02-27",
-      "resistance_level": 7.039999961853027,
-      "pullback_from_swing_high_pct": 1.4204531985004014,
-      "had_correction": false,
-      "anchor_support_close": 6.886340640536261,
-      "anchor_support_date": "2026-02-19",
-      "support_level": 6.886340640536261,
-      "support_tolerance_pct": 1.0,
-      "support_floor": 6.886340640536261,
-      "support_floor_adj": 6.817477234130898,
-      "correction_close_low": 6.940000057220459,
-      "support_held": true,
-      "close_above_sma_fast": false,
-      "rebound_ok": false,
-      "uptrend_window_used": 50,
-      "uptrend_hh_count": 4,
-      "uptrend_hl_count": 3,
-      "uptrend_pivot_highs": 6,
-      "uptrend_pivot_lows": 4,
-      "uptrend_overall_up": true,
-      "uptrend_ok": true,
-      "uptrend_actionable": true,
-      "actionable_after_correction": true,
-      "dist_to_support": 0.00779215253575073,
-      "actionable_reason": "hh_hl_uptrend",
-      "priceQuality": {
-        "quality_n_bars": 50,
-        "long_wick_count": 18,
-        "max_long_wicks_allowed": 6,
-        "gap_thresh_pct": 2.5,
-        "gap_count": 0,
-        "max_gap_count_allowed": 2,
-        "max_gap_pct": 1.0043066537804328,
-        "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 60020,
-        "price_quality_ok": false
-      },
-      "priceQualityOk": false,
-      "avgVolume50": 60020,
-      "rank_score": 2.5842531673142894
-    },
-    {
       "ticker": "LHX",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 366.6099853515625,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5743,7 +5691,7 @@
     {
       "ticker": "HPF",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 16.030000686645508,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5795,7 +5743,7 @@
     {
       "ticker": "HCXY",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 25.280000686645508,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5847,7 +5795,7 @@
     {
       "ticker": "KNOP",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 10.65999984741211,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5899,7 +5847,7 @@
     {
       "ticker": "KMPB",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 23.479999542236328,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -5951,7 +5899,7 @@
     {
       "ticker": "IQI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 10.069999694824219,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6001,9 +5949,61 @@
       "rank_score": 2.5380884290667116
     },
     {
+      "ticker": "MHF",
+      "tf": "1d",
+      "bars_used": 178,
+      "close": 6.940000057220459,
+      "sma_fast": 20,
+      "sma_slow": 50,
+      "sma_fast_now": 6.963163566589356,
+      "sma_slow_now": 6.891945066452027,
+      "trend_ok": true,
+      "recent_swing_high": 7.039999961853027,
+      "recent_swing_high_date": "2026-02-27",
+      "resistance_level": 7.039999961853027,
+      "pullback_from_swing_high_pct": 1.4204531985004014,
+      "had_correction": false,
+      "anchor_support_close": 6.886340640536261,
+      "anchor_support_date": "2026-02-19",
+      "support_level": 6.886340640536261,
+      "support_tolerance_pct": 1.0,
+      "support_floor": 6.886340640536261,
+      "support_floor_adj": 6.817477234130898,
+      "correction_close_low": 6.940000057220459,
+      "support_held": true,
+      "close_above_sma_fast": false,
+      "rebound_ok": false,
+      "uptrend_window_used": 50,
+      "uptrend_hh_count": 5,
+      "uptrend_hl_count": 2,
+      "uptrend_pivot_highs": 7,
+      "uptrend_pivot_lows": 4,
+      "uptrend_overall_up": true,
+      "uptrend_ok": true,
+      "uptrend_actionable": true,
+      "actionable_after_correction": true,
+      "dist_to_support": 0.00779215253575073,
+      "actionable_reason": "hh_hl_uptrend",
+      "priceQuality": {
+        "quality_n_bars": 50,
+        "long_wick_count": 18,
+        "max_long_wicks_allowed": 6,
+        "gap_thresh_pct": 2.5,
+        "gap_count": 0,
+        "max_gap_count_allowed": 2,
+        "max_gap_pct": 1.0043066537804328,
+        "max_gap_pct_allowed": 6.0,
+        "avg_volume_50": 60020,
+        "price_quality_ok": false
+      },
+      "priceQualityOk": false,
+      "avgVolume50": 60020,
+      "rank_score": 2.5342531673142896
+    },
+    {
       "ticker": "MCS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 17.360000610351562,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6055,7 +6055,7 @@
     {
       "ticker": "KOP",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 37.54999923706055,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6107,7 +6107,7 @@
     {
       "ticker": "ICE",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 166.19000244140625,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6159,7 +6159,7 @@
     {
       "ticker": "KTN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 25.799999237060547,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6211,7 +6211,7 @@
     {
       "ticker": "GGT",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 4.21999979019165,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6263,7 +6263,7 @@
     {
       "ticker": "KTF",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 9.1899995803833,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6315,7 +6315,7 @@
     {
       "ticker": "LB",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 72.38999938964844,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6367,7 +6367,7 @@
     {
       "ticker": "LRN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 86.83000183105469,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6419,7 +6419,7 @@
     {
       "ticker": "MHD",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 11.850000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6471,7 +6471,7 @@
     {
       "ticker": "GFL",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 44.58000183105469,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6523,7 +6523,7 @@
     {
       "ticker": "LEO",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 6.409999847412109,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6575,7 +6575,7 @@
     {
       "ticker": "GPOR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 211.4499969482422,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6627,7 +6627,7 @@
     {
       "ticker": "KTH",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 28.799999237060547,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6679,7 +6679,7 @@
     {
       "ticker": "GSBD",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 9.350000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6731,7 +6731,7 @@
     {
       "ticker": "GME",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 24.3700008392334,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6783,7 +6783,7 @@
     {
       "ticker": "IIM",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 12.970000267028809,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6835,7 +6835,7 @@
     {
       "ticker": "GTY",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 33.029998779296875,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6887,12 +6887,12 @@
     {
       "ticker": "MHN",
       "tf": "1d",
-      "bars_used": 161,
+      "bars_used": 160,
       "close": 10.300000190734863,
       "sma_fast": 20,
       "sma_slow": 50,
-      "sma_fast_now": 10.239702272415162,
-      "sma_slow_now": 10.190691261291503,
+      "sma_fast_now": 10.239702367782593,
+      "sma_slow_now": 10.190691165924072,
       "trend_ok": true,
       "recent_swing_high": 10.33825067937625,
       "recent_swing_high_date": "2026-02-03",
@@ -6939,7 +6939,7 @@
     {
       "ticker": "IHS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 8.079999923706055,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -6991,7 +6991,7 @@
     {
       "ticker": "KRMN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 100.54000091552734,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7043,7 +7043,7 @@
     {
       "ticker": "GTLS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 207.16000366210938,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7095,7 +7095,7 @@
     {
       "ticker": "GD",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 363.489990234375,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7147,7 +7147,7 @@
     {
       "ticker": "MGY",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 29.219999313354492,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7199,7 +7199,7 @@
     {
       "ticker": "MDU",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 20.969999313354492,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7251,7 +7251,7 @@
     {
       "ticker": "KEN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 84.22000122070312,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7303,7 +7303,7 @@
     {
       "ticker": "LNG",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 255.14999389648438,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7355,7 +7355,7 @@
     {
       "ticker": "HI",
       "tf": "1d",
-      "bars_used": 162,
+      "bars_used": 161,
       "close": 31.979999542236328,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7407,7 +7407,7 @@
     {
       "ticker": "LFT",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 1.3700000047683716,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7459,7 +7459,7 @@
     {
       "ticker": "GFR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 6.639999866485596,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7511,7 +7511,7 @@
     {
       "ticker": "KR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 74.11000061035156,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7563,7 +7563,7 @@
     {
       "ticker": "INR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 18.559999465942383,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7615,7 +7615,7 @@
     {
       "ticker": "GOTU",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 2.059999942779541,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7667,7 +7667,7 @@
     {
       "ticker": "GXO",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 55.7599983215332,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7719,7 +7719,7 @@
     {
       "ticker": "HSBC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 84.05000305175781,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7771,7 +7771,7 @@
     {
       "ticker": "HUBB",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 471.5400085449219,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7823,7 +7823,7 @@
     {
       "ticker": "HZO",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 26.860000610351562,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7875,7 +7875,7 @@
     {
       "ticker": "HL",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 20.389999389648438,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7927,7 +7927,7 @@
     {
       "ticker": "HAYW",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 14.869999885559082,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -7979,7 +7979,7 @@
     {
       "ticker": "KGC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 32.54999923706055,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8031,7 +8031,7 @@
     {
       "ticker": "JOBY",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 9.550000190734863,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8083,7 +8083,7 @@
     {
       "ticker": "LPL",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 3.9100000858306885,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8135,7 +8135,7 @@
     {
       "ticker": "HLF",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 15.470000267028809,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8187,7 +8187,7 @@
     {
       "ticker": "MIR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 20.540000915527344,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8239,12 +8239,12 @@
     {
       "ticker": "JOF",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 11.109999656677246,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 12.030883550643921,
-      "sma_slow_now": 11.484396781921387,
+      "sma_slow_now": 11.4843967628479,
       "trend_ok": false,
       "recent_swing_high": 12.760000228881836,
       "recent_swing_high_date": "2026-02-23",
@@ -8265,7 +8265,7 @@
       "uptrend_hh_count": 5,
       "uptrend_hl_count": 3,
       "uptrend_pivot_highs": 6,
-      "uptrend_pivot_lows": 4,
+      "uptrend_pivot_lows": 5,
       "uptrend_overall_up": true,
       "uptrend_ok": true,
       "uptrend_actionable": false,
@@ -8291,7 +8291,7 @@
     {
       "ticker": "GFI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 50.439998626708984,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8343,7 +8343,7 @@
     {
       "ticker": "HQH",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 18.040000915527344,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8395,7 +8395,7 @@
     {
       "ticker": "GMED",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 87.0999984741211,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8447,7 +8447,7 @@
     {
       "ticker": "IRS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 14.399999618530273,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8499,7 +8499,7 @@
     {
       "ticker": "JLL",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 299.239990234375,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8551,7 +8551,7 @@
     {
       "ticker": "IR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 86.43000030517578,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8603,7 +8603,7 @@
     {
       "ticker": "MAS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 63.65999984741211,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8655,7 +8655,7 @@
     {
       "ticker": "HMY",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 19.59000015258789,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8707,7 +8707,7 @@
     {
       "ticker": "JELD",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 1.840000033378601,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8759,7 +8759,7 @@
     {
       "ticker": "KNX",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 56.869998931884766,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8811,7 +8811,7 @@
     {
       "ticker": "HE",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 14.920000076293945,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8863,7 +8863,7 @@
     {
       "ticker": "LU",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 2.4200000762939453,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8915,7 +8915,7 @@
     {
       "ticker": "HIPO",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 26.3799991607666,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -8967,7 +8967,7 @@
     {
       "ticker": "KRO",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 5.289999961853027,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9019,7 +9019,7 @@
     {
       "ticker": "JBL",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 241.08999633789062,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9071,7 +9071,7 @@
     {
       "ticker": "KFS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 11.510000228881836,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9123,7 +9123,7 @@
     {
       "ticker": "LEU",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 188.88999938964844,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9175,7 +9175,7 @@
     {
       "ticker": "GVA",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 123.37000274658203,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9227,12 +9227,12 @@
     {
       "ticker": "KBH",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 57.790000915527344,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 62.89200000762939,
-      "sma_slow_now": 60.387662200927736,
+      "sma_slow_now": 60.527000198364256,
       "trend_ok": false,
       "recent_swing_high": 67.56999969482422,
       "recent_swing_high_date": "2026-02-13",
@@ -9250,9 +9250,9 @@
       "close_above_sma_fast": false,
       "rebound_ok": false,
       "uptrend_window_used": 50,
-      "uptrend_hh_count": 3,
+      "uptrend_hh_count": 4,
       "uptrend_hl_count": 3,
-      "uptrend_pivot_highs": 5,
+      "uptrend_pivot_highs": 6,
       "uptrend_pivot_lows": 5,
       "uptrend_overall_up": true,
       "uptrend_ok": true,
@@ -9267,7 +9267,7 @@
         "gap_thresh_pct": 2.5,
         "gap_count": 1,
         "max_gap_count_allowed": 2,
-        "max_gap_pct": 2.6418778978911943,
+        "max_gap_pct": 2.6418769405530567,
         "max_gap_pct_allowed": 6.0,
         "avg_volume_50": 1075928,
         "price_quality_ok": false
@@ -9279,7 +9279,7 @@
     {
       "ticker": "GFF",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 77.43000030517578,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9331,7 +9331,7 @@
     {
       "ticker": "LAR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 6.650000095367432,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9383,7 +9383,7 @@
     {
       "ticker": "GOOS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 11.1899995803833,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9435,7 +9435,7 @@
     {
       "ticker": "HBM",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 22.290000915527344,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9487,7 +9487,7 @@
     {
       "ticker": "GKOS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 107.7300033569336,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9539,7 +9539,7 @@
     {
       "ticker": "LOW",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 251.88999938964844,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9591,7 +9591,7 @@
     {
       "ticker": "HEI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 303.7300109863281,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9643,7 +9643,7 @@
     {
       "ticker": "LAC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 4.550000190734863,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9695,7 +9695,7 @@
     {
       "ticker": "IX",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 31.350000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9747,7 +9747,7 @@
     {
       "ticker": "IFS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 44.599998474121094,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9799,7 +9799,7 @@
     {
       "ticker": "LEG",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 10.630000114440918,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9851,7 +9851,7 @@
     {
       "ticker": "IVZ",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 23.670000076293945,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9903,7 +9903,7 @@
     {
       "ticker": "GENI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 5.389999866485596,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -9955,7 +9955,7 @@
     {
       "ticker": "GNW",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 8.430000305175781,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10007,7 +10007,7 @@
     {
       "ticker": "LII",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 517.469970703125,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10059,7 +10059,7 @@
     {
       "ticker": "HGV",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 43.540000915527344,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10111,7 +10111,7 @@
     {
       "ticker": "IP",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 39.529998779296875,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10163,7 +10163,7 @@
     {
       "ticker": "MDT",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 90.9000015258789,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10215,12 +10215,12 @@
     {
       "ticker": "IAE",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 7.440000057220459,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 7.903158450126648,
-      "sma_slow_now": 7.800225753784179,
+      "sma_slow_now": 7.800225763320923,
       "trend_ok": false,
       "recent_swing_high": 8.124439661224796,
       "recent_swing_high_date": "2026-02-26",
@@ -10267,7 +10267,7 @@
     {
       "ticker": "ING",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 26.40999984741211,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10319,7 +10319,7 @@
     {
       "ticker": "H",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 149.6199951171875,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10371,7 +10371,7 @@
     {
       "ticker": "HOMB",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 26.959999084472656,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10423,7 +10423,7 @@
     {
       "ticker": "LYG",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 5.190000057220459,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10475,7 +10475,7 @@
     {
       "ticker": "HOV",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 112.87999725341797,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10527,7 +10527,7 @@
     {
       "ticker": "LPX",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 77.69999694824219,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10579,7 +10579,7 @@
     {
       "ticker": "KEY",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 19.860000610351562,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10631,7 +10631,7 @@
     {
       "ticker": "HLI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 151.11000061035156,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10683,7 +10683,7 @@
     {
       "ticker": "MEC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 19.18000030517578,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10735,7 +10735,7 @@
     {
       "ticker": "GWH",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 1.2999999523162842,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10787,7 +10787,7 @@
     {
       "ticker": "MC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 56.150001525878906,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10839,7 +10839,7 @@
     {
       "ticker": "KN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 24.829999923706055,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10891,7 +10891,7 @@
     {
       "ticker": "LZM",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 4.349999904632568,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10943,7 +10943,7 @@
     {
       "ticker": "HUN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 11.4399995803833,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -10995,7 +10995,7 @@
     {
       "ticker": "GF",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 11.050000190734863,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11047,7 +11047,7 @@
     {
       "ticker": "IBN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 28.200000762939453,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11099,7 +11099,7 @@
     {
       "ticker": "IIIN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 34.04999923706055,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11151,7 +11151,7 @@
     {
       "ticker": "JHX",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 21.149999618530273,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11203,7 +11203,7 @@
     {
       "ticker": "HBB",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 16.889999389648438,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11255,7 +11255,7 @@
     {
       "ticker": "HCC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 77.36000061035156,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11307,7 +11307,7 @@
     {
       "ticker": "GPK",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 11.220000267028809,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11359,7 +11359,7 @@
     {
       "ticker": "IFN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 12.4399995803833,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11411,7 +11411,7 @@
     {
       "ticker": "ITT",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 185.58999633789062,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11463,7 +11463,7 @@
     {
       "ticker": "LC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 14.670000076293945,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11515,7 +11515,7 @@
     {
       "ticker": "IFF",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 73.7699966430664,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11567,7 +11567,7 @@
     {
       "ticker": "GCTS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 1.0800000429153442,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11619,7 +11619,7 @@
     {
       "ticker": "LEA",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 120.18000030517578,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11671,7 +11671,7 @@
     {
       "ticker": "MHK",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 107.37000274658203,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11723,7 +11723,7 @@
     {
       "ticker": "GROV",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 1.2899999618530273,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11775,7 +11775,7 @@
     {
       "ticker": "KGS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 55.29999923706055,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11827,7 +11827,7 @@
     {
       "ticker": "LAZ",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 44.63999938964844,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11879,7 +11879,7 @@
     {
       "ticker": "GRBK",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 68.30999755859375,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11931,7 +11931,7 @@
     {
       "ticker": "ITUB",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 8.140000343322754,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -11983,7 +11983,7 @@
     {
       "ticker": "JKS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 23.34000015258789,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12035,7 +12035,7 @@
     {
       "ticker": "IHD",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 6.420000076293945,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12087,7 +12087,7 @@
     {
       "ticker": "HDB",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 29.469999313354492,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12139,7 +12139,7 @@
     {
       "ticker": "HMC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 27.239999771118164,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12191,7 +12191,7 @@
     {
       "ticker": "GLOB",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 51.61000061035156,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12243,7 +12243,7 @@
     {
       "ticker": "MAC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 18.799999237060547,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12295,7 +12295,7 @@
     {
       "ticker": "LUMN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 6.619999885559082,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12347,7 +12347,7 @@
     {
       "ticker": "LEN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 101.16999816894531,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12399,7 +12399,7 @@
     {
       "ticker": "GEF",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 69.18000030517578,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12451,7 +12451,7 @@
     {
       "ticker": "LEVI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 19.600000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12503,7 +12503,7 @@
     {
       "ticker": "LOMA",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 9.850000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12555,7 +12555,7 @@
     {
       "ticker": "HY",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 33.43000030517578,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12607,7 +12607,7 @@
     {
       "ticker": "LDI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 1.7699999809265137,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12659,7 +12659,7 @@
     {
       "ticker": "KODK",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 6.690000057220459,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12711,7 +12711,7 @@
     {
       "ticker": "GGB",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 3.559999942779541,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12763,7 +12763,7 @@
     {
       "ticker": "HLIO",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 65.0,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12815,7 +12815,7 @@
     {
       "ticker": "LOB",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 33.54999923706055,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12867,7 +12867,7 @@
     {
       "ticker": "HVT",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 22.899999618530273,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12919,7 +12919,7 @@
     {
       "ticker": "MAGN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 11.850000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -12971,7 +12971,7 @@
     {
       "ticker": "HKD",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 1.559999942779541,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13023,7 +13023,7 @@
     {
       "ticker": "GTES",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 23.979999542236328,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13075,7 +13075,7 @@
     {
       "ticker": "MFG",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 8.0600004196167,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13127,7 +13127,7 @@
     {
       "ticker": "LNC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 34.040000915527344,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13179,7 +13179,7 @@
     {
       "ticker": "JBGS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 14.819999694824219,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13231,7 +13231,7 @@
     {
       "ticker": "HQL",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 15.869999885559082,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13283,7 +13283,7 @@
     {
       "ticker": "HLN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 10.279999732971191,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13335,7 +13335,7 @@
     {
       "ticker": "HGTY",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 10.239999771118164,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13387,7 +13387,7 @@
     {
       "ticker": "M",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 18.270000457763672,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13439,7 +13439,7 @@
     {
       "ticker": "GIL",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 62.43000030517578,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13491,7 +13491,7 @@
     {
       "ticker": "MCB",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 79.36000061035156,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13543,7 +13543,7 @@
     {
       "ticker": "KSS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 15.119999885559082,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13595,7 +13595,7 @@
     {
       "ticker": "KWR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 129.5500030517578,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13647,7 +13647,7 @@
     {
       "ticker": "HUYA",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 3.4600000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13699,7 +13699,7 @@
     {
       "ticker": "KOF",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 104.23999786376953,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13751,7 +13751,7 @@
     {
       "ticker": "MHO",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 135.6199951171875,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13803,7 +13803,7 @@
     {
       "ticker": "IIF",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 22.799999237060547,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13855,7 +13855,7 @@
     {
       "ticker": "HRI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 120.12999725341797,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13907,7 +13907,7 @@
     {
       "ticker": "HIW",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 22.139999389648438,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -13959,7 +13959,7 @@
     {
       "ticker": "IPI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 42.529998779296875,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14011,7 +14011,7 @@
     {
       "ticker": "GGG",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 88.55000305175781,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14063,7 +14063,7 @@
     {
       "ticker": "HNI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 41.439998626708984,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14115,7 +14115,7 @@
     {
       "ticker": "JMIA",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 7.599999904632568,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14167,7 +14167,7 @@
     {
       "ticker": "HUM",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 179.14999389648438,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14219,7 +14219,7 @@
     {
       "ticker": "KNSL",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 372.0199890136719,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14271,7 +14271,7 @@
     {
       "ticker": "LUV",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 41.560001373291016,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14323,7 +14323,7 @@
     {
       "ticker": "MGA",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 58.849998474121094,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14375,7 +14375,7 @@
     {
       "ticker": "GCO",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 26.5,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14427,7 +14427,7 @@
     {
       "ticker": "HRTG",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 26.8799991607666,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14479,7 +14479,7 @@
     {
       "ticker": "GGZ",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 15.619999885559082,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14531,7 +14531,7 @@
     {
       "ticker": "HPP",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 6.989999771118164,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14583,7 +14583,7 @@
     {
       "ticker": "GEO",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 14.350000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14635,7 +14635,7 @@
     {
       "ticker": "HLLY",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 3.359999895095825,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14687,7 +14687,7 @@
     {
       "ticker": "LTM",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 48.06999969482422,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14739,7 +14739,7 @@
     {
       "ticker": "IONQ",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 35.72999954223633,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14791,7 +14791,7 @@
     {
       "ticker": "MBC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 8.949999809265137,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14843,7 +14843,7 @@
     {
       "ticker": "KKR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 91.33000183105469,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14895,7 +14895,7 @@
     {
       "ticker": "LAD",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 259.6499938964844,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14947,7 +14947,7 @@
     {
       "ticker": "LLY",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 990.3300170898438,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -14999,7 +14999,7 @@
     {
       "ticker": "KLC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 3.5899999141693115,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15051,7 +15051,7 @@
     {
       "ticker": "JPM",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 289.4800109863281,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15103,7 +15103,7 @@
     {
       "ticker": "GOF",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 11.40999984741211,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15155,7 +15155,7 @@
     {
       "ticker": "MEI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 6.659999847412109,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15207,7 +15207,7 @@
     {
       "ticker": "HD",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 357.9200134277344,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15259,7 +15259,7 @@
     {
       "ticker": "GETY",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 0.8489999771118164,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15311,7 +15311,7 @@
     {
       "ticker": "KNF",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 80.19999694824219,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15363,7 +15363,7 @@
     {
       "ticker": "KBR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 40.0,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15415,12 +15415,12 @@
     {
       "ticker": "HFRO",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 5.949999809265137,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 6.247022700309754,
-      "sma_slow_now": 6.150256614685059,
+      "sma_slow_now": 6.150256633758545,
       "trend_ok": false,
       "recent_swing_high": 6.349999904632568,
       "recent_swing_high_date": "2026-02-26",
@@ -15467,7 +15467,7 @@
     {
       "ticker": "MATV",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 9.380000114440918,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15519,7 +15519,7 @@
     {
       "ticker": "LXFR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 11.979999542236328,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15571,7 +15571,7 @@
     {
       "ticker": "LVS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 53.599998474121094,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15623,7 +15623,7 @@
     {
       "ticker": "GS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 821.4199829101562,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15675,7 +15675,7 @@
     {
       "ticker": "MGM",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 35.56999969482422,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15727,7 +15727,7 @@
     {
       "ticker": "LXP",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 47.65999984741211,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15779,7 +15779,7 @@
     {
       "ticker": "KEP",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 16.329999923706055,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15831,7 +15831,7 @@
     {
       "ticker": "KBDC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 13.649999618530273,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15883,7 +15883,7 @@
     {
       "ticker": "HCI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 169.4199981689453,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -15935,7 +15935,7 @@
     {
       "ticker": "JBI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 5.289999961853027,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16039,7 +16039,7 @@
     {
       "ticker": "MFC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 33.68000030517578,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16091,7 +16091,7 @@
     {
       "ticker": "JEF",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 38.290000915527344,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16143,7 +16143,7 @@
     {
       "ticker": "LVWR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 1.7699999809265137,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16195,7 +16195,7 @@
     {
       "ticker": "GPMT",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 1.7200000286102295,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16247,7 +16247,7 @@
     {
       "ticker": "GNL",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 9.260000228881836,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16299,7 +16299,7 @@
     {
       "ticker": "HIMS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 15.739999771118164,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16351,12 +16351,12 @@
     {
       "ticker": "JRI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 12.569999694824219,
       "sma_fast": 20,
       "sma_slow": 50,
-      "sma_fast_now": 12.921222972869874,
-      "sma_slow_now": 13.018245010375976,
+      "sma_fast_now": 12.921223020553589,
+      "sma_slow_now": 13.018245067596435,
       "trend_ok": false,
       "recent_swing_high": 13.319999694824219,
       "recent_swing_high_date": "2026-03-02",
@@ -16374,9 +16374,9 @@
       "close_above_sma_fast": false,
       "rebound_ok": false,
       "uptrend_window_used": 50,
-      "uptrend_hh_count": 3,
+      "uptrend_hh_count": 4,
       "uptrend_hl_count": 2,
-      "uptrend_pivot_highs": 7,
+      "uptrend_pivot_highs": 8,
       "uptrend_pivot_lows": 6,
       "uptrend_overall_up": false,
       "uptrend_ok": false,
@@ -16403,12 +16403,12 @@
     {
       "ticker": "GHY",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 12.170000076293945,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 12.694016218185425,
-      "sma_slow_now": 12.594971466064454,
+      "sma_slow_now": 12.594971446990966,
       "trend_ok": false,
       "recent_swing_high": 12.859999656677246,
       "recent_swing_high_date": "2026-02-27",
@@ -16455,7 +16455,7 @@
     {
       "ticker": "GDV",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 27.799999237060547,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16559,12 +16559,12 @@
     {
       "ticker": "JMM",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 6.019999980926514,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 6.166768741607666,
-      "sma_slow_now": 6.096836175918579,
+      "sma_slow_now": 6.096836185455322,
       "trend_ok": false,
       "recent_swing_high": 6.360000133514404,
       "recent_swing_high_date": "2026-03-02",
@@ -16611,7 +16611,7 @@
     {
       "ticker": "MBI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 6.559999942779541,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16663,7 +16663,7 @@
     {
       "ticker": "LTH",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 25.3700008392334,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16715,7 +16715,7 @@
     {
       "ticker": "HIX",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 4.0,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16767,7 +16767,7 @@
     {
       "ticker": "JXN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 109.44999694824219,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16819,7 +16819,7 @@
     {
       "ticker": "MEG",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 27.0,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16871,7 +16871,7 @@
     {
       "ticker": "KRC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 29.809999465942383,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16923,7 +16923,7 @@
     {
       "ticker": "GM",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 75.20999908447266,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -16975,7 +16975,7 @@
     {
       "ticker": "LCII",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 129.69000244140625,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17027,7 +17027,7 @@
     {
       "ticker": "INN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 4.510000228881836,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17079,7 +17079,7 @@
     {
       "ticker": "GRX",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 9.600000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17131,7 +17131,7 @@
     {
       "ticker": "JBK",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 25.450000762939453,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17183,7 +17183,7 @@
     {
       "ticker": "HHH",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 69.41999816894531,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17235,7 +17235,7 @@
     {
       "ticker": "MHLA",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 12.270000457763672,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17287,7 +17287,7 @@
     {
       "ticker": "INSP",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 62.9900016784668,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17339,12 +17339,12 @@
     {
       "ticker": "IVR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 8.15999984741211,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 8.507683038711548,
-      "sma_slow_now": 8.528875579833985,
+      "sma_slow_now": 8.528875617980956,
       "trend_ok": false,
       "recent_swing_high": 8.550000190734863,
       "recent_swing_high_date": "2026-02-26",
@@ -17391,7 +17391,7 @@
     {
       "ticker": "ITGR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 84.02999877929688,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17443,7 +17443,7 @@
     {
       "ticker": "HTT",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 2.740000009536743,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17495,7 +17495,7 @@
     {
       "ticker": "HTGC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 14.859999656677246,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17547,7 +17547,7 @@
     {
       "ticker": "HPE",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 21.1299991607666,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17599,7 +17599,7 @@
     {
       "ticker": "MGR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 20.71500015258789,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17651,7 +17651,7 @@
     {
       "ticker": "ISD",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 14.0600004196167,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17703,7 +17703,7 @@
     {
       "ticker": "GHG",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 1.3300000429153442,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17755,7 +17755,7 @@
     {
       "ticker": "JHS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 11.279999732971191,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17807,7 +17807,7 @@
     {
       "ticker": "GPN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 76.4000015258789,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17859,7 +17859,7 @@
     {
       "ticker": "HGLB",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 8.670000076293945,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17911,7 +17911,7 @@
     {
       "ticker": "JBTM",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 148.75999450683594,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -17963,7 +17963,7 @@
     {
       "ticker": "LZB",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 34.56999969482422,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18015,7 +18015,7 @@
     {
       "ticker": "HIO",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 3.6700000762939453,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18067,7 +18067,7 @@
     {
       "ticker": "KREF",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 7.179999828338623,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18119,7 +18119,7 @@
     {
       "ticker": "KTB",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 76.2699966430664,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18171,7 +18171,7 @@
     {
       "ticker": "GDO",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 11.039999961853027,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18223,7 +18223,7 @@
     {
       "ticker": "HLT",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 298.6400146484375,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18275,7 +18275,7 @@
     {
       "ticker": "LADR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 10.239999771118164,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18327,7 +18327,7 @@
     {
       "ticker": "KKRT",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 24.920000076293945,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18379,7 +18379,7 @@
     {
       "ticker": "GPI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 318.8399963378906,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18483,7 +18483,7 @@
     {
       "ticker": "LDP",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 20.799999237060547,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18535,7 +18535,7 @@
     {
       "ticker": "GCV",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 4.400000095367432,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18587,12 +18587,12 @@
     {
       "ticker": "JFR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 7.460000038146973,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 7.653804278373718,
-      "sma_slow_now": 7.712962417602539,
+      "sma_slow_now": 7.712962427139282,
       "trend_ok": false,
       "recent_swing_high": 7.71999979019165,
       "recent_swing_high_date": "2026-02-26",
@@ -18610,9 +18610,9 @@
       "close_above_sma_fast": false,
       "rebound_ok": false,
       "uptrend_window_used": 50,
-      "uptrend_hh_count": 3,
+      "uptrend_hh_count": 2,
       "uptrend_hl_count": 2,
-      "uptrend_pivot_highs": 8,
+      "uptrend_pivot_highs": 7,
       "uptrend_pivot_lows": 4,
       "uptrend_overall_up": false,
       "uptrend_ok": false,
@@ -18639,7 +18639,7 @@
     {
       "ticker": "JHI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 13.550000190734863,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18691,7 +18691,7 @@
     {
       "ticker": "INGR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 114.83000183105469,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18743,12 +18743,12 @@
     {
       "ticker": "MCN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 5.989999771118164,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 6.092572927474976,
-      "sma_slow_now": 5.9938669109344485,
+      "sma_slow_now": 5.993866844177246,
       "trend_ok": false,
       "recent_swing_high": 6.179999828338623,
       "recent_swing_high_date": "2026-02-20",
@@ -18783,7 +18783,7 @@
         "gap_thresh_pct": 2.5,
         "gap_count": 0,
         "max_gap_count_allowed": 2,
-        "max_gap_pct": 1.15130975345757,
+        "max_gap_pct": 1.1513097664828307,
         "max_gap_pct_allowed": 6.0,
         "avg_volume_50": 85574,
         "price_quality_ok": false
@@ -18795,7 +18795,7 @@
     {
       "ticker": "LANV",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 1.590000033378601,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18847,7 +18847,7 @@
     {
       "ticker": "LOCL",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 0.9900000095367432,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18899,7 +18899,7 @@
     {
       "ticker": "JCE",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 15.5,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -18951,12 +18951,12 @@
     {
       "ticker": "MIN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 2.5299999713897705,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 2.5737852573394777,
-      "sma_slow_now": 2.5815812730789185,
+      "sma_slow_now": 2.5815812301635743,
       "trend_ok": false,
       "recent_swing_high": 2.609999895095825,
       "recent_swing_high_date": "2026-02-23",
@@ -18974,10 +18974,10 @@
       "close_above_sma_fast": false,
       "rebound_ok": false,
       "uptrend_window_used": 50,
-      "uptrend_hh_count": 3,
-      "uptrend_hl_count": 3,
-      "uptrend_pivot_highs": 5,
-      "uptrend_pivot_lows": 5,
+      "uptrend_hh_count": 4,
+      "uptrend_hl_count": 2,
+      "uptrend_pivot_highs": 6,
+      "uptrend_pivot_lows": 4,
       "uptrend_overall_up": false,
       "uptrend_ok": false,
       "uptrend_actionable": false,
@@ -19003,7 +19003,7 @@
     {
       "ticker": "MGF",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 2.9700000286102295,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19055,12 +19055,12 @@
     {
       "ticker": "IGI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 16.170000076293945,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 16.45157346725464,
-      "sma_slow_now": 16.393592071533202,
+      "sma_slow_now": 16.39359218597412,
       "trend_ok": false,
       "recent_swing_high": 16.68000030517578,
       "recent_swing_high_date": "2026-02-25",
@@ -19107,7 +19107,7 @@
     {
       "ticker": "HMN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 43.40999984741211,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19159,7 +19159,7 @@
     {
       "ticker": "HEQ",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 11.210000038146973,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19211,7 +19211,7 @@
     {
       "ticker": "JLS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 18.15999984741211,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19263,7 +19263,7 @@
     {
       "ticker": "MHNC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 14.710000038146973,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19315,7 +19315,7 @@
     {
       "ticker": "GIS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 44.290000915527344,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19367,7 +19367,7 @@
     {
       "ticker": "GDOT",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 11.600000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19419,7 +19419,7 @@
     {
       "ticker": "HYT",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 8.680000305175781,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19471,7 +19471,7 @@
     {
       "ticker": "JQC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 4.829999923706055,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19523,7 +19523,7 @@
     {
       "ticker": "MGRB",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 17.329999923706055,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19575,7 +19575,7 @@
     {
       "ticker": "IHG",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 132.6199951171875,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19627,7 +19627,7 @@
     {
       "ticker": "MGRD",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 15.40999984741211,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19679,7 +19679,7 @@
     {
       "ticker": "KIO",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 11.1899995803833,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19731,7 +19731,7 @@
     {
       "ticker": "IGA",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 9.739999771118164,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19783,7 +19783,7 @@
     {
       "ticker": "MET",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 71.83000183105469,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19835,7 +19835,7 @@
     {
       "ticker": "MAA",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 132.7899932861328,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19887,7 +19887,7 @@
     {
       "ticker": "GPC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 115.5199966430664,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19939,7 +19939,7 @@
     {
       "ticker": "MGRE",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 24.190000534057617,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -19991,7 +19991,7 @@
     {
       "ticker": "ICL",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 4.940000057220459,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20043,7 +20043,7 @@
     {
       "ticker": "KOS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 2.569999933242798,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20095,12 +20095,12 @@
     {
       "ticker": "MAIN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 57.369998931884766,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 58.641655349731444,
-      "sma_slow_now": 60.38694107055664,
+      "sma_slow_now": 60.38694084167481,
       "trend_ok": false,
       "recent_swing_high": 58.85634211448002,
       "recent_swing_high_date": "2026-02-25",
@@ -20147,7 +20147,7 @@
     {
       "ticker": "KD",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 13.1899995803833,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20199,7 +20199,7 @@
     {
       "ticker": "HIG",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 139.25,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20251,7 +20251,7 @@
     {
       "ticker": "J",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 136.7899932861328,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20303,7 +20303,7 @@
     {
       "ticker": "KMPR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 31.780000686645508,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20355,7 +20355,7 @@
     {
       "ticker": "HTB",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 42.470001220703125,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20407,7 +20407,7 @@
     {
       "ticker": "INVH",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 26.209999084472656,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20459,12 +20459,12 @@
     {
       "ticker": "HYI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 10.949999809265137,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 11.098919153213501,
-      "sma_slow_now": 11.028626537322998,
+      "sma_slow_now": 11.028626499176026,
       "trend_ok": false,
       "recent_swing_high": 11.199999809265137,
       "recent_swing_high_date": "2026-02-23",
@@ -20482,9 +20482,9 @@
       "close_above_sma_fast": false,
       "rebound_ok": false,
       "uptrend_window_used": 50,
-      "uptrend_hh_count": 3,
+      "uptrend_hh_count": 2,
       "uptrend_hl_count": 4,
-      "uptrend_pivot_highs": 6,
+      "uptrend_pivot_highs": 5,
       "uptrend_pivot_lows": 6,
       "uptrend_overall_up": true,
       "uptrend_ok": true,
@@ -20511,7 +20511,7 @@
     {
       "ticker": "HOG",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 19.209999084472656,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20563,12 +20563,12 @@
     {
       "ticker": "JPC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 8.069999694824219,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 8.194753885269165,
-      "sma_slow_now": 8.103045310974121,
+      "sma_slow_now": 8.10304533958435,
       "trend_ok": false,
       "recent_swing_high": 8.25,
       "recent_swing_high_date": "2026-03-02",
@@ -20587,9 +20587,9 @@
       "rebound_ok": false,
       "uptrend_window_used": 50,
       "uptrend_hh_count": 3,
-      "uptrend_hl_count": 3,
+      "uptrend_hl_count": 2,
       "uptrend_pivot_highs": 4,
-      "uptrend_pivot_lows": 5,
+      "uptrend_pivot_lows": 4,
       "uptrend_overall_up": true,
       "uptrend_ok": true,
       "uptrend_actionable": false,
@@ -20603,7 +20603,7 @@
         "gap_thresh_pct": 2.5,
         "gap_count": 0,
         "max_gap_count_allowed": 2,
-        "max_gap_pct": 0.4932186292846835,
+        "max_gap_pct": 0.49322465925352427,
         "max_gap_pct_allowed": 6.0,
         "avg_volume_50": 1006408,
         "price_quality_ok": false
@@ -20615,7 +20615,7 @@
     {
       "ticker": "MCY",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 90.4800033569336,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20667,7 +20667,7 @@
     {
       "ticker": "INFY",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 14.4399995803833,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20719,7 +20719,7 @@
     {
       "ticker": "MCR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 6.130000114440918,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20771,7 +20771,7 @@
     {
       "ticker": "KKRS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 17.43000030517578,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20823,7 +20823,7 @@
     {
       "ticker": "JGH",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 12.600000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20875,7 +20875,7 @@
     {
       "ticker": "IQV",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 174.49000549316406,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20927,7 +20927,7 @@
     {
       "ticker": "IDT",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 51.439998626708984,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -20979,7 +20979,7 @@
     {
       "ticker": "HTFC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 24.84000015258789,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21031,7 +21031,7 @@
     {
       "ticker": "HAE",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 64.12999725341797,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21083,7 +21083,7 @@
     {
       "ticker": "MCO",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 471.9700012207031,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21135,7 +21135,7 @@
     {
       "ticker": "GDL",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 8.510000228881836,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21187,7 +21187,7 @@
     {
       "ticker": "IRT",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 16.469999313354492,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21239,7 +21239,7 @@
     {
       "ticker": "LDOS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 177.88999938964844,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21291,7 +21291,7 @@
     {
       "ticker": "LUCK",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 8.539999961853027,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21343,24 +21343,24 @@
     {
       "ticker": "GJO",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 24.84000015258789,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 24.842500019073487,
-      "sma_slow_now": 24.774790077209474,
+      "sma_slow_now": 24.774790115356446,
       "trend_ok": true,
       "recent_swing_high": 25.139999389648438,
       "recent_swing_high_date": "2026-02-20",
       "resistance_level": 25.139999389648438,
       "pullback_from_swing_high_pct": 1.1933144166426415,
       "had_correction": false,
-      "anchor_support_close": 24.138917538205433,
+      "anchor_support_close": 24.138919408637676,
       "anchor_support_date": "2026-01-13",
-      "support_level": 24.138917538205433,
+      "support_level": 24.138919408637676,
       "support_tolerance_pct": 1.0,
-      "support_floor": 24.138917538205433,
-      "support_floor_adj": 23.89752836282338,
+      "support_floor": 24.138919408637676,
+      "support_floor_adj": 23.8975302145513,
       "correction_close_low": 24.700000762939453,
       "support_held": true,
       "close_above_sma_fast": false,
@@ -21374,7 +21374,7 @@
       "uptrend_ok": false,
       "uptrend_actionable": false,
       "actionable_after_correction": false,
-      "dist_to_support": 0.029043664168984858,
+      "dist_to_support": 0.029043584432339807,
       "actionable_reason": "none",
       "priceQuality": {
         "quality_n_bars": 50,
@@ -21390,12 +21390,12 @@
       },
       "priceQualityOk": true,
       "avgVolume50": 720,
-      "rank_score": 0.5902877774952793
+      "rank_score": 0.5902878572319243
     },
     {
       "ticker": "LMND",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 55.130001068115234,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21447,7 +21447,7 @@
     {
       "ticker": "GHC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 1068.719970703125,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21499,7 +21499,7 @@
     {
       "ticker": "MITP",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 25.299999237060547,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21551,7 +21551,7 @@
     {
       "ticker": "MFAN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 25.170000076293945,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21603,7 +21603,7 @@
     {
       "ticker": "GJP",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 24.75,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21655,7 +21655,7 @@
     {
       "ticker": "MD",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 19.75,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21707,7 +21707,7 @@
     {
       "ticker": "GES",
       "tf": "1d",
-      "bars_used": 149,
+      "bars_used": 148,
       "close": 16.809999465942383,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21759,7 +21759,7 @@
     {
       "ticker": "KMX",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 42.189998626708984,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21811,7 +21811,7 @@
     {
       "ticker": "MFAO",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 25.31999969482422,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21863,7 +21863,7 @@
     {
       "ticker": "GRND",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 11.609999656677246,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21915,7 +21915,7 @@
     {
       "ticker": "MA",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 522.3400268554688,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -21967,7 +21967,7 @@
     {
       "ticker": "MITN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 25.329999923706055,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22019,7 +22019,7 @@
     {
       "ticker": "JACS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 10.520000457763672,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22071,7 +22071,7 @@
     {
       "ticker": "HYAC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 11.489999771118164,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22123,7 +22123,7 @@
     {
       "ticker": "GJR",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 24.739999771118164,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22227,12 +22227,12 @@
     {
       "ticker": "GJT",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 23.219999313354492,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 23.04177007675171,
-      "sma_slow_now": 23.060324287414552,
+      "sma_slow_now": 23.060324249267577,
       "trend_ok": true,
       "recent_swing_high": 23.219999313354492,
       "recent_swing_high_date": "2026-02-27",
@@ -22279,12 +22279,12 @@
     {
       "ticker": "HPI",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 16.209999084472656,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 16.196329212188722,
-      "sma_slow_now": 16.15155237197876,
+      "sma_slow_now": 16.15155241012573,
       "trend_ok": true,
       "recent_swing_high": 16.166152866268362,
       "recent_swing_high_date": "2026-02-05",
@@ -22331,7 +22331,7 @@
     {
       "ticker": "MED",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 10.770000457763672,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22383,7 +22383,7 @@
     {
       "ticker": "INGM",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 22.059999465942383,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22435,7 +22435,7 @@
     {
       "ticker": "LYB",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 67.11000061035156,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22487,7 +22487,7 @@
     {
       "ticker": "KFRC",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 27.34000015258789,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22539,7 +22539,7 @@
     {
       "ticker": "GJH",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 9.979999542236328,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22591,7 +22591,7 @@
     {
       "ticker": "KFY",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 63.599998474121094,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22643,7 +22643,7 @@
     {
       "ticker": "GDDY",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 93.94999694824219,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22695,7 +22695,7 @@
     {
       "ticker": "HPQ",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 19.459999084472656,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22747,7 +22747,7 @@
     {
       "ticker": "LSPD",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 9.569999694824219,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22799,12 +22799,12 @@
     {
       "ticker": "GJS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 24.010000228881836,
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 23.4834641456604,
-      "sma_slow_now": 23.36583583831787,
+      "sma_slow_now": 23.3658358001709,
       "trend_ok": true,
       "recent_swing_high": 23.579999923706055,
       "recent_swing_high_date": "2026-02-27",
@@ -22851,7 +22851,7 @@
     {
       "ticker": "IH",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 1.899999976158142,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22903,7 +22903,7 @@
     {
       "ticker": "MAN",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 29.100000381469727,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -22955,7 +22955,7 @@
     {
       "ticker": "GIB",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 76.05000305175781,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23007,7 +23007,7 @@
     {
       "ticker": "HTFB",
       "tf": "1d",
-      "bars_used": 154,
+      "bars_used": 153,
       "close": 25.719999313354492,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23059,7 +23059,7 @@
     {
       "ticker": "HRB",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 32.2599983215332,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23111,7 +23111,7 @@
     {
       "ticker": "IT",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 169.0,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23163,7 +23163,7 @@
     {
       "ticker": "MAX",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 10.119999885559082,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23215,7 +23215,7 @@
     {
       "ticker": "IBM",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 258.8500061035156,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23267,7 +23267,7 @@
     {
       "ticker": "LION",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 10.65999984741211,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23319,7 +23319,7 @@
     {
       "ticker": "HNGE",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 46.13999938964844,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23371,7 +23371,7 @@
     {
       "ticker": "HUBS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 296.55999755859375,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23423,7 +23423,7 @@
     {
       "ticker": "LXU",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 13.489999771118164,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23475,7 +23475,7 @@
     {
       "ticker": "KVYO",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 20.979999542236328,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23527,7 +23527,7 @@
     {
       "ticker": "IOT",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 35.36000061035156,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23579,7 +23579,7 @@
     {
       "ticker": "GWRE",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 168.8699951171875,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23631,7 +23631,7 @@
     {
       "ticker": "LAW",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 4.789999961853027,
       "sma_fast": 20,
       "sma_slow": 50,
@@ -23683,7 +23683,7 @@
     {
       "ticker": "KORE",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 8.979999542236328,
       "sma_fast": 20,
       "sma_slow": 50,

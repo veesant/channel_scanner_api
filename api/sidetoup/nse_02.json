@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-07T20:03:17.114030+00:00",
+  "updated_utc": "2026-03-08T14:07:00.732106+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -2161,27 +2161,27 @@
     },
     {
       "ticker": "EMAMILTD.NS",
-      "slope": -0.006866289191123439,
-      "r2": 0.8257312914488244,
+      "slope": -0.0068662898886406145,
+      "r2": 0.8257311528895716,
       "inside": 0.9230769230769231,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.20616260429084007,
+      "pos": 0.20616284887016528,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -30.026041734690978,
+      "annual_trend_pct": -30.026044272708894,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -27.41277735389689,
+      "prior_trend_pct": -27.412782414154314,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -49.03640211911529,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8614801545260975
+      "rank_score": 0.8614800607885384
     },
     {
       "ticker": "DLINKINDIA.NS",
@@ -3313,27 +3313,27 @@
     },
     {
       "ticker": "GOPAL.NS",
-      "slope": -0.005604435065500756,
-      "r2": 0.7356691403710094,
+      "slope": -0.005604435938592479,
+      "r2": 0.7356693653008279,
       "inside": 0.9487179487179487,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.3158702451151002,
+      "pos": 0.31587026052924133,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -25.280615043084033,
+      "annual_trend_pct": -25.280618435401525,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -41.31550589007966,
+      "prior_trend_pct": -41.31549940031466,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -11.004239036819008,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8157347251611742
+      "rank_score": 0.8157348360846693
     },
     {
       "ticker": "IONEXCHANG.NS",
@@ -4201,15 +4201,15 @@
     },
     {
       "ticker": "IEX.NS",
-      "slope": -0.008808587956951946,
-      "r2": 0.665462759439819,
+      "slope": -0.008808587995396319,
+      "r2": 0.665462769668802,
       "inside": 0.9230769230769231,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.5100577793473305,
+      "pos": 0.5100577818448042,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -36.74819832219082,
+      "annual_trend_pct": -36.74819844863796,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -4221,7 +4221,7 @@
       "recent_trend_pct": -2.418202928198754,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.7509563710159457
+      "rank_score": 0.7509563758806899
     },
     {
       "ticker": "DJML.NS",

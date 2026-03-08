@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-07T20:04:52.030134+00:00",
+  "updated_utc": "2026-03-08T14:07:21.381630+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -121,27 +121,27 @@
     },
     {
       "ticker": "WELL",
-      "slope": 0.007666854591026168,
-      "r2": 0.9069078932492488,
+      "slope": 0.007666854250611373,
+      "r2": 0.9069078777239543,
       "inside": 0.9423076923076923,
       "near_upper": 0.09615384615384616,
       "near_lower": 0.038461538461538464,
-      "pos": 0.4642316585905635,
+      "pos": 0.46423169216973553,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 48.98514823785616,
+      "annual_trend_pct": 48.98514560058524,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 44.377105952056304,
+      "prior_trend_pct": 44.377111610867374,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 139.8933297552503,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8839538576886449
+      "rank_score": 0.8839538465680805
     },
     {
       "ticker": "YETI",
@@ -217,15 +217,15 @@
     },
     {
       "ticker": "WPP",
-      "slope": -0.015259980413558196,
-      "r2": 0.848595019706929,
+      "slope": -0.015259979922214607,
+      "r2": 0.8485950234711809,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.5091709727484993,
+      "pos": 0.5091709560922899,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -54.77494694192171,
+      "annual_trend_pct": -54.77494578642761,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -237,7 +237,7 @@
       "recent_trend_pct": -68.74244541412982,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8579957971939991
+      "rank_score": 0.8579958007417461
     },
     {
       "ticker": "WD",
@@ -337,15 +337,15 @@
     },
     {
       "ticker": "XHR",
-      "slope": 0.007496225163405297,
-      "r2": 0.76680096176319,
+      "slope": 0.0074962255182111585,
+      "r2": 0.7668009764737358,
       "inside": 0.9423076923076923,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.07692307692307693,
-      "pos": 0.33893567402928143,
+      "pos": 0.338935658170281,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 47.66909035552553,
+      "annual_trend_pct": 47.66909308000622,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -357,7 +357,7 @@
       "recent_trend_pct": 13.076817309256473,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8264299904017437
+      "rank_score": 0.8264299993429167
     },
     {
       "ticker": "WSR",
@@ -385,15 +385,15 @@
     },
     {
       "ticker": "WCN",
-      "slope": -0.0032561490723690034,
-      "r2": 0.7894631386095654,
+      "slope": -0.0032561488739364917,
+      "r2": 0.7894631720706745,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.7981743570815925,
+      "pos": 0.798174385188858,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -15.576108665765487,
+      "annual_trend_pct": -15.57610779463835,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -405,7 +405,7 @@
       "recent_trend_pct": 27.666629622921302,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8072218259043158
+      "rank_score": 0.8072218398241437
     },
     {
       "ticker": "WEAV",
@@ -433,15 +433,15 @@
     },
     {
       "ticker": "WT",
-      "slope": 0.011644045264491778,
-      "r2": 0.6924407945485931,
+      "slope": 0.01164404523637295,
+      "r2": 0.6924408057384144,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.5817885118234276,
+      "pos": 0.5817885181370421,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 83.21503904754981,
+      "annual_trend_pct": 83.21503877965661,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -453,7 +453,7 @@
       "recent_trend_pct": 79.66318655358727,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7880415460919538
+      "rank_score": 0.788041551055503
     },
     {
       "ticker": "XPEV",
@@ -529,15 +529,15 @@
     },
     {
       "ticker": "WTTR",
-      "slope": 0.008389707085355538,
-      "r2": 0.6672141368452685,
+      "slope": 0.008389707219754908,
+      "r2": 0.6672141317843305,
       "inside": 0.9423076923076923,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.8561352144267964,
+      "pos": 0.8561352041481209,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 54.691831567978745,
+      "annual_trend_pct": 54.69183264908395,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": true,
@@ -549,7 +549,7 @@
       "recent_trend_pct": 264.51263211755867,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7249166239030315
+      "rank_score": 0.7249166224004301
     }
   ]
 }
