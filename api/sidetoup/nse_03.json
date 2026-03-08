@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-08T14:08:49.670674+00:00",
+  "updated_utc": "2026-03-08T20:20:43.190604+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -697,27 +697,27 @@
     },
     {
       "ticker": "NATIONALUM.NS",
-      "slope": 0.028505830389230692,
-      "r2": 0.936592293190854,
+      "slope": 0.0285058297679215,
+      "r2": 0.9365922825051378,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.49089455574875523,
+      "pos": 0.49089457827382726,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 340.3075087052713,
+      "annual_trend_pct": 340.30749447978224,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 414.35909283382057,
+      "prior_trend_pct": 414.3590650580947,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 29.740456458952067,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.9192066910205515
+      "rank_score": 0.9192066834251862
     },
     {
       "ticker": "PRECAM.NS",
@@ -2065,15 +2065,15 @@
     },
     {
       "ticker": "NMDC.NS",
-      "slope": 0.00555113815555205,
-      "r2": 0.8319355202339976,
+      "slope": 0.005551138405298884,
+      "r2": 0.831935521922629,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.10256410256410256,
-      "pos": 0.344789518454656,
+      "pos": 0.34478950807267306,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 33.46367855546954,
+      "annual_trend_pct": 33.463680288740385,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -2085,7 +2085,7 @@
       "recent_trend_pct": 11.86463994786411,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8609759877587128
+      "rank_score": 0.8609759896412267
     },
     {
       "ticker": "PNC.NS",
@@ -2257,15 +2257,15 @@
     },
     {
       "ticker": "MOTHERSON.NS",
-      "slope": 0.007506445203145611,
-      "r2": 0.7998427514535207,
+      "slope": 0.007506445019768738,
+      "r2": 0.7998427415696916,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.4162147570743493,
+      "pos": 0.41621477075004865,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 47.74758877889636,
+      "annual_trend_pct": 47.747587370034836,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -2277,7 +2277,7 @@
       "recent_trend_pct": 213.48508113429455,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8506075923270177
+      "rank_score": 0.8506075860175333
     },
     {
       "ticker": "NAVINFLUOR.NS",
@@ -2497,15 +2497,15 @@
     },
     {
       "ticker": "MGL.NS",
-      "slope": -0.007677983956512991,
-      "r2": 0.7845441635890629,
+      "slope": -0.007677983820275004,
+      "r2": 0.7845442036673083,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.427210464230876,
+      "pos": 0.4272104516266231,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -32.91804906424145,
+      "annual_trend_pct": -32.91804858900773,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2517,7 +2517,7 @@
       "recent_trend_pct": 47.281621607473156,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8392946251150336
+      "rank_score": 0.8392946464145815
     },
     {
       "ticker": "NDRAUTO.NS",
@@ -3001,15 +3001,15 @@
     },
     {
       "ticker": "OCCLLTD.NS",
-      "slope": -0.012694370447838785,
-      "r2": 0.7650884155274518,
+      "slope": -0.012694370125346882,
+      "r2": 0.7650884107769127,
       "inside": 0.9230769230769231,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.25840274564452875,
+      "pos": 0.2584027323294758,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -48.32041017084598,
+      "annual_trend_pct": -48.32040930420101,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -3021,7 +3021,7 @@
       "recent_trend_pct": -64.4869541995697,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8259347024300423
+      "rank_score": 0.825934701386278
     },
     {
       "ticker": "PNBGILTS.NS",

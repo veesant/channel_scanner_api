@@ -1,0 +1,40 @@
+{
+  "updated_utc": "2026-03-08T20:18:33.667932+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 1,
+  "data": [
+    {
+      "ticker": "LEXUS.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 37.79999923706055,
+      "sma20": 35.61750001907349,
+      "sma50": 29.67159996032715,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 14.519053350489086,
+      "pole_high": 38.88999938964844,
+      "pole_range": 8.789999008178711,
+      "flag_bars": 8,
+      "flag_range": 3.5,
+      "pullback_from_pole_high_pct": 2.8027774998577706,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.128060509831402
+    }
+  ]
+}
