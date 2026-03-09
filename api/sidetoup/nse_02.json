@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-09T14:38:17.748776+00:00",
+  "updated_utc": "2026-03-09T20:28:22.813196+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -601,15 +601,15 @@
     },
     {
       "ticker": "HIKAL.NS",
-      "slope": -0.017031526655421913,
-      "r2": 0.9377402545722207,
+      "slope": -0.017031527111052797,
+      "r2": 0.9377402613554743,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.39121308427594076,
+      "pos": 0.39121310375470697,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -58.75496260753592,
+      "annual_trend_pct": -58.75496358474658,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -621,7 +621,7 @@
       "recent_trend_pct": -62.69225732427833,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9143642034739009
+      "rank_score": 0.914364204917651
     },
     {
       "ticker": "IGL.NS",
@@ -841,15 +841,15 @@
     },
     {
       "ticker": "IOC.NS",
-      "slope": 0.006539883458940802,
-      "r2": 0.8586503283575693,
+      "slope": 0.006539882955817229,
+      "r2": 0.8586503018492126,
       "inside": 0.9615384615384616,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.057692307692307696,
-      "pos": 0.06151291270544091,
+      "pos": 0.061512958884473855,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 40.50514760392539,
+      "annual_trend_pct": 40.50514392796993,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -861,7 +861,7 @@
       "recent_trend_pct": -51.0304959249017,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.9077892575236253
+      "rank_score": 0.9077892396515436
     },
     {
       "ticker": "KARURVYSYA.NS",
@@ -1825,15 +1825,15 @@
     },
     {
       "ticker": "GARFIBRES.NS",
-      "slope": -0.009491576162830763,
-      "r2": 0.87744178948981,
+      "slope": -0.009491577127530173,
+      "r2": 0.8774417804397049,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.5350229269264652,
+      "pos": 0.5350229791925248,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -38.95518750552958,
+      "annual_trend_pct": -38.955190567804024,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -1845,7 +1845,7 @@
       "recent_trend_pct": -75.14848299554248,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8749621917958482
+      "rank_score": 0.8749621820441897
     },
     {
       "ticker": "ERIS.NS",

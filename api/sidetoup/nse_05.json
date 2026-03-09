@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-09T14:35:34.048644+00:00",
+  "updated_utc": "2026-03-09T20:26:36.276269+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,27 +25,27 @@
   "data": [
     {
       "ticker": "VEEDOL.NS",
-      "slope": -0.013225120253703601,
-      "r2": 0.924376681357686,
+      "slope": -0.01322512052938317,
+      "r2": 0.9243767241807501,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.1792120187706528,
+      "pos": 0.17921193102957994,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -49.72721219527615,
+      "annual_trend_pct": -49.72721291595352,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -48.04923507066255,
+      "prior_trend_pct": -48.04923575700506,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -74.27685990357509,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9442671388017778
+      "rank_score": 0.9442671689874171
     },
     {
       "ticker": "ZODIACLOTH.NS",
@@ -433,15 +433,15 @@
     },
     {
       "ticker": "VIDHIING.NS",
-      "slope": -0.007371915969946053,
-      "r2": 0.9189228583012153,
+      "slope": -0.007371916039108686,
+      "r2": 0.9189228406102067,
       "inside": 0.9230769230769231,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.057692307692307696,
-      "pos": 0.34624280668982277,
+      "pos": 0.34624282986097416,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -31.8418625808369,
+      "annual_trend_pct": -31.841862825964697,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -453,7 +453,7 @@
       "recent_trend_pct": -10.599191901149197,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8940679177123946
+      "rank_score": 0.8940679065497751
     },
     {
       "ticker": "UTKARSHBNK.NS",

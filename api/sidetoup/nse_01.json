@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-09T14:38:04.744688+00:00",
+  "updated_utc": "2026-03-09T20:23:18.230375+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -193,27 +193,27 @@
     },
     {
       "ticker": "BEPL.NS",
-      "slope": -0.009341348881355961,
-      "r2": 0.9552184255457964,
+      "slope": -0.009341348762911428,
+      "r2": 0.9552184213313946,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.24217134459862416,
+      "pos": 0.2421713732462253,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -38.47644902709069,
+      "annual_trend_pct": -38.47644864816002,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -44.84732147664455,
+      "prior_trend_pct": -44.84732028112378,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -63.65248613484249,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9431356680566255
+      "rank_score": 0.9431356630846645
     },
     {
       "ticker": "CERA.NS",
@@ -1945,15 +1945,15 @@
     },
     {
       "ticker": "CHAMBLFERT.NS",
-      "slope": -0.00707943822586889,
-      "r2": 0.8130411815958676,
+      "slope": -0.007079438067765398,
+      "r2": 0.8130411606074845,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.32897515085297185,
+      "pos": 0.32897514938849803,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -30.79733328376402,
+      "annual_trend_pct": -30.797332714822478,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -1965,7 +1965,7 @@
       "recent_trend_pct": -40.56122677549053,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8633666654562264
+      "rank_score": 0.8633666551084823
     },
     {
       "ticker": "COUNCODOS.NS",
@@ -2737,15 +2737,15 @@
     },
     {
       "ticker": "CONCOR.NS",
-      "slope": -0.005006268195636364,
-      "r2": 0.7882556910426206,
+      "slope": -0.0050062679253449595,
+      "r2": 0.7882556489174756,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.3905427474100037,
+      "pos": 0.39054273602508505,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -22.91996945559216,
+      "annual_trend_pct": -22.919968372220534,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2757,7 +2757,7 @@
       "recent_trend_pct": -49.421926773570945,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8345607502674894
+      "rank_score": 0.8345607303434088
     },
     {
       "ticker": "DGCONTENT.NS",
@@ -3097,27 +3097,27 @@
     },
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.005318590383748271,
-      "r2": 0.7861361940479279,
+      "slope": 0.005318590715107973,
+      "r2": 0.786136233119833,
       "inside": 1.0,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.7235459721358674,
+      "pos": 0.7235459517948557,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 31.859490000506096,
+      "annual_trend_pct": 31.859492272538013,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 46.94401319491492,
+      "prior_trend_pct": 46.94401581359931,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 81.17871401089008,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8207134998103772
+      "rank_score": 0.820713521380431
     },
     {
       "ticker": "ANKITMETAL.NS",
@@ -4081,15 +4081,15 @@
     },
     {
       "ticker": "COLPAL.NS",
-      "slope": -0.003254115950619023,
-      "r2": 0.668453103056093,
+      "slope": -0.0032541160521469734,
+      "r2": 0.6684530467089265,
       "inside": 0.9230769230769231,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.057692307692307696,
-      "pos": 0.7309929220456801,
+      "pos": 0.730992891198073,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -15.567182703353167,
+      "annual_trend_pct": -15.567183149112285,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -4101,7 +4101,7 @@
       "recent_trend_pct": 33.318580199294566,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7303580285542477
+      "rank_score": 0.7303580034654252
     }
   ]
 }
