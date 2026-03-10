@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-09T20:28:34.024120+00:00",
+  "updated_utc": "2026-03-10T14:29:23.188891+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,29 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 1,
+  "data": [
+    {
+      "ticker": "TALK",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 5.119999885559082,
+      "sma20": 4.474500012397766,
+      "sma50": 4.111800022125244,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 14.93670650751734,
+      "pole_high": 5.179999828338623,
+      "pole_range": 1.499999761581421,
+      "flag_bars": 8,
+      "flag_range": 0.5999999046325684,
+      "pullback_from_pole_high_pct": 1.1583000920443032,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.6940686280277655
+    }
+  ]
 }

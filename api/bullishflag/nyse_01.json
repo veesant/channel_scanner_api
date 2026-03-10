@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-09T20:28:29.127764+00:00",
+  "updated_utc": "2026-03-10T14:29:22.066543+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,29 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 1,
+  "data": [
+    {
+      "ticker": "CAVA",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 81.80999755859375,
+      "sma20": 73.46800022125244,
+      "sma50": 68.43239990234375,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 27.163417955021114,
+      "pole_high": 86.4800033569336,
+      "pole_range": 25.29000473022461,
+      "flag_bars": 8,
+      "flag_range": 10.949996948242188,
+      "pullback_from_pole_high_pct": 5.400099002153222,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.278371233678496
+    }
+  ]
 }

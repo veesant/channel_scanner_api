@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-09T20:24:45.035868+00:00",
+  "updated_utc": "2026-03-10T14:31:21.420629+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -18,23 +18,23 @@
       "ticker": "ZIM",
       "tf": "1d",
       "bars_used": 320,
-      "close": 27.809999465942383,
-      "sma20": 26.447500133514403,
-      "sma50": 23.764000053405763,
+      "close": 29.110000610351562,
+      "sma20": 26.869000148773193,
+      "sma50": 23.925600051879883,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 40.27979047687397,
+      "pole_gain_pct": 38.126781485328394,
       "pole_high": 29.969999313354492,
       "pole_range": 9.389999389648438,
       "flag_bars": 8,
-      "flag_range": 1.635000228881836,
-      "pullback_from_pole_high_pct": 7.2072068631967685,
+      "flag_range": 1.8400001525878906,
+      "pullback_from_pole_high_pct": 2.8695319409624354,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
-      "near_breakout": false,
+      "near_breakout": true,
       "pattern": "bull_flag",
-      "rank_score": 2.7097975975936937
+      "rank_score": 2.7169007353007335
     }
   ]
 }
