@@ -1,0 +1,62 @@
+{
+  "updated_utc": "2026-03-10T20:19:37.837973+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 2,
+  "data": [
+    {
+      "ticker": "RELY",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 16.920000076293945,
+      "sma20": 15.61500005722046,
+      "sma50": 14.40140001296997,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 22.641509433962266,
+      "pole_high": 17.878999710083008,
+      "pole_range": 5.343999862670898,
+      "flag_bars": 8,
+      "flag_range": 1.864999771118164,
+      "pullback_from_pole_high_pct": 5.363832705071452,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.418350854838892
+    },
+    {
+      "ticker": "RCKY",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 43.54999923706055,
+      "sma20": 38.57052001953125,
+      "sma50": 34.31143096923828,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 40.201151473653645,
+      "pole_high": 46.81889741639917,
+      "pole_range": 14.828974911255404,
+      "flag_bars": 8,
+      "flag_range": 6.143001609702509,
+      "pullback_from_pole_high_pct": 6.982005898741283,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.3095722342614655
+    }
+  ]
+}
