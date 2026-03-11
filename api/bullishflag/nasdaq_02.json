@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-10T20:21:50.535442+00:00",
+  "updated_utc": "2026-03-11T14:35:06.338477+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,51 +12,29 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 2,
+  "count": 1,
   "data": [
     {
-      "ticker": "CCSI",
+      "ticker": "CGEM",
       "tf": "1d",
       "bars_used": 320,
-      "close": 30.479999542236328,
-      "sma20": 29.026499938964843,
-      "sma50": 24.872699966430662,
+      "close": 14.90999984741211,
+      "sma20": 14.124999856948852,
+      "sma50": 12.437199935913085,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 10.267858314929807,
-      "pole_high": 30.825000762939453,
-      "pole_range": 6.155000686645508,
+      "pole_gain_pct": 30.111211155819866,
+      "pole_high": 15.229999542236328,
+      "pole_range": 3.8299999237060547,
       "flag_bars": 8,
-      "flag_range": 2.9950008392333984,
-      "pullback_from_pole_high_pct": 1.1192253435980966,
+      "flag_range": 2.0900001525878906,
+      "pullback_from_pole_high_pct": 2.1011142773628144,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": true,
       "pattern": "bull_flag",
-      "rank_score": 2.32932389243659
-    },
-    {
-      "ticker": "EQIX",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 944.9099731445312,
-      "sma20": 934.3086975097656,
-      "sma50": 847.2707116699219,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 11.323667176673894,
-      "pole_high": 987.517752239781,
-      "pole_range": 140.30525985799693,
-      "flag_bars": 8,
-      "flag_range": 59.0799560546875,
-      "pullback_from_pole_high_pct": 4.314634243142604,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 1.8643807783449995
+      "rank_score": 2.3901419796863363
     }
   ]
 }

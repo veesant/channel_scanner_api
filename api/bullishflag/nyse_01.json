@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-10T20:19:40.280327+00:00",
+  "updated_utc": "2026-03-11T14:35:11.669308+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,51 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
+  "count": 2,
   "data": [
     {
       "ticker": "CAVA",
       "tf": "1d",
       "bars_used": 320,
-      "close": 81.80999755859375,
-      "sma20": 73.46800022125244,
-      "sma50": 68.43239990234375,
+      "close": 80.0199966430664,
+      "sma20": 73.84499988555908,
+      "sma50": 68.79839981079101,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 27.163417955021114,
+      "pole_gain_pct": 33.21804284023129,
       "pole_high": 86.4800033569336,
       "pole_range": 25.29000473022461,
       "flag_bars": 8,
-      "flag_range": 10.949996948242188,
-      "pullback_from_pole_high_pct": 5.400099002153222,
+      "flag_range": 7.75,
+      "pullback_from_pole_high_pct": 7.469942718670411,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 2.278371233678496
+      "rank_score": 2.4892580367440704
+    },
+    {
+      "ticker": "ASC",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 15.399999618530273,
+      "sma20": 15.122439908981324,
+      "sma50": 13.109932918548584,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 21.832058632014352,
+      "pole_high": 15.90977523940004,
+      "pole_range": 3.0825194182705697,
+      "flag_bars": 8,
+      "flag_range": 1.619999885559082,
+      "pullback_from_pole_high_pct": 3.204166075252421,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.124093170910191
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-10T20:29:14.937616+00:00",
+  "updated_utc": "2026-03-11T14:33:55.423835+00:00",
   "tf": "1d",
   "params": {
     "n_down": 40,
@@ -15,6 +15,49 @@
     "near_resistance_pct": 6.0,
     "breakout_wiggle_pct": 0.2
   },
-  "count": 0,
-  "data": []
+  "count": 2,
+  "data": [
+    {
+      "ticker": "WELINV.NS",
+      "tf": "1d",
+      "bars_used": 350,
+      "close": 1294.5999755859375,
+      "sma20": 1289.5999938964844,
+      "sma50": 1280.33599609375,
+      "trend_ok": true,
+      "prior_downtrend_ok": true,
+      "down_slope": -0.13750523322071412,
+      "fresh_uptrend_ok": true,
+      "up_slope": 2.573333185369318,
+      "up_hh_steps": 1,
+      "up_hl_steps": 2,
+      "up_pivot_highs": 2,
+      "up_pivot_lows": 3,
+      "resistance": 1351.0,
+      "pullback_from_resistance_pct": 4.174687225319208,
+      "state": "correction",
+      "rank_score": 2.3861605601308398
+    },
+    {
+      "ticker": "VHLTD.NS",
+      "tf": "1d",
+      "bars_used": 350,
+      "close": 147.9499969482422,
+      "sma20": 144.41750106811523,
+      "sma50": 141.08780029296875,
+      "trend_ok": true,
+      "prior_downtrend_ok": true,
+      "down_slope": -0.008631294350686708,
+      "fresh_uptrend_ok": true,
+      "up_slope": 0.10618147416548296,
+      "up_hh_steps": 1,
+      "up_hl_steps": 1,
+      "up_pivot_highs": 2,
+      "up_pivot_lows": 3,
+      "resistance": 153.0,
+      "pullback_from_resistance_pct": 3.300655589384191,
+      "state": "correction",
+      "rank_score": 2.3542847444613737
+    }
+  ]
 }

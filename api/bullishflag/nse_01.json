@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-10T20:19:39.945197+00:00",
+  "updated_utc": "2026-03-11T14:40:07.047589+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,51 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 2,
+  "data": [
+    {
+      "ticker": "AGIIL.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 306.70001220703125,
+      "sma20": 279.3150047302246,
+      "sma50": 271.8060009765625,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 27.743141440853297,
+      "pole_high": 311.0,
+      "pole_range": 80.35000610351562,
+      "flag_bars": 8,
+      "flag_range": 31.899993896484375,
+      "pullback_from_pole_high_pct": 1.382632730858119,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.8774341535324717
+    },
+    {
+      "ticker": "BHARATFORG.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 1842.199951171875,
+      "sma20": 1809.790576171875,
+      "sma50": 1602.8672436523439,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 10.2782644256259,
+      "pole_high": 1908.9000244140625,
+      "pole_range": 291.14977696809274,
+      "flag_bars": 8,
+      "flag_range": 125.5999755859375,
+      "pullback_from_pole_high_pct": 3.494162731893783,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.7949248888046738
+    }
+  ]
 }
