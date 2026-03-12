@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-11T20:27:40.310150+00:00",
+  "updated_utc": "2026-03-12T14:34:13.288039+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,6 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "KRN.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 951.25,
-      "sma20": 864.5425018310547,
-      "sma50": 758.7689990234375,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 36.17355369289729,
-      "pole_high": 1019.9000244140625,
-      "pole_range": 313.9000244140625,
-      "flag_bars": 8,
-      "flag_range": 160.35003662109375,
-      "pullback_from_pole_high_pct": 6.731054296572085,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 2.1486140801230738
-    }
-  ]
+  "count": 0,
+  "data": []
 }

@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-11T20:29:01.771090+00:00",
+  "updated_utc": "2026-03-12T14:31:22.308312+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -15,26 +15,26 @@
   "count": 1,
   "data": [
     {
-      "ticker": "CGEM",
+      "ticker": "CVRX",
       "tf": "1d",
       "bars_used": 320,
-      "close": 14.90999984741211,
-      "sma20": 14.124999856948852,
-      "sma50": 12.437199935913085,
+      "close": 7.829999923706055,
+      "sma20": 7.013499999046326,
+      "sma50": 6.9601999855041505,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 30.111211155819866,
-      "pole_high": 15.229999542236328,
-      "pole_range": 3.8299999237060547,
+      "pole_gain_pct": 64.84848811789188,
+      "pole_high": 8.305000305175781,
+      "pole_range": 3.935000419616699,
       "flag_bars": 8,
-      "flag_range": 2.0900001525878906,
-      "pullback_from_pole_high_pct": 2.1011142773628144,
+      "flag_range": 1.364999771118164,
+      "pullback_from_pole_high_pct": 5.7194504998837905,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
-      "near_breakout": true,
+      "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 2.3901419796863363
+      "rank_score": 2.421855304718906
     }
   ]
 }
