@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-13T14:34:05.049676+00:00",
+  "updated_utc": "2026-03-13T20:21:59.818334+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -1441,15 +1441,15 @@
     },
     {
       "ticker": "HINDCOPPER.NS",
-      "slope": 0.021792016502725622,
-      "r2": 0.86127452354231,
+      "slope": 0.02179201631372272,
+      "r2": 0.8612745221631176,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.2978914075903736,
+      "pos": 0.2978914021339056,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 210.55314437333567,
+      "annual_trend_pct": 210.5531413211725,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1461,7 +1461,7 @@
       "recent_trend_pct": -75.51975752320067,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8854635056275023
+      "rank_score": 0.8854635054835529
     },
     {
       "ticker": "DREAMFOLKS.NS",
@@ -1801,15 +1801,15 @@
     },
     {
       "ticker": "DLINKINDIA.NS",
-      "slope": -0.008157724882092729,
-      "r2": 0.891531061809729,
+      "slope": -0.00815772569234707,
+      "r2": 0.8915310532767008,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.5038397443887719,
+      "pos": 0.5038398173070541,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -34.57080980655098,
+      "annual_trend_pct": -34.570812563293764,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -1821,7 +1821,7 @@
       "recent_trend_pct": -12.695669787906604,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8748687359531667
+      "rank_score": 0.8748687243948245
     },
     {
       "ticker": "HONDAPOWER.NS",

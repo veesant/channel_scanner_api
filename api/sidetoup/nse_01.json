@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-13T14:38:04.751648+00:00",
+  "updated_utc": "2026-03-13T20:21:11.140330+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -241,15 +241,15 @@
     },
     {
       "ticker": "CLEAN.NS",
-      "slope": -0.017787694335601015,
-      "r2": 0.965639738357696,
+      "slope": -0.017787694319652308,
+      "r2": 0.9656397640111188,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.3453765260689539,
+      "pos": 0.3453764588677079,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -60.345276116742006,
+      "annual_trend_pct": -60.34527608385505,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -261,7 +261,7 @@
       "recent_trend_pct": -59.958518761018944,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9380258063155424
+      "rank_score": 0.9380258258623784
     },
     {
       "ticker": "BHAGYANGR.NS",
@@ -1849,27 +1849,27 @@
     },
     {
       "ticker": "ACCELYA.NS",
-      "slope": -0.006517952310005601,
-      "r2": 0.8063020760023122,
+      "slope": -0.006517953556297222,
+      "r2": 0.8063020617063081,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.3940339858644922,
+      "pos": 0.39403410209726475,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -28.74701835888287,
+      "annual_trend_pct": -28.74702297658641,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -28.350496217988784,
+      "prior_trend_pct": -28.350503513975433,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -38.59294935153412,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.863747639414707
+      "rank_score": 0.8637476206434276
     },
     {
       "ticker": "CONCORDBIO.NS",
@@ -2521,15 +2521,15 @@
     },
     {
       "ticker": "BEPL.NS",
-      "slope": -0.006277701252223978,
-      "r2": 0.7957877085870284,
+      "slope": -0.0062777013905287934,
+      "r2": 0.7957877024654767,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.6460143649324815,
+      "pos": 0.646014363255395,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -27.851267256538158,
+      "annual_trend_pct": -27.85126777542105,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2541,7 +2541,7 @@
       "recent_trend_pct": -22.4614491176525,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8332924178002661
+      "rank_score": 0.8332924149071989
     },
     {
       "ticker": "CRISIL.NS",
@@ -3025,15 +3025,15 @@
     },
     {
       "ticker": "COLPAL.NS",
-      "slope": -0.0034650280487916623,
-      "r2": 0.687292428021772,
+      "slope": -0.0034650281503197126,
+      "r2": 0.6872923757028278,
       "inside": 0.9230769230769231,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.057692307692307696,
-      "pos": 0.09382897358746925,
+      "pos": 0.09382904053886923,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -16.488134174870616,
+      "annual_trend_pct": -16.488134615768058,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -3045,7 +3045,7 @@
       "recent_trend_pct": -35.085608296007074,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8034940858829084
+      "rank_score": 0.8034940530282962
     },
     {
       "ticker": "DHANBANK.NS",
