@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-12T20:23:22.473608+00:00",
+  "updated_utc": "2026-03-13T14:31:52.831983+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,29 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 1,
+  "data": [
+    {
+      "ticker": "VOLTAMP.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 8736.0,
+      "sma20": 8527.2,
+      "sma50": 7881.95,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 11.178948653763966,
+      "pole_high": 9294.0,
+      "pole_range": 1458.0,
+      "flag_bars": 8,
+      "flag_range": 641.0,
+      "pullback_from_pole_high_pct": 6.003873466752744,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.8262085209369407
+    }
+  ]
 }

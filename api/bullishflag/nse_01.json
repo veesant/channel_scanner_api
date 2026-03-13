@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-12T20:20:32.383372+00:00",
+  "updated_utc": "2026-03-13T14:27:15.368097+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,51 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
+  "count": 2,
   "data": [
     {
       "ticker": "AGIIL.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 311.04998779296875,
-      "sma20": 282.6725044250488,
-      "sma50": 272.9140008544922,
+      "close": 312.1499938964844,
+      "sma20": 285.9475044250488,
+      "sma50": 274.06600067138675,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 30.16642269319709,
+      "pole_gain_pct": 23.485457376028197,
       "pole_high": 317.20001220703125,
       "pole_range": 86.55001831054688,
       "flag_bars": 8,
       "flag_range": 34.899993896484375,
-      "pullback_from_pole_high_pct": 1.938847470802895,
+      "pullback_from_pole_high_pct": 1.592061196785456,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": true,
       "pattern": "bull_flag",
-      "rank_score": 2.681659229103992
+      "rank_score": 2.7972546537764718
+    },
+    {
+      "ticker": "DENORA.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 705.7000122070312,
+      "sma20": 659.4899993896485,
+      "sma50": 641.7449975585937,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 15.686912694087574,
+      "pole_high": 729.0,
+      "pole_range": 124.0,
+      "flag_bars": 8,
+      "flag_range": 74.0,
+      "pullback_from_pole_high_pct": 3.1961574475951644,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.7897219787904002
     }
   ]
 }

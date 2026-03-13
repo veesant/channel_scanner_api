@@ -1,0 +1,62 @@
+{
+  "updated_utc": "2026-03-13T14:27:45.711601+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 2,
+  "data": [
+    {
+      "ticker": "ANIK",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 14.300000190734863,
+      "sma20": 12.596499967575074,
+      "sma50": 10.82560001373291,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 37.42801909764838,
+      "pole_high": 14.670000076293945,
+      "pole_range": 4.449999809265137,
+      "flag_bars": 8,
+      "flag_range": 1.3000001907348633,
+      "pullback_from_pole_high_pct": 2.52215326267779,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.672390767700972
+    },
+    {
+      "ticker": "BCRX",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 8.380000114440918,
+      "sma20": 7.959999966621399,
+      "sma50": 7.341199998855591,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 24.172666924913447,
+      "pole_high": 8.859999656677246,
+      "pole_range": 2.09999942779541,
+      "flag_bars": 8,
+      "flag_range": 0.5899991989135742,
+      "pullback_from_pole_high_pct": 5.417602266774147,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.531746539939967
+    }
+  ]
+}
