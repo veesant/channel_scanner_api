@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-14T14:12:31.145586+00:00",
+  "updated_utc": "2026-03-14T20:20:01.604461+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -1177,15 +1177,15 @@
     },
     {
       "ticker": "NMDC.NS",
-      "slope": 0.005120860976207141,
-      "r2": 0.8551128048549151,
+      "slope": 0.00512086060171274,
+      "r2": 0.855112713020859,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.25805952415754024,
+      "pos": 0.25805964564600725,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 30.510666199317193,
+      "annual_trend_pct": 30.510663657790495,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1197,7 +1197,7 @@
       "recent_trend_pct": -20.50233981493932,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.9017504500117035
+      "rank_score": 0.9017503919458288
     },
     {
       "ticker": "POWERMECH.NS",
@@ -2017,15 +2017,15 @@
     },
     {
       "ticker": "MAHABANK.NS",
-      "slope": 0.007147387268226552,
-      "r2": 0.827223146303582,
+      "slope": 0.007147386734983043,
+      "r2": 0.8272231481373202,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.29588095647488855,
+      "pos": 0.29588098383935285,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 45.01458505319924,
+      "annual_trend_pct": 45.01458103213882,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -2037,7 +2037,7 @@
       "recent_trend_pct": 30.76485850559174,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8763311698119944
+      "rank_score": 0.8763311679924171
     },
     {
       "ticker": "NCC.NS",
@@ -2137,15 +2137,15 @@
     },
     {
       "ticker": "POLYPLEX.NS",
-      "slope": -0.010143039118970458,
-      "r2": 0.8857881304510136,
+      "slope": -0.010143038913767803,
+      "r2": 0.8857881097233864,
       "inside": 1.0,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.09615384615384616,
-      "pos": 0.6944545170171003,
+      "pos": 0.6944544867236098,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -40.98851111568948,
+      "annual_trend_pct": -40.988510486005126,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2157,7 +2157,7 @@
       "recent_trend_pct": -29.608340757699956,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8734486135237968
+      "rank_score": 0.8734486061893323
     },
     {
       "ticker": "PLATIND.NS",
@@ -2257,15 +2257,15 @@
     },
     {
       "ticker": "LLOYDSENT.NS",
-      "slope": -0.012870231539483622,
-      "r2": 0.8204459966642996,
+      "slope": -0.012870231185777544,
+      "r2": 0.8204460067450313,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.2150496173457383,
+      "pos": 0.21504958233526297,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -48.79085415209515,
+      "annual_trend_pct": -48.79085321021988,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2277,7 +2277,7 @@
       "recent_trend_pct": -91.7105279187565,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8682052160847554
+      "rank_score": 0.8682052246261688
     },
     {
       "ticker": "PIGL.NS",
@@ -2425,15 +2425,15 @@
     },
     {
       "ticker": "KIRLOSENG.NS",
-      "slope": 0.012605299317028982,
-      "r2": 0.8695749984782429,
+      "slope": 0.012605299150012024,
+      "r2": 0.8695749727876054,
       "inside": 1.0,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.07692307692307693,
-      "pos": 0.7809396703178765,
+      "pos": 0.7809396484558617,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 92.60582645183169,
+      "annual_trend_pct": 92.60582477907285,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -2445,7 +2445,7 @@
       "recent_trend_pct": 634.4504061701061,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8566935322073339
+      "rank_score": 0.8566935215482165
     },
     {
       "ticker": "MTEDUCARE.NS",
@@ -2833,27 +2833,27 @@
     },
     {
       "ticker": "MAZDOCK.NS",
-      "slope": -0.009546426029781818,
-      "r2": 0.838491497730851,
+      "slope": -0.009546426605469562,
+      "r2": 0.8384915355161222,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.11538461538461539,
-      "pos": 0.655635019612986,
+      "pos": 0.6556350614438707,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -39.129051033344396,
+      "annual_trend_pct": -39.12905285556265,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -42.36348200519278,
+      "prior_trend_pct": -42.36348459953007,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -7.064837602662843,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.8382976315195115
+      "rank_score": 0.8382976462290588
     },
     {
       "ticker": "MAGADSUGAR.NS",
@@ -3721,27 +3721,27 @@
     },
     {
       "ticker": "KPIGREEN.NS",
-      "slope": -0.007979088692818187,
-      "r2": 0.7060127207444045,
+      "slope": -0.007979089890227758,
+      "r2": 0.7060128412279125,
       "inside": 0.9230769230769231,
       "near_upper": 0.10256410256410256,
       "near_lower": 0.05128205128205128,
-      "pos": 0.5810142349103462,
+      "pos": 0.5810143101232867,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -33.960201097462615,
+      "annual_trend_pct": -33.96020520945024,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -32.48890073546137,
+      "prior_trend_pct": -32.48889862658939,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -49.147334893336236,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.7641357061119368
+      "rank_score": 0.7641357588323968
     },
     {
       "ticker": "MFML.NS",

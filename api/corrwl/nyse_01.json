@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-14T14:04:51.106400+00:00",
+  "updated_utc": "2026-03-14T20:16:50.400928+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -546,9 +546,9 @@
       "close_above_sma_fast": false,
       "rebound_ok": false,
       "uptrend_window_used": 50,
-      "uptrend_hh_count": 5,
+      "uptrend_hh_count": 6,
       "uptrend_hl_count": 3,
-      "uptrend_pivot_highs": 7,
+      "uptrend_pivot_highs": 8,
       "uptrend_pivot_lows": 6,
       "uptrend_overall_up": true,
       "uptrend_ok": true,
@@ -571,7 +571,7 @@
       },
       "priceQualityOk": false,
       "avgVolume50": 5183,
-      "rank_score": 2.895744894615272
+      "rank_score": 2.945744894615272
     },
     {
       "ticker": "BCE",

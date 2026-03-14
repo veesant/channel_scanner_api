@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-14T14:12:18.105661+00:00",
+  "updated_utc": "2026-03-14T20:20:34.085080+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -241,15 +241,15 @@
     },
     {
       "ticker": "CLEAN.NS",
-      "slope": -0.017787694335601015,
-      "r2": 0.965639738357696,
+      "slope": -0.017787694319652308,
+      "r2": 0.9656397640111188,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.3453765260689539,
+      "pos": 0.3453764588677079,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -60.345276116742006,
+      "annual_trend_pct": -60.34527608385505,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -261,7 +261,7 @@
       "recent_trend_pct": -59.958518761018944,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9380258063155424
+      "rank_score": 0.9380258258623784
     },
     {
       "ticker": "BHAGYANGR.NS",
@@ -505,27 +505,27 @@
     },
     {
       "ticker": "COCHINSHIP.NS",
-      "slope": -0.010578259422518803,
-      "r2": 0.8965377462357567,
+      "slope": -0.010578259973966667,
+      "r2": 0.8965377475084263,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.19199316442095377,
+      "pos": 0.1919932184913446,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -42.309028045212074,
+      "annual_trend_pct": -42.30902969951734,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -42.94023509817152,
+      "prior_trend_pct": -42.94023783297145,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -40.16586010397846,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9136849412911675
+      "rank_score": 0.9136849365204633
     },
     {
       "ticker": "ANTGRAPHIC.NS",
@@ -1945,15 +1945,15 @@
     },
     {
       "ticker": "CHAMBLFERT.NS",
-      "slope": -0.007048772863212571,
-      "r2": 0.8126987231606772,
+      "slope": -0.007048773021316097,
+      "r2": 0.8126987442371633,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.37498608980283354,
+      "pos": 0.37498609343483363,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -30.686894761269336,
+      "annual_trend_pct": -30.686895331118947,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -1965,7 +1965,7 @@
       "recent_trend_pct": -36.934465648527535,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.858594342343645
+      "rank_score": 0.858594352518688
     },
     {
       "ticker": "CARBORUNIV.NS",
@@ -2665,27 +2665,27 @@
     },
     {
       "ticker": "BEML.NS",
-      "slope": -0.008372883468481649,
-      "r2": 0.6910933638705701,
+      "slope": -0.008372883834419366,
+      "r2": 0.6910933275098703,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.18459248650696566,
+      "pos": 0.18459253284686852,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -35.29876783369094,
+      "annual_trend_pct": -35.29876906487522,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -54.22008446293576,
+      "prior_trend_pct": -54.220088281379816,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -48.49491977785828,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8270874332845886
+      "rank_score": 0.8270874104702484
     },
     {
       "ticker": "CYBERTECH.NS",
@@ -3025,15 +3025,15 @@
     },
     {
       "ticker": "COLPAL.NS",
-      "slope": -0.0034650281503197126,
-      "r2": 0.6872923757028278,
+      "slope": -0.0034650280487916623,
+      "r2": 0.687292428021772,
       "inside": 0.9230769230769231,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.057692307692307696,
-      "pos": 0.09382904053886923,
+      "pos": 0.09382897358746925,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -16.488134615768058,
+      "annual_trend_pct": -16.488134174870616,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -3045,7 +3045,7 @@
       "recent_trend_pct": -35.085608296007074,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8034940530282962
+      "rank_score": 0.8034940858829084
     },
     {
       "ticker": "DHANBANK.NS",

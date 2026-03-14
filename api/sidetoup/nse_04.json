@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-14T14:12:19.111340+00:00",
+  "updated_utc": "2026-03-14T20:19:53.546314+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -217,15 +217,15 @@
     },
     {
       "ticker": "SANOFI.NS",
-      "slope": -0.010348813349253444,
-      "r2": 0.9139451169563944,
+      "slope": -0.01034881318052516,
+      "r2": 0.9139451053499115,
       "inside": 0.9615384615384616,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.07692307692307693,
-      "pos": 0.08748088069955226,
+      "pos": 0.08748089046231183,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -41.6165831287253,
+      "annual_trend_pct": -41.61658261647674,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -237,7 +237,7 @@
       "recent_trend_pct": -72.80193084169223,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9328398550236265
+      "rank_score": 0.9328398482441091
     },
     {
       "ticker": "RVTH.NS",
@@ -889,27 +889,27 @@
     },
     {
       "ticker": "ROUTE.NS",
-      "slope": -0.018966935379435206,
-      "r2": 0.8530035524037629,
+      "slope": -0.01896693581578139,
+      "r2": 0.8530035682148898,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.05860930188744833,
+      "pos": 0.0586092932699592,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -62.70387080777269,
+      "annual_trend_pct": -62.70387165402192,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -48.56182348682074,
+      "prior_trend_pct": -48.56182502690809,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -89.31101033061246,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9052562306285212
+      "rank_score": 0.9052562393958337
     },
     {
       "ticker": "REFEX.NS",
@@ -1681,15 +1681,15 @@
     },
     {
       "ticker": "SHRIRAMFIN.NS",
-      "slope": 0.017184158213803778,
-      "r2": 0.8335463557936513,
+      "slope": 0.0171841588837699,
+      "r2": 0.8335463937146159,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.30497330419431407,
+      "pos": 0.3049732622560744,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 144.38538184877538,
+      "annual_trend_pct": 144.38539036273173,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1701,7 +1701,7 @@
       "recent_trend_pct": -19.318227916421982,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8760194372209841
+      "rank_score": 0.8760194603752903
     },
     {
       "ticker": "STYLAMIND.NS",
@@ -3169,27 +3169,27 @@
     },
     {
       "ticker": "SIYSIL.NS",
-      "slope": -0.015522909470822816,
-      "r2": 0.7208072780541859,
+      "slope": -0.015522908623926539,
+      "r2": 0.7208072742647873,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.2550642654911734,
+      "pos": 0.2550642400934733,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -55.389070123180176,
+      "annual_trend_pct": -55.38906815857694,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -49.70448334051994,
+      "prior_trend_pct": -49.70448041653314,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -80.13371785780899,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8195125970933603
+      "rank_score": 0.819512597738431
     },
     {
       "ticker": "SADHNANIQ.NS",
@@ -3793,15 +3793,15 @@
     },
     {
       "ticker": "RECLTD.NS",
-      "slope": -0.0028637803426274206,
-      "r2": 0.6866923665153859,
+      "slope": -0.002863780724486705,
+      "r2": 0.6866923916381806,
       "inside": 0.9230769230769231,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.19604994189816974,
+      "pos": 0.19605000980456988,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -13.835900812632374,
+      "annual_trend_pct": -13.835902523565535,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -3813,7 +3813,7 @@
       "recent_trend_pct": -62.67536936736452,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.7929719582986452
+      "rank_score": 0.7929719640694026
     },
     {
       "ticker": "STEELXIND.NS",
