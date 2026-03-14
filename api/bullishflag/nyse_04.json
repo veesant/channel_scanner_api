@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-13T20:22:09.364873+00:00",
+  "updated_utc": "2026-03-14T14:08:46.246671+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -15,26 +15,26 @@
   "count": 1,
   "data": [
     {
-      "ticker": "NOK",
+      "ticker": "RAMP",
       "tf": "1d",
       "bars_used": 320,
-      "close": 8.140000343322754,
-      "sma20": 7.687499976158142,
-      "sma50": 7.075599994659424,
+      "close": 27.950000762939453,
+      "sma20": 27.19700002670288,
+      "sma50": 26.147600059509276,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 13.150685110466185,
-      "pole_high": 8.369999885559082,
-      "pole_range": 1.3499999046325684,
+      "pole_gain_pct": 14.536039545238266,
+      "pole_high": 29.1200008392334,
+      "pole_range": 4.880001068115234,
       "flag_bars": 8,
-      "flag_range": 0.7800002098083496,
-      "pullback_from_pole_high_pct": 2.7479037679934817,
+      "flag_range": 2.520000457763672,
+      "pullback_from_pole_high_pct": 4.017857289061625,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
-      "near_breakout": true,
+      "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 1.7786030428470239
+      "rank_score": 1.866146271593884
     }
   ]
 }

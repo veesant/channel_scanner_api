@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-13T20:23:40.956715+00:00",
+  "updated_utc": "2026-03-14T14:07:23.707596+00:00",
   "tf": "1d",
   "params": {
     "n_down": 40,
@@ -15,49 +15,6 @@
     "near_resistance_pct": 6.0,
     "breakout_wiggle_pct": 0.2
   },
-  "count": 2,
-  "data": [
-    {
-      "ticker": "RANASUG.NS",
-      "tf": "1d",
-      "bars_used": 350,
-      "close": 12.0600004196167,
-      "sma20": 11.325999975204468,
-      "sma50": 11.431600017547607,
-      "trend_ok": true,
-      "prior_downtrend_ok": true,
-      "down_slope": -0.03559193709554189,
-      "fresh_uptrend_ok": true,
-      "up_slope": 0.11896970922296697,
-      "up_hh_steps": 1,
-      "up_hl_steps": 1,
-      "up_pivot_highs": 3,
-      "up_pivot_lows": 2,
-      "resistance": 12.380000114440918,
-      "pullback_from_resistance_pct": 2.5848117275132187,
-      "state": "uptrend",
-      "rank_score": 2.0995797670130165
-    },
-    {
-      "ticker": "RENUKA.NS",
-      "tf": "1d",
-      "bars_used": 350,
-      "close": 24.559999465942383,
-      "sma20": 24.19499988555908,
-      "sma50": 24.677599792480468,
-      "trend_ok": true,
-      "prior_downtrend_ok": true,
-      "down_slope": -0.0499399557346251,
-      "fresh_uptrend_ok": true,
-      "up_slope": 0.08169701316139914,
-      "up_hh_steps": 1,
-      "up_hl_steps": 1,
-      "up_pivot_highs": 3,
-      "up_pivot_lows": 2,
-      "resistance": 25.690000534057617,
-      "pullback_from_resistance_pct": 4.3986027427954895,
-      "state": "uptrend",
-      "rank_score": 1.6718531257968041
-    }
-  ]
+  "count": 0,
+  "data": []
 }

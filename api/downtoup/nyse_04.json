@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-13T20:23:56.977366+00:00",
+  "updated_utc": "2026-03-14T14:11:17.030364+00:00",
   "tf": "1d",
   "params": {
     "n_down": 40,
@@ -15,28 +15,49 @@
     "near_resistance_pct": 6.0,
     "breakout_wiggle_pct": 0.2
   },
-  "count": 1,
+  "count": 2,
   "data": [
+    {
+      "ticker": "PEW",
+      "tf": "1d",
+      "bars_used": 350,
+      "close": 3.140000104904175,
+      "sma20": 2.8394999623298647,
+      "sma50": 3.0263999843597413,
+      "trend_ok": true,
+      "prior_downtrend_ok": true,
+      "down_slope": -0.01591651303235854,
+      "fresh_uptrend_ok": true,
+      "up_slope": 0.021393956560077088,
+      "up_hh_steps": 1,
+      "up_hl_steps": 1,
+      "up_pivot_highs": 3,
+      "up_pivot_lows": 2,
+      "resistance": 3.2300000190734863,
+      "pullback_from_resistance_pct": 2.786375035227637,
+      "state": "correction",
+      "rank_score": 2.6043063659253822
+    },
     {
       "ticker": "PSO",
       "tf": "1d",
       "bars_used": 350,
-      "close": 13.0600004196167,
-      "sma20": 12.826000070571899,
-      "sma50": 13.03519998550415,
+      "close": 13.069999694824219,
+      "sma20": 12.861500072479249,
+      "sma50": 13.014199981689453,
       "trend_ok": true,
       "prior_downtrend_ok": true,
-      "down_slope": -0.046200749037637046,
+      "down_slope": -0.04252532839104114,
       "fresh_uptrend_ok": true,
-      "up_slope": 0.030545523672392876,
+      "up_slope": 0.02357577121619022,
       "up_hh_steps": 1,
       "up_hl_steps": 2,
-      "up_pivot_highs": 2,
+      "up_pivot_highs": 3,
       "up_pivot_lows": 3,
-      "resistance": 13.4399995803833,
-      "pullback_from_resistance_pct": 2.8273747963596603,
-      "state": "correction",
-      "rank_score": 2.740848113494748
+      "resistance": 13.300000190734863,
+      "pullback_from_resistance_pct": 1.7293270121219173,
+      "state": "uptrend",
+      "rank_score": 2.2803989824757833
     }
   ]
 }
