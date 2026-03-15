@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-14T20:20:34.085080+00:00",
+  "updated_utc": "2026-03-15T14:12:03.587174+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -1297,15 +1297,15 @@
     },
     {
       "ticker": "CONCOR.NS",
-      "slope": -0.005175134466634002,
-      "r2": 0.7854794782928578,
+      "slope": -0.005175134955157895,
+      "r2": 0.7854794611925449,
       "inside": 1.0,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.07417214507075957,
+      "pos": 0.07417226198525521,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -23.59384973959333,
+      "annual_trend_pct": -23.593851680557265,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -1317,7 +1317,7 @@
       "recent_trend_pct": -63.49802085595939,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.885322524639353
+      "rank_score": 0.885322504397747
     },
     {
       "ticker": "ATAM.NS",
@@ -2521,15 +2521,15 @@
     },
     {
       "ticker": "BEPL.NS",
-      "slope": -0.006277701608019328,
-      "r2": 0.7957877406858376,
+      "slope": -0.006277701141941575,
+      "r2": 0.7957877324832315,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.6460143891878678,
+      "pos": 0.6460143771973634,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -27.8512685913877,
+      "annual_trend_pct": -27.851266842787904,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2541,7 +2541,7 @@
       "recent_trend_pct": -22.4614491176525,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.833292431424132
+      "rank_score": 0.8332924285218793
     },
     {
       "ticker": "CRISIL.NS",
@@ -2665,27 +2665,27 @@
     },
     {
       "ticker": "BEML.NS",
-      "slope": -0.008372883834419366,
-      "r2": 0.6910933275098703,
+      "slope": -0.008372883468481649,
+      "r2": 0.6910933638705701,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.18459253284686852,
+      "pos": 0.18459248650696566,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -35.29876906487522,
+      "annual_trend_pct": -35.29876783369094,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -54.220088281379816,
+      "prior_trend_pct": -54.22008446293576,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -48.49491977785828,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8270874104702484
+      "rank_score": 0.8270874332845886
     },
     {
       "ticker": "CYBERTECH.NS",
@@ -3025,15 +3025,15 @@
     },
     {
       "ticker": "COLPAL.NS",
-      "slope": -0.0034650280487916623,
-      "r2": 0.687292428021772,
+      "slope": -0.0034650281503197126,
+      "r2": 0.6872923757028278,
       "inside": 0.9230769230769231,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.057692307692307696,
-      "pos": 0.09382897358746925,
+      "pos": 0.09382904053886923,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -16.488134174870616,
+      "annual_trend_pct": -16.488134615768058,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -3045,7 +3045,7 @@
       "recent_trend_pct": -35.085608296007074,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8034940858829084
+      "rank_score": 0.8034940530282962
     },
     {
       "ticker": "DHANBANK.NS",
@@ -3145,15 +3145,15 @@
     },
     {
       "ticker": "CCL.NS",
-      "slope": 0.00944934589513934,
-      "r2": 0.6943866664367051,
+      "slope": 0.009449345164794598,
+      "r2": 0.6943866733541292,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.3504169890543161,
+      "pos": 0.3504170042030813,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 63.454746553146556,
+      "annual_trend_pct": 63.45474034547431,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -3165,7 +3165,7 @@
       "recent_trend_pct": 46.85445986059784,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7967670189283055
+      "rank_score": 0.7967670208721411
     },
     {
       "ticker": "AARTIDRUGS.NS",
