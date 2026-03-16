@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-16T14:51:14.150343+00:00",
+  "updated_utc": "2026-03-16T20:26:45.525592+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -526,7 +526,7 @@
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 10.744955158233642,
-      "sma_slow_now": 10.591445770263672,
+      "sma_slow_now": 10.591445808410645,
       "trend_ok": true,
       "recent_swing_high": 11.083287090833046,
       "recent_swing_high_date": "2026-03-02",
@@ -546,9 +546,9 @@
       "close_above_sma_fast": false,
       "rebound_ok": false,
       "uptrend_window_used": 50,
-      "uptrend_hh_count": 6,
+      "uptrend_hh_count": 5,
       "uptrend_hl_count": 3,
-      "uptrend_pivot_highs": 8,
+      "uptrend_pivot_highs": 7,
       "uptrend_pivot_lows": 6,
       "uptrend_overall_up": true,
       "uptrend_ok": true,
@@ -571,7 +571,7 @@
       },
       "priceQualityOk": false,
       "avgVolume50": 5184,
-      "rank_score": 2.945744894615272
+      "rank_score": 2.895744894615272
     },
     {
       "ticker": "BCE",

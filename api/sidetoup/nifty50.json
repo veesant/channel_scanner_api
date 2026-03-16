@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-16T14:47:40.086266+00:00",
+  "updated_utc": "2026-03-16T20:24:56.663035+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -265,27 +265,27 @@
     },
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.008918674350976048,
-      "r2": 0.8320027990725846,
+      "slope": 0.008918673757967191,
+      "r2": 0.8320027663480674,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.7369631350683056,
+      "pos": 0.7369631576314327,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 59.005891062090974,
+      "annual_trend_pct": 59.005886158912176,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 55.3840356091617,
+      "prior_trend_pct": 55.384028082243276,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 324.16657927667484,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8423050860294616
+      "rank_score": 0.8423050674108904
     }
   ]
 }

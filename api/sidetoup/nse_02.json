@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-16T14:48:52.982237+00:00",
+  "updated_utc": "2026-03-16T20:33:30.878480+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -721,15 +721,15 @@
     },
     {
       "ticker": "HIKAL.NS",
-      "slope": -0.01723379419775861,
-      "r2": 0.9391538554215716,
+      "slope": -0.01723379450903503,
+      "r2": 0.9391538597985911,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.37154004906021376,
+      "pos": 0.3715400609146953,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -59.18650087050787,
+      "annual_trend_pct": -59.18650153113042,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -741,7 +741,7 @@
       "recent_trend_pct": -92.1913183563928,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.917038307420149
+      "rank_score": 0.9170383084232107
     },
     {
       "ticker": "GPTHEALTH.NS",
@@ -1561,27 +1561,27 @@
     },
     {
       "ticker": "GOPAL.NS",
-      "slope": -0.009744888025312988,
-      "r2": 0.8624272494657281,
+      "slope": -0.009744889850576212,
+      "r2": 0.8624272057654789,
       "inside": 0.9230769230769231,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.11195789629931317,
+      "pos": 0.1119581509656806,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -39.754010329388976,
+      "annual_trend_pct": -39.75401604755775,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -39.41715620141366,
+      "prior_trend_pct": -39.4171652796272,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -76.76027004697873,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.889248604333702
+      "rank_score": 0.8892485570169406
     },
     {
       "ticker": "GREENPANEL.NS",
@@ -2665,15 +2665,15 @@
     },
     {
       "ticker": "DLINKINDIA.NS",
-      "slope": -0.00808843489156219,
-      "r2": 0.8883197187971579,
+      "slope": -0.008088435748083548,
+      "r2": 0.8883197114314961,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.6965815282522796,
+      "pos": 0.6965815797523406,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -34.33463801479737,
+      "annual_trend_pct": -34.33464093947411,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2685,7 +2685,7 @@
       "recent_trend_pct": -49.38133927384971,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8539888860605305
+      "rank_score": 0.8539888772276935
     },
     {
       "ticker": "ELECON.NS",
@@ -3025,15 +3025,15 @@
     },
     {
       "ticker": "GMMPFAUDLR.NS",
-      "slope": -0.009259823356185094,
-      "r2": 0.7444007844680252,
+      "slope": -0.009259823381220634,
+      "r2": 0.7444007921205851,
       "inside": 0.9743589743589743,
       "near_upper": 0.10256410256410256,
       "near_lower": 0.07692307692307693,
-      "pos": 0.20796441736560564,
+      "pos": 0.20796441403670346,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -38.21507692781844,
+      "annual_trend_pct": -38.21507700825302,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -3045,7 +3045,7 @@
       "recent_trend_pct": -81.63593343268025,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8411475402410418
+      "rank_score": 0.841147544400212
     },
     {
       "ticker": "JLHL.NS",
@@ -3073,27 +3073,27 @@
     },
     {
       "ticker": "GESHIP.NS",
-      "slope": 0.01294921737285592,
-      "r2": 0.8015301206402126,
+      "slope": 0.01294921517249311,
+      "r2": 0.8015300144148239,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.6011485305421984,
+      "pos": 0.6011485851887317,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 96.08132357520117,
+      "annual_trend_pct": 96.08130113979973,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 49.06628762294618,
+      "prior_trend_pct": 49.066262352515835,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 186.06236389542633,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8406502072658865
+      "rank_score": 0.8406501486885388
     },
     {
       "ticker": "GRAPHITE.NS",
@@ -3697,15 +3697,15 @@
     },
     {
       "ticker": "GLOBAL.NS",
-      "slope": 0.01366206973474791,
-      "r2": 0.7728039129124716,
+      "slope": 0.013662069969739348,
+      "r2": 0.7728039242594106,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.49107061370498434,
+      "pos": 0.49107060499139427,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 103.4861232612112,
+      "annual_trend_pct": 103.48612574772105,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -3717,7 +3717,7 @@
       "recent_trend_pct": -13.433641081429625,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8167820745729168
+      "rank_score": 0.8167820811177453
     },
     {
       "ticker": "GINNIFILA.NS",
@@ -4225,15 +4225,15 @@
     },
     {
       "ticker": "HAVELLS.NS",
-      "slope": -0.003050291014942978,
-      "r2": 0.6693742399337845,
+      "slope": -0.00305029115904526,
+      "r2": 0.6693742423334635,
       "inside": 0.9230769230769231,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.057692307692307696,
-      "pos": 0.11384919479401058,
+      "pos": 0.11384922811850938,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -14.667528750879166,
+      "annual_trend_pct": -14.667529390302558,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -4245,7 +4245,7 @@
       "recent_trend_pct": -62.29371030270996,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.7925329697182605
+      "rank_score": 0.7925329675856501
     },
     {
       "ticker": "JWL.NS",
