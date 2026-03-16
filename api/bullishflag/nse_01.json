@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-15T20:20:58.590193+00:00",
+  "updated_utc": "2026-03-16T14:55:56.000012+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -18,9 +18,9 @@
       "ticker": "AGIIL.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 308.0,
-      "sma20": 289.31750411987304,
-      "sma50": 274.97800079345706,
+      "close": 305.8999938964844,
+      "sma20": 289.21250381469724,
+      "sma50": 274.9360006713867,
       "trend_ok": true,
       "pole_bars": 10,
       "pole_gain_pct": 26.32233816425977,
@@ -28,13 +28,13 @@
       "pole_range": 80.35000610351562,
       "flag_bars": 8,
       "flag_range": 34.899993896484375,
-      "pullback_from_pole_high_pct": 2.900382046967436,
+      "pullback_from_pole_high_pct": 3.5624268208323833,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
-      "near_breakout": true,
+      "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 2.3092899659781905
+      "rank_score": 2.2760839816340024
     }
   ]
 }

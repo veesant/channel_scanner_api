@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-15T20:18:08.689475+00:00",
+  "updated_utc": "2026-03-16T14:53:24.535665+00:00",
   "tf": "1d",
   "params": {
     "n_down": 40,
@@ -15,7 +15,7 @@
     "near_resistance_pct": 6.0,
     "breakout_wiggle_pct": 0.2
   },
-  "count": 7,
+  "count": 6,
   "data": [
     {
       "ticker": "LSAK",
@@ -105,64 +105,43 @@
       "ticker": "LSH",
       "tf": "1d",
       "bars_used": 350,
-      "close": 0.8087000250816345,
-      "sma20": 0.6680849969387055,
-      "sma50": 0.7847339975833892,
+      "close": 0.8090000152587891,
+      "sma20": 0.6680999964475631,
+      "sma50": 0.7847399973869323,
       "trend_ok": true,
       "prior_downtrend_ok": true,
       "down_slope": -0.010109849467062816,
       "fresh_uptrend_ok": true,
-      "up_slope": 0.013935154857057513,
+      "up_slope": 0.01395151795762958,
       "up_hh_steps": 2,
       "up_hl_steps": 1,
       "up_pivot_highs": 3,
       "up_pivot_lows": 2,
       "resistance": 0.8640000224113464,
-      "pullback_from_resistance_pct": 6.400462487879873,
+      "pullback_from_resistance_pct": 6.3657414034616915,
       "state": "uptrend",
-      "rank_score": 1.6354040821232998
+      "rank_score": 1.6354849031308878
     },
     {
       "ticker": "LZMH",
       "tf": "1d",
       "bars_used": 262,
-      "close": 1.3063000440597534,
-      "sma20": 1.2053649961948394,
-      "sma50": 1.282546000480652,
+      "close": 1.305999994277954,
+      "sma20": 1.2053499937057495,
+      "sma50": 1.282539999485016,
       "trend_ok": true,
       "prior_downtrend_ok": true,
       "down_slope": -0.008490900261988113,
       "fresh_uptrend_ok": true,
-      "up_slope": 0.007652725595416444,
+      "up_slope": 0.007636359243681936,
       "up_hh_steps": 1,
       "up_hl_steps": 1,
       "up_pivot_highs": 3,
       "up_pivot_lows": 2,
       "resistance": 1.38100004196167,
-      "pullback_from_resistance_pct": 5.409123507035334,
+      "pullback_from_resistance_pct": 5.430850499988433,
       "state": "uptrend",
-      "rank_score": 1.5631430749065003
-    },
-    {
-      "ticker": "LFMD",
-      "tf": "1d",
-      "bars_used": 350,
-      "close": 3.9800000190734863,
-      "sma20": 3.0885000109672545,
-      "sma50": 3.3375999975204467,
-      "trend_ok": true,
-      "prior_downtrend_ok": true,
-      "down_slope": -0.03649624646492792,
-      "fresh_uptrend_ok": true,
-      "up_slope": 0.14781817956404253,
-      "up_hh_steps": 1,
-      "up_hl_steps": 1,
-      "up_pivot_highs": 2,
-      "up_pivot_lows": 2,
-      "resistance": 4.630000114440918,
-      "pullback_from_resistance_pct": 14.03887860261793,
-      "state": "uptrend",
-      "rank_score": 1.55
+      "rank_score": 1.559221469993535
     }
   ]
 }
