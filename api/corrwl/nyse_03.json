@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-17T14:47:22.355244+00:00",
+  "updated_utc": "2026-03-17T20:26:06.140667+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -401,11 +401,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 4.791867272168312,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 7683536,
+        "avg_volume_50": 7683816,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 7683536,
+      "avgVolume50": 7683816,
       "rank_score": 3.1328715657759423
     },
     {
@@ -456,11 +456,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 7.4986899422169735,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 11006722,
+        "avg_volume_50": 11006860,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 11006722,
+      "avgVolume50": 11006860,
       "rank_score": 3.082795613849665
     },
     {
@@ -526,7 +526,7 @@
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 4.145499968528748,
-      "sma_slow_now": 4.129209175109863,
+      "sma_slow_now": 4.129209184646607,
       "trend_ok": true,
       "recent_swing_high": 4.300000190734863,
       "recent_swing_high_date": "2026-03-09",
@@ -547,7 +547,7 @@
       "rebound_ok": false,
       "uptrend_window_used": 50,
       "uptrend_hh_count": 4,
-      "uptrend_hl_count": 4,
+      "uptrend_hl_count": 3,
       "uptrend_pivot_highs": 7,
       "uptrend_pivot_lows": 7,
       "uptrend_overall_up": true,
@@ -571,7 +571,7 @@
       },
       "priceQualityOk": false,
       "avgVolume50": 282878,
-      "rank_score": 2.86233767233517
+      "rank_score": 2.8123376723351696
     },
     {
       "ticker": "KGS",

@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-17T14:43:54.688220+00:00",
+  "updated_utc": "2026-03-17T20:28:12.311595+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -649,15 +649,15 @@
     },
     {
       "ticker": "HIKAL.NS",
-      "slope": -0.01722673074026355,
-      "r2": 0.9391607577076054,
+      "slope": -0.017226731051540062,
+      "r2": 0.9391607620808547,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.3827742574234212,
+      "pos": 0.38277426951630367,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -59.1715073274649,
+      "annual_trend_pct": -59.17150798833033,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -669,7 +669,7 @@
       "recent_trend_pct": -92.00082822367868,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9159183377268453
+      "rank_score": 0.9159183387041816
     },
     {
       "ticker": "FIRSTCRY.NS",
@@ -1081,15 +1081,15 @@
     },
     {
       "ticker": "IMFA.NS",
-      "slope": 0.018983824633420406,
-      "r2": 0.8480127830851485,
+      "slope": 0.01898382502363585,
+      "r2": 0.848012779309564,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.07796723164054886,
+      "pos": 0.07796723465669572,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 168.35992062751407,
+      "annual_trend_pct": 168.35992607285974,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -1101,7 +1101,7 @@
       "recent_trend_pct": -75.69431803591544,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.9085173606862116
+      "rank_score": 0.9085173584968048
     },
     {
       "ticker": "GTL.NS",
@@ -1441,15 +1441,15 @@
     },
     {
       "ticker": "HONDAPOWER.NS",
-      "slope": -0.010221461827301522,
-      "r2": 0.8882784548707925,
+      "slope": -0.010221461893989132,
+      "r2": 0.8882784623518893,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.40979841428144587,
+      "pos": 0.40979841936435285,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -41.22866882421601,
+      "annual_trend_pct": -41.22866902802064,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -1461,7 +1461,7 @@
       "recent_trend_pct": -78.35614503369911,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8929029757508414
+      "rank_score": 0.8929029789830991
     },
     {
       "ticker": "JAICORPLTD.NS",
@@ -1825,27 +1825,27 @@
     },
     {
       "ticker": "GOPAL.NS",
-      "slope": -0.009634522955419582,
-      "r2": 0.8654611257926157,
+      "slope": -0.00963452113015639,
+      "r2": 0.8654611743623742,
       "inside": 0.9230769230769231,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.19738131463537686,
+      "pos": 0.19738108094856682,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -39.407265551019854,
+      "annual_trend_pct": -39.40725979993981,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -39.4171652796272,
+      "prior_trend_pct": -39.41715620141366,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -74.42058540607421,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8822232006635394
+      "rank_score": 0.8822232483170996
     },
     {
       "ticker": "GILLANDERS.NS",
@@ -1969,15 +1969,15 @@
     },
     {
       "ticker": "GARFIBRES.NS",
-      "slope": -0.009753588041222994,
-      "r2": 0.887517954118063,
+      "slope": -0.009753587005003195,
+      "r2": 0.8875179573217354,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.5675372232608982,
+      "pos": 0.5675371644014053,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -39.781259500720125,
+      "annual_trend_pct": -39.78125625592778,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -1989,7 +1989,7 @@
       "recent_trend_pct": -78.69744388339008,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8767488444765315
+      "rank_score": 0.876748851964317
     },
     {
       "ticker": "JIOFIN.NS",
@@ -3457,27 +3457,27 @@
     },
     {
       "ticker": "HUDCO.NS",
-      "slope": -0.011219994563699045,
-      "r2": 0.7537280570773675,
+      "slope": -0.011219994607007967,
+      "r2": 0.753728061522127,
       "inside": 0.9230769230769231,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.21405313339428955,
+      "pos": 0.21405313388180738,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -44.20242170715076,
+      "annual_trend_pct": -44.20242183281048,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -33.2220825363571,
+      "prior_trend_pct": -33.222082870956434,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -79.34971095355718,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.824689484430024
+      "rank_score": 0.824689486603652
     },
     {
       "ticker": "HISARMETAL.NS",
@@ -4177,15 +4177,15 @@
     },
     {
       "ticker": "HAVELLS.NS",
-      "slope": -0.003017314718309679,
-      "r2": 0.6700064583411529,
+      "slope": -0.0030173148624120707,
+      "r2": 0.6700064602216518,
       "inside": 0.9230769230769231,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.057692307692307696,
-      "pos": 0.21825192714469654,
+      "pos": 0.21825195679034004,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -14.521077880186727,
+      "annual_trend_pct": -14.52107852070802,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -4197,7 +4197,7 @@
       "recent_trend_pct": -57.803034059090955,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.7824088056868761
+      "rank_score": 0.7824088036625612
     },
     {
       "ticker": "JWL.NS",
