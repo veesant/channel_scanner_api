@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-16T20:34:27.572299+00:00",
+  "updated_utc": "2026-03-17T14:46:39.008547+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,29 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 1,
+  "data": [
+    {
+      "ticker": "YOU",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 46.75,
+      "sma20": 42.46905174255371,
+      "sma50": 37.24548122406006,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 44.477620948263855,
+      "pole_high": 50.07698147359905,
+      "pole_range": 18.12076085675999,
+      "flag_bars": 8,
+      "flag_range": 5.336454284997643,
+      "pullback_from_pole_high_pct": 6.643734058437721,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.509176764413945
+    }
+  ]
 }

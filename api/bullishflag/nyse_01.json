@@ -1,0 +1,40 @@
+{
+  "updated_utc": "2026-03-17T14:44:15.295154+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 1,
+  "data": [
+    {
+      "ticker": "AROC",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 35.47999954223633,
+      "sma20": 34.92499980926514,
+      "sma50": 30.950356101989748,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 12.686346574832305,
+      "pole_high": 37.2599983215332,
+      "pole_range": 4.879997253417969,
+      "flag_bars": 8,
+      "flag_range": 2.740001678466797,
+      "pullback_from_pole_high_pct": 4.777237948151444,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.6985238790807953
+    }
+  ]
+}

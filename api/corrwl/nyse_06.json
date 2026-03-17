@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-16T20:29:27.874483+00:00",
+  "updated_utc": "2026-03-17T14:41:37.654706+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -21,62 +21,6 @@
     "only_actionable": false,
     "only_watchlist": true
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "YOU",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 44.630001068115234,
-      "sma_fast": 20,
-      "sma_slow": 50,
-      "sma_fast_now": 41.744249153137204,
-      "sma_slow_now": 37.006769523620605,
-      "trend_ok": true,
-      "recent_swing_high": 47.36000061035156,
-      "recent_swing_high_date": "2026-03-10",
-      "resistance_level": 47.36000061035156,
-      "pullback_from_swing_high_pct": 5.764357067258202,
-      "had_correction": true,
-      "bars_since_swing_high": 3,
-      "correction_age_ok": true,
-      "anchor_support_close": 31.956220616839058,
-      "anchor_support_date": "2026-02-24",
-      "support_level": 31.956220616839058,
-      "support_tolerance_pct": 1.0,
-      "support_floor": 31.956220616839058,
-      "support_floor_adj": 31.636658410670666,
-      "correction_close_low": 44.630001068115234,
-      "support_held": true,
-      "close_above_sma_fast": true,
-      "rebound_ok": false,
-      "uptrend_window_used": 50,
-      "uptrend_hh_count": 5,
-      "uptrend_hl_count": 4,
-      "uptrend_pivot_highs": 10,
-      "uptrend_pivot_lows": 8,
-      "uptrend_overall_up": true,
-      "uptrend_ok": true,
-      "uptrend_actionable": true,
-      "watchlist_correction": true,
-      "actionable_after_correction": true,
-      "dist_to_support": 0.39659822740733724,
-      "actionable_reason": "watchlist_correction",
-      "priceQuality": {
-        "quality_n_bars": 50,
-        "long_wick_count": 18,
-        "max_long_wicks_allowed": 6,
-        "gap_thresh_pct": 2.5,
-        "gap_count": 1,
-        "max_gap_count_allowed": 2,
-        "max_gap_pct": 19.6892711184325,
-        "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 1672606,
-        "price_quality_ok": false
-      },
-      "priceQualityOk": false,
-      "avgVolume50": 1672606,
-      "rank_score": 2.729837479318483
-    }
-  ]
+  "count": 0,
+  "data": []
 }
