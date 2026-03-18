@@ -1,0 +1,62 @@
+{
+  "updated_utc": "2026-03-18T14:55:07.491999+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 2,
+  "data": [
+    {
+      "ticker": "OOMA",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 14.170000076293945,
+      "sma20": 13.032000017166137,
+      "sma50": 12.261599998474122,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 22.777303004283944,
+      "pole_high": 14.829999923706055,
+      "pole_range": 3.5199995040893555,
+      "flag_bars": 8,
+      "flag_range": 1.1599998474121094,
+      "pullback_from_pole_high_pct": 4.4504372947236925,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.450757570626321
+    },
+    {
+      "ticker": "RAMP",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 27.950000762939453,
+      "sma20": 27.535000038146972,
+      "sma50": 26.12520004272461,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 14.118568351818647,
+      "pole_high": 29.68000030517578,
+      "pole_range": 5.440000534057617,
+      "flag_bars": 8,
+      "flag_range": 2.520000457763672,
+      "pullback_from_pole_high_pct": 5.828839368086665,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.9338695296101378
+    }
+  ]
+}
