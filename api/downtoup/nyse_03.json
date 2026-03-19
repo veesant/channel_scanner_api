@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-18T20:30:59.179676+00:00",
+  "updated_utc": "2026-03-19T14:32:36.465005+00:00",
   "tf": "1d",
   "params": {
     "n_down": 40,
@@ -15,70 +15,6 @@
     "near_resistance_pct": 6.0,
     "breakout_wiggle_pct": 0.2
   },
-  "count": 3,
-  "data": [
-    {
-      "ticker": "ICL",
-      "tf": "1d",
-      "bars_used": 350,
-      "close": 5.380000114440918,
-      "sma20": 5.144455361366272,
-      "sma50": 5.336468477249145,
-      "trend_ok": true,
-      "prior_downtrend_ok": true,
-      "down_slope": -0.008452152042854122,
-      "fresh_uptrend_ok": true,
-      "up_slope": 0.06617606191924125,
-      "up_hh_steps": 1,
-      "up_hl_steps": 2,
-      "up_pivot_highs": 2,
-      "up_pivot_lows": 3,
-      "resistance": 5.53000020980835,
-      "pullback_from_resistance_pct": 2.712479017656857,
-      "state": "correction",
-      "rank_score": 2.797920163723857
-    },
-    {
-      "ticker": "LANV",
-      "tf": "1d",
-      "bars_used": 350,
-      "close": 1.940000057220459,
-      "sma20": 1.732499998807907,
-      "sma50": 1.6709999990463258,
-      "trend_ok": true,
-      "prior_downtrend_ok": true,
-      "down_slope": -0.008243902192554152,
-      "fresh_uptrend_ok": true,
-      "up_slope": 0.05945454438527425,
-      "up_hh_steps": 1,
-      "up_hl_steps": 2,
-      "up_pivot_highs": 2,
-      "up_pivot_lows": 3,
-      "resistance": 2.309999942779541,
-      "pullback_from_resistance_pct": 16.017311459924727,
-      "state": "uptrend",
-      "rank_score": 1.6470893664285016
-    },
-    {
-      "ticker": "HIMS",
-      "tf": "1d",
-      "bars_used": 350,
-      "close": 24.979999542236328,
-      "sma20": 18.72749991416931,
-      "sma50": 23.876199951171873,
-      "trend_ok": true,
-      "prior_downtrend_ok": true,
-      "down_slope": -0.6069136847698219,
-      "fresh_uptrend_ok": true,
-      "up_slope": 1.1658787062673859,
-      "up_hh_steps": 1,
-      "up_hl_steps": 1,
-      "up_pivot_highs": 2,
-      "up_pivot_lows": 2,
-      "resistance": 27.540000915527344,
-      "pullback_from_resistance_pct": 9.295574757398283,
-      "state": "uptrend",
-      "rank_score": 1.5485132578213974
-    }
-  ]
+  "count": 0,
+  "data": []
 }
