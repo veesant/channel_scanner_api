@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-19T14:45:04.634165+00:00",
+  "updated_utc": "2026-03-19T20:25:16.400085+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -745,27 +745,27 @@
     },
     {
       "ticker": "ROUTE.NS",
-      "slope": -0.018019541092463662,
-      "r2": 0.9377534536082148,
+      "slope": -0.01801954220643049,
+      "r2": 0.9377534655520461,
       "inside": 0.9230769230769231,
       "near_upper": 0.10256410256410256,
       "near_lower": 0.05128205128205128,
-      "pos": 0.22106533973985798,
+      "pos": 0.22106540033202648,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -60.82048439252633,
+      "annual_trend_pct": -60.82048666204967,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -47.9167889510572,
+      "prior_trend_pct": -47.91678704512342,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -80.43325218626919,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9160009620608909
+      "rank_score": 0.9160009619735896
     },
     {
       "ticker": "TCPLPACK.NS",
@@ -1873,15 +1873,15 @@
     },
     {
       "ticker": "UNIPARTS.NS",
-      "slope": 0.010492236748055038,
-      "r2": 0.7822461326092742,
+      "slope": 0.010492236980251183,
+      "r2": 0.7822461416014814,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.12801645996751282,
+      "pos": 0.12801645094457545,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 72.56370918359636,
+      "annual_trend_pct": 72.563711267165,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -1893,7 +1893,7 @@
       "recent_trend_pct": -69.1472344072796,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8706291126155782
+      "rank_score": 0.8706291180139754
     },
     {
       "ticker": "SOLARA.NS",
@@ -3601,15 +3601,15 @@
     },
     {
       "ticker": "STYRENIX.NS",
-      "slope": -0.010335196867094125,
-      "r2": 0.7681004714594284,
+      "slope": -0.010335197199061532,
+      "r2": 0.7681005281665678,
       "inside": 0.9807692307692307,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.057692307692307696,
-      "pos": 0.6489365383320176,
+      "pos": 0.6489365756236419,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -41.575229698938934,
+      "annual_trend_pct": -41.57523070748515,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -3621,7 +3621,7 @@
       "recent_trend_pct": 13.070431699049445,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8114642742042046
+      "rank_score": 0.8114642988286119
     },
     {
       "ticker": "TTL.NS",
@@ -3985,15 +3985,15 @@
     },
     {
       "ticker": "RECLTD.NS",
-      "slope": -0.0028664220108792745,
-      "r2": 0.6867862246355083,
+      "slope": -0.0028664226922941252,
+      "r2": 0.6867862797401169,
       "inside": 0.9423076923076923,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.27845897011054466,
+      "pos": 0.2784590656674147,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -13.847736081921713,
+      "annual_trend_pct": -13.847739134604131,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -4005,7 +4005,7 @@
       "recent_trend_pct": -47.06035481058367,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.7924702922297766
+      "rank_score": 0.7924703102263939
     },
     {
       "ticker": "SOTL.NS",
