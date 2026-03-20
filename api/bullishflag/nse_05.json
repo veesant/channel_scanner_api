@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-19T20:30:38.730574+00:00",
+  "updated_utc": "2026-03-20T14:37:08.250238+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -18,23 +18,23 @@
       "ticker": "UNIVPHOTO.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 473.3500061035156,
-      "sma20": 447.91700134277346,
-      "sma50": 304.2998007202148,
+      "close": 463.8999938964844,
+      "sma20": 454.1755004882813,
+      "sma50": 309.0950006103516,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 29.1479548301916,
-      "pole_high": 486.1000061035156,
-      "pole_range": 141.44000244140625,
+      "pole_gain_pct": 30.367329540576076,
+      "pole_high": 495.79998779296875,
+      "pole_range": 138.22000122070312,
       "flag_bars": 8,
-      "flag_range": 42.449981689453125,
-      "pullback_from_pole_high_pct": 2.622917062314307,
+      "flag_range": 51.899993896484375,
+      "pullback_from_pole_high_pct": 6.434044913652732,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
-      "near_breakout": true,
+      "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 2.625482432887113
+      "rank_score": 2.374186159285624
     }
   ]
 }

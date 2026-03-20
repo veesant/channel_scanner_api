@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-19T20:30:35.324961+00:00",
+  "updated_utc": "2026-03-20T14:34:44.105026+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,29 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 1,
+  "data": [
+    {
+      "ticker": "AVADHSUGAR.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 426.1000061035156,
+      "sma20": 383.3625015258789,
+      "sma50": 355.87500244140625,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 22.084861036496545,
+      "pole_high": 435.6000061035156,
+      "pole_range": 115.05001831054688,
+      "flag_bars": 8,
+      "flag_range": 66.0,
+      "pullback_from_pole_high_pct": 2.180899877614425,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.316927485443794
+    }
+  ]
 }

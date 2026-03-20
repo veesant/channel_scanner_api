@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-19T20:29:53.369551+00:00",
+  "updated_utc": "2026-03-20T14:33:32.847648+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -15,26 +15,26 @@
   "count": 1,
   "data": [
     {
-      "ticker": "CRC",
+      "ticker": "DK",
       "tf": "1d",
       "bars_used": 320,
-      "close": 64.19999694824219,
-      "sma20": 60.927552223205566,
-      "sma50": 54.91358840942383,
+      "close": 44.599998474121094,
+      "sma20": 40.02886333465576,
+      "sma50": 34.423120651245114,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 11.332752388342247,
-      "pole_high": 65.2517908410632,
-      "pole_range": 9.12015053893024,
+      "pole_gain_pct": 18.82449376263518,
+      "pole_high": 45.7400016784668,
+      "pole_range": 13.06014075458755,
       "flag_bars": 8,
-      "flag_range": 4.9177279285552515,
-      "pullback_from_pole_high_pct": 1.6119004233660237,
+      "flag_range": 7.19000244140625,
+      "pullback_from_pole_high_pct": 2.492354968326088,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": true,
       "pattern": "bull_flag",
-      "rank_score": 2.130644723249842
+      "rank_score": 2.192889296475692
     }
   ]
 }
