@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-20T14:29:32.029878+00:00",
+  "updated_utc": "2026-03-20T20:25:35.512504+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -817,27 +817,27 @@
     },
     {
       "ticker": "NATIONALUM.NS",
-      "slope": 0.019761156341533137,
-      "r2": 0.9252028430400269,
+      "slope": 0.01976115645115366,
+      "r2": 0.9252028440635102,
       "inside": 0.9807692307692307,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.4680247227247174,
+      "pos": 0.46802472329730777,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 179.42958134347674,
+      "annual_trend_pct": 179.42958293630008,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 491.26253966420086,
+      "prior_trend_pct": 491.2625536002081,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 208.8091127123786,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.908106641555234
+      "rank_score": 0.9081066420097166
     },
     {
       "ticker": "ORIENTCEM.NS",
@@ -2401,15 +2401,15 @@
     },
     {
       "ticker": "MAHABANK.NS",
-      "slope": 0.007066637486264859,
-      "r2": 0.8233966034046822,
+      "slope": 0.0070666371194630494,
+      "r2": 0.8233966104036456,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.3810229070676068,
+      "pos": 0.38102292851799746,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 44.406947080012515,
+      "annual_trend_pct": 44.406944325638584,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -2421,7 +2421,7 @@
       "recent_trend_pct": -33.28528057949587,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8659037033032728
+      "rank_score": 0.8659037046577154
     },
     {
       "ticker": "ORISSAMINE.NS",
@@ -3337,15 +3337,15 @@
     },
     {
       "ticker": "ORIENTELEC.NS",
-      "slope": -0.006035012462282601,
-      "r2": 0.7609709254782681,
+      "slope": -0.006035012703514658,
+      "r2": 0.7609709477231167,
       "inside": 0.9423076923076923,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.33349222759281966,
+      "pos": 0.3334922412265465,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -26.934994007005297,
+      "annual_trend_pct": -26.934994923537626,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -3357,7 +3357,7 @@
       "recent_trend_pct": -43.91189072354258,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.824059316902929
+      "rank_score": 0.8240593266619807
     },
     {
       "ticker": "LORDSCHLO.NS",

@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-20T14:37:02.816069+00:00",
+  "updated_utc": "2026-03-20T20:25:08.505107+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -1609,27 +1609,27 @@
     },
     {
       "ticker": "CONCOR.NS",
-      "slope": -0.005407336888268744,
-      "r2": 0.7853531561955024,
+      "slope": -0.005407338274073226,
+      "r2": 0.7853532271944964,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.07411832996611828,
+      "pos": 0.07411842283920661,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -24.51087034587216,
+      "annual_trend_pct": -24.510875785757026,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -14.844804505778853,
+      "prior_trend_pct": -14.844813766207388,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -73.10542129393527,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8852647451011393
+      "rank_score": 0.8852647713133276
     },
     {
       "ticker": "BHAGCHEM.NS",
@@ -2641,27 +2641,27 @@
     },
     {
       "ticker": "ACCELYA.NS",
-      "slope": -0.006458608056797718,
-      "r2": 0.8036286000000492,
+      "slope": -0.006458607495062913,
+      "r2": 0.8036286406471513,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.5164760596633429,
+      "pos": 0.5164760253826837,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -28.526799087002217,
+      "annual_trend_pct": -28.526796999254998,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -26.021828478526388,
+      "prior_trend_pct": -26.021825226888375,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -6.402313959430317,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.8501666940336904
+      "rank_score": 0.8501667177853073
     },
     {
       "ticker": "AVL.NS",
@@ -3073,15 +3073,15 @@
     },
     {
       "ticker": "CHAMBLFERT.NS",
-      "slope": -0.007080421887060636,
-      "r2": 0.8150173366584965,
+      "slope": -0.007080422057325976,
+      "r2": 0.8150173586174657,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.6172164445193782,
+      "pos": 0.6172164612518791,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -30.800872936071887,
+      "annual_trend_pct": -30.800873548746953,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -3093,7 +3093,7 @@
       "recent_trend_pct": -60.68455401848824,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8355306136209002
+      "rank_score": 0.8355306229271346
     },
     {
       "ticker": "DIAMINESQ.NS",
@@ -4153,15 +4153,15 @@
     },
     {
       "ticker": "CCL.NS",
-      "slope": 0.009149949830829422,
-      "r2": 0.6889989009671489,
+      "slope": 0.00914995035994387,
+      "r2": 0.688998894424128,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.09615384615384616,
-      "pos": 0.5016056908790014,
+      "pos": 0.5016056694534482,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 60.92969252113014,
+      "annual_trend_pct": 60.929696948941945,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -4173,7 +4173,7 @@
       "recent_trend_pct": 121.70670922028353,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.778954266011059
+      "rank_score": 0.7789542648821038
     },
     {
       "ticker": "BANSWRAS.NS",
