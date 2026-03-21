@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-21T14:08:22.432818+00:00",
+  "updated_utc": "2026-03-21T20:17:44.052130+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -15,26 +15,26 @@
   "count": 1,
   "data": [
     {
-      "ticker": "DK",
+      "ticker": "IOT",
       "tf": "1d",
       "bars_used": 320,
-      "close": 44.2400016784668,
-      "sma20": 40.5338623046875,
-      "sma50": 34.72703369140625,
+      "close": 33.130001068115234,
+      "sma20": 30.86200017929077,
+      "sma50": 30.05059986114502,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 22.02135524789898,
-      "pole_high": 45.7400016784668,
-      "pole_range": 13.050207124010008,
+      "pole_gain_pct": 19.897962410913646,
+      "pole_high": 35.55500030517578,
+      "pole_range": 9.585000991821289,
       "flag_bars": 8,
-      "flag_range": 6.310001373291016,
-      "pullback_from_pole_high_pct": 3.2794052141588814,
+      "flag_range": 3.5249996185302734,
+      "pullback_from_pole_high_pct": 6.820416864706191,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 2.1941377745540707
+      "rank_score": 2.3819613697586814
     }
   ]
 }

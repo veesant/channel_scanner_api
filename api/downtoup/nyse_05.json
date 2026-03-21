@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-21T20:16:39.651813+00:00",
+  "updated_utc": "2026-03-21T20:18:46.077041+00:00",
   "tf": "1d",
   "params": {
     "n_down": 40,
@@ -18,25 +18,25 @@
   "count": 1,
   "data": [
     {
-      "ticker": "VISHNU.NS",
+      "ticker": "TAL",
       "tf": "1d",
       "bars_used": 350,
-      "close": 513.2999877929688,
-      "sma20": 502.6499969482422,
-      "sma50": 510.55899719238283,
+      "close": 11.430000305175781,
+      "sma20": 10.902000093460083,
+      "sma50": 11.262200031280518,
       "trend_ok": true,
       "prior_downtrend_ok": true,
-      "down_slope": -0.4741089783287406,
+      "down_slope": -0.022707310850132698,
       "fresh_uptrend_ok": true,
-      "up_slope": 2.858483331853693,
-      "up_hh_steps": 2,
+      "up_slope": 0.07193943370472301,
+      "up_hh_steps": 1,
       "up_hl_steps": 1,
-      "up_pivot_highs": 3,
-      "up_pivot_lows": 2,
-      "resistance": 530.0,
-      "pullback_from_resistance_pct": 3.150945699439858,
+      "up_pivot_highs": 2,
+      "up_pivot_lows": 3,
+      "resistance": 11.760000228881836,
+      "pullback_from_resistance_pct": 2.806121745606732,
       "state": "correction",
-      "rank_score": 2.7631363113382372
+      "rank_score": 2.682313042398878
     }
   ]
 }

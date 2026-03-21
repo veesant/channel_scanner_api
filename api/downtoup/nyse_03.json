@@ -1,0 +1,63 @@
+{
+  "updated_utc": "2026-03-21T20:17:12.565114+00:00",
+  "tf": "1d",
+  "params": {
+    "n_down": 40,
+    "n_up": 10,
+    "n_corr": 8,
+    "sma_slow": 50,
+    "sma_fast": 20,
+    "pivot_strength": 1,
+    "min_hh_steps": 1,
+    "min_hl_steps": 1,
+    "corr_min_pct": 0.5,
+    "corr_max_pct": 12.0,
+    "near_resistance_pct": 6.0,
+    "breakout_wiggle_pct": 0.2
+  },
+  "count": 2,
+  "data": [
+    {
+      "ticker": "GRND",
+      "tf": "1d",
+      "bars_used": 350,
+      "close": 12.550000190734863,
+      "sma20": 11.83250002861023,
+      "sma50": 11.59,
+      "trend_ok": true,
+      "prior_downtrend_ok": true,
+      "down_slope": -0.04442025957590644,
+      "fresh_uptrend_ok": true,
+      "up_slope": 0.07309095787279533,
+      "up_hh_steps": 1,
+      "up_hl_steps": 1,
+      "up_pivot_highs": 2,
+      "up_pivot_lows": 2,
+      "resistance": 12.739999771118164,
+      "pullback_from_resistance_pct": 1.4913625101786394,
+      "state": "correction",
+      "rank_score": 2.901439581636893
+    },
+    {
+      "ticker": "GEO",
+      "tf": "1d",
+      "bars_used": 350,
+      "close": 16.43000030517578,
+      "sma20": 14.893500137329102,
+      "sma50": 15.708400020599365,
+      "trend_ok": true,
+      "prior_downtrend_ok": true,
+      "down_slope": -0.09822419374118826,
+      "fresh_uptrend_ok": true,
+      "up_slope": 0.3678181388161399,
+      "up_hh_steps": 1,
+      "up_hl_steps": 1,
+      "up_pivot_highs": 2,
+      "up_pivot_lows": 2,
+      "resistance": 17.200000762939453,
+      "pullback_from_resistance_pct": 4.476746648888404,
+      "state": "correction",
+      "rank_score": 2.4038755585185996
+    }
+  ]
+}
