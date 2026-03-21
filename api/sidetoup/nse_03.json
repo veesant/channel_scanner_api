@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-20T20:25:35.512504+00:00",
+  "updated_utc": "2026-03-21T14:07:17.264195+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -21,7 +21,7 @@
     "prior_trend_weeks": 20,
     "recent_trend_weeks": 6
   },
-  "count": 182,
+  "count": 183,
   "data": [
     {
       "ticker": "PEARLPOLY.NS",
@@ -817,15 +817,15 @@
     },
     {
       "ticker": "NATIONALUM.NS",
-      "slope": 0.01976115645115366,
-      "r2": 0.9252028440635102,
+      "slope": 0.019761156127685902,
+      "r2": 0.9252028455154678,
       "inside": 0.9807692307692307,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.46802472329730777,
+      "pos": 0.46802472325983824,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 179.42958293630008,
+      "annual_trend_pct": 179.42957823620412,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -837,7 +837,7 @@
       "recent_trend_pct": 208.8091127123786,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.9081066420097166
+      "rank_score": 0.9081066427394424
     },
     {
       "ticker": "ORIENTCEM.NS",
@@ -1848,6 +1848,30 @@
       "rank_score": 0.8800268021019998
     },
     {
+      "ticker": "MEGASOFT.NS",
+      "slope": 0.0243874694024346,
+      "r2": 0.7889044169354158,
+      "inside": 0.9807692307692307,
+      "near_upper": 0.038461538461538464,
+      "near_lower": 0.09615384615384616,
+      "pos": 0.07095574883974365,
+      "k": 2.0,
+      "lookback": 52.0,
+      "annual_trend_pct": 255.42654197665163,
+      "trend_type": "Ascending",
+      "near_support": true,
+      "near_resistance": false,
+      "action_zone": "Near Support",
+      "prior_trend_weeks": 20,
+      "recent_trend_weeks": 6,
+      "prior_trend_pct": 48.52049378011793,
+      "prior_trend_type": "Ascending",
+      "recent_trend_pct": -77.61866734951168,
+      "recent_trend_type": "Descending",
+      "previously_descending": false,
+      "rank_score": 0.8796643258914258
+    },
+    {
       "ticker": "MAZDA.NS",
       "slope": -0.012128883492586248,
       "r2": 0.7944684708737206,
@@ -2401,15 +2425,15 @@
     },
     {
       "ticker": "MAHABANK.NS",
-      "slope": 0.0070666371194630494,
-      "r2": 0.8233966104036456,
+      "slope": 0.007066637486264859,
+      "r2": 0.8233966034046822,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.38102292851799746,
+      "pos": 0.3810229070676068,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 44.406944325638584,
+      "annual_trend_pct": 44.406947080012515,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -2421,7 +2445,7 @@
       "recent_trend_pct": -33.28528057949587,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8659037046577154
+      "rank_score": 0.8659037033032728
     },
     {
       "ticker": "ORISSAMINE.NS",
@@ -2761,15 +2785,15 @@
     },
     {
       "ticker": "POLYPLEX.NS",
-      "slope": -0.01013266340970108,
-      "r2": 0.885031462799548,
+      "slope": -0.01013266362411066,
+      "r2": 0.885031484199533,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.09615384615384616,
-      "pos": 0.9094541016576694,
+      "pos": 0.9094541513802417,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -40.95666365030568,
+      "annual_trend_pct": -40.956664308597446,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -2781,7 +2805,7 @@
       "recent_trend_pct": 3.228919137689723,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.851570321234007
+      "rank_score": 0.8515703269617424
     },
     {
       "ticker": "MANORG.NS",
@@ -3289,27 +3313,27 @@
     },
     {
       "ticker": "MAZDOCK.NS",
-      "slope": -0.009081729559251434,
-      "r2": 0.825342367661881,
+      "slope": -0.009081730195636102,
+      "r2": 0.8253424060702332,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.11538461538461539,
-      "pos": 0.671233255475428,
+      "pos": 0.671233301813155,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -37.640236673371255,
+      "annual_trend_pct": -37.64023873698068,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -40.96655284271943,
+      "prior_trend_pct": -40.9665559097075,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 1.2298252986434388,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.8301632428987823
+      "rank_score": 0.8301632574691858
     },
     {
       "ticker": "PTCIL.NS",
@@ -3337,15 +3361,15 @@
     },
     {
       "ticker": "ORIENTELEC.NS",
-      "slope": -0.006035012703514658,
-      "r2": 0.7609709477231167,
+      "slope": -0.006035012462282601,
+      "r2": 0.7609709254782681,
       "inside": 0.9423076923076923,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.3334922412265465,
+      "pos": 0.33349222759281966,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -26.934994923537626,
+      "annual_trend_pct": -26.934994007005297,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -3357,7 +3381,7 @@
       "recent_trend_pct": -43.91189072354258,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8240593266619807
+      "rank_score": 0.824059316902929
     },
     {
       "ticker": "LORDSCHLO.NS",

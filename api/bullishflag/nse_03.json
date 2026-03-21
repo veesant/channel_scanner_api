@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-20T20:18:03.899656+00:00",
+  "updated_utc": "2026-03-21T14:08:26.235833+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,51 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 2,
+  "data": [
+    {
+      "ticker": "PREMIERPOL.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 59.959999084472656,
+      "sma20": 56.71750011444092,
+      "sma50": 52.71900016784668,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 17.894328326414506,
+      "pole_high": 64.33000183105469,
+      "pole_range": 18.070003509521484,
+      "flag_bars": 8,
+      "flag_range": 9.470001220703125,
+      "pullback_from_pole_high_pct": 6.793102164148322,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.021261391283129
+    },
+    {
+      "ticker": "ONESOURCE.NS",
+      "tf": "1d",
+      "bars_used": 287,
+      "close": 1456.4000244140625,
+      "sma20": 1411.2049926757813,
+      "sma50": 1403.30599609375,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 11.414316820115017,
+      "pole_high": 1536.5999755859375,
+      "pole_range": 278.5999755859375,
+      "flag_bars": 8,
+      "flag_range": 147.800048828125,
+      "pullback_from_pole_high_pct": 5.219312276852867,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.6865326525633773
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-20T20:17:57.468570+00:00",
+  "updated_utc": "2026-03-21T14:07:44.248764+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,51 +12,6 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 2,
-  "data": [
-    {
-      "ticker": "DNTH",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 80.0,
-      "sma20": 67.0254997253418,
-      "sma50": 55.55119979858399,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 49.88649724195803,
-      "pole_high": 84.86000061035156,
-      "pole_range": 33.86000061035156,
-      "flag_bars": 8,
-      "flag_range": 11.799995422363281,
-      "pullback_from_pole_high_pct": 5.727080574353331,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 2.419177239138628
-    },
-    {
-      "ticker": "DAVE",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 210.4600067138672,
-      "sma20": 202.7382499694824,
-      "sma50": 192.9988998413086,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 30.777863895673175,
-      "pole_high": 224.27999877929688,
-      "pole_range": 62.660003662109375,
-      "flag_bars": 8,
-      "flag_range": 27.680007934570312,
-      "pullback_from_pole_high_pct": 6.161936927344678,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 2.2637512949027467
-    }
-  ]
+  "count": 0,
+  "data": []
 }
