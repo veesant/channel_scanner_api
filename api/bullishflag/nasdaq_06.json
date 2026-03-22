@@ -1,0 +1,62 @@
+{
+  "updated_utc": "2026-03-22T14:06:14.257126+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 2,
+  "data": [
+    {
+      "ticker": "SWBI",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 14.180000305175781,
+      "sma20": 12.950599718093873,
+      "sma50": 11.8541064453125,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 19.982988471009637,
+      "pole_high": 14.454133376390397,
+      "pole_range": 2.9126222399766295,
+      "flag_bars": 8,
+      "flag_range": 0.9125722379260033,
+      "pullback_from_pole_high_pct": 1.8965721712682453,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.8447647437773385
+    },
+    {
+      "ticker": "WIX",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 88.43000030517578,
+      "sma20": 82.31199932098389,
+      "sma50": 81.50859931945801,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 37.311378600531135,
+      "pole_high": 94.83000183105469,
+      "pole_range": 34.61000061035156,
+      "flag_bars": 8,
+      "flag_range": 6.980003356933594,
+      "pullback_from_pole_high_pct": 6.748920597176504,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.6638734838755473
+    }
+  ]
+}

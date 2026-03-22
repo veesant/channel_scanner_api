@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-21T20:21:24.389322+00:00",
+  "updated_utc": "2026-03-22T14:14:44.597414+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -337,15 +337,15 @@
     },
     {
       "ticker": "STEELCITY.NS",
-      "slope": -0.007352992708288947,
-      "r2": 0.919789288864828,
+      "slope": -0.007352992438843363,
+      "r2": 0.9197892616141452,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.2085751042503879,
+      "pos": 0.20857511487858363,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -31.77476131014472,
+      "annual_trend_pct": -31.77476035422927,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -357,7 +357,7 @@
       "recent_trend_pct": -33.512587403002584,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9287807237509651
+      "rank_score": 0.928780709062804
     },
     {
       "ticker": "TRF.NS",
@@ -433,27 +433,27 @@
     },
     {
       "ticker": "ROUTE.NS",
-      "slope": -0.01809280340658845,
-      "r2": 0.9368247857240757,
+      "slope": -0.018092804301724944,
+      "r2": 0.9368247966600847,
       "inside": 0.9230769230769231,
       "near_upper": 0.10256410256410256,
       "near_lower": 0.05128205128205128,
-      "pos": 0.1442622989836196,
+      "pos": 0.14426234286931267,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -60.96946030297329,
+      "annual_trend_pct": -60.96946211973159,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -47.9167889510572,
+      "prior_trend_pct": -47.91678704512342,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -83.01499818550886,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9232169321944451
+      "rank_score": 0.9232169332738803
     },
     {
       "ticker": "SVLL.NS",
@@ -1033,15 +1033,15 @@
     },
     {
       "ticker": "SHRIRAMFIN.NS",
-      "slope": 0.0172642683265631,
-      "r2": 0.8379049923255,
+      "slope": 0.017264267994160087,
+      "r2": 0.837904973661482,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.0788812976171961,
+      "pos": 0.07888132992599897,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 145.40554774506242,
+      "annual_trend_pct": 145.40554350323825,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -1053,7 +1053,7 @@
       "recent_trend_pct": -72.39784817495662,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.9008079561446201
+      "rank_score": 0.9008079435817309
     },
     {
       "ticker": "RKDL.NS",
@@ -1081,15 +1081,15 @@
     },
     {
       "ticker": "SHREECEM.NS",
-      "slope": -0.006193188382755548,
-      "r2": 0.8333948777087252,
+      "slope": -0.006193188191217528,
+      "r2": 0.8333948732068355,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.07518769058328208,
+      "pos": 0.07518766833934527,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -27.53349971184045,
+      "annual_trend_pct": -27.533498990075756,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -1101,7 +1101,7 @@
       "recent_trend_pct": -77.39090544687829,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8989222595396242
+      "rank_score": 0.8989222595130729
     },
     {
       "ticker": "RAINBOW.NS",
@@ -2017,27 +2017,27 @@
     },
     {
       "ticker": "UNIPARTS.NS",
-      "slope": 0.010500847579049349,
-      "r2": 0.78298701648318,
+      "slope": 0.010500846967399034,
+      "r2": 0.7829870425694566,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.13843136399835274,
+      "pos": 0.1384313419653693,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 72.6409941656386,
+      "annual_trend_pct": 72.64098867465094,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 5.637119711719407,
+      "prior_trend_pct": 5.637123922815079,
       "prior_trend_type": "Sideways",
       "recent_trend_pct": -68.22729686735698,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.869958064149447
+      "rank_score": 0.8699580793958837
     },
     {
       "ticker": "RCOM.NS",
@@ -3769,15 +3769,15 @@
     },
     {
       "ticker": "STYRENIX.NS",
-      "slope": -0.010317663120287446,
-      "r2": 0.7670767699256597,
+      "slope": -0.010317663452254903,
+      "r2": 0.7670768266724278,
       "inside": 0.9807692307692307,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.057692307692307696,
-      "pos": 0.6703837278195632,
+      "pos": 0.6703837677412076,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -41.52193634064805,
+      "annual_trend_pct": -41.52193735011437,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -3789,7 +3789,7 @@
       "recent_trend_pct": 20.04172585313617,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8088077044885658
+      "rank_score": 0.8088077288697855
     },
     {
       "ticker": "SINCLAIR.NS",
@@ -4201,15 +4201,15 @@
     },
     {
       "ticker": "RECLTD.NS",
-      "slope": -0.002864445594118733,
-      "r2": 0.6867173114295784,
+      "slope": -0.0028644455033515663,
+      "r2": 0.6867173440038099,
       "inside": 0.9423076923076923,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.2855061520745206,
+      "pos": 0.2855061492436573,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -13.838881442442563,
+      "annual_trend_pct": -13.838881035771333,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -4221,7 +4221,7 @@
       "recent_trend_pct": -46.702025906038,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.791731117430414
+      "rank_score": 0.7917311340006161
     },
     {
       "ticker": "TARIL.NS",
