@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-22T20:14:28.525883+00:00",
+  "updated_utc": "2026-03-23T14:45:08.147552+00:00",
   "tf": "1d",
   "params": {
     "n_down": 40,
@@ -165,6 +165,27 @@
       "rank_score": 1.5262763737983294
     },
     {
+      "ticker": "TGTX",
+      "tf": "1d",
+      "bars_used": 350,
+      "close": 30.06999969482422,
+      "sma20": 29.483000087738038,
+      "sma50": 29.559799995422363,
+      "trend_ok": true,
+      "prior_downtrend_ok": true,
+      "down_slope": -0.014575044657007614,
+      "fresh_uptrend_ok": true,
+      "up_slope": 0.2425454688794685,
+      "up_hh_steps": 1,
+      "up_hl_steps": 1,
+      "up_pivot_highs": 3,
+      "up_pivot_lows": 2,
+      "resistance": 32.229000091552734,
+      "pullback_from_resistance_pct": 6.698936953040602,
+      "state": "uptrend",
+      "rank_score": 1.439980525974444
+    },
+    {
       "ticker": "ZKIN",
       "tf": "1d",
       "bars_used": 350,
@@ -177,34 +198,13 @@
       "fresh_uptrend_ok": true,
       "up_slope": 0.02048485279083252,
       "up_hh_steps": 1,
-      "up_hl_steps": 2,
+      "up_hl_steps": 1,
       "up_pivot_highs": 2,
-      "up_pivot_lows": 3,
+      "up_pivot_lows": 2,
       "resistance": 2.0899999141693115,
       "pullback_from_resistance_pct": 17.70334453368347,
       "state": "uptrend",
-      "rank_score": 1.5044267810872247
-    },
-    {
-      "ticker": "TGTX",
-      "tf": "1d",
-      "bars_used": 350,
-      "close": 30.09000015258789,
-      "sma20": 29.48400011062622,
-      "sma50": 29.560200004577638,
-      "trend_ok": true,
-      "prior_downtrend_ok": true,
-      "down_slope": -0.014575044657007614,
-      "fresh_uptrend_ok": true,
-      "up_slope": 0.24363640293930516,
-      "up_hh_steps": 1,
-      "up_hl_steps": 1,
-      "up_pivot_highs": 3,
-      "up_pivot_lows": 2,
-      "resistance": 32.229000091552734,
-      "pullback_from_resistance_pct": 6.636879620492721,
-      "state": "uptrend",
-      "rank_score": 1.4406332628865561
+      "rank_score": 1.404426781087225
     }
   ]
 }

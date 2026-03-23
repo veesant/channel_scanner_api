@@ -1,0 +1,40 @@
+{
+  "updated_utc": "2026-03-23T14:44:50.763848+00:00",
+  "tf": "1d",
+  "params": {
+    "pole_bars": 10,
+    "flag_bars": 8,
+    "min_pole_gain_pct": 10.0,
+    "near_breakout_pct": 3.0,
+    "flag_pullback_min_pct": 1.0,
+    "flag_pullback_max_pct": 8.0,
+    "tight_ratio": 0.6,
+    "sma_fast": 20,
+    "sma_slow": 50
+  },
+  "count": 1,
+  "data": [
+    {
+      "ticker": "IOT",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 33.130001068115234,
+      "sma20": 30.86200017929077,
+      "sma50": 30.05059986114502,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 19.897962410913646,
+      "pole_high": 35.55500030517578,
+      "pole_range": 9.585000991821289,
+      "flag_bars": 8,
+      "flag_range": 3.5249996185302734,
+      "pullback_from_pole_high_pct": 6.820416864706191,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.3819613697586814
+    }
+  ]
+}
