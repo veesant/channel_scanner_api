@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-23T14:48:57.796142+00:00",
+  "updated_utc": "2026-03-23T20:27:50.161286+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -145,15 +145,15 @@
     },
     {
       "ticker": "AURIONPRO.NS",
-      "slope": -0.01538948358527438,
-      "r2": 0.9244433542357737,
+      "slope": -0.015389483613994974,
+      "r2": 0.924443354969439,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.11452119259484797,
+      "pos": 0.11452119428399182,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -55.07847675118723,
+      "annual_trend_pct": -55.07847681827622,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -165,7 +165,7 @@
       "recent_trend_pct": -84.70817260019678,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9507695578584021
+      "rank_score": 0.9507695580563204
     },
     {
       "ticker": "ASHIMASYN.NS",
@@ -2713,15 +2713,15 @@
     },
     {
       "ticker": "BEPL.NS",
-      "slope": -0.008679695185464473,
-      "r2": 0.9247325259531675,
+      "slope": -0.008679695468925693,
+      "r2": 0.9247324997467038,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.8398441629945017,
+      "pos": 0.8398441218388658,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -36.32283402757365,
+      "annual_trend_pct": -36.322834966174014,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -2733,7 +2733,7 @@
       "recent_trend_pct": 34.08109983456917,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8578690261643129
+      "rank_score": 0.8578690171766448
     },
     {
       "ticker": "CALSOFT.NS",
@@ -2833,15 +2833,15 @@
     },
     {
       "ticker": "CHAMBLFERT.NS",
-      "slope": -0.007129678638876063,
-      "r2": 0.8169242058106297,
+      "slope": -0.007129678456449004,
+      "r2": 0.8169241833986203,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.4458658033777868,
+      "pos": 0.4458657935391521,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -30.977889398477252,
+      "annual_trend_pct": -30.977888743719216,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2853,7 +2853,7 @@
       "recent_trend_pct": -65.42632761848046,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.853619112311126
+      "rank_score": 0.8536191020889847
     },
     {
       "ticker": "CAPLIPOINT.NS",
@@ -3361,27 +3361,27 @@
     },
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.006493086505886206,
-      "r2": 0.8209883938118766,
+      "slope": 0.006493086581224579,
+      "r2": 0.8209884382799671,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.10256410256410256,
-      "pos": 0.7300033904124275,
+      "pos": 0.7300034115103845,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 40.16365221157279,
+      "annual_trend_pct": 40.16365276067728,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 54.33010209945428,
+      "prior_trend_pct": 54.330093626806345,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 170.54310074510659,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8272374476082853
+      "rank_score": 0.8272374677325349
     },
     {
       "ticker": "ADL.NS",
@@ -3913,27 +3913,27 @@
     },
     {
       "ticker": "DCMSHRIRAM.NS",
-      "slope": -0.008071297696615631,
-      "r2": 0.674743238683486,
+      "slope": -0.008071296755940566,
+      "r2": 0.6747431106444741,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.11538461538461539,
-      "pos": 0.36493114542687854,
+      "pos": 0.3649311233637824,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -34.27609528826249,
+      "annual_trend_pct": -34.27609207337081,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -17.982927991176112,
+      "prior_trend_pct": -17.982921128832153,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -33.00276052016882,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8008785047990552
+      "rank_score": 0.8008784429858589
     },
     {
       "ticker": "CENTEXT.NS",
