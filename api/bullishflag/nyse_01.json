@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-23T20:28:40.549636+00:00",
+  "updated_utc": "2026-03-24T14:50:30.901224+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,51 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
+  "count": 2,
   "data": [
     {
       "ticker": "AMPX",
       "tf": "1d",
       "bars_used": 320,
-      "close": 18.200000762939453,
-      "sma20": 15.306500148773193,
-      "sma50": 12.79980001449585,
+      "close": 18.68000030517578,
+      "sma20": 15.730500173568725,
+      "sma50": 12.988600025177002,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 62.74863758661427,
-      "pole_high": 18.950000762939453,
-      "pole_range": 8.600000381469727,
+      "pole_gain_pct": 61.37152268999725,
+      "pole_high": 19.399999618530273,
+      "pole_range": 9.049999237060547,
       "flag_bars": 8,
       "flag_range": 2.1300010681152344,
-      "pullback_from_pole_high_pct": 3.9577834818179864,
+      "pullback_from_pole_high_pct": 3.711336739753187,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 2.5872091136366473
+      "rank_score": 2.6077345768544946
+    },
+    {
+      "ticker": "AESI",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 12.670000076293945,
+      "sma20": 11.877499866485596,
+      "sma50": 11.650399951934814,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 34.282806833314226,
+      "pole_high": 13.220000267028809,
+      "pole_range": 3.9499998092651367,
+      "flag_bars": 8,
+      "flag_range": 2.0399999618530273,
+      "pullback_from_pole_high_pct": 4.160364444973462,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.1392404808611234
     }
   ]
 }

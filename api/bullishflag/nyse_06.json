@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-23T20:25:50.124853+00:00",
+  "updated_utc": "2026-03-24T14:47:00.357694+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -18,23 +18,23 @@
       "ticker": "WLY",
       "tf": "1d",
       "bars_used": 320,
-      "close": 36.16999816894531,
-      "sma20": 33.95599985122681,
-      "sma50": 31.84519992828369,
+      "close": 36.970001220703125,
+      "sma20": 34.35099992752075,
+      "sma50": 31.956799964904786,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 23.557211094448004,
+      "pole_gain_pct": 19.620673388875144,
       "pole_high": 37.529998779296875,
-      "pole_range": 8.479999542236328,
+      "pole_range": 7.689899444580078,
       "flag_bars": 8,
       "flag_range": 1.4899978637695312,
-      "pullback_from_pole_high_pct": 3.6237693967147053,
+      "pullback_from_pole_high_pct": 1.4921331649567444,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
-      "near_breakout": false,
+      "near_breakout": true,
       "pattern": "bull_flag",
-      "rank_score": 2.707154492098673
+      "rank_score": 3.1607219756575176
     }
   ]
 }

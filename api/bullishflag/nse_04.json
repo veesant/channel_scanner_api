@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-23T20:28:11.074649+00:00",
+  "updated_utc": "2026-03-24T14:46:44.884598+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -18,23 +18,23 @@
       "ticker": "SUMEETINDS.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 29.389999389648438,
-      "sma20": 27.842000102996828,
-      "sma50": 27.07800006866455,
+      "close": 28.760000228881836,
+      "sma20": 28.10900011062622,
+      "sma50": 27.086800079345704,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 35.40539834631161,
+      "pole_gain_pct": 17.32186539320554,
       "pole_high": 31.0,
       "pole_range": 9.360000610351562,
       "flag_bars": 8,
       "flag_range": 3.979999542236328,
-      "pullback_from_pole_high_pct": 5.193550355972782,
+      "pullback_from_pole_high_pct": 7.2258057132844,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 2.2913106690337353
+      "rank_score": 2.1574039386940123
     }
   ]
 }
