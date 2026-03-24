@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-24T14:50:19.764030+00:00",
+  "updated_utc": "2026-03-24T20:30:12.387541+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -289,15 +289,15 @@
     },
     {
       "ticker": "NATIONALUM.NS",
-      "slope": 0.020099915010872618,
-      "r2": 0.9357469154292701,
+      "slope": 0.02009991530707343,
+      "r2": 0.9357469188943233,
       "inside": 1.0,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.2741230132155115,
+      "pos": 0.2741230101278421,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 184.39546915286553,
+      "annual_trend_pct": 184.39547353325034,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -309,7 +309,7 @@
       "recent_trend_pct": 52.991221272048094,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.9404611563930839
+      "rank_score": 0.9404611584343774
     },
     {
       "ticker": "MBLINFRA.NS",
@@ -1465,15 +1465,15 @@
     },
     {
       "ticker": "KIRLOSENG.NS",
-      "slope": 0.012718676296723611,
-      "r2": 0.8724312813474637,
+      "slope": 0.012718676301350493,
+      "r2": 0.8724312626145414,
       "inside": 1.0,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.07692307692307693,
-      "pos": 0.39013370068170233,
+      "pos": 0.3901337067443705,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 93.74470782672861,
+      "annual_trend_pct": 93.74470787334317,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1485,7 +1485,7 @@
       "recent_trend_pct": -45.27213002599295,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8972022706055617
+      "rank_score": 0.8972022606328337
     },
     {
       "ticker": "NSIL.NS",
@@ -1945,15 +1945,15 @@
     },
     {
       "ticker": "NAVINFLUOR.NS",
-      "slope": 0.00879944936324403,
-      "r2": 0.8652974333816147,
+      "slope": 0.008799448733194649,
+      "r2": 0.8652974311178403,
       "inside": 0.9423076923076923,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.2601681491857941,
+      "pos": 0.2601681745172423,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 58.02315183233071,
+      "annual_trend_pct": 58.02314665508656,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1965,7 +1965,7 @@
       "recent_trend_pct": -44.45485536361028,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8835549786953047
+      "rank_score": 0.8835549750302728
     },
     {
       "ticker": "MAHSCOOTER.NS",
@@ -2329,15 +2329,15 @@
     },
     {
       "ticker": "PAGEIND.NS",
-      "slope": -0.01168494922026647,
-      "r2": 0.9704743042747305,
+      "slope": -0.011684948652670276,
+      "r2": 0.9704743026413811,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.9124820980700113,
+      "pos": 0.9124820359358387,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -45.53529775935055,
+      "annual_trend_pct": -45.535296151824724,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -2349,7 +2349,7 @@
       "recent_trend_pct": -18.777920160671393,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8734761218175436
+      "rank_score": 0.8734761272142861
     },
     {
       "ticker": "MANAKCOAT.NS",
@@ -2569,15 +2569,15 @@
     },
     {
       "ticker": "POLYPLEX.NS",
-      "slope": -0.010186954151364003,
-      "r2": 0.8888249663814924,
+      "slope": -0.010186954374980604,
+      "r2": 0.8888249884192609,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.8312106209387684,
+      "pos": 0.8312106672150537,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -41.123114922990446,
+      "annual_trend_pct": -41.12311560761458,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -2589,7 +2589,7 @@
       "recent_trend_pct": 9.574081935218913,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.8612914210968694
+      "rank_score": 0.8612914274881251
     },
     {
       "ticker": "LUMAXTECH.NS",
@@ -3169,27 +3169,27 @@
     },
     {
       "ticker": "MAZDOCK.NS",
-      "slope": -0.009215133903425368,
-      "r2": 0.8308384162069998,
+      "slope": -0.009215134007578344,
+      "r2": 0.8308384155325541,
       "inside": 0.9230769230769231,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.11538461538461539,
-      "pos": 0.5079945140266175,
+      "pos": 0.5079945247465228,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -38.071330981541294,
+      "annual_trend_pct": -38.07133131694417,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -42.00400526724288,
+      "prior_trend_pct": -42.00400598482511,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -21.336571431001627,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8338505259316075
+      "rank_score": 0.833850524522394
     },
     {
       "ticker": "MRF.NS",
@@ -4057,27 +4057,27 @@
     },
     {
       "ticker": "KPIGREEN.NS",
-      "slope": -0.01094245409762955,
-      "r2": 0.656071421209319,
+      "slope": -0.010942454760988195,
+      "r2": 0.6560713781377905,
       "inside": 0.9230769230769231,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.5072785710074965,
+      "pos": 0.5072785859701672,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -43.39130626844645,
+      "annual_trend_pct": -43.39130822114347,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -39.91694782281129,
+      "prior_trend_pct": -39.91695077212996,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -26.80605046872574,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.7465386227346791
+      "rank_score": 0.7465385997026478
     },
     {
       "ticker": "PANACEABIO.NS",
