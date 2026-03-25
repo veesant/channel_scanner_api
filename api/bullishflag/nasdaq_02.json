@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-24T20:34:27.117660+00:00",
+  "updated_utc": "2026-03-25T14:53:47.852469+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,29 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 1,
+  "data": [
+    {
+      "ticker": "EML",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 20.639999389648438,
+      "sma20": 19.579500007629395,
+      "sma50": 18.8410546875,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 10.823910941915942,
+      "pole_high": 21.360000610351562,
+      "pole_range": 3.700000762939453,
+      "flag_bars": 8,
+      "flag_range": 1.4500007629394531,
+      "pullback_from_pole_high_pct": 3.370792135437465,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.8880421849563505
+    }
+  ]
 }

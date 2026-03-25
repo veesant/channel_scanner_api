@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-24T20:34:20.499075+00:00",
+  "updated_utc": "2026-03-25T14:48:44.919028+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -15,26 +15,26 @@
   "count": 1,
   "data": [
     {
-      "ticker": "MRVL",
+      "ticker": "LWLG",
       "tf": "1d",
       "bars_used": 320,
-      "close": 90.16000366210938,
-      "sma20": 85.57550086975098,
-      "sma50": 82.33840057373047,
+      "close": 7.349999904632568,
+      "sma20": 5.818499994277954,
+      "sma50": 4.568000016212463,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 14.062304700636474,
-      "pole_high": 95.05000305175781,
-      "pole_range": 19.81000518798828,
+      "pole_gain_pct": 60.54422151195229,
+      "pole_high": 7.550000190734863,
+      "pole_range": 3.7100002765655518,
       "flag_bars": 8,
-      "flag_range": 8.310005187988281,
-      "pullback_from_pole_high_pct": 5.144659897575883,
+      "flag_range": 2.0299997329711914,
+      "pullback_from_pole_high_pct": 2.6490103450292537,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
-      "near_breakout": false,
+      "near_breakout": true,
       "pattern": "bull_flag",
-      "rank_score": 2.0039731340976434
+      "rank_score": 2.2050470540635185
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-24T20:34:39.573973+00:00",
+  "updated_utc": "2026-03-25T14:53:57.336223+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -18,23 +18,23 @@
       "ticker": "VENUSREM.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 825.0,
-      "sma20": 786.3,
-      "sma50": 765.1520007324219,
+      "close": 866.25,
+      "sma20": 792.2475006103516,
+      "sma50": 768.3140002441406,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 25.685537177942948,
-      "pole_high": 861.7000122070312,
-      "pole_range": 239.60003662109375,
+      "pole_gain_pct": 35.33231677830545,
+      "pole_high": 940.0,
+      "pole_range": 317.9000244140625,
       "flag_bars": 8,
-      "flag_range": 119.9000244140625,
-      "pullback_from_pole_high_pct": 4.259024218072511,
+      "flag_range": 125.54998779296875,
+      "pullback_from_pole_high_pct": 7.845744680851063,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 2.165971020532621
+      "rank_score": 2.341774257360857
     }
   ]
 }
