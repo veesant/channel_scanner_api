@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-25T14:53:57.812866+00:00",
+  "updated_utc": "2026-03-25T20:28:06.435069+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -313,27 +313,27 @@
     },
     {
       "ticker": "NATIONALUM.NS",
-      "slope": 0.02017621591614035,
-      "r2": 0.9369218922101453,
+      "slope": 0.020176215499680572,
+      "r2": 0.936921880906083,
       "inside": 1.0,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.37493241781265135,
+      "pos": 0.37493245320031693,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 185.5260914758537,
+      "annual_trend_pct": 185.52608529252686,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 442.7460708067081,
+      "prior_trend_pct": 442.7460551714557,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 98.48901622532871,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.9309677043238076
+      "rank_score": 0.9309676951330098
     },
     {
       "ticker": "KMEW.NS",
@@ -1033,15 +1033,15 @@
     },
     {
       "ticker": "LLOYDSENT.NS",
-      "slope": -0.014242887997876668,
-      "r2": 0.8625785336753213,
+      "slope": -0.014242888033867635,
+      "r2": 0.8625785268730735,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.1469796831696746,
+      "pos": 0.14697969787469253,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -52.31866554488771,
+      "annual_trend_pct": -52.318665634124784,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -1053,7 +1053,7 @@
       "recent_trend_pct": -87.7557050895571,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9063348882642829
+      "rank_score": 0.9063348833926572
     },
     {
       "ticker": "OLAELEC.NS",
@@ -1777,15 +1777,15 @@
     },
     {
       "ticker": "NAVINFLUOR.NS",
-      "slope": 0.008811035143060862,
-      "r2": 0.8660251473287159,
+      "slope": 0.008811034513011422,
+      "r2": 0.8660251450750719,
       "inside": 0.9423076923076923,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.2831715398630573,
+      "pos": 0.28317156671169846,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 58.118383231071476,
+      "annual_trend_pct": 58.11837805070683,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1797,7 +1797,7 @@
       "recent_trend_pct": -42.21501340018886,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8816184966011291
+      "rank_score": 0.881618492789443
     },
     {
       "ticker": "LAGNAM.NS",
@@ -2185,15 +2185,15 @@
     },
     {
       "ticker": "POLYPLEX.NS",
-      "slope": -0.01024084929706032,
-      "r2": 0.8918109448575453,
+      "slope": -0.010240849520676944,
+      "r2": 0.8918109668190619,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.7286089870998864,
+      "pos": 0.7286090249064261,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -41.28788919284393,
+      "annual_trend_pct": -41.28788987555213,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2205,7 +2205,7 @@
       "recent_trend_pct": -8.83232759504594,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.8730445737187841
+      "rank_score": 0.8730445809188884
     },
     {
       "ticker": "NDRAUTO.NS",
@@ -2449,15 +2449,15 @@
     },
     {
       "ticker": "MAHABANK.NS",
-      "slope": 0.006877438035825519,
-      "r2": 0.8183379163336759,
+      "slope": 0.006877437849228886,
+      "r2": 0.8183379210742374,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.3676216764156651,
+      "pos": 0.3676216865459096,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 42.9931838659805,
+      "annual_trend_pct": 42.99318247851407,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -2469,7 +2469,7 @@
       "recent_trend_pct": -66.27043398361069,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8647144828329638
+      "rank_score": 0.86471448419022
     },
     {
       "ticker": "LICHSGFIN.NS",
@@ -3145,27 +3145,27 @@
     },
     {
       "ticker": "LALPATHLAB.NS",
-      "slope": -0.006625876581906291,
-      "r2": 0.8140411922645805,
+      "slope": -0.006625877104645868,
+      "r2": 0.8140412448014247,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.597491188322916,
+      "pos": 0.5974912330446581,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -29.145774550590765,
+      "annual_trend_pct": -29.145776476582753,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -30.364448631452134,
+      "prior_trend_pct": -30.36445147973913,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -45.578725170490216,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8318868619153833
+      "rank_score": 0.8318868837116312
     },
     {
       "ticker": "MAXHEALTH.NS",
