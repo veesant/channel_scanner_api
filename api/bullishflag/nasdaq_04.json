@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-25T20:31:06.999142+00:00",
+  "updated_utc": "2026-03-26T14:59:46.430257+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -15,26 +15,26 @@
   "count": 1,
   "data": [
     {
-      "ticker": "LWLG",
+      "ticker": "LSTA",
       "tf": "1d",
       "bars_used": 320,
-      "close": 7.349999904632568,
-      "sma20": 5.818499994277954,
-      "sma50": 4.568000016212463,
+      "close": 5.010000228881836,
+      "sma20": 4.762000060081482,
+      "sma50": 4.35360004901886,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 60.54422151195229,
-      "pole_high": 7.550000190734863,
-      "pole_range": 3.7100002765655518,
+      "pole_gain_pct": 14.840184437995168,
+      "pole_high": 5.070000171661377,
+      "pole_range": 0.940000057220459,
       "flag_bars": 8,
-      "flag_range": 2.0299997329711914,
-      "pullback_from_pole_high_pct": 2.6490103450292537,
+      "flag_range": 0.05000019073486328,
+      "pullback_from_pole_high_pct": 1.1834307839851566,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": true,
       "pattern": "bull_flag",
-      "rank_score": 2.2050470540635185
+      "rank_score": 3.2588794788493685
     }
   ]
 }
