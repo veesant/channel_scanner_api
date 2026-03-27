@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-26T20:29:12.032835+00:00",
+  "updated_utc": "2026-03-27T14:45:58.737778+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -15,26 +15,26 @@
   "count": 1,
   "data": [
     {
-      "ticker": "UNF",
+      "ticker": "SOC",
       "tf": "1d",
       "bars_used": 320,
-      "close": 262.2099914550781,
-      "sma20": 257.8804901123047,
-      "sma50": 233.20009826660157,
+      "close": 17.920000076293945,
+      "sma20": 14.790500068664551,
+      "sma50": 11.58040005683899,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 18.24002118751199,
-      "pole_high": 283.7699890136719,
-      "pole_range": 54.18934783703247,
+      "pole_gain_pct": 72.69806099839693,
+      "pole_high": 19.25,
+      "pole_range": 11.34000015258789,
       "flag_bars": 8,
-      "flag_range": 15.339996337890625,
-      "pullback_from_pole_high_pct": 7.59770179839384,
+      "flag_range": 3.3999996185302734,
+      "pullback_from_pole_high_pct": 6.909090512758725,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 2.440198729514766
+      "rank_score": 2.5002940075278035
     }
   ]
 }

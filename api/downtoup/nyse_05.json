@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-26T20:23:57.203158+00:00",
+  "updated_utc": "2026-03-27T14:35:38.118392+00:00",
   "tf": "1d",
   "params": {
     "n_down": 40,
@@ -15,28 +15,6 @@
     "near_resistance_pct": 6.0,
     "breakout_wiggle_pct": 0.2
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "UNM",
-      "tf": "1d",
-      "bars_used": 350,
-      "close": 74.5,
-      "sma20": 73.09650001525878,
-      "sma50": 74.01593215942383,
-      "trend_ok": true,
-      "prior_downtrend_ok": true,
-      "down_slope": -0.14374000950110116,
-      "fresh_uptrend_ok": true,
-      "up_slope": 0.1260601621685606,
-      "up_hh_steps": 1,
-      "up_hl_steps": 1,
-      "up_pivot_highs": 3,
-      "up_pivot_lows": 2,
-      "resistance": 74.55999755859375,
-      "pullback_from_resistance_pct": 0.08046883122092419,
-      "state": "uptrend",
-      "rank_score": 2.3720135972130674
-    }
-  ]
+  "count": 0,
+  "data": []
 }
