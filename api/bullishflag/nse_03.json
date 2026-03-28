@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-27T20:23:27.711516+00:00",
+  "updated_utc": "2026-03-28T14:23:32.002989+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,6 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "KSR.NS",
-      "tf": "1d",
-      "bars_used": 81,
-      "close": 34.790000915527344,
-      "sma20": 34.38399972915649,
-      "sma50": 30.44039985656738,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 19.47227728695015,
-      "pole_high": 37.2400016784668,
-      "pole_range": 9.89000129699707,
-      "flag_bars": 8,
-      "flag_range": 2.2099990844726562,
-      "pullback_from_pole_high_pct": 6.578949120606811,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 2.601184003436083
-    }
-  ]
+  "count": 0,
+  "data": []
 }

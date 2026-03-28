@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-27T20:24:44.910863+00:00",
+  "updated_utc": "2026-03-28T14:23:19.916429+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,6 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "SOC",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 17.920000076293945,
-      "sma20": 14.790500068664551,
-      "sma50": 11.58040005683899,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 72.69806099839693,
-      "pole_high": 19.25,
-      "pole_range": 11.34000015258789,
-      "flag_bars": 8,
-      "flag_range": 3.3999996185302734,
-      "pullback_from_pole_high_pct": 6.909090512758725,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 2.5002940075278035
-    }
-  ]
+  "count": 0,
+  "data": []
 }

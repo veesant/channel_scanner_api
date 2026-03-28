@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-27T20:24:18.665600+00:00",
+  "updated_utc": "2026-03-28T14:20:35.244197+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,51 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 2,
+  "data": [
+    {
+      "ticker": "LOCO",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 13.8100004196167,
+      "sma20": 12.626500034332276,
+      "sma50": 11.475,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 23.881932051986336,
+      "pole_high": 14.154999732971191,
+      "pole_range": 3.5749998092651367,
+      "flag_bars": 8,
+      "flag_range": 1.1700000762939453,
+      "pullback_from_pole_high_pct": 2.437296502033034,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.642113222531519
+    },
+    {
+      "ticker": "ONFO",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 0.6859999895095825,
+      "sma20": 0.6074500024318695,
+      "sma50": 0.6017599993944168,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 29.51127889046627,
+      "pole_high": 0.7379999756813049,
+      "pole_range": 0.23799997568130493,
+      "flag_bars": 8,
+      "flag_range": 0.1340000033378601,
+      "pullback_from_pole_high_pct": 7.046068819137454,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.0616245306029395
+    }
+  ]
 }

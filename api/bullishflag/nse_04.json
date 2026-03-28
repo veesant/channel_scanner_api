@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-27T20:22:39.537241+00:00",
+  "updated_utc": "2026-03-28T14:23:46.868347+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,6 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "UMESLTD.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 6.309999942779541,
-      "sma20": 5.29549994468689,
-      "sma50": 4.921599969863892,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 58.780497080651664,
-      "pole_high": 6.570000171661377,
-      "pole_range": 2.690000057220459,
-      "flag_bars": 8,
-      "flag_range": 1.3299999237060547,
-      "pullback_from_pole_high_pct": 3.9573854199167977,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 2.175960411762763
-    }
-  ]
+  "count": 0,
+  "data": []
 }

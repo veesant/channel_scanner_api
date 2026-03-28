@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-27T20:23:26.154182+00:00",
+  "updated_utc": "2026-03-28T14:23:27.837178+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,6 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "BW",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 14.460000038146973,
-      "sma20": 13.012500047683716,
-      "sma50": 10.820000038146972,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 44.93826195336509,
-      "pole_high": 14.899999618530273,
-      "pole_range": 6.949999809265137,
-      "flag_bars": 8,
-      "flag_range": 3.4600000381469727,
-      "pullback_from_pole_high_pct": 2.9530173936118667,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": true,
-      "pattern": "bull_flag",
-      "rank_score": 2.1859246258457445
-    }
-  ]
+  "count": 0,
+  "data": []
 }

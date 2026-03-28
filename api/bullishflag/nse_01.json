@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-27T20:24:29.897759+00:00",
+  "updated_utc": "2026-03-28T14:23:24.291568+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -15,26 +15,26 @@
   "count": 1,
   "data": [
     {
-      "ticker": "ABMINTLLTD.NS",
+      "ticker": "CURAA.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 44.29999923706055,
-      "sma20": 43.64550018310547,
-      "sma50": 42.505800018310545,
+      "close": 114.05000305175781,
+      "sma20": 106.16599960327149,
+      "sma50": 94.82940017700196,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 12.853659653082127,
-      "pole_high": 47.29999923706055,
-      "pole_range": 9.790000915527344,
+      "pole_gain_pct": 39.35529137537799,
+      "pole_high": 120.18000030517578,
+      "pole_range": 33.94000244140625,
       "flag_bars": 8,
-      "flag_range": 2.200000762939453,
-      "pullback_from_pole_high_pct": 6.342494816890899,
+      "flag_range": 12.129997253417969,
+      "pullback_from_pole_high_pct": 5.100680011525985,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 2.2681510525889177
+      "rank_score": 2.4043411716327414
     }
   ]
 }
