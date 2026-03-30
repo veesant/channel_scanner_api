@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-30T14:53:44.473529+00:00",
+  "updated_utc": "2026-03-30T20:40:19.667396+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 260,
@@ -964,7 +964,7 @@
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 593.9351440429688,
-      "sma_slow_now": 575.2062365722657,
+      "sma_slow_now": 575.2062390136718,
       "trend_ok": true,
       "recent_swing_high": 618.0,
       "recent_swing_high_date": "2026-03-19",
@@ -4136,7 +4136,7 @@
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 331.81388397216796,
-      "sma_slow_now": 346.9758728027344,
+      "sma_slow_now": 346.97587341308594,
       "trend_ok": false,
       "recent_swing_high": 345.79882927605377,
       "recent_swing_high_date": "2026-03-18",
@@ -4171,7 +4171,7 @@
         "gap_thresh_pct": 2.5,
         "gap_count": 3,
         "max_gap_count_allowed": 2,
-        "max_gap_pct": 3.5527467892806497,
+        "max_gap_pct": 3.552729224229404,
         "max_gap_pct_allowed": 6.0,
         "avg_volume_50": 8870379,
         "price_quality_ok": false
