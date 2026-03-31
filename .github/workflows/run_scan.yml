@@ -496,7 +496,6 @@ jobs:
                           if isinstance(v, int):
                               merged["counts"][k] += v
 
-                  # Also absorb top-level count fields like count, count_entry_signal, etc.
                   for k, v in obj.items():
                       if k.startswith("count") and isinstance(v, int):
                           merged["counts"][k] += v
@@ -518,9 +517,18 @@ jobs:
 
           for tab in ["entry", "corrwl", "sidetoup", "downtoup", "bullishflag", "catchall", "doublebottom"]:
               os.makedirs(f"api/{tab}", exist_ok=True)
+
               merge(f"api/{tab}/nasdaq_*.json", f"api/{tab}/nasdaq.json")
               merge(f"api/{tab}/nyse_*.json", f"api/{tab}/nyse.json")
               merge(f"api/{tab}/nse_*.json", f"api/{tab}/nse.json")
+
+              # cleanup shard files after merged files are created
+              for shard in glob.glob(f"api/{tab}/nasdaq_*.json"):
+                  os.remove(shard)
+              for shard in glob.glob(f"api/{tab}/nyse_*.json"):
+                  os.remove(shard)
+              for shard in glob.glob(f"api/{tab}/nse_*.json"):
+                  os.remove(shard)
           PY
 
       - name: Publish API JSON to gh-pages
