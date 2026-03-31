@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: "45 13 * * *"   # 9:45 AM US market (EDT)
     - cron: "0 20 * * *"    # 4:00 PM US market close (EDT)
-    
+
   workflow_dispatch:
     inputs:
       mode:
@@ -20,6 +20,7 @@ on:
           - downtoup
           - bullflag
           - catchall
+          - doublebottom
 
 permissions:
   contents: write
@@ -304,6 +305,60 @@ jobs:
           if-no-files-found: error
 
   # -------------------------
+  # DOUBLE BOTTOM
+  # -------------------------
+  doublebottom:
+    if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'doublebottom' }}
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        market:
+          - { out: nifty50, file: data/nifty50.txt }
+          - { out: nse_01, file: data/nse_01.txt }
+          - { out: nse_02, file: data/nse_02.txt }
+          - { out: nse_03, file: data/nse_03.txt }
+          - { out: nse_04, file: data/nse_04.txt }
+          - { out: nse_05, file: data/nse_05.txt }
+          - { out: nasdaq_01, file: data/nasdaq_01.txt }
+          - { out: nasdaq_02, file: data/nasdaq_02.txt }
+          - { out: nasdaq_03, file: data/nasdaq_03.txt }
+          - { out: nasdaq_04, file: data/nasdaq_04.txt }
+          - { out: nasdaq_05, file: data/nasdaq_05.txt }
+          - { out: nasdaq_06, file: data/nasdaq_06.txt }
+          - { out: nyse_01, file: data/nyse_01.txt }
+          - { out: nyse_02, file: data/nyse_02.txt }
+          - { out: nyse_03, file: data/nyse_03.txt }
+          - { out: nyse_04, file: data/nyse_04.txt }
+          - { out: nyse_05, file: data/nyse_05.txt }
+          - { out: nyse_06, file: data/nyse_06.txt }
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - run: pip install yfinance pandas numpy
+      - run: mkdir -p api/doublebottom
+
+      - name: Run Double Bottom Scanner
+        run: |
+          python scanners/double_bottom_scanner.py \
+            --tickers_file ${{ matrix.market.file }} \
+            --tf 1mo \
+            --pattern_bars 12 \
+            --only_matches \
+            --out api/doublebottom/${{ matrix.market.out }}.json
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: doublebottom-api-${{ matrix.market.out }}
+          path: api/doublebottom/${{ matrix.market.out }}.json
+          if-no-files-found: error
+
+  # -------------------------
   # CATCH ALL
   # -------------------------
   catchall:
@@ -358,14 +413,13 @@ jobs:
   # FINAL PUBLISH (merge shards + push)
   # -------------------------
   publish:
-    # needs: [entry, corrwl, sideways, downtoup, bullflag, catchall]
-    needs: [entry]
+    if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' }}
+    needs: [entry, corrwl, sideways, downtoup, bullflag, catchall, doublebottom]
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
 
-      # Download ALL artifacts produced by matrix jobs (pattern + merge)
       - uses: actions/download-artifact@v4
         with:
           pattern: entry-api-*
@@ -402,64 +456,73 @@ jobs:
           path: api/catchall
           merge-multiple: true
 
-      # Merge sharded outputs -> stable filenames (nasdaq.json / nyse.json)
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: doublebottom-api-*
+          path: api/doublebottom
+          merge-multiple: true
+
       - name: Merge shard outputs
         run: |
           python - <<'PY'
-          import json, glob, os
+          import glob
+          import json
+          import os
           from collections import defaultdict
 
           def merge(pattern, out_file):
-            files = sorted(glob.glob(pattern))
-            if not files:
-              return
+              files = sorted(glob.glob(pattern))
+              if not files:
+                  return
 
-            merged = {
-              "meta": {},
-              "counts": defaultdict(int),
-              "data": []
-            }
+              merged = {
+                  "meta": {},
+                  "counts": defaultdict(int),
+                  "data": []
+              }
 
-            for f in files:
-              with open(f, "r", encoding="utf-8") as r:
-                obj = json.load(r)
+              for f in files:
+                  with open(f, "r", encoding="utf-8") as r:
+                      obj = json.load(r)
 
-              if not isinstance(obj, dict):
-                continue
+                  if not isinstance(obj, dict):
+                      continue
 
-              # merge data
-              merged["data"].extend(obj.get("data", []) or [])
+                  merged["data"].extend(obj.get("data", []) or [])
 
-              # merge counts
-              counts = obj.get("counts", {}) or {}
-              for k, v in counts.items():
-                if isinstance(v, int):
-                  merged["counts"][k] += v
+                  counts = obj.get("counts", {}) or {}
+                  if isinstance(counts, dict):
+                      for k, v in counts.items():
+                          if isinstance(v, int):
+                              merged["counts"][k] += v
 
-              # 🔑 FIX: merge meta instead of overwriting
-              meta = obj.get("meta", {}) or {}
-              if isinstance(meta, dict):
-                for k, v in meta.items():
-                  if k != "merged_from":
-                    merged["meta"].setdefault(k, v)
+                  # Also absorb top-level count fields like count, count_entry_signal, etc.
+                  for k, v in obj.items():
+                      if k.startswith("count") and isinstance(v, int):
+                          merged["counts"][k] += v
 
-            # add merged_from last
-            merged["meta"]["merged_from"] = files
-            merged["counts"] = dict(merged["counts"])
+                  meta = obj.get("meta", {}) or {}
+                  if isinstance(meta, dict):
+                      for k, v in meta.items():
+                          if k != "merged_from":
+                              merged["meta"].setdefault(k, v)
 
-            with open(out_file, "w", encoding="utf-8") as w:
-              json.dump(merged, w, ensure_ascii=False)
+              merged["meta"]["merged_from"] = files
+              merged["counts"] = dict(merged["counts"])
+              merged["count"] = len(merged["data"])
 
-            print("Wrote", out_file, "from", len(files), "files")
+              with open(out_file, "w", encoding="utf-8") as w:
+                  json.dump(merged, w, ensure_ascii=False)
 
-          for tab in ["entry", "corrwl", "sidetoup", "downtoup", "bullishflag", "catchall"]:
-            os.makedirs(f"api/{tab}", exist_ok=True)
-            merge(f"api/{tab}/nasdaq_*.json", f"api/{tab}/nasdaq.json")
-            merge(f"api/{tab}/nyse_*.json", f"api/{tab}/nyse.json")
-            merge(f"api/{tab}/nse_*.json", f"api/{tab}/nse.json")
+              print("Wrote", out_file, "from", len(files), "files")
+
+          for tab in ["entry", "corrwl", "sidetoup", "downtoup", "bullishflag", "catchall", "doublebottom"]:
+              os.makedirs(f"api/{tab}", exist_ok=True)
+              merge(f"api/{tab}/nasdaq_*.json", f"api/{tab}/nasdaq.json")
+              merge(f"api/{tab}/nyse_*.json", f"api/{tab}/nyse.json")
+              merge(f"api/{tab}/nse_*.json", f"api/{tab}/nse.json")
           PY
 
-      # Publish to gh-pages without losing files when switching branches
       - name: Publish API JSON to gh-pages
         run: |
           set -e
