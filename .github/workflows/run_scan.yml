@@ -414,8 +414,7 @@ jobs:
   # -------------------------
   publish:
     if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'doublebottom' }}
-    # needs: [entry, corrwl, sideways, downtoup, bullflag, catchall, doublebottom]
-    needs: [doublebottom]
+    needs: [entry, corrwl, sideways, downtoup, bullflag, catchall, doublebottom]
     runs-on: ubuntu-latest
 
     steps:
