@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-31T14:55:56.564775+00:00",
+  "updated_utc": "2026-03-31T20:34:17.259679+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -601,15 +601,15 @@
     },
     {
       "ticker": "HONDAPOWER.NS",
-      "slope": -0.011171294762315953,
-      "r2": 0.906074179331381,
+      "slope": -0.01117129501406813,
+      "r2": 0.9060741919029358,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.10256410256410256,
-      "pos": 0.10014812294175297,
+      "pos": 0.10014811769359849,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -44.060941430177046,
+      "annual_trend_pct": -44.06094216248159,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -621,7 +621,7 @@
       "recent_trend_pct": -73.75581475621195,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9225094568586947
+      "rank_score": 0.9225094636692875
     },
     {
       "ticker": "IREDA.NS",
@@ -1321,27 +1321,27 @@
     },
     {
       "ticker": "IRCTC.NS",
-      "slope": -0.013513068266707848,
-      "r2": 0.8378618494633372,
+      "slope": -0.013513067361898364,
+      "r2": 0.8378618226644587,
       "inside": 0.9615384615384616,
       "near_upper": 0.11538461538461539,
       "near_lower": 0.038461538461538464,
-      "pos": 0.07498015518379991,
+      "pos": 0.07498014367309415,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -50.47435401473258,
+      "annual_trend_pct": -50.47435168454626,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -34.19110154082263,
+      "prior_trend_pct": -34.191097447935604,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -75.75669633948301,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8960482938286732
+      "rank_score": 0.8960482815803047
     },
     {
       "ticker": "JMFINANCIL.NS",
@@ -1417,27 +1417,27 @@
     },
     {
       "ticker": "HUDCO.NS",
-      "slope": -0.013926008430203462,
-      "r2": 0.8431534385460694,
+      "slope": -0.013926008523257703,
+      "r2": 0.8431534284910331,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.12313699934207054,
+      "pos": 0.12313700772781437,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -51.526476211477586,
+      "annual_trend_pct": -51.52647644603228,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -40.46034300302783,
+      "prior_trend_pct": -40.46034264971635,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -72.71282415990414,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8938784039542123
+      "rank_score": 0.8938783980881199
     },
     {
       "ticker": "IGPL.NS",
@@ -1801,15 +1801,15 @@
     },
     {
       "ticker": "GMMPFAUDLR.NS",
-      "slope": -0.010877521704492842,
-      "r2": 0.7877051468810853,
+      "slope": -0.010877522068009113,
+      "r2": 0.7877051644273741,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.08774276116698816,
+      "pos": 0.08774277072425977,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -43.19984484335415,
+      "annual_trend_pct": -43.199845917038736,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -1821,7 +1821,7 @@
       "recent_trend_pct": -79.15464578645404,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8748218870674336
+      "rank_score": 0.8748218948848508
     },
     {
       "ticker": "GARFIBRES.NS",
@@ -1969,15 +1969,15 @@
     },
     {
       "ticker": "GLOBAL.NS",
-      "slope": 0.012453537997422484,
-      "r2": 0.8316837370134382,
+      "slope": 0.01245353802664853,
+      "r2": 0.8316837429872687,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.3162084158009826,
+      "pos": 0.31620841309444064,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 91.09184223128327,
+      "annual_trend_pct": 91.09184252169594,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1989,7 +1989,7 @@
       "recent_trend_pct": -54.103938508971815,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8688364115420054
+      "rank_score": 0.8688364147995749
     },
     {
       "ticker": "GOCLCORP.NS",

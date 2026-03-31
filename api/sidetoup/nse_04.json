@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-31T14:55:26.861638+00:00",
+  "updated_utc": "2026-03-31T20:33:53.389690+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -2017,15 +2017,15 @@
     },
     {
       "ticker": "UNIPARTS.NS",
-      "slope": 0.009651428812724676,
-      "r2": 0.7374630355173523,
+      "slope": 0.009651428538188754,
+      "r2": 0.7374630171352295,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.08256834858709514,
+      "pos": 0.08256837125684331,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 65.18143638959,
+      "annual_trend_pct": 65.18143403148164,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -2037,19 +2037,19 @@
       "recent_trend_pct": -16.71599202471217,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8527823752076589
+      "rank_score": 0.8527823637496228
     },
     {
       "ticker": "STYRENIX.NS",
-      "slope": -0.011131607248628607,
-      "r2": 0.8227045513573749,
+      "slope": -0.011131607174004953,
+      "r2": 0.8227045641308899,
       "inside": 0.9807692307692307,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.07692307692307693,
-      "pos": 0.5089896714683493,
+      "pos": 0.508989670345765,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -43.94537795215043,
+      "annual_trend_pct": -43.94537773463439,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -2061,7 +2061,7 @@
       "recent_trend_pct": -45.619100031155845,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8527610008395448
+      "rank_score": 0.8527610073385606
     },
     {
       "ticker": "STOVEKRAFT.NS",

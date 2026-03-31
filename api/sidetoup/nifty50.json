@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-31T14:54:29.168388+00:00",
+  "updated_utc": "2026-03-31T20:32:25.691894+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "CIPLA.NS",
-      "slope": -0.010032061382520463,
-      "r2": 0.8797347860063668,
+      "slope": -0.010032061382520368,
+      "r2": 0.8797347860063671,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
       "pos": 0.28502936967370845,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -40.646980608193694,
+      "annual_trend_pct": -40.646980608193395,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -45,19 +45,19 @@
       "recent_trend_pct": -65.30486361748996,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9113644560358126
+      "rank_score": 0.9113644560358127
     },
     {
       "ticker": "INDIGO.NS",
-      "slope": -0.01490595641721007,
-      "r2": 0.8654494494921915,
+      "slope": -0.014905956417210214,
+      "r2": 0.8654494494921914,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.21540755341230008,
+      "pos": 0.21540755341231982,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -53.93467709555113,
+      "annual_trend_pct": -53.934677095551486,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -69,7 +69,7 @@
       "recent_trend_pct": -83.8741191182698,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9111839694048658
+      "rank_score": 0.9111839694048638
     },
     {
       "ticker": "COALINDIA.NS",
@@ -88,7 +88,7 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 55.99154057464102,
+      "prior_trend_pct": 55.99154057464055,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 46.797976370380454,
       "recent_trend_type": "Ascending",
@@ -138,7 +138,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -44.860631926122366,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -87.24986678585086,
+      "recent_trend_pct": -87.24986678585054,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.8840250509412623
@@ -217,15 +217,15 @@
     },
     {
       "ticker": "MAXHEALTH.NS",
-      "slope": -0.006358800533881175,
-      "r2": 0.7996835585444301,
+      "slope": -0.006358800533881304,
+      "r2": 0.7996835585444296,
       "inside": 0.9230769230769231,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.3534697078916171,
+      "pos": 0.35346970789163545,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -28.154889534987348,
+      "annual_trend_pct": -28.154889534987827,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -237,7 +237,7 @@
       "recent_trend_pct": -72.0009309369821,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8337255777138226
+      "rank_score": 0.8337255777138206
     },
     {
       "ticker": "HINDUNILVR.NS",

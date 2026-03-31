@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-31T14:59:19.398270+00:00",
+  "updated_utc": "2026-03-31T20:33:57.247203+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -577,15 +577,15 @@
     },
     {
       "ticker": "NATIONALUM.NS",
-      "slope": 0.020412186681106434,
-      "r2": 0.9405247520876006,
+      "slope": 0.020412186517800517,
+      "r2": 0.9405247432504402,
       "inside": 0.9807692307692307,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.45514905534679734,
+      "pos": 0.4551490669354387,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 189.05121686754902,
+      "annual_trend_pct": 189.05121441295273,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -597,7 +597,7 @@
       "recent_trend_pct": 30.440759675346808,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.9170551628168128
+      "rank_score": 0.9170551572393685
     },
     {
       "ticker": "ORIENTCEM.NS",
@@ -1081,15 +1081,15 @@
     },
     {
       "ticker": "OCCLLTD.NS",
-      "slope": -0.01557046366357307,
-      "r2": 0.9229128238355336,
+      "slope": -0.01557046326500142,
+      "r2": 0.9229128151204364,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.39381298488721495,
+      "pos": 0.3938129654401205,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -55.49924855285611,
+      "annual_trend_pct": -55.499247630545725,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -1101,7 +1101,7 @@
       "recent_trend_pct": -53.911953271318744,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9015622929162248
+      "rank_score": 0.9015622905033857
     },
     {
       "ticker": "POLYPLEX.NS",
@@ -1129,15 +1129,15 @@
     },
     {
       "ticker": "KIRLOSENG.NS",
-      "slope": 0.012657872511216795,
-      "r2": 0.8708888608325074,
+      "slope": 0.012657872512148333,
+      "r2": 0.8708888418989419,
       "inside": 1.0,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.07692307692307693,
-      "pos": 0.357200604502049,
+      "pos": 0.3572006136374611,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 93.13309382965105,
+      "annual_trend_pct": 93.1330938390064,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1149,7 +1149,7 @@
       "recent_trend_pct": -60.8865870852962,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8997243699660488
+      "rank_score": 0.8997243595857248
     },
     {
       "ticker": "NDGL.NS",
@@ -1465,15 +1465,15 @@
     },
     {
       "ticker": "NAVINFLUOR.NS",
-      "slope": 0.008567861548565873,
-      "r2": 0.8544062833047161,
+      "slope": 0.008567862076389156,
+      "r2": 0.8544062843185328,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.23998504970358542,
+      "pos": 0.2399850319915679,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 56.131560208654044,
+      "annual_trend_pct": 56.1315644939675,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -1485,7 +1485,7 @@
       "recent_trend_pct": -38.69121067453316,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8878200212973841
+      "rank_score": 0.8878200235754943
     },
     {
       "ticker": "MICEL.NS",
@@ -1585,15 +1585,15 @@
     },
     {
       "ticker": "ORIENTELEC.NS",
-      "slope": -0.007047280035976785,
-      "r2": 0.8497349829457054,
+      "slope": -0.007047280300588109,
+      "r2": 0.8497350079142313,
       "inside": 0.9423076923076923,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.07692307692307693,
-      "pos": 0.16666193178137179,
+      "pos": 0.16666193460927073,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -30.681513982877696,
+      "annual_trend_pct": -30.681514936685417,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -1605,7 +1605,7 @@
       "recent_trend_pct": -85.6177772552985,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8851243752177925
+      "rank_score": 0.8851243874192656
     },
     {
       "ticker": "NPST.NS",
@@ -2305,27 +2305,27 @@
     },
     {
       "ticker": "PRECWIRE.NS",
-      "slope": 0.014222374655010788,
-      "r2": 0.851676327769252,
+      "slope": 0.014222374659367636,
+      "r2": 0.8516763336782811,
       "inside": 0.9615384615384616,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.4566461267127285,
+      "pos": 0.45664613313743146,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 109.50208007013953,
+      "annual_trend_pct": 109.50208011760351,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 52.46720626969748,
+      "prior_trend_pct": 52.46720982111701,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": -57.19367154068541,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8647889358287377
+      "rank_score": 0.8647889381407821
     },
     {
       "ticker": "NATCAPSUQ.NS",
@@ -3313,27 +3313,27 @@
     },
     {
       "ticker": "OBEROIRLTY.NS",
-      "slope": -0.007841950403655618,
-      "r2": 0.6999485133530305,
+      "slope": -0.007841950969547757,
+      "r2": 0.6999485678370148,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.365900836756259,
+      "pos": 0.3659008564494927,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -33.4875754866222,
+      "annual_trend_pct": -33.487577443842795,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -28.483364088796137,
+      "prior_trend_pct": -28.48336750968825,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -44.25724820932432,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.7979995576162741
+      "rank_score": 0.7979995828889427
     },
     {
       "ticker": "NGLFINE.NS",
