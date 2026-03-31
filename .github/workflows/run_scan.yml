@@ -413,8 +413,9 @@ jobs:
   # FINAL PUBLISH (merge shards + push)
   # -------------------------
   publish:
-    if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' }}
-    needs: [entry, corrwl, sideways, downtoup, bullflag, catchall, doublebottom]
+    if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'doublebottom' }}
+    # needs: [entry, corrwl, sideways, downtoup, bullflag, catchall, doublebottom]
+    needs: [doublebottom]
     runs-on: ubuntu-latest
 
     steps:
