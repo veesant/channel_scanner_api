@@ -35,7 +35,6 @@ jobs:
   entry:
     if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'entry_only' }}
     runs-on: ubuntu-latest
-
     strategy:
       fail-fast: false
       matrix:
@@ -58,16 +57,13 @@ jobs:
           - { out: nyse_04, file: data/nyse_04.txt }
           - { out: nyse_05, file: data/nyse_05.txt }
           - { out: nyse_06, file: data/nyse_06.txt }
-
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-
       - run: pip install yfinance pandas numpy
       - run: mkdir -p api/entry
-
       - name: Run Entry Signal
         run: |
           python scanners/entry_sig_scanner.py \
@@ -77,7 +73,6 @@ jobs:
             --recent_hl_count 2 \
             --recent_hl_slope_min_pct_per_bar 0.02 \
             --out api/entry/${{ matrix.market.out }}.json
-
       - uses: actions/upload-artifact@v4
         with:
           name: entry-api-${{ matrix.market.out }}
@@ -90,7 +85,6 @@ jobs:
   corrwl:
     if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'corr_wl' }}
     runs-on: ubuntu-latest
-
     strategy:
       fail-fast: false
       matrix:
@@ -113,16 +107,13 @@ jobs:
           - { out: nyse_04, file: data/nyse_04.txt }
           - { out: nyse_05, file: data/nyse_05.txt }
           - { out: nyse_06, file: data/nyse_06.txt }
-
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-
       - run: pip install yfinance pandas numpy
       - run: mkdir -p api/corrwl
-
       - name: Run Correction Watchlist
         run: |
           python scanners/correction_watchlist_scanner.py \
@@ -136,7 +127,6 @@ jobs:
             --corr_bars_max 12 \
             --only_watchlist \
             --out api/corrwl/${{ matrix.market.out }}.json
-
       - uses: actions/upload-artifact@v4
         with:
           name: corrwl-api-${{ matrix.market.out }}
@@ -149,7 +139,6 @@ jobs:
   sideways:
     if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'sideways' }}
     runs-on: ubuntu-latest
-
     strategy:
       fail-fast: false
       matrix:
@@ -172,16 +161,13 @@ jobs:
           - { out: nyse_04, file: data/nyse_04.txt }
           - { out: nyse_05, file: data/nyse_05.txt }
           - { out: nyse_06, file: data/nyse_06.txt }
-
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-
       - run: pip install yfinance pandas numpy
       - run: mkdir -p api/sidetoup
-
       - name: Run Sideways Scan
         run: |
           python scanners/side_to_up_scanner.py \
@@ -191,7 +177,6 @@ jobs:
             --prior_trend_weeks 20 \
             --recent_trend_weeks 6 \
             --out api/sidetoup/${{ matrix.market.out }}.json
-
       - uses: actions/upload-artifact@v4
         with:
           name: sidetoup-api-${{ matrix.market.out }}
@@ -204,7 +189,6 @@ jobs:
   downtoup:
     if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'downtoup' }}
     runs-on: ubuntu-latest
-
     strategy:
       fail-fast: false
       matrix:
@@ -227,16 +211,13 @@ jobs:
           - { out: nyse_04, file: data/nyse_04.txt }
           - { out: nyse_05, file: data/nyse_05.txt }
           - { out: nyse_06, file: data/nyse_06.txt }
-
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-
       - run: pip install yfinance pandas numpy
       - run: mkdir -p api/downtoup
-
       - name: Run Down → Up Scan
         run: |
           python scanners/down_to_up_scanner.py \
@@ -246,7 +227,6 @@ jobs:
             --corr_max_pct 12 \
             --n_down 40 \
             --out api/downtoup/${{ matrix.market.out }}.json
-
       - uses: actions/upload-artifact@v4
         with:
           name: downtoup-api-${{ matrix.market.out }}
@@ -259,7 +239,6 @@ jobs:
   bullflag:
     if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'bullflag' }}
     runs-on: ubuntu-latest
-
     strategy:
       fail-fast: false
       matrix:
@@ -282,22 +261,18 @@ jobs:
           - { out: nyse_04, file: data/nyse_04.txt }
           - { out: nyse_05, file: data/nyse_05.txt }
           - { out: nyse_06, file: data/nyse_06.txt }
-
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-
       - run: pip install yfinance pandas numpy
       - run: mkdir -p api/bullishflag
-
       - name: Run Bull Flag
         run: |
           python scanners/bull_flag_scanner.py \
             --tickers_file ${{ matrix.market.file }} \
             --out api/bullishflag/${{ matrix.market.out }}.json
-
       - uses: actions/upload-artifact@v4
         with:
           name: bullishflag-api-${{ matrix.market.out }}
@@ -310,7 +285,6 @@ jobs:
   doublebottom:
     if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'doublebottom' }}
     runs-on: ubuntu-latest
-
     strategy:
       fail-fast: false
       matrix:
@@ -333,29 +307,38 @@ jobs:
           - { out: nyse_04, file: data/nyse_04.txt }
           - { out: nyse_05, file: data/nyse_05.txt }
           - { out: nyse_06, file: data/nyse_06.txt }
-
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-
       - run: pip install yfinance pandas numpy
-      - run: mkdir -p api/doublebottom
-
-      - name: Run Double Bottom Scanner
+      - run: mkdir -p api/doublebottom/monthly api/doublebottom/weekly
+      - name: Run Double Bottom Scanner (Monthly)
         run: |
           python scanners/double_bottom_scanner.py \
             --tickers_file ${{ matrix.market.file }} \
             --tf 1mo \
             --pattern_bars 12 \
             --only_matches \
-            --out api/doublebottom/${{ matrix.market.out }}.json
-
+            --out api/doublebottom/monthly/${{ matrix.market.out }}.json
+      - name: Run Double Bottom Scanner (Weekly)
+        run: |
+          python scanners/double_bottom_scanner.py \
+            --tickers_file ${{ matrix.market.file }} \
+            --tf 1wk \
+            --pattern_bars 12 \
+            --only_matches \
+            --out api/doublebottom/weekly/${{ matrix.market.out }}.json
       - uses: actions/upload-artifact@v4
         with:
-          name: doublebottom-api-${{ matrix.market.out }}
-          path: api/doublebottom/${{ matrix.market.out }}.json
+          name: doublebottom-monthly-api-${{ matrix.market.out }}
+          path: api/doublebottom/monthly/${{ matrix.market.out }}.json
+          if-no-files-found: error
+      - uses: actions/upload-artifact@v4
+        with:
+          name: doublebottom-weekly-api-${{ matrix.market.out }}
+          path: api/doublebottom/weekly/${{ matrix.market.out }}.json
           if-no-files-found: error
 
   # -------------------------
@@ -364,7 +347,6 @@ jobs:
   catchall:
     if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'catchall' }}
     runs-on: ubuntu-latest
-
     strategy:
       fail-fast: false
       matrix:
@@ -387,22 +369,18 @@ jobs:
           - { out: nyse_04, file: data/nyse_04.txt }
           - { out: nyse_05, file: data/nyse_05.txt }
           - { out: nyse_06, file: data/nyse_06.txt }
-
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-
       - run: pip install yfinance pandas numpy
       - run: mkdir -p api/catchall
-
       - name: Run Catch All
         run: |
           python scanners/catchall_scanner.py \
             --tickers_file ${{ matrix.market.file }} \
             --out api/catchall/${{ matrix.market.out }}.json
-
       - uses: actions/upload-artifact@v4
         with:
           name: catchall-api-${{ matrix.market.out }}
@@ -413,55 +391,51 @@ jobs:
   # FINAL PUBLISH (merge shards + push)
   # -------------------------
   publish:
-    if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'doublebottom' }}
+    if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' }}
     needs: [entry, corrwl, sideways, downtoup, bullflag, catchall, doublebottom]
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/download-artifact@v4
         with:
           pattern: entry-api-*
           path: api/entry
           merge-multiple: true
-
       - uses: actions/download-artifact@v4
         with:
           pattern: corrwl-api-*
           path: api/corrwl
           merge-multiple: true
-
       - uses: actions/download-artifact@v4
         with:
           pattern: sidetoup-api-*
           path: api/sidetoup
           merge-multiple: true
-
       - uses: actions/download-artifact@v4
         with:
           pattern: downtoup-api-*
           path: api/downtoup
           merge-multiple: true
-
       - uses: actions/download-artifact@v4
         with:
           pattern: bullishflag-api-*
           path: api/bullishflag
           merge-multiple: true
-
       - uses: actions/download-artifact@v4
         with:
           pattern: catchall-api-*
           path: api/catchall
           merge-multiple: true
-
       - uses: actions/download-artifact@v4
         with:
-          pattern: doublebottom-api-*
-          path: api/doublebottom
+          pattern: doublebottom-monthly-api-*
+          path: api/doublebottom/monthly
           merge-multiple: true
-
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: doublebottom-weekly-api-*
+          path: api/doublebottom/weekly
+          merge-multiple: true
       - name: Merge shard outputs
         run: |
           python - <<'PY'
@@ -475,11 +449,7 @@ jobs:
               if not files:
                   return
 
-              merged = {
-                  "meta": {},
-                  "counts": defaultdict(int),
-                  "data": []
-              }
+              merged = {"meta": {}, "counts": defaultdict(int), "data": []}
 
               for f in files:
                   with open(f, "r", encoding="utf-8") as r:
@@ -515,14 +485,23 @@ jobs:
 
               print("Wrote", out_file, "from", len(files), "files")
 
-          for tab in ["entry", "corrwl", "sidetoup", "downtoup", "bullishflag", "catchall", "doublebottom"]:
-              os.makedirs(f"api/{tab}", exist_ok=True)
+          publish_paths = [
+              "entry",
+              "corrwl",
+              "sidetoup",
+              "downtoup",
+              "bullishflag",
+              "catchall",
+              "doublebottom/monthly",
+              "doublebottom/weekly",
+          ]
 
+          for tab in publish_paths:
+              os.makedirs(f"api/{tab}", exist_ok=True)
               merge(f"api/{tab}/nasdaq_*.json", f"api/{tab}/nasdaq.json")
               merge(f"api/{tab}/nyse_*.json", f"api/{tab}/nyse.json")
               merge(f"api/{tab}/nse_*.json", f"api/{tab}/nse.json")
 
-              # cleanup shard files after merged files are created
               for shard in glob.glob(f"api/{tab}/nasdaq_*.json"):
                   os.remove(shard)
               for shard in glob.glob(f"api/{tab}/nyse_*.json"):
@@ -530,11 +509,9 @@ jobs:
               for shard in glob.glob(f"api/{tab}/nse_*.json"):
                   os.remove(shard)
           PY
-
       - name: Publish API JSON to gh-pages
         run: |
           set -e
-
           mkdir -p /tmp/api_out
           rm -rf /tmp/api_out/api
           cp -r api /tmp/api_out/
