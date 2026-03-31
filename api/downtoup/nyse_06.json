@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-30T20:39:26.456622+00:00",
+  "updated_utc": "2026-03-31T14:56:44.158600+00:00",
   "tf": "1d",
   "params": {
     "n_down": 40,
@@ -21,22 +21,22 @@
       "ticker": "WST",
       "tf": "1d",
       "bars_used": 350,
-      "close": 243.35000610351562,
-      "sma20": 242.48100051879882,
-      "sma50": 243.894609375,
+      "close": 245.13999938964844,
+      "sma20": 242.17550048828124,
+      "sma50": 243.21432037353514,
       "trend_ok": true,
       "prior_downtrend_ok": true,
-      "down_slope": -0.1394405973337829,
+      "down_slope": -0.020260353875652243,
       "fresh_uptrend_ok": true,
-      "up_slope": 0.8942429051254734,
+      "up_slope": 0.9376972545276988,
       "up_hh_steps": 1,
-      "up_hl_steps": 1,
-      "up_pivot_highs": 3,
-      "up_pivot_lows": 2,
+      "up_hl_steps": 2,
+      "up_pivot_highs": 2,
+      "up_pivot_lows": 3,
       "resistance": 252.41000366210938,
-      "pullback_from_resistance_pct": 3.589397182023731,
+      "pullback_from_resistance_pct": 2.8802361899225617,
       "state": "correction",
-      "rank_score": 2.5084449999452567
+      "rank_score": 2.7353519325158575
     }
   ]
 }

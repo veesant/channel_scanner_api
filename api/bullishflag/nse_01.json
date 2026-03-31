@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-03-30T20:39:48.139572+00:00",
+  "updated_utc": "2026-03-31T14:51:28.161273+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -15,26 +15,26 @@
   "count": 1,
   "data": [
     {
-      "ticker": "CURAA.NS",
+      "ticker": "ADANIPOWER.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 114.05000305175781,
-      "sma20": 106.16599960327149,
-      "sma50": 94.82940017700196,
+      "close": 150.42999267578125,
+      "sma20": 146.4910011291504,
+      "sma50": 144.1794006347656,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 39.35529137537799,
-      "pole_high": 120.18000030517578,
-      "pole_range": 33.94000244140625,
+      "pole_gain_pct": 12.90088364127698,
+      "pole_high": 157.44000244140625,
+      "pole_range": 23.029998779296875,
       "flag_bars": 8,
-      "flag_range": 12.129997253417969,
-      "pullback_from_pole_high_pct": 5.100680011525985,
+      "flag_range": 13.550003051757812,
+      "pullback_from_pole_high_pct": 4.4524959711137475,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 2.4043411716327414
+      "rank_score": 1.664438901272521
     }
   ]
 }
