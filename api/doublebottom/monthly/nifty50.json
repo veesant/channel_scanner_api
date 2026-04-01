@@ -10,7 +10,7 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-03-31T22:26:40.646744+00:00"
+    "lastUpdatedTs": "2026-04-01T15:05:21.614488+00:00"
   },
   "counts": {
     "total": 50,
@@ -99,15 +99,15 @@
       "first_bottom_date": "2025-09-01",
       "middle_peak_date": "2025-10-01",
       "second_bottom_date": "2025-12-01",
-      "first_bottom": 315.32814936202715,
-      "middle_peak": 344.45286997456253,
+      "first_bottom": 315.32812035038484,
+      "middle_peak": 344.4529016740786,
       "second_bottom": 313.18550201698105,
-      "bottom_similarity_pct": 0.6841464024506234,
-      "bounce_from_bottom_pct": 9.236321169378822,
+      "bottom_similarity_pct": 0.6841371390453492,
+      "bounce_from_bottom_pct": 9.23634127249134,
       "rise_after_second_bottom_pct": 18.34838825853043,
       "current_close": 370.6499938964844,
       "recovered_halfway": true,
-      "rank_score": 36.90056302545863
+      "rank_score": 36.90059239197642
     },
     {
       "ticker": "SUNPHARMA.NS",
@@ -145,15 +145,15 @@
       "first_bottom_date": "2025-08-01",
       "middle_peak_date": "2025-10-01",
       "second_bottom_date": "2026-02-01",
-      "first_bottom": 263.63358200863206,
+      "first_bottom": 263.6335518236706,
       "middle_peak": 288.5033893366969,
       "second_bottom": 247.2246017157082,
-      "bottom_similarity_pct": 6.6372764599669996,
-      "bounce_from_bottom_pct": 9.433474726012156,
+      "bottom_similarity_pct": 6.637264250437178,
+      "bounce_from_bottom_pct": 9.43348725569662,
       "rise_after_second_bottom_pct": 19.769636212827592,
       "current_close": 296.1000061035156,
       "recovered_halfway": true,
-      "rank_score": 32.565834478872745
+      "rank_score": 32.565859218087034
     },
     {
       "ticker": "APOLLOHOSP.NS",
@@ -168,15 +168,15 @@
       "first_bottom_date": "2025-08-01",
       "middle_peak_date": "2025-10-01",
       "second_bottom_date": "2026-01-01",
-      "first_bottom": 7002.229460105947,
+      "first_bottom": 7002.229009648849,
       "middle_peak": 8088.761552196573,
       "second_bottom": 6687.621506374137,
-      "bottom_similarity_pct": 4.704332525875583,
-      "bounce_from_bottom_pct": 15.516944971326124,
+      "bottom_similarity_pct": 4.704325790190893,
+      "bounce_from_bottom_pct": 15.516952402592329,
       "rise_after_second_bottom_pct": 10.936302135651182,
       "current_close": 7419.0,
       "recovered_halfway": false,
-      "rank_score": 29.748914581101722
+      "rank_score": 29.74892874805262
     },
     {
       "ticker": "DRREDDY.NS",
@@ -219,10 +219,10 @@
       "second_bottom": 378.83722243399484,
       "bottom_similarity_pct": 5.573807337079428,
       "bounce_from_bottom_pct": 13.286899720459397,
-      "rise_after_second_bottom_pct": 5.757821610649676,
-      "current_close": 400.6499938964844,
+      "rise_after_second_bottom_pct": 5.309495735473916,
+      "current_close": 398.9515686035156,
       "recovered_halfway": false,
-      "rank_score": 21.470913994029644
+      "rank_score": 21.022588118853886
     }
   ]
 }
