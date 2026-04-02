@@ -10,36 +10,13 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-04-01T20:42:50.278278+00:00"
+    "lastUpdatedTs": "2026-04-02T14:44:44.636258+00:00"
   },
   "counts": {
     "total": 50,
-    "matched": 3
+    "matched": 4
   },
   "data": [
-    {
-      "ticker": "COALINDIA.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 1,
-      "middle_peak_bar": 2,
-      "second_bottom_bar": 5,
-      "first_bottom_date": "2026-01-19",
-      "middle_peak_date": "2026-01-26",
-      "second_bottom_date": "2026-02-16",
-      "first_bottom": 406.1804674604174,
-      "middle_peak": 455.52810244010925,
-      "second_bottom": 401.29506141953897,
-      "bottom_similarity_pct": 1.2174099585469138,
-      "bounce_from_bottom_pct": 12.149189567935299,
-      "rise_after_second_bottom_pct": 12.249079421414216,
-      "current_close": 450.45001220703125,
-      "recovered_halfway": true,
-      "rank_score": 33.1808590308026
-    },
     {
       "ticker": "ONGC.NS",
       "tf": "1wk",
@@ -58,10 +35,10 @@
       "second_bottom": 258.3500061035156,
       "bottom_similarity_pct": 0.7158330109986144,
       "bounce_from_bottom_pct": 13.412035253678617,
-      "rise_after_second_bottom_pct": 10.17998342234638,
-      "current_close": 284.6499938964844,
+      "rise_after_second_bottom_pct": 11.496025154941526,
+      "current_close": 288.04998779296875,
       "recovered_halfway": true,
-      "rank_score": 32.876185665026384
+      "rank_score": 34.19222739762153
     },
     {
       "ticker": "TATASTEEL.NS",
@@ -81,10 +58,56 @@
       "second_bottom": 181.25,
       "bottom_similarity_pct": 0.717243063038793,
       "bounce_from_bottom_pct": 18.570251070810894,
-      "rise_after_second_bottom_pct": 5.853793440193965,
-      "current_close": 191.86000061035156,
+      "rise_after_second_bottom_pct": 7.365520608836206,
+      "current_close": 194.60000610351562,
       "recovered_halfway": false,
-      "rank_score": 31.706801447966065
+      "rank_score": 33.21852861660831
+    },
+    {
+      "ticker": "COALINDIA.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 1,
+      "middle_peak_bar": 2,
+      "second_bottom_bar": 5,
+      "first_bottom_date": "2026-01-19",
+      "middle_peak_date": "2026-01-26",
+      "second_bottom_date": "2026-02-16",
+      "first_bottom": 406.1804674604174,
+      "middle_peak": 455.52810244010925,
+      "second_bottom": 401.29506141953897,
+      "bottom_similarity_pct": 1.2174099585469138,
+      "bounce_from_bottom_pct": 12.149189567935299,
+      "rise_after_second_bottom_pct": 11.987421999856982,
+      "current_close": 449.3999938964844,
+      "recovered_halfway": true,
+      "rank_score": 32.91920160924537
+    },
+    {
+      "ticker": "RELIANCE.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 2,
+      "middle_peak_bar": 3,
+      "second_bottom_bar": 7,
+      "first_bottom_date": "2026-01-26",
+      "middle_peak_date": "2026-02-02",
+      "second_bottom_date": "2026-03-02",
+      "first_bottom": 1335.0,
+      "middle_peak": 1489.5,
+      "second_bottom": 1307.0,
+      "bottom_similarity_pct": 2.1423106350420813,
+      "bounce_from_bottom_pct": 11.573033707865168,
+      "rise_after_second_bottom_pct": 4.758986317664498,
+      "current_close": 1369.199951171875,
+      "recovered_halfway": false,
+      "rank_score": 22.189709390487582
     }
   ]
 }
