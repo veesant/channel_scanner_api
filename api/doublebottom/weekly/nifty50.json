@@ -10,7 +10,7 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-04-05T20:26:01.076099+00:00"
+    "lastUpdatedTs": "2026-04-06T14:36:28.512865+00:00"
   },
   "counts": {
     "total": 50,
@@ -35,33 +35,10 @@
       "second_bottom": 258.3500061035156,
       "bottom_similarity_pct": 0.7158330109986144,
       "bounce_from_bottom_pct": 13.412035253678617,
-      "rise_after_second_bottom_pct": 10.741242246722122,
-      "current_close": 286.1000061035156,
+      "rise_after_second_bottom_pct": 11.167023581162994,
+      "current_close": 287.20001220703125,
       "recovered_halfway": true,
-      "rank_score": 33.437444489402125
-    },
-    {
-      "ticker": "COALINDIA.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 1,
-      "middle_peak_bar": 2,
-      "second_bottom_bar": 5,
-      "first_bottom_date": "2026-01-19",
-      "middle_peak_date": "2026-01-26",
-      "second_bottom_date": "2026-02-16",
-      "first_bottom": 406.1804674604174,
-      "middle_peak": 455.52810244010925,
-      "second_bottom": 401.29506141953897,
-      "bottom_similarity_pct": 1.2174099585469138,
-      "bounce_from_bottom_pct": 12.149189567935299,
-      "rise_after_second_bottom_pct": 11.96250115902683,
-      "current_close": 449.29998779296875,
-      "recovered_halfway": true,
-      "rank_score": 32.894280768415214
+      "rank_score": 33.863225823842996
     },
     {
       "ticker": "TATASTEEL.NS",
@@ -81,10 +58,33 @@
       "second_bottom": 181.25,
       "bottom_similarity_pct": 0.717243063038793,
       "bounce_from_bottom_pct": 18.570251070810894,
-      "rise_after_second_bottom_pct": 6.758620689655172,
-      "current_close": 193.5,
+      "rise_after_second_bottom_pct": 7.111723801185345,
+      "current_close": 194.13999938964844,
       "recovered_halfway": false,
-      "rank_score": 32.61162869742727
+      "rank_score": 32.964731808957445
+    },
+    {
+      "ticker": "COALINDIA.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 1,
+      "middle_peak_bar": 2,
+      "second_bottom_bar": 5,
+      "first_bottom_date": "2026-01-19",
+      "middle_peak_date": "2026-01-26",
+      "second_bottom_date": "2026-02-16",
+      "first_bottom": 406.1804674604174,
+      "middle_peak": 455.52810244010925,
+      "second_bottom": 401.29506141953897,
+      "bottom_similarity_pct": 1.2174099585469138,
+      "bounce_from_bottom_pct": 12.149189567935299,
+      "rise_after_second_bottom_pct": 11.974965381828364,
+      "current_close": 449.3500061035156,
+      "recovered_halfway": true,
+      "rank_score": 32.90674499121675
     },
     {
       "ticker": "HINDALCO.NS",
@@ -104,10 +104,10 @@
       "second_bottom": 881.0,
       "bottom_similarity_pct": 1.6910053473660303,
       "bounce_from_bottom_pct": 10.856983474921963,
-      "rise_after_second_bottom_pct": 4.42111375789231,
-      "current_close": 919.9500122070312,
+      "rise_after_second_bottom_pct": 4.001135073779795,
+      "current_close": 916.25,
       "recovered_halfway": false,
-      "rank_score": 21.587091885448242
+      "rank_score": 21.167113201335727
     },
     {
       "ticker": "RELIANCE.NS",
@@ -127,10 +127,10 @@
       "second_bottom": 1307.0,
       "bottom_similarity_pct": 2.1423106350420813,
       "bounce_from_bottom_pct": 11.573033707865168,
-      "rise_after_second_bottom_pct": 3.358838899316182,
-      "current_close": 1350.9000244140625,
+      "rise_after_second_bottom_pct": 3.3282325937260904,
+      "current_close": 1350.5,
       "recovered_halfway": false,
-      "rank_score": 20.789561972139268
+      "rank_score": 20.758955666549177
     }
   ]
 }
