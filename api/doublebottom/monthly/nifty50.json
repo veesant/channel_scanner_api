@@ -10,11 +10,11 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-04-07T20:36:53.362464+00:00"
+    "lastUpdatedTs": "2026-04-08T15:07:04.578052+00:00"
   },
   "counts": {
     "total": 50,
-    "matched": 14
+    "matched": 15
   },
   "data": [
     {
@@ -35,10 +35,10 @@
       "second_bottom": 1304.0999755859375,
       "bottom_similarity_pct": 5.626654660766003,
       "bounce_from_bottom_pct": 34.59388148789404,
-      "rise_after_second_bottom_pct": 11.149453809991344,
-      "current_close": 1449.5,
+      "rise_after_second_bottom_pct": 12.982137259227983,
+      "current_close": 1473.4000244140625,
       "recovered_halfway": false,
-      "rank_score": 48.11668063711938
+      "rank_score": 49.94936408635602
     },
     {
       "ticker": "COALINDIA.NS",
@@ -150,10 +150,10 @@
       "second_bottom": 787.9000244140625,
       "bottom_similarity_pct": 7.754787878243271,
       "bounce_from_bottom_pct": 29.858657243816257,
-      "rise_after_second_bottom_pct": 7.989586143075574,
-      "current_close": 850.8499755859375,
+      "rise_after_second_bottom_pct": 8.528994680746402,
+      "current_close": 855.0999755859375,
       "recovered_halfway": false,
-      "rank_score": 38.09345550864856
+      "rank_score": 38.63286404631939
     },
     {
       "ticker": "ADANIPORTS.NS",
@@ -219,10 +219,10 @@
       "second_bottom": 247.2246017157082,
       "bottom_similarity_pct": 6.637264250437178,
       "bounce_from_bottom_pct": 9.43348725569662,
-      "rise_after_second_bottom_pct": 19.385365310806403,
-      "current_close": 295.1499938964844,
+      "rise_after_second_bottom_pct": 19.486487933015127,
+      "current_close": 295.3999938964844,
       "recovered_halfway": true,
-      "rank_score": 32.18158831606584
+      "rank_score": 32.28271093827457
     },
     {
       "ticker": "BEL.NS",
@@ -294,27 +294,50 @@
       "rank_score": 29.06109077821303
     },
     {
+      "ticker": "JSWSTEEL.NS",
+      "tf": "1mo",
+      "bars_available": 73,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 7,
+      "middle_peak_bar": 9,
+      "second_bottom_bar": 10,
+      "first_bottom_date": "2025-12-01",
+      "middle_peak_date": "2026-02-01",
+      "second_bottom_date": "2026-03-01",
+      "first_bottom": 1073.199951171875,
+      "middle_peak": 1284.699951171875,
+      "second_bottom": 1102.5,
+      "bottom_similarity_pct": 2.730157487999414,
+      "bounce_from_bottom_pct": 16.526072668650794,
+      "rise_after_second_bottom_pct": 4.480727838010204,
+      "current_close": 1151.9000244140625,
+      "recovered_halfway": false,
+      "rank_score": 26.276643018661584
+    },
+    {
       "ticker": "DRREDDY.NS",
       "tf": "1mo",
       "bars_available": 73,
       "pattern_detected": true,
       "bars_used": 12,
       "pivot_strength": 1,
-      "first_bottom_bar": 3,
-      "middle_peak_bar": 4,
-      "second_bottom_bar": 5,
-      "first_bottom_date": "2025-08-01",
-      "middle_peak_date": "2025-09-01",
-      "second_bottom_date": "2025-10-01",
-      "first_bottom": 1183.4000244140625,
-      "middle_peak": 1326.800048828125,
-      "second_bottom": 1180.9000244140625,
-      "bottom_similarity_pct": 0.2117029340600147,
-      "bounce_from_bottom_pct": 12.117628988985718,
-      "rise_after_second_bottom_pct": 3.124737374137282,
-      "current_close": 1217.800048828125,
+      "first_bottom_bar": 5,
+      "middle_peak_bar": 7,
+      "second_bottom_bar": 8,
+      "first_bottom_date": "2025-10-01",
+      "middle_peak_date": "2025-12-01",
+      "second_bottom_date": "2026-01-01",
+      "first_bottom": 1180.9000244140625,
+      "middle_peak": 1293.0,
+      "second_bottom": 1148.4000244140625,
+      "bottom_similarity_pct": 2.8300243215844736,
+      "bounce_from_bottom_pct": 9.492757495839593,
+      "rise_after_second_bottom_pct": 4.153600675532248,
+      "current_close": 1196.0999755859375,
       "recovered_halfway": false,
-      "rank_score": 23.030663429062987
+      "rank_score": 18.81633384978737
     },
     {
       "ticker": "GRASIM.NS",
