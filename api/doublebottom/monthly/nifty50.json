@@ -10,7 +10,7 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-04-08T20:34:40.600854+00:00"
+    "lastUpdatedTs": "2026-04-09T15:15:19.173444+00:00"
   },
   "counts": {
     "total": 50,
@@ -35,10 +35,10 @@
       "second_bottom": 1304.0999755859375,
       "bottom_similarity_pct": 5.626654660766003,
       "bounce_from_bottom_pct": 34.59388148789404,
-      "rise_after_second_bottom_pct": 12.982137259227983,
-      "current_close": 1473.4000244140625,
+      "rise_after_second_bottom_pct": 11.149453809991344,
+      "current_close": 1449.5,
       "recovered_halfway": false,
-      "rank_score": 49.94936408635602
+      "rank_score": 48.11668063711938
     },
     {
       "ticker": "COALINDIA.NS",
@@ -53,15 +53,15 @@
       "first_bottom_date": "2025-08-01",
       "middle_peak_date": "2025-09-01",
       "second_bottom_date": "2025-11-01",
-      "first_bottom": 344.4345220720664,
+      "first_bottom": 344.4345520888897,
       "middle_peak": 386.7210571895904,
       "second_bottom": 355.1549191302245,
-      "bottom_similarity_pct": 3.112462999836904,
+      "bottom_similarity_pct": 3.1124540137797174,
       "bounce_from_bottom_pct": 8.887991228355062,
       "rise_after_second_bottom_pct": 29.394234188958457,
       "current_close": 459.54998779296875,
       "recovered_halfway": true,
-      "rank_score": 45.16976241747662
+      "rank_score": 45.1697714035338
     },
     {
       "ticker": "ONGC.NS",
@@ -122,15 +122,15 @@
       "first_bottom_date": "2025-10-01",
       "middle_peak_date": "2026-02-01",
       "second_bottom_date": "2026-03-01",
-      "first_bottom": 1359.6167966578828,
+      "first_bottom": 1359.6169059708004,
       "middle_peak": 1780.0999755859375,
       "second_bottom": 1297.699951171875,
-      "bottom_similarity_pct": 4.771275935557707,
-      "bounce_from_bottom_pct": 30.92659490245029,
+      "bottom_similarity_pct": 4.771284359147269,
+      "bounce_from_bottom_pct": 30.92658437597918,
       "rise_after_second_bottom_pct": 8.137481823967773,
       "current_close": 1403.300048828125,
       "recovered_halfway": false,
-      "rank_score": 42.292800790860355
+      "rank_score": 42.292781840799684
     },
     {
       "ticker": "BAJFINANCE.NS",
@@ -219,10 +219,10 @@
       "second_bottom": 247.2246017157082,
       "bottom_similarity_pct": 6.6372764599669996,
       "bounce_from_bottom_pct": 9.433474726012156,
-      "rise_after_second_bottom_pct": 19.486487933015127,
-      "current_close": 295.3999938964844,
+      "rise_after_second_bottom_pct": 19.385365310806403,
+      "current_close": 295.1499938964844,
       "recovered_halfway": true,
-      "rank_score": 32.28268619906028
+      "rank_score": 32.18156357685156
     },
     {
       "ticker": "BEL.NS",
