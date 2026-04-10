@@ -10,7 +10,7 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-04-10T14:38:46.718846+00:00"
+    "lastUpdatedTs": "2026-04-10T20:22:08.655080+00:00"
   },
   "counts": {
     "total": 50,
@@ -150,10 +150,10 @@
       "second_bottom": 223.3000030517578,
       "bottom_similarity_pct": 1.343484083743896,
       "bounce_from_bottom_pct": 10.69376783998864,
-      "rise_after_second_bottom_pct": 6.959244547135477,
-      "current_close": 238.83999633789062,
+      "rise_after_second_bottom_pct": 8.91177502217581,
+      "current_close": 243.1999969482422,
       "recovered_halfway": true,
-      "rank_score": 26.30952830338022
+      "rank_score": 28.262058778420553
     },
     {
       "ticker": "ITC.NS",
@@ -225,6 +225,29 @@
       "rank_score": 21.457904969136454
     },
     {
+      "ticker": "ETERNAL.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 8,
+      "middle_peak_bar": 9,
+      "second_bottom_bar": 10,
+      "first_bottom_date": "2026-03-16",
+      "middle_peak_date": "2026-03-23",
+      "second_bottom_date": "2026-03-30",
+      "first_bottom": 212.60000610351562,
+      "middle_peak": 244.5,
+      "second_bottom": 223.74000549316406,
+      "bottom_similarity_pct": 5.239886674426686,
+      "bounce_from_bottom_pct": 9.278624294782285,
+      "rise_after_second_bottom_pct": 7.370157249271552,
+      "current_close": 240.22999572753906,
+      "recovered_halfway": true,
+      "rank_score": 21.408894869627147
+    },
+    {
       "ticker": "NTPC.NS",
       "tf": "1wk",
       "bars_available": 120,
@@ -246,29 +269,6 @@
       "current_close": 378.6499938964844,
       "recovered_halfway": false,
       "rank_score": 20.48287201599351
-    },
-    {
-      "ticker": "ETERNAL.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 8,
-      "middle_peak_bar": 9,
-      "second_bottom_bar": 10,
-      "first_bottom_date": "2026-03-16",
-      "middle_peak_date": "2026-03-23",
-      "second_bottom_date": "2026-03-30",
-      "first_bottom": 212.60000610351562,
-      "middle_peak": 244.5,
-      "second_bottom": 223.74000549316406,
-      "bottom_similarity_pct": 5.239886674426686,
-      "bounce_from_bottom_pct": 9.278624294782285,
-      "rise_after_second_bottom_pct": 6.32430211364981,
-      "current_close": 237.88999938964844,
-      "recovered_halfway": true,
-      "rank_score": 20.363039734005408
     },
     {
       "ticker": "GRASIM.NS",
