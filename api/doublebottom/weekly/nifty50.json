@@ -10,7 +10,7 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-04-17T14:43:38.626592+00:00"
+    "lastUpdatedTs": "2026-04-17T20:45:33.085633+00:00"
   },
   "counts": {
     "total": 50,
@@ -110,6 +110,29 @@
       "rank_score": 32.14075162144324
     },
     {
+      "ticker": "JIOFIN.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 6,
+      "middle_peak_bar": 7,
+      "second_bottom_bar": 9,
+      "first_bottom_date": "2026-03-09",
+      "middle_peak_date": "2026-03-16",
+      "second_bottom_date": "2026-03-30",
+      "first_bottom": 226.3000030517578,
+      "middle_peak": 250.5,
+      "second_bottom": 223.3000030517578,
+      "bottom_similarity_pct": 1.343484083743896,
+      "bounce_from_bottom_pct": 10.69376783998864,
+      "rise_after_second_bottom_pct": 9.207343160594688,
+      "current_close": 243.86000061035156,
+      "recovered_halfway": true,
+      "rank_score": 28.557626916839432
+    },
+    {
       "ticker": "POWERGRID.NS",
       "tf": "1wk",
       "bars_available": 120,
@@ -156,29 +179,6 @@
       "rank_score": 27.439373268491615
     },
     {
-      "ticker": "JIOFIN.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 6,
-      "middle_peak_bar": 7,
-      "second_bottom_bar": 9,
-      "first_bottom_date": "2026-03-09",
-      "middle_peak_date": "2026-03-16",
-      "second_bottom_date": "2026-03-30",
-      "first_bottom": 226.3000030517578,
-      "middle_peak": 250.5,
-      "second_bottom": 223.3000030517578,
-      "bottom_similarity_pct": 1.343484083743896,
-      "bounce_from_bottom_pct": 10.69376783998864,
-      "rise_after_second_bottom_pct": 8.04747020829101,
-      "current_close": 241.27000427246094,
-      "recovered_halfway": true,
-      "rank_score": 27.397753964535752
-    },
-    {
       "ticker": "ETERNAL.NS",
       "tf": "1wk",
       "bars_available": 120,
@@ -196,10 +196,10 @@
       "second_bottom": 223.74000549316406,
       "bottom_similarity_pct": 5.239886674426686,
       "bounce_from_bottom_pct": 9.278624294782285,
-      "rise_after_second_bottom_pct": 12.943591107564774,
-      "current_close": 252.6999969482422,
+      "rise_after_second_bottom_pct": 12.903367483858208,
+      "current_close": 252.61000061035156,
       "recovered_halfway": true,
-      "rank_score": 26.982328727920372
+      "rank_score": 26.942105104213805
     },
     {
       "ticker": "NTPC.NS",
