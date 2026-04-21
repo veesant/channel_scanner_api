@@ -10,7 +10,7 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-04-21T15:12:25.873737+00:00"
+    "lastUpdatedTs": "2026-04-21T20:38:01.456200+00:00"
   },
   "counts": {
     "total": 50,
@@ -64,6 +64,29 @@
       "rank_score": 30.294669749358217
     },
     {
+      "ticker": "ETERNAL.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 6,
+      "middle_peak_bar": 7,
+      "second_bottom_bar": 8,
+      "first_bottom_date": "2026-03-16",
+      "middle_peak_date": "2026-03-23",
+      "second_bottom_date": "2026-03-30",
+      "first_bottom": 212.60000610351562,
+      "middle_peak": 244.5,
+      "second_bottom": 223.74000549316406,
+      "bottom_similarity_pct": 5.239886674426686,
+      "bounce_from_bottom_pct": 9.278624294782285,
+      "rise_after_second_bottom_pct": 15.973900337754317,
+      "current_close": 259.4800109863281,
+      "recovered_halfway": true,
+      "rank_score": 30.012637958109913
+    },
+    {
       "ticker": "NTPC.NS",
       "tf": "1wk",
       "bars_available": 120,
@@ -85,29 +108,6 @@
       "current_close": 398.0,
       "recovered_halfway": true,
       "rank_score": 27.980032840855905
-    },
-    {
-      "ticker": "ETERNAL.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 6,
-      "middle_peak_bar": 7,
-      "second_bottom_bar": 8,
-      "first_bottom_date": "2026-03-16",
-      "middle_peak_date": "2026-03-23",
-      "second_bottom_date": "2026-03-30",
-      "first_bottom": 212.60000610351562,
-      "middle_peak": 244.5,
-      "second_bottom": 223.74000549316406,
-      "bottom_similarity_pct": 5.239886674426686,
-      "bounce_from_bottom_pct": 9.278624294782285,
-      "rise_after_second_bottom_pct": 13.917939852111008,
-      "current_close": 254.8800048828125,
-      "recovered_halfway": true,
-      "rank_score": 27.956677472466605
     },
     {
       "ticker": "BEL.NS",
@@ -173,10 +173,10 @@
       "second_bottom": 223.3000030517578,
       "bottom_similarity_pct": 1.343484083743896,
       "bounce_from_bottom_pct": 10.69376783998864,
-      "rise_after_second_bottom_pct": 6.202414086629604,
-      "current_close": 237.14999389648438,
+      "rise_after_second_bottom_pct": 5.127629552959853,
+      "current_close": 234.75,
       "recovered_halfway": false,
-      "rank_score": 23.552697842874345
+      "rank_score": 22.477913309204595
     },
     {
       "ticker": "RELIANCE.NS",
