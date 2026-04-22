@@ -439,7 +439,7 @@ jobs:
   # -------------------------
   publish:
     if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' }}
-    needs: [entry, corrwl, sideways, downtoup, bullflag, catchall, doublebottom, morningsine]
+    needs: [entry, corrwl, sideways, downtoup, bullflag, catchall, doublebottom]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
