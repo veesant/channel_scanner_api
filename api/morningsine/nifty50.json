@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "scanner": "morning_sine_scanner",
+    "interval": "15m",
+    "lookback_days": 2,
+    "max_bars": 40,
+    "premarket_timezone": "America/New_York",
+    "premarket_start": "04:00",
+    "premarket_end": "08:30",
+    "pivot_strength": 1,
+    "vwap_touch_tolerance_pct": 0.3,
+    "only_matches": true,
+    "lastUpdatedTs": "2026-04-22T03:12:03.169343+00:00"
+  },
+  "counts": {
+    "total": 50,
+    "matched": 1
+  },
+  "data": [
+    {
+      "ticker": "ICICIBANK.NS",
+      "tf": "15m",
+      "bars_available": 8,
+      "pattern_detected": true,
+      "bars_used": 8,
+      "pivot_strength": 1,
+      "session_date": "2026-04-21",
+      "premarket_start": "2026-04-21 04:00:00-04:00",
+      "premarket_end": "2026-04-21 05:45:00-04:00",
+      "hh_ok": true,
+      "hl_ok": true,
+      "prev_pivot_high_bar": 1,
+      "last_pivot_high_bar": 6,
+      "prev_pivot_low_bar": 2,
+      "last_pivot_low_bar": 6,
+      "prev_pivot_high": 1390.699951171875,
+      "last_pivot_high": 1392.300048828125,
+      "prev_pivot_low": 1382.699951171875,
+      "last_pivot_low": 1384.0,
+      "vwap_pullback_bar": 6,
+      "vwap_pullback_time": "2026-04-21 05:30:00-04:00",
+      "vwap_at_pullback": 1387.9456086447299,
+      "close_at_pullback": 1389.199951171875,
+      "close_to_vwap_pct": 0.09037404054831365,
+      "current_close": 1388.4000244140625,
+      "current_vwap": 1387.927849911878,
+      "current_close_vs_vwap_pct": 0.034020104302577604,
+      "premarket_volume": 11779036.0,
+      "avg_15m_volume": 1472379.5,
+      "last_15m_volume": 1436676.0,
+      "rank_score": 3.1097724438266865
+    }
+  ]
+}
