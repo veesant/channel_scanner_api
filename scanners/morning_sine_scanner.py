@@ -22,7 +22,7 @@ from __future__ import annotations
 
 import argparse
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from typing import Any, Dict, List, Optional, Tuple
 
 import numpy as np
@@ -124,11 +124,8 @@ def download_bars(ticker: str, interval: str, lookback_days: int) -> pd.DataFram
     if interval != "15m":
         raise ValueError("interval must be 15m")
 
-    # For 15m data, yfinance is usually more reliable with a short `period`
-    # than with explicit start/end dates. We only need the latest pre-market
-    # session, so a tiny recent window is enough.
-    period_days = max(1, int(lookback_days))
-    period = f"{period_days}d"
+    end = datetime.now(timezone.utc)
+    start = end - timedelta(days=int(lookback_days))
 
     max_retries = 6
     base_sleep = 2.0
@@ -138,7 +135,8 @@ def download_bars(ticker: str, interval: str, lookback_days: int) -> pd.DataFram
         try:
             raw = yf.download(
                 ticker.upper().strip(),
-                period=period,
+                start=start.strftime("%Y-%m-%d"),
+                end=end.strftime("%Y-%m-%d"),
                 interval="15m",
                 auto_adjust=True,
                 prepost=True,
@@ -205,7 +203,7 @@ def add_session_vwap(df: pd.DataFrame) -> pd.DataFrame:
 
 
 
-def extract_latest_premarket_window(df: pd.DataFrame, premarket_start: str, premarket_end: str, current_only: bool = True) -> pd.DataFrame:
+def extract_latest_premarket_window(df: pd.DataFrame, premarket_start: str, premarket_end: str) -> pd.DataFrame:
     if df is None or df.empty:
         return pd.DataFrame()
 
@@ -216,11 +214,6 @@ def extract_latest_premarket_window(df: pd.DataFrame, premarket_start: str, prem
     end_h, end_m = map(int, premarket_end.split(":"))
 
     all_days = sorted(pd.Index(dfx.index.date).unique())
-
-    if current_only:
-        ny_now = pd.Timestamp.now(tz=NY_TZ)
-        all_days = [d for d in all_days if d == ny_now.date()]
-
     for day in reversed(all_days):
         day_df = dfx[dfx.index.date == day].copy()
         if day_df.empty:
@@ -250,42 +243,40 @@ def detect_morning_sine(
     if df is None or df.empty:
         return None
 
-    if len(df) < max(5, pivot_strength * 2 + 3):
-        return None
-
     highs = df["High"].values.astype(float)
     lows = df["Low"].values.astype(float)
     closes = df["Close"].values.astype(float)
     vwaps = df["VWAP"].values.astype(float)
     vols = df["Volume"].fillna(0).values.astype(float)
 
-    ph = pivot_points(highs, pivot_strength, pivot_strength, "high")
-    pl = pivot_points(lows, pivot_strength, pivot_strength, "low")
+    ph = pivot_points(highs, pivot_strength, pivot_strength, "high") if len(df) >= max(5, pivot_strength * 2 + 3) else []
+    pl = pivot_points(lows, pivot_strength, pivot_strength, "low") if len(df) >= max(5, pivot_strength * 2 + 3) else []
 
-    if len(ph) < 2 or len(pl) < 2:
-        return None
+    hh_ok = False
+    hl_ok = False
+    prev_high_bar = last_high_bar = None
+    prev_low_bar = last_low_bar = None
+    prev_high = last_high = None
+    prev_low = last_low = None
 
-    last_two_highs = ph[-2:]
-    last_two_lows = pl[-2:]
+    if len(ph) >= 2:
+        prev_high_bar, prev_high = ph[-2]
+        last_high_bar, last_high = ph[-1]
+        hh_ok = bool(last_high > prev_high)
 
-    prev_high_bar, prev_high = last_two_highs[0]
-    last_high_bar, last_high = last_two_highs[1]
-    prev_low_bar, prev_low = last_two_lows[0]
-    last_low_bar, last_low = last_two_lows[1]
+    if len(pl) >= 2:
+        prev_low_bar, prev_low = pl[-2]
+        last_low_bar, last_low = pl[-1]
+        hl_ok = bool(last_low > prev_low)
 
-    hh_ok = bool(last_high > prev_high)
-    hl_ok = bool(last_low > prev_low)
-    if not (hh_ok and hl_ok):
-        return None
-
-    structure_bar = max(last_high_bar, last_low_bar)
+    hh_hl_ok = bool(hh_ok and hl_ok)
 
     touch_bar = None
     touch_close = None
     touch_vwap = None
     touch_distance_pct = None
 
-    for i in range(structure_bar, len(df)):
+    for i in range(len(df)):
         low_i = float(lows[i])
         high_i = float(highs[i])
         close_i = float(closes[i])
@@ -304,7 +295,9 @@ def detect_morning_sine(
             touch_distance_pct = close_near_vwap_pct
             break
 
-    if touch_bar is None:
+    vwap_touch_ok = touch_bar is not None
+
+    if not (hh_hl_ok or vwap_touch_ok):
         return None
 
     total_volume = float(np.nansum(vols))
@@ -313,8 +306,10 @@ def detect_morning_sine(
     current_vwap = float(vwaps[-1]) if np.isfinite(vwaps[-1]) else np.nan
 
     score = 0.0
-    score += (last_high - prev_high)
-    score += (last_low - prev_low)
+    if hh_ok and prev_high is not None and last_high is not None:
+        score += max(0.0, last_high - prev_high)
+    if hl_ok and prev_low is not None and last_low is not None:
+        score += max(0.0, last_low - prev_low)
     if touch_distance_pct is not None:
         score += max(0.0, float(vwap_touch_tolerance_pct) - float(touch_distance_pct))
 
@@ -327,16 +322,19 @@ def detect_morning_sine(
         "premarket_end": str(df.index[-1]),
         "hh_ok": bool(hh_ok),
         "hl_ok": bool(hl_ok),
-        "prev_pivot_high_bar": int(prev_high_bar),
-        "last_pivot_high_bar": int(last_high_bar),
-        "prev_pivot_low_bar": int(prev_low_bar),
-        "last_pivot_low_bar": int(last_low_bar),
+        "hh_hl_ok": bool(hh_hl_ok),
+        "vwap_touch_ok": bool(vwap_touch_ok),
+        "signal_reason": ("hh_hl_and_vwap_touch" if (hh_hl_ok and vwap_touch_ok) else ("hh_hl" if hh_hl_ok else "vwap_touch")),
+        "prev_pivot_high_bar": None if prev_high_bar is None else int(prev_high_bar),
+        "last_pivot_high_bar": None if last_high_bar is None else int(last_high_bar),
+        "prev_pivot_low_bar": None if prev_low_bar is None else int(prev_low_bar),
+        "last_pivot_low_bar": None if last_low_bar is None else int(last_low_bar),
         "prev_pivot_high": safe_float(prev_high),
         "last_pivot_high": safe_float(last_high),
         "prev_pivot_low": safe_float(prev_low),
         "last_pivot_low": safe_float(last_low),
-        "vwap_pullback_bar": int(touch_bar),
-        "vwap_pullback_time": str(df.index[touch_bar]),
+        "vwap_pullback_bar": None if touch_bar is None else int(touch_bar),
+        "vwap_pullback_time": None if touch_bar is None else str(df.index[touch_bar]),
         "vwap_at_pullback": safe_float(touch_vwap),
         "close_at_pullback": safe_float(touch_close),
         "close_to_vwap_pct": safe_float(touch_distance_pct),
@@ -377,12 +375,7 @@ def scan(
             if df.empty:
                 continue
 
-            sess = extract_latest_premarket_window(
-                df,
-                premarket_start=premarket_start,
-                premarket_end=premarket_end,
-                current_only=True,
-            )
+            sess = extract_latest_premarket_window(df, premarket_start=premarket_start, premarket_end=premarket_end)
             if sess.empty:
                 if not only_matches:
                     rows.append({
@@ -441,7 +434,7 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--out", default="output/morning_sine.json")
 
     p.add_argument("--interval", default="15m", help="Must be 15m")
-    p.add_argument("--lookback_days", type=int, default=2, help="Recent days to fetch from Yahoo; kept small because only today's premarket is needed")
+    p.add_argument("--lookback_days", type=int, default=2, help="Short recent fetch for intraday premarket data")
     p.add_argument("--max_bars", type=int, default=40, help="Keep last N premarket bars after session filter")
 
     p.add_argument("--premarket_start", default="04:00", help="America/New_York")
