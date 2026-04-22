@@ -345,7 +345,8 @@ jobs:
           if-no-files-found: error
 
   # -------------------------
-  # MORNING SINE
+  # MORNING SINE (US / Canada tickers only — pre-market logic is America/New_York)
+  # Add TSX/Venture shards here when data/tsx_*.txt (or similar) exist in the repo.
   # -------------------------
   morningsine:
     if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'morningsine' }}
@@ -354,12 +355,6 @@ jobs:
       fail-fast: false
       matrix:
         market:
-          - { out: nifty50, file: data/nifty50.txt }
-          - { out: nse_01, file: data/nse_01.txt }
-          - { out: nse_02, file: data/nse_02.txt }
-          - { out: nse_03, file: data/nse_03.txt }
-          - { out: nse_04, file: data/nse_04.txt }
-          - { out: nse_05, file: data/nse_05.txt }
           - { out: nasdaq_01, file: data/nasdaq_01.txt }
           - { out: nasdaq_02, file: data/nasdaq_02.txt }
           - { out: nasdaq_03, file: data/nasdaq_03.txt }
@@ -381,7 +376,11 @@ jobs:
       - run: mkdir -p api/morningsine
       - name: Run Morning Sine Scanner
         run: |
-          python scanners/morning_sine_scanner.py             --tickers_file ${{ matrix.market.file }}             --only_matches             --out api/morningsine/${{ matrix.market.out }}.json
+          python scanners/morning_sine_scanner.py \
+            --data-source yfinance \
+            --tickers_file ${{ matrix.market.file }} \
+            --only_matches \
+            --out api/morningsine/${{ matrix.market.out }}.json
       - uses: actions/upload-artifact@v4
         with:
           name: morningsine-api-${{ matrix.market.out }}
