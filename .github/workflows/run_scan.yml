@@ -2,6 +2,8 @@ name: Weekly Channel Scan API (Optimized + Sharded)
 
 on:
   schedule:
+    - cron: "0 11 * * *"    # 7:00 AM EDT (summer)
+    - cron: "0 12 * * *"    # 7:00 AM EST (winter)
     - cron: "45 13 * * *"   # 9:45 AM US market (EDT)
     - cron: "0 20 * * *"    # 4:00 PM US market close (EDT)
 
@@ -21,6 +23,7 @@ on:
           - bullflag
           - catchall
           - doublebottom
+          - morningsine
 
 permissions:
   contents: write
@@ -342,6 +345,50 @@ jobs:
           if-no-files-found: error
 
   # -------------------------
+  # MORNING SINE
+  # -------------------------
+  morningsine:
+    if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' || github.event.inputs.mode == 'morningsine' }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        market:
+          - { out: nifty50, file: data/nifty50.txt }
+          - { out: nse_01, file: data/nse_01.txt }
+          - { out: nse_02, file: data/nse_02.txt }
+          - { out: nse_03, file: data/nse_03.txt }
+          - { out: nse_04, file: data/nse_04.txt }
+          - { out: nse_05, file: data/nse_05.txt }
+          - { out: nasdaq_01, file: data/nasdaq_01.txt }
+          - { out: nasdaq_02, file: data/nasdaq_02.txt }
+          - { out: nasdaq_03, file: data/nasdaq_03.txt }
+          - { out: nasdaq_04, file: data/nasdaq_04.txt }
+          - { out: nasdaq_05, file: data/nasdaq_05.txt }
+          - { out: nasdaq_06, file: data/nasdaq_06.txt }
+          - { out: nyse_01, file: data/nyse_01.txt }
+          - { out: nyse_02, file: data/nyse_02.txt }
+          - { out: nyse_03, file: data/nyse_03.txt }
+          - { out: nyse_04, file: data/nyse_04.txt }
+          - { out: nyse_05, file: data/nyse_05.txt }
+          - { out: nyse_06, file: data/nyse_06.txt }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - run: pip install yfinance pandas numpy
+      - run: mkdir -p api/morningsine
+      - name: Run Morning Sine Scanner
+        run: |
+          python scanners/morning_sine_scanner.py             --tickers_file ${{ matrix.market.file }}             --only_matches             --out api/morningsine/${{ matrix.market.out }}.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: morningsine-api-${{ matrix.market.out }}
+          path: api/morningsine/${{ matrix.market.out }}.json
+          if-no-files-found: error
+
+  # -------------------------
   # CATCH ALL
   # -------------------------
   catchall:
@@ -392,7 +439,7 @@ jobs:
   # -------------------------
   publish:
     if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' }}
-    needs: [entry, corrwl, sideways, downtoup, bullflag, catchall, doublebottom]
+    needs: [entry, corrwl, sideways, downtoup, bullflag, catchall, doublebottom, morningsine]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -435,6 +482,11 @@ jobs:
         with:
           pattern: doublebottom-weekly-api-*
           path: api/doublebottom/weekly
+          merge-multiple: true
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: morningsine-api-*
+          path: api/morningsine
           merge-multiple: true
       - name: Merge shard outputs
         run: |
@@ -494,6 +546,7 @@ jobs:
               "catchall",
               "doublebottom/monthly",
               "doublebottom/weekly",
+              "morningsine",
           ]
 
           for tab in publish_paths:
