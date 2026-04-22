@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-04-22T19:49:14.484987+00:00",
+  "updated_utc": "2026-04-22T20:50:10.185387+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -97,15 +97,15 @@
     },
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.006740037287539908,
-      "r2": 0.8466679622124544,
+      "slope": 0.006740036978636779,
+      "r2": 0.8466679389116555,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.3436006420461119,
+      "pos": 0.3436006771629823,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 41.97516173469988,
+      "annual_trend_pct": 41.975159454158174,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -117,7 +117,7 @@
       "recent_trend_pct": -40.697905438335845,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8684610963887955
+      "rank_score": 0.8684610812267091
     },
     {
       "ticker": "JIOFIN.NS",
@@ -145,27 +145,27 @@
     },
     {
       "ticker": "NTPC.NS",
-      "slope": 0.008947144853145074,
-      "r2": 0.8321206166305606,
+      "slope": 0.008947144066575796,
+      "r2": 0.8321205333389041,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.5669569552312431,
+      "pos": 0.5669569923364314,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 59.24146823452487,
+      "annual_trend_pct": 59.24146172129379,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 67.64910519678686,
+      "prior_trend_pct": 67.64909373560704,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 78.95896791548655,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8439799974075406
+      "rank_score": 0.8439799520511936
     },
     {
       "ticker": "TATASTEEL.NS",
