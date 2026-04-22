@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-04-22T15:09:36.485869+00:00",
+  "updated_utc": "2026-04-22T16:41:30.902966+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -73,15 +73,15 @@
     },
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.00674870657156814,
-      "r2": 0.8472809673857129,
+      "slope": 0.0067487066622850264,
+      "r2": 0.8472809812637886,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.35897833689908093,
+      "pos": 0.35897831827034754,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 42.0391789592925,
+      "annual_trend_pct": 42.03917962933082,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -93,7 +93,7 @@
       "recent_trend_pct": -39.69657809430427,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8672298294901278
+      "rank_score": 0.8672298382920389
     },
     {
       "ticker": "JIOFIN.NS",
@@ -241,27 +241,27 @@
     },
     {
       "ticker": "ONGC.NS",
-      "slope": 0.009249463739297262,
-      "r2": 0.7336054663269352,
+      "slope": 0.0092494632404218,
+      "r2": 0.733605419191822,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.4456807200759597,
+      "pos": 0.4456807459563618,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 61.76461753088631,
+      "annual_trend_pct": 61.76461333446566,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 56.01585250758985,
+      "prior_trend_pct": 56.015845928593876,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 68.7874985064367,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8068500457712563
+      "rank_score": 0.8068500196156594
     },
     {
       "ticker": "INDIGO.NS",
