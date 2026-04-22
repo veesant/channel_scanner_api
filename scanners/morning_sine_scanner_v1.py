@@ -242,7 +242,6 @@ def extract_latest_premarket_window(df: pd.DataFrame, premarket_start: str, prem
 # Morning Sine logic
 # -----------------------------
 
-
 def detect_morning_sine(
     df: pd.DataFrame,
     pivot_strength: int,
@@ -263,32 +262,23 @@ def detect_morning_sine(
     ph = pivot_points(highs, pivot_strength, pivot_strength, "high")
     pl = pivot_points(lows, pivot_strength, pivot_strength, "low")
 
-    # Minimal change from the old logic:
-    # - keep HH + HL + VWAP pullback requirement
-    # - keep response fields unchanged
-    # - remove the "latest two pivots only" restriction
-    #   by accepting the most recent valid rising pivot pair anywhere in session
-    prev_high_bar = last_high_bar = None
-    prev_low_bar = last_low_bar = None
-    prev_high = last_high = None
-    prev_low = last_low = None
+    if len(ph) < 2 or len(pl) < 2:
+        return None
 
-    for i in range(1, len(ph)):
-        if ph[i][1] > ph[i - 1][1]:
-            prev_high_bar, prev_high = ph[i - 1]
-            last_high_bar, last_high = ph[i]
+    last_two_highs = ph[-2:]
+    last_two_lows = pl[-2:]
 
-    for i in range(1, len(pl)):
-        if pl[i][1] > pl[i - 1][1]:
-            prev_low_bar, prev_low = pl[i - 1]
-            last_low_bar, last_low = pl[i]
+    prev_high_bar, prev_high = last_two_highs[0]
+    last_high_bar, last_high = last_two_highs[1]
+    prev_low_bar, prev_low = last_two_lows[0]
+    last_low_bar, last_low = last_two_lows[1]
 
-    hh_ok = bool(prev_high is not None and last_high is not None)
-    hl_ok = bool(prev_low is not None and last_low is not None)
+    hh_ok = bool(last_high > prev_high)
+    hl_ok = bool(last_low > prev_low)
     if not (hh_ok and hl_ok):
         return None
 
-    structure_bar = max(int(last_high_bar), int(last_low_bar))
+    structure_bar = max(last_high_bar, last_low_bar)
 
     touch_bar = None
     touch_close = None
@@ -323,8 +313,8 @@ def detect_morning_sine(
     current_vwap = float(vwaps[-1]) if np.isfinite(vwaps[-1]) else np.nan
 
     score = 0.0
-    score += (float(last_high) - float(prev_high))
-    score += (float(last_low) - float(prev_low))
+    score += (last_high - prev_high)
+    score += (last_low - prev_low)
     if touch_distance_pct is not None:
         score += max(0.0, float(vwap_touch_tolerance_pct) - float(touch_distance_pct))
 
