@@ -372,12 +372,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-      - run: pip install yfinance pandas numpy
+      - run: pip install requests pandas numpy
       - run: mkdir -p api/morningsine
       - name: Run Morning Sine Scanner
+        env:
+          POLYGON_API_KEY: ${{ secrets.POLYGON_API_KEY }}
         run: |
           python scanners/morning_sine_scanner.py \
-            --data-source yfinance \
             --tickers_file ${{ matrix.market.file }} \
             --only_matches \
             --out api/morningsine/${{ matrix.market.out }}.json
@@ -438,7 +439,7 @@ jobs:
   # -------------------------
   publish:
     if: ${{ github.event_name == 'schedule' || github.event.inputs.mode == 'all' }}
-    needs: [entry, corrwl, sideways, downtoup, bullflag, catchall, doublebottom]
+    needs: [entry, corrwl, sideways, downtoup, bullflag, catchall, doublebottom, morningsine]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

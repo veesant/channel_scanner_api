@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "scanner": "morning_sine_scanner",
+    "interval": "15m",
+    "lookback_days": 7,
+    "max_bars": 40,
+    "premarket_timezone": "America/New_York",
+    "premarket_window_ny": "04:00 to 08:30 ET end-exclusive (America/New_York)",
+    "premarket_start": "04:00",
+    "premarket_end": "08:30",
+    "pivot_strength": 1,
+    "vwap_touch_tolerance_pct": 0.3,
+    "min_vwap_touches": 2,
+    "min_vwap_touch_ratio": 0.0,
+    "convergence_required": true,
+    "convergence_late_vs_early_ratio": 0.97,
+    "premarket_day_policy": "today_only",
+    "only_matches": false,
+    "data_source": "yfinance",
+    "polygon_configured": true,
+    "polygon_yfinance_fallback_opt_in": false,
+    "data_quality_note": "Session VWAP requires non-zero reported volume in the pre-market slice. yfinance often zeros extended-hours volume; use a paid SIP-grade feed (e.g. Polygon minute aggs on an extended-hours plan, Alpaca, or your broker) for reliable pre-market volume and VWAP.",
+    "lastUpdatedTs": "2026-04-22T22:14:27.293402+00:00"
+  },
+  "counts": {
+    "total": 1,
+    "matched": 0
+  },
+  "data": [
+    {
+      "ticker": "AAPL",
+      "tf": "15m",
+      "bar_interval": "15m",
+      "pattern_detected": false,
+      "bars_provider": "yfinance",
+      "premarket_volume_shares": null,
+      "last_bar_volume_shares": null,
+      "error": "no_premarket_window_found"
+    }
+  ]
+}
