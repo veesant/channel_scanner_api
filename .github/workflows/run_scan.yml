@@ -438,8 +438,6 @@ jobs:
           pattern: doublebottom-weekly-api-*
           path: api/doublebottom/weekly
           merge-multiple: true
-      - uses: actions/download-artifact@v4
-        with:
       - name: Merge shard outputs
         run: |
           python - <<'PY'
