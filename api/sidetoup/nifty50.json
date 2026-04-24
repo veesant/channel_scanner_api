@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-04-24T13:05:59.924407+00:00",
+  "updated_utc": "2026-04-24T15:10:18.722334+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -73,15 +73,15 @@
     },
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.006849977739364519,
-      "r2": 0.8521770855354192,
+      "slope": 0.006849977648647736,
+      "r2": 0.8521770717082573,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.5407601300126021,
+      "pos": 0.540760141332842,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 42.789144546650505,
+      "annual_trend_pct": 42.789143873075176,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -93,7 +93,7 @@
       "recent_trend_pct": -26.66876072941864,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8514997092536288
+      "rank_score": 0.8514997012080239
     },
     {
       "ticker": "TATASTEEL.NS",
@@ -169,27 +169,27 @@
     },
     {
       "ticker": "NTPC.NS",
-      "slope": 0.009068168227269338,
-      "r2": 0.8334978237935442,
+      "slope": 0.009068167440700166,
+      "r2": 0.8334977413270553,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.6639918280607767,
+      "pos": 0.6639918443082486,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 60.246769072923215,
+      "annual_trend_pct": 60.24676251857457,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 67.64910519678686,
+      "prior_trend_pct": 67.64909373560704,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 98.80871896005507,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8349651137060792
+      "rank_score": 0.8349650708480875
     },
     {
       "ticker": "HDFCLIFE.NS",
