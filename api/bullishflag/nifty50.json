@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-04-27T21:07:46.296371+00:00",
+  "updated_utc": "2026-04-28T12:20:36.525914+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -18,23 +18,23 @@
       "ticker": "TITAN.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 4410.0,
-      "sma20": 4310.550012207032,
-      "sma50": 4242.926020507813,
+      "close": 4441.7998046875,
+      "sma20": 4337.665002441407,
+      "sma50": 4246.606020507813,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 11.498174172736405,
-      "pole_high": 4523.89990234375,
-      "pole_range": 609.7998046875,
+      "pole_gain_pct": 14.445520754054355,
+      "pole_high": 4534.0,
+      "pole_range": 619.89990234375,
       "flag_bars": 8,
       "flag_range": 224.0,
-      "pullback_from_pole_high_pct": 2.517737014577633,
+      "pullback_from_pole_high_pct": 2.0335287894243494,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": true,
       "pattern": "bull_flag",
-      "rank_score": 2.123440254382022
+      "rank_score": 2.4421853386631254
     }
   ]
 }
