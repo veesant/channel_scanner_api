@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-04-28T12:19:03.803266+00:00",
+  "updated_utc": "2026-04-28T16:15:57.682051+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -73,15 +73,15 @@
     },
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.00691709808550179,
-      "r2": 0.8532750980432261,
+      "slope": 0.006917098349554388,
+      "r2": 0.8532750949759144,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.6553722725831933,
+      "pos": 0.6553722433562426,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 43.28838623493325,
+      "annual_trend_pct": 43.28838820238814,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -93,7 +93,7 @@
       "recent_trend_pct": 55.10617778165907,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8508439115068834
+      "rank_score": 0.8508439128959226
     },
     {
       "ticker": "SBIN.NS",
