@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-04-29T13:33:34.388281+00:00",
+  "updated_utc": "2026-04-29T15:36:27.496542+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -97,15 +97,15 @@
     },
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.007021900251862462,
-      "r2": 0.8516761583396699,
+      "slope": 0.007021900189850415,
+      "r2": 0.851676132150393,
       "inside": 1.0,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.8358423282538394,
+      "pos": 0.8358423055574445,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 44.07139842390701,
+      "annual_trend_pct": 44.0713979593306,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": true,
@@ -117,7 +117,7 @@
       "recent_trend_pct": 89.9056118587899,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.842253846344451
+      "rank_score": 0.842253835519452
     },
     {
       "ticker": "INDIGO.NS",
