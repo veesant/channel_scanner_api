@@ -10,7 +10,7 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-04-30T15:34:31.404835+00:00"
+    "lastUpdatedTs": "2026-04-30T21:01:44.107593+00:00"
   },
   "counts": {
     "total": 50,
@@ -168,15 +168,15 @@
       "first_bottom_date": "2025-09-01",
       "middle_peak_date": "2025-10-01",
       "second_bottom_date": "2025-12-01",
-      "first_bottom": 315.32812035038484,
-      "middle_peak": 344.4529016740786,
+      "first_bottom": 315.32814936202715,
+      "middle_peak": 344.45286997456253,
       "second_bottom": 313.18550201698105,
-      "bottom_similarity_pct": 0.6841371390453492,
-      "bounce_from_bottom_pct": 9.23634127249134,
+      "bottom_similarity_pct": 0.6841464024506234,
+      "bounce_from_bottom_pct": 9.236321169378822,
       "rise_after_second_bottom_pct": 28.134918509481356,
       "current_close": 401.29998779296875,
       "recovered_halfway": true,
-      "rank_score": 46.68712264292735
+      "rank_score": 46.687093276409556
     },
     {
       "ticker": "POWERGRID.NS",
@@ -398,15 +398,15 @@
       "first_bottom_date": "2025-06-01",
       "middle_peak_date": "2025-09-01",
       "second_bottom_date": "2025-10-01",
-      "first_bottom": 2151.5602747957587,
+      "first_bottom": 2151.560501593854,
       "middle_peak": 2597.9454581532577,
       "second_bottom": 2304.4036515300063,
-      "bottom_similarity_pct": 7.103838945379143,
+      "bottom_similarity_pct": 7.103827655458798,
       "bounce_from_bottom_pct": 12.738298102780504,
       "rise_after_second_bottom_pct": 6.201014184439553,
       "current_close": 2447.300048828125,
       "recovered_halfway": false,
-      "rank_score": 19.835473341840917
+      "rank_score": 19.83548463176126
     }
   ]
 }
