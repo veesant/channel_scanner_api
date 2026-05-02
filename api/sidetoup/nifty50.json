@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-02T14:32:29.446528+00:00",
+  "updated_utc": "2026-05-02T20:42:39.620465+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -33,14 +33,14 @@
       "pos": 0.5995900488597773,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 65.97029371085507,
+      "annual_trend_pct": 65.97029371085506,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 61.24902553596168,
+      "prior_trend_pct": 61.24902553596285,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 645.3862372303057,
       "recent_trend_type": "Ascending",
@@ -97,15 +97,15 @@
     },
     {
       "ticker": "INDIGO.NS",
-      "slope": -0.009650242933471309,
-      "r2": 0.8209260743221822,
+      "slope": -0.009650242933471206,
+      "r2": 0.820926074322182,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.5400191110984927,
+      "pos": 0.540019111098484,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -39.45677616800466,
+      "annual_trend_pct": -39.456776168004346,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -117,19 +117,19 @@
       "recent_trend_pct": 103.61148559731306,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8462047157948316
+      "rank_score": 0.8462047157948324
     },
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.007034302839920655,
-      "r2": 0.8512346568963429,
+      "slope": 0.007034302777908619,
+      "r2": 0.8512346307913028,
       "inside": 1.0,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.8563359898473658,
+      "pos": 0.8563359653790175,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 44.164345019614345,
+      "annual_trend_pct": 44.16434455473826,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": true,
@@ -141,7 +141,7 @@
       "recent_trend_pct": 94.50967056852666,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8399837294634349
+      "rank_score": 0.8399837188577497
     },
     {
       "ticker": "JIOFIN.NS",
@@ -186,7 +186,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 19.23778067647861,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 263.30473668230974,
+      "recent_trend_pct": 263.30473668229166,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.8008064725004069
@@ -208,7 +208,7 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -29.561004142021062,
+      "prior_trend_pct": -29.561004142021076,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 59.86486607080443,
       "recent_trend_type": "Ascending",
@@ -258,7 +258,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -21.141758625429542,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": 230.9290151546064,
+      "recent_trend_pct": 230.92901515458988,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
       "rank_score": 0.7797860124884177
@@ -282,7 +282,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -31.631471561293612,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": 80.52411607200291,
+      "recent_trend_pct": 80.52411607200742,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
       "rank_score": 0.7728824895698423
@@ -330,7 +330,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -53.01939637123406,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": 161.55518140557783,
+      "recent_trend_pct": 161.5551814055729,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
       "rank_score": 0.7621779257481464
