@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-04T13:31:05.505641+00:00",
+  "updated_utc": "2026-05-04T15:35:25.140465+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -33,7 +33,7 @@
       "pos": 0.560720484931732,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 66.18691380243833,
+      "annual_trend_pct": 66.18691380243831,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -169,15 +169,15 @@
     },
     {
       "ticker": "BHARTIARTL.NS",
-      "slope": -0.0073430824982807065,
-      "r2": 0.8573224621318628,
+      "slope": -0.007343082498280897,
+      "r2": 0.8573224621318638,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.7114014380108229,
+      "pos": 0.7114014380108423,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -31.739593674387446,
+      "annual_trend_pct": -31.73959367438812,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -189,7 +189,7 @@
       "recent_trend_pct": 18.19987159719947,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8421364718802338
+      "rank_score": 0.8421364718802322
     },
     {
       "ticker": "INFY.NS",
