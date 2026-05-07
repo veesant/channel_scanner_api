@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-07T13:28:15.634775+00:00",
+  "updated_utc": "2026-05-07T15:54:51.235645+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -33,7 +33,7 @@
       "pos": 0.6340669654542115,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 66.42018841634156,
+      "annual_trend_pct": 66.42018841634155,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -73,15 +73,15 @@
     },
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.007169461950993649,
-      "r2": 0.8577163782179397,
+      "slope": 0.007169462012652512,
+      "r2": 0.8577164038837932,
       "inside": 1.0,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.5551476118366665,
+      "pos": 0.5551476080286104,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 45.18114047802915,
+      "annual_trend_pct": 45.181140943517775,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -93,7 +93,7 @@
       "recent_trend_pct": 122.41224564063522,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8733434279253033
+      "rank_score": 0.8733434411390356
     },
     {
       "ticker": "BHARTIARTL.NS",
@@ -193,15 +193,15 @@
     },
     {
       "ticker": "INDIGO.NS",
-      "slope": -0.009660125369966088,
-      "r2": 0.8217078623647183,
+      "slope": -0.009660125369966164,
+      "r2": 0.821707862364719,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
       "pos": 0.8059706698071292,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -39.48788053262541,
+      "annual_trend_pct": -39.48788053262565,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -213,19 +213,19 @@
       "recent_trend_pct": 26.761503541585753,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8200004539452359
+      "rank_score": 0.8200004539452364
     },
     {
       "ticker": "MAXHEALTH.NS",
-      "slope": -0.005796055976589872,
-      "r2": 0.7515788345872054,
+      "slope": -0.005796055976589847,
+      "r2": 0.7515788345872056,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.8333284929452908,
+      "pos": 0.833328492945285,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -26.02144342441236,
+      "annual_trend_pct": -26.02144342441226,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -234,22 +234,22 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -30.029461095550978,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": 102.54886401757943,
+      "recent_trend_pct": 102.54886401758445,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7719437474862532
+      "rank_score": 0.7719437474862538
     },
     {
       "ticker": "BAJAJFINSV.NS",
-      "slope": -0.008257291771607141,
-      "r2": 0.6886502736198576,
+      "slope": -0.008257291771607283,
+      "r2": 0.6886502736198585,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.11538461538461539,
-      "pos": 0.7986425889779998,
+      "pos": 0.7986425889780154,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -34.90869257088956,
+      "annual_trend_pct": -34.90869257089004,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -258,10 +258,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -36.64549109280168,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": 78.10755176525879,
+      "recent_trend_pct": 78.10755176525657,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7490762625275136
+      "rank_score": 0.7490762625275125
     }
   ]
 }

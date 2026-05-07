@@ -10,7 +10,7 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-05-07T13:38:34.031735+00:00"
+    "lastUpdatedTs": "2026-05-07T16:06:27.934359+00:00"
   },
   "counts": {
     "total": 50,
@@ -35,10 +35,10 @@
       "second_bottom": 223.3000030517578,
       "bottom_similarity_pct": 1.343484083743896,
       "bounce_from_bottom_pct": 10.69376783998864,
-      "rise_after_second_bottom_pct": 13.049708460099838,
-      "current_close": 252.44000244140625,
+      "rise_after_second_bottom_pct": 12.41379348045867,
+      "current_close": 251.02000427246094,
       "recovered_halfway": true,
-      "rank_score": 32.39999221634458
+      "rank_score": 31.764077236703415
     },
     {
       "ticker": "RELIANCE.NS",
@@ -64,6 +64,29 @@
       "rank_score": 29.864197666066424
     },
     {
+      "ticker": "ETERNAL.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 4,
+      "middle_peak_bar": 5,
+      "second_bottom_bar": 6,
+      "first_bottom_date": "2026-03-16",
+      "middle_peak_date": "2026-03-23",
+      "second_bottom_date": "2026-03-30",
+      "first_bottom": 212.60000610351562,
+      "middle_peak": 244.5,
+      "second_bottom": 223.74000549316406,
+      "bottom_similarity_pct": 5.239886674426686,
+      "bounce_from_bottom_pct": 9.278624294782285,
+      "rise_after_second_bottom_pct": 15.053189911358672,
+      "current_close": 257.4200134277344,
+      "recovered_halfway": true,
+      "rank_score": 29.09192753171427
+    },
+    {
       "ticker": "POWERGRID.NS",
       "tf": "1wk",
       "bars_available": 120,
@@ -85,29 +108,6 @@
       "current_close": 315.95001220703125,
       "recovered_halfway": true,
       "rank_score": 28.971918426606894
-    },
-    {
-      "ticker": "ETERNAL.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 4,
-      "middle_peak_bar": 5,
-      "second_bottom_bar": 6,
-      "first_bottom_date": "2026-03-16",
-      "middle_peak_date": "2026-03-23",
-      "second_bottom_date": "2026-03-30",
-      "first_bottom": 212.60000610351562,
-      "middle_peak": 244.5,
-      "second_bottom": 223.74000549316406,
-      "bottom_similarity_pct": 5.239886674426686,
-      "bounce_from_bottom_pct": 9.278624294782285,
-      "rise_after_second_bottom_pct": 14.440860600046715,
-      "current_close": 256.04998779296875,
-      "recovered_halfway": true,
-      "rank_score": 28.479598220402313
     },
     {
       "ticker": "SHRIRAMFIN.NS",
