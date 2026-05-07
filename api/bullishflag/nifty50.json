@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-06T21:12:43.502832+00:00",
+  "updated_utc": "2026-05-07T12:32:41.349656+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,6 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "ASIANPAINT.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 2430.0,
-      "sma20": 2415.525012207031,
-      "sma50": 2336.512001953125,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 12.289695583668763,
-      "pole_high": 2582.0,
-      "pole_range": 336.800048828125,
-      "flag_bars": 8,
-      "flag_range": 156.199951171875,
-      "pullback_from_pole_high_pct": 5.886909372579396,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 1.8415239293886163
-    }
-  ]
+  "count": 0,
+  "data": []
 }
