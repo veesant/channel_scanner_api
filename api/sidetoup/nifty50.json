@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-09T11:49:13.774617+00:00",
+  "updated_utc": "2026-05-09T12:58:34.398400+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -42,7 +42,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 45.07002292375111,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 227.84085370514396,
+      "recent_trend_pct": 227.84085370513577,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.895284246328165
@@ -73,15 +73,15 @@
     },
     {
       "ticker": "BHARTIARTL.NS",
-      "slope": -0.007308535765461013,
-      "r2": 0.8545672192034395,
+      "slope": -0.007308535765461123,
+      "r2": 0.8545672192034385,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.7474932691040846,
+      "pos": 0.7474932691040943,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -31.616858415724014,
+      "annual_trend_pct": -31.616858415724415,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -90,22 +90,22 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -35.70350924758655,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": 21.802766041858355,
+      "recent_trend_pct": 21.8027660418614,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8371496673066959
+      "rank_score": 0.8371496673066945
     },
     {
       "ticker": "HDFCLIFE.NS",
-      "slope": -0.012673954420263684,
-      "r2": 0.8608095504768295,
+      "slope": -0.012673954420263828,
+      "r2": 0.8608095504768289,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.8595814890879515,
+      "pos": 0.8595814890879573,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -48.265516256981456,
+      "annual_trend_pct": -48.26551625698185,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -117,7 +117,7 @@
       "recent_trend_pct": 64.40299479007597,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8290620109450042
+      "rank_score": 0.8290620109450034
     },
     {
       "ticker": "INFY.NS",
@@ -138,7 +138,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -51.53627475691095,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -73.4355249023437,
+      "recent_trend_pct": -73.43552490234437,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.8233937798372897
@@ -162,7 +162,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -57.315559322299194,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": 30.100202587947567,
+      "recent_trend_pct": 30.100202587944324,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
       "rank_score": 0.8180008730329539
