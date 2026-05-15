@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-15T13:36:43.042290+00:00",
+  "updated_utc": "2026-05-15T15:51:36.492263+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -241,15 +241,15 @@
     },
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.0053975835354484174,
-      "r2": 0.8044353949553831,
+      "slope": 0.005397583494896685,
+      "r2": 0.8044353728617472,
       "inside": 0.9807692307692307,
       "near_upper": 0.11538461538461539,
       "near_lower": 0.038461538461538464,
-      "pos": 0.6170192328309476,
+      "pos": 0.6170192321962323,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 32.40223576877048,
+      "annual_trend_pct": 32.40223548957519,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -261,7 +261,7 @@
       "recent_trend_pct": 105.94072809538334,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8328234665022891
+      "rank_score": 0.8328234555189427
     },
     {
       "ticker": "WIPRO.NS",
