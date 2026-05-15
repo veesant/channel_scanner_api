@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-14T21:12:49.900730+00:00",
+  "updated_utc": "2026-05-15T12:32:51.639967+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -21,62 +21,6 @@
     "only_actionable": false,
     "only_watchlist": true
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "ADANIPORTS.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 1737.800048828125,
-      "sma_fast": 20,
-      "sma_slow": 50,
-      "sma_fast_now": 1660.8250122070312,
-      "sma_slow_now": 1512.0300122070312,
-      "trend_ok": true,
-      "recent_swing_high": 1792.0,
-      "recent_swing_high_date": "2026-05-08",
-      "resistance_level": 1792.0,
-      "pullback_from_swing_high_pct": 3.0245508466448103,
-      "had_correction": true,
-      "bars_since_swing_high": 3,
-      "correction_age_ok": true,
-      "anchor_support_close": 1596.800048828125,
-      "anchor_support_date": "2026-04-30",
-      "support_level": 1596.800048828125,
-      "support_tolerance_pct": 1.0,
-      "support_floor": 1596.800048828125,
-      "support_floor_adj": 1580.8320483398438,
-      "correction_close_low": 1688.199951171875,
-      "support_held": true,
-      "close_above_sma_fast": true,
-      "rebound_ok": false,
-      "uptrend_window_used": 50,
-      "uptrend_hh_count": 4,
-      "uptrend_hl_count": 4,
-      "uptrend_pivot_highs": 7,
-      "uptrend_pivot_lows": 8,
-      "uptrend_overall_up": true,
-      "uptrend_ok": true,
-      "uptrend_actionable": true,
-      "watchlist_correction": true,
-      "actionable_after_correction": true,
-      "dist_to_support": 0.08830160050626153,
-      "actionable_reason": "watchlist_correction",
-      "priceQuality": {
-        "quality_n_bars": 50,
-        "long_wick_count": 15,
-        "max_long_wicks_allowed": 6,
-        "gap_thresh_pct": 2.5,
-        "gap_count": 7,
-        "max_gap_count_allowed": 2,
-        "max_gap_pct": 6.0753095158626,
-        "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 3389407,
-        "price_quality_ok": false
-      },
-      "priceQualityOk": false,
-      "avgVolume50": 3389407,
-      "rank_score": 2.7141534841582198
-    }
-  ]
+  "count": 0,
+  "data": []
 }
