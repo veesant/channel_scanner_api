@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-16T11:53:30.201453+00:00",
+  "updated_utc": "2026-05-16T13:08:15.776771+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -97,15 +97,15 @@
     },
     {
       "ticker": "INFY.NS",
-      "slope": -0.01593843117602756,
+      "slope": -0.015938431176027654,
       "r2": 0.8066869908023371,
       "inside": 1.0,
       "near_upper": 0.11538461538461539,
       "near_lower": 0.038461538461538464,
-      "pos": 0.3611955100853082,
+      "pos": 0.36119551008531564,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -56.3426451171668,
+      "annual_trend_pct": -56.342645117167,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -114,10 +114,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -55.92035075679529,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -78.44441273731674,
+      "recent_trend_pct": -78.4444127373162,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8672239443926377
+      "rank_score": 0.867223944392637
     },
     {
       "ticker": "ONGC.NS",
@@ -184,7 +184,7 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -57.86244621221724,
+      "prior_trend_pct": -57.86244621221701,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -19.221028355790516,
       "recent_trend_type": "Descending",
@@ -208,7 +208,7 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -50.71377992015355,
+      "prior_trend_pct": -50.71377992015318,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 9.444558943504777,
       "recent_trend_type": "Sideways",
@@ -241,15 +241,15 @@
     },
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.005397583003643493,
-      "r2": 0.8044352893242719,
+      "slope": 0.0053975841092460545,
+      "r2": 0.8044354579510389,
       "inside": 0.9807692307692307,
       "near_upper": 0.11538461538461539,
       "near_lower": 0.038461538461538464,
-      "pos": 0.6170192598939781,
+      "pos": 0.6170191931943079,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 32.40223210733815,
+      "annual_trend_pct": 32.40223971931921,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -261,7 +261,7 @@
       "recent_trend_pct": 105.94072809538334,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8328234109804303
+      "rank_score": 0.832823501963781
     },
     {
       "ticker": "WIPRO.NS",
@@ -313,15 +313,15 @@
     },
     {
       "ticker": "POWERGRID.NS",
-      "slope": 0.008761513203648891,
-      "r2": 0.7121895911862863,
+      "slope": 0.008761513203648827,
+      "r2": 0.7121895911862868,
       "inside": 0.9230769230769231,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.11538461538461539,
       "pos": 0.29146529203006505,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 57.711729942837245,
+      "annual_trend_pct": 57.71172994283671,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -333,7 +333,7 @@
       "recent_trend_pct": 2.662339033635419,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.7961790356209059
+      "rank_score": 0.7961790356209061
     },
     {
       "ticker": "BAJAJFINSV.NS",
