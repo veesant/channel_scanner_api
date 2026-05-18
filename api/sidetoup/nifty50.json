@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-18T14:26:03.873526+00:00",
+  "updated_utc": "2026-05-18T15:05:33.232824+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -42,22 +42,22 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 72.82705739304348,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -15.074544036097437,
+      "recent_trend_pct": -15.074544036099024,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.9078199386396377
     },
     {
       "ticker": "HINDALCO.NS",
-      "slope": 0.009952708501849162,
-      "r2": 0.9389279554364297,
+      "slope": 0.009952708501849096,
+      "r2": 0.9389279554364295,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.057692307692307696,
-      "pos": 0.4724438942345368,
+      "pos": 0.47244389423454836,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 67.78963599385625,
+      "annual_trend_pct": 67.78963599385568,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -66,10 +66,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 32.04167792479959,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 20.91875285571807,
+      "recent_trend_pct": 20.918752855718093,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.9068349729101458
+      "rank_score": 0.9068349729101446
     },
     {
       "ticker": "ONGC.NS",
@@ -90,7 +90,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 96.32435037195188,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 57.41881791555332,
+      "recent_trend_pct": 57.41881791554941,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.8929777378434881
@@ -169,15 +169,15 @@
     },
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.005619721795740504,
-      "r2": 0.8311272833114787,
+      "slope": 0.005619722074004215,
+      "r2": 0.8311273130737717,
       "inside": 1.0,
       "near_upper": 0.09615384615384616,
       "near_lower": 0.07692307692307693,
-      "pos": 0.558528905036814,
+      "pos": 0.558528883100048,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 33.94050641265318,
+      "annual_trend_pct": 33.94050835073388,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -189,7 +189,7 @@
       "recent_trend_pct": 44.19414620726742,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.859710751152058
+      "rank_score": 0.8597107682268811
     },
     {
       "ticker": "INDIGO.NS",
@@ -258,22 +258,22 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -56.805851590195466,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -43.35502577716076,
+      "recent_trend_pct": -43.35502577716181,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.8286727733283303
     },
     {
       "ticker": "WIPRO.NS",
-      "slope": -0.014069465524514414,
-      "r2": 0.7919434777377105,
+      "slope": -0.014069465524514343,
+      "r2": 0.7919434777377108,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
       "pos": 0.7076722391925676,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -51.886732113393684,
+      "annual_trend_pct": -51.88673211339352,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -285,19 +285,19 @@
       "recent_trend_pct": -49.85180347729566,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8252045149495985
+      "rank_score": 0.8252045149495987
     },
     {
       "ticker": "TRENT.NS",
-      "slope": -0.008996523367728403,
+      "slope": -0.00899652336772837,
       "r2": 0.7994312611996048,
       "inside": 0.9615384615384616,
       "near_upper": 0.09615384615384616,
       "near_lower": 0.057692307692307696,
-      "pos": 0.9188700130646208,
+      "pos": 0.9188700130646144,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -37.36332489409029,
+      "annual_trend_pct": -37.36332489409018,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -309,7 +309,7 @@
       "recent_trend_pct": -26.734539074803077,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.7924440139087249
+      "rank_score": 0.7924440139087255
     },
     {
       "ticker": "M&M.NS",
