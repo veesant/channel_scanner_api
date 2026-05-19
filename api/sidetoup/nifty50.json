@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-19T13:48:05.654209+00:00",
+  "updated_utc": "2026-05-19T14:40:22.981018+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -66,7 +66,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 72.82705739304348,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -13.270996019198545,
+      "recent_trend_pct": -13.270996019195302,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.9070982102302231
@@ -121,15 +121,15 @@
     },
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.005595323283814593,
-      "r2": 0.8300625469162178,
+      "slope": 0.005595323407229862,
+      "r2": 0.8300625560574433,
       "inside": 1.0,
       "near_upper": 0.09615384615384616,
       "near_lower": 0.057692307692307696,
-      "pos": 0.49099427195294376,
+      "pos": 0.49099426185852524,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 33.770680815981535,
+      "annual_trend_pct": 33.77068167446744,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -141,19 +141,19 @@
       "recent_trend_pct": 32.67548545088028,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8659318462628145
+      "rank_score": 0.8659318518428691
     },
     {
       "ticker": "INFY.NS",
-      "slope": -0.016516392677948126,
-      "r2": 0.8361172856089958,
+      "slope": -0.016516392677947984,
+      "r2": 0.8361172856089955,
       "inside": 1.0,
       "near_upper": 0.11538461538461539,
       "near_lower": 0.038461538461538464,
-      "pos": 0.7289097089898908,
+      "pos": 0.7289097089898868,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -57.63520262773645,
+      "annual_trend_pct": -57.635202627736135,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -162,10 +162,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -58.71697735717481,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -57.801147998260575,
+      "recent_trend_pct": -57.80114799826268,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8451676719055088
+      "rank_score": 0.8451676719055091
     },
     {
       "ticker": "INDIGO.NS",
@@ -234,7 +234,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -56.805851590195466,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -42.16867571071362,
+      "recent_trend_pct": -42.16867571071254,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.8267328742051042
@@ -258,7 +258,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -61.69374283474895,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -43.73597132452295,
+      "recent_trend_pct": -43.735971324523504,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.8161472513633419
@@ -306,22 +306,22 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -36.043467581170184,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -18.168647530251604,
+      "recent_trend_pct": -18.168647530251615,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.78627400866378
     },
     {
       "ticker": "M&M.NS",
-      "slope": -0.009049235083742639,
-      "r2": 0.7331259838694476,
+      "slope": -0.00904923508374283,
+      "r2": 0.7331259838694486,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.6592425253948302,
+      "pos": 0.6592425253948409,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -37.53477751490992,
+      "annual_trend_pct": -37.534777514910544,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -330,10 +330,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -45.7044721564832,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -2.422824908000143,
+      "recent_trend_pct": -2.4228249080037956,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.7852541240106254
+      "rank_score": 0.7852541240106249
     },
     {
       "ticker": "BAJAJFINSV.NS",
@@ -354,7 +354,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -43.24837586930982,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -34.17881625278645,
+      "recent_trend_pct": -34.17881625278727,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.7766093898607352
