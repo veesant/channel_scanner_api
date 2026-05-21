@@ -10,11 +10,11 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-05-20T22:00:31.068255+00:00"
+    "lastUpdatedTs": "2026-05-21T13:56:19.885596+00:00"
   },
   "counts": {
     "total": 50,
-    "matched": 11
+    "matched": 13
   },
   "data": [
     {
@@ -35,33 +35,10 @@
       "second_bottom": 1327.300048828125,
       "bottom_similarity_pct": 1.5143505497256475,
       "bounce_from_bottom_pct": 10.76146633313707,
-      "rise_after_second_bottom_pct": 10.53265438219806,
-      "current_close": 1467.0999755859375,
+      "rise_after_second_bottom_pct": 8.415576513426263,
+      "current_close": 1439.0,
       "recovered_halfway": true,
-      "rank_score": 29.779770165609484
-    },
-    {
-      "ticker": "SBILIFE.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 4,
-      "middle_peak_bar": 6,
-      "second_bottom_bar": 8,
-      "first_bottom_date": "2026-03-30",
-      "middle_peak_date": "2026-04-13",
-      "second_bottom_date": "2026-04-27",
-      "first_bottom": 1728.0999755859375,
-      "middle_peak": 1990.9000244140625,
-      "second_bottom": 1759.0,
-      "bottom_similarity_pct": 1.7880924049886289,
-      "bounce_from_bottom_pct": 13.183628448781267,
-      "rise_after_second_bottom_pct": 6.958500535194003,
-      "current_close": 1881.4000244140625,
-      "recovered_halfway": true,
-      "rank_score": 28.35403657898664
+      "rank_score": 27.662692296837687
     },
     {
       "ticker": "ONGC.NS",
@@ -81,10 +58,33 @@
       "second_bottom": 277.6499938964844,
       "bottom_similarity_pct": 1.0555027830698362,
       "bounce_from_bottom_pct": 10.750947869512482,
-      "rise_after_second_bottom_pct": 6.789125344099029,
-      "current_close": 296.5,
+      "rise_after_second_bottom_pct": 7.437419178976559,
+      "current_close": 298.29998779296875,
       "recovered_halfway": true,
-      "rank_score": 26.484570430541673
+      "rank_score": 27.132864265419204
+    },
+    {
+      "ticker": "SBILIFE.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 4,
+      "middle_peak_bar": 6,
+      "second_bottom_bar": 8,
+      "first_bottom_date": "2026-03-30",
+      "middle_peak_date": "2026-04-13",
+      "second_bottom_date": "2026-04-27",
+      "first_bottom": 1728.0999755859375,
+      "middle_peak": 1990.9000244140625,
+      "second_bottom": 1759.0,
+      "bottom_similarity_pct": 1.7880924049886289,
+      "bounce_from_bottom_pct": 13.183628448781267,
+      "rise_after_second_bottom_pct": 5.980668059799602,
+      "current_close": 1864.199951171875,
+      "recovered_halfway": false,
+      "rank_score": 25.37620410359224
     },
     {
       "ticker": "DRREDDY.NS",
@@ -104,10 +104,10 @@
       "second_bottom": 1230.0,
       "bottom_similarity_pct": 5.353319057815846,
       "bounce_from_bottom_pct": 11.86179060276931,
-      "rise_after_second_bottom_pct": 8.552841558689025,
-      "current_close": 1335.199951171875,
+      "rise_after_second_bottom_pct": 7.471546700330285,
+      "current_close": 1321.9000244140625,
       "recovered_halfway": true,
-      "rank_score": 25.061313103642487
+      "rank_score": 23.98001824528375
     },
     {
       "ticker": "POWERGRID.NS",
@@ -127,10 +127,10 @@
       "second_bottom": 283.5,
       "bottom_similarity_pct": 0.7054673721340388,
       "bounce_from_bottom_pct": 8.231173380035026,
-      "rise_after_second_bottom_pct": 5.326280812527558,
-      "current_close": 298.6000061035156,
+      "rise_after_second_bottom_pct": 5.784830298583554,
+      "current_close": 299.8999938964844,
       "recovered_halfway": true,
-      "rank_score": 22.851986820428543
+      "rank_score": 23.31053630648454
     },
     {
       "ticker": "ETERNAL.NS",
@@ -179,6 +179,29 @@
       "rank_score": 22.442086246973815
     },
     {
+      "ticker": "TITAN.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 3,
+      "middle_peak_bar": 9,
+      "second_bottom_bar": 10,
+      "first_bottom_date": "2026-03-23",
+      "middle_peak_date": "2026-05-04",
+      "second_bottom_date": "2026-05-11",
+      "first_bottom": 3825.0,
+      "middle_peak": 4605.0,
+      "second_bottom": 3985.10009765625,
+      "bottom_similarity_pct": 4.185623468137255,
+      "bounce_from_bottom_pct": 15.555441197282112,
+      "rise_after_second_bottom_pct": 3.0438333219996117,
+      "current_close": 4106.39990234375,
+      "recovered_halfway": false,
+      "rank_score": 22.413651051144466
+    },
+    {
       "ticker": "HDFCLIFE.NS",
       "tf": "1wk",
       "bars_available": 120,
@@ -196,33 +219,10 @@
       "second_bottom": 578.4000244140625,
       "bottom_similarity_pct": 4.197450883245052,
       "bounce_from_bottom_pct": 12.508639787702345,
-      "rise_after_second_bottom_pct": 5.532503224289628,
-      "current_close": 610.4000244140625,
+      "rise_after_second_bottom_pct": 4.616173935836689,
+      "current_close": 605.0999755859375,
       "recovered_halfway": false,
-      "rank_score": 21.84369212874692
-    },
-    {
-      "ticker": "EICHERMOT.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 2,
-      "middle_peak_bar": 3,
-      "second_bottom_bar": 5,
-      "first_bottom_date": "2026-03-16",
-      "middle_peak_date": "2026-03-23",
-      "second_bottom_date": "2026-04-06",
-      "first_bottom": 6643.5,
-      "middle_peak": 7073.0,
-      "second_bottom": 6442.0,
-      "bottom_similarity_pct": 3.1279105867742936,
-      "bounce_from_bottom_pct": 6.464965756002107,
-      "rise_after_second_bottom_pct": 6.837938528407326,
-      "current_close": 6882.5,
-      "recovered_halfway": true,
-      "rank_score": 20.174993697635138
+      "rank_score": 20.92736284029398
     },
     {
       "ticker": "INFY.NS",
@@ -242,10 +242,33 @@
       "second_bottom": 1149.800048828125,
       "bottom_similarity_pct": 5.67924195379589,
       "bounce_from_bottom_pct": 13.31578076529076,
-      "rise_after_second_bottom_pct": 4.096362287855331,
-      "current_close": 1196.9000244140625,
+      "rise_after_second_bottom_pct": 3.8180466585031665,
+      "current_close": 1193.699951171875,
       "recovered_halfway": false,
-      "rank_score": 19.7329010993502
+      "rank_score": 19.454585469998037
+    },
+    {
+      "ticker": "EICHERMOT.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 2,
+      "middle_peak_bar": 3,
+      "second_bottom_bar": 5,
+      "first_bottom_date": "2026-03-16",
+      "middle_peak_date": "2026-03-23",
+      "second_bottom_date": "2026-04-06",
+      "first_bottom": 6643.5,
+      "middle_peak": 7073.0,
+      "second_bottom": 6442.0,
+      "bottom_similarity_pct": 3.1279105867742936,
+      "bounce_from_bottom_pct": 6.464965756002107,
+      "rise_after_second_bottom_pct": 6.325675256131637,
+      "current_close": 6849.5,
+      "recovered_halfway": false,
+      "rank_score": 17.66273042535945
     },
     {
       "ticker": "KOTAKBANK.NS",
@@ -265,10 +288,33 @@
       "second_bottom": 363.0,
       "bottom_similarity_pct": 5.065123010130246,
       "bounce_from_bottom_pct": 6.5702496152935606,
-      "rise_after_second_bottom_pct": 5.220389037749656,
-      "current_close": 381.95001220703125,
+      "rise_after_second_bottom_pct": 5.564741654829546,
+      "current_close": 383.20001220703125,
       "recovered_halfway": true,
-      "rank_score": 16.72551564291297
+      "rank_score": 17.069868259992862
+    },
+    {
+      "ticker": "BAJAJFINSV.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 4,
+      "middle_peak_bar": 7,
+      "second_bottom_bar": 8,
+      "first_bottom_date": "2026-03-30",
+      "middle_peak_date": "2026-04-20",
+      "second_bottom_date": "2026-04-27",
+      "first_bottom": 1597.0,
+      "middle_peak": 1860.0,
+      "second_bottom": 1718.699951171875,
+      "bottom_similarity_pct": 7.6205354522150905,
+      "bounce_from_bottom_pct": 8.221333149615862,
+      "rise_after_second_bottom_pct": 3.1011840543652194,
+      "current_close": 1772.0,
+      "recovered_halfway": false,
+      "rank_score": 11.701981751765992
     }
   ]
 }

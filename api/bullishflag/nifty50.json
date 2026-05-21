@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-20T21:55:42.282523+00:00",
+  "updated_utc": "2026-05-21T13:55:18.620363+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -18,23 +18,23 @@
       "ticker": "BAJAJ-AUTO.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 10205.0,
-      "sma20": 10085.875,
-      "sma50": 9613.84,
+      "close": 10462.5,
+      "sma20": 10128.9,
+      "sma50": 9627.0,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 10.74561403508772,
-      "pole_high": 10740.0,
-      "pole_range": 1385.0,
+      "pole_gain_pct": 10.86214034361416,
+      "pole_high": 10785.0,
+      "pole_range": 1430.0,
       "flag_bars": 8,
-      "flag_range": 642.0,
-      "pullback_from_pole_high_pct": 4.981378026070764,
+      "flag_range": 606.0,
+      "pullback_from_pole_high_pct": 2.9902642559109873,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
-      "near_breakout": false,
+      "near_breakout": true,
       "pattern": "bull_flag",
-      "rank_score": 1.764717524859079
+      "rank_score": 1.8400585589166727
     }
   ]
 }
