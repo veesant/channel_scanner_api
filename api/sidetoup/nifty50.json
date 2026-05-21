@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-21T14:57:27.200788+00:00",
+  "updated_utc": "2026-05-21T16:40:58.307918+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -121,15 +121,15 @@
     },
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.005610752285933318,
-      "r2": 0.830787660045997,
+      "slope": 0.005610752131091451,
+      "r2": 0.8307876270430592,
       "inside": 1.0,
       "near_upper": 0.09615384615384616,
       "near_lower": 0.057692307692307696,
-      "pos": 0.5337162553391468,
+      "pos": 0.5337162679553237,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 33.87804918360029,
+      "annual_trend_pct": 33.8780481056441,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -141,7 +141,7 @@
       "recent_trend_pct": 39.847699769258725,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.862022204489084
+      "rank_score": 0.8620221867259973
     },
     {
       "ticker": "INFY.NS",

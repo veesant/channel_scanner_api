@@ -10,7 +10,7 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-05-21T14:52:32.227107+00:00"
+    "lastUpdatedTs": "2026-05-21T16:45:50.734652+00:00"
   },
   "counts": {
     "total": 50,
@@ -133,29 +133,6 @@
       "rank_score": 23.31053630648454
     },
     {
-      "ticker": "ETERNAL.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 2,
-      "middle_peak_bar": 3,
-      "second_bottom_bar": 4,
-      "first_bottom_date": "2026-03-16",
-      "middle_peak_date": "2026-03-23",
-      "second_bottom_date": "2026-03-30",
-      "first_bottom": 212.60000610351562,
-      "middle_peak": 244.5,
-      "second_bottom": 223.74000549316406,
-      "bottom_similarity_pct": 5.239886674426686,
-      "bounce_from_bottom_pct": 9.278624294782285,
-      "rise_after_second_bottom_pct": 8.760163745202645,
-      "current_close": 243.33999633789062,
-      "recovered_halfway": true,
-      "rank_score": 22.798901365558244
-    },
-    {
       "ticker": "JIOFIN.NS",
       "tf": "1wk",
       "bars_available": 120,
@@ -173,10 +150,10 @@
       "second_bottom": 223.3000030517578,
       "bottom_similarity_pct": 1.343484083743896,
       "bounce_from_bottom_pct": 10.69376783998864,
-      "rise_after_second_bottom_pct": 5.091802490729073,
-      "current_close": 234.6699981689453,
+      "rise_after_second_bottom_pct": 5.588891875046851,
+      "current_close": 235.77999877929688,
       "recovered_halfway": false,
-      "rank_score": 22.442086246973815
+      "rank_score": 22.939175631291594
     },
     {
       "ticker": "TITAN.NS",
@@ -200,6 +177,29 @@
       "current_close": 4106.39990234375,
       "recovered_halfway": false,
       "rank_score": 22.413651051144466
+    },
+    {
+      "ticker": "ETERNAL.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 2,
+      "middle_peak_bar": 3,
+      "second_bottom_bar": 4,
+      "first_bottom_date": "2026-03-16",
+      "middle_peak_date": "2026-03-23",
+      "second_bottom_date": "2026-03-30",
+      "first_bottom": 212.60000610351562,
+      "middle_peak": 244.5,
+      "second_bottom": 223.74000549316406,
+      "bottom_similarity_pct": 5.239886674426686,
+      "bounce_from_bottom_pct": 9.278624294782285,
+      "rise_after_second_bottom_pct": 8.18360467911635,
+      "current_close": 242.0500030517578,
+      "recovered_halfway": true,
+      "rank_score": 22.222342299471947
     },
     {
       "ticker": "HDFCLIFE.NS",
