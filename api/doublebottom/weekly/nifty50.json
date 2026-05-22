@@ -10,7 +10,7 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-05-22T14:20:42.663179+00:00"
+    "lastUpdatedTs": "2026-05-22T16:11:27.864029+00:00"
   },
   "counts": {
     "total": 50,
@@ -87,6 +87,29 @@
       "rank_score": 25.13175118956083
     },
     {
+      "ticker": "JIOFIN.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 1,
+      "middle_peak_bar": 2,
+      "second_bottom_bar": 4,
+      "first_bottom_date": "2026-03-09",
+      "middle_peak_date": "2026-03-16",
+      "second_bottom_date": "2026-03-30",
+      "first_bottom": 226.3000030517578,
+      "middle_peak": 250.5,
+      "second_bottom": 223.3000030517578,
+      "bottom_similarity_pct": 1.343484083743896,
+      "bounce_from_bottom_pct": 10.69376783998864,
+      "rise_after_second_bottom_pct": 6.668159062316334,
+      "current_close": 238.19000244140625,
+      "recovered_halfway": false,
+      "rank_score": 24.018442818561077
+    },
+    {
       "ticker": "DRREDDY.NS",
       "tf": "1wk",
       "bars_available": 120,
@@ -133,29 +156,6 @@
       "rank_score": 23.187077363445518
     },
     {
-      "ticker": "JIOFIN.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 1,
-      "middle_peak_bar": 2,
-      "second_bottom_bar": 4,
-      "first_bottom_date": "2026-03-09",
-      "middle_peak_date": "2026-03-16",
-      "second_bottom_date": "2026-03-30",
-      "first_bottom": 226.3000030517578,
-      "middle_peak": 250.5,
-      "second_bottom": 223.3000030517578,
-      "bottom_similarity_pct": 1.343484083743896,
-      "bounce_from_bottom_pct": 10.69376783998864,
-      "rise_after_second_bottom_pct": 5.588891875046851,
-      "current_close": 235.77999877929688,
-      "recovered_halfway": false,
-      "rank_score": 22.939175631291594
-    },
-    {
       "ticker": "HDFCLIFE.NS",
       "tf": "1wk",
       "bars_available": 120,
@@ -196,10 +196,10 @@
       "second_bottom": 223.74000549316406,
       "bottom_similarity_pct": 5.239886674426686,
       "bounce_from_bottom_pct": 9.278624294782285,
-      "rise_after_second_bottom_pct": 8.18360467911635,
-      "current_close": 242.0500030517578,
+      "rise_after_second_bottom_pct": 8.138907217303387,
+      "current_close": 241.9499969482422,
       "recovered_halfway": true,
-      "rank_score": 22.222342299471947
+      "rank_score": 22.177644837658985
     },
     {
       "ticker": "EICHERMOT.NS",
