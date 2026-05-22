@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-21T21:37:12.992962+00:00",
+  "updated_utc": "2026-05-22T13:30:01.418694+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -21,62 +21,6 @@
     "only_actionable": false,
     "only_watchlist": true
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "CIPLA.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 1399.5,
-      "sma_fast": 20,
-      "sma_slow": 50,
-      "sma_fast_now": 1346.6449951171876,
-      "sma_slow_now": 1288.9660034179688,
-      "trend_ok": true,
-      "recent_swing_high": 1444.5,
-      "recent_swing_high_date": "2026-05-15",
-      "resistance_level": 1444.5,
-      "pullback_from_swing_high_pct": 3.115264797507788,
-      "had_correction": true,
-      "bars_since_swing_high": 3,
-      "correction_age_ok": true,
-      "anchor_support_close": 1222.0,
-      "anchor_support_date": "2026-04-22",
-      "support_level": 1222.0,
-      "support_tolerance_pct": 1.0,
-      "support_floor": 1222.0,
-      "support_floor_adj": 1209.78,
-      "correction_close_low": 1399.5,
-      "support_held": true,
-      "close_above_sma_fast": true,
-      "rebound_ok": false,
-      "uptrend_window_used": 50,
-      "uptrend_hh_count": 4,
-      "uptrend_hl_count": 3,
-      "uptrend_pivot_highs": 7,
-      "uptrend_pivot_lows": 5,
-      "uptrend_overall_up": true,
-      "uptrend_ok": true,
-      "uptrend_actionable": true,
-      "watchlist_correction": true,
-      "actionable_after_correction": true,
-      "dist_to_support": 0.14525368248772505,
-      "actionable_reason": "watchlist_correction",
-      "priceQuality": {
-        "quality_n_bars": 50,
-        "long_wick_count": 14,
-        "max_long_wicks_allowed": 6,
-        "gap_thresh_pct": 2.5,
-        "gap_count": 2,
-        "max_gap_count_allowed": 2,
-        "max_gap_pct": 2.606204897726574,
-        "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 1923432,
-        "price_quality_ok": false
-      },
-      "priceQualityOk": false,
-      "avgVolume50": 1923432,
-      "rank_score": 2.6162727972630537
-    }
-  ]
+  "count": 0,
+  "data": []
 }
