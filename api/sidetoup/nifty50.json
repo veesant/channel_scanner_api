@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-23T20:49:19.829697+00:00",
+  "updated_utc": "2026-05-24T12:07:37.293282+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "NTPC.NS",
-      "slope": 0.009603499639919789,
-      "r2": 0.8616645242627912,
+      "slope": 0.009603499639919884,
+      "r2": 0.8616645242627935,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.07849226462141923,
+      "pos": 0.07849226462141168,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 64.77026448812326,
+      "annual_trend_pct": 64.77026448812408,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -45,7 +45,7 @@
       "recent_trend_pct": -14.504235410395083,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.9075984202846382
+      "rank_score": 0.9075984202846402
     },
     {
       "ticker": "ONGC.NS",
@@ -66,7 +66,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 96.32435037195188,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 31.200724240003662,
+      "recent_trend_pct": 31.200724240004483,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.9020477497699787
@@ -90,7 +90,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 32.04167792479959,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 77.80150606788581,
+      "recent_trend_pct": 77.80150606789024,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.8758829810017326
@@ -121,15 +121,15 @@
     },
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.005593416512018814,
-      "r2": 0.8299605110675213,
+      "slope": 0.005593416603545137,
+      "r2": 0.8299605030294922,
       "inside": 1.0,
       "near_upper": 0.09615384615384616,
       "near_lower": 0.057692307692307696,
-      "pos": 0.48571442858970965,
+      "pos": 0.485714424780743,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 33.75741782513264,
+      "annual_trend_pct": 33.75741846173352,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -141,7 +141,7 @@
       "recent_trend_pct": 31.81510216106489,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8664088126747896
+      "rank_score": 0.8664088090366718
     },
     {
       "ticker": "INFY.NS",
@@ -169,15 +169,15 @@
     },
     {
       "ticker": "HDFCLIFE.NS",
-      "slope": -0.012478814833672035,
-      "r2": 0.8493174047229839,
+      "slope": -0.012478814833671845,
+      "r2": 0.8493174047229831,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.8908938615953901,
+      "pos": 0.8908938615953791,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -47.73788057651923,
+      "annual_trend_pct": -47.73788057651872,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -189,7 +189,7 @@
       "recent_trend_pct": 27.13557820033914,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8201847008173376
+      "rank_score": 0.8201847008173383
     },
     {
       "ticker": "INDIGO.NS",
@@ -210,22 +210,22 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -49.98589059359573,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -36.901582711443645,
+      "recent_trend_pct": -36.90158271144129,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.8144712641305205
     },
     {
       "ticker": "JIOFIN.NS",
-      "slope": -0.011186003834504112,
-      "r2": 0.7790651370623525,
+      "slope": -0.011186003834504209,
+      "r2": 0.7790651370623518,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.7780759860043199,
+      "pos": 0.7780759860043172,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -44.103711277201306,
+      "annual_trend_pct": -44.10371127720158,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -237,7 +237,7 @@
       "recent_trend_pct": -32.49092201741009,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8117249699307443
+      "rank_score": 0.8117249699307442
     },
     {
       "ticker": "WIPRO.NS",
@@ -249,7 +249,7 @@
       "pos": 0.9023048550887124,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -50.68808791033979,
+      "annual_trend_pct": -50.688087910339775,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -258,7 +258,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -61.69374283474895,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -24.33750145506959,
+      "recent_trend_pct": -24.337501455070342,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.7915127994111666
@@ -273,7 +273,7 @@
       "pos": 0.6412983176888459,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -37.63363203806186,
+      "annual_trend_pct": -37.63363203806187,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -304,9 +304,9 @@
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -37.03921798119602,
+      "prior_trend_pct": -37.039217981195534,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": 31.522251056303997,
+      "recent_trend_pct": 31.522251056306104,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
       "rank_score": 0.7791644868013748
@@ -376,9 +376,9 @@
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -30.652417728591132,
+      "prior_trend_pct": -30.65241772859062,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": 43.83645802446243,
+      "recent_trend_pct": 43.836458024466005,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
       "rank_score": 0.7393029615419874
