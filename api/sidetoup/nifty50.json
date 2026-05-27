@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-27T14:16:18.515745+00:00",
+  "updated_utc": "2026-05-27T14:57:25.789828+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -97,15 +97,15 @@
     },
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.0057794640484484525,
-      "r2": 0.8504012706370774,
+      "slope": 0.005779463381088347,
+      "r2": 0.8504011762161036,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.5200655111721928,
+      "pos": 0.5200655782955894,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 35.05772997931507,
+      "annual_trend_pct": 35.05772529244382,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -117,7 +117,7 @@
       "recent_trend_pct": -9.873921910397298,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.857809468816704
+      "rank_score": 0.8578094148938775
     },
     {
       "ticker": "HINDALCO.NS",
@@ -145,15 +145,15 @@
     },
     {
       "ticker": "ONGC.NS",
-      "slope": 0.0053092440873928485,
-      "r2": 0.7302254248120509,
+      "slope": 0.005309244247035366,
+      "r2": 0.7302254128576011,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.3328526663296956,
+      "pos": 0.3328526875862014,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 31.7954208815179,
+      "annual_trend_pct": 31.795421975605855,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -165,7 +165,7 @@
       "recent_trend_pct": -27.87051602061208,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8241351380807482
+      "rank_score": 0.8241351299778727
     },
     {
       "ticker": "INDIGO.NS",
