@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-05-30T14:59:16.225994+00:00",
+  "updated_utc": "2026-05-30T20:56:09.598131+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -49,15 +49,15 @@
     },
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.005755114626220433,
-      "r2": 0.8492312450772566,
+      "slope": 0.005755115411655451,
+      "r2": 0.8492313433536102,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.44966028985015055,
+      "pos": 0.44966019576562244,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 34.88683215498612,
+      "annual_trend_pct": 34.88683766411798,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -69,7 +69,7 @@
       "recent_trend_pct": -17.05921846142775,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8642649781689979
+      "rank_score": 0.8642650367156275
     },
     {
       "ticker": "HDFCLIFE.NS",
@@ -97,15 +97,15 @@
     },
     {
       "ticker": "ONGC.NS",
-      "slope": 0.005239420450485897,
-      "r2": 0.7200277350690893,
+      "slope": 0.0052394203135504875,
+      "r2": 0.7200277255332265,
       "inside": 0.9807692307692307,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.057692307692307696,
-      "pos": 0.18506691438046977,
+      "pos": 0.18506690641719217,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 31.317761903417374,
+      "annual_trend_pct": 31.317760968350704,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -117,7 +117,7 @@
       "recent_trend_pct": -43.16169002245612,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8338148684041901
+      "rank_score": 0.8338148644325863
     },
     {
       "ticker": "INDIGO.NS",
