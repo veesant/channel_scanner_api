@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-06T13:07:53.150830+00:00",
+  "updated_utc": "2026-06-06T15:12:18.798595+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -73,15 +73,15 @@
     },
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.005975679688246335,
-      "r2": 0.8707383063435292,
+      "slope": 0.0059756796407439495,
+      "r2": 0.8707382844476331,
       "inside": 0.9615384615384616,
       "near_upper": 0.09615384615384616,
       "near_lower": 0.07692307692307693,
-      "pos": 0.5959174963079382,
+      "pos": 0.5959174966898391,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 36.44280690344965,
+      "annual_trend_pct": 36.44280656641901,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -93,7 +93,7 @@
       "recent_trend_pct": -13.600531244421676,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8603927881563554
+      "rank_score": 0.8603927771702173
     },
     {
       "ticker": "JIOFIN.NS",
@@ -121,15 +121,15 @@
     },
     {
       "ticker": "ONGC.NS",
-      "slope": 0.005204030658193742,
-      "r2": 0.7141737770488734,
+      "slope": 0.005204030486000365,
+      "r2": 0.714173781823848,
       "inside": 0.9807692307692307,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.057692307692307696,
-      "pos": 0.16518958886692495,
+      "pos": 0.16518958253584012,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 31.076324094299103,
+      "annual_trend_pct": 31.076322920634404,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -141,7 +141,7 @@
       "recent_trend_pct": -69.5922695491259,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8328756219454365
+      "rank_score": 0.8328756249660323
     },
     {
       "ticker": "HDFCBANK.NS",
