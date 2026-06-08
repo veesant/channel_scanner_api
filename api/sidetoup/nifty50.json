@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-08T14:53:44.799150+00:00",
+  "updated_utc": "2026-06-08T15:31:28.799507+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -145,15 +145,15 @@
     },
     {
       "ticker": "ONGC.NS",
-      "slope": 0.005260376223580153,
-      "r2": 0.7254261749180119,
+      "slope": 0.005260376446951428,
+      "r2": 0.7254261627543878,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.13999645094461935,
+      "pos": 0.13999648043750565,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 31.46093688968339,
+      "annual_trend_pct": 31.460938416642435,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -165,7 +165,7 @@
       "recent_trend_pct": -65.9294399219814,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8410211346722363
+      "rank_score": 0.8410211256411356
     },
     {
       "ticker": "HDFCBANK.NS",
@@ -217,27 +217,27 @@
     },
     {
       "ticker": "TCS.NS",
-      "slope": -0.009168551694568403,
-      "r2": 0.6742644467119546,
+      "slope": -0.00916855200307698,
+      "r2": 0.6742644211301847,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.29564852797536717,
+      "pos": 0.29564854618013575,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -37.92114089603121,
+      "annual_trend_pct": -37.92114189192796,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -61.842304942241945,
+      "prior_trend_pct": -61.84230646553337,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -54.28933034413459,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8075673705584406
+      "rank_score": 0.8075673559470788
     },
     {
       "ticker": "APOLLOHOSP.NS",
