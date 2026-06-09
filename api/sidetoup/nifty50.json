@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-09T13:38:00.530074+00:00",
+  "updated_utc": "2026-06-09T14:24:47.843593+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -49,15 +49,15 @@
     },
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.0061066162611544605,
-      "r2": 0.8827729691274806,
+      "slope": 0.006106616456707956,
+      "r2": 0.8827730145205771,
       "inside": 0.9615384615384616,
       "near_upper": 0.09615384615384616,
       "near_lower": 0.07692307692307693,
-      "pos": 0.4543385636399576,
+      "pos": 0.4543385294081925,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 37.37497511374317,
+      "annual_trend_pct": 37.37497651067932,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -69,7 +69,7 @@
       "recent_trend_pct": 30.957359385757055,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8805680128151291
+      "rank_score": 0.8805680389348539
     },
     {
       "ticker": "JIOFIN.NS",
@@ -193,27 +193,27 @@
     },
     {
       "ticker": "TCS.NS",
-      "slope": -0.009169266366487992,
-      "r2": 0.6742744516585997,
+      "slope": -0.00916926642247106,
+      "r2": 0.6742744024817339,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.29508334039200695,
+      "pos": 0.2950833548641609,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -37.92344788606857,
+      "annual_trend_pct": -37.92344806678084,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -61.842304942241945,
+      "prior_trend_pct": -61.84230646553337,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -54.35241100336721,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8076288917900991
+      "rank_score": 0.8076288657544509
     },
     {
       "ticker": "SBILIFE.NS",
