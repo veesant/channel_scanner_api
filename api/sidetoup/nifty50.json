@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-10T14:29:23.284397+00:00",
+  "updated_utc": "2026-06-10T14:58:57.605771+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -49,15 +49,15 @@
     },
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.006031186090284975,
-      "r2": 0.8773890663152838,
+      "slope": 0.006031185655917079,
+      "r2": 0.8773890516943587,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.22037095412577887,
+      "pos": 0.22037099786828968,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 36.83719516090467,
+      "annual_trend_pct": 36.83719207014511,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -69,7 +69,7 @@
       "recent_trend_pct": 1.239448485952277,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.9012728223604487
+      "rank_score": 0.9012728106757351
     },
     {
       "ticker": "JIOFIN.NS",
@@ -217,27 +217,27 @@
     },
     {
       "ticker": "TCS.NS",
-      "slope": -0.009164084609656006,
-      "r2": 0.674200095886379,
+      "slope": -0.009164085236007445,
+      "r2": 0.6742001114198589,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.2991815291792507,
+      "pos": 0.2991815483188935,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -37.906719021264976,
+      "annual_trend_pct": -37.90672104366018,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -61.842304942241945,
+      "prior_trend_pct": -61.84230646553337,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -53.893267347035554,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8071818950252644
+      "rank_score": 0.8071819008780401
     },
     {
       "ticker": "BHARTIARTL.NS",
