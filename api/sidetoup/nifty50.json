@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-11T14:27:06.105992+00:00",
+  "updated_utc": "2026-06-11T15:42:07.855942+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.006007890826487747,
-      "r2": 0.8748783277125789,
+      "slope": 0.006007891238607326,
+      "r2": 0.874878338763966,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.1506329749157092,
+      "pos": 0.15063294073950012,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 36.6715372712674,
+      "annual_trend_pct": 36.67154020016827,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -45,7 +45,7 @@
       "recent_trend_pct": -6.496155804421089,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.9069912509801032
+      "rank_score": 0.9069912599234176
     },
     {
       "ticker": "JIOFIN.NS",
@@ -169,27 +169,27 @@
     },
     {
       "ticker": "TCS.NS",
-      "slope": -0.009196902557107775,
-      "r2": 0.674610663401889,
+      "slope": -0.009196901941692023,
+      "r2": 0.6746106644494945,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.2733121513732788,
+      "pos": 0.27331212324055554,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -38.012592906594854,
+      "annual_trend_pct": -38.01259092289744,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -61.84230646553337,
+      "prior_trend_pct": -61.842304942241945,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -56.72499290428428,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8099741165636167
+      "rank_score": 0.8099741199006917
     },
     {
       "ticker": "SBIN.NS",
