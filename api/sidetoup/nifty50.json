@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-13T15:30:53.492678+00:00",
+  "updated_utc": "2026-06-13T21:16:39.883266+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.005994677648084702,
-      "r2": 0.8732740500824058,
+      "slope": 0.005994677583447093,
+      "r2": 0.8732740722915567,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.1118374604555324,
+      "pos": 0.11183741718681998,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 36.577664523213585,
+      "annual_trend_pct": 36.57766406415479,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -45,7 +45,7 @@
       "recent_trend_pct": -10.6184058448764,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.9100686636110342
+      "rank_score": 0.910068679042481
     },
     {
       "ticker": "TATASTEEL.NS",
@@ -66,7 +66,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 62.598038287777946,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -48.734575102633016,
+      "recent_trend_pct": -48.73457510263205,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.9049371374556114
@@ -88,7 +88,7 @@
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 27.404711730588893,
+      "prior_trend_pct": 27.404711730588428,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": -36.94446330106583,
       "recent_trend_type": "Descending",
@@ -114,7 +114,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -64.990699746568,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": 3.809269054763509,
+      "recent_trend_pct": 3.8092690547661068,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
       "rank_score": 0.8573768044438915
@@ -138,7 +138,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -47.35516378210518,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -28.433532793412898,
+      "recent_trend_pct": -28.43353279341424,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.8565689832583568
@@ -193,15 +193,15 @@
     },
     {
       "ticker": "HDFCBANK.NS",
-      "slope": -0.005952796325323777,
-      "r2": 0.7226109926792231,
+      "slope": -0.0059527963253238276,
+      "r2": 0.722610992679223,
       "inside": 1.0,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.057692307692307696,
-      "pos": 0.4379759546035805,
+      "pos": 0.4379759546035845,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -26.62195495334264,
+      "annual_trend_pct": -26.62195495334283,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -213,7 +213,7 @@
       "recent_trend_pct": -21.68767117669821,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8175079008792535
+      "rank_score": 0.8175079008792531
     },
     {
       "ticker": "APOLLOHOSP.NS",
@@ -232,36 +232,36 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 28.903991614044244,
+      "prior_trend_pct": 28.903991614044266,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 56.27233923015969,
+      "recent_trend_pct": 56.272339230166104,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.8109495526079693
     },
     {
       "ticker": "TCS.NS",
-      "slope": -0.00915071628274886,
-      "r2": 0.6739916465726015,
+      "slope": -0.009150715349490376,
+      "r2": 0.673991606594166,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.3097771973425243,
+      "pos": 0.3097771696791665,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -37.863539684380264,
+      "annual_trend_pct": -37.86353666893248,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -61.84230646553337,
+      "prior_trend_pct": -61.842304942241945,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -52.68720553851881,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8060181035520483
+      "rank_score": 0.8060180863291664
     },
     {
       "ticker": "SBIN.NS",
@@ -306,7 +306,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -45.44950139387418,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -55.40042440789651,
+      "recent_trend_pct": -55.40042440789706,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.7703035620131629
@@ -354,22 +354,22 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -40.7965265967968,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -44.98080821176808,
+      "recent_trend_pct": -44.980808211769855,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.7657602206047042
     },
     {
       "ticker": "MARUTI.NS",
-      "slope": -0.007468904249102829,
-      "r2": 0.7188587997761948,
+      "slope": -0.0074689042491027,
+      "r2": 0.7188587997761945,
       "inside": 0.9230769230769231,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.10256410256410256,
-      "pos": 0.6978198755622173,
+      "pos": 0.6978198755622089,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -32.184745312146966,
+      "annual_trend_pct": -32.184745312146504,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -378,10 +378,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -55.28357275021283,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -21.300112464451036,
+      "recent_trend_pct": -21.300112464454955,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.758878181562645
+      "rank_score": 0.7588781815626456
     },
     {
       "ticker": "RELIANCE.NS",
@@ -402,7 +402,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -30.190577154402664,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -59.79963091825583,
+      "recent_trend_pct": -59.79963091825633,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.7585809632005518
