@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-14T12:55:50.589159+00:00",
+  "updated_utc": "2026-06-14T13:35:17.455163+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.005994677506517541,
-      "r2": 0.8732740454389403,
+      "slope": 0.005994677552352725,
+      "r2": 0.8732740703307103,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.11183747363854674,
+      "pos": 0.11183742410331507,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 36.577663517798165,
+      "annual_trend_pct": 36.577663843321396,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -45,7 +45,7 @@
       "recent_trend_pct": -10.6184058448764,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.9100686599710002
+      "rank_score": 0.9100686773704083
     },
     {
       "ticker": "TATASTEEL.NS",
@@ -241,27 +241,27 @@
     },
     {
       "ticker": "TCS.NS",
-      "slope": -0.009150715975841736,
-      "r2": 0.6739916221203033,
+      "slope": -0.009150715349490376,
+      "r2": 0.673991606594166,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.3097771885060012,
+      "pos": 0.3097771696791665,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -37.86353869273389,
+      "annual_trend_pct": -37.86353666893248,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -61.84230646553337,
+      "prior_trend_pct": -61.842304942241945,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -52.68720553851881,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8060180922095516
+      "rank_score": 0.8060180863291664
     },
     {
       "ticker": "SBIN.NS",
