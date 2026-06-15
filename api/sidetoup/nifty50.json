@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-15T16:25:32.292236+00:00",
+  "updated_utc": "2026-06-15T16:56:29.126864+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.005987391090329689,
-      "r2": 0.8723416603391965,
+      "slope": 0.005987391586230635,
+      "r2": 0.8723416998171046,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.057692307692307696,
-      "pos": 0.0955328485840371,
+      "pos": 0.09553275455736938,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 36.52592491181708,
+      "annual_trend_pct": 36.52592843239055,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -45,7 +45,7 @@
       "recent_trend_pct": -31.671882203694,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.9112329299265792
+      "rank_score": 0.9112329590682
     },
     {
       "ticker": "TATASTEEL.NS",
