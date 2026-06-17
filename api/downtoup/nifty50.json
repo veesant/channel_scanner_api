@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-16T22:13:27.999537+00:00",
+  "updated_utc": "2026-06-17T14:32:40.575597+00:00",
   "tf": "1d",
   "params": {
     "n_down": 40,
@@ -21,22 +21,22 @@
       "ticker": "SBIN.NS",
       "tf": "1d",
       "bars_used": 350,
-      "close": 1020.8499755859375,
-      "sma20": 975.1325042724609,
-      "sma50": 1011.4658850097657,
+      "close": 1015.2999877929688,
+      "sma20": 978.4575042724609,
+      "sma50": 1011.4826000976562,
       "trend_ok": true,
       "prior_downtrend_ok": true,
-      "down_slope": -3.281494404003723,
+      "down_slope": -3.5087836918643,
       "fresh_uptrend_ok": true,
-      "up_slope": 6.723331335819129,
-      "up_hh_steps": 1,
-      "up_hl_steps": 2,
-      "up_pivot_highs": 2,
-      "up_pivot_lows": 3,
-      "resistance": 1012.4000244140625,
-      "pullback_from_resistance_pct": -0.8346454927009214,
-      "state": "uptrend",
-      "rank_score": 2.78910758211682
+      "up_slope": 5.750907019412879,
+      "up_hh_steps": 2,
+      "up_hl_steps": 1,
+      "up_pivot_highs": 3,
+      "up_pivot_lows": 2,
+      "resistance": 1034.0,
+      "pullback_from_resistance_pct": 1.808511818861823,
+      "state": "correction",
+      "rank_score": 2.998581363523029
     }
   ]
 }
