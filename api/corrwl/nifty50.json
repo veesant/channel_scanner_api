@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-17T21:58:44.274780+00:00",
+  "updated_utc": "2026-06-18T13:56:20.109759+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -21,62 +21,6 @@
     "only_actionable": false,
     "only_watchlist": true
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "JSWSTEEL.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 1274.300048828125,
-      "sma_fast": 20,
-      "sma_slow": 50,
-      "sma_fast_now": 1289.035009765625,
-      "sma_slow_now": 1268.5920068359376,
-      "trend_ok": true,
-      "recent_swing_high": 1318.5,
-      "recent_swing_high_date": "2026-06-03",
-      "resistance_level": 1318.5,
-      "pullback_from_swing_high_pct": 3.3522905704872965,
-      "had_correction": true,
-      "bars_since_swing_high": 9,
-      "correction_age_ok": true,
-      "anchor_support_close": 1270.300048828125,
-      "anchor_support_date": "2026-05-29",
-      "support_level": 1270.300048828125,
-      "support_tolerance_pct": 1.0,
-      "support_floor": 1270.300048828125,
-      "support_floor_adj": 1257.5970483398437,
-      "correction_close_low": 1260.699951171875,
-      "support_held": true,
-      "close_above_sma_fast": false,
-      "rebound_ok": false,
-      "uptrend_window_used": 50,
-      "uptrend_hh_count": 4,
-      "uptrend_hl_count": 5,
-      "uptrend_pivot_highs": 7,
-      "uptrend_pivot_lows": 8,
-      "uptrend_overall_up": true,
-      "uptrend_ok": true,
-      "uptrend_actionable": true,
-      "watchlist_correction": true,
-      "actionable_after_correction": true,
-      "dist_to_support": 0.0031488623523946747,
-      "actionable_reason": "watchlist_correction",
-      "priceQuality": {
-        "quality_n_bars": 50,
-        "long_wick_count": 16,
-        "max_long_wicks_allowed": 6,
-        "gap_thresh_pct": 2.5,
-        "gap_count": 0,
-        "max_gap_count_allowed": 2,
-        "max_gap_pct": 1.571314801833121,
-        "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 1850624,
-        "price_quality_ok": false
-      },
-      "priceQualityOk": false,
-      "avgVolume50": 1850624,
-      "rank_score": 2.8820801946963353
-    }
-  ]
+  "count": 0,
+  "data": []
 }
