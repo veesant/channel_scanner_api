@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-18T13:56:04.167119+00:00",
+  "updated_utc": "2026-06-18T14:48:14.666086+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.006026023542744847,
-      "r2": 0.8768325191559784,
+      "slope": 0.00602602352418838,
+      "r2": 0.8768325057658415,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.20973784189944644,
+      "pos": 0.20973786272929087,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 36.80046580785372,
+      "annual_trend_pct": 36.80046567584998,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -45,7 +45,7 @@
       "recent_trend_pct": -22.044227277142493,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.9020578600034292
+      "rank_score": 0.9020578512253763
     },
     {
       "ticker": "TATASTEEL.NS",
@@ -193,27 +193,27 @@
     },
     {
       "ticker": "TCS.NS",
-      "slope": -0.009478413695796365,
-      "r2": 0.6923805369618208,
+      "slope": -0.009478413339698273,
+      "r2": 0.6923805591622665,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.425842672160851,
+      "pos": 0.42584266294924294,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -38.91339118618357,
+      "annual_trend_pct": -38.913390055036665,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -60.812984143321515,
+      "prior_trend_pct": -60.812982338264085,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -32.445172454757675,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8036060012648253
+      "rank_score": 0.803606013286209
     },
     {
       "ticker": "WIPRO.NS",
