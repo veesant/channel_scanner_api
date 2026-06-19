@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-19T14:04:31.690834+00:00",
+  "updated_utc": "2026-06-19T14:52:36.563246+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.006022649381440056,
-      "r2": 0.8764846980736645,
+      "slope": 0.006022649286058083,
+      "r2": 0.8764846578703867,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.19957837522780908,
+      "pos": 0.199578444443116,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 36.776465397841186,
+      "annual_trend_pct": 36.77646471944871,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -45,7 +45,7 @@
       "recent_trend_pct": -22.936627234189665,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.902899896129436
+      "rank_score": 0.9028998691062663
     },
     {
       "ticker": "TATASTEEL.NS",
@@ -193,15 +193,15 @@
     },
     {
       "ticker": "TCS.NS",
-      "slope": -0.009617583989862998,
-      "r2": 0.6956550856281223,
+      "slope": -0.009617584325363611,
+      "r2": 0.695655127010706,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.3139415996323322,
+      "pos": 0.3139416022016561,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -39.3538703699605,
+      "annual_trend_pct": -39.353871427994804,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -213,7 +213,7 @@
       "recent_trend_pct": -48.36804777166326,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8164333828508279
+      "rank_score": 0.8164334032851874
     },
     {
       "ticker": "HDFCBANK.NS",
