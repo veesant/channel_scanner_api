@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-20T13:32:26.676349+00:00",
+  "updated_utc": "2026-06-20T15:27:36.565700+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.006022649192158025,
-      "r2": 0.87648468901226,
+      "slope": 0.006022649011744895,
+      "r2": 0.8764846637544946,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.19957840129808443,
+      "pos": 0.19957844928387655,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 36.77646405159618,
+      "annual_trend_pct": 36.77646276843014,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -45,7 +45,7 @@
       "recent_trend_pct": -22.936627234189665,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.9028998889917063
+      "rank_score": 0.9028998715642443
     },
     {
       "ticker": "TATASTEEL.NS",
@@ -193,27 +193,27 @@
     },
     {
       "ticker": "TCS.NS",
-      "slope": -0.009617584076547999,
-      "r2": 0.6956550396607595,
+      "slope": -0.009617583989862998,
+      "r2": 0.6956550856281223,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.31394161377991886,
+      "pos": 0.3139415996323322,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -39.353870643330204,
+      "annual_trend_pct": -39.3538703699605,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -60.812984143321515,
+      "prior_trend_pct": -60.812982338264085,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -48.36804777166326,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8164333584523878
+      "rank_score": 0.8164333828508279
     },
     {
       "ticker": "HDFCBANK.NS",
