@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-20T12:22:30.184139+00:00",
+  "updated_utc": "2026-06-20T13:32:26.676349+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.006022649658001662,
-      "r2": 0.876484704877927,
+      "slope": 0.006022649192158025,
+      "r2": 0.87648468901226,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.1995783520626409,
+      "pos": 0.19957840129808443,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 36.776467364851385,
+      "annual_trend_pct": 36.77646405159618,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -45,7 +45,7 @@
       "recent_trend_pct": -22.936627234189665,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.9028999018480841
+      "rank_score": 0.9028998889917063
     },
     {
       "ticker": "TATASTEEL.NS",
@@ -66,7 +66,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 55.81476153189684,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -47.99299705890385,
+      "recent_trend_pct": -47.99299705890482,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.8967782285774881
@@ -97,15 +97,15 @@
     },
     {
       "ticker": "JIOFIN.NS",
-      "slope": -0.007545108488950153,
-      "r2": 0.8695272863759269,
+      "slope": -0.007545108488950196,
+      "r2": 0.8695272863759274,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.8259022490430169,
+      "pos": 0.8259022490430151,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -32.452939701461936,
+      "annual_trend_pct": -32.45293970146209,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -117,7 +117,7 @@
       "recent_trend_pct": 34.76215338026185,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8521734182836618
+      "rank_score": 0.8521734182836622
     },
     {
       "ticker": "TITAN.NS",
@@ -138,7 +138,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 28.333365780370578,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 84.49115957764705,
+      "recent_trend_pct": 84.49115957765396,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.8467858140185883
@@ -193,27 +193,27 @@
     },
     {
       "ticker": "TCS.NS",
-      "slope": -0.009617584681461755,
-      "r2": 0.6956551052869897,
+      "slope": -0.009617584076547999,
+      "r2": 0.6956550396607595,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.31394162117922864,
+      "pos": 0.31394161377991886,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -39.353872550985436,
+      "annual_trend_pct": -39.353870643330204,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -60.81298414332108,
+      "prior_trend_pct": -60.812984143321515,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -48.36804777166069,
+      "recent_trend_pct": -48.36804777166326,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8164333905255721
+      "rank_score": 0.8164333584523878
     },
     {
       "ticker": "HDFCBANK.NS",
@@ -256,7 +256,7 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 10.301556909880215,
+      "prior_trend_pct": 10.301556909880084,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 137.1012669591017,
       "recent_trend_type": "Ascending",
@@ -313,15 +313,15 @@
     },
     {
       "ticker": "M&M.NS",
-      "slope": -0.008332992330093287,
-      "r2": 0.6844573608805229,
+      "slope": -0.008332992330093143,
+      "r2": 0.6844573608805197,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.15384615384615385,
-      "pos": 0.7387303291486116,
+      "pos": 0.7387303291486013,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -35.164416234547105,
+      "annual_trend_pct": -35.164416234546614,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -330,10 +330,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -42.38597795897794,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -15.984510180822042,
+      "recent_trend_pct": -15.984510180819944,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.7529710321407849
+      "rank_score": 0.7529710321407843
     }
   ]
 }
