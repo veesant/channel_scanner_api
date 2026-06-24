@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-24T14:12:16.163994+00:00",
+  "updated_utc": "2026-06-24T15:59:50.303759+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -42,7 +42,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 22.212140139720795,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 115.31279974480482,
+      "recent_trend_pct": 115.31279974481019,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.8704798641968345
@@ -114,7 +114,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 36.360779730444406,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 47.22139669136176,
+      "recent_trend_pct": 47.22139669136911,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.8385887209577139
@@ -138,7 +138,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -52.702243237192725,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -28.672843365500533,
+      "recent_trend_pct": -28.672843365498313,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.8236112248754841
@@ -193,15 +193,15 @@
     },
     {
       "ticker": "HDFCBANK.NS",
-      "slope": -0.006148028971017117,
-      "r2": 0.7474415013472688,
+      "slope": -0.006148028967353676,
+      "r2": 0.7474415024059156,
       "inside": 1.0,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.6944498401790984,
+      "pos": 0.694449840334193,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -27.36312743318886,
+      "annual_trend_pct": -27.363127419351617,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -210,10 +210,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -51.833541564727525,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": 101.83471743347496,
+      "recent_trend_pct": 101.8347174334782,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8042757666557246
+      "rank_score": 0.8042757671695385
     },
     {
       "ticker": "SBIN.NS",
