@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-27T20:59:21.026552+00:00",
+  "updated_utc": "2026-06-28T12:11:47.010725+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -193,15 +193,15 @@
     },
     {
       "ticker": "HDFCBANK.NS",
-      "slope": -0.006139537156254053,
-      "r2": 0.7464865215188468,
+      "slope": -0.006139537159917444,
+      "r2": 0.7464865204597293,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.7108675639494557,
+      "pos": 0.7108675637389892,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -27.33104576941606,
+      "annual_trend_pct": -27.331045783259235,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -213,7 +213,7 @@
       "recent_trend_pct": 107.76856852031113,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8021565043644778
+      "rank_score": 0.8021565038559657
     },
     {
       "ticker": "SBIN.NS",
