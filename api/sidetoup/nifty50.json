@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-29T15:32:27.735066+00:00",
+  "updated_utc": "2026-06-29T16:58:07.708752+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "COALINDIA.NS",
-      "slope": 0.005930170663364427,
-      "r2": 0.8640153573994593,
+      "slope": 0.005930170509635085,
+      "r2": 0.8640153458612456,
       "inside": 0.9230769230769231,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.057692307692307696,
-      "pos": 0.07604674455877793,
+      "pos": 0.07604677055826478,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 36.12030094128049,
+      "annual_trend_pct": 36.120299853144914,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -45,7 +45,7 @@
       "recent_trend_pct": -42.3897400009418,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8936337734746211
+      "rank_score": 0.8936337651055656
     },
     {
       "ticker": "TITAN.NS",
@@ -97,27 +97,27 @@
     },
     {
       "ticker": "TCS.NS",
-      "slope": -0.011167069669364491,
-      "r2": 0.7995330409909311,
+      "slope": -0.01116706884727077,
+      "r2": 0.7995330119690209,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.41165990153987214,
+      "pos": 0.41165987419307853,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -44.04864999843512,
+      "annual_trend_pct": -44.04864760657789,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -58.67883350221551,
+      "prior_trend_pct": -58.678831091289375,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -54.65594538250647,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8586005303414784
+      "rank_score": 0.8586005185652026
     },
     {
       "ticker": "JIOFIN.NS",
@@ -241,15 +241,15 @@
     },
     {
       "ticker": "HDFCBANK.NS",
-      "slope": -0.0061639787436524,
-      "r2": 0.7496469755321695,
+      "slope": -0.006163978740060937,
+      "r2": 0.7496469766013469,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.7476182781648995,
+      "pos": 0.7476182785153469,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -27.423346620519563,
+      "annual_trend_pct": -27.42334660696544,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -261,7 +261,7 @@
       "recent_trend_pct": 183.30801238990756,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8000616599495949
+      "rank_score": 0.8000616604491388
     },
     {
       "ticker": "WIPRO.NS",
