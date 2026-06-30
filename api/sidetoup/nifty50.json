@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-30T14:08:24.311736+00:00",
+  "updated_utc": "2026-06-30T16:19:51.883308+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -49,27 +49,27 @@
     },
     {
       "ticker": "TCS.NS",
-      "slope": -0.01129077023727319,
-      "r2": 0.8006099238818626,
+      "slope": -0.011290771059366884,
+      "r2": 0.8006099529287722,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.2995323266017803,
+      "pos": 0.2995323515810055,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -44.40739806669738,
+      "annual_trend_pct": -44.40740044321836,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -58.678831091289375,
+      "prior_trend_pct": -58.67883350221551,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -64.29257433254271,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8703517292807532
+      "rank_score": 0.8703517413062856
     },
     {
       "ticker": "TITAN.NS",
@@ -97,15 +97,15 @@
     },
     {
       "ticker": "JIOFIN.NS",
-      "slope": -0.00757800720813259,
-      "r2": 0.8718157991219099,
+      "slope": -0.007562376560286453,
+      "r2": 0.8708306931083492,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.7097855432367663,
+      "pos": 0.7078886835773598,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -32.56839592784755,
+      "annual_trend_pct": -32.513565665859176,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -117,7 +117,7 @@
       "recent_trend_pct": 2.2295239623707497,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.8495447298526629
+      "rank_score": 0.8492418628118232
     },
     {
       "ticker": "APOLLOHOSP.NS",
@@ -169,15 +169,15 @@
     },
     {
       "ticker": "HCLTECH.NS",
-      "slope": -0.010227052337023956,
-      "r2": 0.699124149946658,
+      "slope": -0.010227051401933425,
+      "r2": 0.6991240783663308,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.288181600703624,
+      "pos": 0.2881815861335291,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -41.24575154937964,
+      "annual_trend_pct": -41.245748692471416,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -189,19 +189,19 @@
       "recent_trend_pct": -60.24751381258879,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8104875046465563
+      "rank_score": 0.8104874703134023
     },
     {
       "ticker": "HDFCBANK.NS",
-      "slope": -0.006166569141884773,
-      "r2": 0.749963639882793,
+      "slope": -0.006166569145476219,
+      "r2": 0.7499636388136578,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.7426226419578386,
+      "pos": 0.7426226416242486,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -27.433122088724083,
+      "annual_trend_pct": -27.433122102276318,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -213,7 +213,7 @@
       "recent_trend_pct": 180.81490306997767,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8007195557456126
+      "rank_score": 0.8007195552444041
     },
     {
       "ticker": "SBILIFE.NS",
