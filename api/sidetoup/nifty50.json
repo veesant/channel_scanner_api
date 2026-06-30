@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-06-30T13:08:00.079737+00:00",
+  "updated_utc": "2026-06-30T14:08:24.311736+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -97,15 +97,15 @@
     },
     {
       "ticker": "JIOFIN.NS",
-      "slope": -0.007562376560286453,
-      "r2": 0.8708306931083492,
+      "slope": -0.00757800720813259,
+      "r2": 0.8718157991219099,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.7078886835773598,
+      "pos": 0.7097855432367663,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -32.513565665859176,
+      "annual_trend_pct": -32.56839592784755,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -117,7 +117,7 @@
       "recent_trend_pct": 2.2295239623707497,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.8492418628118232
+      "rank_score": 0.8495447298526629
     },
     {
       "ticker": "APOLLOHOSP.NS",
@@ -169,15 +169,15 @@
     },
     {
       "ticker": "HCLTECH.NS",
-      "slope": -0.010227051401933425,
-      "r2": 0.6991240783663308,
+      "slope": -0.010227052337023956,
+      "r2": 0.699124149946658,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.2881815861335291,
+      "pos": 0.288181600703624,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -41.245748692471416,
+      "annual_trend_pct": -41.24575154937964,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -189,7 +189,7 @@
       "recent_trend_pct": -60.24751381258879,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8104874703134023
+      "rank_score": 0.8104875046465563
     },
     {
       "ticker": "HDFCBANK.NS",
