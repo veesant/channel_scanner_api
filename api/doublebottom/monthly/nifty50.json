@@ -10,7 +10,7 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-07-01T16:19:50.752194+00:00"
+    "lastUpdatedTs": "2026-07-01T21:30:56.851699+00:00"
   },
   "counts": {
     "total": 50,
@@ -76,15 +76,15 @@
       "first_bottom_date": "2025-08-01",
       "middle_peak_date": "2025-10-01",
       "second_bottom_date": "2026-01-01",
-      "first_bottom": 7002.229009648849,
+      "first_bottom": 7002.229460105947,
       "middle_peak": 8088.761552196573,
       "second_bottom": 6687.621506374137,
-      "bottom_similarity_pct": 4.704325790190893,
-      "bounce_from_bottom_pct": 15.516952402592329,
+      "bottom_similarity_pct": 4.704332525875583,
+      "bounce_from_bottom_pct": 15.516944971326124,
       "rise_after_second_bottom_pct": 29.821940307551365,
       "current_close": 8682.0,
       "recovered_halfway": true,
-      "rank_score": 50.6345669199528
+      "rank_score": 50.634552753001906
     },
     {
       "ticker": "TECHM.NS",
@@ -93,21 +93,21 @@
       "pattern_detected": true,
       "bars_used": 12,
       "pivot_strength": 1,
-      "first_bottom_bar": 2,
+      "first_bottom_bar": 4,
       "middle_peak_bar": 7,
       "second_bottom_bar": 8,
-      "first_bottom_date": "2025-09-01",
+      "first_bottom_date": "2025-11-01",
       "middle_peak_date": "2026-02-01",
       "second_bottom_date": "2026-03-01",
-      "first_bottom": 1377.477177643292,
+      "first_bottom": 1383.5999755859375,
       "middle_peak": 1854.0,
       "second_bottom": 1304.0999755859375,
-      "bottom_similarity_pct": 5.626654660766003,
-      "bounce_from_bottom_pct": 34.59388148789404,
+      "bottom_similarity_pct": 6.096158384197524,
+      "bounce_from_bottom_pct": 33.998267759064824,
       "rise_after_second_bottom_pct": 7.7141306241292975,
       "current_close": 1404.699951171875,
       "recovered_halfway": false,
-      "rank_score": 44.681357451257334
+      "rank_score": 43.6162399989966
     },
     {
       "ticker": "SUNPHARMA.NS",
@@ -168,15 +168,15 @@
       "first_bottom_date": "2025-08-01",
       "middle_peak_date": "2025-09-01",
       "second_bottom_date": "2025-11-01",
-      "first_bottom": 344.4345821057129,
+      "first_bottom": 344.4345220720664,
       "middle_peak": 386.7210571895904,
       "second_bottom": 355.1549191302245,
-      "bottom_similarity_pct": 3.112445027724131,
+      "bottom_similarity_pct": 3.112462999836904,
       "bounce_from_bottom_pct": 8.887991228355062,
       "rise_after_second_bottom_pct": 23.622105212058866,
       "current_close": 439.04998779296875,
       "recovered_halfway": true,
-      "rank_score": 39.3976514126898
+      "rank_score": 39.397633440577025
     },
     {
       "ticker": "TATASTEEL.NS",
@@ -329,15 +329,15 @@
       "first_bottom_date": "2025-09-01",
       "middle_peak_date": "2025-10-01",
       "second_bottom_date": "2025-12-01",
-      "first_bottom": 315.32812035038484,
-      "middle_peak": 344.4529016740786,
+      "first_bottom": 315.32814936202715,
+      "middle_peak": 344.45286997456253,
       "second_bottom": 313.18550201698105,
-      "bottom_similarity_pct": 0.6841371390453492,
-      "bounce_from_bottom_pct": 9.23634127249134,
+      "bottom_similarity_pct": 0.6841464024506234,
+      "bounce_from_bottom_pct": 9.236321169378822,
       "rise_after_second_bottom_pct": 13.878194105277156,
       "current_close": 356.6499938964844,
       "recovered_halfway": true,
-      "rank_score": 32.43039823872314
+      "rank_score": 32.43036887220536
     },
     {
       "ticker": "TATACONSUM.NS",
