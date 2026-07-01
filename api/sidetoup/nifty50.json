@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-01T13:42:05.581697+00:00",
+  "updated_utc": "2026-07-01T14:10:23.206032+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "TCS.NS",
-      "slope": -0.011384483882994373,
-      "r2": 0.8001785667422792,
+      "slope": -0.011384483561807534,
+      "r2": 0.8001785380613917,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.216813717805603,
+      "pos": 0.2168137199470984,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -44.677647894299064,
+      "annual_trend_pct": -44.677646970320865,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -45,7 +45,7 @@
       "recent_trend_pct": -70.20445028363234,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8784079115905793
+      "rank_score": 0.8784078970359861
     },
     {
       "ticker": "TITAN.NS",
@@ -145,15 +145,15 @@
     },
     {
       "ticker": "HCLTECH.NS",
-      "slope": -0.0103644029014304,
-      "r2": 0.6993399673848407,
+      "slope": -0.010364403836520908,
+      "r2": 0.6993400382172238,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.18703341602700332,
+      "pos": 0.18703342239283244,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -41.663892858985584,
+      "annual_trend_pct": -41.66389569556159,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -165,7 +165,7 @@
       "recent_trend_pct": -69.51033498316696,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8207102318333098
+      "rank_score": 0.8207102666129185
     },
     {
       "ticker": "HDFCBANK.NS",

@@ -10,7 +10,7 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-07-01T13:34:18.252631+00:00"
+    "lastUpdatedTs": "2026-07-01T14:14:00.303117+00:00"
   },
   "counts": {
     "total": 50,
@@ -76,15 +76,15 @@
       "first_bottom_date": "2025-08-01",
       "middle_peak_date": "2025-10-01",
       "second_bottom_date": "2026-01-01",
-      "first_bottom": 7002.229009648849,
+      "first_bottom": 7011.191754527349,
       "middle_peak": 8088.761552196573,
       "second_bottom": 6687.621506374137,
-      "bottom_similarity_pct": 4.704325790190893,
-      "bounce_from_bottom_pct": 15.516952402592329,
+      "bottom_similarity_pct": 4.838345708482588,
+      "bounce_from_bottom_pct": 15.369281505863858,
       "rise_after_second_bottom_pct": 29.821940307551365,
       "current_close": 8682.0,
       "recovered_halfway": true,
-      "rank_score": 50.6345669199528
+      "rank_score": 50.35287610493263
     },
     {
       "ticker": "TECHM.NS",
@@ -168,15 +168,15 @@
       "first_bottom_date": "2025-08-01",
       "middle_peak_date": "2025-09-01",
       "second_bottom_date": "2025-11-01",
-      "first_bottom": 344.4345520888897,
+      "first_bottom": 344.4345821057129,
       "middle_peak": 386.7210571895904,
       "second_bottom": 355.1549191302245,
-      "bottom_similarity_pct": 3.1124540137797174,
+      "bottom_similarity_pct": 3.112445027724131,
       "bounce_from_bottom_pct": 8.887991228355062,
       "rise_after_second_bottom_pct": 23.622105212058866,
       "current_close": 439.04998779296875,
       "recovered_halfway": true,
-      "rank_score": 39.39764242663421
+      "rank_score": 39.3976514126898
     },
     {
       "ticker": "TATASTEEL.NS",
@@ -461,21 +461,21 @@
       "pattern_detected": true,
       "bars_used": 12,
       "pivot_strength": 1,
-      "first_bottom_bar": 2,
+      "first_bottom_bar": 1,
       "middle_peak_bar": 4,
       "second_bottom_bar": 5,
-      "first_bottom_date": "2025-09-01",
+      "first_bottom_date": "2025-08-01",
       "middle_peak_date": "2025-11-01",
       "second_bottom_date": "2025-12-01",
-      "first_bottom": 218.91146892170266,
-      "middle_peak": 246.51608690377498,
+      "first_bottom": 219.43324277080671,
+      "middle_peak": 252.5569247866216,
       "second_bottom": 223.3541112396132,
-      "bottom_similarity_pct": 2.0294241959061132,
-      "bounce_from_bottom_pct": 10.370069095936065,
+      "bottom_similarity_pct": 1.7868160809625995,
+      "bounce_from_bottom_pct": 13.074670255646105,
       "rise_after_second_bottom_pct": 5.169317275062298,
       "current_close": 234.89999389648438,
       "recovered_halfway": false,
-      "rank_score": 21.509962175092248
+      "rank_score": 24.457171449745804
     },
     {
       "ticker": "ICICIBANK.NS",
