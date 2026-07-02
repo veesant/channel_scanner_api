@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-02T13:38:56.008785+00:00",
+  "updated_utc": "2026-07-02T16:07:29.214592+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -49,27 +49,27 @@
     },
     {
       "ticker": "TCS.NS",
-      "slope": -0.011222093613615102,
-      "r2": 0.8002496813736459,
+      "slope": -0.011222094435708787,
+      "r2": 0.8002497103900812,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.3614698706162527,
+      "pos": 0.3614698969554968,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -44.20851171368645,
+      "annual_trend_pct": -44.20851409870957,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -58.678831091289375,
+      "prior_trend_pct": -58.67883350221551,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -59.227710890340525,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8639778536251977
+      "rank_score": 0.863977865499491
     },
     {
       "ticker": "TITAN.NS",
@@ -193,15 +193,15 @@
     },
     {
       "ticker": "HDFCBANK.NS",
-      "slope": -0.006172169378400542,
-      "r2": 0.7506362526261678,
+      "slope": -0.006172169374809077,
+      "r2": 0.750636253695164,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.7318011426215265,
+      "pos": 0.7318011429184966,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -27.454251379354833,
+      "annual_trend_pct": -27.45425136580647,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -213,7 +213,7 @@
       "recent_trend_pct": 175.49973946317618,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8021380120509313
+      "rank_score": 0.8021380125557322
     },
     {
       "ticker": "SBILIFE.NS",
