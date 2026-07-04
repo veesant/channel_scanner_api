@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-04T13:11:53.303724+00:00",
+  "updated_utc": "2026-07-04T14:57:07.936703+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 260,
@@ -647,12 +647,12 @@
     {
       "ticker": "MAXHEALTH.NS",
       "tf": "1d",
-      "bars_used": 176,
+      "bars_used": 177,
       "close": 1153.4000244140625,
       "sma_fast": 20,
       "sma_slow": 50,
-      "sma_fast_now": 1066.3224609375,
-      "sma_slow_now": 1031.9899768066407,
+      "sma_fast_now": 1073.614501953125,
+      "sma_slow_now": 1034.4645788574219,
       "trend_ok": true,
       "recent_swing_high": 1156.9439396958444,
       "recent_swing_high_date": "2026-06-29",
@@ -689,11 +689,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 7.113050634963498,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 2656694,
+        "avg_volume_50": 2605619,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 2656694,
+      "avgVolume50": 2605619,
       "rank_score": 2.3536908962860745
     },
     {
