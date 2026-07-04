@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-04T14:56:24.497475+00:00",
+  "updated_utc": "2026-07-04T21:03:28.359086+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -169,15 +169,15 @@
     },
     {
       "ticker": "HDFCBANK.NS",
-      "slope": -0.006158127782572544,
-      "r2": 0.7489188217478149,
+      "slope": -0.006158127786163934,
+      "r2": 0.7489188206785947,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.7588781787110185,
+      "pos": 0.7588781783226793,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -27.40126181597936,
+      "annual_trend_pct": -27.401261829537336,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -189,19 +189,19 @@
       "recent_trend_pct": 189.02097698619426,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7985715930028057
+      "rank_score": 0.7985715925070295
     },
     {
       "ticker": "HCLTECH.NS",
-      "slope": -0.009993162321820875,
-      "r2": 0.6937124484259831,
+      "slope": -0.009993162932067411,
+      "r2": 0.6937124824142861,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.46696235858132606,
+      "pos": 0.46696237629442106,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -40.5268027155746,
+      "annual_trend_pct": -40.526804602826815,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -213,7 +213,7 @@
       "recent_trend_pct": -37.547114740664824,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.7899035780984487
+      "rank_score": 0.7899035933212907
     },
     {
       "ticker": "SBILIFE.NS",
