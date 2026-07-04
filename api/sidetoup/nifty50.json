@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-04T12:06:32.947083+00:00",
+  "updated_utc": "2026-07-04T13:02:04.724969+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -73,27 +73,27 @@
     },
     {
       "ticker": "TCS.NS",
-      "slope": -0.011175143814075557,
-      "r2": 0.7996624435870353,
+      "slope": -0.011175144314982337,
+      "r2": 0.7996624434685777,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.40427046915748116,
+      "pos": 0.40427048678749156,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -44.07213655103867,
+      "annual_trend_pct": -44.072138007800234,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -58.678831091289375,
+      "prior_trend_pct": -58.67883350221551,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -55.35765507291652,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8594041748777697
+      "rank_score": 0.8594041730555397
     },
     {
       "ticker": "HDFCLIFE.NS",
@@ -193,15 +193,15 @@
     },
     {
       "ticker": "HCLTECH.NS",
-      "slope": -0.009993163256911235,
-      "r2": 0.6937125212036215,
+      "slope": -0.009993162321820875,
+      "r2": 0.6937124484259831,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.46696238758227215,
+      "pos": 0.46696235858132606,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -40.52680560744083,
+      "annual_trend_pct": -40.5268027155746,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -213,7 +213,7 @@
       "recent_trend_pct": -37.547114740664824,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.7899036115871734
+      "rank_score": 0.7899035780984487
     },
     {
       "ticker": "SBILIFE.NS",
