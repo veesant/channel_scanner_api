@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-06T15:04:41.066511+00:00",
+  "updated_utc": "2026-07-06T16:56:37.979281+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -193,15 +193,15 @@
     },
     {
       "ticker": "HDFCBANK.NS",
-      "slope": -0.006089330585231924,
-      "r2": 0.7384310539349549,
+      "slope": -0.00608933072359051,
+      "r2": 0.7384310741822778,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.9214461563416458,
+      "pos": 0.9214461793514954,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -27.1410780303615,
+      "annual_trend_pct": -27.141078554555676,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -213,7 +213,7 @@
       "recent_trend_pct": 221.86645149481527,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7770709113333129
+      "rank_score": 0.7770709191559894
     },
     {
       "ticker": "ADANIENT.NS",
