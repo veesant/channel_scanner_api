@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-07T13:09:07.360689+00:00",
+  "updated_utc": "2026-07-07T14:16:24.162022+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -217,15 +217,15 @@
     },
     {
       "ticker": "HDFCBANK.NS",
-      "slope": -0.006090773927922848,
-      "r2": 0.7386762177718637,
+      "slope": -0.0060907740662814736,
+      "r2": 0.7386762380178111,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.9188205759497549,
+      "pos": 0.9188205988998956,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -27.146546165566367,
+      "annual_trend_pct": -27.14654668972136,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -237,7 +237,7 @@
       "recent_trend_pct": 220.28516910919058,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7774560512909564
+      "rank_score": 0.777456059118916
     },
     {
       "ticker": "RELIANCE.NS",
