@@ -10,7 +10,7 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-07-06T21:37:43.288952+00:00"
+    "lastUpdatedTs": "2026-07-07T13:08:55.366801+00:00"
   },
   "counts": {
     "total": 50,
@@ -64,6 +64,29 @@
       "rank_score": 46.84027641085493
     },
     {
+      "ticker": "SUNPHARMA.NS",
+      "tf": "1mo",
+      "bars_available": 73,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 1,
+      "middle_peak_bar": 4,
+      "second_bottom_bar": 5,
+      "first_bottom_date": "2025-09-01",
+      "middle_peak_date": "2025-12-01",
+      "second_bottom_date": "2026-01-01",
+      "first_bottom": 1533.9891278331788,
+      "middle_peak": 1832.2647685774807,
+      "second_bottom": 1569.3658569320078,
+      "bottom_similarity_pct": 2.3061916448390996,
+      "bounce_from_bottom_pct": 16.751919922574366,
+      "rise_after_second_bottom_pct": 21.37386833124214,
+      "current_close": 1904.800048828125,
+      "recovered_halfway": true,
+      "rank_score": 45.819596608977406
+    },
+    {
       "ticker": "ONGC.NS",
       "tf": "1mo",
       "bars_available": 73,
@@ -85,29 +108,6 @@
       "current_close": 237.83999633789062,
       "recovered_halfway": false,
       "rank_score": 45.62859797913965
-    },
-    {
-      "ticker": "SUNPHARMA.NS",
-      "tf": "1mo",
-      "bars_available": 73,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 1,
-      "middle_peak_bar": 4,
-      "second_bottom_bar": 5,
-      "first_bottom_date": "2025-09-01",
-      "middle_peak_date": "2025-12-01",
-      "second_bottom_date": "2026-01-01",
-      "first_bottom": 1538.0093864663436,
-      "middle_peak": 1837.0667567825794,
-      "second_bottom": 1573.4789185424852,
-      "bottom_similarity_pct": 2.3061973735826604,
-      "bounce_from_bottom_pct": 16.75191419051587,
-      "rise_after_second_bottom_pct": 21.05659798686994,
-      "current_close": 1904.800048828125,
-      "recovered_halfway": true,
-      "rank_score": 45.502314803803145
     },
     {
       "ticker": "NESTLEIND.NS",
@@ -260,15 +260,15 @@
       "first_bottom_date": "2025-12-01",
       "middle_peak_date": "2026-02-01",
       "second_bottom_date": "2026-03-01",
-      "first_bottom": 1073.199951171875,
-      "middle_peak": 1284.699951171875,
-      "second_bottom": 1102.5,
-      "bottom_similarity_pct": 2.730157487999414,
-      "bounce_from_bottom_pct": 16.526072668650794,
-      "rise_after_second_bottom_pct": 11.582762011054422,
+      "first_bottom": 1067.0708614718808,
+      "middle_peak": 1277.362951635477,
+      "second_bottom": 1096.2035763067233,
+      "bottom_similarity_pct": 2.730157470016366,
+      "bounce_from_bottom_pct": 16.526070452999903,
+      "rise_after_second_bottom_pct": 12.223676127440292,
       "current_close": 1230.199951171875,
       "recovered_halfway": true,
-      "rank_score": 35.378677191705805
+      "rank_score": 36.01958911042383
     },
     {
       "ticker": "TITAN.NS",
