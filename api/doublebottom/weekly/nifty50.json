@@ -10,11 +10,11 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-07-10T13:59:14.677540+00:00"
+    "lastUpdatedTs": "2026-07-10T16:03:16.805415+00:00"
   },
   "counts": {
     "total": 50,
-    "matched": 16
+    "matched": 17
   },
   "data": [
     {
@@ -62,6 +62,29 @@
       "current_close": 292.45001220703125,
       "recovered_halfway": true,
       "rank_score": 45.08570516710539
+    },
+    {
+      "ticker": "SHRIRAMFIN.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 1,
+      "middle_peak_bar": 2,
+      "second_bottom_bar": 3,
+      "first_bottom_date": "2026-04-27",
+      "middle_peak_date": "2026-05-04",
+      "second_bottom_date": "2026-05-11",
+      "first_bottom": 915.819505360949,
+      "middle_peak": 1017.9916071436359,
+      "second_bottom": 896.2303434768197,
+      "bottom_similarity_pct": 2.1857284822711422,
+      "bounce_from_bottom_pct": 11.156357905089392,
+      "rise_after_second_bottom_pct": 15.115489972088755,
+      "current_close": 1031.699951171875,
+      "recovered_halfway": true,
+      "rank_score": 34.086119394907
     },
     {
       "ticker": "TECHM.NS",
