@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-12T14:49:46.085222+00:00",
+  "updated_utc": "2026-07-12T20:44:22.353191+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -265,15 +265,15 @@
     },
     {
       "ticker": "NESTLEIND.NS",
-      "slope": 0.004259673396183553,
-      "r2": 0.6688387691931807,
+      "slope": 0.00425967293031512,
+      "r2": 0.6688387818734043,
       "inside": 0.9230769230769231,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.673208894542339,
+      "pos": 0.6732089699476663,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 24.79510127860398,
+      "annual_trend_pct": 24.7950982554229,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -285,7 +285,7 @@
       "recent_trend_pct": 91.18818604266741,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7363292643731257
+      "rank_score": 0.7363292631727048
     }
   ]
 }
