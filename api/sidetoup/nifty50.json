@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-12T13:04:47.977408+00:00",
+  "updated_utc": "2026-07-12T14:49:46.085222+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -169,15 +169,15 @@
     },
     {
       "ticker": "HCLTECH.NS",
-      "slope": -0.010523013556142687,
-      "r2": 0.7390419532806763,
+      "slope": -0.010523014214083373,
+      "r2": 0.7390419911548918,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.5961063928426937,
+      "pos": 0.5961064189214371,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -42.14305599650605,
+      "annual_trend_pct": -42.143057975960765,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -189,7 +189,7 @@
       "recent_trend_pct": 14.513535738132944,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7996539270996585
+      "rank_score": 0.7996539434288918
     },
     {
       "ticker": "ADANIENT.NS",
@@ -265,15 +265,15 @@
     },
     {
       "ticker": "NESTLEIND.NS",
-      "slope": 0.00425967293031512,
-      "r2": 0.6688387818734043,
+      "slope": 0.004259673396183553,
+      "r2": 0.6688387691931807,
       "inside": 0.9230769230769231,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.6732089699476663,
+      "pos": 0.673208894542339,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 24.7950982554229,
+      "annual_trend_pct": 24.79510127860398,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -285,7 +285,7 @@
       "recent_trend_pct": 91.18818604266741,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7363292631727048
+      "rank_score": 0.7363292643731257
     }
   ]
 }
