@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-16T13:26:14.416765+00:00",
+  "updated_utc": "2026-07-16T15:20:29.325074+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -64,7 +64,7 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -46.423617014493665,
+      "prior_trend_pct": -46.4236170144933,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -4.200994339127084,
       "recent_trend_type": "Sideways",
@@ -73,15 +73,15 @@
     },
     {
       "ticker": "TCS.NS",
-      "slope": -0.012045109160633135,
-      "r2": 0.8522191896979711,
+      "slope": -0.012045109761502406,
+      "r2": 0.852219196580417,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.7762065612037397,
+      "pos": 0.7762065779638562,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -46.54583757076152,
+      "annual_trend_pct": -46.54583924094761,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -93,7 +93,7 @@
       "recent_trend_pct": 5.717870657395396,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.8484889387286116
+      "rank_score": 0.8484889404938228
     },
     {
       "ticker": "TITAN.NS",
@@ -114,7 +114,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 13.13809228660794,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 173.23342637837175,
+      "recent_trend_pct": 173.23342637837854,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.8372585952891599
@@ -138,7 +138,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 107.00443535445237,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 10.61811402724575,
+      "recent_trend_pct": 10.618114027248504,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.8172875611205431
@@ -184,24 +184,24 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -56.75006473511179,
+      "prior_trend_pct": -56.750064735111415,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -14.049222443587684,
+      "recent_trend_pct": -14.04922244358523,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.8090257130394443
     },
     {
       "ticker": "HCLTECH.NS",
-      "slope": -0.010925900582952374,
-      "r2": 0.7755127964546318,
+      "slope": -0.010925901288587218,
+      "r2": 0.7755128384724486,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.7236680238779425,
+      "pos": 0.7236680638986811,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -43.342557502595646,
+      "annual_trend_pct": -43.34255958152783,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -213,7 +213,7 @@
       "recent_trend_pct": 97.39557750020715,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8051331855831114
+      "rank_score": 0.805133202589946
     },
     {
       "ticker": "WIPRO.NS",
@@ -258,7 +258,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 31.96511495060679,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -10.28916336241501,
+      "recent_trend_pct": -10.289163362417575,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.7556477519898277
