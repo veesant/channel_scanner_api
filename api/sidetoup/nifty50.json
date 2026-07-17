@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-17T13:11:29.985520+00:00",
+  "updated_utc": "2026-07-17T15:14:49.982537+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -97,15 +97,15 @@
     },
     {
       "ticker": "TCS.NS",
-      "slope": -0.011928081058625062,
-      "r2": 0.84496269151933,
+      "slope": -0.011928080686581749,
+      "r2": 0.8449626919744172,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.888834904608984,
+      "pos": 0.888834904614796,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -46.219552543221354,
+      "annual_trend_pct": -46.21955150277124,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -117,7 +117,7 @@
       "recent_trend_pct": 32.52960926940158,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8335978552987666
+      "rank_score": 0.8335978555257291
     },
     {
       "ticker": "ADANIPORTS.NS",
@@ -169,27 +169,27 @@
     },
     {
       "ticker": "HCLTECH.NS",
-      "slope": -0.010833756078077742,
-      "r2": 0.7690757416831888,
+      "slope": -0.01083375617666666,
+      "r2": 0.769075743110188,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.8012321078067225,
+      "pos": 0.8012321053717443,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -43.07043113124674,
+      "annual_trend_pct": -43.070431423103216,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -59.684717694032784,
+      "prior_trend_pct": -59.684721201589255,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 135.84655796692684,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8044146600609222
+      "rank_score": 0.8044146610179196
     },
     {
       "ticker": "INFY.NS",
