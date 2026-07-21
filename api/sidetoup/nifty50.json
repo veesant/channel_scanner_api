@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-21T12:33:34.109124+00:00",
+  "updated_utc": "2026-07-21T13:21:48.449775+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -193,27 +193,27 @@
     },
     {
       "ticker": "HCLTECH.NS",
-      "slope": -0.010895975245640468,
-      "r2": 0.7751770597272517,
+      "slope": -0.01089597534948566,
+      "r2": 0.7751770620105675,
       "inside": 1.0,
       "near_upper": 0.10256410256410256,
       "near_lower": 0.05128205128205128,
-      "pos": 0.9343637469696319,
+      "pos": 0.9343637450913224,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -43.25432322889596,
+      "annual_trend_pct": -43.254323535319784,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -57.560405556921346,
+      "prior_trend_pct": -57.560409524640065,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 241.59916488021622,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7941521551666626
+      "rank_score": 0.7941521564961515
     }
   ]
 }
