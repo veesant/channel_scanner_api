@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-21T21:04:45.255039+00:00",
+  "updated_utc": "2026-07-22T12:28:34.540184+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -21,62 +21,6 @@
     "only_actionable": false,
     "only_watchlist": true
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "MARUTI.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 13514.0,
-      "sma_fast": 20,
-      "sma_slow": 50,
-      "sma_fast_now": 13860.95,
-      "sma_slow_now": 13462.32,
-      "trend_ok": true,
-      "recent_swing_high": 14598.0,
-      "recent_swing_high_date": "2026-07-07",
-      "resistance_level": 14598.0,
-      "pullback_from_swing_high_pct": 7.425674749965749,
-      "had_correction": true,
-      "bars_since_swing_high": 9,
-      "correction_age_ok": true,
-      "anchor_support_close": 13201.0,
-      "anchor_support_date": "2026-06-24",
-      "support_level": 13201.0,
-      "support_tolerance_pct": 1.0,
-      "support_floor": 13201.0,
-      "support_floor_adj": 13068.99,
-      "correction_close_low": 13489.0,
-      "support_held": true,
-      "close_above_sma_fast": false,
-      "rebound_ok": false,
-      "uptrend_window_used": 50,
-      "uptrend_hh_count": 4,
-      "uptrend_hl_count": 3,
-      "uptrend_pivot_highs": 7,
-      "uptrend_pivot_lows": 5,
-      "uptrend_overall_up": true,
-      "uptrend_ok": true,
-      "uptrend_actionable": true,
-      "watchlist_correction": true,
-      "actionable_after_correction": true,
-      "dist_to_support": 0.023710324975380653,
-      "actionable_reason": "watchlist_correction",
-      "priceQuality": {
-        "quality_n_bars": 50,
-        "long_wick_count": 11,
-        "max_long_wicks_allowed": 6,
-        "gap_thresh_pct": 2.5,
-        "gap_count": 0,
-        "max_gap_count_allowed": 2,
-        "max_gap_pct": 2.4753951685058158,
-        "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 450334,
-        "price_quality_ok": false
-      },
-      "priceQualityOk": false,
-      "avgVolume50": 450334,
-      "rank_score": 3.1688571500211946
-    }
-  ]
+  "count": 0,
+  "data": []
 }
