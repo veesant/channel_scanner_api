@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-23T12:18:07.530707+00:00",
+  "updated_utc": "2026-07-23T13:32:24.528070+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -73,15 +73,15 @@
     },
     {
       "ticker": "TCS.NS",
-      "slope": -0.011981001918501225,
-      "r2": 0.8487188125867988,
+      "slope": -0.011981002212921735,
+      "r2": 0.8487188295601049,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.8775076899945946,
+      "pos": 0.8775077208631898,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -46.367346684977576,
+      "annual_trend_pct": -46.36734750608634,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -93,7 +93,7 @@
       "recent_trend_pct": 123.64328207111419,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.83660863729394
+      "rank_score": 0.8366086426937335
     },
     {
       "ticker": "TITAN.NS",
@@ -145,27 +145,27 @@
     },
     {
       "ticker": "HCLTECH.NS",
-      "slope": -0.010879873713705383,
-      "r2": 0.7736474641193105,
+      "slope": -0.010879873049109512,
+      "r2": 0.7736474163191343,
       "inside": 1.0,
       "near_upper": 0.10256410256410256,
       "near_lower": 0.05128205128205128,
-      "pos": 0.9471644748266624,
+      "pos": 0.9471644174848284,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -43.206791331938675,
+      "annual_trend_pct": -43.206789369222975,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -57.560409524640065,
+      "prior_trend_pct": -57.560405556921346,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 252.38952771284718,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.792107284576989
+      "rank_score": 0.7921072664110843
     }
   ]
 }
