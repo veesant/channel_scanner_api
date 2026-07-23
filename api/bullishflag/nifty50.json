@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-22T21:11:18.442868+00:00",
+  "updated_utc": "2026-07-23T12:25:49.328105+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -18,23 +18,23 @@
       "ticker": "ETERNAL.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 286.6000061035156,
-      "sma20": 279.30250244140626,
-      "sma50": 261.3432012939453,
+      "close": 284.3999938964844,
+      "sma20": 280.7050018310547,
+      "sma50": 262.2748010253906,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 14.618859181975791,
+      "pole_gain_pct": 11.661526874234045,
       "pole_high": 300.3500061035156,
-      "pole_range": 45.20001220703125,
+      "pole_range": 43.300018310546875,
       "flag_bars": 8,
-      "flag_range": 20.45001220703125,
-      "pullback_from_pole_high_pct": 4.5779922492364005,
+      "flag_range": 23.45001220703125,
+      "pullback_from_pole_high_pct": 5.310475073382912,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": false,
       "pattern": "bull_flag",
-      "rank_score": 1.9768866654351462
+      "rank_score": 1.6804588575462145
     }
   ]
 }
