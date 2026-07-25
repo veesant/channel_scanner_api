@@ -10,7 +10,7 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-07-24T21:05:47.462292+00:00"
+    "lastUpdatedTs": "2026-07-25T12:04:14.283554+00:00"
   },
   "counts": {
     "total": 50,
@@ -35,33 +35,10 @@
       "second_bottom": 1288.0714910201689,
       "bottom_similarity_pct": 0.11610319237030045,
       "bounce_from_bottom_pct": 22.45844373868469,
-      "rise_after_second_bottom_pct": 38.074634241877796,
-      "current_close": 1778.5,
+      "rise_after_second_bottom_pct": 37.2827565205724,
+      "current_close": 1768.300048828125,
       "recovered_halfway": true,
-      "rank_score": 70.41697478819219
-    },
-    {
-      "ticker": "BAJAJ-AUTO.NS",
-      "tf": "1mo",
-      "bars_available": 72,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 2,
-      "middle_peak_bar": 6,
-      "second_bottom_bar": 8,
-      "first_bottom_date": "2025-10-01",
-      "middle_peak_date": "2026-02-01",
-      "second_bottom_date": "2026-04-01",
-      "first_bottom": 8373.654923610135,
-      "middle_peak": 10045.624729725494,
-      "second_bottom": 8504.316510218632,
-      "bottom_similarity_pct": 1.5603889556051287,
-      "bounce_from_bottom_pct": 18.12383414534083,
-      "rise_after_second_bottom_pct": 32.679680800237755,
-      "current_close": 11283.5,
-      "recovered_halfway": true,
-      "rank_score": 59.24312598997346
+      "rank_score": 69.62509706688678
     },
     {
       "ticker": "TECHM.NS",
@@ -81,10 +58,33 @@
       "second_bottom": 1271.0684632504024,
       "bottom_similarity_pct": 6.096159136697933,
       "bounce_from_bottom_pct": 33.99827475171337,
-      "rise_after_second_bottom_pct": 22.400963741134852,
-      "current_close": 1555.800048828125,
+      "rise_after_second_bottom_pct": 22.692053582386475,
+      "current_close": 1559.5,
       "recovered_halfway": false,
-      "rank_score": 58.303079356150285
+      "rank_score": 58.59416919740191
+    },
+    {
+      "ticker": "BAJAJ-AUTO.NS",
+      "tf": "1mo",
+      "bars_available": 72,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 2,
+      "middle_peak_bar": 6,
+      "second_bottom_bar": 8,
+      "first_bottom_date": "2025-10-01",
+      "middle_peak_date": "2026-02-01",
+      "second_bottom_date": "2026-04-01",
+      "first_bottom": 8373.654923610135,
+      "middle_peak": 10045.624729725494,
+      "second_bottom": 8504.316510218632,
+      "bottom_similarity_pct": 1.5603889556051287,
+      "bounce_from_bottom_pct": 18.12383414534083,
+      "rise_after_second_bottom_pct": 30.874715053542452,
+      "current_close": 11130.0,
+      "recovered_halfway": true,
+      "rank_score": 57.438160243278155
     },
     {
       "ticker": "ONGC.NS",
@@ -104,10 +104,10 @@
       "second_bottom": 227.64999389648438,
       "bottom_similarity_pct": 1.9233506081571892,
       "bounce_from_bottom_pct": 35.07577783631505,
-      "rise_after_second_bottom_pct": 10.8587752617923,
-      "current_close": 252.3699951171875,
+      "rise_after_second_bottom_pct": 9.27300732542544,
+      "current_close": 248.75999450683594,
       "recovered_halfway": false,
-      "rank_score": 52.011202489950165
+      "rank_score": 50.4254345535833
     },
     {
       "ticker": "EICHERMOT.NS",
@@ -127,10 +127,10 @@
       "second_bottom": 6442.0,
       "bottom_similarity_pct": 3.539273517541136,
       "bounce_from_bottom_pct": 23.388305847076463,
-      "rise_after_second_bottom_pct": 19.861844147780193,
-      "current_close": 7721.5,
+      "rise_after_second_bottom_pct": 18.410431542999067,
+      "current_close": 7628.0,
       "recovered_halfway": true,
-      "rank_score": 49.71087647731552
+      "rank_score": 48.2594638725344
     },
     {
       "ticker": "SUNPHARMA.NS",
@@ -150,10 +150,10 @@
       "second_bottom": 1569.3658569320078,
       "bottom_similarity_pct": 2.3061916448390996,
       "bounce_from_bottom_pct": 16.751919922574366,
-      "rise_after_second_bottom_pct": 24.50888945805939,
-      "current_close": 1954.0,
+      "rise_after_second_bottom_pct": 23.686899839954588,
+      "current_close": 1941.0999755859375,
       "recovered_halfway": true,
-      "rank_score": 48.954617735794656
+      "rank_score": 48.132628117689855
     },
     {
       "ticker": "NESTLEIND.NS",
@@ -173,10 +173,10 @@
       "second_bottom": 1153.8533870850335,
       "bottom_similarity_pct": 3.374930314844049,
       "bounce_from_bottom_pct": 11.837098939192533,
-      "rise_after_second_bottom_pct": 25.48388214830964,
-      "current_close": 1447.9000244140625,
+      "rise_after_second_bottom_pct": 25.102549089594245,
+      "current_close": 1443.5,
       "recovered_halfway": true,
-      "rank_score": 43.946050772658126
+      "rank_score": 43.56471771394273
     },
     {
       "ticker": "TITAN.NS",
@@ -196,33 +196,10 @@
       "second_bottom": 3949.839237429709,
       "bottom_similarity_pct": 3.6026107625329242,
       "bounce_from_bottom_pct": 16.205720253142893,
-      "rise_after_second_bottom_pct": 18.923822523576636,
-      "current_close": 4697.2998046875,
+      "rise_after_second_bottom_pct": 18.40988250052117,
+      "current_close": 4677.0,
       "recovered_halfway": true,
-      "rank_score": 41.5269320141866
-    },
-    {
-      "ticker": "M&M.NS",
-      "tf": "1mo",
-      "bars_available": 72,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 7,
-      "middle_peak_bar": 9,
-      "second_bottom_bar": 10,
-      "first_bottom_date": "2026-03-01",
-      "middle_peak_date": "2026-05-01",
-      "second_bottom_date": "2026-06-01",
-      "first_bottom": 2865.903732062208,
-      "middle_peak": 3363.67647296008,
-      "second_bottom": 2870.257888267703,
-      "bottom_similarity_pct": 0.1519296045007798,
-      "bounce_from_bottom_pct": 17.190740480472005,
-      "rise_after_second_bottom_pct": 12.522988417640315,
-      "current_close": 3229.699951171875,
-      "recovered_halfway": true,
-      "rank_score": 39.56179929361154
+      "rank_score": 41.01299199113114
     },
     {
       "ticker": "GRASIM.NS",
@@ -242,10 +219,33 @@
       "second_bottom": 2502.5,
       "bottom_similarity_pct": 6.921076969905095,
       "bounce_from_bottom_pct": 11.335353528533302,
-      "rise_after_second_bottom_pct": 24.395604395604394,
-      "current_close": 3113.0,
+      "rise_after_second_bottom_pct": 23.4525435501998,
+      "current_close": 3089.39990234375,
       "recovered_halfway": true,
-      "rank_score": 38.8098809542326
+      "rank_score": 37.86682010882801
+    },
+    {
+      "ticker": "M&M.NS",
+      "tf": "1mo",
+      "bars_available": 72,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 7,
+      "middle_peak_bar": 9,
+      "second_bottom_bar": 10,
+      "first_bottom_date": "2026-03-01",
+      "middle_peak_date": "2026-05-01",
+      "second_bottom_date": "2026-06-01",
+      "first_bottom": 2865.903732062208,
+      "middle_peak": 3363.67647296008,
+      "second_bottom": 2870.257888267703,
+      "bottom_similarity_pct": 0.1519296045007798,
+      "bounce_from_bottom_pct": 17.190740480472005,
+      "rise_after_second_bottom_pct": 10.143409596263176,
+      "current_close": 3161.39990234375,
+      "recovered_halfway": true,
+      "rank_score": 37.182220472234405
     },
     {
       "ticker": "JSWSTEEL.NS",
@@ -265,10 +265,10 @@
       "second_bottom": 1096.2035763067233,
       "bottom_similarity_pct": 2.730157470016366,
       "bounce_from_bottom_pct": 16.526070452999903,
-      "rise_after_second_bottom_pct": 13.7380022996079,
-      "current_close": 1246.800048828125,
+      "rise_after_second_bottom_pct": 13.19065871036192,
+      "current_close": 1240.800048828125,
       "recovered_halfway": true,
-      "rank_score": 37.53391528259144
+      "rank_score": 36.986571693345454
     },
     {
       "ticker": "SBILIFE.NS",
@@ -288,10 +288,10 @@
       "second_bottom": 1728.0999755859375,
       "bottom_similarity_pct": 1.571667719125722,
       "bounce_from_bottom_pct": 21.294875961257322,
-      "rise_after_second_bottom_pct": 7.256526021970679,
-      "current_close": 1853.5,
+      "rise_after_second_bottom_pct": 7.551646423451403,
+      "current_close": 1858.5999755859375,
       "recovered_halfway": false,
-      "rank_score": 34.97973426410228
+      "rank_score": 35.274854665583
     },
     {
       "ticker": "BHARTIARTL.NS",
@@ -311,33 +311,10 @@
       "second_bottom": 1718.867650185862,
       "bottom_similarity_pct": 6.182128235420952,
       "bounce_from_bottom_pct": 17.66138759742829,
-      "rise_after_second_bottom_pct": 12.341401025913779,
-      "current_close": 1931.0,
+      "rise_after_second_bottom_pct": 10.433165169326546,
+      "current_close": 1898.199951171875,
       "recovered_halfway": false,
-      "rank_score": 31.82066038792112
-    },
-    {
-      "ticker": "TATACONSUM.NS",
-      "tf": "1mo",
-      "bars_available": 72,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 8,
-      "middle_peak_bar": 9,
-      "second_bottom_bar": 10,
-      "first_bottom_date": "2026-04-01",
-      "middle_peak_date": "2026-05-01",
-      "second_bottom_date": "2026-06-01",
-      "first_bottom": 998.7488912408094,
-      "middle_peak": 1282.699951171875,
-      "second_bottom": 1065.0999755859375,
-      "bottom_similarity_pct": 6.6434200755603285,
-      "bounce_from_bottom_pct": 20.43000474826135,
-      "rise_after_second_bottom_pct": 3.9996222479023356,
-      "current_close": 1107.699951171875,
-      "recovered_halfway": false,
-      "rank_score": 25.786206920603355
+      "rank_score": 29.912424531333887
     },
     {
       "ticker": "ICICIBANK.NS",
@@ -357,10 +334,33 @@
       "second_bottom": 1317.4000244140625,
       "bottom_similarity_pct": 1.9128549191490363,
       "bounce_from_bottom_pct": 7.6269943599077665,
-      "rise_after_second_bottom_pct": 8.896307044172236,
-      "current_close": 1434.5999755859375,
+      "rise_after_second_bottom_pct": 8.767268700436734,
+      "current_close": 1432.9000244140625,
       "recovered_halfway": true,
-      "rank_score": 24.610446484930968
+      "rank_score": 24.481408141195466
+    },
+    {
+      "ticker": "JIOFIN.NS",
+      "tf": "1mo",
+      "bars_available": 36,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 7,
+      "middle_peak_bar": 8,
+      "second_bottom_bar": 10,
+      "first_bottom_date": "2026-03-01",
+      "middle_peak_date": "2026-04-01",
+      "second_bottom_date": "2026-06-01",
+      "first_bottom": 223.3000030517578,
+      "middle_peak": 257.0,
+      "second_bottom": 227.0,
+      "bottom_similarity_pct": 1.6569623366214554,
+      "bounce_from_bottom_pct": 13.215859030837004,
+      "rise_after_second_bottom_pct": 3.396478728575854,
+      "current_close": 234.7100067138672,
+      "recovered_halfway": false,
+      "rank_score": 22.955375422791402
     }
   ]
 }
