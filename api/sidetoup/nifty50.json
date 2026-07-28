@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-28T12:33:33.559042+00:00",
+  "updated_utc": "2026-07-28T13:33:04.211134+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "HDFCLIFE.NS",
-      "slope": -0.007594389984619972,
-      "r2": 0.8587633435613286,
+      "slope": -0.007594389984620022,
+      "r2": 0.8587633435613287,
       "inside": 0.9807692307692307,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.5050841175292355,
+      "pos": 0.5050841175292451,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -32.62581674453268,
+      "annual_trend_pct": -32.625816744532855,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -45,7 +45,7 @@
       "recent_trend_pct": -36.734774214541055,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.871180952335433
+      "rank_score": 0.8711809523354321
     },
     {
       "ticker": "APOLLOHOSP.NS",
@@ -64,7 +64,7 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 45.580016167204086,
+      "prior_trend_pct": 45.58001616720626,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 24.270516935710383,
       "recent_trend_type": "Ascending",
@@ -73,15 +73,15 @@
     },
     {
       "ticker": "RELIANCE.NS",
-      "slope": -0.005108079278314012,
-      "r2": 0.8046442299922908,
+      "slope": -0.005108079278314089,
+      "r2": 0.8046442299922899,
       "inside": 0.9743589743589743,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.492313034327241,
+      "pos": 0.4923130343272487,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -23.326966418987084,
+      "annual_trend_pct": -23.326966418987393,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -93,7 +93,7 @@
       "recent_trend_pct": -30.058325206281456,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.842834401307011
+      "rank_score": 0.8428344013070098
     },
     {
       "ticker": "ADANIENT.NS",
@@ -114,7 +114,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 228.62296920570077,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -29.646685515004513,
+      "recent_trend_pct": -29.646685515003636,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.8302479537367771
@@ -169,15 +169,15 @@
     },
     {
       "ticker": "WIPRO.NS",
-      "slope": -0.010416414885449313,
-      "r2": 0.8010968886832686,
+      "slope": -0.01041641489823662,
+      "r2": 0.8010968909639704,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.7518709693886371,
+      "pos": 0.7518709718909063,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -41.821456874256114,
+      "annual_trend_pct": -41.82145691294134,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -189,7 +189,7 @@
       "recent_trend_pct": 44.848886448304604,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8151049371463602
+      "rank_score": 0.8151049380364843
     }
   ]
 }
