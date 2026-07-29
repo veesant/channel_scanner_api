@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-29T13:05:45.742582+00:00",
+  "updated_utc": "2026-07-29T13:52:20.709988+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -121,15 +121,15 @@
     },
     {
       "ticker": "WIPRO.NS",
-      "slope": -0.010363898815439948,
-      "r2": 0.797323360139528,
+      "slope": -0.010363898828227221,
+      "r2": 0.7973233624212295,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.8018283074250653,
+      "pos": 0.8018283101856658,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -41.662363705398164,
+      "annual_trend_pct": -41.66236374418908,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -141,7 +141,7 @@
       "recent_trend_pct": 60.312025359709544,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8082224390708471
+      "rank_score": 0.8082224399356378
     }
   ]
 }
