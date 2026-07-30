@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-07-29T20:56:39.151993+00:00",
+  "updated_utc": "2026-07-30T12:20:41.790145+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -21,62 +21,6 @@
     "only_actionable": false,
     "only_watchlist": true
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "ICICIBANK.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 1430.800048828125,
-      "sma_fast": 20,
-      "sma_slow": 50,
-      "sma_fast_now": 1419.9599853515624,
-      "sma_slow_now": 1350.08599609375,
-      "trend_ok": true,
-      "recent_swing_high": 1480.0,
-      "recent_swing_high_date": "2026-07-20",
-      "resistance_level": 1480.0,
-      "pullback_from_swing_high_pct": 3.324321025126689,
-      "had_correction": true,
-      "bars_since_swing_high": 6,
-      "correction_age_ok": true,
-      "anchor_support_close": 1375.9000244140625,
-      "anchor_support_date": "2026-07-08",
-      "support_level": 1375.9000244140625,
-      "support_tolerance_pct": 1.0,
-      "support_floor": 1375.9000244140625,
-      "support_floor_adj": 1362.1410241699218,
-      "correction_close_low": 1430.800048828125,
-      "support_held": true,
-      "close_above_sma_fast": true,
-      "rebound_ok": false,
-      "uptrend_window_used": 50,
-      "uptrend_hh_count": 4,
-      "uptrend_hl_count": 4,
-      "uptrend_pivot_highs": 5,
-      "uptrend_pivot_lows": 5,
-      "uptrend_overall_up": true,
-      "uptrend_ok": true,
-      "uptrend_actionable": true,
-      "watchlist_correction": true,
-      "actionable_after_correction": true,
-      "dist_to_support": 0.03990117264329732,
-      "actionable_reason": "watchlist_correction",
-      "priceQuality": {
-        "quality_n_bars": 50,
-        "long_wick_count": 11,
-        "max_long_wicks_allowed": 6,
-        "gap_thresh_pct": 2.5,
-        "gap_count": 0,
-        "max_gap_count_allowed": 2,
-        "max_gap_pct": 1.2439546371582966,
-        "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 14184865,
-        "price_quality_ok": false
-      },
-      "priceQualityOk": false,
-      "avgVolume50": 14184865,
-      "rank_score": 2.792530929869372
-    }
-  ]
+  "count": 0,
+  "data": []
 }
