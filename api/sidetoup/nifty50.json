@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-02T14:56:53.154571+00:00",
+  "updated_utc": "2026-08-02T21:02:29.367726+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -49,15 +49,15 @@
     },
     {
       "ticker": "HINDALCO.NS",
-      "slope": 0.007738406224229879,
-      "r2": 0.7885412427753509,
+      "slope": 0.00772933908560902,
+      "r2": 0.7873973364530721,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.08850010037137328,
+      "pos": 0.07359753650297207,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 49.54050755102759,
+      "annual_trend_pct": 49.470017135546286,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -66,22 +66,22 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 71.70462224825378,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 15.086594031612432,
+      "recent_trend_pct": 11.580469766253731,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8777283036582304
+      "rank_score": 0.8786466068839311
     },
     {
       "ticker": "APOLLOHOSP.NS",
-      "slope": 0.008375244709874214,
-      "r2": 0.8559720835439546,
+      "slope": 0.008404774665686461,
+      "r2": 0.8565085055231272,
       "inside": 0.9230769230769231,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.5497673496833284,
+      "pos": 0.5777583371649616,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 54.57554031119742,
+      "annual_trend_pct": 54.8130823057436,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -90,10 +90,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 45.580016167204086,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 29.98014748526665,
+      "recent_trend_pct": 33.359365056619914,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8422400760344138
+      "rank_score": 0.8397091882758367
     },
     {
       "ticker": "ADANIENT.NS",
@@ -121,15 +121,15 @@
     },
     {
       "ticker": "WIPRO.NS",
-      "slope": -0.010363061150928755,
-      "r2": 0.7972596444649334,
+      "slope": -0.010363061163716115,
+      "r2": 0.7972596467466389,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.8026168059113423,
+      "pos": 0.8026168086758926,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -41.65982254693924,
+      "annual_trend_pct": -41.65982258573212,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -141,7 +141,7 @@
       "recent_trend_pct": 60.571602376184394,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8081117313849221
+      "rank_score": 0.8081117322493199
     },
     {
       "ticker": "TATASTEEL.NS",
