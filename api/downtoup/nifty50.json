@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-02T12:59:39.390847+00:00",
+  "updated_utc": "2026-08-02T14:49:31.860399+00:00",
   "tf": "1d",
   "params": {
     "n_down": 40,
@@ -18,25 +18,25 @@
   "count": 1,
   "data": [
     {
-      "ticker": "KOTAKBANK.NS",
+      "ticker": "BAJAJ-AUTO.NS",
       "tf": "1d",
       "bars_used": 350,
-      "close": 390.29998779296875,
-      "sma20": 382.39393310546876,
-      "sma50": 388.85730712890626,
+      "close": 11432.0,
+      "sma20": 10585.825,
+      "sma50": 10316.1598046875,
       "trend_ok": true,
       "prior_downtrend_ok": true,
-      "down_slope": -0.05823365975499824,
+      "down_slope": -10.245060572525798,
       "fresh_uptrend_ok": true,
-      "up_slope": 0.9054539535984848,
+      "up_slope": 120.38484848484849,
       "up_hh_steps": 1,
-      "up_hl_steps": 2,
-      "up_pivot_highs": 3,
-      "up_pivot_lows": 3,
-      "resistance": 392.25,
-      "pullback_from_resistance_pct": 0.4971350432202039,
-      "state": "uptrend",
-      "rank_score": 2.5580566678210905
+      "up_hl_steps": 1,
+      "up_pivot_highs": 2,
+      "up_pivot_lows": 2,
+      "resistance": 11532.0,
+      "pullback_from_resistance_pct": 0.8671522719389525,
+      "state": "correction",
+      "rank_score": 3.0054746213435077
     }
   ]
 }
