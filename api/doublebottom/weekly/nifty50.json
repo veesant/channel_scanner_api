@@ -10,7 +10,7 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-08-03T16:14:27.317865+00:00"
+    "lastUpdatedTs": "2026-08-03T20:59:10.659858+00:00"
   },
   "counts": {
     "total": 50,
@@ -87,6 +87,29 @@
       "rank_score": 37.853431382160124
     },
     {
+      "ticker": "BAJAJ-AUTO.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 1,
+      "middle_peak_bar": 2,
+      "second_bottom_bar": 7,
+      "first_bottom_date": "2026-05-18",
+      "middle_peak_date": "2026-05-25",
+      "second_bottom_date": "2026-06-29",
+      "first_bottom": 9938.630300902887,
+      "middle_peak": 10834.0,
+      "second_bottom": 9501.0,
+      "bottom_similarity_pct": 4.606149888463183,
+      "bounce_from_bottom_pct": 9.008984859973834,
+      "rise_after_second_bottom_pct": 21.255657299231657,
+      "current_close": 11520.5,
+      "recovered_halfway": true,
+      "rank_score": 35.65849227074231
+    },
+    {
       "ticker": "EICHERMOT.NS",
       "tf": "1wk",
       "bars_available": 120,
@@ -108,29 +131,6 @@
       "current_close": 7833.5,
       "recovered_halfway": true,
       "rank_score": 35.47589633038015
-    },
-    {
-      "ticker": "BAJAJ-AUTO.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 1,
-      "middle_peak_bar": 2,
-      "second_bottom_bar": 7,
-      "first_bottom_date": "2026-05-18",
-      "middle_peak_date": "2026-05-25",
-      "second_bottom_date": "2026-06-29",
-      "first_bottom": 9938.630300902887,
-      "middle_peak": 10834.0,
-      "second_bottom": 9501.0,
-      "bottom_similarity_pct": 4.606149888463183,
-      "bounce_from_bottom_pct": 9.008984859973834,
-      "rise_after_second_bottom_pct": 20.32417640248395,
-      "current_close": 11432.0,
-      "recovered_halfway": true,
-      "rank_score": 34.7270113739946
     },
     {
       "ticker": "ICICIBANK.NS",
@@ -173,10 +173,10 @@
       "second_bottom": 7816.0,
       "bottom_similarity_pct": 0.01919508605796916,
       "bounce_from_bottom_pct": 8.02200614124872,
-      "rise_after_second_bottom_pct": 14.994882292732855,
-      "current_close": 8988.0,
+      "rise_after_second_bottom_pct": 14.598259979529171,
+      "current_close": 8957.0,
       "recovered_halfway": true,
-      "rank_score": 32.99769334792361
+      "rank_score": 32.60107103471992
     },
     {
       "ticker": "JIOFIN.NS",
@@ -219,10 +219,33 @@
       "second_bottom": 2680.0,
       "bottom_similarity_pct": 1.1390285025064442,
       "bounce_from_bottom_pct": 8.347359104751739,
-      "rise_after_second_bottom_pct": 11.910445939249067,
-      "current_close": 2999.199951171875,
+      "rise_after_second_bottom_pct": 12.160444117304104,
+      "current_close": 3005.89990234375,
       "recovered_halfway": true,
-      "rank_score": 29.118776541494363
+      "rank_score": 29.3687747195494
+    },
+    {
+      "ticker": "MARUTI.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 6,
+      "middle_peak_bar": 8,
+      "second_bottom_bar": 10,
+      "first_bottom_date": "2026-06-22",
+      "middle_peak_date": "2026-07-06",
+      "second_bottom_date": "2026-07-20",
+      "first_bottom": 13201.0,
+      "middle_peak": 14598.0,
+      "second_bottom": 13197.0,
+      "bottom_similarity_pct": 0.030309918920966884,
+      "bounce_from_bottom_pct": 10.58253162639194,
+      "rise_after_second_bottom_pct": 7.8578464802606645,
+      "current_close": 14234.0,
+      "recovered_halfway": true,
+      "rank_score": 28.41006818773164
     },
     {
       "ticker": "INFY.NS",
@@ -246,29 +269,6 @@
       "current_close": 1130.0999755859375,
       "recovered_halfway": true,
       "rank_score": 28.403190122524286
-    },
-    {
-      "ticker": "MARUTI.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 6,
-      "middle_peak_bar": 8,
-      "second_bottom_bar": 10,
-      "first_bottom_date": "2026-06-22",
-      "middle_peak_date": "2026-07-06",
-      "second_bottom_date": "2026-07-20",
-      "first_bottom": 13201.0,
-      "middle_peak": 14598.0,
-      "second_bottom": 13197.0,
-      "bottom_similarity_pct": 0.030309918920966884,
-      "bounce_from_bottom_pct": 10.58253162639194,
-      "rise_after_second_bottom_pct": 7.509282412669546,
-      "current_close": 14188.0,
-      "recovered_halfway": true,
-      "rank_score": 28.06150412014052
     },
     {
       "ticker": "CIPLA.NS",
@@ -311,10 +311,10 @@
       "second_bottom": 367.7650626115592,
       "bottom_similarity_pct": 1.0314968302445184,
       "bounce_from_bottom_pct": 11.176777625966677,
-      "rise_after_second_bottom_pct": 5.882813101193475,
-      "current_close": 389.3999938964844,
+      "rise_after_second_bottom_pct": 6.127532893251309,
+      "current_close": 390.29998779296875,
       "recovered_halfway": false,
-      "rank_score": 24.02809389691563
+      "rank_score": 24.272813688973468
     },
     {
       "ticker": "LT.NS",
@@ -357,10 +357,10 @@
       "second_bottom": 2624.0,
       "bottom_similarity_pct": 1.4903173179174092,
       "bounce_from_bottom_pct": 7.024959815856587,
-      "rise_after_second_bottom_pct": 4.657010334294017,
-      "current_close": 2746.199951171875,
+      "rise_after_second_bottom_pct": 4.698934787657202,
+      "current_close": 2747.300048828125,
       "recovered_halfway": true,
-      "rank_score": 20.191652832233196
+      "rank_score": 20.23357728559638
     }
   ]
 }
