@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-04T21:20:16.747755+00:00",
+  "updated_utc": "2026-08-05T12:37:02.348703+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -21,6 +21,62 @@
     "only_actionable": false,
     "only_watchlist": true
   },
-  "count": 0,
-  "data": []
+  "count": 1,
+  "data": [
+    {
+      "ticker": "MAXHEALTH.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 1077.0,
+      "sma_fast": 20,
+      "sma_slow": 50,
+      "sma_fast_now": 1098.2000061035155,
+      "sma_slow_now": 1068.4318994140624,
+      "trend_ok": true,
+      "recent_swing_high": 1135.9000244140625,
+      "recent_swing_high_date": "2026-07-30",
+      "resistance_level": 1135.9000244140625,
+      "pullback_from_swing_high_pct": 5.185317646634018,
+      "had_correction": true,
+      "bars_since_swing_high": 3,
+      "correction_age_ok": true,
+      "anchor_support_close": 1068.800048828125,
+      "anchor_support_date": "2026-07-24",
+      "support_level": 1068.800048828125,
+      "support_tolerance_pct": 1.0,
+      "support_floor": 1068.800048828125,
+      "support_floor_adj": 1058.1120483398438,
+      "correction_close_low": 1077.0,
+      "support_held": true,
+      "close_above_sma_fast": false,
+      "rebound_ok": false,
+      "uptrend_window_used": 50,
+      "uptrend_hh_count": 4,
+      "uptrend_hl_count": 3,
+      "uptrend_pivot_highs": 6,
+      "uptrend_pivot_lows": 6,
+      "uptrend_overall_up": true,
+      "uptrend_ok": true,
+      "uptrend_actionable": true,
+      "watchlist_correction": true,
+      "actionable_after_correction": true,
+      "dist_to_support": 0.007672109653125253,
+      "actionable_reason": "watchlist_correction",
+      "priceQuality": {
+        "quality_n_bars": 50,
+        "long_wick_count": 16,
+        "max_long_wicks_allowed": 6,
+        "gap_thresh_pct": 2.5,
+        "gap_count": 0,
+        "max_gap_count_allowed": 2,
+        "max_gap_pct": 1.7416007784558378,
+        "max_gap_pct_allowed": 6.0,
+        "avg_volume_50": 2328922,
+        "price_quality_ok": false
+      },
+      "priceQualityOk": false,
+      "avgVolume50": 2328922,
+      "rank_score": 2.960859655010277
+    }
+  ]
 }
