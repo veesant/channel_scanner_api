@@ -10,7 +10,7 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-08-07T11:44:50.172236+00:00"
+    "lastUpdatedTs": "2026-08-07T12:39:14.215490+00:00"
   },
   "counts": {
     "total": 50,
@@ -133,29 +133,6 @@
       "rank_score": 50.194676152012676
     },
     {
-      "ticker": "M&M.NS",
-      "tf": "1mo",
-      "bars_available": 73,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 6,
-      "middle_peak_bar": 8,
-      "second_bottom_bar": 9,
-      "first_bottom_date": "2026-03-01",
-      "middle_peak_date": "2026-05-01",
-      "second_bottom_date": "2026-06-01",
-      "first_bottom": 2865.903732062208,
-      "middle_peak": 3363.67647296008,
-      "second_bottom": 2870.257888267703,
-      "bottom_similarity_pct": 0.1519296045007798,
-      "bounce_from_bottom_pct": 17.190740480472005,
-      "rise_after_second_bottom_pct": 20.386391636369645,
-      "current_close": 3455.39990234375,
-      "recovered_halfway": true,
-      "rank_score": 47.425202512340874
-    },
-    {
       "ticker": "TITAN.NS",
       "tf": "1mo",
       "bars_available": 73,
@@ -202,6 +179,29 @@
       "rank_score": 46.66527738771661
     },
     {
+      "ticker": "M&M.NS",
+      "tf": "1mo",
+      "bars_available": 73,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 6,
+      "middle_peak_bar": 8,
+      "second_bottom_bar": 9,
+      "first_bottom_date": "2026-03-01",
+      "middle_peak_date": "2026-05-01",
+      "second_bottom_date": "2026-06-01",
+      "first_bottom": 2865.903732062208,
+      "middle_peak": 3363.67647296008,
+      "second_bottom": 2870.257888267703,
+      "bottom_similarity_pct": 0.1519296045007798,
+      "bounce_from_bottom_pct": 17.190740480472005,
+      "rise_after_second_bottom_pct": 18.665295335383096,
+      "current_close": 3406.0,
+      "recovered_halfway": true,
+      "rank_score": 45.70410621135432
+    },
+    {
       "ticker": "JSWSTEEL.NS",
       "tf": "1mo",
       "bars_available": 73,
@@ -242,10 +242,10 @@
       "second_bottom": 2494.7283120563393,
       "bottom_similarity_pct": 6.921079822619007,
       "bounce_from_bottom_pct": 11.33534679170583,
-      "rise_after_second_bottom_pct": 29.232509384660855,
-      "current_close": 3224.0,
+      "rise_after_second_bottom_pct": 29.072171283687332,
+      "current_close": 3220.0,
       "recovered_halfway": true,
-      "rank_score": 43.646776353747676
+      "rank_score": 43.48643825277415
     },
     {
       "ticker": "SUNPHARMA.NS",
