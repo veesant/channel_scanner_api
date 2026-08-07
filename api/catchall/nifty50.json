@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-07T14:46:34.361371+00:00",
+  "updated_utc": "2026-08-07T20:45:08.019269+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 260,
@@ -751,12 +751,12 @@
     {
       "ticker": "BAJAJ-AUTO.NS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 11620.0,
       "sma_fast": 20,
       "sma_slow": 50,
-      "sma_fast_now": 10993.125,
-      "sma_slow_now": 10433.86,
+      "sma_fast_now": 10924.85,
+      "sma_slow_now": 10416.62,
       "trend_ok": true,
       "recent_swing_high": 11856.0,
       "recent_swing_high_date": "2026-08-03",
@@ -786,18 +786,18 @@
       "actionable_reason": "hh_hl_uptrend",
       "priceQuality": {
         "quality_n_bars": 50,
-        "long_wick_count": 12,
+        "long_wick_count": 11,
         "max_long_wicks_allowed": 6,
         "gap_thresh_pct": 2.5,
         "gap_count": 0,
         "max_gap_count_allowed": 2,
         "max_gap_pct": 1.9849089248810496,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 414944,
+        "avg_volume_50": 410656,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 414944,
+      "avgVolume50": 410656,
       "rank_score": 2.425535872089439
     },
     {
@@ -1427,12 +1427,12 @@
     {
       "ticker": "TRENT.NS",
       "tf": "1d",
-      "bars_used": 179,
+      "bars_used": 178,
       "close": 3107.10009765625,
       "sma_fast": 20,
       "sma_slow": 50,
-      "sma_fast_now": 2949.4299926757812,
-      "sma_slow_now": 2987.7587939453124,
+      "sma_fast_now": 2944.3400024414063,
+      "sma_slow_now": 2984.2052099609373,
       "trend_ok": true,
       "recent_swing_high": 2935.0,
       "recent_swing_high_date": "2026-07-20",
@@ -1462,18 +1462,18 @@
       "actionable_reason": "hh_hl_uptrend",
       "priceQuality": {
         "quality_n_bars": 50,
-        "long_wick_count": 19,
+        "long_wick_count": 18,
         "max_long_wicks_allowed": 6,
         "gap_thresh_pct": 2.5,
         "gap_count": 1,
         "max_gap_count_allowed": 2,
         "max_gap_pct": 7.889229169686056,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 1577477,
+        "avg_volume_50": 1565373,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 1577477,
+      "avgVolume50": 1565373,
       "rank_score": 1.689399203372289
     },
     {
