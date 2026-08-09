@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-09T14:27:34.272055+00:00",
+  "updated_utc": "2026-08-09T20:37:17.240613+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "APOLLOHOSP.NS",
-      "slope": 0.00825618850436566,
-      "r2": 0.8530879199762431,
+      "slope": 0.00822902094501845,
+      "r2": 0.852672569990819,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.46749955764007795,
+      "pos": 0.4719610622744223,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 53.621531237190226,
+      "annual_trend_pct": 53.40466131326973,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -42,22 +42,22 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 45.50062096595242,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 11.956245172240232,
+      "recent_trend_pct": 10.24538750472157,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8644093888394984
+      "rank_score": 0.8637555633833519
     },
     {
       "ticker": "HINDALCO.NS",
-      "slope": 0.007494337138817445,
-      "r2": 0.7831093212979374,
+      "slope": 0.00750304870337484,
+      "r2": 0.7842584083704083,
       "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
-      "near_lower": 0.057692307692307696,
-      "pos": 0.4217022727741778,
+      "near_lower": 0.038461538461538464,
+      "pos": 0.42026070982401637,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 47.654593317757296,
+      "annual_trend_pct": 47.721496201299665,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -66,10 +66,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 60.75686269969323,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 130.75874776948905,
+      "recent_trend_pct": 135.08239395157173,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8416921256792433
+      "rank_score": 0.8424108255104948
     },
     {
       "ticker": "HDFCBANK.NS",
@@ -97,15 +97,15 @@
     },
     {
       "ticker": "ASIANPAINT.NS",
-      "slope": 0.009254740356809638,
-      "r2": 0.7351757162291406,
+      "slope": 0.009257889657132081,
+      "r2": 0.735346232141926,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.35565364298783414,
+      "pos": 0.35531719790164207,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 61.80900926151538,
+      "annual_trend_pct": 61.83550985995525,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -114,10 +114,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 76.94655340508459,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 7.9301195158073545,
+      "recent_trend_pct": 8.122960356742649,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.8166378784311715
+      "rank_score": 0.8167567808961833
     },
     {
       "ticker": "WIPRO.NS",
@@ -193,15 +193,15 @@
     },
     {
       "ticker": "GRASIM.NS",
-      "slope": 0.00840578661656415,
-      "r2": 0.6785483892902958,
+      "slope": 0.008395649097748238,
+      "r2": 0.6775865580958083,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.6430164605633799,
+      "pos": 0.6438690941997063,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 54.82122900828226,
+      "annual_trend_pct": 54.73963635364252,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -210,10 +210,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 59.36387890768966,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 20.263814429792216,
+      "recent_trend_pct": 19.57472744661679,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7595879332041946
+      "rank_score": 0.7590217542433182
     }
   ]
 }
