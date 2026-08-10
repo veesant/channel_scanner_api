@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-10T12:43:25.585450+00:00",
+  "updated_utc": "2026-08-10T14:46:38.215380+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -121,15 +121,15 @@
     },
     {
       "ticker": "WIPRO.NS",
-      "slope": -0.010292791286408566,
-      "r2": 0.7919384077827771,
+      "slope": -0.010292791273556012,
+      "r2": 0.7919384054950458,
       "inside": 1.0,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.8821037468506341,
+      "pos": 0.8821037436774329,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -41.44625566333483,
+      "annual_trend_pct": -41.44625562420144,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -141,7 +141,7 @@
       "recent_trend_pct": 146.4074794971271,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8077588292063251
+      "rank_score": 0.8077588283797796
     },
     {
       "ticker": "GRASIM.NS",
@@ -169,15 +169,15 @@
     },
     {
       "ticker": "SHRIRAMFIN.NS",
-      "slope": 0.010487609086382063,
-      "r2": 0.6863811358517686,
+      "slope": 0.010487608630713196,
+      "r2": 0.686381137275578,
       "inside": 1.0,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.45890463134470927,
+      "pos": 0.4589046472229429,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 72.52218872342237,
+      "annual_trend_pct": 72.52218463554692,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -189,7 +189,7 @@
       "recent_trend_pct": 180.37373678907463,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7973001047914134
+      "rank_score": 0.7973001039154948
     },
     {
       "ticker": "NESTLEIND.NS",
