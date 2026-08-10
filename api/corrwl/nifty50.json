@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-10T11:39:42.184406+00:00",
+  "updated_utc": "2026-08-10T12:49:33.560744+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -140,8 +140,8 @@
       "close": 1855.5,
       "sma_fast": 20,
       "sma_slow": 50,
-      "sma_fast_now": 1859.3700073242187,
-      "sma_slow_now": 1810.8879956054689,
+      "sma_fast_now": 1860.3250061035155,
+      "sma_slow_now": 1811.92599609375,
       "trend_ok": true,
       "recent_swing_high": 1915.0,
       "recent_swing_high_date": "2026-08-03",
@@ -174,18 +174,18 @@
       "actionable_reason": "watchlist_correction",
       "priceQuality": {
         "quality_n_bars": 50,
-        "long_wick_count": 18,
+        "long_wick_count": 19,
         "max_long_wicks_allowed": 6,
         "gap_thresh_pct": 2.5,
         "gap_count": 0,
         "max_gap_count_allowed": 2,
         "max_gap_pct": 1.4620689655172414,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 999129,
+        "avg_volume_50": 971708,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 999129,
+      "avgVolume50": 971708,
       "rank_score": 2.7281507037403507
     },
     {
