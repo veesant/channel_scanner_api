@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-10T20:38:10.716987+00:00",
+  "updated_utc": "2026-08-11T11:46:27.351344+00:00",
   "tf": "1d",
   "params": {
     "n_down": 40,
@@ -18,25 +18,25 @@
   "count": 1,
   "data": [
     {
-      "ticker": "LT.NS",
+      "ticker": "INFY.NS",
       "tf": "1d",
       "bars_used": 350,
-      "close": 4056.0,
-      "sma20": 3893.389990234375,
-      "sma50": 3990.7079931640624,
+      "close": 1183.0,
+      "sma20": 1115.9699951171874,
+      "sma50": 1103.3204675292968,
       "trend_ok": true,
       "prior_downtrend_ok": true,
-      "down_slope": -5.715515411548722,
+      "down_slope": -3.059381727608686,
       "fresh_uptrend_ok": true,
-      "up_slope": 28.664248934659092,
+      "up_slope": 6.066064453125,
       "up_hh_steps": 1,
       "up_hl_steps": 1,
-      "up_pivot_highs": 2,
+      "up_pivot_highs": 3,
       "up_pivot_lows": 2,
-      "resistance": 4074.0,
-      "pullback_from_resistance_pct": 0.4418262150220913,
+      "resistance": 1185.800048828125,
+      "pullback_from_resistance_pct": 0.2361316168684735,
       "state": "uptrend",
-      "rank_score": 2.4763622974963178
+      "rank_score": 2.473834601255016
     }
   ]
 }
