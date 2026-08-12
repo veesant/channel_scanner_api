@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-12T11:42:43.706038+00:00",
+  "updated_utc": "2026-08-12T12:42:53.479874+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,51 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 2,
+  "data": [
+    {
+      "ticker": "TECHM.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 1643.0,
+      "sma20": 1596.7350036621094,
+      "sma50": 1490.8608862304689,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 11.363185052148877,
+      "pole_high": 1686.5999755859375,
+      "pole_range": 233.5999755859375,
+      "flag_bars": 8,
+      "flag_range": 71.0,
+      "pullback_from_pole_high_pct": 2.585081004213257,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.1999016046535758
+    },
+    {
+      "ticker": "TCS.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 2445.699951171875,
+      "sma20": 2339.9300170898437,
+      "sma50": 2210.2790454101564,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 10.48614488087801,
+      "pole_high": 2495.0,
+      "pole_range": 307.199951171875,
+      "flag_bars": 8,
+      "flag_range": 147.599853515625,
+      "pullback_from_pole_high_pct": 1.9759538608466933,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.064875374542954
+    }
+  ]
 }

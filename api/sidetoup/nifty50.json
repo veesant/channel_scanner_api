@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-12T11:36:59.879632+00:00",
+  "updated_utc": "2026-08-12T12:46:30.154703+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -49,15 +49,15 @@
     },
     {
       "ticker": "HINDALCO.NS",
-      "slope": 0.007333026513791625,
-      "r2": 0.779725913618206,
-      "inside": 1.0,
+      "slope": 0.007341382504285369,
+      "r2": 0.7808762780765752,
+      "inside": 0.9807692307692307,
       "near_upper": 0.038461538461538464,
-      "near_lower": 0.057692307692307696,
-      "pos": 0.4768480212387556,
+      "near_lower": 0.038461538461538464,
+      "pos": 0.47555305301627665,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 46.42122414758851,
+      "annual_trend_pct": 46.484859678339554,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -66,22 +66,22 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 45.96600147668535,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 291.283124270925,
+      "recent_trend_pct": 293.7117969263736,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8421781546852275
+      "rank_score": 0.8351905260443522
     },
     {
       "ticker": "ASIANPAINT.NS",
-      "slope": 0.009474875591063067,
-      "r2": 0.7535639394836535,
+      "slope": 0.009477751039183357,
+      "r2": 0.753711387688536,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.31042838079651913,
+      "pos": 0.31010084761334816,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 63.671884049860815,
+      "annual_trend_pct": 63.69635864016545,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -90,10 +90,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 86.90059791149632,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 35.79245038816783,
+      "recent_trend_pct": 35.87327660556645,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8303545162775595
+      "rank_score": 0.8304609936983177
     },
     {
       "ticker": "HDFCBANK.NS",
@@ -145,15 +145,15 @@
     },
     {
       "ticker": "WIPRO.NS",
-      "slope": -0.010325273009325585,
-      "r2": 0.7947561444762533,
+      "slope": -0.0103252730221782,
+      "r2": 0.7947561467649422,
       "inside": 1.0,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.8523821549793638,
+      "pos": 0.8523821580160004,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -41.54507236465105,
+      "annual_trend_pct": -41.545072403718585,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -165,7 +165,7 @@
       "recent_trend_pct": 131.42374726106308,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8121398567401904
+      "rank_score": 0.8121398575808711
     },
     {
       "ticker": "SHRIRAMFIN.NS",
