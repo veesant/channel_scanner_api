@@ -10,7 +10,7 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-08-12T12:42:49.441998+00:00"
+    "lastUpdatedTs": "2026-08-12T14:42:05.989943+00:00"
   },
   "counts": {
     "total": 50,
@@ -58,10 +58,10 @@
       "second_bottom": 8504.316510218632,
       "bottom_similarity_pct": 1.5603889556051287,
       "bounce_from_bottom_pct": 18.12383414534083,
-      "rise_after_second_bottom_pct": 37.30674282841107,
-      "current_close": 11677.0,
+      "rise_after_second_bottom_pct": 37.7770922086574,
+      "current_close": 11717.0,
       "recovered_halfway": true,
-      "rank_score": 63.87018801814677
+      "rank_score": 64.34053739839311
     },
     {
       "ticker": "ADANIPORTS.NS",
@@ -150,10 +150,10 @@
       "second_bottom": 1153.8533870850335,
       "bottom_similarity_pct": 3.374930314844049,
       "bounce_from_bottom_pct": 11.837098939192533,
-      "rise_after_second_bottom_pct": 32.477834072803816,
-      "current_close": 1528.5999755859375,
+      "rise_after_second_bottom_pct": 29.409851189511066,
+      "current_close": 1493.199951171875,
       "recovered_halfway": true,
-      "rank_score": 50.9400026971523
+      "rank_score": 47.87201981385955
     },
     {
       "ticker": "M&M.NS",
@@ -225,6 +225,29 @@
       "rank_score": 46.33582427104267
     },
     {
+      "ticker": "SUNPHARMA.NS",
+      "tf": "1mo",
+      "bars_available": 72,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 4,
+      "middle_peak_bar": 6,
+      "second_bottom_bar": 7,
+      "first_bottom_date": "2026-01-01",
+      "middle_peak_date": "2026-03-01",
+      "second_bottom_date": "2026-04-01",
+      "first_bottom": 1569.3659781146955,
+      "middle_peak": 1838.1824598321832,
+      "second_bottom": 1609.3821052801468,
+      "bottom_similarity_pct": 2.549827619783328,
+      "bounce_from_bottom_pct": 14.21665829397357,
+      "rise_after_second_bottom_pct": 20.667428426635457,
+      "current_close": 1942.0,
+      "recovered_halfway": true,
+      "rank_score": 42.334259100825705
+    },
+    {
       "ticker": "JSWSTEEL.NS",
       "tf": "1mo",
       "bars_available": 72,
@@ -242,33 +265,10 @@
       "second_bottom": 1096.2035763067233,
       "bottom_similarity_pct": 2.730157470016366,
       "bounce_from_bottom_pct": 16.526070452999903,
-      "rise_after_second_bottom_pct": 18.773558866377368,
-      "current_close": 1302.0,
+      "rise_after_second_bottom_pct": 17.076795966861603,
+      "current_close": 1283.4000244140625,
       "recovered_halfway": true,
-      "rank_score": 42.56947184936091
-    },
-    {
-      "ticker": "SUNPHARMA.NS",
-      "tf": "1mo",
-      "bars_available": 72,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 4,
-      "middle_peak_bar": 6,
-      "second_bottom_bar": 7,
-      "first_bottom_date": "2026-01-01",
-      "middle_peak_date": "2026-03-01",
-      "second_bottom_date": "2026-04-01",
-      "first_bottom": 1569.3658569320078,
-      "middle_peak": 1838.1824598321832,
-      "second_bottom": 1609.3821052801468,
-      "bottom_similarity_pct": 2.549835538436383,
-      "bounce_from_bottom_pct": 14.21665829397357,
-      "rise_after_second_bottom_pct": 20.667428426635457,
-      "current_close": 1942.0,
-      "recovered_halfway": true,
-      "rank_score": 42.33425118217264
+      "rank_score": 40.87270894984514
     },
     {
       "ticker": "SBILIFE.NS",
@@ -288,10 +288,10 @@
       "second_bottom": 1728.0999755859375,
       "bottom_similarity_pct": 1.571667719125722,
       "bounce_from_bottom_pct": 21.294875961257322,
-      "rise_after_second_bottom_pct": 7.343326555573568,
-      "current_close": 1855.0,
+      "rise_after_second_bottom_pct": 6.336438953010946,
+      "current_close": 1837.5999755859375,
       "recovered_halfway": false,
-      "rank_score": 35.06653479770517
+      "rank_score": 34.059647195142546
     },
     {
       "ticker": "DRREDDY.NS",
@@ -426,10 +426,10 @@
       "second_bottom": 368.3999938964844,
       "bottom_similarity_pct": 6.8121632704911965,
       "bounce_from_bottom_pct": 12.12997524506911,
-      "rise_after_second_bottom_pct": 6.813248240869515,
-      "current_close": 393.5,
+      "rise_after_second_bottom_pct": 6.650380131896577,
+      "current_close": 392.8999938964844,
       "recovered_halfway": true,
-      "rank_score": 22.13106021544743
+      "rank_score": 21.96819210647449
     }
   ]
 }
