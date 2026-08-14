@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-13T20:47:54.261960+00:00",
+  "updated_utc": "2026-08-14T11:38:09.099052+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,51 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 2,
+  "data": [
+    {
+      "ticker": "BAJAJ-AUTO.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 11661.0,
+      "sma20": 11286.65,
+      "sma50": 10544.27,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 12.672843905915895,
+      "pole_high": 11856.0,
+      "pole_range": 1513.5,
+      "flag_bars": 8,
+      "flag_range": 322.0,
+      "pullback_from_pole_high_pct": 1.644736842105263,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.730810081976487
+    },
+    {
+      "ticker": "BAJAJFINSV.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 2025.0,
+      "sma20": 1972.1550048828126,
+      "sma50": 1863.2624755859374,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 10.280965322743544,
+      "pole_high": 2096.0,
+      "pole_range": 245.5999755859375,
+      "flag_bars": 8,
+      "flag_range": 130.5,
+      "pullback_from_pole_high_pct": 3.3874045801526718,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.628461858886518
+    }
+  ]
 }
