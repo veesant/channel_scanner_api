@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-14T12:42:32.561276+00:00",
+  "updated_utc": "2026-08-14T14:41:55.680636+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -49,15 +49,15 @@
     },
     {
       "ticker": "HINDALCO.NS",
-      "slope": 0.007240153318447903,
-      "r2": 0.7736074207265365,
+      "slope": 0.0072317973279541585,
+      "r2": 0.7724619467355233,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.2945224742860338,
+      "pos": 0.29618767509591454,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 45.71580134372033,
+      "annual_trend_pct": 45.652499905075516,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -66,10 +66,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 45.96600147668535,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 178.71949949242304,
+      "recent_trend_pct": 177.0001747674803,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.857351462934665
+      "rank_score": 0.8566122058581702
     },
     {
       "ticker": "GRASIM.NS",
@@ -145,15 +145,15 @@
     },
     {
       "ticker": "WIPRO.NS",
-      "slope": -0.010324018688095118,
-      "r2": 0.7946504246937228,
+      "slope": -0.010324018675242564,
+      "r2": 0.7946504224050615,
       "inside": 1.0,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.8535388303625394,
+      "pos": 0.853538827320457,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -41.54125953495562,
+      "annual_trend_pct": -41.54125949588573,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -165,7 +165,7 @@
       "recent_trend_pct": 131.98508724217058,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8119713293106076
+      "rank_score": 0.811971328470485
     },
     {
       "ticker": "NESTLEIND.NS",
@@ -241,15 +241,15 @@
     },
     {
       "ticker": "BAJAJ-AUTO.NS",
-      "slope": 0.005757895989951161,
-      "r2": 0.6642147323772676,
+      "slope": 0.005731358038515263,
+      "r2": 0.6649880262302775,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
-      "near_lower": 0.07692307692307693,
-      "pos": 0.9031152059976659,
+      "near_lower": 0.10256410256410256,
+      "pos": 0.9094683587208513,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 34.90634237166319,
+      "annual_trend_pct": 34.720303591440185,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": true,
@@ -258,10 +258,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 35.33487616566653,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 392.65609234828827,
+      "recent_trend_pct": 387.04381606011424,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7212830250760467
+      "rank_score": 0.7210343567302332
     }
   ]
 }

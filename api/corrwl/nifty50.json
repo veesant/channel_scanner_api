@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-14T12:40:32.750472+00:00",
+  "updated_utc": "2026-08-14T14:36:48.397704+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -195,8 +195,8 @@
       "close": 11706.0,
       "sma_fast": 20,
       "sma_slow": 50,
-      "sma_fast_now": 11835.026220703125,
-      "sma_slow_now": 11425.95701171875,
+      "sma_fast_now": 11816.653271484374,
+      "sma_slow_now": 11403.43748046875,
       "trend_ok": true,
       "recent_swing_high": 12239.0,
       "recent_swing_high_date": "2026-08-05",
@@ -219,7 +219,7 @@
       "uptrend_hh_count": 4,
       "uptrend_hl_count": 6,
       "uptrend_pivot_highs": 7,
-      "uptrend_pivot_lows": 8,
+      "uptrend_pivot_lows": 9,
       "uptrend_overall_up": true,
       "uptrend_ok": true,
       "uptrend_actionable": true,
@@ -236,11 +236,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 1.411286311786239,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 269698,
+        "avg_volume_50": 272715,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 269698,
+      "avgVolume50": 272715,
       "rank_score": 3.013684877586121
     },
     {
@@ -250,8 +250,8 @@
       "close": 3257.0,
       "sma_fast": 20,
       "sma_slow": 50,
-      "sma_fast_now": 3174.848681640625,
-      "sma_slow_now": 3144.3362451171874,
+      "sma_fast_now": 3180.366491699219,
+      "sma_slow_now": 3146.547353515625,
       "trend_ok": true,
       "recent_swing_high": 3411.10009765625,
       "recent_swing_high_date": "2026-08-10",
@@ -273,7 +273,7 @@
       "uptrend_window_used": 50,
       "uptrend_hh_count": 4,
       "uptrend_hl_count": 5,
-      "uptrend_pivot_highs": 8,
+      "uptrend_pivot_highs": 7,
       "uptrend_pivot_lows": 9,
       "uptrend_overall_up": true,
       "uptrend_ok": true,
@@ -284,18 +284,18 @@
       "actionable_reason": "watchlist_correction",
       "priceQuality": {
         "quality_n_bars": 50,
-        "long_wick_count": 18,
+        "long_wick_count": 19,
         "max_long_wicks_allowed": 6,
         "gap_thresh_pct": 2.5,
         "gap_count": 0,
         "max_gap_count_allowed": 2,
         "max_gap_pct": 2.012554414901552,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 683991,
+        "avg_volume_50": 680489,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 683991,
+      "avgVolume50": 680489,
       "rank_score": 2.9428897697992804
     },
     {
