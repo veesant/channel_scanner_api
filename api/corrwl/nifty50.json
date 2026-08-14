@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-14T14:36:48.397704+00:00",
+  "updated_utc": "2026-08-14T20:29:47.837060+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -195,8 +195,8 @@
       "close": 11706.0,
       "sma_fast": 20,
       "sma_slow": 50,
-      "sma_fast_now": 11816.653271484374,
-      "sma_slow_now": 11403.43748046875,
+      "sma_fast_now": 11835.026220703125,
+      "sma_slow_now": 11425.95701171875,
       "trend_ok": true,
       "recent_swing_high": 12239.0,
       "recent_swing_high_date": "2026-08-05",
@@ -219,7 +219,7 @@
       "uptrend_hh_count": 4,
       "uptrend_hl_count": 6,
       "uptrend_pivot_highs": 7,
-      "uptrend_pivot_lows": 9,
+      "uptrend_pivot_lows": 8,
       "uptrend_overall_up": true,
       "uptrend_ok": true,
       "uptrend_actionable": true,
@@ -236,11 +236,11 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 1.411286311786239,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 272715,
+        "avg_volume_50": 269698,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 272715,
+      "avgVolume50": 269698,
       "rank_score": 3.013684877586121
     },
     {
@@ -250,8 +250,8 @@
       "close": 3257.0,
       "sma_fast": 20,
       "sma_slow": 50,
-      "sma_fast_now": 3180.366491699219,
-      "sma_slow_now": 3146.547353515625,
+      "sma_fast_now": 3181.7571655273437,
+      "sma_slow_now": 3146.4935205078127,
       "trend_ok": true,
       "recent_swing_high": 3411.10009765625,
       "recent_swing_high_date": "2026-08-10",
@@ -272,9 +272,9 @@
       "rebound_ok": false,
       "uptrend_window_used": 50,
       "uptrend_hh_count": 4,
-      "uptrend_hl_count": 5,
-      "uptrend_pivot_highs": 7,
-      "uptrend_pivot_lows": 9,
+      "uptrend_hl_count": 4,
+      "uptrend_pivot_highs": 8,
+      "uptrend_pivot_lows": 8,
       "uptrend_overall_up": true,
       "uptrend_ok": true,
       "uptrend_actionable": true,
@@ -291,12 +291,12 @@
         "max_gap_count_allowed": 2,
         "max_gap_pct": 2.012554414901552,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 680489,
+        "avg_volume_50": 667528,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 680489,
-      "rank_score": 2.9428897697992804
+      "avgVolume50": 667528,
+      "rank_score": 2.8928897697992806
     },
     {
       "ticker": "M&M.NS",
