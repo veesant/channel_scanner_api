@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-15T12:21:39.544837+00:00",
+  "updated_utc": "2026-08-15T14:03:31.477168+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -145,15 +145,15 @@
     },
     {
       "ticker": "WIPRO.NS",
-      "slope": -0.010324018688095118,
-      "r2": 0.7946504246937228,
+      "slope": -0.010324018675242564,
+      "r2": 0.7946504224050615,
       "inside": 1.0,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.8535388303625394,
+      "pos": 0.853538827320457,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -41.54125953495562,
+      "annual_trend_pct": -41.54125949588573,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -165,7 +165,7 @@
       "recent_trend_pct": 131.98508724216626,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8119713293106076
+      "rank_score": 0.811971328470485
     },
     {
       "ticker": "NESTLEIND.NS",
@@ -193,15 +193,15 @@
     },
     {
       "ticker": "SHRIRAMFIN.NS",
-      "slope": 0.010457165379963216,
-      "r2": 0.6848810008513131,
+      "slope": 0.010477059405485118,
+      "r2": 0.6858771261134177,
       "inside": 1.0,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.4288373651146649,
+      "pos": 0.4484801728298784,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 72.2492896170426,
+      "annual_trend_pct": 72.42757186840248,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -210,10 +210,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -4.999821258148107,
       "prior_trend_type": "Sideways",
-      "recent_trend_pct": 152.710297204145,
+      "recent_trend_pct": 170.4608948175774,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7995567639141901
+      "rank_score": 0.7980905457737211
     },
     {
       "ticker": "JIOFIN.NS",
@@ -241,15 +241,15 @@
     },
     {
       "ticker": "BAJAJ-AUTO.NS",
-      "slope": 0.005731358038515263,
-      "r2": 0.6649880262302775,
+      "slope": 0.005757895989951161,
+      "r2": 0.6642147323772676,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
-      "near_lower": 0.10256410256410256,
-      "pos": 0.9094683587208513,
+      "near_lower": 0.07692307692307693,
+      "pos": 0.9031152059976659,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 34.720303591440185,
+      "annual_trend_pct": 34.90634237166319,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": true,
@@ -258,10 +258,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 35.33487616566653,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 387.04381606011424,
+      "recent_trend_pct": 392.65609234830043,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7210343567302332
+      "rank_score": 0.7212830250760467
     }
   ]
 }
