@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-16T12:26:54.787023+00:00",
+  "updated_utc": "2026-08-16T13:57:36.923889+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "APOLLOHOSP.NS",
-      "slope": 0.008430363531789139,
-      "r2": 0.8647692368769963,
+      "slope": 0.00840555843813672,
+      "r2": 0.8644777826541171,
       "inside": 0.9230769230769231,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.365552435121192,
+      "pos": 0.3696737608675328,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 55.01921696305638,
+      "annual_trend_pct": 54.81939202222292,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -42,22 +42,22 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 53.60803285246616,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 17.976424408631473,
+      "recent_trend_pct": 17.372387041143632,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8650601441571482
+      "rank_score": 0.8645022844710745
     },
     {
       "ticker": "HINDALCO.NS",
-      "slope": 0.0072317973279541585,
-      "r2": 0.7724619467355233,
+      "slope": 0.007240153318447903,
+      "r2": 0.7736074207265365,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.29618767509591454,
+      "pos": 0.2945224742860338,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 45.652499905075516,
+      "annual_trend_pct": 45.71580134372033,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -66,10 +66,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 45.96600147668535,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 177.0001747674803,
+      "recent_trend_pct": 178.71949949242304,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8566122058581702
+      "rank_score": 0.857351462934665
     },
     {
       "ticker": "GRASIM.NS",
