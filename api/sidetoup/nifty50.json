@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-16T11:15:21.367833+00:00",
+  "updated_utc": "2026-08-16T12:26:54.787023+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -73,15 +73,15 @@
     },
     {
       "ticker": "GRASIM.NS",
-      "slope": 0.009206677397897598,
-      "r2": 0.7597135209677779,
+      "slope": 0.009197421402456935,
+      "r2": 0.7588353371672744,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.42452525311642897,
+      "pos": 0.4256725312507231,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 61.405109172511565,
+      "annual_trend_pct": 61.32744168750879,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -90,10 +90,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 74.21686906607827,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 52.31015356989745,
+      "recent_trend_pct": 52.018694214368644,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.837404235172246
+      "rank_score": 0.8368504154585649
     },
     {
       "ticker": "ASIANPAINT.NS",
@@ -193,15 +193,15 @@
     },
     {
       "ticker": "SHRIRAMFIN.NS",
-      "slope": 0.010477059861154003,
-      "r2": 0.6858771246866939,
+      "slope": 0.010457165379963216,
+      "r2": 0.6848810008513131,
       "inside": 1.0,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.4484801574444152,
+      "pos": 0.4288373651146649,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 72.42757595403626,
+      "annual_trend_pct": 72.2492896170426,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -210,10 +210,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -4.999821258148096,
       "prior_trend_type": "Sideways",
-      "recent_trend_pct": 170.46089481758858,
+      "recent_trend_pct": 152.71029720413875,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7980905465989054
+      "rank_score": 0.7995567639141901
     },
     {
       "ticker": "JIOFIN.NS",
@@ -241,15 +241,15 @@
     },
     {
       "ticker": "BAJAJ-AUTO.NS",
-      "slope": 0.005731358038515263,
-      "r2": 0.6649880262302775,
+      "slope": 0.005757895989951161,
+      "r2": 0.6642147323772676,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
-      "near_lower": 0.10256410256410256,
-      "pos": 0.9094683587208513,
+      "near_lower": 0.07692307692307693,
+      "pos": 0.9031152059976659,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 34.720303591440185,
+      "annual_trend_pct": 34.90634237166319,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": true,
@@ -258,10 +258,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 35.33487616566653,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 387.04381606011424,
+      "recent_trend_pct": 392.65609234828827,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7210343567302332
+      "rank_score": 0.7212830250760467
     }
   ]
 }
