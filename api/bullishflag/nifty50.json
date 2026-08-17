@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-17T11:17:57.523072+00:00",
+  "updated_utc": "2026-08-17T12:21:27.868335+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -15,26 +15,26 @@
   "count": 4,
   "data": [
     {
-      "ticker": "INFY.NS",
+      "ticker": "BAJAJ-AUTO.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 1169.199951171875,
-      "sma20": 1134.1149841308593,
-      "sma50": 1101.7689025878906,
+      "close": 11700.0,
+      "sma20": 11321.725,
+      "sma50": 10558.3,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 10.968541687285347,
-      "pole_high": 1187.699951171875,
-      "pole_range": 173.7999267578125,
+      "pole_gain_pct": 10.239961986220004,
+      "pole_high": 11856.0,
+      "pole_range": 1513.5,
       "flag_bars": 8,
-      "flag_range": 39.4000244140625,
-      "pullback_from_pole_high_pct": 1.5576324627904965,
+      "flag_range": 314.0,
+      "pullback_from_pole_high_pct": 1.3157894736842104,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": true,
       "pattern": "bull_flag",
-      "rank_score": 2.6513869479575978
+      "rank_score": 2.727624711265399
     },
     {
       "ticker": "HCLTECH.NS",
