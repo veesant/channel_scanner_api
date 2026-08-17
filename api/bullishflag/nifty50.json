@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-16T20:29:47.594261+00:00",
+  "updated_utc": "2026-08-17T11:17:57.523072+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,30 +12,8 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 5,
+  "count": 4,
   "data": [
-    {
-      "ticker": "BAJAJ-AUTO.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 11700.0,
-      "sma20": 11355.075,
-      "sma50": 10571.03,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 11.500937184601336,
-      "pole_high": 11856.0,
-      "pole_range": 1513.5,
-      "flag_bars": 8,
-      "flag_range": 314.0,
-      "pullback_from_pole_high_pct": 1.3157894736842104,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": true,
-      "pattern": "bull_flag",
-      "rank_score": 2.7906734711844656
-    },
     {
       "ticker": "INFY.NS",
       "tf": "1d",
@@ -63,13 +41,13 @@
       "tf": "1d",
       "bars_used": 320,
       "close": 1360.0,
-      "sma20": 1323.9350036621095,
-      "sma50": 1204.501307373047,
+      "sma20": 1322.2650024414063,
+      "sma50": 1202.6159143066407,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 10.716881140635689,
+      "pole_gain_pct": 10.520373087056273,
       "pole_high": 1377.0,
-      "pole_range": 149.300048828125,
+      "pole_range": 159.800048828125,
       "flag_bars": 8,
       "flag_range": 51.800048828125,
       "pullback_from_pole_high_pct": 1.2345679012345678,
@@ -78,7 +56,7 @@
       "flag_hold_ok": true,
       "near_breakout": true,
       "pattern": "bull_flag",
-      "rank_score": 2.5460669927546977
+      "rank_score": 2.574237019771239
     },
     {
       "ticker": "JIOFIN.NS",
