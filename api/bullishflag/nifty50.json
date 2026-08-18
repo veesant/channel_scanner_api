@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-18T12:23:13.490791+00:00",
+  "updated_utc": "2026-08-18T14:27:00.490152+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,7 +12,7 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 4,
+  "count": 3,
   "data": [
     {
       "ticker": "INFY.NS",
@@ -57,28 +57,6 @@
       "near_breakout": false,
       "pattern": "bull_flag",
       "rank_score": 1.7721573185558945
-    },
-    {
-      "ticker": "BAJFINANCE.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 1089.300048828125,
-      "sma20": 1088.4150115966797,
-      "sma50": 1025.4202087402343,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 11.444508021913956,
-      "pole_high": 1176.4000244140625,
-      "pole_range": 175.10003662109375,
-      "flag_bars": 8,
-      "flag_range": 89.39990234375,
-      "pullback_from_pole_high_pct": 7.40394200767889,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 1.721284189918168
     },
     {
       "ticker": "JIOFIN.NS",

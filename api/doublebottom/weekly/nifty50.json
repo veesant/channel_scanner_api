@@ -10,11 +10,11 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-08-18T12:34:48.564933+00:00"
+    "lastUpdatedTs": "2026-08-18T14:22:12.207654+00:00"
   },
   "counts": {
     "total": 50,
-    "matched": 10
+    "matched": 9
   },
   "data": [
     {
@@ -177,29 +177,6 @@
       "current_close": 1431.5,
       "recovered_halfway": true,
       "rank_score": 22.000145815912536
-    },
-    {
-      "ticker": "TATASTEEL.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 7,
-      "middle_peak_bar": 9,
-      "second_bottom_bar": 10,
-      "first_bottom_date": "2026-07-20",
-      "middle_peak_date": "2026-08-03",
-      "second_bottom_date": "2026-08-10",
-      "first_bottom": 181.1999969482422,
-      "middle_peak": 193.64999389648438,
-      "second_bottom": 180.0,
-      "bottom_similarity_pct": 0.6666649712456597,
-      "bounce_from_bottom_pct": 6.8708593586778,
-      "rise_after_second_bottom_pct": 3.3333333333333335,
-      "current_close": 186.0,
-      "recovered_halfway": false,
-      "rank_score": 17.53752772076547
     },
     {
       "ticker": "BEL.NS",
