@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-18T14:27:00.490152+00:00",
+  "updated_utc": "2026-08-18T20:34:28.820158+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -15,26 +15,26 @@
   "count": 3,
   "data": [
     {
-      "ticker": "INFY.NS",
+      "ticker": "BAJAJ-AUTO.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 1139.9000244140625,
-      "sma20": 1136.7549865722656,
-      "sma50": 1101.3179968261718,
+      "close": 11663.0,
+      "sma20": 11388.3,
+      "sma50": 10584.32,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 12.087070138914708,
-      "pole_high": 1187.699951171875,
-      "pole_range": 173.7999267578125,
+      "pole_gain_pct": 13.42336713605998,
+      "pole_high": 11856.0,
+      "pole_range": 1513.5,
       "flag_bars": 8,
-      "flag_range": 65.300048828125,
-      "pullback_from_pole_high_pct": 4.024579331728478,
+      "flag_range": 314.0,
+      "pullback_from_pole_high_pct": 1.627867746288799,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
-      "near_breakout": false,
+      "near_breakout": true,
       "pattern": "bull_flag",
-      "rank_score": 1.9781540789954615
+      "rank_score": 2.7827688778892012
     },
     {
       "ticker": "BAJAJFINSV.NS",
