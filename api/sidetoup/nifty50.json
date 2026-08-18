@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-18T11:17:45.121184+00:00",
+  "updated_utc": "2026-08-18T12:35:36.884646+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -49,15 +49,15 @@
     },
     {
       "ticker": "GRASIM.NS",
-      "slope": 0.009825393065821099,
-      "r2": 0.8134510056533736,
+      "slope": 0.009817018593755875,
+      "r2": 0.8126486442611006,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.38718657948214574,
+      "pos": 0.38845769658097434,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 66.68247002530883,
+      "annual_trend_pct": 66.60990018771422,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -66,10 +66,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 87.46845396393603,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 113.76787181570207,
+      "recent_trend_pct": 114.17772039697903,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8680068448784724
+      "rank_score": 0.8674785524724529
     },
     {
       "ticker": "HINDALCO.NS",
@@ -169,15 +169,15 @@
     },
     {
       "ticker": "SHRIRAMFIN.NS",
-      "slope": 0.010114049414852694,
-      "r2": 0.6744382431523304,
+      "slope": 0.010094934862966375,
+      "r2": 0.6734781601682283,
       "inside": 1.0,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.057692307692307696,
-      "pos": 0.3926052864557986,
+      "pos": 0.394193089444425,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 69.20326701084205,
+      "annual_trend_pct": 69.03516984474956,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -186,10 +186,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 5.903975818839258,
       "prior_trend_type": "Sideways",
-      "recent_trend_pct": 211.0366599926277,
+      "recent_trend_pct": 198.62258766538775,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7979585929305854
+      "rank_score": 0.7973197711396717
     },
     {
       "ticker": "TECHM.NS",
