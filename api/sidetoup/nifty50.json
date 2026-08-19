@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-19T12:32:12.023440+00:00",
+  "updated_utc": "2026-08-19T14:21:01.445342+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "APOLLOHOSP.NS",
-      "slope": 0.008424316056805723,
-      "r2": 0.8642139987310586,
+      "slope": 0.008401873353025068,
+      "r2": 0.8641396522179939,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.12489687338139922,
+      "pos": 0.12807022708330115,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 54.970475935722085,
+      "annual_trend_pct": 54.789727687419386,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -42,10 +42,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 60.812550991030825,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 0.029296757363628245,
+      "recent_trend_pct": 0.5440808101377481,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.904232696642774
+      "rank_score": 0.9038781880160515
     },
     {
       "ticker": "GRASIM.NS",
@@ -66,7 +66,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 87.46845396393603,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 109.58994559381807,
+      "recent_trend_pct": 109.58994559382327,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.868997585455847
@@ -88,24 +88,24 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 37.24937385327647,
+      "prior_trend_pct": 37.2493738532758,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 241.21720681436355,
+      "recent_trend_pct": 241.21720681435082,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.8416136327263274
     },
     {
       "ticker": "HDFCBANK.NS",
-      "slope": -0.006632809786777262,
+      "slope": -0.0066328097867773125,
       "r2": 0.7815174113333356,
       "inside": 0.9615384615384616,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.057692307692307696,
-      "pos": 0.4778466854826962,
+      "pos": 0.4778466854827004,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -29.171314783119616,
+      "annual_trend_pct": -29.171314783119794,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -117,7 +117,7 @@
       "recent_trend_pct": -66.47128775807569,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8275894217337829
+      "rank_score": 0.8275894217337825
     },
     {
       "ticker": "ETERNAL.NS",
@@ -169,15 +169,15 @@
     },
     {
       "ticker": "SHRIRAMFIN.NS",
-      "slope": 0.01010933004012318,
-      "r2": 0.6741563060161807,
+      "slope": 0.01010933028655173,
+      "r2": 0.674156303175132,
       "inside": 1.0,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.057692307692307696,
-      "pos": 0.3879165541465851,
+      "pos": 0.3879165476470414,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 69.16174835717557,
+      "annual_trend_pct": 69.16175052486237,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -189,7 +189,7 @@
       "recent_trend_pct": 206.06828124306844,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7982864975934318
+      "rank_score": 0.7982864968228618
     },
     {
       "ticker": "TECHM.NS",
@@ -232,7 +232,7 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 51.06782416818503,
+      "prior_trend_pct": 51.06782416818347,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 13.943980882640371,
       "recent_trend_type": "Ascending",
@@ -265,15 +265,15 @@
     },
     {
       "ticker": "BAJAJ-AUTO.NS",
-      "slope": 0.009337587561273562,
-      "r2": 0.6832947108230231,
+      "slope": 0.009387680112741787,
+      "r2": 0.6833542903095924,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.6395325077654723,
+      "pos": 0.6340872286178852,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 62.50759500571925,
+      "annual_trend_pct": 62.93144863919602,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -282,10 +282,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 39.336153563815614,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 189.07345326019333,
+      "recent_trend_pct": 185.78036481074457,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7776941046349642
+      "rank_score": 0.7782684222930076
     },
     {
       "ticker": "HDFCLIFE.NS",
@@ -330,7 +330,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 13.668227758016084,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 178.95191133981973,
+      "recent_trend_pct": 178.9519113398128,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.7362626600915884

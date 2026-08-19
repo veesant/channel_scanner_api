@@ -10,36 +10,13 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-08-19T12:35:27.184877+00:00"
+    "lastUpdatedTs": "2026-08-19T14:18:35.531795+00:00"
   },
   "counts": {
     "total": 50,
     "matched": 16
   },
   "data": [
-    {
-      "ticker": "ADANIPORTS.NS",
-      "tf": "1mo",
-      "bars_available": 72,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 4,
-      "middle_peak_bar": 5,
-      "second_bottom_bar": 6,
-      "first_bottom_date": "2026-01-01",
-      "middle_peak_date": "2026-02-01",
-      "second_bottom_date": "2026-03-01",
-      "first_bottom": 1286.5777331995987,
-      "middle_peak": 1577.3523021449705,
-      "second_bottom": 1288.0714910201689,
-      "bottom_similarity_pct": 0.11610319237030045,
-      "bounce_from_bottom_pct": 22.45844373868469,
-      "rise_after_second_bottom_pct": 31.28153303515061,
-      "current_close": 1691.0,
-      "recovered_halfway": true,
-      "rank_score": 63.623873581465
-    },
     {
       "ticker": "TECHM.NS",
       "tf": "1mo",
@@ -85,6 +62,29 @@
       "current_close": 11607.0,
       "recovered_halfway": true,
       "rank_score": 63.047076602715684
+    },
+    {
+      "ticker": "ADANIPORTS.NS",
+      "tf": "1mo",
+      "bars_available": 72,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 4,
+      "middle_peak_bar": 5,
+      "second_bottom_bar": 6,
+      "first_bottom_date": "2026-01-01",
+      "middle_peak_date": "2026-02-01",
+      "second_bottom_date": "2026-03-01",
+      "first_bottom": 1286.5777331995987,
+      "middle_peak": 1577.3523021449705,
+      "second_bottom": 1288.0714910201689,
+      "bottom_similarity_pct": 0.11610319237030045,
+      "bounce_from_bottom_pct": 22.45844373868469,
+      "rise_after_second_bottom_pct": 30.61387012622882,
+      "current_close": 1682.4000244140625,
+      "recovered_halfway": true,
+      "rank_score": 62.95621067254321
     },
     {
       "ticker": "EICHERMOT.NS",
@@ -260,15 +260,15 @@
       "first_bottom_date": "2026-01-01",
       "middle_peak_date": "2026-03-01",
       "second_bottom_date": "2026-04-01",
-      "first_bottom": 1569.3659781146955,
+      "first_bottom": 1569.3658569320078,
       "middle_peak": 1838.1824598321832,
       "second_bottom": 1609.3821052801468,
-      "bottom_similarity_pct": 2.549827619783328,
+      "bottom_similarity_pct": 2.549835538436383,
       "bounce_from_bottom_pct": 14.21665829397357,
       "rise_after_second_bottom_pct": 16.51055205808548,
       "current_close": 1875.0999755859375,
       "recovered_halfway": true,
-      "rank_score": 38.177382732275724
+      "rank_score": 38.17737481362266
     },
     {
       "ticker": "BHARTIARTL.NS",
