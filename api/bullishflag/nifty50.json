@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-19T14:20:19.487846+00:00",
+  "updated_utc": "2026-08-19T20:27:24.426985+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,15 +12,15 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 4,
+  "count": 3,
   "data": [
     {
       "ticker": "ETERNAL.NS",
       "tf": "1d",
       "bars_used": 320,
       "close": 315.8999938964844,
-      "sma20": 307.88999938964844,
-      "sma50": 285.4420004272461,
+      "sma20": 308.0,
+      "sma50": 283.8940002441406,
       "trend_ok": true,
       "pole_bars": 10,
       "pole_gain_pct": 12.946428571428573,
@@ -35,50 +35,6 @@
       "near_breakout": true,
       "pattern": "bull_flag",
       "rank_score": 2.5249665492845828
-    },
-    {
-      "ticker": "BAJFINANCE.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 1094.300048828125,
-      "sma20": 1089.6700164794922,
-      "sma50": 1029.67658203125,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 13.03318153891398,
-      "pole_high": 1176.4000244140625,
-      "pole_range": 175.10003662109375,
-      "flag_bars": 8,
-      "flag_range": 42.199951171875,
-      "pullback_from_pole_high_pct": 6.978916514969437,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 2.249984392517608
-    },
-    {
-      "ticker": "SHRIRAMFIN.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 1108.4000244140625,
-      "sma20": 1085.645001220703,
-      "sma50": 1043.3508264160157,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 13.521045439767088,
-      "pole_high": 1153.699951171875,
-      "pole_range": 160.7999267578125,
-      "flag_bars": 8,
-      "flag_range": 50.4000244140625,
-      "pullback_from_pole_high_pct": 3.926491174052572,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 2.153663721298153
     },
     {
       "ticker": "BAJAJFINSV.NS",
@@ -101,6 +57,28 @@
       "near_breakout": false,
       "pattern": "bull_flag",
       "rank_score": 2.147574985385119
+    },
+    {
+      "ticker": "BAJFINANCE.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 1094.300048828125,
+      "sma20": 1088.580014038086,
+      "sma50": 1018.075087890625,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 11.444508021913956,
+      "pole_high": 1176.4000244140625,
+      "pole_range": 175.10003662109375,
+      "flag_bars": 8,
+      "flag_range": 89.39990234375,
+      "pullback_from_pole_high_pct": 6.978916514969437,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.721284189918168
     }
   ]
 }
