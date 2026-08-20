@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-20T14:29:03.992963+00:00",
+  "updated_utc": "2026-08-20T20:33:15.225605+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -31,7 +31,7 @@
       "sma_fast": 20,
       "sma_slow": 50,
       "sma_fast_now": 1497.0099975585938,
-      "sma_slow_now": 1451.0885693359376,
+      "sma_slow_now": 1448.9920043945312,
       "trend_ok": true,
       "recent_swing_high": 1553.0,
       "recent_swing_high_date": "2026-08-07",
@@ -52,9 +52,9 @@
       "rebound_ok": false,
       "uptrend_window_used": 50,
       "uptrend_hh_count": 5,
-      "uptrend_hl_count": 5,
+      "uptrend_hl_count": 6,
       "uptrend_pivot_highs": 6,
-      "uptrend_pivot_lows": 7,
+      "uptrend_pivot_lows": 8,
       "uptrend_overall_up": true,
       "uptrend_ok": true,
       "uptrend_actionable": true,
@@ -67,16 +67,16 @@
         "long_wick_count": 13,
         "max_long_wicks_allowed": 6,
         "gap_thresh_pct": 2.5,
-        "gap_count": 0,
+        "gap_count": 1,
         "max_gap_count_allowed": 2,
-        "max_gap_pct": 2.4932780418441998,
+        "max_gap_pct": 3.319784445304825,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 2097010,
+        "avg_volume_50": 2004111,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 2097010,
-      "rank_score": 3.1551144767344543
+      "avgVolume50": 2004111,
+      "rank_score": 3.205114476734454
     },
     {
       "ticker": "INDIGO.NS",
