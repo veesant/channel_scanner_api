@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-20T11:19:40.656371+00:00",
+  "updated_utc": "2026-08-20T12:32:28.473153+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -88,7 +88,7 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 37.24937385327647,
+      "prior_trend_pct": 37.2493738532758,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 221.61489841694925,
       "recent_trend_type": "Ascending",
@@ -121,15 +121,15 @@
     },
     {
       "ticker": "NESTLEIND.NS",
-      "slope": 0.008885660330188665,
-      "r2": 0.6861361411320815,
+      "slope": 0.008885660330188555,
+      "r2": 0.6861361411320811,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
       "pos": 0.2325394788463763,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 58.733155198640375,
+      "annual_trend_pct": 58.73315519863949,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -141,7 +141,7 @@
       "recent_trend_pct": 42.85853166425162,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8044295072967877
+      "rank_score": 0.8044295072967875
     },
     {
       "ticker": "ETERNAL.NS",
@@ -162,22 +162,22 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 59.044313465849974,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 413.3596001757869,
+      "recent_trend_pct": 413.359600175787,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.7985592570454678
     },
     {
       "ticker": "SHRIRAMFIN.NS",
-      "slope": 0.01013348169100193,
-      "r2": 0.6756476037849349,
+      "slope": 0.010152596242888265,
+      "r2": 0.676610419483753,
       "inside": 1.0,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.057692307692307696,
-      "pos": 0.43256466131141813,
+      "pos": 0.43098488935304097,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": 69.3743296635561,
+      "annual_trend_pct": 69.54276410741436,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -186,10 +186,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 5.903975818839258,
       "prior_trend_type": "Sideways",
-      "recent_trend_pct": 240.6002993039979,
+      "recent_trend_pct": 254.75943168340152,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7945673357613257
+      "rank_score": 0.7952067208065724
     },
     {
       "ticker": "TECHM.NS",
@@ -210,7 +210,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 21.800380006070895,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 32.32788138373866,
+      "recent_trend_pct": 32.32788138373868,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.7892332335047992
@@ -232,7 +232,7 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 51.06782416818503,
+      "prior_trend_pct": 51.06782416818347,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 23.819477977121807,
       "recent_trend_type": "Ascending",
@@ -258,7 +258,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -1.6713896792934002,
       "prior_trend_type": "Sideways",
-      "recent_trend_pct": 40.98120859469796,
+      "recent_trend_pct": 40.98120859470023,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.7765411304561581
@@ -306,7 +306,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -30.919015164887377,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -37.56673484786247,
+      "recent_trend_pct": -37.566734847861305,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.7629411920957008
@@ -330,7 +330,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 13.668227758016084,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 178.95191133981973,
+      "recent_trend_pct": 178.9519113398128,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.7362626600915884
