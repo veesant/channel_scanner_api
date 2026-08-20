@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-20T12:29:11.859640+00:00",
+  "updated_utc": "2026-08-20T14:26:58.315718+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,37 +12,15 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 2,
+  "count": 1,
   "data": [
-    {
-      "ticker": "SHRIRAMFIN.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 1106.0,
-      "sma20": 1084.8450012207031,
-      "sma50": 1043.0308264160155,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 13.521045439767088,
-      "pole_high": 1153.699951171875,
-      "pole_range": 160.7999267578125,
-      "flag_bars": 8,
-      "flag_range": 50.800048828125,
-      "pullback_from_pole_high_pct": 4.134519649014772,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": false,
-      "pattern": "bull_flag",
-      "rank_score": 2.1495175293799504
-    },
     {
       "ticker": "HINDALCO.NS",
       "tf": "1d",
       "bars_used": 320,
       "close": 1038.949951171875,
-      "sma20": 1009.6850036621094,
-      "sma50": 992.332958984375,
+      "sma20": 1009.6150024414062,
+      "sma50": 987.7289831542969,
       "trend_ok": true,
       "pole_bars": 10,
       "pole_gain_pct": 12.388628479555845,

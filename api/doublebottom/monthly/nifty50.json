@@ -10,36 +10,13 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-08-20T12:32:55.138138+00:00"
+    "lastUpdatedTs": "2026-08-20T14:24:22.641900+00:00"
   },
   "counts": {
     "total": 50,
     "matched": 17
   },
   "data": [
-    {
-      "ticker": "TECHM.NS",
-      "tf": "1mo",
-      "bars_available": 72,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 2,
-      "middle_peak_bar": 5,
-      "second_bottom_bar": 6,
-      "first_bottom_date": "2025-11-01",
-      "middle_peak_date": "2026-02-01",
-      "second_bottom_date": "2026-03-01",
-      "first_bottom": 1348.5548195065278,
-      "middle_peak": 1807.0401922198294,
-      "second_bottom": 1271.0684632504024,
-      "bottom_similarity_pct": 6.096159136697933,
-      "bounce_from_bottom_pct": 33.99827475171337,
-      "rise_after_second_bottom_pct": 25.24895755252277,
-      "current_close": 1592.0,
-      "recovered_halfway": true,
-      "rank_score": 63.1510731675382
-    },
     {
       "ticker": "BAJAJ-AUTO.NS",
       "tf": "1mo",
@@ -58,10 +35,33 @@
       "second_bottom": 8504.316510218632,
       "bottom_similarity_pct": 1.5603889556051287,
       "bounce_from_bottom_pct": 18.12383414534083,
-      "rise_after_second_bottom_pct": 36.48363141297998,
-      "current_close": 11607.0,
+      "rise_after_second_bottom_pct": 36.930463324213996,
+      "current_close": 11645.0,
       "recovered_halfway": true,
-      "rank_score": 63.047076602715684
+      "rank_score": 63.4939085139497
+    },
+    {
+      "ticker": "TECHM.NS",
+      "tf": "1mo",
+      "bars_available": 72,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 2,
+      "middle_peak_bar": 5,
+      "second_bottom_bar": 6,
+      "first_bottom_date": "2025-11-01",
+      "middle_peak_date": "2026-02-01",
+      "second_bottom_date": "2026-03-01",
+      "first_bottom": 1348.5548195065278,
+      "middle_peak": 1807.0401922198294,
+      "second_bottom": 1271.0684632504024,
+      "bottom_similarity_pct": 6.096159136697933,
+      "bounce_from_bottom_pct": 33.99827475171337,
+      "rise_after_second_bottom_pct": 25.075878663738983,
+      "current_close": 1589.800048828125,
+      "recovered_halfway": true,
+      "rank_score": 62.977994278754416
     },
     {
       "ticker": "ADANIPORTS.NS",
@@ -104,10 +104,10 @@
       "second_bottom": 6375.239483785958,
       "bottom_similarity_pct": 3.539273977017024,
       "bounce_from_bottom_pct": 23.38830157599736,
-      "rise_after_second_bottom_pct": 25.775667257572348,
-      "current_close": 8018.5,
+      "rise_after_second_bottom_pct": 25.336468070291435,
+      "current_close": 7990.5,
       "recovered_halfway": true,
-      "rank_score": 55.62469485655268
+      "rank_score": 55.18549566927177
     },
     {
       "ticker": "TITAN.NS",
@@ -156,29 +156,6 @@
       "rank_score": 46.01766688605146
     },
     {
-      "ticker": "GRASIM.NS",
-      "tf": "1mo",
-      "bars_available": 72,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 2,
-      "middle_peak_bar": 5,
-      "second_bottom_bar": 6,
-      "first_bottom_date": "2025-11-01",
-      "middle_peak_date": "2026-02-01",
-      "second_bottom_date": "2026-03-01",
-      "first_bottom": 2667.3904498912343,
-      "middle_peak": 2969.748407675248,
-      "second_bottom": 2494.7283120563393,
-      "bottom_similarity_pct": 6.921079822619007,
-      "bounce_from_bottom_pct": 11.33534679170583,
-      "rise_after_second_bottom_pct": 31.425130958221594,
-      "current_close": 3278.699951171875,
-      "recovered_halfway": true,
-      "rank_score": 45.83939792730841
-    },
-    {
       "ticker": "ONGC.NS",
       "tf": "1mo",
       "bars_available": 72,
@@ -200,6 +177,29 @@
       "current_close": 238.0,
       "recovered_halfway": false,
       "rank_score": 45.698882919354546
+    },
+    {
+      "ticker": "GRASIM.NS",
+      "tf": "1mo",
+      "bars_available": 72,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 2,
+      "middle_peak_bar": 5,
+      "second_bottom_bar": 6,
+      "first_bottom_date": "2025-11-01",
+      "middle_peak_date": "2026-02-01",
+      "second_bottom_date": "2026-03-01",
+      "first_bottom": 2667.3904498912343,
+      "middle_peak": 2969.748407675248,
+      "second_bottom": 2494.7283120563393,
+      "bottom_similarity_pct": 6.921079822619007,
+      "bounce_from_bottom_pct": 11.33534679170583,
+      "rise_after_second_bottom_pct": 31.076397545856388,
+      "current_close": 3270.0,
+      "recovered_halfway": true,
+      "rank_score": 45.490664514943205
     },
     {
       "ticker": "NESTLEIND.NS",
