@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-25T20:24:16.075657+00:00",
+  "updated_utc": "2026-08-26T11:19:02.108320+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,6 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "HINDALCO.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 1058.5,
-      "sma20": 1024.770001220703,
-      "sma50": 988.1084387207031,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 11.139733395123251,
-      "pole_high": 1087.949951171875,
-      "pole_range": 127.3499755859375,
-      "flag_bars": 8,
-      "flag_range": 60.0,
-      "pullback_from_pole_high_pct": 2.7069215031586027,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": true,
-      "pattern": "bull_flag",
-      "rank_score": 1.8694418171458398
-    }
-  ]
+  "count": 0,
+  "data": []
 }
