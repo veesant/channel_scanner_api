@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-26T22:41:28.307287+00:00",
+  "updated_utc": "2026-08-27T20:50:13.546788+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -27,18 +27,18 @@
       "ticker": "SBIN.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 1048.0,
+      "close": 1052.0,
       "sma_fast": 20,
       "sma_slow": 50,
-      "sma_fast_now": 1055.3999908447265,
-      "sma_slow_now": 1042.0849926757812,
+      "sma_fast_now": 1057.314990234375,
+      "sma_slow_now": 1042.5949926757812,
       "trend_ok": true,
       "recent_swing_high": 1086.800048828125,
       "recent_swing_high_date": "2026-08-13",
       "resistance_level": 1086.800048828125,
-      "pullback_from_swing_high_pct": 3.5701184288648427,
+      "pullback_from_swing_high_pct": 3.202065445768907,
       "had_correction": true,
-      "bars_since_swing_high": 8,
+      "bars_since_swing_high": 9,
       "correction_age_ok": true,
       "anchor_support_close": 1007.5999755859375,
       "anchor_support_date": "2026-07-30",
@@ -60,23 +60,23 @@
       "uptrend_actionable": true,
       "watchlist_correction": true,
       "actionable_after_correction": true,
-      "dist_to_support": 0.04009530110455705,
+      "dist_to_support": 0.0440651304980859,
       "actionable_reason": "watchlist_correction",
       "priceQuality": {
         "quality_n_bars": 50,
-        "long_wick_count": 14,
+        "long_wick_count": 15,
         "max_long_wicks_allowed": 6,
         "gap_thresh_pct": 2.5,
         "gap_count": 0,
         "max_gap_count_allowed": 2,
         "max_gap_pct": 1.2065637065637065,
         "max_gap_pct_allowed": 6.0,
-        "avg_volume_50": 10279712,
+        "avg_volume_50": 10233073,
         "price_quality_ok": false
       },
       "priceQualityOk": false,
-      "avgVolume50": 10279712,
-      "rank_score": 2.716916541781927
+      "avgVolume50": 10233073,
+      "rank_score": 2.6761414140788045
     }
   ]
 }
