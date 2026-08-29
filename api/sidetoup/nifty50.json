@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-08-29T15:23:55.731232+00:00",
+  "updated_utc": "2026-08-29T15:57:32.835706+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -66,7 +66,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 93.06414901335233,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 98.65645047719308,
+      "recent_trend_pct": 98.65645047719553,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.8826692300696286
@@ -162,22 +162,22 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 58.61187777404913,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 35.621470519488675,
+      "recent_trend_pct": 35.6214705194853,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.8246542453874436
     },
     {
       "ticker": "CIPLA.NS",
-      "slope": 0.007256362385448933,
-      "r2": 0.7106570725984864,
+      "slope": 0.007256362385449029,
+      "r2": 0.7106570725984849,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.1932282547492274,
+      "pos": 0.19322825474922112,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 45.8386728126033,
+      "annual_trend_pct": 45.83867281260403,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -189,19 +189,19 @@
       "recent_trend_pct": -6.970242102915048,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.8206210954397052
+      "rank_score": 0.8206210954397049
     },
     {
       "ticker": "BAJAJ-AUTO.NS",
-      "slope": 0.010609052539041947,
-      "r2": 0.7640754336121225,
+      "slope": 0.010609052539041803,
+      "r2": 0.7640754336121246,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.6436135581200033,
+      "pos": 0.6436135581200062,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 73.6151239602535,
+      "annual_trend_pct": 73.61512396025218,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -210,10 +210,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 47.91546576251007,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 78.05328139706992,
+      "recent_trend_pct": 78.0532813970788,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8176763609940609
+      "rank_score": 0.8176763609940617
     },
     {
       "ticker": "SHRIRAMFIN.NS",
@@ -258,7 +258,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 34.58034097210141,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -0.5017083808025458,
+      "recent_trend_pct": -0.50170838080007,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
       "rank_score": 0.796617055742729
@@ -280,9 +280,9 @@
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 74.23385874165443,
+      "prior_trend_pct": 74.23385874165666,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -7.69691203965035,
+      "recent_trend_pct": -7.6969120396503605,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
       "rank_score": 0.7938593821006185
@@ -306,7 +306,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 4.211178234016377,
       "prior_trend_type": "Sideways",
-      "recent_trend_pct": -11.339518930919512,
+      "recent_trend_pct": -11.339518930918635,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.7901048140179454
