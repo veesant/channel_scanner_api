@@ -10,7 +10,7 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-08-30T22:22:00.908410+00:00"
+    "lastUpdatedTs": "2026-08-31T17:48:10.914080+00:00"
   },
   "counts": {
     "total": 50,
@@ -133,29 +133,6 @@
       "rank_score": 53.474263595511445
     },
     {
-      "ticker": "GRASIM.NS",
-      "tf": "1mo",
-      "bars_available": 72,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 2,
-      "middle_peak_bar": 5,
-      "second_bottom_bar": 6,
-      "first_bottom_date": "2025-11-01",
-      "middle_peak_date": "2026-02-01",
-      "second_bottom_date": "2026-03-01",
-      "first_bottom": 2667.3904498912343,
-      "middle_peak": 2969.748407675248,
-      "second_bottom": 2494.7283120563393,
-      "bottom_similarity_pct": 6.921079822619007,
-      "bounce_from_bottom_pct": 11.33534679170583,
-      "rise_after_second_bottom_pct": 31.878088050724013,
-      "current_close": 3290.0,
-      "recovered_halfway": true,
-      "rank_score": 46.292355019810834
-    },
-    {
       "ticker": "JSWSTEEL.NS",
       "tf": "1mo",
       "bars_available": 72,
@@ -173,10 +150,33 @@
       "second_bottom": 1096.2035763067233,
       "bottom_similarity_pct": 2.730157470016366,
       "bounce_from_bottom_pct": 16.526070452999903,
-      "rise_after_second_bottom_pct": 21.77482844122292,
-      "current_close": 1334.9000244140625,
+      "rise_after_second_bottom_pct": 22.01200843608274,
+      "current_close": 1337.5,
       "recovered_halfway": true,
-      "rank_score": 45.57074142420646
+      "rank_score": 45.807921419066275
+    },
+    {
+      "ticker": "GRASIM.NS",
+      "tf": "1mo",
+      "bars_available": 72,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 2,
+      "middle_peak_bar": 5,
+      "second_bottom_bar": 6,
+      "first_bottom_date": "2025-11-01",
+      "middle_peak_date": "2026-02-01",
+      "second_bottom_date": "2026-03-01",
+      "first_bottom": 2667.3904498912343,
+      "middle_peak": 2969.748407675248,
+      "second_bottom": 2494.7283120563393,
+      "bottom_similarity_pct": 6.921079822619007,
+      "bounce_from_bottom_pct": 11.33534679170583,
+      "rise_after_second_bottom_pct": 30.595383242935814,
+      "current_close": 3258.0,
+      "recovered_halfway": true,
+      "rank_score": 45.009650212022635
     },
     {
       "ticker": "NESTLEIND.NS",
@@ -242,10 +242,10 @@
       "second_bottom": 1609.3821052801468,
       "bottom_similarity_pct": 2.549835538436383,
       "bounce_from_bottom_pct": 14.21665829397357,
-      "rise_after_second_bottom_pct": 19.30044417051497,
-      "current_close": 1920.0,
+      "rise_after_second_bottom_pct": 18.884138362845466,
+      "current_close": 1913.300048828125,
       "recovered_halfway": true,
-      "rank_score": 40.96726692605216
+      "rank_score": 40.55096111838265
     },
     {
       "ticker": "DRREDDY.NS",
