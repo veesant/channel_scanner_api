@@ -10,7 +10,7 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-09-03T22:15:27.307092+00:00"
+    "lastUpdatedTs": "2026-09-04T14:43:55.509991+00:00"
   },
   "counts": {
     "total": 50,
@@ -35,10 +35,10 @@
       "second_bottom": 1013.9000244140625,
       "bottom_similarity_pct": 3.2064331450711943,
       "bounce_from_bottom_pct": 10.148932038297257,
-      "rise_after_second_bottom_pct": 12.437121269309689,
-      "current_close": 1140.0,
+      "rise_after_second_bottom_pct": 11.480424263854871,
+      "current_close": 1130.300048828125,
       "recovered_halfway": true,
-      "rank_score": 29.37962016253575
+      "rank_score": 28.422923157080934
     },
     {
       "ticker": "JSWSTEEL.NS",
@@ -58,10 +58,10 @@
       "second_bottom": 1250.4000244140625,
       "bottom_similarity_pct": 3.872322926442885,
       "bounce_from_bottom_pct": 6.765832848218397,
-      "rise_after_second_bottom_pct": 4.446575056009908,
-      "current_close": 1306.0,
+      "rise_after_second_bottom_pct": 4.606523869265666,
+      "current_close": 1308.0,
       "recovered_halfway": true,
-      "rank_score": 17.34008497778542
+      "rank_score": 17.500033791041176
     },
     {
       "ticker": "BEL.NS",
@@ -81,10 +81,10 @@
       "second_bottom": 381.6818541727703,
       "bottom_similarity_pct": 5.586078772548873,
       "bounce_from_bottom_pct": 6.529550754696974,
-      "rise_after_second_bottom_pct": 6.305813484215353,
-      "current_close": 405.75,
+      "rise_after_second_bottom_pct": 7.052510261218944,
+      "current_close": 408.6000061035156,
       "recovered_halfway": false,
-      "rank_score": 15.249285466363453
+      "rank_score": 15.995982243367045
     }
   ]
 }
