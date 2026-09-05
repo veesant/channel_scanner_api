@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-04T22:15:15.631614+00:00",
+  "updated_utc": "2026-09-05T13:40:58.107173+00:00",
   "tf": "1d",
   "params": {
     "n_down": 40,
@@ -15,28 +15,49 @@
     "near_resistance_pct": 6.0,
     "breakout_wiggle_pct": 0.2
   },
-  "count": 1,
+  "count": 2,
   "data": [
     {
       "ticker": "AXISBANK.NS",
       "tf": "1d",
       "bars_used": 350,
-      "close": 1267.0,
-      "sma20": 1245.6150146484374,
-      "sma50": 1272.8648461914063,
+      "close": 1273.0,
+      "sma20": 1247.3650146484374,
+      "sma50": 1270.8020727539063,
       "trend_ok": true,
       "prior_downtrend_ok": true,
-      "down_slope": -3.719609874274449,
+      "down_slope": -3.450866630511257,
       "fresh_uptrend_ok": true,
-      "up_slope": 3.485452917850379,
+      "up_slope": 3.5909098307291667,
       "up_hh_steps": 1,
       "up_hl_steps": 2,
       "up_pivot_highs": 2,
       "up_pivot_lows": 3,
       "resistance": 1300.0,
-      "pullback_from_resistance_pct": 2.5384615384615383,
+      "pullback_from_resistance_pct": 2.076923076923077,
       "state": "correction",
-      "rank_score": 2.725565176606096
+      "rank_score": 2.806943302650153
+    },
+    {
+      "ticker": "COALINDIA.NS",
+      "tf": "1d",
+      "bars_used": 350,
+      "close": 415.3500061035156,
+      "sma20": 402.4467056274414,
+      "sma50": 410.9330120849609,
+      "trend_ok": true,
+      "prior_downtrend_ok": true,
+      "down_slope": -0.7195271733554175,
+      "fresh_uptrend_ok": true,
+      "up_slope": 1.8733359596946022,
+      "up_hh_steps": 1,
+      "up_hl_steps": 1,
+      "up_pivot_highs": 2,
+      "up_pivot_lows": 3,
+      "resistance": 423.14438741726906,
+      "pullback_from_resistance_pct": 1.8420145807268564,
+      "state": "correction",
+      "rank_score": 2.7818342043528954
     }
   ]
 }

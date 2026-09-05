@@ -10,11 +10,11 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-09-04T22:12:51.422743+00:00"
+    "lastUpdatedTs": "2026-09-05T13:39:03.405849+00:00"
   },
   "counts": {
     "total": 50,
-    "matched": 3
+    "matched": 5
   },
   "data": [
     {
@@ -35,10 +35,56 @@
       "second_bottom": 1013.9000244140625,
       "bottom_similarity_pct": 3.2064331450711943,
       "bounce_from_bottom_pct": 10.148932038297257,
-      "rise_after_second_bottom_pct": 11.480424263854871,
-      "current_close": 1130.300048828125,
+      "rise_after_second_bottom_pct": 11.450830731859604,
+      "current_close": 1130.0,
       "recovered_halfway": true,
-      "rank_score": 28.422923157080934
+      "rank_score": 28.393329625085666
+    },
+    {
+      "ticker": "TATASTEEL.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 5,
+      "middle_peak_bar": 7,
+      "second_bottom_bar": 8,
+      "first_bottom_date": "2026-07-20",
+      "middle_peak_date": "2026-08-03",
+      "second_bottom_date": "2026-08-10",
+      "first_bottom": 181.1999969482422,
+      "middle_peak": 193.64999389648438,
+      "second_bottom": 180.0,
+      "bottom_similarity_pct": 0.6666649712456597,
+      "bounce_from_bottom_pct": 6.8708593586778,
+      "rise_after_second_bottom_pct": 4.883329603407118,
+      "current_close": 188.7899932861328,
+      "recovered_halfway": true,
+      "rank_score": 21.08752399083926
+    },
+    {
+      "ticker": "JIOFIN.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 3,
+      "middle_peak_bar": 4,
+      "second_bottom_bar": 5,
+      "first_bottom_date": "2026-07-06",
+      "middle_peak_date": "2026-07-13",
+      "second_bottom_date": "2026-07-20",
+      "first_bottom": 228.46495728630177,
+      "middle_peak": 249.36600885305825,
+      "second_bottom": 230.66979863035053,
+      "bottom_similarity_pct": 0.9650676279801429,
+      "bounce_from_bottom_pct": 8.105183397965543,
+      "rise_after_second_bottom_pct": 3.8280700039973214,
+      "current_close": 239.5,
+      "recovered_halfway": false,
+      "rank_score": 18.96818577398272
     },
     {
       "ticker": "JSWSTEEL.NS",
@@ -58,10 +104,10 @@
       "second_bottom": 1250.4000244140625,
       "bottom_similarity_pct": 3.872322926442885,
       "bounce_from_bottom_pct": 6.765832848218397,
-      "rise_after_second_bottom_pct": 4.606523869265666,
-      "current_close": 1308.0,
+      "rise_after_second_bottom_pct": 5.966088781939608,
+      "current_close": 1325.0,
       "recovered_halfway": true,
-      "rank_score": 17.500033791041176
+      "rank_score": 18.85959870371512
     },
     {
       "ticker": "BEL.NS",
@@ -81,10 +127,10 @@
       "second_bottom": 381.6818541727703,
       "bottom_similarity_pct": 5.586078772548873,
       "bounce_from_bottom_pct": 6.529550754696974,
-      "rise_after_second_bottom_pct": 7.052510261218944,
-      "current_close": 408.6000061035156,
+      "rise_after_second_bottom_pct": 6.2010157601130915,
+      "current_close": 405.3500061035156,
       "recovered_halfway": false,
-      "rank_score": 15.995982243367045
+      "rank_score": 15.144487742261191
     }
   ]
 }
