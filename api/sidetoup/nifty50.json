@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-05T14:12:35.154926+00:00",
+  "updated_utc": "2026-09-05T16:19:45.414534+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -42,7 +42,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 91.54745515346592,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 67.76204010857268,
+      "recent_trend_pct": 67.76204010856999,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.8830565784588538
@@ -234,7 +234,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 28.92254457090062,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 53.33058201378018,
+      "recent_trend_pct": 53.330582013776386,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.7844027643283357
@@ -273,14 +273,14 @@
       "pos": 0.5701630258027094,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -23.791401029646263,
+      "annual_trend_pct": -23.791401029646252,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -21.15486348334513,
+      "prior_trend_pct": -21.154863483346297,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 9.273707558582679,
       "recent_trend_type": "Sideways",
@@ -289,15 +289,15 @@
     },
     {
       "ticker": "NTPC.NS",
-      "slope": -0.006795636976603488,
-      "r2": 0.6767078744975266,
+      "slope": -0.0067956369766035835,
+      "r2": 0.6767078744975275,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.5173178876358856,
+      "pos": 0.5173178876358917,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -29.768490528016066,
+      "annual_trend_pct": -29.76849052801641,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -309,19 +309,19 @@
       "recent_trend_pct": -33.47940888804496,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.7712375331005594
+      "rank_score": 0.7712375331005592
     },
     {
       "ticker": "ONGC.NS",
-      "slope": -0.009170812606056353,
-      "r2": 0.6588582277049408,
+      "slope": -0.009170812606056258,
+      "r2": 0.6588582277049417,
       "inside": 0.9615384615384616,
       "near_upper": 0.11538461538461539,
       "near_lower": 0.11538461538461539,
       "pos": 0.5848971898601517,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -37.92843891691492,
+      "annual_trend_pct": -37.92843891691461,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -333,7 +333,7 @@
       "recent_trend_pct": -28.731816368947282,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.7555547794818399
+      "rank_score": 0.7555547794818404
     }
   ]
 }
