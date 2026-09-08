@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-08T14:55:37.944092+00:00",
+  "updated_utc": "2026-09-08T17:35:49.142530+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -42,7 +42,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 78.66762680895147,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -17.614384592737785,
+      "recent_trend_pct": -17.614384592739242,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.9146587466424978
@@ -66,22 +66,22 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 90.01864790526419,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -25.70953555070301,
+      "recent_trend_pct": -25.709535550699968,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.8821147395599299
     },
     {
       "ticker": "GRASIM.NS",
-      "slope": 0.009885310326626474,
-      "r2": 0.8407582161176701,
+      "slope": 0.009885310326626665,
+      "r2": 0.8407582161176698,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
       "pos": 0.2512517454718895,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 67.20261207265284,
+      "annual_trend_pct": 67.20261207265447,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -93,7 +93,7 @@
       "recent_trend_pct": 5.658109139888645,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.8798693181270307
+      "rank_score": 0.8798693181270306
     },
     {
       "ticker": "HDFCBANK.NS",
@@ -114,7 +114,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 8.07656806645516,
       "prior_trend_type": "Sideways",
-      "recent_trend_pct": -32.70520972277645,
+      "recent_trend_pct": -32.70520972277837,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.8456298268304084
@@ -160,9 +160,9 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 49.45379366717122,
+      "prior_trend_pct": 49.45379366717233,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -8.73468130784133,
+      "recent_trend_pct": -8.73468130783952,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
       "rank_score": 0.8447979838957194
@@ -210,7 +210,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -20.547442032033192,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -17.933005101758027,
+      "recent_trend_pct": -17.933005101756493,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.805366684538388
@@ -234,7 +234,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 38.01382440325361,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -32.98442586397604,
+      "recent_trend_pct": -32.984425863978196,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.8025468644001653
@@ -385,15 +385,15 @@
     },
     {
       "ticker": "KOTAKBANK.NS",
-      "slope": 0.004694681456741515,
-      "r2": 0.6634837583510513,
+      "slope": 0.004694681456741454,
+      "r2": 0.663483758351048,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
       "pos": 0.6727323233019654,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 27.65018867336966,
+      "annual_trend_pct": 27.650188673369257,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -405,19 +405,19 @@
       "recent_trend_pct": 161.9046557334102,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7644686468453291
+      "rank_score": 0.7644686468453274
     },
     {
       "ticker": "ONGC.NS",
-      "slope": -0.009802844686188378,
-      "r2": 0.722993647221601,
+      "slope": -0.009802844686188332,
+      "r2": 0.7229936472216014,
       "inside": 0.9230769230769231,
       "near_upper": 0.11538461538461539,
       "near_lower": 0.07692307692307693,
-      "pos": 0.6882188168358417,
+      "pos": 0.6882188168358465,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -39.93530313930397,
+      "annual_trend_pct": -39.93530313930383,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -426,10 +426,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -42.90660377764867,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -9.347152528143754,
+      "recent_trend_pct": -9.347152528142066,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.7619057111579856
+      "rank_score": 0.7619057111579853
     }
   ]
 }
