@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-09T15:02:52.671574+00:00",
+  "updated_utc": "2026-09-09T15:33:18.050160+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -73,15 +73,15 @@
     },
     {
       "ticker": "GRASIM.NS",
-      "slope": 0.009867716303635731,
-      "r2": 0.839594922384018,
+      "slope": 0.009867716303635794,
+      "r2": 0.8395949223840183,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
       "pos": 0.23855203675350806,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 67.04971016422225,
+      "annual_trend_pct": 67.0497101642228,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -90,10 +90,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 80.08730103934755,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 4.05470562419421,
+      "recent_trend_pct": 4.054705624196808,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.8805576421320428
+      "rank_score": 0.880557642132043
     },
     {
       "ticker": "HDFCBANK.NS",
@@ -138,7 +138,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 65.23868423340254,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 20.946486023157185,
+      "recent_trend_pct": 20.946486023157206,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.8484248391054703
@@ -160,9 +160,9 @@
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 49.45379366717122,
+      "prior_trend_pct": 49.45379366717233,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -13.608275512448175,
+      "recent_trend_pct": -13.60827551245033,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.84527354491055
@@ -258,22 +258,22 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 34.780347793287206,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 9.161223056620305,
+      "recent_trend_pct": 9.16122305661624,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
       "rank_score": 0.7945823275309912
     },
     {
       "ticker": "BAJAJFINSV.NS",
-      "slope": 0.006947103431942832,
-      "r2": 0.668632029510924,
+      "slope": 0.006947103431942784,
+      "r2": 0.6686320295109245,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.2571516589258356,
+      "pos": 0.2571516589258415,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 43.51213045997715,
+      "annual_trend_pct": 43.51213045997682,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -285,7 +285,7 @@
       "recent_trend_pct": -34.12988652421891,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.7932162334782631
+      "rank_score": 0.7932162334782626
     },
     {
       "ticker": "JIOFIN.NS",
@@ -306,22 +306,22 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 6.226681746085427,
       "prior_trend_type": "Sideways",
-      "recent_trend_pct": -62.391123742297026,
+      "recent_trend_pct": -62.391123742296664,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.7924815098550356
     },
     {
       "ticker": "SBILIFE.NS",
-      "slope": -0.004267660228618639,
-      "r2": 0.6810979407542705,
+      "slope": -0.004267660228618588,
+      "r2": 0.681097940754271,
       "inside": 0.9230769230769231,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.26863758362603485,
+      "pos": 0.2686375836260148,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -19.901922374880186,
+      "annual_trend_pct": -19.901922374879977,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -330,10 +330,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -6.770572476700276,
       "prior_trend_type": "Sideways",
-      "recent_trend_pct": -54.930679760150355,
+      "recent_trend_pct": -54.93067976015147,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.782915981245301
+      "rank_score": 0.7829159812453033
     },
     {
       "ticker": "KOTAKBANK.NS",
@@ -378,7 +378,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -29.499696740861193,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -17.420947749060733,
+      "recent_trend_pct": -17.420947749062275,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.7707370494917299
