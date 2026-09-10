@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-10T15:41:28.196272+00:00",
+  "updated_utc": "2026-09-10T17:18:56.799186+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -121,15 +121,15 @@
     },
     {
       "ticker": "BAJAJ-AUTO.NS",
-      "slope": 0.01124874220074582,
-      "r2": 0.8126262105956734,
+      "slope": 0.01124874220074606,
+      "r2": 0.8126262105956722,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.4184178820883393,
+      "pos": 0.41841788208830705,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 79.4873587086405,
+      "annual_trend_pct": 79.48735870864276,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -141,7 +141,7 @@
       "recent_trend_pct": 19.279992609424124,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8490867017043875
+      "rank_score": 0.84908670170439
     },
     {
       "ticker": "ICICIBANK.NS",
@@ -160,7 +160,7 @@
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 49.45379366717233,
+      "prior_trend_pct": 49.45379366717122,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": -15.71098821670719,
       "recent_trend_type": "Descending",
@@ -186,22 +186,22 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -30.417338391719284,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -66.01341054542635,
+      "recent_trend_pct": -66.0134105454274,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.8278535350485794
     },
     {
       "ticker": "INDIGO.NS",
-      "slope": 0.009703352959666909,
-      "r2": 0.6606287161111131,
+      "slope": 0.009703352959667004,
+      "r2": 0.6606287161111097,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
       "pos": 0.08929407233725092,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 65.62803811212996,
+      "annual_trend_pct": 65.62803811213081,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -213,7 +213,7 @@
       "recent_trend_pct": -56.551910537375335,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.806000335437216
+      "rank_score": 0.8060003354372145
     },
     {
       "ticker": "HDFCLIFE.NS",
@@ -258,7 +258,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 6.226681746085427,
       "prior_trend_type": "Sideways",
-      "recent_trend_pct": -63.288791539976216,
+      "recent_trend_pct": -63.288791539976906,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.794144185578125
@@ -402,7 +402,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 22.783607519359283,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 149.6313091771436,
+      "recent_trend_pct": 149.63130917714676,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.7684754479665447
