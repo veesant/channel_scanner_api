@@ -10,36 +10,13 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-09-09T22:22:06.062169+00:00"
+    "lastUpdatedTs": "2026-09-10T14:53:44.508018+00:00"
   },
   "counts": {
     "total": 50,
-    "matched": 6
+    "matched": 5
   },
   "data": [
-    {
-      "ticker": "INFY.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 1,
-      "middle_peak_bar": 3,
-      "second_bottom_bar": 4,
-      "first_bottom_date": "2026-06-29",
-      "middle_peak_date": "2026-07-13",
-      "second_bottom_date": "2026-07-20",
-      "first_bottom": 982.4000244140625,
-      "middle_peak": 1116.800048828125,
-      "second_bottom": 1013.9000244140625,
-      "bottom_similarity_pct": 3.2064331450711943,
-      "bounce_from_bottom_pct": 10.148932038297257,
-      "rise_after_second_bottom_pct": 6.716636152099197,
-      "current_close": 1082.0,
-      "recovered_halfway": true,
-      "rank_score": 23.659135045325257
-    },
     {
       "ticker": "ADANIENT.NS",
       "tf": "1wk",
@@ -58,10 +35,33 @@
       "second_bottom": 2830.5,
       "bottom_similarity_pct": 3.6142041628025083,
       "bounce_from_bottom_pct": 8.213989986804853,
-      "rise_after_second_bottom_pct": 4.331393663884472,
-      "current_close": 2953.10009765625,
-      "recovered_halfway": false,
-      "rank_score": 16.931179487886816
+      "rise_after_second_bottom_pct": 9.687332668146087,
+      "current_close": 3104.699951171875,
+      "recovered_halfway": true,
+      "rank_score": 24.28711849214843
+    },
+    {
+      "ticker": "TATASTEEL.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 4,
+      "middle_peak_bar": 6,
+      "second_bottom_bar": 7,
+      "first_bottom_date": "2026-07-20",
+      "middle_peak_date": "2026-08-03",
+      "second_bottom_date": "2026-08-10",
+      "first_bottom": 181.1999969482422,
+      "middle_peak": 193.64999389648438,
+      "second_bottom": 180.0,
+      "bottom_similarity_pct": 0.6666649712456597,
+      "bounce_from_bottom_pct": 6.8708593586778,
+      "rise_after_second_bottom_pct": 4.861111111111112,
+      "current_close": 188.75,
+      "recovered_halfway": true,
+      "rank_score": 21.06530549854325
     },
     {
       "ticker": "JSWSTEEL.NS",
@@ -81,10 +81,10 @@
       "second_bottom": 1250.4000244140625,
       "bottom_similarity_pct": 3.872322926442885,
       "bounce_from_bottom_pct": 6.765832848218397,
-      "rise_after_second_bottom_pct": 3.7508016233476846,
-      "current_close": 1297.300048828125,
+      "rise_after_second_bottom_pct": 4.766472682521424,
+      "current_close": 1310.0,
       "recovered_halfway": true,
-      "rank_score": 16.644311545123195
+      "rank_score": 17.659982604296935
     },
     {
       "ticker": "BEL.NS",
@@ -104,10 +104,10 @@
       "second_bottom": 381.6818541727703,
       "bottom_similarity_pct": 5.586078772548873,
       "bounce_from_bottom_pct": 6.529550754696974,
-      "rise_after_second_bottom_pct": 7.563402164550157,
-      "current_close": 410.54998779296875,
+      "rise_after_second_bottom_pct": 6.371313061223495,
+      "current_close": 406.0,
       "recovered_halfway": false,
-      "rank_score": 16.50687414669826
+      "rank_score": 15.314785043371597
     },
     {
       "ticker": "EICHERMOT.NS",
@@ -127,33 +127,10 @@
       "second_bottom": 7507.5,
       "bottom_similarity_pct": 6.248147005479694,
       "bounce_from_bottom_pct": 8.757908757908758,
-      "rise_after_second_bottom_pct": 3.196803196803197,
-      "current_close": 7747.5,
+      "rise_after_second_bottom_pct": 3.023643023643024,
+      "current_close": 7734.5,
       "recovered_halfway": false,
-      "rank_score": 13.706564949232261
-    },
-    {
-      "ticker": "ITC.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 3,
-      "middle_peak_bar": 6,
-      "second_bottom_bar": 10,
-      "first_bottom_date": "2026-07-13",
-      "middle_peak_date": "2026-08-03",
-      "second_bottom_date": "2026-08-31",
-      "first_bottom": 275.0,
-      "middle_peak": 292.54998779296875,
-      "second_bottom": 255.5,
-      "bottom_similarity_pct": 7.632093933463796,
-      "bounce_from_bottom_pct": 6.381813742897727,
-      "rise_after_second_bottom_pct": 3.131115459882583,
-      "current_close": 263.5,
-      "recovered_halfway": false,
-      "rank_score": 9.880835269316513
+      "rank_score": 13.533404776072087
     }
   ]
 }
