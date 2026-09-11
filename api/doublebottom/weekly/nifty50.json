@@ -10,11 +10,11 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-09-10T22:17:15.346223+00:00"
+    "lastUpdatedTs": "2026-09-11T14:48:44.127386+00:00"
   },
   "counts": {
     "total": 50,
-    "matched": 5
+    "matched": 4
   },
   "data": [
     {
@@ -35,10 +35,10 @@
       "second_bottom": 2830.5,
       "bottom_similarity_pct": 3.6142041628025083,
       "bounce_from_bottom_pct": 8.213989986804853,
-      "rise_after_second_bottom_pct": 9.687332668146087,
-      "current_close": 3104.699951171875,
+      "rise_after_second_bottom_pct": 8.71577287305688,
+      "current_close": 3077.199951171875,
       "recovered_halfway": true,
-      "rank_score": 24.28711849214843
+      "rank_score": 23.315558697059224
     },
     {
       "ticker": "TATASTEEL.NS",
@@ -58,10 +58,10 @@
       "second_bottom": 180.0,
       "bottom_similarity_pct": 0.6666649712456597,
       "bounce_from_bottom_pct": 6.8708593586778,
-      "rise_after_second_bottom_pct": 4.861111111111112,
-      "current_close": 188.75,
-      "recovered_halfway": true,
-      "rank_score": 21.06530549854325
+      "rise_after_second_bottom_pct": 3.7666659884982643,
+      "current_close": 186.77999877929688,
+      "recovered_halfway": false,
+      "rank_score": 17.970860375930403
     },
     {
       "ticker": "JSWSTEEL.NS",
@@ -81,10 +81,10 @@
       "second_bottom": 1250.4000244140625,
       "bottom_similarity_pct": 3.872322926442885,
       "bounce_from_bottom_pct": 6.765832848218397,
-      "rise_after_second_bottom_pct": 4.766472682521424,
-      "current_close": 1310.0,
+      "rise_after_second_bottom_pct": 4.28662624275415,
+      "current_close": 1304.0,
       "recovered_halfway": true,
-      "rank_score": 17.659982604296935
+      "rank_score": 17.18013616452966
     },
     {
       "ticker": "BEL.NS",
@@ -104,33 +104,10 @@
       "second_bottom": 381.6818541727703,
       "bottom_similarity_pct": 5.586078772548873,
       "bounce_from_bottom_pct": 6.529550754696974,
-      "rise_after_second_bottom_pct": 6.371313061223495,
-      "current_close": 406.0,
+      "rise_after_second_bottom_pct": 6.109314753190925,
+      "current_close": 405.0,
       "recovered_halfway": false,
-      "rank_score": 15.314785043371597
-    },
-    {
-      "ticker": "EICHERMOT.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 3,
-      "middle_peak_bar": 8,
-      "second_bottom_bar": 10,
-      "first_bottom_date": "2026-07-13",
-      "middle_peak_date": "2026-08-17",
-      "second_bottom_date": "2026-08-31",
-      "first_bottom": 7066.005583714137,
-      "middle_peak": 8165.0,
-      "second_bottom": 7507.5,
-      "bottom_similarity_pct": 6.248147005479694,
-      "bounce_from_bottom_pct": 8.757908757908758,
-      "rise_after_second_bottom_pct": 3.023643023643024,
-      "current_close": 7734.5,
-      "recovered_halfway": false,
-      "rank_score": 13.533404776072087
+      "rank_score": 15.052786735339026
     }
   ]
 }
