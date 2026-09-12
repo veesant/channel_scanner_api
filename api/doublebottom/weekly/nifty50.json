@@ -10,11 +10,11 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-09-11T22:13:15.951603+00:00"
+    "lastUpdatedTs": "2026-09-12T13:51:06.170181+00:00"
   },
   "counts": {
     "total": 50,
-    "matched": 4
+    "matched": 2
   },
   "data": [
     {
@@ -35,56 +35,10 @@
       "second_bottom": 2830.5,
       "bottom_similarity_pct": 3.6142041628025083,
       "bounce_from_bottom_pct": 8.213989986804853,
-      "rise_after_second_bottom_pct": 8.71577287305688,
-      "current_close": 3077.199951171875,
+      "rise_after_second_bottom_pct": 8.108108108108109,
+      "current_close": 3060.0,
       "recovered_halfway": true,
-      "rank_score": 23.315558697059224
-    },
-    {
-      "ticker": "TATASTEEL.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 4,
-      "middle_peak_bar": 6,
-      "second_bottom_bar": 7,
-      "first_bottom_date": "2026-07-20",
-      "middle_peak_date": "2026-08-03",
-      "second_bottom_date": "2026-08-10",
-      "first_bottom": 181.1999969482422,
-      "middle_peak": 193.64999389648438,
-      "second_bottom": 180.0,
-      "bottom_similarity_pct": 0.6666649712456597,
-      "bounce_from_bottom_pct": 6.8708593586778,
-      "rise_after_second_bottom_pct": 3.7666659884982643,
-      "current_close": 186.77999877929688,
-      "recovered_halfway": false,
-      "rank_score": 17.970860375930403
-    },
-    {
-      "ticker": "JSWSTEEL.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 1,
-      "middle_peak_bar": 6,
-      "second_bottom_bar": 8,
-      "first_bottom_date": "2026-06-29",
-      "middle_peak_date": "2026-08-03",
-      "second_bottom_date": "2026-08-17",
-      "first_bottom": 1203.7855601819288,
-      "middle_peak": 1335.0,
-      "second_bottom": 1250.4000244140625,
-      "bottom_similarity_pct": 3.872322926442885,
-      "bounce_from_bottom_pct": 6.765832848218397,
-      "rise_after_second_bottom_pct": 4.28662624275415,
-      "current_close": 1304.0,
-      "recovered_halfway": true,
-      "rank_score": 17.18013616452966
+      "rank_score": 22.70789393211045
     },
     {
       "ticker": "BEL.NS",
@@ -104,10 +58,10 @@
       "second_bottom": 381.6818541727703,
       "bottom_similarity_pct": 5.586078772548873,
       "bounce_from_bottom_pct": 6.529550754696974,
-      "rise_after_second_bottom_pct": 6.109314753190925,
-      "current_close": 405.0,
+      "rise_after_second_bottom_pct": 5.939017452080521,
+      "current_close": 404.3500061035156,
       "recovered_halfway": false,
-      "rank_score": 15.052786735339026
+      "rank_score": 14.88248943422862
     }
   ]
 }
