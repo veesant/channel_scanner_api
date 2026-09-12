@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-12T16:30:39.267573+00:00",
+  "updated_utc": "2026-09-12T21:58:33.706803+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -73,15 +73,15 @@
     },
     {
       "ticker": "GRASIM.NS",
-      "slope": 0.009820707968158494,
-      "r2": 0.8362898573189501,
+      "slope": 0.009820707968158591,
+      "r2": 0.8362898573189491,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.20511633568770418,
+      "pos": 0.20511633568769083,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 66.64186694163732,
+      "annual_trend_pct": 66.64186694163814,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -90,10 +90,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 80.08730103934755,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -0.11097523022739475,
+      "recent_trend_pct": -0.11097523022490785,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.8822486797060893
+      "rank_score": 0.8822486797060901
     },
     {
       "ticker": "BAJAJ-AUTO.NS",
@@ -136,9 +136,9 @@
       "action_zone": "Near Support",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 49.45379366717233,
+      "prior_trend_pct": 49.45379366717122,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -18.03449337661258,
+      "recent_trend_pct": -18.034493376612883,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.845178575618195
@@ -186,7 +186,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 35.105766044666154,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -50.684328597995474,
+      "recent_trend_pct": -50.68432859799423,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.8397169800656604
@@ -282,22 +282,22 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 6.226681746085427,
       "prior_trend_type": "Sideways",
-      "recent_trend_pct": -63.701324469625874,
+      "recent_trend_pct": -63.701324469625284,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.7949183746577256
     },
     {
       "ticker": "TITAN.NS",
-      "slope": 0.008780441556426249,
-      "r2": 0.6866986506602405,
+      "slope": 0.008780441556426152,
+      "r2": 0.6866986506602407,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.4899360414865603,
+      "pos": 0.4899360414865701,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 57.86703797275066,
+      "annual_trend_pct": 57.867037972749856,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -309,7 +309,7 @@
       "recent_trend_pct": 9.892425195825737,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.7943557211814641
+      "rank_score": 0.7943557211814635
     },
     {
       "ticker": "BAJAJFINSV.NS",
@@ -330,7 +330,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 34.67360870358518,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -37.48170289460102,
+      "recent_trend_pct": -37.48170289460414,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.7933279952442069
@@ -354,7 +354,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -20.547442032033192,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -9.929372879751597,
+      "recent_trend_pct": -9.92937287975304,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
       "rank_score": 0.7931228285811104
@@ -385,15 +385,15 @@
     },
     {
       "ticker": "NTPC.NS",
-      "slope": -0.006997546035770675,
-      "r2": 0.6966325972145349,
+      "slope": -0.006997546035770723,
+      "r2": 0.6966325972145351,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.5904756852620433,
+      "pos": 0.5904756852620558,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -30.50201272162495,
+      "annual_trend_pct": -30.502012721625128,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -402,10 +402,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -29.499696740861193,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -19.417067822418975,
+      "recent_trend_pct": -19.417067822421497,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.7738841146964477
+      "rank_score": 0.7738841146964467
     },
     {
       "ticker": "ONGC.NS",
@@ -433,15 +433,15 @@
     },
     {
       "ticker": "KOTAKBANK.NS",
-      "slope": 0.004689583330406617,
-      "r2": 0.6632824339330625,
+      "slope": 0.004689583330406713,
+      "r2": 0.6632824339330672,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.6678549950464202,
+      "pos": 0.6678549950464028,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 27.616352765557295,
+      "annual_trend_pct": 27.616352765557938,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -453,7 +453,7 @@
       "recent_trend_pct": 160.74672347412266,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7648557174618893
+      "rank_score": 0.7648557174618933
     }
   ]
 }
