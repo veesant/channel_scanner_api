@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-15T15:59:42.743728+00:00",
+  "updated_utc": "2026-09-15T17:51:45.383857+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "APOLLOHOSP.NS",
-      "slope": 0.007054862991856669,
-      "r2": 0.8821304153372269,
+      "slope": 0.007054862811758102,
+      "r2": 0.8821304195966952,
       "inside": 1.0,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.0928696803639709,
+      "pos": 0.09286967580564433,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 44.318557564935254,
+      "annual_trend_pct": 44.31855621337386,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -45,7 +45,7 @@
       "recent_trend_pct": -12.478907619571554,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.9317782396322164
+      "rank_score": 0.9317782422177832
     },
     {
       "ticker": "BAJAJ-AUTO.NS",
@@ -90,7 +90,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 4.0123837163204,
       "prior_trend_type": "Sideways",
-      "recent_trend_pct": -21.393882570840272,
+      "recent_trend_pct": -21.39388257083803,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.8355891940034186
@@ -162,7 +162,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 41.23637951077788,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -33.71904745178338,
+      "recent_trend_pct": -33.719047451782544,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.8053590736897674
@@ -210,7 +210,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 11.051158922803728,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -62.95657005457343,
+      "recent_trend_pct": -62.956570054573426,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.798847013589401
