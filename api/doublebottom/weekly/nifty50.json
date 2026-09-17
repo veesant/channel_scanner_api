@@ -10,11 +10,11 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-09-16T22:43:32.747824+00:00"
+    "lastUpdatedTs": "2026-09-17T15:25:06.971200+00:00"
   },
   "counts": {
     "total": 50,
-    "matched": 2
+    "matched": 4
   },
   "data": [
     {
@@ -35,10 +35,33 @@
       "second_bottom": 2830.5,
       "bottom_similarity_pct": 3.6142041628025083,
       "bounce_from_bottom_pct": 8.213989986804853,
-      "rise_after_second_bottom_pct": 3.465822210077725,
-      "current_close": 2928.60009765625,
+      "rise_after_second_bottom_pct": 3.1619855149266916,
+      "current_close": 2920.0,
       "recovered_halfway": false,
-      "rank_score": 16.06560803408007
+      "rank_score": 15.761771338929035
+    },
+    {
+      "ticker": "HDFCLIFE.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 5,
+      "middle_peak_bar": 8,
+      "second_bottom_bar": 10,
+      "first_bottom_date": "2026-08-03",
+      "middle_peak_date": "2026-08-24",
+      "second_bottom_date": "2026-09-07",
+      "first_bottom": 530.5,
+      "middle_peak": 563.5,
+      "second_bottom": 508.70001220703125,
+      "bottom_similarity_pct": 4.2854309553459515,
+      "bounce_from_bottom_pct": 6.2205466540999055,
+      "rise_after_second_bottom_pct": 4.226459501489044,
+      "current_close": 530.2000122070312,
+      "recovered_halfway": false,
+      "rank_score": 14.161575200242998
     },
     {
       "ticker": "HCLTECH.NS",
@@ -58,10 +81,33 @@
       "second_bottom": 1195.699951171875,
       "bottom_similarity_pct": 7.050267815558968,
       "bounce_from_bottom_pct": 6.875000000000001,
-      "rise_after_second_bottom_pct": 4.850715260392516,
-      "current_close": 1253.699951171875,
+      "rise_after_second_bottom_pct": 4.7921762288245215,
+      "current_close": 1253.0,
       "recovered_halfway": false,
-      "rank_score": 12.675447444833548
+      "rank_score": 12.616908413265556
+    },
+    {
+      "ticker": "ITC.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 2,
+      "middle_peak_bar": 5,
+      "second_bottom_bar": 9,
+      "first_bottom_date": "2026-07-13",
+      "middle_peak_date": "2026-08-03",
+      "second_bottom_date": "2026-08-31",
+      "first_bottom": 275.0,
+      "middle_peak": 292.54998779296875,
+      "second_bottom": 255.5,
+      "bottom_similarity_pct": 7.632093933463796,
+      "bounce_from_bottom_pct": 6.381813742897727,
+      "rise_after_second_bottom_pct": 3.385516202146526,
+      "current_close": 264.1499938964844,
+      "recovered_halfway": false,
+      "rank_score": 10.135236011580457
     }
   ]
 }
