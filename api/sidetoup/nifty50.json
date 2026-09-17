@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-17T15:26:09.501338+00:00",
+  "updated_utc": "2026-09-17T15:57:39.683976+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "APOLLOHOSP.NS",
-      "slope": 0.007078842913419509,
-      "r2": 0.8846074498753861,
+      "slope": 0.007078843093518155,
+      "r2": 0.8846074455782756,
       "inside": 1.0,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.13753396664539794,
+      "pos": 0.13753396919944708,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 44.49862869188597,
+      "annual_trend_pct": 44.49863004513435,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -45,7 +45,7 @@
       "recent_trend_pct": -8.329954017257856,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.9285503282731532
+      "rank_score": 0.9285503258691932
     },
     {
       "ticker": "BAJAJ-AUTO.NS",
