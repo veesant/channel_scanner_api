@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-17T15:57:39.683976+00:00",
+  "updated_utc": "2026-09-17T17:50:07.433918+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "APOLLOHOSP.NS",
-      "slope": 0.007078843093518155,
-      "r2": 0.8846074455782756,
+      "slope": 0.007078842913419509,
+      "r2": 0.8846074498753861,
       "inside": 1.0,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.13753396919944708,
+      "pos": 0.13753396664539794,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 44.49863004513435,
+      "annual_trend_pct": 44.49862869188597,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -45,7 +45,7 @@
       "recent_trend_pct": -8.329954017257856,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.9285503258691932
+      "rank_score": 0.9285503282731532
     },
     {
       "ticker": "BAJAJ-AUTO.NS",
@@ -81,7 +81,7 @@
       "pos": 0.6044391148430626,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -31.10434965199852,
+      "annual_trend_pct": -31.104349651998508,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -97,15 +97,15 @@
     },
     {
       "ticker": "EICHERMOT.NS",
-      "slope": 0.005887442398534505,
-      "r2": 0.6609825666945423,
+      "slope": 0.005887442398534649,
+      "r2": 0.660982566694543,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.07255927049530755,
+      "pos": 0.07255927049528002,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 35.8181951035766,
+      "annual_trend_pct": 35.8181951035776,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -117,7 +117,7 @@
       "recent_trend_pct": -59.50414881137287,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8232353562977405
+      "rank_score": 0.8232353562977436
     },
     {
       "ticker": "POWERGRID.NS",
@@ -169,15 +169,15 @@
     },
     {
       "ticker": "TITAN.NS",
-      "slope": 0.008541984467140678,
-      "r2": 0.6682265283561454,
+      "slope": 0.008541984467140822,
+      "r2": 0.668226528356147,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.2854165319244408,
+      "pos": 0.28541653192443117,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 55.92160958295731,
+      "annual_trend_pct": 55.92160958295847,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -189,7 +189,7 @@
       "recent_trend_pct": -35.224951534253144,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.8055716109856287
+      "rank_score": 0.8055716109856305
     },
     {
       "ticker": "ONGC.NS",
@@ -265,15 +265,15 @@
     },
     {
       "ticker": "KOTAKBANK.NS",
-      "slope": 0.004740237897745104,
-      "r2": 0.6675738142277146,
+      "slope": 0.004740237897745033,
+      "r2": 0.667573814227716,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
       "pos": 0.5545487723494523,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 27.9529421244473,
+      "annual_trend_pct": 27.952942124446835,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -282,10 +282,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 20.281371225537836,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 90.60461216979871,
+      "recent_trend_pct": 90.60461216979564,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.778332029878912
+      "rank_score": 0.7783320298789128
     },
     {
       "ticker": "ITC.NS",
