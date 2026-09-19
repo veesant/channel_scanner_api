@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-18T22:25:22.608035+00:00",
+  "updated_utc": "2026-09-19T14:05:08.291302+00:00",
   "tf": "1d",
   "params": {
     "n_down": 40,
@@ -21,22 +21,22 @@
       "ticker": "ADANIPORTS.NS",
       "tf": "1d",
       "bars_used": 350,
-      "close": 1738.300048828125,
-      "sma20": 1708.3650024414062,
-      "sma50": 1728.4460009765626,
+      "close": 1824.0,
+      "sma20": 1714.5650024414062,
+      "sma50": 1728.3640014648438,
       "trend_ok": true,
       "prior_downtrend_ok": true,
-      "down_slope": -4.58061972326454,
+      "down_slope": -4.260582087590144,
       "fresh_uptrend_ok": true,
-      "up_slope": 2.847879675662879,
+      "up_slope": 5.73818359375,
       "up_hh_steps": 1,
       "up_hl_steps": 1,
       "up_pivot_highs": 2,
       "up_pivot_lows": 2,
       "resistance": 1791.4000244140625,
-      "pullback_from_resistance_pct": 2.964160704603408,
-      "state": "correction",
-      "rank_score": 2.4562453933750783
+      "pullback_from_resistance_pct": -1.819804350879163,
+      "state": "uptrend",
+      "rank_score": 2.7087170734144927
     }
   ]
 }
