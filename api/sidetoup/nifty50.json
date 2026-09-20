@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-20T15:07:20.454697+00:00",
+  "updated_utc": "2026-09-20T17:01:50.267755+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -21,31 +21,31 @@
     "prior_trend_weeks": 20,
     "recent_trend_weeks": 6
   },
-  "count": 14,
+  "count": 15,
   "data": [
     {
       "ticker": "APOLLOHOSP.NS",
-      "slope": 0.007078842913419509,
-      "r2": 0.8846074498753861,
-      "inside": 1.0,
+      "slope": 0.007155277775426948,
+      "r2": 0.8909174727805139,
+      "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.13753396664539794,
+      "pos": 0.2867256575405492,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 44.49862869188597,
+      "annual_trend_pct": 45.074097670198675,
       "trend_type": "Ascending",
-      "near_support": true,
+      "near_support": false,
       "near_resistance": false,
-      "action_zone": "Near Support",
+      "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
       "prior_trend_pct": 75.53041528510276,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -8.329954017257856,
+      "recent_trend_pct": 6.253117645456774,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.9285503282731532
+      "rank_score": 0.9065297603797918
     },
     {
       "ticker": "BAJAJ-AUTO.NS",
@@ -94,6 +94,30 @@
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.8573234909220773
+    },
+    {
+      "ticker": "GRASIM.NS",
+      "slope": 0.00899376028642018,
+      "r2": 0.7919667224544943,
+      "inside": 0.9230769230769231,
+      "near_upper": 0.038461538461538464,
+      "near_lower": 0.07692307692307693,
+      "pos": 0.0799273119883085,
+      "k": 2.0,
+      "lookback": 26.0,
+      "annual_trend_pct": 59.627938169270166,
+      "trend_type": "Ascending",
+      "near_support": true,
+      "near_resistance": false,
+      "action_zone": "Near Support",
+      "prior_trend_weeks": 20,
+      "recent_trend_weeks": 6,
+      "prior_trend_pct": 78.7258948625845,
+      "prior_trend_type": "Ascending",
+      "recent_trend_pct": -10.577766433676484,
+      "recent_trend_type": "Descending",
+      "previously_descending": false,
+      "rank_score": 0.8572213992591856
     },
     {
       "ticker": "HDFCBANK.NS",
@@ -289,15 +313,15 @@
     },
     {
       "ticker": "KOTAKBANK.NS",
-      "slope": 0.004740237897745033,
-      "r2": 0.667573814227716,
+      "slope": 0.004657757078666734,
+      "r2": 0.6601240450020214,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.5545487723494523,
+      "pos": 0.4739297017634176,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 27.952942124446835,
+      "annual_trend_pct": 27.405326825204,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -306,10 +330,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 20.281371225537836,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 90.60461216979564,
+      "recent_trend_pct": 77.41889489760554,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7783320298789128
+      "rank_score": 0.782669052324669
     },
     {
       "ticker": "SBILIFE.NS",
