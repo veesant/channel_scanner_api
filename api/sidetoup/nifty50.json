@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-22T16:08:35.709952+00:00",
+  "updated_utc": "2026-09-22T17:54:12.444901+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "APOLLOHOSP.NS",
-      "slope": 0.0070758790840595295,
-      "r2": 0.8846254811127535,
+      "slope": 0.00707587889010732,
+      "r2": 0.8846254845588426,
       "inside": 1.0,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.15184286620452028,
+      "pos": 0.15184286734661448,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 44.476360405448375,
+      "annual_trend_pct": 44.47635894832991,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -45,7 +45,7 @@
       "recent_trend_pct": 22.817646109724386,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.9271284539359248
+      "rank_score": 0.9271284555447599
     },
     {
       "ticker": "BAJAJ-AUTO.NS",
@@ -73,15 +73,15 @@
     },
     {
       "ticker": "ITC.NS",
-      "slope": -0.004694186898352752,
-      "r2": 0.8224369795068995,
+      "slope": -0.004694186572049878,
+      "r2": 0.8224369732590378,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.47319216884217974,
+      "pos": 0.47319212983604886,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -21.658892340084222,
+      "annual_trend_pct": -21.65889101081192,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -93,7 +93,7 @@
       "recent_trend_pct": -17.011991260452774,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8536428626128216
+      "rank_score": 0.8536428633895038
     },
     {
       "ticker": "POWERGRID.NS",
