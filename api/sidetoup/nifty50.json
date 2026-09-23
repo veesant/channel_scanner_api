@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-23T15:51:12.237619+00:00",
+  "updated_utc": "2026-09-23T18:08:47.587835+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -97,15 +97,15 @@
     },
     {
       "ticker": "ITC.NS",
-      "slope": -0.00463175104380573,
-      "r2": 0.8175394490726842,
+      "slope": -0.0046317513701086815,
+      "r2": 0.8175394550575864,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.6198861957401292,
+      "pos": 0.6198862272948709,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -21.404131714584075,
+      "annual_trend_pct": -21.404133048179375,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -117,7 +117,7 @@
       "recent_trend_pct": -6.376081771866837,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.836524694705919
+      "rank_score": 0.8365246945428959
     },
     {
       "ticker": "BAJFINANCE.NS",
@@ -193,15 +193,15 @@
     },
     {
       "ticker": "INFY.NS",
-      "slope": -0.008767065702255375,
-      "r2": 0.751866333773212,
+      "slope": -0.008767065878538866,
+      "r2": 0.7518663547826695,
       "inside": 0.9423076923076923,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.4956319750321277,
+      "pos": 0.495631984063255,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -36.61148019153152,
+      "annual_trend_pct": -36.611480772597695,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -213,7 +213,7 @@
       "recent_trend_pct": -69.89783043719999,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8032930463064701
+      "rank_score": 0.8032930559080862
     },
     {
       "ticker": "POWERGRID.NS",
