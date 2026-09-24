@@ -10,11 +10,11 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-09-23T22:41:23.949114+00:00"
+    "lastUpdatedTs": "2026-09-24T15:45:37.439950+00:00"
   },
   "counts": {
     "total": 50,
-    "matched": 10
+    "matched": 14
   },
   "data": [
     {
@@ -35,10 +35,33 @@
       "second_bottom": 972.5999755859375,
       "bottom_similarity_pct": 2.087194050760216,
       "bounce_from_bottom_pct": 16.19497661435802,
-      "rise_after_second_bottom_pct": 3.434096776934509,
-      "current_close": 1006.0,
+      "rise_after_second_bottom_pct": 3.92761805119498,
+      "current_close": 1010.7999877929688,
       "recovered_halfway": false,
-      "rank_score": 25.54187934053231
+      "rank_score": 26.03540061479278
+    },
+    {
+      "ticker": "JIOFIN.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 2,
+      "middle_peak_bar": 4,
+      "second_bottom_bar": 10,
+      "first_bottom_date": "2026-07-20",
+      "middle_peak_date": "2026-08-03",
+      "second_bottom_date": "2026-09-14",
+      "first_bottom": 230.66979863035053,
+      "middle_peak": 267.57337026023754,
+      "second_bottom": 224.83999633789062,
+      "bottom_similarity_pct": 2.5928670998992756,
+      "bounce_from_bottom_pct": 15.99844099618137,
+      "rise_after_second_bottom_pct": 3.2511998210533015,
+      "current_close": 232.14999389648438,
+      "recovered_halfway": false,
+      "rank_score": 24.656773717335398
     },
     {
       "ticker": "MAXHEALTH.NS",
@@ -58,10 +81,10 @@
       "second_bottom": 974.0,
       "bottom_similarity_pct": 0.6468159951713296,
       "bounce_from_bottom_pct": 6.304191427371557,
-      "rise_after_second_bottom_pct": 8.470225872689939,
-      "current_close": 1056.5,
+      "rise_after_second_bottom_pct": 8.81930435462654,
+      "current_close": 1059.9000244140625,
       "recovered_halfway": true,
-      "rank_score": 24.127601304890167
+      "rank_score": 24.476679786826768
     },
     {
       "ticker": "HDFCLIFE.NS",
@@ -81,10 +104,33 @@
       "second_bottom": 508.70001220703125,
       "bottom_similarity_pct": 4.2854309553459515,
       "bounce_from_bottom_pct": 6.2205466540999055,
-      "rise_after_second_bottom_pct": 9.927265340706825,
-      "current_close": 559.2000122070312,
+      "rise_after_second_bottom_pct": 10.379395817958063,
+      "current_close": 561.5,
       "recovered_halfway": true,
-      "rank_score": 21.86238103946078
+      "rank_score": 22.314511516712017
+    },
+    {
+      "ticker": "TATASTEEL.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 2,
+      "middle_peak_bar": 4,
+      "second_bottom_bar": 5,
+      "first_bottom_date": "2026-07-20",
+      "middle_peak_date": "2026-08-03",
+      "second_bottom_date": "2026-08-10",
+      "first_bottom": 181.1999969482422,
+      "middle_peak": 193.64999389648438,
+      "second_bottom": 180.0,
+      "bottom_similarity_pct": 0.6666649712456597,
+      "bounce_from_bottom_pct": 6.8708593586778,
+      "rise_after_second_bottom_pct": 6.011115180121528,
+      "current_close": 190.82000732421875,
+      "recovered_halfway": true,
+      "rank_score": 22.215309567553668
     },
     {
       "ticker": "DRREDDY.NS",
@@ -104,10 +150,10 @@
       "second_bottom": 1130.0,
       "bottom_similarity_pct": 2.633969118982743,
       "bounce_from_bottom_pct": 6.911502264242257,
-      "rise_after_second_bottom_pct": 7.168141592920355,
-      "current_close": 1211.0,
+      "rise_after_second_bottom_pct": 7.1858363868915935,
+      "current_close": 1211.199951171875,
       "recovered_halfway": true,
-      "rank_score": 21.445674738179868
+      "rank_score": 21.46336953215111
     },
     {
       "ticker": "BEL.NS",
@@ -127,33 +173,10 @@
       "second_bottom": 382.1000061035156,
       "bottom_similarity_pct": 0.10955509835583488,
       "bounce_from_bottom_pct": 8.963621945277135,
-      "rise_after_second_bottom_pct": 4.13503992163987,
-      "current_close": 397.8999938964844,
+      "rise_after_second_bottom_pct": 3.6508718834393066,
+      "current_close": 396.04998779296875,
       "recovered_halfway": false,
-      "rank_score": 20.989106768561168
-    },
-    {
-      "ticker": "ADANIENT.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 5,
-      "middle_peak_bar": 7,
-      "second_bottom_bar": 8,
-      "first_bottom_date": "2026-08-10",
-      "middle_peak_date": "2026-08-24",
-      "second_bottom_date": "2026-08-31",
-      "first_bottom": 2932.800048828125,
-      "middle_peak": 3173.699951171875,
-      "second_bottom": 2830.5,
-      "bottom_similarity_pct": 3.6142041628025083,
-      "bounce_from_bottom_pct": 8.213989986804853,
-      "rise_after_second_bottom_pct": 5.88235294117647,
-      "current_close": 2997.0,
-      "recovered_halfway": false,
-      "rank_score": 18.482138765178814
+      "rank_score": 20.504938730360607
     },
     {
       "ticker": "JSWSTEEL.NS",
@@ -173,10 +196,79 @@
       "second_bottom": 1227.0,
       "bottom_similarity_pct": 1.9070924542838221,
       "bounce_from_bottom_pct": 8.04542335426446,
-      "rise_after_second_bottom_pct": 3.2599837000814995,
-      "current_close": 1267.0,
+      "rise_after_second_bottom_pct": 5.770175128616544,
+      "current_close": 1297.800048828125,
       "recovered_halfway": false,
-      "rank_score": 17.39831460006214
+      "rank_score": 19.908506028597184
+    },
+    {
+      "ticker": "ADANIENT.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 5,
+      "middle_peak_bar": 7,
+      "second_bottom_bar": 8,
+      "first_bottom_date": "2026-08-10",
+      "middle_peak_date": "2026-08-24",
+      "second_bottom_date": "2026-08-31",
+      "first_bottom": 2932.800048828125,
+      "middle_peak": 3173.699951171875,
+      "second_bottom": 2830.5,
+      "bottom_similarity_pct": 3.6142041628025083,
+      "bounce_from_bottom_pct": 8.213989986804853,
+      "rise_after_second_bottom_pct": 5.74809931714803,
+      "current_close": 2993.199951171875,
+      "recovered_halfway": false,
+      "rank_score": 18.347885141150375
+    },
+    {
+      "ticker": "LT.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 2,
+      "middle_peak_bar": 7,
+      "second_bottom_bar": 10,
+      "first_bottom_date": "2026-07-20",
+      "middle_peak_date": "2026-08-24",
+      "second_bottom_date": "2026-09-14",
+      "first_bottom": 3720.0,
+      "middle_peak": 4125.2998046875,
+      "second_bottom": 3799.89990234375,
+      "bottom_similarity_pct": 2.1478468371975805,
+      "bounce_from_bottom_pct": 8.563380897034833,
+      "rise_after_second_bottom_pct": 3.421142749571297,
+      "current_close": 3929.89990234375,
+      "recovered_halfway": false,
+      "rank_score": 17.83667680940855
+    },
+    {
+      "ticker": "NESTLEIND.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 1,
+      "middle_peak_bar": 4,
+      "second_bottom_bar": 10,
+      "first_bottom_date": "2026-07-13",
+      "middle_peak_date": "2026-08-03",
+      "second_bottom_date": "2026-09-14",
+      "first_bottom": 1405.0999755859375,
+      "middle_peak": 1553.0,
+      "second_bottom": 1332.800048828125,
+      "bottom_similarity_pct": 5.424664173848342,
+      "bounce_from_bottom_pct": 10.525943134572119,
+      "rise_after_second_bottom_pct": 4.081625176378223,
+      "current_close": 1387.199951171875,
+      "recovered_halfway": false,
+      "rank_score": 17.182904137102
     },
     {
       "ticker": "COALINDIA.NS",
@@ -196,10 +288,10 @@
       "second_bottom": 409.6499938964844,
       "bottom_similarity_pct": 4.809201427512328,
       "bounce_from_bottom_pct": 6.505552128292876,
-      "rise_after_second_bottom_pct": 4.47943521955783,
-      "current_close": 428.0,
+      "rise_after_second_bottom_pct": 3.63724987635408,
+      "current_close": 424.54998779296875,
       "recovered_halfway": true,
-      "rank_score": 16.175785920338377
+      "rank_score": 15.333600577134629
     },
     {
       "ticker": "HCLTECH.NS",
@@ -219,10 +311,10 @@
       "second_bottom": 1195.699951171875,
       "bottom_similarity_pct": 7.050267815558968,
       "bounce_from_bottom_pct": 6.875000000000001,
-      "rise_after_second_bottom_pct": 6.247392848764095,
-      "current_close": 1270.4000244140625,
+      "rise_after_second_bottom_pct": 5.101614325585232,
+      "current_close": 1256.699951171875,
       "recovered_halfway": false,
-      "rank_score": 14.072125033205129
+      "rank_score": 12.926346510026265
     },
     {
       "ticker": "ITC.NS",
@@ -242,10 +334,10 @@
       "second_bottom": 255.5,
       "bottom_similarity_pct": 7.632093933463796,
       "bounce_from_bottom_pct": 6.381813742897727,
-      "rise_after_second_bottom_pct": 4.031306376895793,
-      "current_close": 265.79998779296875,
+      "rise_after_second_bottom_pct": 5.733852797058464,
+      "current_close": 270.1499938964844,
       "recovered_halfway": false,
-      "rank_score": 10.781026186329722
+      "rank_score": 12.483572606492395
     }
   ]
 }
