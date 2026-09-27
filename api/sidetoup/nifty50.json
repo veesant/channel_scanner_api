@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-27T15:27:48.355114+00:00",
+  "updated_utc": "2026-09-27T16:02:06.654569+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -97,15 +97,15 @@
     },
     {
       "ticker": "ITC.NS",
-      "slope": -0.004648158901243898,
-      "r2": 0.8191302961398471,
+      "slope": -0.00464815857494091,
+      "r2": 0.8191302901223101,
       "inside": 0.9743589743589743,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.5815065261008127,
+      "pos": 0.5815064925034575,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -21.471161784908908,
+      "annual_trend_pct": -21.47116045245079,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -117,7 +117,7 @@
       "recent_trend_pct": -9.29650291040296,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.841158085203432
+      "rank_score": 0.841158085554399
     },
     {
       "ticker": "HDFCBANK.NS",
@@ -169,15 +169,15 @@
     },
     {
       "ticker": "INFY.NS",
-      "slope": -0.008810808904854528,
-      "r2": 0.7534519939926092,
+      "slope": -0.008810809081137847,
+      "r2": 0.753452014925827,
       "inside": 0.9423076923076923,
       "near_upper": 0.057692307692307696,
       "near_lower": 0.038461538461538464,
-      "pos": 0.43478634259595944,
+      "pos": 0.4347863494089484,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -36.75550280611395,
+      "annual_trend_pct": -36.755503385859335,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -189,7 +189,7 @@
       "recent_trend_pct": -74.0716462745937,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8101704396597855
+      "rank_score": 0.8101704494450956
     },
     {
       "ticker": "WIPRO.NS",
