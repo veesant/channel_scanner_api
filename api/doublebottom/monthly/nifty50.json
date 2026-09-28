@@ -10,7 +10,7 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-09-27T22:53:41.366276+00:00"
+    "lastUpdatedTs": "2026-09-28T18:24:14.630385+00:00"
   },
   "counts": {
     "total": 50,
@@ -35,10 +35,10 @@
       "second_bottom": 1288.0714910201689,
       "bottom_similarity_pct": 0.11610319237030045,
       "bounce_from_bottom_pct": 22.45844373868469,
-      "rise_after_second_bottom_pct": 38.81217094432247,
-      "current_close": 1788.0,
+      "rise_after_second_bottom_pct": 38.60255904073654,
+      "current_close": 1785.300048828125,
       "recovered_halfway": true,
-      "rank_score": 71.15451149063685
+      "rank_score": 70.94489958705093
     },
     {
       "ticker": "TECHM.NS",
@@ -150,10 +150,10 @@
       "second_bottom": 2494.7283120563393,
       "bottom_similarity_pct": 6.921079822619007,
       "bounce_from_bottom_pct": 11.33534679170583,
-      "rise_after_second_bottom_pct": 27.90972005162928,
-      "current_close": 3191.0,
+      "rise_after_second_bottom_pct": 26.927649183166437,
+      "current_close": 3166.5,
       "recovered_halfway": true,
-      "rank_score": 42.3239870207161
+      "rank_score": 41.34191615225326
     },
     {
       "ticker": "JSWSTEEL.NS",
@@ -196,10 +196,10 @@
       "second_bottom": 1609.3821052801468,
       "bottom_similarity_pct": 2.549827619783328,
       "bounce_from_bottom_pct": 14.21665829397357,
-      "rise_after_second_bottom_pct": 15.087644201776474,
-      "current_close": 1852.199951171875,
+      "rise_after_second_bottom_pct": 14.944736762314658,
+      "current_close": 1849.9000244140625,
       "recovered_halfway": true,
-      "rank_score": 36.75447487596672
+      "rank_score": 36.6115674365049
     },
     {
       "ticker": "NESTLEIND.NS",
@@ -311,10 +311,10 @@
       "second_bottom": 368.3999938964844,
       "bottom_similarity_pct": 6.8121632704911965,
       "bounce_from_bottom_pct": 12.12997524506911,
-      "rise_after_second_bottom_pct": 9.663411154539478,
-      "current_close": 404.0,
+      "rise_after_second_bottom_pct": 9.934855241555663,
+      "current_close": 405.0,
       "recovered_halfway": true,
-      "rank_score": 24.981223129117392
+      "rank_score": 25.252667216133577
     }
   ]
 }
