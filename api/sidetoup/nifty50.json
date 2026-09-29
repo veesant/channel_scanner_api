@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-09-29T18:51:38.700267+00:00",
+  "updated_utc": "2026-09-29T23:36:06.770452+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "APOLLOHOSP.NS",
-      "slope": 0.006970924925487822,
-      "r2": 0.877303791528904,
+      "slope": 0.006970925133293855,
+      "r2": 0.8773037886577624,
       "inside": 1.0,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.15008740593362788,
+      "pos": 0.15008740258212008,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": 43.690011620547395,
+      "annual_trend_pct": 43.6900131732493,
       "trend_type": "Ascending",
       "near_support": true,
       "near_resistance": false,
@@ -45,7 +45,7 @@
       "recent_trend_pct": 17.076956538221854,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.9236431551710892
+      "rank_score": 0.9236431540706692
     },
     {
       "ticker": "NTPC.NS",
