@@ -10,11 +10,11 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-09-30T23:28:38.917540+00:00"
+    "lastUpdatedTs": "2026-10-01T17:11:29.815333+00:00"
   },
   "counts": {
     "total": 50,
-    "matched": 6
+    "matched": 3
   },
   "data": [
     {
@@ -35,79 +35,10 @@
       "second_bottom": 1130.0,
       "bottom_similarity_pct": 2.633969118982743,
       "bounce_from_bottom_pct": 6.911502264242257,
-      "rise_after_second_bottom_pct": 10.787612780005531,
-      "current_close": 1251.9000244140625,
+      "rise_after_second_bottom_pct": 9.115044247787612,
+      "current_close": 1233.0,
       "recovered_halfway": true,
-      "rank_score": 25.065145925265046
-    },
-    {
-      "ticker": "TATASTEEL.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 1,
-      "middle_peak_bar": 3,
-      "second_bottom_bar": 4,
-      "first_bottom_date": "2026-07-20",
-      "middle_peak_date": "2026-08-03",
-      "second_bottom_date": "2026-08-10",
-      "first_bottom": 181.1999969482422,
-      "middle_peak": 193.64999389648438,
-      "second_bottom": 180.0,
-      "bottom_similarity_pct": 0.6666649712456597,
-      "bounce_from_bottom_pct": 6.8708593586778,
-      "rise_after_second_bottom_pct": 4.444444444444445,
-      "current_close": 188.0,
-      "recovered_halfway": true,
-      "rank_score": 20.648638831876582
-    },
-    {
-      "ticker": "JSWSTEEL.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 5,
-      "middle_peak_bar": 6,
-      "second_bottom_bar": 9,
-      "first_bottom_date": "2026-08-17",
-      "middle_peak_date": "2026-08-24",
-      "second_bottom_date": "2026-09-14",
-      "first_bottom": 1250.4000244140625,
-      "middle_peak": 1351.0,
-      "second_bottom": 1227.0,
-      "bottom_similarity_pct": 1.9070924542838221,
-      "bounce_from_bottom_pct": 8.04542335426446,
-      "rise_after_second_bottom_pct": 3.7000834893286467,
-      "current_close": 1272.4000244140625,
-      "recovered_halfway": false,
-      "rank_score": 17.838414389309285
-    },
-    {
-      "ticker": "ADANIENT.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 4,
-      "middle_peak_bar": 6,
-      "second_bottom_bar": 7,
-      "first_bottom_date": "2026-08-10",
-      "middle_peak_date": "2026-08-24",
-      "second_bottom_date": "2026-08-31",
-      "first_bottom": 2932.800048828125,
-      "middle_peak": 3173.699951171875,
-      "second_bottom": 2830.5,
-      "bottom_similarity_pct": 3.6142041628025083,
-      "bounce_from_bottom_pct": 8.213989986804853,
-      "rise_after_second_bottom_pct": 5.030909816066067,
-      "current_close": 2972.89990234375,
-      "recovered_halfway": false,
-      "rank_score": 17.63069564006841
+      "rank_score": 23.392577393047127
     },
     {
       "ticker": "AXISBANK.NS",
@@ -127,10 +58,10 @@
       "second_bottom": 1175.0,
       "bottom_similarity_pct": 2.8595723902925534,
       "bounce_from_bottom_pct": 7.562471145157118,
-      "rise_after_second_bottom_pct": 3.157444730718085,
-      "current_close": 1212.0999755859375,
+      "rise_after_second_bottom_pct": 4.340425531914894,
+      "current_close": 1226.0,
       "recovered_halfway": false,
-      "rank_score": 15.860343485582648
+      "rank_score": 17.04332428677946
     },
     {
       "ticker": "COALINDIA.NS",
