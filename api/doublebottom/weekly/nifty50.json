@@ -10,11 +10,11 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-10-01T19:05:30.738234+00:00"
+    "lastUpdatedTs": "2026-10-01T23:45:58.026192+00:00"
   },
   "counts": {
     "total": 50,
-    "matched": 3
+    "matched": 4
   },
   "data": [
     {
@@ -35,10 +35,10 @@
       "second_bottom": 1130.0,
       "bottom_similarity_pct": 2.633969118982743,
       "bounce_from_bottom_pct": 6.911502264242257,
-      "rise_after_second_bottom_pct": 9.115044247787612,
-      "current_close": 1233.0,
+      "rise_after_second_bottom_pct": 6.743358510785398,
+      "current_close": 1206.199951171875,
       "recovered_halfway": true,
-      "rank_score": 23.392577393047127
+      "rank_score": 21.020891656044913
     },
     {
       "ticker": "AXISBANK.NS",
@@ -58,33 +58,56 @@
       "second_bottom": 1175.0,
       "bottom_similarity_pct": 2.8595723902925534,
       "bounce_from_bottom_pct": 7.562471145157118,
-      "rise_after_second_bottom_pct": 4.340425531914894,
-      "current_close": 1226.0,
+      "rise_after_second_bottom_pct": 3.582976645611702,
+      "current_close": 1217.0999755859375,
       "recovered_halfway": false,
-      "rank_score": 17.04332428677946
+      "rank_score": 16.285875400476264
     },
     {
-      "ticker": "COALINDIA.NS",
+      "ticker": "HDFCLIFE.NS",
       "tf": "1wk",
       "bars_available": 120,
       "pattern_detected": true,
       "bars_used": 12,
       "pivot_strength": 1,
-      "first_bottom_bar": 5,
-      "middle_peak_bar": 8,
-      "second_bottom_bar": 9,
-      "first_bottom_date": "2026-08-17",
-      "middle_peak_date": "2026-09-07",
-      "second_bottom_date": "2026-09-14",
-      "first_bottom": 390.8530819021693,
-      "middle_peak": 436.29998779296875,
-      "second_bottom": 409.6499938964844,
-      "bottom_similarity_pct": 4.809201427512328,
-      "bounce_from_bottom_pct": 6.505552128292876,
-      "rise_after_second_bottom_pct": 3.747102729701117,
-      "current_close": 425.0,
-      "recovered_halfway": true,
-      "rank_score": 15.443453430481666
+      "first_bottom_bar": 3,
+      "middle_peak_bar": 6,
+      "second_bottom_bar": 8,
+      "first_bottom_date": "2026-08-03",
+      "middle_peak_date": "2026-08-24",
+      "second_bottom_date": "2026-09-07",
+      "first_bottom": 530.5,
+      "middle_peak": 563.5,
+      "second_bottom": 508.70001220703125,
+      "bottom_similarity_pct": 4.2854309553459515,
+      "bounce_from_bottom_pct": 6.2205466540999055,
+      "rise_after_second_bottom_pct": 5.012777548277703,
+      "current_close": 534.2000122070312,
+      "recovered_halfway": false,
+      "rank_score": 14.947893247031658
+    },
+    {
+      "ticker": "HCLTECH.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 6,
+      "middle_peak_bar": 7,
+      "second_bottom_bar": 8,
+      "first_bottom_date": "2026-08-24",
+      "middle_peak_date": "2026-08-31",
+      "second_bottom_date": "2026-09-07",
+      "first_bottom": 1280.0,
+      "middle_peak": 1368.0,
+      "second_bottom": 1195.699951171875,
+      "bottom_similarity_pct": 7.050267815558968,
+      "bounce_from_bottom_pct": 6.875000000000001,
+      "rise_after_second_bottom_pct": 3.9642072718667376,
+      "current_close": 1243.0999755859375,
+      "recovered_halfway": false,
+      "rank_score": 11.788939456307771
     }
   ]
 }
