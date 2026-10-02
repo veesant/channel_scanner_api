@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-01T23:49:40.179874+00:00",
+  "updated_utc": "2026-10-02T16:29:38.964629+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -241,15 +241,15 @@
     },
     {
       "ticker": "SBILIFE.NS",
-      "slope": -0.004257341235298964,
-      "r2": 0.6815565272831101,
+      "slope": -0.004200626989936283,
+      "r2": 0.6763600725557817,
       "inside": 0.9230769230769231,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.4181083434918549,
+      "pos": 0.5182717095287905,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -19.85893120219301,
+      "annual_trend_pct": -19.622235056171,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -258,10 +258,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -8.125898961053002,
       "prior_trend_type": "Sideways",
-      "recent_trend_pct": -27.487983821950767,
+      "recent_trend_pct": -19.093691305496918,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.7681981985231389
+      "rank_score": 0.755583634555781
     }
   ]
 }
