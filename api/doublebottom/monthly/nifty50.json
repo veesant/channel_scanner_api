@@ -10,7 +10,7 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-10-02T23:32:11.001648+00:00"
+    "lastUpdatedTs": "2026-10-03T15:01:59.243745+00:00"
   },
   "counts": {
     "total": 50,
@@ -62,29 +62,6 @@
       "current_close": 1533.0,
       "recovered_halfway": true,
       "rank_score": 42.08960539303413
-    },
-    {
-      "ticker": "GRASIM.NS",
-      "tf": "1mo",
-      "bars_available": 72,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 1,
-      "middle_peak_bar": 4,
-      "second_bottom_bar": 5,
-      "first_bottom_date": "2025-11-01",
-      "middle_peak_date": "2026-02-01",
-      "second_bottom_date": "2026-03-01",
-      "first_bottom": 2667.3904498912343,
-      "middle_peak": 2969.748407675248,
-      "second_bottom": 2494.7283120563393,
-      "bottom_similarity_pct": 6.921079822619007,
-      "bounce_from_bottom_pct": 11.33534679170583,
-      "rise_after_second_bottom_pct": 22.73480392820435,
-      "current_close": 3061.89990234375,
-      "recovered_halfway": true,
-      "rank_score": 37.14907089729117
     },
     {
       "ticker": "TITAN.NS",
@@ -158,25 +135,25 @@
     {
       "ticker": "SUNPHARMA.NS",
       "tf": "1mo",
-      "bars_available": 72,
+      "bars_available": 73,
       "pattern_detected": true,
       "bars_used": 12,
       "pivot_strength": 1,
-      "first_bottom_bar": 3,
-      "middle_peak_bar": 5,
-      "second_bottom_bar": 6,
+      "first_bottom_bar": 2,
+      "middle_peak_bar": 4,
+      "second_bottom_bar": 5,
       "first_bottom_date": "2026-01-01",
       "middle_peak_date": "2026-03-01",
       "second_bottom_date": "2026-04-01",
-      "first_bottom": 1569.3658569320078,
+      "first_bottom": 1569.3659781146955,
       "middle_peak": 1838.1824598321832,
       "second_bottom": 1609.3821052801468,
-      "bottom_similarity_pct": 2.549835538436383,
+      "bottom_similarity_pct": 2.549827619783328,
       "bounce_from_bottom_pct": 14.21665829397357,
-      "rise_after_second_bottom_pct": 12.875616649765103,
-      "current_close": 1816.5999755859375,
+      "rise_after_second_bottom_pct": 11.906302057863263,
+      "current_close": 1801.0,
       "recovered_halfway": true,
-      "rank_score": 34.54243940530229
+      "rank_score": 33.57313273205351
     },
     {
       "ticker": "DRREDDY.NS",
@@ -292,6 +269,29 @@
       "current_close": 721.2000122070312,
       "recovered_halfway": false,
       "rank_score": 26.86517940183463
+    },
+    {
+      "ticker": "SBILIFE.NS",
+      "tf": "1mo",
+      "bars_available": 73,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 7,
+      "middle_peak_bar": 9,
+      "second_bottom_bar": 10,
+      "first_bottom_date": "2026-06-01",
+      "middle_peak_date": "2026-08-01",
+      "second_bottom_date": "2026-09-01",
+      "first_bottom": 1700.4000244140625,
+      "middle_peak": 1915.0,
+      "second_bottom": 1652.9000244140625,
+      "bottom_similarity_pct": 2.8737370257368293,
+      "bounce_from_bottom_pct": 12.620558251278908,
+      "rise_after_second_bottom_pct": 4.156328281030094,
+      "current_close": 1721.5999755859375,
+      "recovered_halfway": false,
+      "rank_score": 21.90314950657217
     }
   ]
 }
