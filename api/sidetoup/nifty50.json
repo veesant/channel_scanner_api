@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-06T19:03:28.631853+00:00",
+  "updated_utc": "2026-10-06T23:32:35.427802+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -42,7 +42,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 66.0846516776302,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -67.29800596739963,
+      "recent_trend_pct": -67.29800596739857,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.8802758581748495
@@ -121,15 +121,15 @@
     },
     {
       "ticker": "TATASTEEL.NS",
-      "slope": -0.006443789606857582,
-      "r2": 0.8312636913305508,
+      "slope": -0.006443789606857653,
+      "r2": 0.8312636913305526,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.5128782516463245,
+      "pos": 0.5128782516463445,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -28.471703515934244,
+      "annual_trend_pct": -28.47170351593451,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -141,7 +141,7 @@
       "recent_trend_pct": -41.4615356570126,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8489594051160276
+      "rank_score": 0.8489594051160265
     },
     {
       "ticker": "ITC.NS",
@@ -162,7 +162,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -23.590702672868268,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": 10.849234800815633,
+      "recent_trend_pct": 10.84923480081288,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
       "rank_score": 0.8307794560201773
@@ -186,7 +186,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -9.989623133519954,
       "prior_trend_type": "Sideways",
-      "recent_trend_pct": 1.3626583973834538,
+      "recent_trend_pct": 1.362658397387606,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
       "rank_score": 0.8307370184701425
@@ -258,7 +258,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -49.17497618858599,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -39.007299670857485,
+      "recent_trend_pct": -39.007299670857876,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.7924334284786597
@@ -282,22 +282,22 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -25.834205260678544,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -61.943278461762276,
+      "recent_trend_pct": -61.94327846176132,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.7820060960822498
     },
     {
       "ticker": "BEL.NS",
-      "slope": -0.004637488099638604,
-      "r2": 0.6656375626615783,
+      "slope": -0.004637488099638508,
+      "r2": 0.6656375626615825,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.4135239214471971,
+      "pos": 0.4135239214471955,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -21.427575479455818,
+      "annual_trend_pct": -21.42757547945543,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -309,7 +309,7 @@
       "recent_trend_pct": -46.48435750705604,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.7760817738014542
+      "rank_score": 0.7760817738014563
     },
     {
       "ticker": "SBILIFE.NS",
@@ -330,7 +330,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -6.985521022842467,
       "prior_trend_type": "Sideways",
-      "recent_trend_pct": -15.913821663453554,
+      "recent_trend_pct": -15.913821663449369,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.7552203594526573
