@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-06T01:10:27.786433+00:00",
+  "updated_utc": "2026-10-06T16:58:06.035039+00:00",
   "params": {
     "tf": "1d",
     "lookback_days": 520,
@@ -21,6 +21,62 @@
     "only_actionable": false,
     "only_watchlist": true
   },
-  "count": 0,
-  "data": []
+  "count": 1,
+  "data": [
+    {
+      "ticker": "DRREDDY.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 1203.0,
+      "sma_fast": 20,
+      "sma_slow": 50,
+      "sma_fast_now": 1184.8099975585938,
+      "sma_slow_now": 1177.262001953125,
+      "trend_ok": true,
+      "recent_swing_high": 1252.800048828125,
+      "recent_swing_high_date": "2026-09-29",
+      "resistance_level": 1252.800048828125,
+      "pullback_from_swing_high_pct": 3.975099528029888,
+      "had_correction": true,
+      "bars_since_swing_high": 3,
+      "correction_age_ok": true,
+      "anchor_support_close": 1133.9000244140625,
+      "anchor_support_date": "2026-09-16",
+      "support_level": 1133.9000244140625,
+      "support_tolerance_pct": 1.0,
+      "support_floor": 1133.9000244140625,
+      "support_floor_adj": 1122.561024169922,
+      "correction_close_low": 1203.0,
+      "support_held": true,
+      "close_above_sma_fast": true,
+      "rebound_ok": false,
+      "uptrend_window_used": 50,
+      "uptrend_hh_count": 3,
+      "uptrend_hl_count": 4,
+      "uptrend_pivot_highs": 6,
+      "uptrend_pivot_lows": 7,
+      "uptrend_overall_up": true,
+      "uptrend_ok": true,
+      "uptrend_actionable": true,
+      "watchlist_correction": true,
+      "actionable_after_correction": true,
+      "dist_to_support": 0.06094009533304719,
+      "actionable_reason": "watchlist_correction",
+      "priceQuality": {
+        "quality_n_bars": 50,
+        "long_wick_count": 19,
+        "max_long_wicks_allowed": 6,
+        "gap_thresh_pct": 2.5,
+        "gap_count": 0,
+        "max_gap_count_allowed": 2,
+        "max_gap_pct": 1.8181778191543818,
+        "max_gap_pct_allowed": 6.0,
+        "avg_volume_50": 1730154,
+        "price_quality_ok": false
+      },
+      "priceQualityOk": false,
+      "avgVolume50": 1730154,
+      "rank_score": 2.786569857469942
+    }
+  ]
 }

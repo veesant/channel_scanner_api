@@ -10,11 +10,11 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-10-06T01:10:15.318126+00:00"
+    "lastUpdatedTs": "2026-10-06T17:07:56.778208+00:00"
   },
   "counts": {
     "total": 50,
-    "matched": 6
+    "matched": 5
   },
   "data": [
     {
@@ -41,27 +41,27 @@
       "rank_score": 21.348223111329002
     },
     {
-      "ticker": "DRREDDY.NS",
+      "ticker": "HDFCLIFE.NS",
       "tf": "1wk",
       "bars_available": 120,
       "pattern_detected": true,
       "bars_used": 12,
       "pivot_strength": 1,
-      "first_bottom_bar": 1,
-      "middle_peak_bar": 4,
-      "second_bottom_bar": 8,
-      "first_bottom_date": "2026-07-20",
-      "middle_peak_date": "2026-08-10",
-      "second_bottom_date": "2026-09-07",
-      "first_bottom": 1101.0,
-      "middle_peak": 1208.0999755859375,
-      "second_bottom": 1130.0,
-      "bottom_similarity_pct": 2.633969118982743,
-      "bounce_from_bottom_pct": 6.911502264242257,
-      "rise_after_second_bottom_pct": 6.743358510785398,
-      "current_close": 1206.199951171875,
-      "recovered_halfway": true,
-      "rank_score": 21.020891656044913
+      "first_bottom_bar": 7,
+      "middle_peak_bar": 9,
+      "second_bottom_bar": 10,
+      "first_bottom_date": "2026-09-07",
+      "middle_peak_date": "2026-09-21",
+      "second_bottom_date": "2026-09-28",
+      "first_bottom": 508.70001220703125,
+      "middle_peak": 567.4000244140625,
+      "second_bottom": 513.4000244140625,
+      "bottom_similarity_pct": 0.9239261046289172,
+      "bounce_from_bottom_pct": 10.51811403040535,
+      "rise_after_second_bottom_pct": 3.4281212989859413,
+      "current_close": 531.0,
+      "recovered_halfway": false,
+      "rank_score": 21.022309224762374
     },
     {
       "ticker": "AXISBANK.NS",
@@ -108,29 +108,6 @@
       "current_close": 425.1000061035156,
       "recovered_halfway": true,
       "rank_score": 15.467866003411155
-    },
-    {
-      "ticker": "HDFCLIFE.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 3,
-      "middle_peak_bar": 6,
-      "second_bottom_bar": 8,
-      "first_bottom_date": "2026-08-03",
-      "middle_peak_date": "2026-08-24",
-      "second_bottom_date": "2026-09-07",
-      "first_bottom": 530.5,
-      "middle_peak": 563.5,
-      "second_bottom": 508.70001220703125,
-      "bottom_similarity_pct": 4.2854309553459515,
-      "bounce_from_bottom_pct": 6.2205466540999055,
-      "rise_after_second_bottom_pct": 5.012777548277703,
-      "current_close": 534.2000122070312,
-      "recovered_halfway": false,
-      "rank_score": 14.947893247031658
     },
     {
       "ticker": "ADANIPORTS.NS",
