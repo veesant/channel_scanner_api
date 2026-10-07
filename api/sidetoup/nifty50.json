@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-07T17:34:32.440051+00:00",
+  "updated_utc": "2026-10-07T18:09:23.014242+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,39 +25,39 @@
   "data": [
     {
       "ticker": "HINDUNILVR.NS",
-      "slope": -0.0073841020619104915,
-      "r2": 0.8513924742347128,
+      "slope": -0.007384102061910348,
+      "r2": 0.8513924742347124,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.24393369750143282,
+      "pos": 0.2439336975014234,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -31.885039128601356,
+      "annual_trend_pct": -31.885039128600845,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -23.566616278054433,
+      "prior_trend_pct": -23.566616278055285,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -46.49281346297778,
+      "recent_trend_pct": -46.49281346297912,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8859182519825978
+      "rank_score": 0.8859182519825985
     },
     {
       "ticker": "TATASTEEL.NS",
-      "slope": -0.006564587148387325,
-      "r2": 0.834876605696016,
+      "slope": -0.00656458714838723,
+      "r2": 0.8348766056960173,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.37756206723062774,
+      "pos": 0.3775620672306178,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -28.919598326815745,
+      "annual_trend_pct": -28.91959832681539,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -69,7 +69,7 @@
       "recent_trend_pct": -47.29587488408234,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8796820961249452
+      "rank_score": 0.8796820961249469
     },
     {
       "ticker": "NTPC.NS",
@@ -162,7 +162,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -13.633118305482771,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -63.302596460600334,
+      "recent_trend_pct": -63.302596460601244,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.8448016418926969
@@ -208,9 +208,9 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -28.221530563470086,
+      "prior_trend_pct": -28.221530563470488,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -62.781933510838485,
+      "recent_trend_pct": -62.78193351083894,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.8183086630551126
@@ -258,7 +258,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -49.17497618858599,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -44.83512205995444,
+      "recent_trend_pct": -44.835122059954976,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.8020631691502798
@@ -337,15 +337,15 @@
     },
     {
       "ticker": "SBILIFE.NS",
-      "slope": -0.004061056925820877,
-      "r2": 0.6650578118425591,
+      "slope": -0.0040610569258208,
+      "r2": 0.6650578118425596,
       "inside": 0.9230769230769231,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.5532789245145142,
+      "pos": 0.5532789245145074,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -19.03675989117133,
+      "annual_trend_pct": -19.036759891171005,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -354,10 +354,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -6.985521022842467,
       "prior_trend_type": "Sideways",
-      "recent_trend_pct": -9.65561835470825,
+      "recent_trend_pct": -9.655618354711626,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
-      "rank_score": 0.7464317827005973
+      "rank_score": 0.7464317827005983
     }
   ]
 }
