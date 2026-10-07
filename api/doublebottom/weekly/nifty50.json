@@ -10,11 +10,11 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-10-06T23:43:19.365288+00:00"
+    "lastUpdatedTs": "2026-10-07T17:39:03.172789+00:00"
   },
   "counts": {
     "total": 50,
-    "matched": 5
+    "matched": 6
   },
   "data": [
     {
@@ -104,10 +104,33 @@
       "second_bottom": 1175.0,
       "bottom_similarity_pct": 2.8595723902925534,
       "bounce_from_bottom_pct": 7.562471145157118,
-      "rise_after_second_bottom_pct": 4.017017121010638,
-      "current_close": 1222.199951171875,
+      "rise_after_second_bottom_pct": 6.212765957446809,
+      "current_close": 1248.0,
       "recovered_halfway": false,
-      "rank_score": 16.719915875875202
+      "rank_score": 18.915664712311372
+    },
+    {
+      "ticker": "JSWSTEEL.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 8,
+      "middle_peak_bar": 9,
+      "second_bottom_bar": 10,
+      "first_bottom_date": "2026-09-14",
+      "middle_peak_date": "2026-09-21",
+      "second_bottom_date": "2026-09-28",
+      "first_bottom": 1227.0,
+      "middle_peak": 1304.0,
+      "second_bottom": 1214.800048828125,
+      "bottom_similarity_pct": 1.0042764802029656,
+      "bounce_from_bottom_pct": 6.275468622656886,
+      "rise_after_second_bottom_pct": 3.6878436744408614,
+      "current_close": 1259.5999755859375,
+      "recovered_halfway": false,
+      "rank_score": 16.959035816894783
     },
     {
       "ticker": "ADANIPORTS.NS",
@@ -127,10 +150,10 @@
       "second_bottom": 1716.0,
       "bottom_similarity_pct": 7.714520513306783,
       "bounce_from_bottom_pct": 6.293706293706294,
-      "rise_after_second_bottom_pct": 3.37995337995338,
-      "current_close": 1774.0,
+      "rise_after_second_bottom_pct": 3.9277403504698425,
+      "current_close": 1783.4000244140625,
       "recovered_halfway": true,
-      "rank_score": 11.95913916035289
+      "rank_score": 12.506926130869353
     }
   ]
 }
