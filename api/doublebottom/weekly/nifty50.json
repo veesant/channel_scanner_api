@@ -10,11 +10,11 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-10-07T19:36:28.554684+00:00"
+    "lastUpdatedTs": "2026-10-08T00:00:31.295371+00:00"
   },
   "counts": {
     "total": 50,
-    "matched": 6
+    "matched": 4
   },
   "data": [
     {
@@ -35,10 +35,10 @@
       "second_bottom": 513.4000244140625,
       "bottom_similarity_pct": 0.9239261046289172,
       "bounce_from_bottom_pct": 10.51811403040535,
-      "rise_after_second_bottom_pct": 5.950523245072904,
-      "current_close": 543.9500122070312,
+      "rise_after_second_bottom_pct": 6.3595562575536055,
+      "current_close": 546.0499877929688,
       "recovered_halfway": true,
-      "rank_score": 25.544711170849336
+      "rank_score": 25.953744183330038
     },
     {
       "ticker": "ITC.NS",
@@ -58,33 +58,10 @@
       "second_bottom": 254.64999389648438,
       "bottom_similarity_pct": 0.3337938833256575,
       "bounce_from_bottom_pct": 6.086100897443738,
-      "rise_after_second_bottom_pct": 4.731992381450921,
-      "current_close": 266.70001220703125,
+      "rise_after_second_bottom_pct": 4.339296514979979,
+      "current_close": 265.70001220703125,
       "recovered_halfway": true,
-      "rank_score": 20.484299395569003
-    },
-    {
-      "ticker": "SBILIFE.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 8,
-      "middle_peak_bar": 9,
-      "second_bottom_bar": 10,
-      "first_bottom_date": "2026-09-14",
-      "middle_peak_date": "2026-09-21",
-      "second_bottom_date": "2026-09-28",
-      "first_bottom": 1652.9000244140625,
-      "middle_peak": 1791.4000244140625,
-      "second_bottom": 1674.800048828125,
-      "bottom_similarity_pct": 1.324945495225935,
-      "bounce_from_bottom_pct": 6.9620236557506505,
-      "rise_after_second_bottom_pct": 4.49008532239375,
-      "current_close": 1750.0,
-      "recovered_halfway": true,
-      "rank_score": 20.127163482918466
+      "rank_score": 20.09160352909806
     },
     {
       "ticker": "AXISBANK.NS",
@@ -104,13 +81,13 @@
       "second_bottom": 1175.0,
       "bottom_similarity_pct": 2.8595723902925534,
       "bounce_from_bottom_pct": 7.562471145157118,
-      "rise_after_second_bottom_pct": 6.212765957446809,
-      "current_close": 1248.0,
+      "rise_after_second_bottom_pct": 5.74468085106383,
+      "current_close": 1242.5,
       "recovered_halfway": false,
-      "rank_score": 18.915664712311372
+      "rank_score": 18.447579605928393
     },
     {
-      "ticker": "JSWSTEEL.NS",
+      "ticker": "SBILIFE.NS",
       "tf": "1wk",
       "bars_available": 120,
       "pattern_detected": true,
@@ -122,38 +99,15 @@
       "first_bottom_date": "2026-09-14",
       "middle_peak_date": "2026-09-21",
       "second_bottom_date": "2026-09-28",
-      "first_bottom": 1227.0,
-      "middle_peak": 1304.0,
-      "second_bottom": 1214.800048828125,
-      "bottom_similarity_pct": 1.0042764802029656,
-      "bounce_from_bottom_pct": 6.275468622656886,
-      "rise_after_second_bottom_pct": 3.6878436744408614,
-      "current_close": 1259.5999755859375,
+      "first_bottom": 1652.9000244140625,
+      "middle_peak": 1791.4000244140625,
+      "second_bottom": 1674.800048828125,
+      "bottom_similarity_pct": 1.324945495225935,
+      "bounce_from_bottom_pct": 6.9620236557506505,
+      "rise_after_second_bottom_pct": 3.0630478422607874,
+      "current_close": 1726.0999755859375,
       "recovered_halfway": false,
-      "rank_score": 16.959035816894783
-    },
-    {
-      "ticker": "ADANIPORTS.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 6,
-      "middle_peak_bar": 8,
-      "second_bottom_bar": 10,
-      "first_bottom_date": "2026-08-31",
-      "middle_peak_date": "2026-09-14",
-      "second_bottom_date": "2026-09-28",
-      "first_bottom": 1593.0999755859375,
-      "middle_peak": 1824.0,
-      "second_bottom": 1716.0,
-      "bottom_similarity_pct": 7.714520513306783,
-      "bounce_from_bottom_pct": 6.293706293706294,
-      "rise_after_second_bottom_pct": 3.9277403504698425,
-      "current_close": 1783.4000244140625,
-      "recovered_halfway": true,
-      "rank_score": 12.506926130869353
+      "rank_score": 16.700126002785503
     }
   ]
 }
