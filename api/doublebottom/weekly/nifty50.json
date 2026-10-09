@@ -10,11 +10,11 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-10-08T19:33:22.417360+00:00"
+    "lastUpdatedTs": "2026-10-09T00:07:37.879974+00:00"
   },
   "counts": {
     "total": 50,
-    "matched": 4
+    "matched": 2
   },
   "data": [
     {
@@ -35,33 +35,10 @@
       "second_bottom": 513.4000244140625,
       "bottom_similarity_pct": 0.9239261046289172,
       "bounce_from_bottom_pct": 10.51811403040535,
-      "rise_after_second_bottom_pct": 6.3595562575536055,
-      "current_close": 546.0499877929688,
+      "rise_after_second_bottom_pct": 6.057649806587279,
+      "current_close": 544.5,
       "recovered_halfway": true,
-      "rank_score": 25.953744183330038
-    },
-    {
-      "ticker": "ITC.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 6,
-      "middle_peak_bar": 9,
-      "second_bottom_bar": 10,
-      "first_bottom_date": "2026-08-31",
-      "middle_peak_date": "2026-09-21",
-      "second_bottom_date": "2026-09-28",
-      "first_bottom": 255.5,
-      "middle_peak": 271.04998779296875,
-      "second_bottom": 254.64999389648438,
-      "bottom_similarity_pct": 0.3337938833256575,
-      "bounce_from_bottom_pct": 6.086100897443738,
-      "rise_after_second_bottom_pct": 4.339296514979979,
-      "current_close": 265.70001220703125,
-      "recovered_halfway": true,
-      "rank_score": 20.09160352909806
+      "rank_score": 25.65183773236371
     },
     {
       "ticker": "AXISBANK.NS",
@@ -81,33 +58,10 @@
       "second_bottom": 1175.0,
       "bottom_similarity_pct": 2.8595723902925534,
       "bounce_from_bottom_pct": 7.562471145157118,
-      "rise_after_second_bottom_pct": 5.74468085106383,
-      "current_close": 1242.5,
+      "rise_after_second_bottom_pct": 5.957446808510639,
+      "current_close": 1245.0,
       "recovered_halfway": false,
-      "rank_score": 18.447579605928393
-    },
-    {
-      "ticker": "SBILIFE.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 8,
-      "middle_peak_bar": 9,
-      "second_bottom_bar": 10,
-      "first_bottom_date": "2026-09-14",
-      "middle_peak_date": "2026-09-21",
-      "second_bottom_date": "2026-09-28",
-      "first_bottom": 1652.9000244140625,
-      "middle_peak": 1791.4000244140625,
-      "second_bottom": 1674.800048828125,
-      "bottom_similarity_pct": 1.324945495225935,
-      "bounce_from_bottom_pct": 6.9620236557506505,
-      "rise_after_second_bottom_pct": 3.0630478422607874,
-      "current_close": 1726.0999755859375,
-      "recovered_halfway": false,
-      "rank_score": 16.700126002785503
+      "rank_score": 18.660345563375202
     }
   ]
 }
