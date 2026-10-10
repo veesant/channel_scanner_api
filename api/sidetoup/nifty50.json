@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-09T23:57:44.541108+00:00",
+  "updated_utc": "2026-10-10T16:01:28.791059+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "POWERGRID.NS",
-      "slope": -0.007937267530015257,
-      "r2": 0.8839458220031396,
+      "slope": -0.007937267530015328,
+      "r2": 0.8839458220031391,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.19565045612825116,
+      "pos": 0.19565045612826126,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -33.8164280410271,
+      "annual_trend_pct": -33.81642804102736,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -42,10 +42,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -36.17775992223184,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -52.20705607079425,
+      "recent_trend_pct": -52.20705607079502,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9224078653887448
+      "rank_score": 0.9224078653887434
     },
     {
       "ticker": "HINDUNILVR.NS",
@@ -64,7 +64,7 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -23.566616278055285,
+      "prior_trend_pct": -23.566616278054433,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -48.3190791826453,
       "recent_trend_type": "Descending",
@@ -210,7 +210,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -9.989623133519954,
       "prior_trend_type": "Sideways",
-      "recent_trend_pct": 4.009583245307424,
+      "recent_trend_pct": 4.009583245308734,
       "recent_trend_type": "Sideways",
       "previously_descending": false,
       "rank_score": 0.8288494570912284
@@ -282,7 +282,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -49.17497618858599,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -45.95184240079949,
+      "recent_trend_pct": -45.951842400800516,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.8039549633270124
@@ -313,15 +313,15 @@
     },
     {
       "ticker": "SBILIFE.NS",
-      "slope": -0.0041594558940120895,
-      "r2": 0.6744034923028221,
+      "slope": -0.004154658394512431,
+      "r2": 0.6741023730539895,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.07692307692307693,
-      "pos": 0.37819429921972536,
+      "pos": 0.386670263085119,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -19.44997020644408,
+      "annual_trend_pct": -19.429872885872424,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -330,10 +330,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -6.985521022842467,
       "prior_trend_type": "Sideways",
-      "recent_trend_pct": -25.292667083104348,
+      "recent_trend_pct": -24.597209786705875,
       "recent_trend_type": "Descending",
       "previously_descending": false,
-      "rank_score": 0.778869495716618
+      "rank_score": 0.7778713397056622
     }
   ]
 }
