@@ -10,7 +10,7 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-10-09T18:59:37.231662+00:00"
+    "lastUpdatedTs": "2026-10-09T23:47:42.029158+00:00"
   },
   "counts": {
     "total": 50,
@@ -35,10 +35,10 @@
       "second_bottom": 513.4000244140625,
       "bottom_similarity_pct": 0.9239261046289172,
       "bounce_from_bottom_pct": 10.51811403040535,
-      "rise_after_second_bottom_pct": 6.057649806587279,
-      "current_close": 544.5,
+      "rise_after_second_bottom_pct": 8.424230218796877,
+      "current_close": 556.6500244140625,
       "recovered_halfway": true,
-      "rank_score": 25.65183773236371
+      "rank_score": 28.01841814457331
     },
     {
       "ticker": "AXISBANK.NS",
@@ -58,10 +58,10 @@
       "second_bottom": 1175.0,
       "bottom_similarity_pct": 2.8595723902925534,
       "bounce_from_bottom_pct": 7.562471145157118,
-      "rise_after_second_bottom_pct": 5.957446808510639,
-      "current_close": 1245.0,
-      "recovered_halfway": false,
-      "rank_score": 18.660345563375202
+      "rise_after_second_bottom_pct": 7.157444730718085,
+      "current_close": 1259.0999755859375,
+      "recovered_halfway": true,
+      "rank_score": 21.860343485582646
     }
   ]
 }
