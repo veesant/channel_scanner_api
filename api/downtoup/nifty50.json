@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-13T17:58:48.436489+00:00",
+  "updated_utc": "2026-10-13T18:52:08.066757+00:00",
   "tf": "1d",
   "params": {
     "n_down": 40,
@@ -15,28 +15,49 @@
     "near_resistance_pct": 6.0,
     "breakout_wiggle_pct": 0.2
   },
-  "count": 1,
+  "count": 2,
   "data": [
     {
       "ticker": "AXISBANK.NS",
       "tf": "1d",
       "bars_used": 350,
-      "close": 1259.0999755859375,
-      "sma20": 1233.9799926757812,
-      "sma50": 1242.3280053710937,
+      "close": 1253.0,
+      "sma20": 1234.3299926757813,
+      "sma50": 1242.8100048828126,
       "trend_ok": true,
       "prior_downtrend_ok": true,
-      "down_slope": -0.011267387576219534,
+      "down_slope": -0.15814344109111164,
       "fresh_uptrend_ok": true,
-      "up_slope": 4.843027195785985,
-      "up_hh_steps": 1,
+      "up_slope": 5.538787286931818,
+      "up_hh_steps": 2,
       "up_hl_steps": 1,
-      "up_pivot_highs": 2,
+      "up_pivot_highs": 3,
       "up_pivot_lows": 2,
-      "resistance": 1259.0,
-      "pullback_from_resistance_pct": -0.007940872592335186,
+      "resistance": 1266.0,
+      "pullback_from_resistance_pct": 1.0268562401263823,
+      "state": "correction",
+      "rank_score": 3.1288572933122696
+    },
+    {
+      "ticker": "TRENT.NS",
+      "tf": "1d",
+      "bars_used": 350,
+      "close": 2913.0,
+      "sma20": 2760.1599975585937,
+      "sma50": 2866.7460009765623,
+      "trend_ok": true,
+      "prior_downtrend_ok": true,
+      "down_slope": -9.144793804233114,
+      "fresh_uptrend_ok": true,
+      "up_slope": 43.00484582149621,
+      "up_hh_steps": 2,
+      "up_hl_steps": 1,
+      "up_pivot_highs": 3,
+      "up_pivot_lows": 3,
+      "resistance": 2936.0,
+      "pullback_from_resistance_pct": 0.7833787465940054,
       "state": "uptrend",
-      "rank_score": 2.551323478765389
+      "rank_score": 2.5610341774583083
     }
   ]
 }
