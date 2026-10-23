@@ -10,11 +10,11 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-10-22T22:56:48.540252+00:00"
+    "lastUpdatedTs": "2026-10-23T15:32:53.158429+00:00"
   },
   "counts": {
     "total": 50,
-    "matched": 7
+    "matched": 6
   },
   "data": [
     {
@@ -30,15 +30,15 @@
       "first_bottom_date": "2026-09-07",
       "middle_peak_date": "2026-09-14",
       "second_bottom_date": "2026-10-12",
-      "first_bottom": 1498.0,
-      "middle_peak": 1633.199951171875,
-      "second_bottom": 1442.5,
-      "bottom_similarity_pct": 3.8474870017331018,
-      "bounce_from_bottom_pct": 9.025363896653872,
-      "rise_after_second_bottom_pct": 27.18890476061525,
-      "current_close": 1834.699951171875,
+      "first_bottom": 1485.7153024048405,
+      "middle_peak": 1619.806514239497,
+      "second_bottom": 1430.6704352181719,
+      "bottom_similarity_pct": 3.8474875716764565,
+      "bounce_from_bottom_pct": 9.025363851177328,
+      "rise_after_second_bottom_pct": 27.84914894162936,
+      "current_close": 1829.0999755859375,
       "recovered_halfway": true,
-      "rank_score": 42.36678165553602
+      "rank_score": 43.02702522113023
     },
     {
       "ticker": "HCLTECH.NS",
@@ -58,33 +58,10 @@
       "second_bottom": 1162.4518054894966,
       "bottom_similarity_pct": 1.9525816831358023,
       "bounce_from_bottom_pct": 7.8866045429539815,
-      "rise_after_second_bottom_pct": 22.516903018801624,
-      "current_close": 1424.199951171875,
+      "rise_after_second_bottom_pct": 22.30184033936888,
+      "current_close": 1421.699951171875,
       "recovered_halfway": true,
-      "rank_score": 38.4509258786198
-    },
-    {
-      "ticker": "HDFCLIFE.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 5,
-      "middle_peak_bar": 7,
-      "second_bottom_bar": 8,
-      "first_bottom_date": "2026-09-07",
-      "middle_peak_date": "2026-09-21",
-      "second_bottom_date": "2026-09-28",
-      "first_bottom": 508.70001220703125,
-      "middle_peak": 567.4000244140625,
-      "second_bottom": 513.4000244140625,
-      "bottom_similarity_pct": 0.9239261046289172,
-      "bounce_from_bottom_pct": 10.51811403040535,
-      "rise_after_second_bottom_pct": 5.112972098113712,
-      "current_close": 539.6500244140625,
-      "recovered_halfway": false,
-      "rank_score": 22.707160023890143
+      "rank_score": 38.23586319918706
     },
     {
       "ticker": "DRREDDY.NS",
@@ -104,33 +81,10 @@
       "second_bottom": 1167.199951171875,
       "bottom_similarity_pct": 3.2920310771570795,
       "bounce_from_bottom_pct": 7.333798940816186,
-      "rise_after_second_bottom_pct": 6.6226912321676625,
-      "current_close": 1244.5,
+      "rise_after_second_bottom_pct": 6.151478052756716,
+      "current_close": 1239.0,
       "recovered_halfway": true,
-      "rank_score": 20.66445909582677
-    },
-    {
-      "ticker": "ITC.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 4,
-      "middle_peak_bar": 7,
-      "second_bottom_bar": 9,
-      "first_bottom_date": "2026-08-31",
-      "middle_peak_date": "2026-09-21",
-      "second_bottom_date": "2026-10-05",
-      "first_bottom": 255.5,
-      "middle_peak": 271.04998779296875,
-      "second_bottom": 253.14999389648438,
-      "bottom_similarity_pct": 0.9283058108532156,
-      "bounce_from_bottom_pct": 6.086100897443738,
-      "rise_after_second_bottom_pct": 3.4959535124991876,
-      "current_close": 262.0,
-      "recovered_halfway": false,
-      "rank_score": 16.65374859908971
+      "rank_score": 20.193245916415822
     },
     {
       "ticker": "ADANIPORTS.NS",
@@ -150,10 +104,33 @@
       "second_bottom": 1674.199951171875,
       "bottom_similarity_pct": 5.090702205058359,
       "bounce_from_bottom_pct": 8.947560219630324,
-      "rise_after_second_bottom_pct": 4.455865477957566,
-      "current_close": 1748.800048828125,
+      "rise_after_second_bottom_pct": 4.527538587912866,
+      "current_close": 1750.0,
+      "recovered_halfway": true,
+      "rank_score": 18.38439660248483
+    },
+    {
+      "ticker": "AXISBANK.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 1,
+      "middle_peak_bar": 4,
+      "second_bottom_bar": 7,
+      "first_bottom_date": "2026-08-10",
+      "middle_peak_date": "2026-08-31",
+      "second_bottom_date": "2026-09-21",
+      "first_bottom": 1208.5999755859375,
+      "middle_peak": 1300.0,
+      "second_bottom": 1175.0,
+      "bottom_similarity_pct": 2.8595723902925534,
+      "bounce_from_bottom_pct": 7.562471145157118,
+      "rise_after_second_bottom_pct": 3.148936170212766,
+      "current_close": 1212.0,
       "recovered_halfway": false,
-      "rank_score": 16.312723492529532
+      "rank_score": 15.851834925077329
     },
     {
       "ticker": "JSWSTEEL.NS",
@@ -173,10 +150,10 @@
       "second_bottom": 1158.0,
       "bottom_similarity_pct": 5.958549222797927,
       "bounce_from_bottom_pct": 6.275468622656886,
-      "rise_after_second_bottom_pct": 5.60449260915911,
-      "current_close": 1222.9000244140625,
+      "rise_after_second_bottom_pct": 5.354058721934369,
+      "current_close": 1220.0,
       "recovered_halfway": false,
-      "rank_score": 13.92141200901807
+      "rank_score": 13.670978121793329
     }
   ]
 }
