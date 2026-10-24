@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T22:59:44.773081+00:00",
+  "updated_utc": "2026-10-24T14:21:01.483847+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,29 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 1,
+  "data": [
+    {
+      "ticker": "KOTAKBANK.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 430.5,
+      "sma20": 428.9599975585937,
+      "sma50": 417.8119989013672,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 10.422116143879117,
+      "pole_high": 445.25,
+      "pole_range": 50.54998779296875,
+      "flag_bars": 8,
+      "flag_range": 25.399993896484375,
+      "pullback_from_pole_high_pct": 3.312745648512072,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 1.683651140850878
+    }
+  ]
 }
