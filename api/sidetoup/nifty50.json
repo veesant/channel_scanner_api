@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-26T17:03:09.330703+00:00",
+  "updated_utc": "2026-10-26T17:58:11.126481+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -49,15 +49,15 @@
     },
     {
       "ticker": "NTPC.NS",
-      "slope": -0.009379756578340765,
-      "r2": 0.909149462822614,
+      "slope": -0.009379756578340719,
+      "r2": 0.9091494628226134,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
-      "pos": 0.3839652835171697,
+      "pos": 0.3839652835171599,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -38.5992012568624,
+      "annual_trend_pct": -38.59920125686226,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -69,7 +69,7 @@
       "recent_trend_pct": -57.888671265957726,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.9161782030595901
+      "rank_score": 0.9161782030595909
     },
     {
       "ticker": "ETERNAL.NS",
@@ -97,15 +97,15 @@
     },
     {
       "ticker": "TMPV.NS",
-      "slope": -0.013881427755773581,
+      "slope": -0.013881427755773518,
       "r2": 0.8587152748122624,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.07692307692307693,
-      "pos": 0.2738355940333514,
+      "pos": 0.27383559403335656,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -51.41397477783608,
+      "annual_trend_pct": -51.413974777835925,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -117,7 +117,7 @@
       "recent_trend_pct": -60.30258680397493,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8865894626181806
+      "rank_score": 0.8865894626181802
     },
     {
       "ticker": "HDFCLIFE.NS",
@@ -160,7 +160,7 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -31.345388026317956,
+      "prior_trend_pct": -31.345388026317966,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -63.252006190461984,
       "recent_trend_type": "Descending",
@@ -186,7 +186,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -14.65844113077479,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -1.266415351878114,
+      "recent_trend_pct": -1.2664153518805676,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
       "rank_score": 0.8702873073741987
@@ -210,7 +210,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -28.703298375223596,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -19.57541878838799,
+      "recent_trend_pct": -19.57541878838669,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.8592502633787188
@@ -256,7 +256,7 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -16.541579244492876,
+      "prior_trend_pct": -16.541579244492887,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -46.782597004414086,
       "recent_trend_type": "Descending",
@@ -289,15 +289,15 @@
     },
     {
       "ticker": "BEL.NS",
-      "slope": -0.004369576943125485,
-      "r2": 0.6960246068314713,
+      "slope": -0.004369577182523123,
+      "r2": 0.696024639828263,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.15219352360412428,
+      "pos": 0.15219353653147183,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -20.325292833597285,
+      "annual_trend_pct": -20.325293825441992,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -309,7 +309,7 @@
       "recent_trend_pct": -55.871816442424205,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8122801305425027
+      "rank_score": 0.8122801457481638
     },
     {
       "ticker": "POWERGRID.NS",
@@ -354,7 +354,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -6.190954866500875,
       "prior_trend_type": "Sideways",
-      "recent_trend_pct": -44.67440056721267,
+      "recent_trend_pct": -44.67440056721088,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.7868345024225949
