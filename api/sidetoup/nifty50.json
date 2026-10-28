@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-28T16:56:59.937443+00:00",
+  "updated_utc": "2026-10-28T17:37:15.588368+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -265,15 +265,15 @@
     },
     {
       "ticker": "BEL.NS",
-      "slope": -0.004365870491770479,
-      "r2": 0.6961151730826509,
+      "slope": -0.004365870252372805,
+      "r2": 0.6961151400782666,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.15842618465964142,
+      "pos": 0.15842617156012428,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -20.309935211496068,
+      "annual_trend_pct": -20.30993421946001,
       "trend_type": "Descending",
       "near_support": true,
       "near_resistance": false,
@@ -285,7 +285,7 @@
       "recent_trend_pct": -55.554759996530045,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8117021475625408
+      "rank_score": 0.8117021323703003
     },
     {
       "ticker": "POWERGRID.NS",
