@@ -10,7 +10,7 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-10-27T23:35:20.282307+00:00"
+    "lastUpdatedTs": "2026-10-28T17:03:20.559265+00:00"
   },
   "counts": {
     "total": 50,
@@ -35,10 +35,10 @@
       "second_bottom": 1430.6704352181719,
       "bottom_similarity_pct": 3.8474875716764565,
       "bounce_from_bottom_pct": 9.025363851177328,
-      "rise_after_second_bottom_pct": 25.46565273268328,
-      "current_close": 1795.0,
+      "rise_after_second_bottom_pct": 26.611970152149738,
+      "current_close": 1811.4000244140625,
       "recovered_halfway": true,
-      "rank_score": 40.64352901218415
+      "rank_score": 41.78984643165061
     },
     {
       "ticker": "HCLTECH.NS",
@@ -156,29 +156,6 @@
       "rank_score": 18.653181701710892
     },
     {
-      "ticker": "JSWSTEEL.NS",
-      "tf": "1wk",
-      "bars_available": 120,
-      "pattern_detected": true,
-      "bars_used": 12,
-      "pivot_strength": 1,
-      "first_bottom_bar": 5,
-      "middle_peak_bar": 6,
-      "second_bottom_bar": 9,
-      "first_bottom_date": "2026-09-14",
-      "middle_peak_date": "2026-09-21",
-      "second_bottom_date": "2026-10-12",
-      "first_bottom": 1227.0,
-      "middle_peak": 1304.0,
-      "second_bottom": 1158.0,
-      "bottom_similarity_pct": 5.958549222797927,
-      "bounce_from_bottom_pct": 6.275468622656886,
-      "rise_after_second_bottom_pct": 8.808290155440414,
-      "current_close": 1260.0,
-      "recovered_halfway": false,
-      "rank_score": 17.12520955529937
-    },
-    {
       "ticker": "APOLLOHOSP.NS",
       "tf": "1wk",
       "bars_available": 120,
@@ -200,6 +177,29 @@
       "current_close": 7791.5,
       "recovered_halfway": false,
       "rank_score": 16.938710366858242
+    },
+    {
+      "ticker": "JSWSTEEL.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 5,
+      "middle_peak_bar": 6,
+      "second_bottom_bar": 9,
+      "first_bottom_date": "2026-09-14",
+      "middle_peak_date": "2026-09-21",
+      "second_bottom_date": "2026-10-12",
+      "first_bottom": 1227.0,
+      "middle_peak": 1304.0,
+      "second_bottom": 1158.0,
+      "bottom_similarity_pct": 5.958549222797927,
+      "bounce_from_bottom_pct": 6.275468622656886,
+      "rise_after_second_bottom_pct": 8.177888702234457,
+      "current_close": 1252.699951171875,
+      "recovered_halfway": false,
+      "rank_score": 16.494808102093415
     }
   ]
 }
