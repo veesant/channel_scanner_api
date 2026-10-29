@@ -10,11 +10,11 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-10-28T23:56:04.204911+00:00"
+    "lastUpdatedTs": "2026-10-29T17:15:35.120288+00:00"
   },
   "counts": {
     "total": 50,
-    "matched": 9
+    "matched": 10
   },
   "data": [
     {
@@ -200,6 +200,29 @@
       "current_close": 1666.699951171875,
       "recovered_halfway": false,
       "rank_score": 17.23757673884986
+    },
+    {
+      "ticker": "INDIGO.NS",
+      "tf": "1wk",
+      "bars_available": 120,
+      "pattern_detected": true,
+      "bars_used": 12,
+      "pivot_strength": 1,
+      "first_bottom_bar": 5,
+      "middle_peak_bar": 8,
+      "second_bottom_bar": 10,
+      "first_bottom_date": "2026-09-14",
+      "middle_peak_date": "2026-10-05",
+      "second_bottom_date": "2026-10-19",
+      "first_bottom": 4701.5,
+      "middle_peak": 5069.5,
+      "second_bottom": 4464.39990234375,
+      "bottom_similarity_pct": 5.310906344473658,
+      "bounce_from_bottom_pct": 7.8272891630330745,
+      "rise_after_second_bottom_pct": 5.05331293323013,
+      "current_close": 4690.0,
+      "recovered_halfway": false,
+      "rank_score": 15.569695751789547
     },
     {
       "ticker": "JSWSTEEL.NS",
