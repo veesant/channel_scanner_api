@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T17:08:30.076758+00:00",
+  "updated_utc": "2026-10-29T17:52:01.933450+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -136,7 +136,7 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -31.345388026317966,
+      "prior_trend_pct": -31.345388026317956,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -64.01608842577609,
       "recent_trend_type": "Descending",
@@ -184,7 +184,7 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -16.541579244492887,
+      "prior_trend_pct": -16.541579244492876,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -49.451969743008775,
       "recent_trend_type": "Descending",
@@ -258,22 +258,22 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -0.3062643935098919,
       "prior_trend_type": "Sideways",
-      "recent_trend_pct": -56.543381156157146,
+      "recent_trend_pct": -56.543381156156336,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.8185720522469941
     },
     {
       "ticker": "BEL.NS",
-      "slope": -0.004296114745535385,
-      "r2": 0.6962773003724705,
+      "slope": -0.004296114984933013,
+      "r2": 0.6962773335389103,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.2790627403800312,
+      "pos": 0.27906275673170944,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -20.020350647421058,
+      "annual_trend_pct": -20.02035164306184,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -285,7 +285,7 @@
       "recent_trend_pct": -49.14463371389844,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.7997195556354116
+      "rank_score": 0.7997195705834637
     },
     {
       "ticker": "MARUTI.NS",
