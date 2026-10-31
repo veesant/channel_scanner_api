@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T23:29:23.316376+00:00",
+  "updated_utc": "2026-10-31T15:58:07.312229+00:00",
   "tf": "1d",
   "params": {
     "n_down": 40,
@@ -15,28 +15,49 @@
     "near_resistance_pct": 6.0,
     "breakout_wiggle_pct": 0.2
   },
-  "count": 1,
+  "count": 2,
   "data": [
     {
-      "ticker": "INFY.NS",
+      "ticker": "LT.NS",
       "tf": "1d",
       "bars_used": 350,
-      "close": 1146.5,
-      "sma20": 1086.0824951171876,
-      "sma50": 1083.8750024414062,
+      "close": 3871.699951171875,
+      "sma20": 3694.2650146484375,
+      "sma50": 3844.196005859375,
       "trend_ok": true,
       "prior_downtrend_ok": true,
-      "down_slope": -3.6463090792829504,
+      "down_slope": -12.15453183172344,
       "fresh_uptrend_ok": true,
-      "up_slope": 1.321823212594697,
+      "up_slope": 26.470911754261362,
       "up_hh_steps": 1,
       "up_hl_steps": 1,
       "up_pivot_highs": 2,
       "up_pivot_lows": 2,
-      "resistance": 1197.800048828125,
-      "pullback_from_resistance_pct": 4.282855797035133,
+      "resistance": 3894.0,
+      "pullback_from_resistance_pct": 0.5726771655912943,
       "state": "correction",
-      "rank_score": 2.2063782658168676
+      "rank_score": 3.054553805734784
+    },
+    {
+      "ticker": "CIPLA.NS",
+      "tf": "1d",
+      "bars_used": 350,
+      "close": 1378.9000244140625,
+      "sma20": 1333.8899963378906,
+      "sma50": 1370.4579956054688,
+      "trend_ok": true,
+      "prior_downtrend_ok": true,
+      "down_slope": -2.935769120837242,
+      "fresh_uptrend_ok": true,
+      "up_slope": 6.386669182054924,
+      "up_hh_steps": 1,
+      "up_hl_steps": 1,
+      "up_pivot_highs": 2,
+      "up_pivot_lows": 2,
+      "resistance": 1372.699951171875,
+      "pullback_from_resistance_pct": -0.45166995430388795,
+      "state": "uptrend",
+      "rank_score": 2.6252783257173142
     }
   ]
 }
