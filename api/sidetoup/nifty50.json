@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-03T18:53:58.712628+00:00",
+  "updated_utc": "2026-11-03T20:30:21.886394+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -169,15 +169,15 @@
     },
     {
       "ticker": "ITC.NS",
-      "slope": -0.0069530892327577375,
-      "r2": 0.7958395171124687,
+      "slope": -0.006953089094784626,
+      "r2": 0.7958395604510119,
       "inside": 0.9807692307692307,
       "near_upper": 0.1346153846153846,
       "near_lower": 0.038461538461538464,
-      "pos": 0.789511929395752,
+      "pos": 0.7895119629941113,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -30.34116463950769,
+      "annual_trend_pct": -30.34116413973329,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -189,7 +189,7 @@
       "recent_trend_pct": 29.705514417288303,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8112762579243514
+      "rank_score": 0.8112762762337871
     },
     {
       "ticker": "JIOFIN.NS",
@@ -313,27 +313,27 @@
     },
     {
       "ticker": "TECHM.NS",
-      "slope": 0.009684584208193356,
-      "r2": 0.6914787359935928,
+      "slope": 0.009684583586392348,
+      "r2": 0.6914787008282708,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.6560577822133133,
+      "pos": 0.6560578017682764,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 65.46646813190418,
+      "annual_trend_pct": 65.466462781769,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 60.29086570340281,
+      "prior_trend_pct": 60.29085757037873,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 636.4501541190722,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7647489743908497
+      "rank_score": 0.7647489548526925
     }
   ]
 }
