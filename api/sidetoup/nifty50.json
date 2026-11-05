@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-04T20:45:45.601623+00:00",
+  "updated_utc": "2026-11-05T00:42:33.184021+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -42,22 +42,22 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 172.06659323891228,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 180.23706414960455,
+      "recent_trend_pct": 180.23706414960284,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.8871817421212211
     },
     {
       "ticker": "TMPV.NS",
-      "slope": -0.014517188722267729,
-      "r2": 0.8951826492330767,
+      "slope": -0.014517188722267826,
+      "r2": 0.8951826492330762,
       "inside": 0.9615384615384616,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.6722392172537505,
+      "pos": 0.6722392172537563,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -52.99394738646345,
+      "annual_trend_pct": -52.99394738646368,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -69,7 +69,7 @@
       "recent_trend_pct": -34.89614490909461,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8649827875065479
+      "rank_score": 0.8649827875065471
     },
     {
       "ticker": "HDFCLIFE.NS",
@@ -90,7 +90,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -27.87760643715762,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -37.15383130405411,
+      "recent_trend_pct": -37.15383130405646,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.8602396916180025
@@ -112,7 +112,7 @@
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -25.714264838635238,
+      "prior_trend_pct": -25.71426483863515,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 49.360037930412794,
       "recent_trend_type": "Ascending",
@@ -138,22 +138,22 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -11.651148095154761,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": -22.347095998843713,
+      "recent_trend_pct": -22.3470959988469,
       "recent_trend_type": "Descending",
       "previously_descending": true,
       "rank_score": 0.8247944454592974
     },
     {
       "ticker": "TATASTEEL.NS",
-      "slope": -0.007035148542565139,
-      "r2": 0.825522800798182,
+      "slope": -0.007035148542565078,
+      "r2": 0.8255228007981802,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.038461538461538464,
       "pos": 0.7978793405033827,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -30.637771475784035,
+      "annual_trend_pct": -30.637771475783815,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -165,7 +165,7 @@
       "recent_trend_pct": -25.366538796177217,
       "recent_trend_type": "Descending",
       "previously_descending": true,
-      "rank_score": 0.8175888509641374
+      "rank_score": 0.8175888509641365
     },
     {
       "ticker": "HDFCBANK.NS",
@@ -241,27 +241,27 @@
     },
     {
       "ticker": "BEL.NS",
-      "slope": -0.004481208878333411,
-      "r2": 0.7269670880833843,
+      "slope": -0.004481208624853541,
+      "r2": 0.7269670525861778,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.538824058406505,
+      "pos": 0.5388240329203656,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -20.786453622490654,
+      "annual_trend_pct": -20.786452578380597,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -11.311500245772542,
+      "prior_trend_pct": -11.311500245772056,
       "prior_trend_type": "Descending",
       "recent_trend_pct": -9.243893172955865,
       "recent_trend_type": "Sideways",
       "previously_descending": true,
-      "rank_score": 0.7890883176882211
+      "rank_score": 0.7890883024882318
     },
     {
       "ticker": "MARUTI.NS",
@@ -282,34 +282,34 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -11.366065118185153,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": 30.442352665444083,
+      "recent_trend_pct": 30.442352665445704,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
       "rank_score": 0.7647327770690208
     },
     {
       "ticker": "TECHM.NS",
-      "slope": 0.009695099807780027,
-      "r2": 0.6916724554751382,
+      "slope": 0.009695100429580989,
+      "r2": 0.6916724906266826,
       "inside": 0.9615384615384616,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.6612695783513627,
+      "pos": 0.6612695589161034,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 65.5569717882972,
+      "annual_trend_pct": 65.55697714135846,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 60.29085757037873,
+      "prior_trend_pct": 60.29086570340281,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 643.2122371950138,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.7643246545178175
+      "rank_score": 0.7643246740371156
     }
   ]
 }
