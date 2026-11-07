@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-07T17:21:14.588028+00:00",
+  "updated_utc": "2026-11-07T18:19:12.408668+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -114,34 +114,34 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -11.651148095154761,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": 19.723746215759785,
+      "recent_trend_pct": 19.72374621576214,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
       "rank_score": 0.7796173086135945
     },
     {
       "ticker": "NTPC.NS",
-      "slope": -0.005869568858462549,
-      "r2": 0.7455123190393889,
+      "slope": -0.005869569163395116,
+      "r2": 0.7455122338364899,
       "inside": 0.9487179487179487,
       "near_upper": 0.10256410256410256,
       "near_lower": 0.05128205128205128,
-      "pos": 0.7390478746892397,
+      "pos": 0.7390478499311337,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -26.303699193703324,
+      "annual_trend_pct": -26.303700362268224,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -35.46952423533634,
+      "prior_trend_pct": -35.46952271347645,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 27.400509174115296,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.77833855153795
+      "rank_score": 0.778338511412311
     },
     {
       "ticker": "JIOFIN.NS",
@@ -169,27 +169,27 @@
     },
     {
       "ticker": "BEL.NS",
-      "slope": -0.004323593935616423,
-      "r2": 0.7021651721724045,
+      "slope": -0.004323594189096345,
+      "r2": 0.702165208437789,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.82546272024125,
+      "pos": 0.8254627529920425,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -20.134553386154565,
+      "annual_trend_pct": -20.13455443885749,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -11.311500245772056,
+      "prior_trend_pct": -11.311500245772542,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 23.050799947324418,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7480234935492567
+      "rank_score": 0.7480235084068697
     }
   ]
 }
