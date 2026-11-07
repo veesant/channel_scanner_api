@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-07T18:19:12.408668+00:00",
+  "updated_utc": "2026-11-07T23:32:10.109532+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -73,27 +73,27 @@
     },
     {
       "ticker": "POWERGRID.NS",
-      "slope": -0.006306947119620315,
-      "r2": 0.8114261591307482,
+      "slope": -0.006306947474223546,
+      "r2": 0.8114261762504982,
       "inside": 1.0,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.038461538461538464,
-      "pos": 0.9134340972188082,
+      "pos": 0.9134340062270976,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -27.96090658455137,
+      "annual_trend_pct": -27.96090791290672,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -25.71426626020684,
+      "prior_trend_pct": -25.714263434365915,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 64.38339893486882,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8143696698434933
+      "rank_score": 0.8143696875025394
     },
     {
       "ticker": "SBILIFE.NS",
@@ -114,7 +114,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -11.651148095154761,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": 19.72374621576214,
+      "recent_trend_pct": 19.723746215759785,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
       "rank_score": 0.7796173086135945
@@ -184,7 +184,7 @@
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -11.311500245772542,
+      "prior_trend_pct": -11.311500245772056,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 23.050799947324418,
       "recent_trend_type": "Ascending",
