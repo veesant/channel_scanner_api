@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-08T18:37:11.421335+00:00",
+  "updated_utc": "2026-11-08T23:34:04.278381+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "ETERNAL.NS",
-      "slope": 0.014596033619404371,
-      "r2": 0.8599650752138533,
+      "slope": 0.014596033619404442,
+      "r2": 0.8599650752138542,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.5328992413999599,
+      "pos": 0.532899241399955,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 113.61256584052887,
+      "annual_trend_pct": 113.61256584052968,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -45,7 +45,7 @@
       "recent_trend_pct": 345.57153817421045,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8766926134669307
+      "rank_score": 0.8766926134669317
     },
     {
       "ticker": "NTPC.NS",
@@ -73,27 +73,27 @@
     },
     {
       "ticker": "POWERGRID.NS",
-      "slope": -0.0056240773988874716,
-      "r2": 0.7600919377552673,
+      "slope": -0.005624077982569453,
+      "r2": 0.7600919683363561,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.9231984486193371,
+      "pos": 0.9231983823608827,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -25.356894560080377,
+      "annual_trend_pct": -25.356896825607787,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -25.747357503666958,
+      "prior_trend_pct": -25.747356624328276,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 113.75085286168813,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7877261240157
+      "rank_score": 0.7877261459320898
     },
     {
       "ticker": "SBILIFE.NS",
@@ -112,9 +112,9 @@
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -11.789843241291232,
+      "prior_trend_pct": -11.78984324129122,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": 99.25615672035207,
+      "recent_trend_pct": 99.25615672034711,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
       "rank_score": 0.7840103303232062
@@ -136,7 +136,7 @@
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 25.27623052692165,
+      "prior_trend_pct": 25.276230526921275,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 187.012484354789,
       "recent_trend_type": "Ascending",
