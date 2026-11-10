@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-10T19:06:35.932470+00:00",
+  "updated_utc": "2026-11-10T20:39:15.304096+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -64,7 +64,7 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -11.78984324129122,
+      "prior_trend_pct": -11.789843241291232,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 86.05874552998141,
       "recent_trend_type": "Ascending",
@@ -73,27 +73,27 @@
     },
     {
       "ticker": "NTPC.NS",
-      "slope": -0.006007322624041492,
-      "r2": 0.771616178570203,
+      "slope": -0.006007322923671814,
+      "r2": 0.771616089542095,
       "inside": 0.9743589743589743,
       "near_upper": 0.10256410256410256,
       "near_lower": 0.07692307692307693,
-      "pos": 0.8909959093905415,
+      "pos": 0.8909958338234638,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -26.829714004106286,
+      "annual_trend_pct": -26.829715144156165,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -33.7306735357698,
+      "prior_trend_pct": -33.7306710262694,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 102.54187317482857,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7864520880896371
+      "rank_score": 0.7864520511322909
     },
     {
       "ticker": "KOTAKBANK.NS",
@@ -112,7 +112,7 @@
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 25.276230526921275,
+      "prior_trend_pct": 25.27623052692165,
       "prior_trend_type": "Ascending",
       "recent_trend_pct": 182.6048178011663,
       "recent_trend_type": "Ascending",
