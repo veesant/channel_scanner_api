@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-09T23:10:18.870886+00:00",
+  "updated_utc": "2026-11-10T02:43:06.440493+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -15,26 +15,26 @@
   "count": 1,
   "data": [
     {
-      "ticker": "TCS.NS",
+      "ticker": "TECHM.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 2498.5,
-      "sma20": 2428.293103027344,
-      "sma50": 2275.697099609375,
+      "close": 1805.0,
+      "sma20": 1745.6607177734375,
+      "sma50": 1623.5971069335938,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 10.614444173693835,
-      "pole_high": 2625.0,
-      "pole_range": 481.3955842962919,
+      "pole_gain_pct": 13.71825680378084,
+      "pole_high": 1845.0,
+      "pole_range": 319.4144671546103,
       "flag_bars": 8,
-      "flag_range": 156.800048828125,
-      "pullback_from_pole_high_pct": 4.81904761904762,
+      "flag_range": 99.5,
+      "pullback_from_pole_high_pct": 2.168021680216802,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
-      "near_breakout": false,
+      "near_breakout": true,
       "pattern": "bull_flag",
-      "rank_score": 1.9878559605541422
+      "rank_score": 2.444059791216067
     }
   ]
 }
