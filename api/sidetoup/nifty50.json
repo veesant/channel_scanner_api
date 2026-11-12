@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-12T18:42:13.421101+00:00",
+  "updated_utc": "2026-11-12T19:30:11.264842+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -49,27 +49,27 @@
     },
     {
       "ticker": "NTPC.NS",
-      "slope": -0.006027851134021225,
-      "r2": 0.7748060177668052,
+      "slope": -0.006027851433651478,
+      "r2": 0.7748059285804272,
       "inside": 0.9743589743589743,
       "near_upper": 0.10256410256410256,
       "near_lower": 0.07692307692307693,
-      "pos": 0.8607671463777581,
+      "pos": 0.8607670791848411,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -26.907780330680552,
+      "annual_trend_pct": -26.907781469513836,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -33.7306735357698,
+      "prior_trend_pct": -33.7306710262694,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 94.66834108300964,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7910698839892165
+      "rank_score": 0.7910698461153193
     },
     {
       "ticker": "SBILIFE.NS",
@@ -97,15 +97,15 @@
     },
     {
       "ticker": "BEL.NS",
-      "slope": -0.004250413681439198,
-      "r2": 0.6865368305546014,
+      "slope": -0.004250413413877057,
+      "r2": 0.6865367912340017,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.8821600059856631,
+      "pos": 0.8821599699366119,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -19.830056560043896,
+      "annual_trend_pct": -19.83005544462092,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -117,7 +117,7 @@
       "recent_trend_pct": 134.1485806751053,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7345395941659139
+      "rank_score": 0.7345395781105191
     }
   ]
 }
