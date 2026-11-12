@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-12T01:47:23.416162+00:00",
+  "updated_utc": "2026-11-12T18:38:05.117552+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,29 +12,6 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 1,
-  "data": [
-    {
-      "ticker": "TECHM.NS",
-      "tf": "1d",
-      "bars_used": 320,
-      "close": 1805.0,
-      "sma20": 1745.6607177734375,
-      "sma50": 1623.5971069335938,
-      "trend_ok": true,
-      "pole_bars": 10,
-      "pole_gain_pct": 13.71825680378084,
-      "pole_high": 1845.0,
-      "pole_range": 319.4144671546103,
-      "flag_bars": 8,
-      "flag_range": 99.5,
-      "pullback_from_pole_high_pct": 2.168021680216802,
-      "pullback_ok": true,
-      "tight_ok": true,
-      "flag_hold_ok": true,
-      "near_breakout": true,
-      "pattern": "bull_flag",
-      "rank_score": 2.444059791216067
-    }
-  ]
+  "count": 0,
+  "data": []
 }
