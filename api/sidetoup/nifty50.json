@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-12T21:18:12.925762+00:00",
+  "updated_utc": "2026-11-13T00:58:47.858294+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -97,15 +97,15 @@
     },
     {
       "ticker": "BEL.NS",
-      "slope": -0.004250413681439198,
-      "r2": 0.6865368305546014,
+      "slope": -0.004250413413877057,
+      "r2": 0.6865367912340017,
       "inside": 0.9487179487179487,
       "near_upper": 0.05128205128205128,
       "near_lower": 0.05128205128205128,
-      "pos": 0.8821600059856631,
+      "pos": 0.8821599699366119,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -19.830056560043896,
+      "annual_trend_pct": -19.83005544462092,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -117,7 +117,7 @@
       "recent_trend_pct": 134.1485806751053,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7345395941659139
+      "rank_score": 0.7345395781105191
     }
   ]
 }
