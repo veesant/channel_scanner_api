@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-14T17:37:27.986119+00:00",
+  "updated_utc": "2026-11-14T18:55:53.571555+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "ETERNAL.NS",
-      "slope": 0.014578424227782227,
-      "r2": 0.8597235323777354,
+      "slope": 0.014578424227782192,
+      "r2": 0.8597235323777351,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
       "pos": 0.5231317508735186,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 113.41705282766613,
+      "annual_trend_pct": 113.41705282766577,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -66,34 +66,34 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -54.22804510047381,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": 32.34310532352662,
+      "recent_trend_pct": 32.343105323528285,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
       "rank_score": 0.8508072388485173
     },
     {
       "ticker": "NTPC.NS",
-      "slope": -0.006121911205120379,
-      "r2": 0.7870490931656275,
+      "slope": -0.006121911504750692,
+      "r2": 0.7870490040395519,
       "inside": 0.9743589743589743,
       "near_upper": 0.10256410256410256,
       "near_lower": 0.07692307692307693,
-      "pos": 0.7163990033470569,
+      "pos": 0.7163989790424545,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -27.26441054615939,
+      "annual_trend_pct": -27.26441167943633,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -33.7306735357698,
+      "prior_trend_pct": -33.7306710262694,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 62.329299791497036,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8116282359916979
+      "rank_score": 0.8116281938591202
     },
     {
       "ticker": "JIOFIN.NS",
@@ -105,7 +105,7 @@
       "pos": 0.748822670561358,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -24.807684211670278,
+      "annual_trend_pct": -24.807684211670267,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -121,15 +121,15 @@
     },
     {
       "ticker": "BEL.NS",
-      "slope": -0.004232621526086547,
-      "r2": 0.68218236744893,
+      "slope": -0.004232621793648651,
+      "r2": 0.6821824068729629,
       "inside": 0.9487179487179487,
       "near_upper": 0.07692307692307693,
       "near_lower": 0.05128205128205128,
-      "pos": 0.9115606277389378,
+      "pos": 0.9115606641861734,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -19.7558496409189,
+      "annual_trend_pct": -19.755850757374162,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -141,7 +141,7 @@
       "recent_trend_pct": 142.33465297731004,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7294223004377507
+      "rank_score": 0.7294223165050436
     }
   ]
 }
