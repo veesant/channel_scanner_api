@@ -10,7 +10,7 @@
     "min_bounce_pct": 6.0,
     "min_rise_after_second_bottom_pct": 3.0,
     "only_matches": true,
-    "lastUpdatedTs": "2026-11-17T02:45:20.103481+00:00"
+    "lastUpdatedTs": "2026-11-17T19:31:12.178804+00:00"
   },
   "counts": {
     "total": 50,
@@ -47,9 +47,9 @@
       "pattern_detected": true,
       "bars_used": 12,
       "pivot_strength": 1,
-      "first_bottom_bar": 2,
-      "middle_peak_bar": 3,
-      "second_bottom_bar": 7,
+      "first_bottom_bar": 1,
+      "middle_peak_bar": 2,
+      "second_bottom_bar": 6,
       "first_bottom_date": "2026-09-07",
       "middle_peak_date": "2026-09-14",
       "second_bottom_date": "2026-10-12",
@@ -58,10 +58,10 @@
       "second_bottom": 1430.6704352181719,
       "bottom_similarity_pct": 3.8474875716764565,
       "bounce_from_bottom_pct": 9.025363851177328,
-      "rise_after_second_bottom_pct": 23.298836445934988,
-      "current_close": 1764.0,
+      "rise_after_second_bottom_pct": 24.165564667111344,
+      "current_close": 1776.4000244140625,
       "recovered_halfway": true,
-      "rank_score": 38.47671272543586
+      "rank_score": 39.34344094661222
     },
     {
       "ticker": "HDFCLIFE.NS",
@@ -231,9 +231,9 @@
       "pattern_detected": true,
       "bars_used": 12,
       "pivot_strength": 1,
-      "first_bottom_bar": 2,
-      "middle_peak_bar": 5,
-      "second_bottom_bar": 6,
+      "first_bottom_bar": 1,
+      "middle_peak_bar": 4,
+      "second_bottom_bar": 5,
       "first_bottom_date": "2026-09-07",
       "middle_peak_date": "2026-09-28",
       "second_bottom_date": "2026-10-05",
@@ -242,10 +242,10 @@
       "second_bottom": 1167.199951171875,
       "bottom_similarity_pct": 3.2920310771570795,
       "bounce_from_bottom_pct": 7.333798940816186,
-      "rise_after_second_bottom_pct": 18.23167047038278,
-      "current_close": 1380.0,
+      "rise_after_second_bottom_pct": 18.051754802649153,
+      "current_close": 1377.9000244140625,
       "recovered_halfway": true,
-      "rank_score": 32.273438334041884
+      "rank_score": 32.09352266630826
     },
     {
       "ticker": "APOLLOHOSP.NS",
