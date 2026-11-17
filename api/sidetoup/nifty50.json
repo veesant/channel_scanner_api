@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-17T20:14:29.891607+00:00",
+  "updated_utc": "2026-11-17T22:05:05.711759+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -25,15 +25,15 @@
   "data": [
     {
       "ticker": "ETERNAL.NS",
-      "slope": 0.014304316726155494,
-      "r2": 0.8590386251726738,
+      "slope": 0.01430431672615559,
+      "r2": 0.8590386251726749,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
       "pos": 0.5644305947939405,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": 110.39667042207006,
+      "annual_trend_pct": 110.39667042207113,
       "trend_type": "Ascending",
       "near_support": false,
       "near_resistance": false,
@@ -45,7 +45,7 @@
       "recent_trend_pct": 429.5304484912612,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
-      "rank_score": 0.8730762531069429
+      "rank_score": 0.8730762531069435
     },
     {
       "ticker": "NTPC.NS",
@@ -64,7 +64,7 @@
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -32.236251457691,
+      "prior_trend_pct": -32.23625145769075,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 83.68335878101792,
       "recent_trend_type": "Ascending",
@@ -73,15 +73,15 @@
     },
     {
       "ticker": "POWERGRID.NS",
-      "slope": -0.005290588879738207,
-      "r2": 0.7206914783428546,
+      "slope": -0.005290588879738135,
+      "r2": 0.7206914783428562,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.07692307692307693,
-      "pos": 0.9404794209770493,
+      "pos": 0.9404794209770483,
       "k": 2.0,
       "lookback": 26.0,
-      "annual_trend_pct": -24.05118973224739,
+      "annual_trend_pct": -24.051189732247103,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
@@ -93,7 +93,7 @@
       "recent_trend_pct": 90.34936911550983,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7662977970737224
+      "rank_score": 0.7662977970737233
     },
     {
       "ticker": "JIOFIN.NS",
