@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-19T01:46:01.125595+00:00",
+  "updated_utc": "2026-11-19T19:19:37.010948+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,6 +12,51 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 0,
-  "data": []
+  "count": 2,
+  "data": [
+    {
+      "ticker": "JSWSTEEL.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 1315.9000244140625,
+      "sma20": 1297.6099975585937,
+      "sma50": 1268.42,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 14.348374153179039,
+      "pole_high": 1370.0,
+      "pole_range": 188.0999755859375,
+      "flag_bars": 8,
+      "flag_range": 56.699951171875,
+      "pullback_from_pole_high_pct": 3.9489033274406933,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.2150267305977036
+    },
+    {
+      "ticker": "ADANIPORTS.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 1902.5999755859375,
+      "sma20": 1851.975,
+      "sma50": 1796.506005859375,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 10.683034570410992,
+      "pole_high": 1948.9000244140625,
+      "pole_range": 261.0,
+      "flag_bars": 8,
+      "flag_range": 103.4000244140625,
+      "pullback_from_pole_high_pct": 2.375701587978846,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.081970072667687
+    }
+  ]
 }
