@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-20T18:56:23.865542+00:00",
+  "updated_utc": "2026-11-20T19:33:40.206358+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -49,39 +49,39 @@
     },
     {
       "ticker": "NTPC.NS",
-      "slope": -0.006172319167744603,
-      "r2": 0.7949986225291447,
+      "slope": -0.006172319167744654,
+      "r2": 0.7949986225291448,
       "inside": 0.9743589743589743,
       "near_upper": 0.10256410256410256,
       "near_lower": 0.05128205128205128,
-      "pos": 0.8757701854002338,
+      "pos": 0.8757701854002461,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -27.45481643931942,
+      "annual_trend_pct": -27.454816439319607,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -32.23625145769075,
+      "prior_trend_pct": -32.236251457691,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 100.22185511525849,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7996658824681387
+      "rank_score": 0.7996658824681375
     },
     {
       "ticker": "JIOFIN.NS",
-      "slope": -0.005211113436241393,
-      "r2": 0.6586648264538448,
+      "slope": -0.005211113436241359,
+      "r2": 0.6586648264538457,
       "inside": 1.0,
       "near_upper": 0.038461538461538464,
       "near_lower": 0.057692307692307696,
-      "pos": 0.7302469238513007,
+      "pos": 0.7302469238512969,
       "k": 2.0,
       "lookback": 52.0,
-      "annual_trend_pct": -23.73666485809237,
+      "annual_trend_pct": -23.736664858092237,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
@@ -90,10 +90,10 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -18.954220711367743,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": 171.74226567828615,
+      "recent_trend_pct": 171.74226567829126,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7563077208417923
+      "rank_score": 0.7563077208417932
     }
   ]
 }
