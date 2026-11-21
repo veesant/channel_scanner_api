@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-21T01:09:02.393605+00:00",
+  "updated_utc": "2026-11-21T17:54:23.330650+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -18,23 +18,23 @@
       "ticker": "ADANIPORTS.NS",
       "tf": "1d",
       "bars_used": 320,
-      "close": 1917.0999755859375,
-      "sma20": 1860.3899963378906,
-      "sma50": 1800.7020043945313,
+      "close": 1917.0,
+      "sma20": 1868.7399963378907,
+      "sma50": 1805.1560034179688,
       "trend_ok": true,
       "pole_bars": 10,
-      "pole_gain_pct": 10.504991474233238,
-      "pole_high": 1948.9000244140625,
-      "pole_range": 260.9000244140625,
+      "pole_gain_pct": 10.72669998129809,
+      "pole_high": 1959.199951171875,
+      "pole_range": 231.5999755859375,
       "flag_bars": 8,
       "flag_range": 103.4000244140625,
-      "pullback_from_pole_high_pct": 1.6316921560758715,
+      "pullback_from_pole_high_pct": 2.1539379452635012,
       "pullback_ok": true,
       "tight_ok": true,
       "flag_hold_ok": true,
       "near_breakout": true,
       "pattern": "bull_flag",
-      "rank_score": 2.3208180453974396
+      "rank_score": 2.074256408545621
     }
   ]
 }
