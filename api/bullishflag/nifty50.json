@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-24T04:41:29.727065+00:00",
+  "updated_utc": "2026-11-24T20:59:24.479293+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,7 +12,7 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 3,
+  "count": 4,
   "data": [
     {
       "ticker": "ICICIBANK.NS",
@@ -35,6 +35,28 @@
       "near_breakout": true,
       "pattern": "bull_flag",
       "rank_score": 2.5585010382062787
+    },
+    {
+      "ticker": "INDIGO.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 5523.0,
+      "sma20": 5250.549975585937,
+      "sma50": 5011.191982421875,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 20.788912579957355,
+      "pole_high": 5713.0,
+      "pole_range": 1131.7001953125,
+      "flag_bars": 8,
+      "flag_range": 303.0,
+      "pullback_from_pole_high_pct": 3.325748293366007,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": false,
+      "pattern": "bull_flag",
+      "rank_score": 2.5537687436198127
     },
     {
       "ticker": "LT.NS",
