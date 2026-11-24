@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-24T21:49:00.527837+00:00",
+  "updated_utc": "2026-11-24T23:15:45.013284+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -40,36 +40,36 @@
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": 118.1386970162102,
+      "prior_trend_pct": 118.13869701620958,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": 244.60737082044415,
+      "recent_trend_pct": 244.6073708204506,
       "recent_trend_type": "Ascending",
       "previously_descending": false,
       "rank_score": 0.8854464786566734
     },
     {
       "ticker": "NTPC.NS",
-      "slope": -0.0062571248271373996,
-      "r2": 0.8055638600157888,
+      "slope": -0.006257124538111221,
+      "r2": 0.8055639508838421,
       "inside": 0.9487179487179487,
       "near_upper": 0.10256410256410256,
       "near_lower": 0.05128205128205128,
-      "pos": 0.715131213065328,
+      "pos": 0.7151312414462481,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -27.774028666553285,
+      "annual_trend_pct": -27.774027581043057,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": false,
       "action_zone": "Mid Channel",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -29.301658643136143,
+      "prior_trend_pct": -29.301668012457473,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 80.24189445832977,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.8107559881885411
+      "rank_score": 0.8107560307844758
     },
     {
       "ticker": "TECHM.NS",
@@ -90,7 +90,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": 48.522940700607855,
       "prior_trend_type": "Ascending",
-      "recent_trend_pct": -19.736385009158376,
+      "recent_trend_pct": -19.736385009156376,
       "recent_trend_type": "Descending",
       "previously_descending": false,
       "rank_score": 0.7855628732691228
@@ -114,7 +114,7 @@
       "recent_trend_weeks": 6,
       "prior_trend_pct": -30.209775104518176,
       "prior_trend_type": "Descending",
-      "recent_trend_pct": 100.64017981765386,
+      "recent_trend_pct": 100.6401798176626,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
       "rank_score": 0.7849729485699246
