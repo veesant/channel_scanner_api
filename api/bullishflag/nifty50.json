@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-27T02:48:05.425973+00:00",
+  "updated_utc": "2026-11-27T19:51:30.418176+00:00",
   "tf": "1d",
   "params": {
     "pole_bars": 10,
@@ -12,7 +12,7 @@
     "sma_fast": 20,
     "sma_slow": 50
   },
-  "count": 4,
+  "count": 5,
   "data": [
     {
       "ticker": "BAJFINANCE.NS",
@@ -35,6 +35,28 @@
       "near_breakout": true,
       "pattern": "bull_flag",
       "rank_score": 2.723192323228996
+    },
+    {
+      "ticker": "INDIGO.NS",
+      "tf": "1d",
+      "bars_used": 320,
+      "close": 5625.0,
+      "sma20": 5357.574975585938,
+      "sma50": 5039.691982421875,
+      "trend_ok": true,
+      "pole_bars": 10,
+      "pole_gain_pct": 14.5501823196262,
+      "pole_high": 5713.0,
+      "pole_range": 1077.60009765625,
+      "flag_bars": 8,
+      "flag_range": 356.0,
+      "pullback_from_pole_high_pct": 1.5403465779800456,
+      "pullback_ok": true,
+      "tight_ok": true,
+      "flag_hold_ok": true,
+      "near_breakout": true,
+      "pattern": "bull_flag",
+      "rank_score": 2.6634540209798017
     },
     {
       "ticker": "HDFCLIFE.NS",
