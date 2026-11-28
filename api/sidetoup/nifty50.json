@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-27T22:19:19.995039+00:00",
+  "updated_utc": "2026-11-28T02:27:46.465019+00:00",
   "params": {
     "years": 3,
     "lookbacks": [
@@ -73,27 +73,27 @@
     },
     {
       "ticker": "NTPC.NS",
-      "slope": -0.006199041322280333,
-      "r2": 0.7988545570463114,
+      "slope": -0.006199041033254232,
+      "r2": 0.7988546482293919,
       "inside": 0.9487179487179487,
       "near_upper": 0.10256410256410256,
       "near_lower": 0.05128205128205128,
-      "pos": 0.8085459296975226,
+      "pos": 0.8085459881840606,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -27.555551742146513,
+      "annual_trend_pct": -27.555550653353013,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -29.301658643136143,
+      "prior_trend_pct": -29.301668012457473,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 101.64000371381601,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7980598650405828
+      "rank_score": 0.7980599047834693
     },
     {
       "ticker": "KOTAKBANK.NS",
@@ -121,27 +121,27 @@
     },
     {
       "ticker": "POWERGRID.NS",
-      "slope": -0.005017682839042059,
-      "r2": 0.737559940169872,
+      "slope": -0.005017683263745451,
+      "r2": 0.737559958582906,
       "inside": 1.0,
       "near_upper": 0.15384615384615385,
       "near_lower": 0.05128205128205128,
-      "pos": 0.9167514473242548,
+      "pos": 0.9167515346305183,
       "k": 2.0,
       "lookback": 39.0,
-      "annual_trend_pct": -22.9657076152879,
+      "annual_trend_pct": -22.965709316557604,
       "trend_type": "Descending",
       "near_support": false,
       "near_resistance": true,
       "action_zone": "Near Resistance",
       "prior_trend_weeks": 20,
       "recent_trend_weeks": 6,
-      "prior_trend_pct": -30.20978405161412,
+      "prior_trend_pct": -30.209775104518176,
       "prior_trend_type": "Descending",
       "recent_trend_pct": 112.76372964626815,
       "recent_trend_type": "Ascending",
       "previously_descending": true,
-      "rank_score": 0.7771048253525106
+      "rank_score": 0.7771048258284012
     }
   ]
 }
